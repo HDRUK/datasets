@@ -78,28 +78,35 @@ def get_data_classes(data_model_id):
   data['dataClasses'] = data_classes
   return data
 
-def process_data_models(data_models):
+def process_data_models(data_models_list):
   print("Processing Data Models...")
-  count = data_models['count']
   headers = []
-  data = []
-  for d in data_models['items']:
+  data = {}
+  data['count'] = data_models_list['count']
+  data_models = []
+  for d in data_models_list['items']:
     print("Processing Data Model: ", d['id'])
-    URL = DATA_MODEL_ID.format(MODEL_ID=d['id'])
+    URL = DATA_MODELS + "/{ID}".format(ID=d['id'])
     row = request_url(URL)
+    # Collect HDR UK Profile information
+    URL = DATA_MODEL_ID.format(MODEL_ID=d['id'])
+    dm = request_url(URL)
+    row.update(dm)
+
     # Collecting Data Classes
     data_classes = get_data_classes(d['id'])
     row.update(data_classes)
 
     headers.extend(list(row.keys()))
-    data.append(row)
-  print("Retrieved ", count, " records.")
+    data_models.append(row)
+  data['dataModels'] = data_models
+  print("Retrieved ", data['count'], " records.")
   return data, list(set(headers))
 
 def main():
-  data_models = request_url(DATA_MODELS)
-  data, headers = process_data_models(data_models)
-  export_csv(data, 'datasets.csv', headers)
+  data_models_list = request_url(DATA_MODELS)
+  data, headers = process_data_models(data_models_list)
+  export_csv(data['dataModels'], 'datasets.csv', headers)
   export_json(data, 'datasets.json')
 
 if __name__ == "__main__":
