@@ -1,4 +1,4 @@
-![Build](https://github.com/HDRUK/datasets/workflows/collect-datasets/badge.svg)
+[![Build](https://github.com/HDRUK/datasets/workflows/collect-datasets/badge.svg)](https://github.com/HDRUK/datasets/actions?query=workflow%3Acollect-datasets)
 
 # HDR UK Gateway Datasets (Daily Extract)
 
