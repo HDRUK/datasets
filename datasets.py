@@ -9,7 +9,6 @@ import csv
 import json
 import urllib
 import requests
-from pprint import pprint
 
 API_BASE_URL="https://metadata-catalogue.org/hdruk/api"
 DATA_MODELS = API_BASE_URL + "/dataModels"
@@ -37,6 +36,7 @@ def export_json(data, filename):
     json.dump(data, jsonfile, indent=2)
 
 def get_data_elements(data_model_id, data_class_id):
+  print("Processing Data Elemenets...")
   data = {}
   URL = DATA_MODEL_CLASSES_ELEMENTS.format(MODEL_ID=data_model_id, CLASS_ID=data_class_id)
   de_row = request_url(URL)
@@ -45,8 +45,10 @@ def get_data_elements(data_model_id, data_class_id):
   data_elements = []
   if data_element_count > 0:
     for d in de_row['items']:
+      print("Processing Data Element: ", d['id'], " : ", d['label'])
       del d['breadcrumbs']
       del d['dataModel']
+      del d['dataClass']
       del d['dataType']['dataModel']
       del d['dataType']['breadcrumbs']
       data_elements.append(d)
@@ -68,8 +70,10 @@ def get_data_classes(data_model_id):
       dc_row = request_url(URL)
       del dc_row['breadcrumbs']
       del dc_row['dataModel']
+      del dc_row['editable']
+      # Collecting DataElements
       data_elements = get_data_elements(data_model_id, d['id'])
-      dm_row['dataElements'] = data_elements
+      dc_row['dataElements'] = data_elements
       data_classes.append(dc_row)
   data['dataClasses'] = data_classes
   return data
