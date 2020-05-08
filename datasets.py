@@ -31,18 +31,16 @@ def export_csv(data, filename, header=None):
     writer.writeheader()
     writer.writerows(data)
 
-def export_json(data, filename):
+def export_json(data, filename, indent=2):
   with open(filename, 'w') as jsonfile:
-    json.dump(data, jsonfile, indent=2)
+    json.dump(data, jsonfile, indent=indent)
 
 def get_data_elements(data_model_id, data_class_id):
   print("Processing Data Elemenets...")
-  data = {}
+  data = []
   URL = DATA_MODEL_CLASSES_ELEMENTS.format(MODEL_ID=data_model_id, CLASS_ID=data_class_id)
   de_row = request_url(URL)
   data_element_count = int(de_row.get('count', 0))
-  data['dataElementCount'] = data_element_count
-  data_elements = []
   if data_element_count > 0:
     for d in de_row['items']:
       print("Processing Data Element: ", d['id'], " : ", d['label'])
@@ -51,8 +49,7 @@ def get_data_elements(data_model_id, data_class_id):
       del d['dataClass']
       del d['dataType']['dataModel']
       del d['dataType']['breadcrumbs']
-      data_elements.append(d)
-  data['dataElements'] = data_elements
+      data.append(d)
   return data
 
 def get_data_classes(data_model_id):
@@ -73,6 +70,7 @@ def get_data_classes(data_model_id):
       del dc_row['editable']
       # Collecting DataElements
       data_elements = get_data_elements(data_model_id, d['id'])
+      dc_row['dataElementsCount'] = len(data_elements)
       dc_row['dataElements'] = data_elements
       data_classes.append(dc_row)
   data['dataClasses'] = data_classes
@@ -103,11 +101,50 @@ def process_data_models(data_models_list):
   print("Retrieved ", data['count'], " records.")
   return data, list(set(headers))
 
+def format_csv_tables(data):
+  tables = {
+    'dataModels': {'data': [], 'headers': []},
+    'dataClasses': {'data': [], 'headers': []},
+    'dataElements': {'data': [], 'headers': []},
+  }
+  for dm in data['dataModels']:
+    for dc in dm['dataClasses']:
+      for de in dc['dataElements']:
+        de['dataTypeLabel'] = de['dataType']['label']
+        de['dataType'] = de['dataType']['domainType']
+        de['dataModel'] = dm['id']
+        de['dataClass'] = dc['id']
+        # Append dataElement to tables
+        tables['dataElements']['data'].append(de)
+        tables['dataElements']['headers'].extend(de.keys())
+      # Add dataElement IDs to dataClass
+      data_elements = [de['id'] for de in dc['dataElements']]
+      dc['dataElements'] = ", ".join(data_elements)
+      # Append dataClass to tables
+      tables['dataClasses']['data'].append(dc)
+      tables['dataClasses']['headers'].extend(dc.keys())
+    # Add dataClasses to dataModel
+    data_classes = [dc['id'] for dc in dm['dataClasses']]
+    data['dataClasses'] = ", ".join(data_classes)
+    tables['dataModels']['data'].append(dm)
+    tables['dataModels']['headers'].extend(dm.keys())
+  tables['dataModels']['headers'] = list(set(tables['dataModels']['headers']))
+  tables['dataClasses']['headers'] = list(set(tables['dataClasses']['headers']))
+  tables['dataElements']['headers'] = list(set(tables['dataElements']['headers']))
+  print("Count: DM ", data['count'], len(data['dataModels']), len(tables['dataModels']['data']))
+  print("Count: DC ", len(tables['dataClasses']['data']))
+  print("Count: DE ", len(tables['dataElements']['data']))
+  return tables
+
 def main():
   data_models_list = request_url(DATA_MODELS)
   data, headers = process_data_models(data_models_list)
-  export_csv(data['dataModels'], 'datasets.csv', headers)
   export_json(data, 'datasets.json')
+  tables = format_csv_tables(data)
+  export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
+  export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
+  export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
+  
 
 if __name__ == "__main__":
     main()
