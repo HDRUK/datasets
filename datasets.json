@@ -1,5 +1,5 @@
 {
-  "count": 442,
+  "count": 443,
   "dataModels": [
     {
       "id": "004d1932-f06e-49d2-b87a-e5e4140ffbb3",
@@ -51787,14 +51787,14 @@
       "lastUpdated": "2020-01-14T12:10:30.442Z",
       "classifiers": [
         {
-          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
-          "label": "Critical Care",
-          "lastUpdated": "2019-10-24T09:45:59.854Z"
-        },
-        {
           "id": "ef85dd01-09a1-43af-81ef-82e402328572",
           "label": "NIHR HIC Data Models",
           "lastUpdated": "2019-12-17T12:17:55.21Z"
+        },
+        {
+          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
+          "label": "Critical Care",
+          "lastUpdated": "2019-10-24T09:45:59.854Z"
         }
       ],
       "type": "Data Asset",
@@ -64541,6 +64541,754 @@
                 "id": "13936caf-f065-46c0-bee5-3efb4bc38ea9",
                 "domainType": "PrimitiveType",
                 "label": "String"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+      "domainType": "DataModel",
+      "label": "COG-UK Viral Genome Sequences v2",
+      "documentationVersion": "1.0.0",
+      "description": "The current COVID-19 pandemic, caused by the SARS-CoV-2 virus, represents a major threat to health in the UK and globally. To fully understand the transmission and evolution of the virus requires sequencing and analysing viral genomes at scale and speed. The numbers of samples calls for a rapid increase in the UK\u2019s pathogen genome sequencing capacity rapidly and robustly.\n\nTo provide this increased capacity to collect, sequence and analyse the whole genomes of virus samples in the UK, the COVID-19 Genomics UK (COG-UK) consortium is pooling the world leading knowledge and expertise in genomics of the four UK Public Health Agencies, multiple regional University hubs, and large sequencing centres such as the Wellcome Sanger Institute.",
+      "semanticLinks": [
+        {
+          "id": "be8701c0-ae6d-4808-806d-79c2ce5bb87d",
+          "linkType": "New Version Of",
+          "domainType": "CatalogueSemanticLink",
+          "source": {
+            "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+            "domainType": "DataModel",
+            "label": "COG-UK Viral Genome Sequences v2",
+            "documentationVersion": "1.0.0"
+          },
+          "target": {
+            "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+            "domainType": "DataModel",
+            "label": "COG-UK Viral Genome Sequences",
+            "documentationVersion": "1.0.0"
+          }
+        }
+      ],
+      "editable": false,
+      "lastUpdated": "2020-05-11T10:43:20.405Z",
+      "type": "Data Asset",
+      "finalised": false,
+      "accessRequestCost": "Free",
+      "keywords": "COG-UK, COVID-19, SARS-CoV-2, genomics, viral sequence, FASTA",
+      "contactPoint": "https://www.cogconsortium.uk/contact/",
+      "accessRequestDuration": "Immediate",
+      "jurisdiction": "GB",
+      "datasetEndDate": "2020-09-30",
+      "datasetStartDate": "2020-01-28",
+      "language": "en",
+      "title": "COG-UK Viral Genome Sequences v2",
+      "linkedDataset": "No",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "None",
+      "controlledVocabulary": "See ConformsTo",
+      "dataController": "Public Health Authorities (ENG, NI, WAL, SCOT)",
+      "statisticalPopulation": "10567",
+      "group": "Not Applicable",
+      "identifier": "COG-UK-VIRAL-GENOMES",
+      "creator": "COG-UK Consortium",
+      "releaseDate": "2020-04-27T00:00:00Z",
+      "format": "FASTA",
+      "abstract": "COG-UK Consortium has published dataset contains over 10K SARS-CoV-2 viral genome sequences available as open access.",
+      "dataProcessor": "CLIMB",
+      "derivedDatasets": "No",
+      "license": "https://www.cogconsortium.uk/data/",
+      "populationType": "Patients having COVID-19 genome sequence completed in UK",
+      "fileSize": "301MB",
+      "periodicity": "daily",
+      "publisher": "COG-UK",
+      "ageBand": "All Ages",
+      "accessRights": "https://www.cogconsortium.uk/data/",
+      "conformsTo": "https://www.cogconsortium.uk/protocols/",
+      "geographicCoverage": "GB",
+      "doi": "N/A",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
+          "domainType": "DataClass",
+          "label": "cog_2020-04-24_metadata",
+          "description": "COG-UK Serquence Metadata",
+          "semanticLinks": [
+            {
+              "id": "61abb722-e08a-476b-bb8b-d55f7fcb6385",
+              "linkType": "Refines",
+              "domainType": "CatalogueSemanticLink",
+              "source": {
+                "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
+                "domainType": "DataClass",
+                "label": "cog_2020-04-24_metadata",
+                "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                "breadcrumbs": [
+                  {
+                    "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                    "label": "COG-UK Viral Genome Sequences v2",
+                    "domainType": "DataModel",
+                    "finalised": false
+                  }
+                ]
+              },
+              "target": {
+                "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
+                "domainType": "DataClass",
+                "label": "cog_2020-04-24_metadata",
+                "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                "breadcrumbs": [
+                  {
+                    "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                    "label": "COG-UK Viral Genome Sequences",
+                    "domainType": "DataModel",
+                    "finalised": true
+                  }
+                ]
+              }
+            }
+          ],
+          "lastUpdated": "2020-05-11T10:43:20.396Z",
+          "dataElementsCount": 7,
+          "dataElements": [
+            {
+              "id": "f1dac25f-5b91-47d9-8f47-e3581c923c14",
+              "domainType": "DataElement",
+              "label": "sequence_name",
+              "description": "Name of the viral sequence",
+              "semanticLinks": [
+                {
+                  "id": "d7946080-fcfd-4ec5-a4e5-63c962911bd4",
+                  "linkType": "Refines",
+                  "domainType": "CatalogueSemanticLink",
+                  "source": {
+                    "id": "f1dac25f-5b91-47d9-8f47-e3581c923c14",
+                    "domainType": "DataElement",
+                    "label": "sequence_name",
+                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                    "breadcrumbs": [
+                      {
+                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                        "label": "COG-UK Viral Genome Sequences v2",
+                        "domainType": "DataModel",
+                        "finalised": false
+                      },
+                      {
+                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  },
+                  "target": {
+                    "id": "c0cbd6bc-71e6-4540-8fa7-5575958824bd",
+                    "domainType": "DataElement",
+                    "label": "sequence_name",
+                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                    "breadcrumbs": [
+                      {
+                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                        "label": "COG-UK Viral Genome Sequences",
+                        "domainType": "DataModel",
+                        "finalised": true
+                      },
+                      {
+                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "dataType": {
+                "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
+                "domainType": "PrimitiveType",
+                "label": "Text",
+                "semanticLinks": [
+                  {
+                    "id": "1e269041-2666-4717-a002-c76385e9bf8f",
+                    "linkType": "Refines",
+                    "domainType": "CatalogueSemanticLink",
+                    "source": {
+                      "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
+                      "domainType": "PrimitiveType",
+                      "label": "Text",
+                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                      "breadcrumbs": [
+                        {
+                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                          "label": "COG-UK Viral Genome Sequences v2",
+                          "domainType": "DataModel",
+                          "finalised": false
+                        }
+                      ]
+                    },
+                    "target": {
+                      "id": "9d8455dc-519d-43ac-a87c-bcc281fbd2a3",
+                      "domainType": "PrimitiveType",
+                      "label": "Text",
+                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                      "breadcrumbs": [
+                        {
+                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                          "label": "COG-UK Viral Genome Sequences",
+                          "domainType": "DataModel",
+                          "finalised": true
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "b682987e-9741-479c-80b5-5ff962831cc5",
+              "domainType": "DataElement",
+              "label": "lineage_support",
+              "description": "Lineage Support",
+              "semanticLinks": [
+                {
+                  "id": "552344ea-a6e1-4ae1-a239-c946b5f88b48",
+                  "linkType": "Refines",
+                  "domainType": "CatalogueSemanticLink",
+                  "source": {
+                    "id": "b682987e-9741-479c-80b5-5ff962831cc5",
+                    "domainType": "DataElement",
+                    "label": "lineage_support",
+                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                    "breadcrumbs": [
+                      {
+                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                        "label": "COG-UK Viral Genome Sequences v2",
+                        "domainType": "DataModel",
+                        "finalised": false
+                      },
+                      {
+                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  },
+                  "target": {
+                    "id": "15c0f7fe-d8c0-4700-9e1d-7a5c2ab0b14f",
+                    "domainType": "DataElement",
+                    "label": "lineage_support",
+                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                    "breadcrumbs": [
+                      {
+                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                        "label": "COG-UK Viral Genome Sequences",
+                        "domainType": "DataModel",
+                        "finalised": true
+                      },
+                      {
+                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "dataType": {
+                "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
+                "domainType": "PrimitiveType",
+                "label": "Text",
+                "semanticLinks": [
+                  {
+                    "id": "1e269041-2666-4717-a002-c76385e9bf8f",
+                    "linkType": "Refines",
+                    "domainType": "CatalogueSemanticLink",
+                    "source": {
+                      "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
+                      "domainType": "PrimitiveType",
+                      "label": "Text",
+                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                      "breadcrumbs": [
+                        {
+                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                          "label": "COG-UK Viral Genome Sequences v2",
+                          "domainType": "DataModel",
+                          "finalised": false
+                        }
+                      ]
+                    },
+                    "target": {
+                      "id": "9d8455dc-519d-43ac-a87c-bcc281fbd2a3",
+                      "domainType": "PrimitiveType",
+                      "label": "Text",
+                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                      "breadcrumbs": [
+                        {
+                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                          "label": "COG-UK Viral Genome Sequences",
+                          "domainType": "DataModel",
+                          "finalised": true
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "d5406b1a-9ebd-4ff6-84a1-643a1baa0f87",
+              "domainType": "DataElement",
+              "label": "epi_week",
+              "description": "Episode Week",
+              "semanticLinks": [
+                {
+                  "id": "b249d269-4cc0-4f85-82c7-cead0f01b463",
+                  "linkType": "Refines",
+                  "domainType": "CatalogueSemanticLink",
+                  "source": {
+                    "id": "d5406b1a-9ebd-4ff6-84a1-643a1baa0f87",
+                    "domainType": "DataElement",
+                    "label": "epi_week",
+                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                    "breadcrumbs": [
+                      {
+                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                        "label": "COG-UK Viral Genome Sequences v2",
+                        "domainType": "DataModel",
+                        "finalised": false
+                      },
+                      {
+                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  },
+                  "target": {
+                    "id": "d3d26a82-6127-4c49-a983-e8751ba17d96",
+                    "domainType": "DataElement",
+                    "label": "epi_week",
+                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                    "breadcrumbs": [
+                      {
+                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                        "label": "COG-UK Viral Genome Sequences",
+                        "domainType": "DataModel",
+                        "finalised": true
+                      },
+                      {
+                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "dataType": {
+                "id": "d9a60189-0d42-4fc8-91ef-373b086d53b2",
+                "domainType": "PrimitiveType",
+                "label": "Number",
+                "semanticLinks": [
+                  {
+                    "id": "5c8b19f5-3407-47b3-a054-22f4aa78a484",
+                    "linkType": "Refines",
+                    "domainType": "CatalogueSemanticLink",
+                    "source": {
+                      "id": "d9a60189-0d42-4fc8-91ef-373b086d53b2",
+                      "domainType": "PrimitiveType",
+                      "label": "Number",
+                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                      "breadcrumbs": [
+                        {
+                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                          "label": "COG-UK Viral Genome Sequences v2",
+                          "domainType": "DataModel",
+                          "finalised": false
+                        }
+                      ]
+                    },
+                    "target": {
+                      "id": "365054b2-14ed-41ce-8db8-c4afb3cb117c",
+                      "domainType": "PrimitiveType",
+                      "label": "Number",
+                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                      "breadcrumbs": [
+                        {
+                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                          "label": "COG-UK Viral Genome Sequences",
+                          "domainType": "DataModel",
+                          "finalised": true
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "3468cab7-0340-43ed-9547-e2f4737f5d26",
+              "domainType": "DataElement",
+              "label": "sample_date",
+              "description": "Sample Date",
+              "semanticLinks": [
+                {
+                  "id": "849dd43c-26c2-441b-b637-3946cc7ed124",
+                  "linkType": "Refines",
+                  "domainType": "CatalogueSemanticLink",
+                  "source": {
+                    "id": "3468cab7-0340-43ed-9547-e2f4737f5d26",
+                    "domainType": "DataElement",
+                    "label": "sample_date",
+                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                    "breadcrumbs": [
+                      {
+                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                        "label": "COG-UK Viral Genome Sequences v2",
+                        "domainType": "DataModel",
+                        "finalised": false
+                      },
+                      {
+                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  },
+                  "target": {
+                    "id": "ae414622-3e01-4729-b163-3e5f3d157376",
+                    "domainType": "DataElement",
+                    "label": "sample_date",
+                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                    "breadcrumbs": [
+                      {
+                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                        "label": "COG-UK Viral Genome Sequences",
+                        "domainType": "DataModel",
+                        "finalised": true
+                      },
+                      {
+                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "dataType": {
+                "id": "ed0cea69-2fc3-4307-aeb9-9b386cf99b06",
+                "domainType": "PrimitiveType",
+                "label": "Date",
+                "semanticLinks": [
+                  {
+                    "id": "6e7b379c-73fe-4ea4-871e-94c78842e50f",
+                    "linkType": "Refines",
+                    "domainType": "CatalogueSemanticLink",
+                    "source": {
+                      "id": "ed0cea69-2fc3-4307-aeb9-9b386cf99b06",
+                      "domainType": "PrimitiveType",
+                      "label": "Date",
+                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                      "breadcrumbs": [
+                        {
+                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                          "label": "COG-UK Viral Genome Sequences v2",
+                          "domainType": "DataModel",
+                          "finalised": false
+                        }
+                      ]
+                    },
+                    "target": {
+                      "id": "bd70f766-b1c8-4ab8-9cb6-571362cfeb4e",
+                      "domainType": "PrimitiveType",
+                      "label": "Date",
+                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                      "breadcrumbs": [
+                        {
+                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                          "label": "COG-UK Viral Genome Sequences",
+                          "domainType": "DataModel",
+                          "finalised": true
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "277c9415-39f0-42e9-af98-825ba366265e",
+              "domainType": "DataElement",
+              "label": "lineage",
+              "description": "Viral lineage",
+              "semanticLinks": [
+                {
+                  "id": "ffb884b4-39a0-4a9b-9ee1-89575c22e1f9",
+                  "linkType": "Refines",
+                  "domainType": "CatalogueSemanticLink",
+                  "source": {
+                    "id": "277c9415-39f0-42e9-af98-825ba366265e",
+                    "domainType": "DataElement",
+                    "label": "lineage",
+                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                    "breadcrumbs": [
+                      {
+                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                        "label": "COG-UK Viral Genome Sequences v2",
+                        "domainType": "DataModel",
+                        "finalised": false
+                      },
+                      {
+                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  },
+                  "target": {
+                    "id": "163155b9-0685-454a-a6d5-0847fbd98802",
+                    "domainType": "DataElement",
+                    "label": "lineage",
+                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                    "breadcrumbs": [
+                      {
+                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                        "label": "COG-UK Viral Genome Sequences",
+                        "domainType": "DataModel",
+                        "finalised": true
+                      },
+                      {
+                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "dataType": {
+                "id": "6c0fab48-ddec-4a83-9f42-17ca5860efb1",
+                "domainType": "PrimitiveType",
+                "label": "Coding",
+                "semanticLinks": [
+                  {
+                    "id": "dcd9aca3-d906-4f76-a6cb-c5c50d121070",
+                    "linkType": "Refines",
+                    "domainType": "CatalogueSemanticLink",
+                    "source": {
+                      "id": "6c0fab48-ddec-4a83-9f42-17ca5860efb1",
+                      "domainType": "PrimitiveType",
+                      "label": "Coding",
+                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                      "breadcrumbs": [
+                        {
+                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                          "label": "COG-UK Viral Genome Sequences v2",
+                          "domainType": "DataModel",
+                          "finalised": false
+                        }
+                      ]
+                    },
+                    "target": {
+                      "id": "1d74655b-a07c-480d-b406-eda95ed56710",
+                      "domainType": "PrimitiveType",
+                      "label": "Coding",
+                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                      "breadcrumbs": [
+                        {
+                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                          "label": "COG-UK Viral Genome Sequences",
+                          "domainType": "DataModel",
+                          "finalised": true
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "6baa786e-65ed-4a72-97f6-3bd403483ac9",
+              "domainType": "DataElement",
+              "label": "country",
+              "description": "Country collected",
+              "semanticLinks": [
+                {
+                  "id": "d453c469-08e1-45e4-9d19-c8d0290c1d88",
+                  "linkType": "Refines",
+                  "domainType": "CatalogueSemanticLink",
+                  "source": {
+                    "id": "6baa786e-65ed-4a72-97f6-3bd403483ac9",
+                    "domainType": "DataElement",
+                    "label": "country",
+                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                    "breadcrumbs": [
+                      {
+                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                        "label": "COG-UK Viral Genome Sequences v2",
+                        "domainType": "DataModel",
+                        "finalised": false
+                      },
+                      {
+                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  },
+                  "target": {
+                    "id": "47fbf885-eee5-443a-b9bd-5dae16e2a2d0",
+                    "domainType": "DataElement",
+                    "label": "country",
+                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                    "breadcrumbs": [
+                      {
+                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                        "label": "COG-UK Viral Genome Sequences",
+                        "domainType": "DataModel",
+                        "finalised": true
+                      },
+                      {
+                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "dataType": {
+                "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
+                "domainType": "PrimitiveType",
+                "label": "Text",
+                "semanticLinks": [
+                  {
+                    "id": "1e269041-2666-4717-a002-c76385e9bf8f",
+                    "linkType": "Refines",
+                    "domainType": "CatalogueSemanticLink",
+                    "source": {
+                      "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
+                      "domainType": "PrimitiveType",
+                      "label": "Text",
+                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                      "breadcrumbs": [
+                        {
+                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                          "label": "COG-UK Viral Genome Sequences v2",
+                          "domainType": "DataModel",
+                          "finalised": false
+                        }
+                      ]
+                    },
+                    "target": {
+                      "id": "9d8455dc-519d-43ac-a87c-bcc281fbd2a3",
+                      "domainType": "PrimitiveType",
+                      "label": "Text",
+                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                      "breadcrumbs": [
+                        {
+                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                          "label": "COG-UK Viral Genome Sequences",
+                          "domainType": "DataModel",
+                          "finalised": true
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "a7a096bd-e8a8-4a46-a2c4-dddb6ffc8894",
+              "domainType": "DataElement",
+              "label": "adm1",
+              "description": "Nation of first adission",
+              "semanticLinks": [
+                {
+                  "id": "44616306-4c45-415f-b9e7-a09c4c2bc3a7",
+                  "linkType": "Refines",
+                  "domainType": "CatalogueSemanticLink",
+                  "source": {
+                    "id": "a7a096bd-e8a8-4a46-a2c4-dddb6ffc8894",
+                    "domainType": "DataElement",
+                    "label": "adm1",
+                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                    "breadcrumbs": [
+                      {
+                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                        "label": "COG-UK Viral Genome Sequences v2",
+                        "domainType": "DataModel",
+                        "finalised": false
+                      },
+                      {
+                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  },
+                  "target": {
+                    "id": "258e821b-9d25-472d-8ec2-bd47ca1621f9",
+                    "domainType": "DataElement",
+                    "label": "adm1",
+                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                    "breadcrumbs": [
+                      {
+                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                        "label": "COG-UK Viral Genome Sequences",
+                        "domainType": "DataModel",
+                        "finalised": true
+                      },
+                      {
+                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
+                        "label": "cog_2020-04-24_metadata",
+                        "domainType": "DataClass"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "dataType": {
+                "id": "6c0fab48-ddec-4a83-9f42-17ca5860efb1",
+                "domainType": "PrimitiveType",
+                "label": "Coding",
+                "semanticLinks": [
+                  {
+                    "id": "dcd9aca3-d906-4f76-a6cb-c5c50d121070",
+                    "linkType": "Refines",
+                    "domainType": "CatalogueSemanticLink",
+                    "source": {
+                      "id": "6c0fab48-ddec-4a83-9f42-17ca5860efb1",
+                      "domainType": "PrimitiveType",
+                      "label": "Coding",
+                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                      "breadcrumbs": [
+                        {
+                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
+                          "label": "COG-UK Viral Genome Sequences v2",
+                          "domainType": "DataModel",
+                          "finalised": false
+                        }
+                      ]
+                    },
+                    "target": {
+                      "id": "1d74655b-a07c-480d-b406-eda95ed56710",
+                      "domainType": "PrimitiveType",
+                      "label": "Coding",
+                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                      "breadcrumbs": [
+                        {
+                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
+                          "label": "COG-UK Viral Genome Sequences",
+                          "domainType": "DataModel",
+                          "finalised": true
+                        }
+                      ]
+                    }
+                  }
+                ]
               }
             }
           ]
