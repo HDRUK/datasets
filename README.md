@@ -5,3 +5,5 @@
 This repo automatically collects the datasets published on the Gateway including all high-level metadata based the latest [specification](https://www.hdruk.ac.uk/wp-content/uploads/2019/12/MVP-Metadata-Specification_Final-v1.1.7.pdf).
 
 ### [Raw Daily CSV Extract](https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.csv)
+
+### [Raw Daily JSON Extract](https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json)
