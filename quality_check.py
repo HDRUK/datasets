@@ -103,9 +103,9 @@ def schema_validation_check():
 
 
 def main():
-    # completeness_score, headers = completeness_check()
-    # export_json(scores,'reports/completeness.json')
-    # export_csv(scores, 'reports/completeness.csv', header)
+    completeness_score, headers = completeness_check()
+    export_json(scores,'reports/completeness.json')
+    export_csv(scores, 'reports/completeness.csv', header)
     schema_errors, headers = schema_validation_check()
     export_json(schema_errors,'reports/schema_errors.json')
     export_csv(schema_errors, 'reports/schema_errors.csv', headers)
