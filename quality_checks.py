@@ -129,7 +129,7 @@ def generate_quality_score():
     headers = []
     for id, d in data.items():
         avg_score = round(mean([data[id]['completeness_percent'], data[id]['error_percent']]), 2)
-        d['quality_score'] = avg_score
+        d['quality_score'] = 100 - avg_score
         headers.extend(d.keys())
         summary_data.append(d)
     return summary_data, list(set(headers))
