@@ -37,6 +37,10 @@ jobs:
     - name: Collect datasets from Metadata Catalogue
       run: |
         python datasets.py
+    
+    - name: Perform completeness and schema validation checks
+      run: |
+        python quality_checks.py
 
     - uses: stefanzweifel/git-auto-commit-action@v4.1.6
       with:
