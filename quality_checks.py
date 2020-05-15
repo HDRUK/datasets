@@ -130,6 +130,14 @@ def generate_quality_score():
     for id, d in data.items():
         avg_score = round(mean([data[id]['missingness_percent'], data[id]['error_percent']]), 2)
         d['quality_score'] = 100 - avg_score
+        if d['quality_score'] <= 25:
+            d['quality_rating'] = "Bronze"
+        elif d['quality_score'] > 25 and d['quality_score'] <= 50:
+            d['quality_rating'] = "Silver"
+        elif d['quality_score'] > 50 and d['quality_score'] <= 75:
+            d['quality_rating'] = "Gold"
+        elif d['quality_score'] > 75:
+            d['quality_rating'] = "Platinum"
         headers.extend(d.keys())
         summary_data.append(d)
     return summary_data, list(set(headers))
