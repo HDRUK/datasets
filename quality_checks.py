@@ -135,7 +135,7 @@ def generate_quality_score():
     headers = []
     for id, d in data.items():
         avg_score = round(mean([data[id]['missingness_percent'], data[id]['error_percent']]), 2)
-        d['quality_score'] = 100 - avg_score
+        d['quality_score'] = round(100 - avg_score)
         if d['quality_score'] <= 50:
             d['quality_rating'] = "Not Rated"
         elif d['quality_score'] > 50 and d['quality_score'] <= 70:
