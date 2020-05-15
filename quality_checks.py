@@ -7,7 +7,7 @@ __license__ = "Apache 2"
 
 import copy
 import math
-from statistics import mean
+from statistics import mean, stdev
 import csv
 import json
 import urllib
@@ -124,19 +124,27 @@ def generate_quality_score():
         e_score = round((e['schema_error_count'] / total_attributes) * 100, 2)
         data[e['id']]['error_percent'] = e_score
     
-    # Calculate average quality score (lower the better)
+    # # Calculate average quality score (lower the better)
+    # quality_scores = [100 - round(mean([v['missingness_percent'], v['error_percent']]),2) for k, v in data.items()]
+    # mean_quality_score = round(mean(quality_scores))
+    # stdev_quality_score = round(stdev(quality_scores))
+    # print("MEAN:", mean_quality_score)
+    # print("STDEV:", stdev_quality_score)
+
     summary_data = []
     headers = []
     for id, d in data.items():
         avg_score = round(mean([data[id]['missingness_percent'], data[id]['error_percent']]), 2)
         d['quality_score'] = 100 - avg_score
-        if d['quality_score'] <= 25:
+        if d['quality_score'] <= 50:
+            d['quality_rating'] = "Not Rated"
+        elif d['quality_score'] > 50 and d['quality_score'] <= 70:
             d['quality_rating'] = "Bronze"
-        elif d['quality_score'] > 25 and d['quality_score'] <= 50:
+        elif d['quality_score'] > 70 and d['quality_score'] <= 80:
             d['quality_rating'] = "Silver"
-        elif d['quality_score'] > 50 and d['quality_score'] <= 75:
+        elif d['quality_score'] > 80 and d['quality_score'] <= 90:
             d['quality_rating'] = "Gold"
-        elif d['quality_score'] > 75:
+        elif d['quality_score'] > 90:
             d['quality_rating'] = "Platinum"
         headers.extend(d.keys())
         summary_data.append(d)
