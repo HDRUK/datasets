@@ -11,6 +11,9 @@ import json
 import requests
 from jsonschema import validate, Draft7Validator, FormatChecker, draft7_format_checker
 
+DATASET_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset.schema.json'
+BASELINE_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
+
 def get_json(json_uri):
     if isinstance(json_uri,dict):
         return json_uri
@@ -47,7 +50,7 @@ def validate_schema(schema, json):
     return data
 
 def main():
-    validate_schema('schemas/dataset.schema.json', TEST_DATASET)
+    validate_schema(DATASET_SCHEMA, BASELINE_SCHEMA)
 
 if __name__ == "__main__":
     main()
