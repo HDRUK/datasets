@@ -144,7 +144,7 @@ def main():
   export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
   export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
   export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
-  
+
 
 if __name__ == "__main__":
     main()
