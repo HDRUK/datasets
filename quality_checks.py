@@ -114,7 +114,7 @@ def generate_quality_score():
             'title': s['title']
         }
         c_score = round((s['missing_attributes'] / s['total_attributes']) * 100, 2)
-        data[s['id']]['completeness_percent'] = c_score
+        data[s['id']]['missingness_percent'] = c_score
     
     # TODO: Differentiate between error classes (required vs format) by weighting them
     schema = get_json(DATASET_SCHEMA)
@@ -128,7 +128,7 @@ def generate_quality_score():
     summary_data = []
     headers = []
     for id, d in data.items():
-        avg_score = round(mean([data[id]['completeness_percent'], data[id]['error_percent']]), 2)
+        avg_score = round(mean([data[id]['missingness_percent'], data[id]['error_percent']]), 2)
         d['quality_score'] = 100 - avg_score
         headers.extend(d.keys())
         summary_data.append(d)
