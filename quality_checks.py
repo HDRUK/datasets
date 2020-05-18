@@ -164,8 +164,8 @@ def main():
 
     # Summarise Average Quality Score
     summary_score, headers = generate_quality_score()
-    export_json(summary_score,'reports/dataset_quality.json')
-    export_csv(summary_score, 'reports/dataset_quality.csv', headers)
+    export_json(summary_score,'reports/metadata_quality.json')
+    export_csv(summary_score, 'reports/metadata_quality.csv', headers)
 
 
 if __name__ == "__main__":
