@@ -13,7 +13,7 @@ import json
 import urllib
 import requests
 from pprint import pprint
-from validate_schema import get_json, validate_schema
+from validate_schema import get_json, validate_schema, generate_baseline_from_sections, generate_attribute_list
 from datasets import export_csv, export_json
 
 DATASET_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset.schema.json'
@@ -22,29 +22,29 @@ DATASETS_JSON = "datasets.json"
 
 METADATA_SECTIONS = {
     "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
-    "B: Business": ["description", "releaseDate", "accessRequestCost", "accessRequestDuration", "dataController", "dataProcessor", "license", "derivedDatasets", "linkedDataset"],
-    "C: Coverage & Detail": ["geographicCoverage", "periodicity", "datasetEndDate", "datasetStartDate", "jurisdiction", "populationType", "statisticalPopulation", "ageBand", "physcicalSampleAvailability", "keywords"],
+    "B: Business": ["description", "releaseDate", "accessRequestCost", "accessRequestDuration", "dataController",
+                    "dataProcessor", "license", "derivedDatasets", "linkedDataset"],
+    "C: Coverage & Detail": ["geographicCoverage", "periodicity", "datasetEndDate", "datasetStartDate",
+                             "jurisdiction", "populationType", "statisticalPopulation", "ageBand",
+                             "physcicalSampleAvailability", "keywords"],
     "D: Format & Structure": ["conformsTo", "controlledVocabulary", "language", "format", "fileSize"],
-    "E:Atrribution": ["creator", "citations", "doi"],
+    "E: Attribution": ["creator", "citations", "doi"],
     "F: Technical Metadata": ["dataClassesCount"],
-    "G: Other Metadata": ["usageResrictions", "purpose", "source", "setting", "accessEnvironment", "linkageOpportunity", "disabmiguatingDescription"]
+    "G: Other Metadata": ["usageResrictions", "purpose", "source", "setting", "accessEnvironment",
+                          "linkageOpportunity", "disabmiguatingDescription"],
 }
+
+REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
+                    "D: Format & Structure", "E: Attribution", "F: Technical Metadata"]
 
 def nullScore(d):
     count = 0
     nulls = 0
-    data = {
-        "A: Summary Missing Count": 0,
-        "B: Business Missing Count": 0,
-        "C: Coverage & Detail Missing Count": 0,
-        "D: Format & Structure Missing Count": 0,
-        "E:Atrribution Missing Count": 0,
-        "F: Technical Metadata Missing Count": 0,
-        "G: Other Metadata Missing Count": 0
-    }
+    data = { f"{attr_level} Missing Count": 0 for attr_level in REPORTING_LEVELS}
+    reporting_dict = {key: METADATA_SECTIONS.get(key, None) for key in REPORTING_LEVELS}
     for k,v in d.items():
         count = count + 1
-        for section, attributes in METADATA_SECTIONS.items():
+        for section, attributes in reporting_dict.items():
             # Process metadata sections
             if k in attributes:
                 if v is None:
@@ -65,7 +65,8 @@ def nullScore(d):
     return data
 
 def completeness_check():
-    schema = get_json(BASELINE_SAMPLE)
+    # schema = get_json(BASELINE_SAMPLE)
+    schema = generate_baseline_from_sections(METADATA_SECTIONS, REPORTING_LEVELS)
     data_models = get_json(DATASETS_JSON)
     data = []
     header = []
@@ -76,7 +77,8 @@ def completeness_check():
             'publisher': dm['publisher'],
             'title': dm['title']
         }
-        dm.pop('dataClasses', None)
+        for attribute in (set(dm.keys()) - set(schema.keys())):
+            dm.pop(attribute, None)
         s = copy.deepcopy(schema)
         s.update(dm)
         score = nullScore(s)
@@ -88,10 +90,14 @@ def completeness_check():
 def schema_validation_check():
     schema = get_json(DATASET_SCHEMA)
     data_models = get_json(DATASETS_JSON)
+    validation_attributes = set(generate_attribute_list(METADATA_SECTIONS, REPORTING_LEVELS))
     data = []
     headers = []
     for dm in data_models['dataModels']:
-        errors = validate_schema(schema, dm)
+        dm_validate = copy.deepcopy(dm)
+        for attribute in (set(dm_validate.keys()) - validation_attributes):
+            dm_validate.pop(attribute, None)
+        errors = validate_schema(schema, dm_validate)
         d = {
             'id': dm['id'],
             'publisher': dm['publisher'],

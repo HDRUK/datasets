@@ -49,6 +49,37 @@ def validate_schema(schema, json):
         data.append(err)
     return data
 
+def generate_baseline_from_sections(metadata_sections, metadata_levels=None):
+    '''
+    generate the baseline schema from METADATA_SECTIONS, a dictionary of dictionaries
+
+    '''
+    baseline_dict = {}
+    raw_attributes = generate_attribute_list(metadata_sections, metadata_levels=metadata_levels, add_id=True)
+
+    baseline_dict = {attribute: None for attribute in raw_attributes}
+
+    return baseline_dict
+
+def generate_attribute_list(metadata_sections, metadata_levels=None, add_id=True):
+    '''
+
+    '''
+    raw_attributes = []
+
+    # collect the attribute names
+    if metadata_levels:
+        for level in metadata_levels:
+            raw_attributes.extend(metadata_sections.get(level, []))
+    else:
+        raw_attributes = [attribute for element in metadata_sections.values() for attribute in element]
+
+    if add_id:
+        raw_attributes.insert(0, 'id')
+
+    return raw_attributes
+
+
 def main():
     validate_schema(DATASET_SCHEMA, BASELINE_SCHEMA)
 
