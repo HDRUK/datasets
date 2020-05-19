@@ -110,8 +110,8 @@ def schema_validation_check():
     return data, list(set(headers))
 
 def generate_quality_score():
-    # TODO: Differentiate between section (A-G) completeness by weighting them
     scores = get_json('reports/completeness.json')
+    completion_weightings = get_json('completion_weightings.json')
     data = {}
     for s in scores:
         data[s['id']] = {
@@ -119,8 +119,10 @@ def generate_quality_score():
             'publisher': s['publisher'],
             'title': s['title']
         }
-        c_score = round((s['missing_attributes'] / s['total_attributes']) * 100, 2)
+        c_score = round((s['missing_attributes'] / s['total_attributes']) * 100, 2) #completion score
+        wc_score = weighted_completeness_score(s, completion_weightings) # weighted completion score
         data[s['id']]['missingness_percent'] = c_score
+        data[s['id']]['weighted_missingness_percent'] = wc_score
     
     # TODO: Differentiate between error classes (required vs format) by weighting them
     schema = get_json(DATASET_SCHEMA)
@@ -152,10 +154,38 @@ def generate_quality_score():
             d['quality_rating'] = "Gold"
         elif d['quality_score'] > 90:
             d['quality_rating'] = "Platinum"
+
+        weighted_avg_score = round(mean([data[id]['weighted_missingness_percent'], data[id]['error_percent']]), 2)
+        d['weighted_quality_score'] = round(100 - weighted_avg_score, 2)
+        if d['weighted_quality_score'] <= 50:
+            d['weighted_quality_rating'] = "Not Rated"
+        elif d['weighted_quality_score'] > 50 and d['weighted_quality_score'] <= 70:
+            d['weighted_quality_rating'] = "Bronze"
+        elif d['weighted_quality_score'] > 70 and d['weighted_quality_score'] <= 80:
+            d['weighted_quality_rating'] = "Silver"
+        elif d['weighted_quality_score'] > 80 and d['weighted_quality_score'] <= 90:
+            d['weighted_quality_rating'] = "Gold"
+        elif d['weighted_quality_score'] > 90:
+            d['weighted_quality_rating'] = "Platinum"
+
         headers.extend(d.keys())
         summary_data.append(d)
     return summary_data, list(set(headers))
 
+def weighted_completeness_score(s, cw):
+    wc_score = round((((s["A: Summary Missing Count"] /s["A: Summary Total Attributes"]) * cw["A: Summary Category Weighting"])
+                + ((s["B: Business Missing Count"] /s["B: Business Total Attributes"]) * cw["B: Business Category Weighting"])
+                + ((s["C: Coverage & Detail Missing Count"] / s["C: Coverage & Detail Total Attributes"]) * cw[
+                "C: Coverage & Detail Category Weighting"])
+                + ((s["D: Format & Structure Missing Count"] / s["D: Format & Structure Total Attributes"]) * cw[
+                "D: Format & Structure Category Weighting"])
+                + ((s["E:Atrribution Missing Count"] / s["E:Atrribution Total Attributes"]) * cw[
+                "E: Atrribution Category Weighting"])
+                + ((s["F: Technical Metadata Missing Count"] / s["F: Technical Metadata Total Attributes"]) * cw[
+                "F: Technical Metadata Category Weighting"])
+                + ((s["G: Other Metadata Missing Count"] / s["G: Other Metadata Total Attributes"]) * cw[
+                "G: Other Metadata Total Attributes"]))*100,2)
+    return wc_score
 
 def main():
     # Compile Metadata Completeness Score
