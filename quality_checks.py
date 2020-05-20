@@ -26,12 +26,12 @@ METADATA_SECTIONS = {
                     "dataProcessor", "license", "derivedDatasets", "linkedDataset"],
     "C: Coverage & Detail": ["geographicCoverage", "periodicity", "datasetEndDate", "datasetStartDate",
                              "jurisdiction", "populationType", "statisticalPopulation", "ageBand",
-                             "physcicalSampleAvailability", "keywords"],
+                             "physicalSampleAvailability", "keywords"],
     "D: Format & Structure": ["conformsTo", "controlledVocabulary", "language", "format", "fileSize"],
     "E: Attribution": ["creator", "citations", "doi"],
     "F: Technical Metadata": ["dataClassesCount"],
-    "G: Other Metadata": ["usageResrictions", "purpose", "source", "setting", "accessEnvironment",
-                          "linkageOpportunity", "disabmiguatingDescription"],
+    "G: Other Metadata": ["usageRestriction", "purpose", "source", "setting", "accessEnvironment",
+                          "linkageOpportunity", "disambiguatingDescription"],
 }
 
 REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
@@ -78,7 +78,7 @@ def completeness_check():
             'title': dm['title']
         }
         for attribute in (set(dm.keys()) - set(schema.keys())):
-            dm.pop(attribute, None)
+            dm.pop(attribute, None) # any attribute not in the schema, drop from the data model
         s = copy.deepcopy(schema)
         s.update(dm)
         score = nullScore(s)
@@ -109,9 +109,13 @@ def schema_validation_check():
         data.append(d)
     return data, list(set(headers))
 
+def detail_schema_errors_by_attribute():
+    pass
+
+
 def generate_quality_score():
     scores = get_json('reports/completeness.json')
-    completion_weightings = get_json('completion_weightings.json')
+    completion_weightings = get_json('completion_weightings_by_section.json')
     data = {}
     for s in scores:
         data[s['id']] = {

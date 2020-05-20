@@ -351,10 +351,6 @@
     "schema_error_count": 7,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -379,6 +375,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -601,10 +601,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -624,6 +620,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -702,10 +702,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -721,6 +717,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'No' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -872,12 +872,8 @@
     "id": "084d3291-d675-46e0-aa26-7a6b4c50a14d",
     "publisher": "HUBS > DISCOVER NOW",
     "title": "Accident and Emergency",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -1042,15 +1038,11 @@
     "id": "0a0b0779-2d76-461d-9621-be54c3a3e98a",
     "publisher": "HUBS > BREATHE",
     "title": "Idiopathic Pulmonary Fibrosis (IPF) Genome-wide Association Study",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "dataController",
         "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -1150,10 +1142,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -1173,6 +1161,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -1440,15 +1432,11 @@
     "id": "0dbabc86-08ac-47ed-834a-86e8de1cc25c",
     "publisher": "ALLIANCE > SAIL",
     "title": "Brecon dataset",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "datasetStartDate",
         "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -1484,10 +1472,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -1507,6 +1491,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Peripheral blood cells' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -2020,10 +2008,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -2043,6 +2027,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -2057,10 +2045,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -2080,6 +2064,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -2147,12 +2135,8 @@
     "id": "15a7c12f-145c-46fc-acc9-c27e83ed2c4d",
     "publisher": "ALLIANCE > GENOMICS ENGLAND",
     "title": "GENOMICS ENGLAND 100K NHSD LINKED DATA",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -2196,10 +2180,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -2219,6 +2199,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -2226,12 +2210,8 @@
     "id": "16dfba9a-04b9-4b3e-9c86-73d6bf2db4c3",
     "publisher": "ALLIANCE > SAIL",
     "title": "Pathology Data from WRRS",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -2347,10 +2327,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -2370,6 +2346,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -2661,10 +2641,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -2692,6 +2668,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -2704,10 +2684,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -2733,6 +2709,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -2812,15 +2792,11 @@
     "id": "1cb31e11-505b-4ff6-ae20-5c468c9ad296",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "HPB Biobank",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -2920,10 +2896,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -2943,6 +2915,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Urine, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -3014,15 +2990,11 @@
     "id": "1d7d2724-3175-438b-a3a3-77875f776548",
     "publisher": "HUBS > BREATHE",
     "title": "UK BiLEVE Consortium Dataset",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "dataController",
         "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -3115,7 +3087,7 @@
     "id": "1e266f05-4fa8-40d8-a008-7dff627bfa9b",
     "publisher": "HUBS > BREATHE",
     "title": "COPDMAP Consortium",
-    "schema_error_count": 13,
+    "schema_error_count": 12,
     "errors": [
       {
         "attribute": "dataController",
@@ -3136,10 +3108,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "format",
@@ -3184,10 +3152,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -3207,6 +3171,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Peripheral blood cells, Plasma, Primary cells, Serum, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -3219,10 +3187,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -3253,6 +3217,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -3260,15 +3228,11 @@
     "id": "20ae5699-abe2-4c98-9249-5dbba7770b30",
     "publisher": "ALLIANCE > SAIL",
     "title": "GP dataset - Welsh Primary Care",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -3308,10 +3272,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -3335,6 +3295,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -3344,10 +3308,6 @@
     "title": "South London and Maudsley NHS Foundation Trust (SLaM) Clinical Record Interactive Search (CRIS) platform",
     "schema_error_count": 14,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -3398,6 +3358,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Updated at least weekly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Linkages have been made with some local, separately administered bioresources' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       },
       {
         "attribute": "title",
@@ -3584,10 +3548,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -3607,6 +3567,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'PM tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -4099,10 +4063,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -4126,6 +4086,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -4204,10 +4168,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -4231,6 +4191,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -4243,10 +4207,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -4272,6 +4232,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Faeces, Plasma, Serum, Urine' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -4281,10 +4245,6 @@
     "title": "Primary care prescriptions",
     "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -4310,6 +4270,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -4317,15 +4281,11 @@
     "id": "2bf53952-e77c-4746-b36f-5ccb1574f6a7",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "BRAIN UK",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -4628,12 +4588,8 @@
     "id": "2d3d2c36-240e-4d38-a6ae-893bafbf6fbb",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "Liver Enzyme",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "format",
         "message": "'format' is a required property"
@@ -4733,12 +4689,8 @@
     "id": "2e0d71a2-3d09-4cf4-beb3-df3ec1b1f240",
     "publisher": "ALLIANCE > SAIL",
     "title": "Outpatient Dataset",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -4782,10 +4734,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -4805,6 +4753,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -4892,10 +4844,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -4924,6 +4872,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Updated daily' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -4936,10 +4888,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -4961,6 +4909,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Immortalized cell lines' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5035,10 +4987,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -5058,6 +5006,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, RNA, Tissue, Urine, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5072,10 +5024,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -5095,6 +5043,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Tissue, Urine' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5107,10 +5059,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -5137,6 +5085,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5149,10 +5101,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -5174,6 +5122,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'cDNA/mRNA, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5252,10 +5204,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -5275,6 +5223,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'cDNA/mRNA, microRNA, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5282,15 +5234,11 @@
     "id": "37fe2488-f4c3-4471-a1e0-7d4a4204f063",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Leeds Dental Institute/School of Dentistry Leeds, Skeletal Tissues Bank",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -5330,10 +5278,6 @@
         "message": "'datasetStartDate' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -5367,6 +5311,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: '2012-2019' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5574,10 +5522,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -5601,6 +5545,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5610,10 +5558,6 @@
     "title": "Adult social care",
     "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -5639,6 +5583,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5651,10 +5599,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -5680,6 +5624,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5692,10 +5640,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -5721,6 +5665,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5852,12 +5800,8 @@
     "id": "3b4e8fed-1c14-4c79-a20c-dfeab520be89",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "Demographics",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "format",
         "message": "'format' is a required property"
@@ -6065,12 +6009,8 @@
     "id": "3ee52adc-b97e-4f7b-a251-a1c9841a380c",
     "publisher": "HUBS > BREATHE",
     "title": "Extended Cohort for E-health, Environment and DNA (EXCEED)",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -6110,10 +6050,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -6137,6 +6073,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Updated daily' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -6283,10 +6223,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -6306,6 +6242,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, Primary cells, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -7196,15 +7136,11 @@
     "id": "4bf6312a-176b-42ad-8550-652982638014",
     "publisher": "ALLIANCE > SAIL",
     "title": "National Community Child Health Database (NCCHD)",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -7238,15 +7174,11 @@
     "id": "4c75d92d-eb94-4ff5-8a95-44d4d7cdd166",
     "publisher": "ALLIANCE > SAIL",
     "title": "Critical Care Dataset",
-    "schema_error_count": 9,
+    "schema_error_count": 8,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -7284,15 +7216,11 @@
     "id": "4cfabd2a-e590-4f63-82f5-6d543b0075cf",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "VinCaP",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -7321,12 +7249,8 @@
     "id": "4d6c18fc-54c6-41f1-a7a9-76289c2f4194",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "Microbiology Cultures",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "format",
         "message": "'format' is a required property"
@@ -7369,10 +7293,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -7392,6 +7312,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Bone marrow, Peripheral blood cells, Serum, Urine' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -7538,10 +7462,6 @@
     "schema_error_count": 7,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -7566,6 +7486,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'NA (single release)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -7645,12 +7569,8 @@
     "id": "5261e3d5-b32f-4180-a374-61cab95e63f1",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "Annual Review Encounters",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "format",
         "message": "'format' is a required property"
@@ -7806,12 +7726,8 @@
     "id": "54abedcd-d6d8-482b-a3fd-1217101a9a8e",
     "publisher": "ALLIANCE > SAIL",
     "title": "Welsh Cancer Intelligence and Surveillance Unit (WCISU)",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -7908,15 +7824,11 @@
     "id": "5547663c-5be2-4dbb-ad21-baf064838fe0",
     "publisher": "ALLIANCE > SAIL",
     "title": "Postponed Admitted Procedures",
-    "schema_error_count": 9,
+    "schema_error_count": 8,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -8063,15 +7975,11 @@
     "id": "57471e95-77e1-4381-823e-4f9a93e51d08",
     "publisher": "HUBS > BREATHE",
     "title": "UK Lung Volume Reduction Surgery",
-    "schema_error_count": 9,
+    "schema_error_count": 8,
     "errors": [
       {
         "attribute": "dataController",
         "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -8109,15 +8017,11 @@
     "id": "5758964b-1161-48ee-97b5-1e414f406978",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Cardiff School of Dentistry Tooth Bank",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -8153,10 +8057,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -8176,6 +8076,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -8262,10 +8166,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -8285,6 +8185,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, Serum, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -8435,10 +8339,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -8458,6 +8358,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Cancer cell lines, DNA, Plasma, Serum, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -8465,15 +8369,11 @@
     "id": "5b5505fb-915d-4677-aa0a-b2a28ed4e897",
     "publisher": "SAIL Databank",
     "title": "COVID-19 Test results",
-    "schema_error_count": 10,
+    "schema_error_count": 9,
     "errors": [
       {
         "attribute": "datasetStartDate",
         "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -8830,10 +8730,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -8853,6 +8749,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Peripheral blood cells, Plasma, Saliva, Serum, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -9047,10 +8947,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -9070,6 +8966,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Peripheral blood cells, Plasma, Serum' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -9082,10 +8982,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -9111,6 +9007,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, Serum' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -9178,7 +9078,7 @@
     "id": "663146dd-0bc3-4d12-95c7-50873a3d45b6",
     "publisher": "HUBS > BREATHE",
     "title": "Leicester Respiratory Research Database",
-    "schema_error_count": 12,
+    "schema_error_count": 11,
     "errors": [
       {
         "attribute": "dataController",
@@ -9199,10 +9099,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -9308,12 +9204,8 @@
     "id": "68410032-93b0-4dfd-a555-b7487f5f1fc3",
     "publisher": "ALLIANCE > SAIL",
     "title": "Active Adult Survey",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -9353,10 +9245,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -9376,6 +9264,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Peripheral blood cells, Plasma, Serum, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -9385,10 +9277,6 @@
     "title": "Moorfields Eye Image Dataset Release 001",
     "schema_error_count": 8,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -9418,6 +9306,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -9430,10 +9322,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -9455,6 +9343,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -9574,10 +9466,6 @@
     "schema_error_count": 8,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -9601,6 +9489,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Twice weekly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Influenza virology' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       },
       {
         "attribute": "title",
@@ -9672,12 +9564,8 @@
     "id": "6c6c46a8-b9b5-4137-a329-1e21030b9efb",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "Tendon Rupture",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "format",
         "message": "'format' is a required property"
@@ -9914,10 +9802,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -9937,6 +9821,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, PM tissue, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -10166,10 +10054,6 @@
     "schema_error_count": 11,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -10210,6 +10094,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'updated annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'No' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -10485,12 +10373,8 @@
     "id": "78e3ec19-5234-4168-a853-f6e1be6d0193",
     "publisher": "Cystic Fibrosis Trust",
     "title": "Transplants",
-    "schema_error_count": 6,
+    "schema_error_count": 5,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -10582,7 +10466,7 @@
     "id": "79116473-bda2-413c-82ad-ba2b86e5076f",
     "publisher": "HUBS > BREATHE",
     "title": "EMEP4UK Pollution",
-    "schema_error_count": 10,
+    "schema_error_count": 9,
     "errors": [
       {
         "attribute": "accessRequestCost",
@@ -10599,10 +10483,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -10637,10 +10517,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -10664,6 +10540,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -10775,15 +10655,11 @@
     "id": "7bbc1994-b21b-4ff2-bbdc-86d5934fa11f",
     "publisher": "ALLIANCE > SAIL",
     "title": "Cervical Screening Wales",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -10824,10 +10700,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -10851,6 +10723,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Saliva, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -10858,12 +10734,8 @@
     "id": "7c9f9620-8f18-4e2d-bda0-a3a6f46756b6",
     "publisher": "ALLIANCE > GENOMICS ENGLAND",
     "title": "GENOMICS ENGLAND 100K BIOINFORMATICS DATA",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -10900,15 +10772,11 @@
     "id": "7ca98657-037c-43a8-872a-65a0520695e5",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Bristol Dental School Saliva Bank",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -11204,10 +11072,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -11227,6 +11091,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Immortalized cell lines' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11305,10 +11173,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -11332,6 +11196,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11341,10 +11209,6 @@
     "title": "High Cost drugs",
     "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -11370,6 +11234,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11448,10 +11316,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -11475,6 +11339,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11549,10 +11417,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -11576,6 +11440,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11588,10 +11456,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -11613,6 +11477,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Tissue, Urine' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11620,15 +11488,11 @@
     "id": "843062c0-fca0-464f-aa9c-0d4908f40513",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "UKALL14 Trial",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -11659,10 +11523,6 @@
     "title": "HIC Acute Coronary Syndromes",
     "schema_error_count": 11,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -11704,6 +11564,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'updated annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'No' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11716,10 +11580,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -11741,6 +11601,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'PM tissue, Primary cells' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11960,10 +11824,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -11992,6 +11852,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -12510,10 +12374,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -12533,6 +12393,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -12613,15 +12477,11 @@
     "id": "8be27887-8bf7-47bb-81c0-44900f978ab8",
     "publisher": "ALLIANCE > SAIL",
     "title": "Congenital Anomaly Register and Information Service",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -12662,10 +12522,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -12689,6 +12545,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -12698,10 +12558,6 @@
     "title": "Community",
     "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -12727,6 +12583,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -12873,10 +12733,6 @@
         "message": "'datasetStartDate' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -12901,6 +12757,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -13164,12 +13024,8 @@
     "id": "92a4f4d2-2ba0-4c0a-9dec-f5d312d6bf8a",
     "publisher": "ALLIANCE > SAIL",
     "title": "Welsh Demographic Service (WDS)",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -13338,12 +13194,8 @@
     "id": "9366bf21-4862-4f86-bb2d-8370b1f6dfdc",
     "publisher": "ALLIANCE > SAIL",
     "title": "Annual District Birth Extract",
-    "schema_error_count": 6,
+    "schema_error_count": 5,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
@@ -13374,10 +13226,6 @@
     "schema_error_count": 8,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -13406,6 +13254,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Genomics England Dataset are updated on a quarterly basis' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -13418,10 +13270,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -13443,6 +13291,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Faeces, Immortalized cell lines, Peripheral blood cells, Plasma, Saliva, Serum, Tissue, Urine' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -13576,12 +13428,8 @@
     "id": "94c082e5-b45f-43fe-9340-f4855f392fd4",
     "publisher": "HUBS > BREATHE",
     "title": "Genetics of Asthma Severity & Phenotypes",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -13697,10 +13545,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -13720,6 +13564,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Core biopsy, Peripheral blood cells, Plasma, Serum, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -13803,10 +13651,6 @@
     "schema_error_count": 6,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -13826,6 +13670,10 @@
         "attribute": "controlledVocabulary",
         "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
         "suberrors": "    type: 'Local Standard' is not of type 'array'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -13833,15 +13681,11 @@
     "id": "957329a0-6f7f-4df7-ad46-1aa4be1a507d",
     "publisher": "HUBS > BREATHE",
     "title": "Children's Health in London and Luton (CHILL)",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "dataController",
         "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -13944,15 +13788,11 @@
     "id": "979d600f-f541-4028-8576-a6e4603fc244",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "The PEACE Study",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -14117,15 +13957,11 @@
     "id": "9856fab3-1b1d-4952-abba-bcef0f92f900",
     "publisher": "ALLIANCE > SAIL",
     "title": "Outpatient Referral",
-    "schema_error_count": 9,
+    "schema_error_count": 8,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -14163,15 +13999,11 @@
     "id": "98a03f2b-1a67-4653-a4f5-f9db7262a94d",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Public Health England Seroepidemiology Unit",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -14281,15 +14113,11 @@
     "id": "999b8bb8-b5dd-464e-b14b-b91475ba2bca",
     "publisher": "ALLIANCE > SAIL",
     "title": "Annual District Death Extract",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -14808,10 +14636,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -14840,6 +14664,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly releases to the UK CRC Tissue Directory, starting 2020' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -14918,10 +14746,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -14945,6 +14769,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15019,10 +14847,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -15042,6 +14866,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Urine, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15049,15 +14877,11 @@
     "id": "9f45db59-b3c9-4c33-85bf-25c1b5242903",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "MDSBio",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -15227,10 +15051,6 @@
     "schema_error_count": 12,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -15275,6 +15095,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'updated annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'No' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15353,10 +15177,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -15376,6 +15196,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, Serum, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15390,10 +15214,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -15413,6 +15233,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Serum, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15532,15 +15356,11 @@
     "id": "a450ebf7-7779-48a8-8d08-892a7a650399",
     "publisher": "ALLIANCE > SAIL",
     "title": "Bowel Screening Wales",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -15581,10 +15401,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -15613,6 +15429,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15622,10 +15442,6 @@
     "title": "Comprehensive Patient Records for Cancer Outcomes",
     "schema_error_count": 8,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -15655,6 +15471,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Single extract' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15667,10 +15487,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -15696,6 +15512,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15782,10 +15602,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -15809,6 +15625,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15823,10 +15643,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -15850,6 +15666,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Bone marrow, DNA, Peripheral blood cells, RNA' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -16006,15 +15826,11 @@
     "id": "a7eb2110-b105-40f8-a33a-2d9221d3c3a1",
     "publisher": "ALLIANCE > SAIL",
     "title": "Breast Test Wales",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -16107,12 +15923,8 @@
     "id": "a8a6941a-080e-452a-badc-91c40841b4f3",
     "publisher": "ALLIANCE > SAIL",
     "title": "Emergency Department Data Set",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -16409,10 +16221,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -16432,6 +16240,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -16446,10 +16258,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -16469,6 +16277,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Saliva, Serum, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -16476,12 +16288,8 @@
     "id": "ade4cf22-2dd0-485c-9ef1-955585aeed6f",
     "publisher": "ALLIANCE > SAIL",
     "title": "National Exercise Referral Scheme",
-    "schema_error_count": 6,
+    "schema_error_count": 5,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
@@ -16509,7 +16317,7 @@
     "id": "ae4b8371-d037-46e8-bdcd-bf3de08ef38e",
     "publisher": "HUBS > BREATHE",
     "title": "Optimum Patient Care Research Database",
-    "schema_error_count": 9,
+    "schema_error_count": 8,
     "errors": [
       {
         "attribute": "dataController",
@@ -16522,10 +16330,6 @@
       {
         "attribute": "datasetStartDate",
         "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -16560,10 +16364,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -16583,6 +16383,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Bone marrow, DNA, Peripheral blood cells, Plasma, RNA, Serum' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -16653,10 +16457,6 @@
     "schema_error_count": 6,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -16676,6 +16476,10 @@
         "attribute": "controlledVocabulary",
         "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
         "suberrors": "    type: 'Local Standard' is not of type 'array'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -16688,10 +16492,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -16713,6 +16513,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -16720,12 +16524,8 @@
     "id": "b0a8085e-8cf0-45ee-b4a6-12a4a545ca70",
     "publisher": "ALLIANCE > GENOMICS ENGLAND",
     "title": "GENOMICS ENGLAND 100K RARE DISEASE & COMMON",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -16762,15 +16562,11 @@
     "id": "b36202ad-7652-460c-8389-baa1a1c1ac46",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "York Tissue Bank",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -16806,10 +16602,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -16833,6 +16625,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, Serum, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -16842,10 +16638,6 @@
     "title": "HIC ICU 8.3.2",
     "schema_error_count": 11,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -16887,6 +16679,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'updated annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'No' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -17103,15 +16899,11 @@
     "id": "b717d41e-9202-40ed-be1a-882ec0c47761",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "MRC Brain Banks Network",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -17151,10 +16943,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "keywords",
         "message": "'keywords' is a required property"
       },
@@ -17186,6 +16974,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -17198,10 +16990,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -17227,6 +17015,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -17370,12 +17162,8 @@
     "id": "bb9b1a6b-e8e3-410e-85cc-61bde7a9bc7b",
     "publisher": "ALLIANCE > SAIL",
     "title": "Patient Episode Dataset for Wales",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -17412,12 +17200,8 @@
     "id": "bbb3e017-890e-466b-82f0-475ec103f108",
     "publisher": "ALLIANCE > SAIL",
     "title": "Substance Misuse Dataset",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -17454,12 +17238,8 @@
     "id": "bc2a13c8-fd0f-495e-a224-88dfb12a4953",
     "publisher": "ALLIANCE > SAIL",
     "title": "National Survey for Wales",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -17572,10 +17352,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -17595,6 +17371,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, RNA, Serum, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -17835,12 +17615,8 @@
     "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
     "publisher": "COG-UK",
     "title": "COG-UK Viral Genome Sequences",
-    "schema_error_count": 9,
+    "schema_error_count": 8,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -18172,10 +17948,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -18203,6 +17975,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -18266,15 +18042,11 @@
     "id": "c182a3b6-8eea-43ef-be18-6cd444f150dc",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "STAMPEDE",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -18303,15 +18075,11 @@
     "id": "c29c3fbe-700e-4f85-8943-5557c30c1dfa",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Arden Tissue Bank",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -18721,10 +18489,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -18748,6 +18512,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Serum, Tissue, Urine, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -18819,12 +18587,8 @@
     "id": "c7db2002-4fbd-4c46-8032-e53a73e08c16",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "NTM culture",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "format",
         "message": "'format' is a required property"
@@ -18867,10 +18631,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -18895,6 +18655,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -19033,10 +18797,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "doi",
         "message": "'doi' is a required property"
       },
@@ -19064,6 +18824,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'A new dataset is added approximately annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plesae see here for details: http://www.bristol.ac.uk/alspac/researchers/our-data/biological-resources/' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -19292,10 +19056,6 @@
     "schema_error_count": 7,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -19320,6 +19080,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -19547,10 +19311,6 @@
     "schema_error_count": 7,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -19575,6 +19335,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -19587,10 +19351,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -19612,6 +19372,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -19703,10 +19467,6 @@
     "schema_error_count": 7,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -19731,6 +19491,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -19805,10 +19569,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -19828,6 +19588,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -19914,10 +19678,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -19937,6 +19697,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Peripheral blood cells, Plasma, RNA, Serum, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -20083,10 +19847,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -20106,6 +19866,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -20113,12 +19877,8 @@
     "id": "d7c1b02d-0e41-4244-98f3-6250519b4c79",
     "publisher": "ALLIANCE > SAIL",
     "title": "Maternity Indicators Dataset",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -20162,10 +19922,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -20194,6 +19950,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly releases anticipated, starting January 2020' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -20201,12 +19961,8 @@
     "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
     "publisher": "COG-UK",
     "title": "COG-UK Viral Genome Sequences v2",
-    "schema_error_count": 9,
+    "schema_error_count": 8,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -20485,15 +20241,11 @@
     "id": "dd7e56e7-2683-4b88-bed2-3a27ef3e4c9e",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "interNational Anaplastic Thyroid Cancer Tissue Bank (iNATT)",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -20822,12 +20574,8 @@
     "id": "e0c871f9-b63c-43a5-9fd6-e5731dae2343",
     "publisher": "ALLIANCE > GENOMICS ENGLAND",
     "title": "GENOMICS ENGLAND 100K PHE LINKED DATA",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -21056,12 +20804,8 @@
     "id": "e3c2d5ff-e08b-4fc9-a874-19123fab7183",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "Chronic Medication",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "format",
         "message": "'format' is a required property"
@@ -21160,10 +20904,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -21183,6 +20923,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Immortalized cell lines' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -21269,10 +21013,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -21292,6 +21032,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Peripheral blood cells, Plasma, Serum, Tissue, Urine, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -21301,10 +21045,6 @@
     "title": "Demographic",
     "schema_error_count": 8,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -21334,6 +21074,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly releases anticipated, starting January 2020' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -21346,10 +21090,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -21380,6 +21120,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -21459,15 +21203,11 @@
     "id": "eb19fcd9-2e9e-4e27-aa79-ad235952b1ac",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Tommy's National Reproductive Health Biobank",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -21556,12 +21296,8 @@
     "id": "ecbe7275-82b5-43cd-9401-fd7ef4b55341",
     "publisher": "ALLIANCE > GENOMICS ENGLAND",
     "title": "GENOMICS ENGLAND 100K QUICK VIEW",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -21598,12 +21334,8 @@
     "id": "edc8f0c6-64f8-4f6d-a1dd-41e05033d54e",
     "publisher": "HUBS > BREATHE",
     "title": "Its Not JUST Idiopathic pulmonary fibrosis Study (INJUSTIS)",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -21643,10 +21375,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -21666,6 +21394,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, Serum, Urine, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -21680,10 +21412,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -21703,6 +21431,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, Serum, Tissue, Urine' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -21951,10 +21683,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -21978,6 +21706,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -21990,10 +21722,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -22024,6 +21752,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly releases anticipated, starting January 2020' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -22243,10 +21975,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -22270,6 +21998,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, RNA, Saliva, Serum, Swabs, Tissue, Urine, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -22402,10 +22134,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -22425,6 +22153,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Tissue, Urine' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -22437,10 +22169,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -22466,6 +22194,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -22478,10 +22210,6 @@
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -22507,6 +22235,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, PM tissue, Serum, Urine' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -22574,15 +22306,11 @@
     "id": "f709c58e-ae5b-440b-8db1-d39caf160b17",
     "publisher": "ALLIANCE > SAIL",
     "title": "Diagnostic and Therapy Services Waiting Times",
-    "schema_error_count": 10,
+    "schema_error_count": 9,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "creator",
@@ -22631,10 +22359,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -22654,6 +22378,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma, Serum, Urine, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -22713,10 +22441,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -22740,6 +22464,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly releases anticipated, starting March 2020' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -22950,10 +22678,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -22973,6 +22697,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'PM tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -22985,10 +22713,6 @@
       {
         "attribute": "dataController",
         "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "usageResrictions",
@@ -23015,6 +22739,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'NA (single release)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'N/A' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -23022,15 +22750,11 @@
     "id": "f9a712ae-9d41-41a6-b2ca-3127441b03ac",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "UCL / UCLH Biobank for Studying Health and Disease",
-    "schema_error_count": 7,
+    "schema_error_count": 6,
     "errors": [
       {
         "attribute": "statisticalPopulation",
         "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
       },
       {
         "attribute": "conformsTo",
@@ -23066,10 +22790,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -23093,6 +22813,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       },
       {
         "attribute": "title",
@@ -23243,10 +22967,6 @@
         "message": "'statisticalPopulation' is a required property"
       },
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "conformsTo",
         "message": "'conformsTo' is a required property"
       },
@@ -23266,6 +22986,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Plasma, Serum, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -23275,10 +22999,6 @@
     "title": "Primary care events",
     "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -23304,6 +23024,10 @@
         "attribute": "doi",
         "message": "doi: 'Not Available' is not valid under any of the given schemas",
         "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -23311,12 +23035,8 @@
     "id": "fd8c878e-c497-4ec2-bc67-ecb347613384",
     "publisher": "ALLIANCE > SAIL",
     "title": "Referral to Treatment Times",
-    "schema_error_count": 8,
+    "schema_error_count": 7,
     "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
       {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
@@ -23480,10 +23200,6 @@
     "schema_error_count": 8,
     "errors": [
       {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
         "attribute": "usageResrictions",
         "message": "'usageResrictions' is a required property"
       },
@@ -23512,6 +23228,10 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Annually; or manually by users (using SQL/R script)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
