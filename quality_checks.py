@@ -115,7 +115,7 @@ def detail_schema_errors_by_attribute():
 
 def generate_quality_score():
     scores = get_json('reports/completeness.json')
-    completion_weightings = get_json('completion_weightings_by_section.json')
+    completion_weightings = get_json('utility_weightings_by_section.json')
     data = {}
     for s in scores:
         data[s['id']] = {
