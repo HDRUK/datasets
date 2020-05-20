@@ -179,12 +179,10 @@ def weighted_completeness_score(s, cw):
                 "C: Coverage & Detail Category Weighting"])
                 + ((s["D: Format & Structure Missing Count"] / s["D: Format & Structure Total Attributes"]) * cw[
                 "D: Format & Structure Category Weighting"])
-                + ((s["E:Atrribution Missing Count"] / s["E:Atrribution Total Attributes"]) * cw[
-                "E: Atrribution Category Weighting"])
+                + ((s["E: Attribution Missing Count"] / s["E: Attribution Total Attributes"]) * cw[
+                "E: Attribution Category Weighting"])
                 + ((s["F: Technical Metadata Missing Count"] / s["F: Technical Metadata Total Attributes"]) * cw[
-                "F: Technical Metadata Category Weighting"])
-                + ((s["G: Other Metadata Missing Count"] / s["G: Other Metadata Total Attributes"]) * cw[
-                "G: Other Metadata Total Attributes"]))*100,2)
+                "F: Technical Metadata Category Weighting"]))*100,2)
     return wc_score
 
 def main():
