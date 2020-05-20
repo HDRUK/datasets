@@ -16,7 +16,7 @@ from pprint import pprint
 from validate_schema import get_json, validate_schema, generate_baseline_from_sections, generate_attribute_list
 from datasets import export_csv, export_json
 
-DATASET_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset.schema.json'
+DATASET_SCHEMA = 'schema/dataset.schema.json'
 BASELINE_SAMPLE = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
 DATASETS_JSON = "datasets.json"
 
@@ -109,8 +109,12 @@ def schema_validation_check():
         data.append(d)
     return data, list(set(headers))
 
-def detail_schema_errors_by_attribute():
-    pass
+def weighted_schema_errors_by_attribute(e, ew):
+    we_score = 1 # weighted error score starts at 100%, and reduces based on errors revealed below
+    for attribute_error in e["errors"]:
+        attribute_error_score = ew[attribute_error["attribute"]]
+        we_score = we_score - attribute_error_score
+    return we_score
 
 
 def generate_quality_score():
@@ -132,9 +136,12 @@ def generate_quality_score():
     schema = get_json(DATASET_SCHEMA)
     total_attributes = len(list(schema['properties'].keys()))
     errors = get_json('reports/schema_errors.json')
+    error_weightings = get_json('utility_weightings_by_attribute.json')
     for e in errors:
         e_score = round((e['schema_error_count'] / total_attributes) * 100, 2)
+        we_score = weighted_schema_errors_by_attribute(e, error_weightings)
         data[e['id']]['error_percent'] = e_score
+        data[e['id']]['weighted_error_score'] = we_score
     
     # # Calculate average quality score (lower the better)
     # quality_scores = [100 - round(mean([v['missingness_percent'], v['error_percent']]),2) for k, v in data.items()]
