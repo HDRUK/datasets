@@ -1,5 +1,5 @@
 {
-  "count": 444,
+  "count": 443,
   "dataModels": [
     {
       "id": "004d1932-f06e-49d2-b87a-e5e4140ffbb3",
@@ -18716,6 +18716,271 @@
       "dataClasses": []
     },
     {
+      "id": "531c5830-2408-451f-b515-4bff99a49ef1",
+      "domainType": "DataModel",
+      "label": "The National COVID-19 Chest Imaging Database",
+      "documentationVersion": "1.0.0",
+      "description": "The NCCID collects processed digital chest X-ray, CT and MR images as well as DICOM header information, which is de-identified at the point of upload. Associated clinical data from the collection sites is also gathered and de-identified. The categories of data collected are:\nRoutine demographic data\nRoutine cardiorespiratory assessment data at presentation\nAll CXRs performed during evaluation for COVID-19\nAll CT scans performed during evaluation for COVID-19\nAll chest imaging performed in the 3 years preceding the first COVID-19-related imaging study (for COVID-19 positively-swabbed patients only)\nScans (including MR) performed to investigate cardiac damage thought to be COVID-19-related\nBiochemical and haematological routinely collected data\nOutcome data, including the time to mechanical ventilation, discharge and death\n\nData will be collected for all COVID-19 positively-swabbed patients and a smaller sample of COVID-19 negatively-swabbed patients. \nFor PCR-positive patients, we are collecting images performed within the last three years for each patient. For PCR-negative patients, we are collecting images performed within the last 4 weeks for each patient. \nThe full list of clinical data points collected for positive and negative patients can found in the documents below:\nCovid-19 Data (Positive) Template v1.5 (Excel)\nCovid-19 Status (Negative) Template v1.0 (Excel).\n\nData is made available to users on a continuous basis as hospital sites contribute more data.",
+      "editable": false,
+      "lastUpdated": "2020-05-20T11:40:12.056Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-05-20T11:44:39.856Z",
+      "accessRequestCost": "0 GBP",
+      "keywords": "imaging, COVID-19, chest x-ray, chest CT scan, chest MRI",
+      "contactPoint": "imaging@nhsx.nhs.uk",
+      "accessRequestDuration": "2-4 weeks",
+      "jurisdiction": "GB",
+      "datasetEndDate": "2020-09-30",
+      "datasetStartDate": "2020-04-01",
+      "language": "en",
+      "title": "The National COVID-19 Chest Imaging Database",
+      "linkedDataset": "ISARIC - planned\nORFAN - planned\nCovidCollabs - planned",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Not Available",
+      "controlledVocabulary": "For imaging data: DICOM format. For clinical data: Custom spreadsheet",
+      "dataController": "NHS England and Department for Health and Social Care",
+      "statisticalPopulation": "720",
+      "group": "No group",
+      "identifier": "NCCID",
+      "creator": "NHSX recognises the contributions of the below hospitals and trusts to the database: \nRoyal United Hospitals Bath NHS Foundation Trust\nBrighton and Sussex University Hospitals NHS Trust\nLondon North West University Healthcare NHS Trust\nGeorge Eliot Hospital NHS Trust\nCwm Taf Morgannwg University Health Board\nHampshire Hospitals NHS Foundation Trust",
+      "releaseDate": "2020-05-01T00:00:00Z",
+      "format": "DICOM and JSON",
+      "abstract": "The National COVID-19 Chest Imaging Database is a joint collaboration between NHSX, BSTI and Royal Surrey NHS Foundation Trust to create a centralised UK database of X-Ray, CT and MRI images from hospital patients to inform the COVID-19 response.",
+      "dataProcessor": "The data processors are: 1) The Scientific Computing team of Royal Surrey County Hospital will be the data collector, 2) Faculty will provide the Platform environment to manage the data storage (on infrastructure owned by NHSX), 3) Third party technology developers will access the data and the Platform to create and validate software tools for the interpretation of chest X-Rays, CTs and MRIs of suspected COVID-19 patients, 4) Third party entities will utilise the data and the Platform to audit technology tools (such as AI products) to ensure they are robust, safe and useful for COVID-19 response",
+      "derivedDatasets": "Not Available",
+      "license": "Data Access Framework Contract: \nhttps://nhsx.github.io/covid-chest-imaging-database/_downloads/ef5e821d42e196fb3b77a25fcdfd07ff/NCCID_Data_Access_Framework_Contract.docx\n\nData Access Agreement: \nhttps://nhsx.github.io/covid-chest-imaging-database/_downloads/abe95d52fec6ccd6fedeb409d38068ce/NCCID_Data_Access_Agreement.docx",
+      "populationType": "Chest images and associated clinical data are collected for all patients that have received a positive result for a PCR test for COVID-19. In addition, a smaller sample of data is being collected for patients that have received a negative result for a PCR test for COVID-19. For PCR-positive patients, we are collecting images performed within the last three years for each patient. For PCR-negative patients, we are collecting images performed within the last 4 weeks for each patient.",
+      "fileSize": "Image: 1 MB, Clinical data sheet: 2 KB",
+      "periodicity": "Twice a week (approximately)",
+      "publisher": "ALLIANCE > NHSX",
+      "ageBand": "12 - 109",
+      "accessRights": "https://nhsx.github.io/covid-chest-imaging-database/",
+      "conformsTo": "DICOM",
+      "geographicCoverage": "England, Wales",
+      "doi": "Not Available",
+      "dataClassesCount": 3,
+      "dataClasses": [
+        {
+          "id": "5b0e8912-c5e4-47a4-b7f9-861135d1700d",
+          "domainType": "DataClass",
+          "label": "Clinical Data - Positive",
+          "description": "Spreadsheet of clinical data for positive COVID-19 patients to support chest images",
+          "lastUpdated": "2020-05-20T11:40:12.207Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "475191be-4712-4b8e-a6bd-5cc3cab91e63",
+              "domainType": "DataElement",
+              "label": "CXR severity for 1st CXR",
+              "description": "Mild = 1, Moderate = 2, Severe = 3",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "80bf4dec-7ac7-47b2-b7a3-92b34867e2ec",
+              "domainType": "DataElement",
+              "label": "Age",
+              "description": "Age",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "eebebaac-dadc-4913-b8ee-d26531248594",
+              "domainType": "DataElement",
+              "label": "PaO2",
+              "description": "% room air",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "83357c5b-4431-4003-98d8-517b1d3368cb",
+              "domainType": "DataElement",
+              "label": "CRP on admission",
+              "description": "mg/L",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "25f0c357-39b0-4138-ba93-68ea74bacce3",
+              "domainType": "DataElement",
+              "label": "Smoking status",
+              "description": "Never = 0, Ex-smoker = 1, Current = 2, Unknown = 3",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "7459a72f-c301-40e2-9d30-bd8cd41750cf",
+              "domainType": "DataElement",
+              "label": "Temperature on admission",
+              "description": "oC",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "a78b611f-5d52-4b57-b6ee-fe87fd53a9f4",
+              "domainType": "DataElement",
+              "label": "Platelet count on admission",
+              "description": "x109/L",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "c1744b89-c753-404a-839c-be593ac1a0c4",
+              "domainType": "DataElement",
+              "label": "If CKD, stage",
+              "description": "2 / 3 / 4/ 5",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "a4dc7b6f-6fa1-4f06-b232-e9baf104c679",
+              "domainType": "DataElement",
+              "label": "PMH hypertension",
+              "description": "PMH hypertension",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "3efae74d-13c0-449c-be3b-da3aa1073da7",
+              "domainType": "DataElement",
+              "label": "Heart rate on admission",
+              "description": "beats/min",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            }
+          ]
+        },
+        {
+          "id": "e6dd6246-fa4d-449b-9f1d-4393210b7224",
+          "domainType": "DataClass",
+          "label": "Clinical Data - Negative",
+          "description": "Spreadsheet of clinical data for negative COVID-19 patients to support chest images",
+          "lastUpdated": "2020-05-20T11:40:12.208Z",
+          "dataElementsCount": 4,
+          "dataElements": [
+            {
+              "id": "a9c8690e-1201-4fce-a536-6699a1102358",
+              "domainType": "DataElement",
+              "label": "Date of RT-PCR",
+              "description": "Date of RT-PCR",
+              "dataType": {
+                "id": "d245a063-4a1b-4896-adb9-ff584f08a50e",
+                "domainType": "PrimitiveType",
+                "label": "Date"
+              }
+            },
+            {
+              "id": "2d7deb23-06fa-4802-ba1e-7ac81065d5f6",
+              "domainType": "DataElement",
+              "label": "RT-PCR result",
+              "description": "COVID-19 negative = 0, COVID-19 positive = 1",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "623cbb97-8321-4046-a730-fd56f3a935a2",
+              "domainType": "DataElement",
+              "label": "Hospital (Internal) Number",
+              "description": "Hospital (Internal) Number",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "506a3e99-03ca-42a5-9416-cf0791649ccc",
+              "domainType": "DataElement",
+              "label": "NHS/CHI Number",
+              "description": "NHS/CHI Number",
+              "dataType": {
+                "id": "8cb0517b-31c4-43ab-a47a-1c5676da8616",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            }
+          ]
+        },
+        {
+          "id": "be85c13d-2de7-42ed-be13-bd56067ef640",
+          "domainType": "DataClass",
+          "label": "Imaging Data",
+          "description": "Chest images for positive COVID-19 patients and smaller sample of negative patients",
+          "lastUpdated": "2020-05-20T11:40:12.209Z",
+          "dataElementsCount": 3,
+          "dataElements": [
+            {
+              "id": "0a860ac3-6ee6-40b0-9aed-e85a023e284f",
+              "domainType": "DataElement",
+              "label": "MRI",
+              "description": "MRI image for COVID-19 patient",
+              "dataType": {
+                "id": "62a4535c-f72f-4c68-9538-4e5ecf0a6b03",
+                "domainType": "PrimitiveType",
+                "label": "DICOM"
+              }
+            },
+            {
+              "id": "16a3c9e7-bb3a-4197-8ba7-6671dfbb1d28",
+              "domainType": "DataElement",
+              "label": "CT Scan",
+              "description": "CT scan image for COVID-19 patient",
+              "dataType": {
+                "id": "62a4535c-f72f-4c68-9538-4e5ecf0a6b03",
+                "domainType": "PrimitiveType",
+                "label": "DICOM"
+              }
+            },
+            {
+              "id": "6ffce663-92f4-4683-bff6-93922dc69044",
+              "domainType": "DataElement",
+              "label": "X-Ray",
+              "description": "X-ray image for COVID-19 patient",
+              "dataType": {
+                "id": "62a4535c-f72f-4c68-9538-4e5ecf0a6b03",
+                "domainType": "PrimitiveType",
+                "label": "DICOM"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "535fbfd4-34f0-436d-8de2-e708fd0fa103",
       "domainType": "DataModel",
       "label": "National Audit of Care at the End of Life - organisational level audit",
@@ -31173,271 +31438,6 @@
       "group": "N/A",
       "dataClassesCount": 0,
       "dataClasses": []
-    },
-    {
-      "id": "7d9d77da-1838-4e1e-8756-c1a196dc9d56",
-      "domainType": "DataModel",
-      "label": "The National COVID-19 Chest Imaging Database",
-      "documentationVersion": "0.0.1",
-      "description": "The NCCID collects processed digital chest X-ray, CT and MR images as well as DICOM header information, which is de-identified at the point of upload. Associated clinical data from the collection sites is also gathered and de-identified. The categories of data collected are:\nRoutine demographic data\nRoutine cardiorespiratory assessment data at presentation\nAll CXRs performed during evaluation for COVID-19\nAll CT scans performed during evaluation for COVID-19\nAll chest imaging performed in the 3 years preceding the first COVID-19-related imaging study (for COVID-19 positively-swabbed patients only)\nScans (including MR) performed to investigate cardiac damage thought to be COVID-19-related\nBiochemical and haematological routinely collected data\nOutcome data, including the time to mechanical ventilation, discharge and death\n\nData will be collected for all COVID-19 positively-swabbed patients and a smaller sample of COVID-19 negatively-swabbed patients. \nFor PCR-positive patients, we are collecting images performed within the last three years for each patient. For PCR-negative patients, we are collecting images performed within the last 4 weeks for each patient. \nThe full list of clinical data points collected for positive and negative patients can found in the documents below:\nCovid-19 Data (Positive) Template v1.5 (Excel)\nCovid-19 Status (Negative) Template v1.0 (Excel).\n\nData is made available to users on a continuous basis as hospital sites contribute more data.",
-      "editable": false,
-      "lastUpdated": "2020-05-19T16:02:04.66Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-05-19T16:06:30.457Z",
-      "accessRequestCost": "0 GBP",
-      "keywords": "imaging, COVID-19, chest x-ray, chest CT scan, chest MRI",
-      "contactPoint": "imaging@nhsx.nhs.uk",
-      "accessRequestDuration": "2-4 weeks",
-      "jurisdiction": "GB",
-      "datasetEndDate": "2020-09-30",
-      "datasetStartDate": "2020-04-01",
-      "language": "en",
-      "title": "The National COVID-19 Chest Imaging Database",
-      "linkedDataset": "ISARIC - planned\nORPHAN - planned\nCovidCollabs - planned",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Not Available",
-      "controlledVocabulary": "For imaging data: DICOM format. For clinical data: Custom spreadsheet",
-      "dataController": "NHS England and Department for Health and Social Care",
-      "statisticalPopulation": "720",
-      "group": "No group",
-      "identifier": "NCCID",
-      "creator": "NHSX recognises the contributions of the below hospitals and trusts to the database: \nRoyal United Hospitals Bath NHS Foundation Trust\nBrighton and Sussex University Hospitals NHS Trust\nLondon North West University Healthcare NHS Trust\nGeorge Eliot Hospital NHS Trust\nCwm Taf Morgannwg University Health Board",
-      "releaseDate": "2020-05-01T00:00:00Z",
-      "format": "DICOM and JSON",
-      "abstract": "The National COVID-19 Chest Imaging Database is a joint collaboration between NHSX, BSTI and Royal Surrey NHS Foundation Trust to create a centralised UK database of X-Ray, CT and MRI images from hospital patients to inform the COVID-19 response.",
-      "dataProcessor": "The data processors are: 1) The Scientific Computing team of Royal Surrey County Hospital will be the data collector, 2) Faculty will provide the Platform environment to manage the data storage (on infrastructure owned by NHSX), 3) Third party technology developers will access the data and the Platform to create and validate software tools for the interpretation of chest X-Rays, CTs and MRIs of suspected COVID-19 patients, 4) Third party entities will utilise the data and the Platform to audit technology tools (such as AI products) to ensure they are robust, safe and useful for COVID-19 response",
-      "derivedDatasets": "Not Available",
-      "license": "Data Access Framework Contract: \nhttps://nhsx.github.io/covid-chest-imaging-database/_downloads/ef5e821d42e196fb3b77a25fcdfd07ff/NCCID_Data_Access_Framework_Contract.docx\n\nData Access Agreement: \nhttps://nhsx.github.io/covid-chest-imaging-database/_downloads/abe95d52fec6ccd6fedeb409d38068ce/NCCID_Data_Access_Agreement.docx",
-      "populationType": "Chest images and associated clinical data are collected for all patients that have received a positive result for a PCR test for COVID-19. In addition, a smaller sample of data is being collected for patients that have received a negative result for a PCR test for COVID-19. For PCR-positive patients, we are collecting images performed within the last three years for each patient. For PCR-negative patients, we are collecting images performed within the last 4 weeks for each patient.",
-      "fileSize": "Image: 1 MB, Clinical data sheet: 2 KB",
-      "periodicity": "Twice a week (approximately)",
-      "publisher": "ALLIANCE > NHSX",
-      "ageBand": "12 - 109",
-      "accessRights": "https://nhsx.github.io/covid-chest-imaging-database/",
-      "conformsTo": "DICOM",
-      "geographicCoverage": "England, Wales",
-      "doi": "Not Available",
-      "dataClassesCount": 3,
-      "dataClasses": [
-        {
-          "id": "30972736-47d4-49df-91b3-ebc5eb06045b",
-          "domainType": "DataClass",
-          "label": "Imaging Data",
-          "description": "Chest images for positive COVID-19 patients and smaller sample of negative patients",
-          "lastUpdated": "2020-05-19T16:02:04.703Z",
-          "dataElementsCount": 3,
-          "dataElements": [
-            {
-              "id": "5f4e8741-83dd-4577-a684-459d3bfd874a",
-              "domainType": "DataElement",
-              "label": "X-Ray",
-              "description": "X-ray image for COVID-19 patient",
-              "dataType": {
-                "id": "f08a9c1c-22ef-44d4-9212-b7d74326f025",
-                "domainType": "PrimitiveType",
-                "label": "DICOM"
-              }
-            },
-            {
-              "id": "0ca5c584-79e1-4893-8aad-3f791df34fce",
-              "domainType": "DataElement",
-              "label": "MRI",
-              "description": "MRI image for COVID-19 patient",
-              "dataType": {
-                "id": "f08a9c1c-22ef-44d4-9212-b7d74326f025",
-                "domainType": "PrimitiveType",
-                "label": "DICOM"
-              }
-            },
-            {
-              "id": "a8976edc-8aa0-47b5-9964-0b615c2aeb58",
-              "domainType": "DataElement",
-              "label": "CT Scan",
-              "description": "CT scan image for COVID-19 patient",
-              "dataType": {
-                "id": "f08a9c1c-22ef-44d4-9212-b7d74326f025",
-                "domainType": "PrimitiveType",
-                "label": "DICOM"
-              }
-            }
-          ]
-        },
-        {
-          "id": "dd032338-afe9-438f-ab0b-b4c52eb43d2a",
-          "domainType": "DataClass",
-          "label": "Clinical Data - Negative",
-          "description": "Spreadsheet of clinical data for negative COVID-19 patients to support chest images",
-          "lastUpdated": "2020-05-19T16:02:04.705Z",
-          "dataElementsCount": 4,
-          "dataElements": [
-            {
-              "id": "ab549ff2-ea83-43f5-b877-a2e8b66461ca",
-              "domainType": "DataElement",
-              "label": "RT-PCR result",
-              "description": "COVID-19 negative = 0, COVID-19 positive = 1",
-              "dataType": {
-                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
-                "domainType": "PrimitiveType",
-                "label": "Number"
-              }
-            },
-            {
-              "id": "30668ac9-ae40-44ef-b492-a67456c8c0fa",
-              "domainType": "DataElement",
-              "label": "Date of RT-PCR",
-              "description": "Date of RT-PCR",
-              "dataType": {
-                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
-                "domainType": "PrimitiveType",
-                "label": "Date"
-              }
-            },
-            {
-              "id": "6349508f-5a3f-489a-bbac-83ddf4032b9a",
-              "domainType": "DataElement",
-              "label": "NHS/CHI Number",
-              "description": "NHS/CHI Number",
-              "dataType": {
-                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
-                "domainType": "PrimitiveType",
-                "label": "Number"
-              }
-            },
-            {
-              "id": "81c2cad7-55e6-442b-924d-448d0e06db4e",
-              "domainType": "DataElement",
-              "label": "Hospital (Internal) Number",
-              "description": "Hospital (Internal) Number",
-              "dataType": {
-                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
-                "domainType": "PrimitiveType",
-                "label": "Number"
-              }
-            }
-          ]
-        },
-        {
-          "id": "aae7c389-de60-4b8f-bbfd-d1e9288d08f9",
-          "domainType": "DataClass",
-          "label": "Clinical Data - Positive",
-          "description": "Spreadsheet of clinical data for positive COVID-19 patients to support chest images",
-          "lastUpdated": "2020-05-19T16:02:04.706Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "d91de532-35b0-4256-ba0f-04acbc7182a7",
-              "domainType": "DataElement",
-              "label": "CRP on admission",
-              "description": "mg/L",
-              "dataType": {
-                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
-                "domainType": "PrimitiveType",
-                "label": "Number"
-              }
-            },
-            {
-              "id": "1dd888d2-4a4a-4e92-9c8c-4999c5e5a822",
-              "domainType": "DataElement",
-              "label": "Date of acquisition of 1st RT-PCR",
-              "description": "Date of acquisition of 1st RT-PCR",
-              "dataType": {
-                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
-                "domainType": "PrimitiveType",
-                "label": "Date"
-              }
-            },
-            {
-              "id": "85e462de-e498-4dbb-9e63-cd723131d772",
-              "domainType": "DataElement",
-              "label": "Date of result of 1st RT-PCR",
-              "description": "Date of result of 1st RT-PCR",
-              "dataType": {
-                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
-                "domainType": "PrimitiveType",
-                "label": "Date"
-              }
-            },
-            {
-              "id": "d768d568-577c-4de7-967a-b1b49154c696",
-              "domainType": "DataElement",
-              "label": "Hospital Name",
-              "description": "Hospital Name",
-              "dataType": {
-                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
-                "domainType": "PrimitiveType",
-                "label": "Number"
-              }
-            },
-            {
-              "id": "cb408fab-0371-4cd2-9752-b6e0bb8e055f",
-              "domainType": "DataElement",
-              "label": "Date of 2nd CXR",
-              "description": "Date of 2nd CXR",
-              "dataType": {
-                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
-                "domainType": "PrimitiveType",
-                "label": "Date"
-              }
-            },
-            {
-              "id": "55895433-821a-4e7d-8b0f-67c3a15a7f6a",
-              "domainType": "DataElement",
-              "label": "Date of admission",
-              "description": "Date of admission",
-              "dataType": {
-                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
-                "domainType": "PrimitiveType",
-                "label": "Date"
-              }
-            },
-            {
-              "id": "5cf9c779-0ac7-4130-8e0d-2d8d3f0eba63",
-              "domainType": "DataElement",
-              "label": "Date of ITU admission",
-              "description": "Date of ITU admission",
-              "dataType": {
-                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
-                "domainType": "PrimitiveType",
-                "label": "Date"
-              }
-            },
-            {
-              "id": "f2c4781f-9fc1-4851-b0f8-65a90dc97dcc",
-              "domainType": "DataElement",
-              "label": "PaO2",
-              "description": "% room air",
-              "dataType": {
-                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
-                "domainType": "PrimitiveType",
-                "label": "Number"
-              }
-            },
-            {
-              "id": "03ace43a-f7b6-48a8-ac2a-ca1cc5072c8b",
-              "domainType": "DataElement",
-              "label": "Date of intubation",
-              "description": "Date of intubation",
-              "dataType": {
-                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
-                "domainType": "PrimitiveType",
-                "label": "Date"
-              }
-            },
-            {
-              "id": "bf582f4b-e227-49b4-8177-1cfdb47fdcd6",
-              "domainType": "DataElement",
-              "label": "CXR severity for 1st CXR",
-              "description": "Mild = 1, Moderate = 2, Severe = 3",
-              "dataType": {
-                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
-                "domainType": "PrimitiveType",
-                "label": "Number"
-              }
-            }
-          ]
-        }
-      ]
     },
     {
       "id": "7dc319da-a16f-4e63-a115-0cba3905a322",
@@ -52052,14 +52052,14 @@
       "lastUpdated": "2020-01-14T12:10:30.442Z",
       "classifiers": [
         {
-          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
-          "label": "Critical Care",
-          "lastUpdated": "2019-10-24T09:45:59.854Z"
-        },
-        {
           "id": "ef85dd01-09a1-43af-81ef-82e402328572",
           "label": "NIHR HIC Data Models",
           "lastUpdated": "2019-12-17T12:17:55.21Z"
+        },
+        {
+          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
+          "label": "Critical Care",
+          "lastUpdated": "2019-10-24T09:45:59.854Z"
         }
       ],
       "type": "Data Asset",
@@ -64806,754 +64806,6 @@
                 "id": "13936caf-f065-46c0-bee5-3efb4bc38ea9",
                 "domainType": "PrimitiveType",
                 "label": "String"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-      "domainType": "DataModel",
-      "label": "COG-UK Viral Genome Sequences v2",
-      "documentationVersion": "1.0.0",
-      "description": "The current COVID-19 pandemic, caused by the SARS-CoV-2 virus, represents a major threat to health in the UK and globally. To fully understand the transmission and evolution of the virus requires sequencing and analysing viral genomes at scale and speed. The numbers of samples calls for a rapid increase in the UK\u2019s pathogen genome sequencing capacity rapidly and robustly.\n\nTo provide this increased capacity to collect, sequence and analyse the whole genomes of virus samples in the UK, the COVID-19 Genomics UK (COG-UK) consortium is pooling the world leading knowledge and expertise in genomics of the four UK Public Health Agencies, multiple regional University hubs, and large sequencing centres such as the Wellcome Sanger Institute.",
-      "semanticLinks": [
-        {
-          "id": "be8701c0-ae6d-4808-806d-79c2ce5bb87d",
-          "linkType": "New Version Of",
-          "domainType": "CatalogueSemanticLink",
-          "source": {
-            "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-            "domainType": "DataModel",
-            "label": "COG-UK Viral Genome Sequences v2",
-            "documentationVersion": "1.0.0"
-          },
-          "target": {
-            "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-            "domainType": "DataModel",
-            "label": "COG-UK Viral Genome Sequences",
-            "documentationVersion": "1.0.0"
-          }
-        }
-      ],
-      "editable": false,
-      "lastUpdated": "2020-05-11T10:43:20.405Z",
-      "type": "Data Asset",
-      "finalised": false,
-      "accessRequestCost": "Free",
-      "keywords": "COG-UK, COVID-19, SARS-CoV-2, genomics, viral sequence, FASTA",
-      "contactPoint": "https://www.cogconsortium.uk/contact/",
-      "accessRequestDuration": "Immediate",
-      "jurisdiction": "GB",
-      "datasetEndDate": "2020-09-30",
-      "datasetStartDate": "2020-01-28",
-      "language": "en",
-      "title": "COG-UK Viral Genome Sequences v2",
-      "linkedDataset": "No",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "None",
-      "controlledVocabulary": "See ConformsTo",
-      "dataController": "Public Health Authorities (ENG, NI, WAL, SCOT)",
-      "statisticalPopulation": "10567",
-      "group": "Not Applicable",
-      "identifier": "COG-UK-VIRAL-GENOMES",
-      "creator": "COG-UK Consortium",
-      "releaseDate": "2020-04-27T00:00:00Z",
-      "format": "FASTA",
-      "abstract": "COG-UK Consortium has published dataset contains over 10K SARS-CoV-2 viral genome sequences available as open access.",
-      "dataProcessor": "CLIMB",
-      "derivedDatasets": "No",
-      "license": "https://www.cogconsortium.uk/data/",
-      "populationType": "Patients having COVID-19 genome sequence completed in UK",
-      "fileSize": "301MB",
-      "periodicity": "daily",
-      "publisher": "COG-UK",
-      "ageBand": "All Ages",
-      "accessRights": "https://www.cogconsortium.uk/data/",
-      "conformsTo": "https://www.cogconsortium.uk/protocols/",
-      "geographicCoverage": "GB",
-      "doi": "N/A",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
-          "domainType": "DataClass",
-          "label": "cog_2020-04-24_metadata",
-          "description": "COG-UK Serquence Metadata",
-          "semanticLinks": [
-            {
-              "id": "61abb722-e08a-476b-bb8b-d55f7fcb6385",
-              "linkType": "Refines",
-              "domainType": "CatalogueSemanticLink",
-              "source": {
-                "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
-                "domainType": "DataClass",
-                "label": "cog_2020-04-24_metadata",
-                "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                "breadcrumbs": [
-                  {
-                    "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                    "label": "COG-UK Viral Genome Sequences v2",
-                    "domainType": "DataModel",
-                    "finalised": false
-                  }
-                ]
-              },
-              "target": {
-                "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
-                "domainType": "DataClass",
-                "label": "cog_2020-04-24_metadata",
-                "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                "breadcrumbs": [
-                  {
-                    "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                    "label": "COG-UK Viral Genome Sequences",
-                    "domainType": "DataModel",
-                    "finalised": true
-                  }
-                ]
-              }
-            }
-          ],
-          "lastUpdated": "2020-05-11T10:43:20.396Z",
-          "dataElementsCount": 7,
-          "dataElements": [
-            {
-              "id": "f1dac25f-5b91-47d9-8f47-e3581c923c14",
-              "domainType": "DataElement",
-              "label": "sequence_name",
-              "description": "Name of the viral sequence",
-              "semanticLinks": [
-                {
-                  "id": "d7946080-fcfd-4ec5-a4e5-63c962911bd4",
-                  "linkType": "Refines",
-                  "domainType": "CatalogueSemanticLink",
-                  "source": {
-                    "id": "f1dac25f-5b91-47d9-8f47-e3581c923c14",
-                    "domainType": "DataElement",
-                    "label": "sequence_name",
-                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                    "breadcrumbs": [
-                      {
-                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                        "label": "COG-UK Viral Genome Sequences v2",
-                        "domainType": "DataModel",
-                        "finalised": false
-                      },
-                      {
-                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  },
-                  "target": {
-                    "id": "c0cbd6bc-71e6-4540-8fa7-5575958824bd",
-                    "domainType": "DataElement",
-                    "label": "sequence_name",
-                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                    "breadcrumbs": [
-                      {
-                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                        "label": "COG-UK Viral Genome Sequences",
-                        "domainType": "DataModel",
-                        "finalised": true
-                      },
-                      {
-                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  }
-                }
-              ],
-              "dataType": {
-                "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
-                "domainType": "PrimitiveType",
-                "label": "Text",
-                "semanticLinks": [
-                  {
-                    "id": "1e269041-2666-4717-a002-c76385e9bf8f",
-                    "linkType": "Refines",
-                    "domainType": "CatalogueSemanticLink",
-                    "source": {
-                      "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
-                      "domainType": "PrimitiveType",
-                      "label": "Text",
-                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                      "breadcrumbs": [
-                        {
-                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                          "label": "COG-UK Viral Genome Sequences v2",
-                          "domainType": "DataModel",
-                          "finalised": false
-                        }
-                      ]
-                    },
-                    "target": {
-                      "id": "9d8455dc-519d-43ac-a87c-bcc281fbd2a3",
-                      "domainType": "PrimitiveType",
-                      "label": "Text",
-                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                      "breadcrumbs": [
-                        {
-                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                          "label": "COG-UK Viral Genome Sequences",
-                          "domainType": "DataModel",
-                          "finalised": true
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "id": "b682987e-9741-479c-80b5-5ff962831cc5",
-              "domainType": "DataElement",
-              "label": "lineage_support",
-              "description": "Lineage Support",
-              "semanticLinks": [
-                {
-                  "id": "552344ea-a6e1-4ae1-a239-c946b5f88b48",
-                  "linkType": "Refines",
-                  "domainType": "CatalogueSemanticLink",
-                  "source": {
-                    "id": "b682987e-9741-479c-80b5-5ff962831cc5",
-                    "domainType": "DataElement",
-                    "label": "lineage_support",
-                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                    "breadcrumbs": [
-                      {
-                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                        "label": "COG-UK Viral Genome Sequences v2",
-                        "domainType": "DataModel",
-                        "finalised": false
-                      },
-                      {
-                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  },
-                  "target": {
-                    "id": "15c0f7fe-d8c0-4700-9e1d-7a5c2ab0b14f",
-                    "domainType": "DataElement",
-                    "label": "lineage_support",
-                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                    "breadcrumbs": [
-                      {
-                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                        "label": "COG-UK Viral Genome Sequences",
-                        "domainType": "DataModel",
-                        "finalised": true
-                      },
-                      {
-                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  }
-                }
-              ],
-              "dataType": {
-                "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
-                "domainType": "PrimitiveType",
-                "label": "Text",
-                "semanticLinks": [
-                  {
-                    "id": "1e269041-2666-4717-a002-c76385e9bf8f",
-                    "linkType": "Refines",
-                    "domainType": "CatalogueSemanticLink",
-                    "source": {
-                      "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
-                      "domainType": "PrimitiveType",
-                      "label": "Text",
-                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                      "breadcrumbs": [
-                        {
-                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                          "label": "COG-UK Viral Genome Sequences v2",
-                          "domainType": "DataModel",
-                          "finalised": false
-                        }
-                      ]
-                    },
-                    "target": {
-                      "id": "9d8455dc-519d-43ac-a87c-bcc281fbd2a3",
-                      "domainType": "PrimitiveType",
-                      "label": "Text",
-                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                      "breadcrumbs": [
-                        {
-                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                          "label": "COG-UK Viral Genome Sequences",
-                          "domainType": "DataModel",
-                          "finalised": true
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "id": "d5406b1a-9ebd-4ff6-84a1-643a1baa0f87",
-              "domainType": "DataElement",
-              "label": "epi_week",
-              "description": "Episode Week",
-              "semanticLinks": [
-                {
-                  "id": "b249d269-4cc0-4f85-82c7-cead0f01b463",
-                  "linkType": "Refines",
-                  "domainType": "CatalogueSemanticLink",
-                  "source": {
-                    "id": "d5406b1a-9ebd-4ff6-84a1-643a1baa0f87",
-                    "domainType": "DataElement",
-                    "label": "epi_week",
-                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                    "breadcrumbs": [
-                      {
-                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                        "label": "COG-UK Viral Genome Sequences v2",
-                        "domainType": "DataModel",
-                        "finalised": false
-                      },
-                      {
-                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  },
-                  "target": {
-                    "id": "d3d26a82-6127-4c49-a983-e8751ba17d96",
-                    "domainType": "DataElement",
-                    "label": "epi_week",
-                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                    "breadcrumbs": [
-                      {
-                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                        "label": "COG-UK Viral Genome Sequences",
-                        "domainType": "DataModel",
-                        "finalised": true
-                      },
-                      {
-                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  }
-                }
-              ],
-              "dataType": {
-                "id": "d9a60189-0d42-4fc8-91ef-373b086d53b2",
-                "domainType": "PrimitiveType",
-                "label": "Number",
-                "semanticLinks": [
-                  {
-                    "id": "5c8b19f5-3407-47b3-a054-22f4aa78a484",
-                    "linkType": "Refines",
-                    "domainType": "CatalogueSemanticLink",
-                    "source": {
-                      "id": "d9a60189-0d42-4fc8-91ef-373b086d53b2",
-                      "domainType": "PrimitiveType",
-                      "label": "Number",
-                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                      "breadcrumbs": [
-                        {
-                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                          "label": "COG-UK Viral Genome Sequences v2",
-                          "domainType": "DataModel",
-                          "finalised": false
-                        }
-                      ]
-                    },
-                    "target": {
-                      "id": "365054b2-14ed-41ce-8db8-c4afb3cb117c",
-                      "domainType": "PrimitiveType",
-                      "label": "Number",
-                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                      "breadcrumbs": [
-                        {
-                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                          "label": "COG-UK Viral Genome Sequences",
-                          "domainType": "DataModel",
-                          "finalised": true
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "id": "3468cab7-0340-43ed-9547-e2f4737f5d26",
-              "domainType": "DataElement",
-              "label": "sample_date",
-              "description": "Sample Date",
-              "semanticLinks": [
-                {
-                  "id": "849dd43c-26c2-441b-b637-3946cc7ed124",
-                  "linkType": "Refines",
-                  "domainType": "CatalogueSemanticLink",
-                  "source": {
-                    "id": "3468cab7-0340-43ed-9547-e2f4737f5d26",
-                    "domainType": "DataElement",
-                    "label": "sample_date",
-                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                    "breadcrumbs": [
-                      {
-                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                        "label": "COG-UK Viral Genome Sequences v2",
-                        "domainType": "DataModel",
-                        "finalised": false
-                      },
-                      {
-                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  },
-                  "target": {
-                    "id": "ae414622-3e01-4729-b163-3e5f3d157376",
-                    "domainType": "DataElement",
-                    "label": "sample_date",
-                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                    "breadcrumbs": [
-                      {
-                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                        "label": "COG-UK Viral Genome Sequences",
-                        "domainType": "DataModel",
-                        "finalised": true
-                      },
-                      {
-                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  }
-                }
-              ],
-              "dataType": {
-                "id": "ed0cea69-2fc3-4307-aeb9-9b386cf99b06",
-                "domainType": "PrimitiveType",
-                "label": "Date",
-                "semanticLinks": [
-                  {
-                    "id": "6e7b379c-73fe-4ea4-871e-94c78842e50f",
-                    "linkType": "Refines",
-                    "domainType": "CatalogueSemanticLink",
-                    "source": {
-                      "id": "ed0cea69-2fc3-4307-aeb9-9b386cf99b06",
-                      "domainType": "PrimitiveType",
-                      "label": "Date",
-                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                      "breadcrumbs": [
-                        {
-                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                          "label": "COG-UK Viral Genome Sequences v2",
-                          "domainType": "DataModel",
-                          "finalised": false
-                        }
-                      ]
-                    },
-                    "target": {
-                      "id": "bd70f766-b1c8-4ab8-9cb6-571362cfeb4e",
-                      "domainType": "PrimitiveType",
-                      "label": "Date",
-                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                      "breadcrumbs": [
-                        {
-                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                          "label": "COG-UK Viral Genome Sequences",
-                          "domainType": "DataModel",
-                          "finalised": true
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "id": "277c9415-39f0-42e9-af98-825ba366265e",
-              "domainType": "DataElement",
-              "label": "lineage",
-              "description": "Viral lineage",
-              "semanticLinks": [
-                {
-                  "id": "ffb884b4-39a0-4a9b-9ee1-89575c22e1f9",
-                  "linkType": "Refines",
-                  "domainType": "CatalogueSemanticLink",
-                  "source": {
-                    "id": "277c9415-39f0-42e9-af98-825ba366265e",
-                    "domainType": "DataElement",
-                    "label": "lineage",
-                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                    "breadcrumbs": [
-                      {
-                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                        "label": "COG-UK Viral Genome Sequences v2",
-                        "domainType": "DataModel",
-                        "finalised": false
-                      },
-                      {
-                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  },
-                  "target": {
-                    "id": "163155b9-0685-454a-a6d5-0847fbd98802",
-                    "domainType": "DataElement",
-                    "label": "lineage",
-                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                    "breadcrumbs": [
-                      {
-                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                        "label": "COG-UK Viral Genome Sequences",
-                        "domainType": "DataModel",
-                        "finalised": true
-                      },
-                      {
-                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  }
-                }
-              ],
-              "dataType": {
-                "id": "6c0fab48-ddec-4a83-9f42-17ca5860efb1",
-                "domainType": "PrimitiveType",
-                "label": "Coding",
-                "semanticLinks": [
-                  {
-                    "id": "dcd9aca3-d906-4f76-a6cb-c5c50d121070",
-                    "linkType": "Refines",
-                    "domainType": "CatalogueSemanticLink",
-                    "source": {
-                      "id": "6c0fab48-ddec-4a83-9f42-17ca5860efb1",
-                      "domainType": "PrimitiveType",
-                      "label": "Coding",
-                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                      "breadcrumbs": [
-                        {
-                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                          "label": "COG-UK Viral Genome Sequences v2",
-                          "domainType": "DataModel",
-                          "finalised": false
-                        }
-                      ]
-                    },
-                    "target": {
-                      "id": "1d74655b-a07c-480d-b406-eda95ed56710",
-                      "domainType": "PrimitiveType",
-                      "label": "Coding",
-                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                      "breadcrumbs": [
-                        {
-                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                          "label": "COG-UK Viral Genome Sequences",
-                          "domainType": "DataModel",
-                          "finalised": true
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "id": "6baa786e-65ed-4a72-97f6-3bd403483ac9",
-              "domainType": "DataElement",
-              "label": "country",
-              "description": "Country collected",
-              "semanticLinks": [
-                {
-                  "id": "d453c469-08e1-45e4-9d19-c8d0290c1d88",
-                  "linkType": "Refines",
-                  "domainType": "CatalogueSemanticLink",
-                  "source": {
-                    "id": "6baa786e-65ed-4a72-97f6-3bd403483ac9",
-                    "domainType": "DataElement",
-                    "label": "country",
-                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                    "breadcrumbs": [
-                      {
-                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                        "label": "COG-UK Viral Genome Sequences v2",
-                        "domainType": "DataModel",
-                        "finalised": false
-                      },
-                      {
-                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  },
-                  "target": {
-                    "id": "47fbf885-eee5-443a-b9bd-5dae16e2a2d0",
-                    "domainType": "DataElement",
-                    "label": "country",
-                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                    "breadcrumbs": [
-                      {
-                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                        "label": "COG-UK Viral Genome Sequences",
-                        "domainType": "DataModel",
-                        "finalised": true
-                      },
-                      {
-                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  }
-                }
-              ],
-              "dataType": {
-                "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
-                "domainType": "PrimitiveType",
-                "label": "Text",
-                "semanticLinks": [
-                  {
-                    "id": "1e269041-2666-4717-a002-c76385e9bf8f",
-                    "linkType": "Refines",
-                    "domainType": "CatalogueSemanticLink",
-                    "source": {
-                      "id": "03b20b6e-2d0b-4b00-af5c-75402a5495eb",
-                      "domainType": "PrimitiveType",
-                      "label": "Text",
-                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                      "breadcrumbs": [
-                        {
-                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                          "label": "COG-UK Viral Genome Sequences v2",
-                          "domainType": "DataModel",
-                          "finalised": false
-                        }
-                      ]
-                    },
-                    "target": {
-                      "id": "9d8455dc-519d-43ac-a87c-bcc281fbd2a3",
-                      "domainType": "PrimitiveType",
-                      "label": "Text",
-                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                      "breadcrumbs": [
-                        {
-                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                          "label": "COG-UK Viral Genome Sequences",
-                          "domainType": "DataModel",
-                          "finalised": true
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "id": "a7a096bd-e8a8-4a46-a2c4-dddb6ffc8894",
-              "domainType": "DataElement",
-              "label": "adm1",
-              "description": "Nation of first adission",
-              "semanticLinks": [
-                {
-                  "id": "44616306-4c45-415f-b9e7-a09c4c2bc3a7",
-                  "linkType": "Refines",
-                  "domainType": "CatalogueSemanticLink",
-                  "source": {
-                    "id": "a7a096bd-e8a8-4a46-a2c4-dddb6ffc8894",
-                    "domainType": "DataElement",
-                    "label": "adm1",
-                    "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                    "breadcrumbs": [
-                      {
-                        "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                        "label": "COG-UK Viral Genome Sequences v2",
-                        "domainType": "DataModel",
-                        "finalised": false
-                      },
-                      {
-                        "id": "f6a2795f-5788-49c2-bdc2-4857e57d0639",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  },
-                  "target": {
-                    "id": "258e821b-9d25-472d-8ec2-bd47ca1621f9",
-                    "domainType": "DataElement",
-                    "label": "adm1",
-                    "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                    "breadcrumbs": [
-                      {
-                        "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                        "label": "COG-UK Viral Genome Sequences",
-                        "domainType": "DataModel",
-                        "finalised": true
-                      },
-                      {
-                        "id": "a0028b3e-d753-4a10-ad8e-08acedfc43cb",
-                        "label": "cog_2020-04-24_metadata",
-                        "domainType": "DataClass"
-                      }
-                    ]
-                  }
-                }
-              ],
-              "dataType": {
-                "id": "6c0fab48-ddec-4a83-9f42-17ca5860efb1",
-                "domainType": "PrimitiveType",
-                "label": "Coding",
-                "semanticLinks": [
-                  {
-                    "id": "dcd9aca3-d906-4f76-a6cb-c5c50d121070",
-                    "linkType": "Refines",
-                    "domainType": "CatalogueSemanticLink",
-                    "source": {
-                      "id": "6c0fab48-ddec-4a83-9f42-17ca5860efb1",
-                      "domainType": "PrimitiveType",
-                      "label": "Coding",
-                      "dataModel": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                      "breadcrumbs": [
-                        {
-                          "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-                          "label": "COG-UK Viral Genome Sequences v2",
-                          "domainType": "DataModel",
-                          "finalised": false
-                        }
-                      ]
-                    },
-                    "target": {
-                      "id": "1d74655b-a07c-480d-b406-eda95ed56710",
-                      "domainType": "PrimitiveType",
-                      "label": "Coding",
-                      "dataModel": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                      "breadcrumbs": [
-                        {
-                          "id": "be22a45f-ffc0-41cc-89f6-57f2733672e5",
-                          "label": "COG-UK Viral Genome Sequences",
-                          "domainType": "DataModel",
-                          "finalised": true
-                        }
-                      ]
-                    }
-                  }
-                ]
               }
             }
           ]

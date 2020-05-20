@@ -8857,6 +8857,49 @@
     ]
   },
   {
+    "id": "531c5830-2408-451f-b515-4bff99a49ef1",
+    "publisher": "ALLIANCE > NHSX",
+    "title": "The National COVID-19 Chest Imaging Database",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageResrictions",
+        "message": "'usageResrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-4 weeks' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '12 - 109' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'For imaging data: DICOM format. For clinical data: Custom spreadsheet' is not valid under any of the given schemas",
+        "suberrors": "    type: 'For imaging data: DICOM format. For clinical data: Custom spreadsheet' is not of type 'array'"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: 'Not Available' is not valid under any of the given schemas",
+        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England, Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'ISARIC - planned\\nORFAN - planned\\nCovidCollabs - planned' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'ISARIC - planned\\nORFAN - planned\\nCovidCollabs - planned' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Twice a week (approximately)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "535fbfd4-34f0-436d-8de2-e708fd0fa103",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Audit of Care at the End of Life - organisational level audit",
@@ -12610,49 +12653,6 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.\\nHowever as the system is centrally hosted, the data may also be available directly from the OpenExeter team.' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.\\nHowever as the system is centrally hosted, the data may also be available directly from the OpenExeter team.' is not of type 'array'"
-      }
-    ]
-  },
-  {
-    "id": "7d9d77da-1838-4e1e-8756-c1a196dc9d56",
-    "publisher": "ALLIANCE > NHSX",
-    "title": "The National COVID-19 Chest Imaging Database",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageResrictions",
-        "message": "'usageResrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-4 weeks' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: '12 - 109' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'For imaging data: DICOM format. For clinical data: Custom spreadsheet' is not valid under any of the given schemas",
-        "suberrors": "    type: 'For imaging data: DICOM format. For clinical data: Custom spreadsheet' is not of type 'array'"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not Available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England, Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'ISARIC - planned\\nORPHAN - planned\\nCovidCollabs - planned' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'ISARIC - planned\\nORPHAN - planned\\nCovidCollabs - planned' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Twice a week (approximately)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -23353,62 +23353,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "id": "d8114fe8-c3f1-4e42-a83b-acfa9d935d77",
-    "publisher": "COG-UK",
-    "title": "COG-UK Viral Genome Sequences v2",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "usageResrictions",
-        "message": "'usageResrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Immediate' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'https://www.cogconsortium.uk/protocols/' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "contactPoint",
-        "message": "contactPoint: 'https://www.cogconsortium.uk/contact/' is not a 'email'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'See ConformsTo' is not valid under any of the given schemas",
-        "suberrors": "    type: 'See ConformsTo' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'No' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'No' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'N/A' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'GB' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'No' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'No' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'daily' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
