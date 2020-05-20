@@ -1,5 +1,5 @@
 {
-  "count": 443,
+  "count": 444,
   "dataModels": [
     {
       "id": "004d1932-f06e-49d2-b87a-e5e4140ffbb3",
@@ -31173,6 +31173,271 @@
       "group": "N/A",
       "dataClassesCount": 0,
       "dataClasses": []
+    },
+    {
+      "id": "7d9d77da-1838-4e1e-8756-c1a196dc9d56",
+      "domainType": "DataModel",
+      "label": "The National COVID-19 Chest Imaging Database",
+      "documentationVersion": "0.0.1",
+      "description": "The NCCID collects processed digital chest X-ray, CT and MR images as well as DICOM header information, which is de-identified at the point of upload. Associated clinical data from the collection sites is also gathered and de-identified. The categories of data collected are:\nRoutine demographic data\nRoutine cardiorespiratory assessment data at presentation\nAll CXRs performed during evaluation for COVID-19\nAll CT scans performed during evaluation for COVID-19\nAll chest imaging performed in the 3 years preceding the first COVID-19-related imaging study (for COVID-19 positively-swabbed patients only)\nScans (including MR) performed to investigate cardiac damage thought to be COVID-19-related\nBiochemical and haematological routinely collected data\nOutcome data, including the time to mechanical ventilation, discharge and death\n\nData will be collected for all COVID-19 positively-swabbed patients and a smaller sample of COVID-19 negatively-swabbed patients. \nFor PCR-positive patients, we are collecting images performed within the last three years for each patient. For PCR-negative patients, we are collecting images performed within the last 4 weeks for each patient. \nThe full list of clinical data points collected for positive and negative patients can found in the documents below:\nCovid-19 Data (Positive) Template v1.5 (Excel)\nCovid-19 Status (Negative) Template v1.0 (Excel).\n\nData is made available to users on a continuous basis as hospital sites contribute more data.",
+      "editable": false,
+      "lastUpdated": "2020-05-19T16:02:04.66Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-05-19T16:06:30.457Z",
+      "accessRequestCost": "0 GBP",
+      "keywords": "imaging, COVID-19, chest x-ray, chest CT scan, chest MRI",
+      "contactPoint": "imaging@nhsx.nhs.uk",
+      "accessRequestDuration": "2-4 weeks",
+      "jurisdiction": "GB",
+      "datasetEndDate": "2020-09-30",
+      "datasetStartDate": "2020-04-01",
+      "language": "en",
+      "title": "The National COVID-19 Chest Imaging Database",
+      "linkedDataset": "ISARIC - planned\nORPHAN - planned\nCovidCollabs - planned",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Not Available",
+      "controlledVocabulary": "For imaging data: DICOM format. For clinical data: Custom spreadsheet",
+      "dataController": "NHS England and Department for Health and Social Care",
+      "statisticalPopulation": "720",
+      "group": "No group",
+      "identifier": "NCCID",
+      "creator": "NHSX recognises the contributions of the below hospitals and trusts to the database: \nRoyal United Hospitals Bath NHS Foundation Trust\nBrighton and Sussex University Hospitals NHS Trust\nLondon North West University Healthcare NHS Trust\nGeorge Eliot Hospital NHS Trust\nCwm Taf Morgannwg University Health Board",
+      "releaseDate": "2020-05-01T00:00:00Z",
+      "format": "DICOM and JSON",
+      "abstract": "The National COVID-19 Chest Imaging Database is a joint collaboration between NHSX, BSTI and Royal Surrey NHS Foundation Trust to create a centralised UK database of X-Ray, CT and MRI images from hospital patients to inform the COVID-19 response.",
+      "dataProcessor": "The data processors are: 1) The Scientific Computing team of Royal Surrey County Hospital will be the data collector, 2) Faculty will provide the Platform environment to manage the data storage (on infrastructure owned by NHSX), 3) Third party technology developers will access the data and the Platform to create and validate software tools for the interpretation of chest X-Rays, CTs and MRIs of suspected COVID-19 patients, 4) Third party entities will utilise the data and the Platform to audit technology tools (such as AI products) to ensure they are robust, safe and useful for COVID-19 response",
+      "derivedDatasets": "Not Available",
+      "license": "Data Access Framework Contract: \nhttps://nhsx.github.io/covid-chest-imaging-database/_downloads/ef5e821d42e196fb3b77a25fcdfd07ff/NCCID_Data_Access_Framework_Contract.docx\n\nData Access Agreement: \nhttps://nhsx.github.io/covid-chest-imaging-database/_downloads/abe95d52fec6ccd6fedeb409d38068ce/NCCID_Data_Access_Agreement.docx",
+      "populationType": "Chest images and associated clinical data are collected for all patients that have received a positive result for a PCR test for COVID-19. In addition, a smaller sample of data is being collected for patients that have received a negative result for a PCR test for COVID-19. For PCR-positive patients, we are collecting images performed within the last three years for each patient. For PCR-negative patients, we are collecting images performed within the last 4 weeks for each patient.",
+      "fileSize": "Image: 1 MB, Clinical data sheet: 2 KB",
+      "periodicity": "Twice a week (approximately)",
+      "publisher": "ALLIANCE > NHSX",
+      "ageBand": "12 - 109",
+      "accessRights": "https://nhsx.github.io/covid-chest-imaging-database/",
+      "conformsTo": "DICOM",
+      "geographicCoverage": "England, Wales",
+      "doi": "Not Available",
+      "dataClassesCount": 3,
+      "dataClasses": [
+        {
+          "id": "30972736-47d4-49df-91b3-ebc5eb06045b",
+          "domainType": "DataClass",
+          "label": "Imaging Data",
+          "description": "Chest images for positive COVID-19 patients and smaller sample of negative patients",
+          "lastUpdated": "2020-05-19T16:02:04.703Z",
+          "dataElementsCount": 3,
+          "dataElements": [
+            {
+              "id": "5f4e8741-83dd-4577-a684-459d3bfd874a",
+              "domainType": "DataElement",
+              "label": "X-Ray",
+              "description": "X-ray image for COVID-19 patient",
+              "dataType": {
+                "id": "f08a9c1c-22ef-44d4-9212-b7d74326f025",
+                "domainType": "PrimitiveType",
+                "label": "DICOM"
+              }
+            },
+            {
+              "id": "0ca5c584-79e1-4893-8aad-3f791df34fce",
+              "domainType": "DataElement",
+              "label": "MRI",
+              "description": "MRI image for COVID-19 patient",
+              "dataType": {
+                "id": "f08a9c1c-22ef-44d4-9212-b7d74326f025",
+                "domainType": "PrimitiveType",
+                "label": "DICOM"
+              }
+            },
+            {
+              "id": "a8976edc-8aa0-47b5-9964-0b615c2aeb58",
+              "domainType": "DataElement",
+              "label": "CT Scan",
+              "description": "CT scan image for COVID-19 patient",
+              "dataType": {
+                "id": "f08a9c1c-22ef-44d4-9212-b7d74326f025",
+                "domainType": "PrimitiveType",
+                "label": "DICOM"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dd032338-afe9-438f-ab0b-b4c52eb43d2a",
+          "domainType": "DataClass",
+          "label": "Clinical Data - Negative",
+          "description": "Spreadsheet of clinical data for negative COVID-19 patients to support chest images",
+          "lastUpdated": "2020-05-19T16:02:04.705Z",
+          "dataElementsCount": 4,
+          "dataElements": [
+            {
+              "id": "ab549ff2-ea83-43f5-b877-a2e8b66461ca",
+              "domainType": "DataElement",
+              "label": "RT-PCR result",
+              "description": "COVID-19 negative = 0, COVID-19 positive = 1",
+              "dataType": {
+                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "30668ac9-ae40-44ef-b492-a67456c8c0fa",
+              "domainType": "DataElement",
+              "label": "Date of RT-PCR",
+              "description": "Date of RT-PCR",
+              "dataType": {
+                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
+                "domainType": "PrimitiveType",
+                "label": "Date"
+              }
+            },
+            {
+              "id": "6349508f-5a3f-489a-bbac-83ddf4032b9a",
+              "domainType": "DataElement",
+              "label": "NHS/CHI Number",
+              "description": "NHS/CHI Number",
+              "dataType": {
+                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "81c2cad7-55e6-442b-924d-448d0e06db4e",
+              "domainType": "DataElement",
+              "label": "Hospital (Internal) Number",
+              "description": "Hospital (Internal) Number",
+              "dataType": {
+                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            }
+          ]
+        },
+        {
+          "id": "aae7c389-de60-4b8f-bbfd-d1e9288d08f9",
+          "domainType": "DataClass",
+          "label": "Clinical Data - Positive",
+          "description": "Spreadsheet of clinical data for positive COVID-19 patients to support chest images",
+          "lastUpdated": "2020-05-19T16:02:04.706Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "d91de532-35b0-4256-ba0f-04acbc7182a7",
+              "domainType": "DataElement",
+              "label": "CRP on admission",
+              "description": "mg/L",
+              "dataType": {
+                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "1dd888d2-4a4a-4e92-9c8c-4999c5e5a822",
+              "domainType": "DataElement",
+              "label": "Date of acquisition of 1st RT-PCR",
+              "description": "Date of acquisition of 1st RT-PCR",
+              "dataType": {
+                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
+                "domainType": "PrimitiveType",
+                "label": "Date"
+              }
+            },
+            {
+              "id": "85e462de-e498-4dbb-9e63-cd723131d772",
+              "domainType": "DataElement",
+              "label": "Date of result of 1st RT-PCR",
+              "description": "Date of result of 1st RT-PCR",
+              "dataType": {
+                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
+                "domainType": "PrimitiveType",
+                "label": "Date"
+              }
+            },
+            {
+              "id": "d768d568-577c-4de7-967a-b1b49154c696",
+              "domainType": "DataElement",
+              "label": "Hospital Name",
+              "description": "Hospital Name",
+              "dataType": {
+                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "cb408fab-0371-4cd2-9752-b6e0bb8e055f",
+              "domainType": "DataElement",
+              "label": "Date of 2nd CXR",
+              "description": "Date of 2nd CXR",
+              "dataType": {
+                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
+                "domainType": "PrimitiveType",
+                "label": "Date"
+              }
+            },
+            {
+              "id": "55895433-821a-4e7d-8b0f-67c3a15a7f6a",
+              "domainType": "DataElement",
+              "label": "Date of admission",
+              "description": "Date of admission",
+              "dataType": {
+                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
+                "domainType": "PrimitiveType",
+                "label": "Date"
+              }
+            },
+            {
+              "id": "5cf9c779-0ac7-4130-8e0d-2d8d3f0eba63",
+              "domainType": "DataElement",
+              "label": "Date of ITU admission",
+              "description": "Date of ITU admission",
+              "dataType": {
+                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
+                "domainType": "PrimitiveType",
+                "label": "Date"
+              }
+            },
+            {
+              "id": "f2c4781f-9fc1-4851-b0f8-65a90dc97dcc",
+              "domainType": "DataElement",
+              "label": "PaO2",
+              "description": "% room air",
+              "dataType": {
+                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            },
+            {
+              "id": "03ace43a-f7b6-48a8-ac2a-ca1cc5072c8b",
+              "domainType": "DataElement",
+              "label": "Date of intubation",
+              "description": "Date of intubation",
+              "dataType": {
+                "id": "6b667833-ad90-4c25-9a86-e6a78b1dfa31",
+                "domainType": "PrimitiveType",
+                "label": "Date"
+              }
+            },
+            {
+              "id": "bf582f4b-e227-49b4-8177-1cfdb47fdcd6",
+              "domainType": "DataElement",
+              "label": "CXR severity for 1st CXR",
+              "description": "Mild = 1, Moderate = 2, Severe = 3",
+              "dataType": {
+                "id": "0e18c624-41e1-416b-8ebc-05fe31e69791",
+                "domainType": "PrimitiveType",
+                "label": "Number"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "7dc319da-a16f-4e63-a115-0cba3905a322",

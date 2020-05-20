@@ -12614,6 +12614,49 @@
     ]
   },
   {
+    "id": "7d9d77da-1838-4e1e-8756-c1a196dc9d56",
+    "publisher": "ALLIANCE > NHSX",
+    "title": "The National COVID-19 Chest Imaging Database",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageResrictions",
+        "message": "'usageResrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-4 weeks' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '12 - 109' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'For imaging data: DICOM format. For clinical data: Custom spreadsheet' is not valid under any of the given schemas",
+        "suberrors": "    type: 'For imaging data: DICOM format. For clinical data: Custom spreadsheet' is not of type 'array'"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: 'Not Available' is not valid under any of the given schemas",
+        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England, Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'ISARIC - planned\\nORPHAN - planned\\nCovidCollabs - planned' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'ISARIC - planned\\nORPHAN - planned\\nCovidCollabs - planned' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Twice a week (approximately)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "7dc319da-a16f-4e63-a115-0cba3905a322",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Asthma and COPD Audit Programme (NACAP): Adult Asthma secondary care clinical dataset",
