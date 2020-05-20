@@ -139,7 +139,7 @@ def generate_quality_score():
     error_weightings = get_json('utility_weightings_by_attribute.json')
     for e in errors:
         e_score = round((e['schema_error_count'] / total_attributes) * 100, 2)
-        we_score = weighted_schema_errors_by_attribute(e, error_weightings)
+        we_score = round(weighted_schema_errors_by_attribute(e, error_weightings) * 100, 2)
         data[e['id']]['error_percent'] = e_score
         data[e['id']]['weighted_error_score'] = we_score
     
