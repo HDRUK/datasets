@@ -29,7 +29,8 @@ METADATA_SECTIONS = {
                              "physicalSampleAvailability", "keywords"],
     "D: Format & Structure": ["conformsTo", "controlledVocabulary", "language", "format", "fileSize"],
     "E: Attribution": ["creator", "citations", "doi"],
-    "F: Technical Metadata": ["dataClassesCount"],
+    "F: Technical Metadata": ["dataClassesCount", "tableName", "tableDescription", "columnName", "columnDescription",
+                              "dataType", "sensitive"],
     "G: Other Metadata": ["usageRestriction", "purpose", "source", "setting", "accessEnvironment",
                           "linkageOpportunity", "disambiguatingDescription"],
 }
