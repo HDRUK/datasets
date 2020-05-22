@@ -112,15 +112,24 @@ def schema_validation_check():
 
 def weighted_schema_errors_by_attribute(e, ew):
     we_score = 1 # weighted error score starts at 100%, and reduces based on errors revealed below
+
+    #flattern the ew JSON into a flat dictionary
+    flat_dict = {}
+    for section, subsection_kv in ew.items():
+        for dimension, weight in subsection_kv.items():
+            flat_dict[dimension] = weight
+
+    #go through flat_dict and check errors
     for attribute_error in e["errors"]:
-        attribute_error_score = ew[attribute_error["attribute"]]
+        attribute_error_score = 1* flat_dict[attribute_error["attribute"]]
         we_score = we_score - attribute_error_score
     return we_score
 
 
+
 def generate_quality_score():
-    scores = get_json('reports/completeness.json')
-    completion_weightings = get_json('utility_weightings_by_section.json')
+    scores = get_json('reports/attribute_completeness.json')
+    completion_weightings = get_json('utility_weightings_by_attribute.json')
     data = {}
     for s in scores:
         data[s['id']] = {
@@ -128,10 +137,10 @@ def generate_quality_score():
             'publisher': s['publisher'],
             'title': s['title']
         }
-        c_score = round((s['missing_attributes'] / s['total_attributes']) * 100, 2) #completion score
-        wc_score = weighted_completeness_score(s, completion_weightings) # weighted completion score
-        data[s['id']]['missingness_percent'] = c_score
-        data[s['id']]['weighted_missingness_percent'] = wc_score
+        c_score = round((s['filled_attributes'] / s['total_attributes']) * 100, 2) #completion score
+        wc_score = round(attribute_weighted_completeness_score(s, completion_weightings) *100, 2) # weighted completion score
+        data[s['id']]['completeness_percent'] = c_score
+        data[s['id']]['weighted_completeness_percent'] = wc_score
     
     # TODO: Differentiate between error classes (required vs format) by weighting them
     schema = get_json(DATASET_SCHEMA)
@@ -140,9 +149,9 @@ def generate_quality_score():
     error_weightings = get_json('utility_weightings_by_attribute.json')
     for e in errors:
         e_score = round((e['schema_error_count'] / total_attributes) * 100, 2)
-        we_score = round(weighted_schema_errors_by_attribute(e, error_weightings) * 100, 2)
-        data[e['id']]['error_percent'] = e_score
-        data[e['id']]['weighted_error_score'] = we_score
+        #we_score = round(weighted_schema_errors_by_attribute(e, error_weightings) * 100, 2)
+        #data[e['id']]['error_percent'] = e_score
+        #data[e['id']]['weighted_error_score'] = we_score
     
     # # Calculate average quality score (lower the better)
     # quality_scores = [100 - round(mean([v['missingness_percent'], v['error_percent']]),2) for k, v in data.items()]
@@ -154,7 +163,8 @@ def generate_quality_score():
     summary_data = []
     headers = []
     for id, d in data.items():
-        avg_score = round(mean([data[id]['missingness_percent'], data[id]['error_percent']]), 2)
+        #avg_score = round(mean([data[id]['missingness_percent'], data[id]['error_percent']]), 2)
+        avg_score = 50
         d['quality_score'] = round(100 - avg_score, 2)
         if d['quality_score'] <= 50:
             d['quality_rating'] = "Not Rated"
@@ -167,7 +177,8 @@ def generate_quality_score():
         elif d['quality_score'] > 90:
             d['quality_rating'] = "Platinum"
 
-        weighted_avg_score = round(mean([data[id]['weighted_missingness_percent'], data[id]['error_percent']]), 2)
+        #weighted_avg_score = round(mean([data[id]['weighted_missingness_percent'], data[id]['weighted_error_score']]), 2)
+        weighted_avg_score = 60
         d['weighted_quality_score'] = round(100 - weighted_avg_score, 2)
         if d['weighted_quality_score'] <= 50:
             d['weighted_quality_rating'] = "Not Rated"
@@ -196,6 +207,14 @@ def weighted_completeness_score(s, cw):
                 + ((s["F: Technical Metadata Missing Count"] / s["F: Technical Metadata Total Attributes"]) * cw[
                 "F: Technical Metadata Category Weighting"]))*100,2)
     return wc_score
+
+def attribute_weighted_completeness_score(s, alw):
+    score = 0
+    for section in REPORTING_LEVELS:
+        section_score = s[section]
+        for att_name, att_weights in alw[section].items():
+            score = score + (section_score[att_name]*att_weights)
+    return score
 
 def main():
     # Compile Metadata Completeness Score
