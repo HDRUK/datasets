@@ -11,7 +11,7 @@ import json
 import requests
 from jsonschema import validate, Draft7Validator, FormatChecker, draft7_format_checker
 
-DATASET_SCHEMA = 'schema/dataset.schema.json'
+DATASET_SCHEMA = 'schema/dataset.schema.data_model'
 BASELINE_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
 
 def get_json(json_uri):

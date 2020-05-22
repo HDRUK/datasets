@@ -16,9 +16,9 @@ from pprint import pprint
 from validate_schema import get_json, validate_schema, generate_baseline_from_sections, generate_attribute_list
 from datasets import export_csv, export_json
 
-DATASET_SCHEMA = 'schema/dataset.schema.json'
+DATASET_SCHEMA = 'schema/dataset.schema.data_model'
 BASELINE_SAMPLE = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
-DATASETS_JSON = "datasets.json"
+DATASETS_JSON = "datasets.data_model"
 
 METADATA_SECTIONS = {
     "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
@@ -119,8 +119,8 @@ def weighted_schema_errors_by_attribute(e, ew):
 
 
 def generate_quality_score():
-    scores = get_json('reports/completeness.json')
-    completion_weightings = get_json('utility_weightings_by_section.json')
+    scores = get_json('reports/completeness.data_model')
+    completion_weightings = get_json('utility_weightings_by_section.data_model')
     data = {}
     for s in scores:
         data[s['id']] = {
@@ -136,8 +136,8 @@ def generate_quality_score():
     # TODO: Differentiate between error classes (required vs format) by weighting them
     schema = get_json(DATASET_SCHEMA)
     total_attributes = len(list(schema['properties'].keys()))
-    errors = get_json('reports/schema_errors.json')
-    error_weightings = get_json('utility_weightings_by_attribute.json')
+    errors = get_json('reports/schema_errors.data_model')
+    error_weightings = get_json('utility_weightings_by_attribute.data_model')
     for e in errors:
         e_score = round((e['schema_error_count'] / total_attributes) * 100, 2)
         we_score = round(weighted_schema_errors_by_attribute(e, error_weightings) * 100, 2)
@@ -200,17 +200,17 @@ def weighted_completeness_score(s, cw):
 def main():
     # Compile Metadata Completeness Score
     completeness_score, headers = completeness_check()
-    export_json(completeness_score,'reports/completeness.json')
+    export_json(completeness_score,'reports/completeness.data_model')
     export_csv(completeness_score, 'reports/completeness.csv', headers)
 
     # Complie Schema Validation Error Score
     schema_errors, headers = schema_validation_check()
-    export_json(schema_errors,'reports/schema_errors.json')
+    export_json(schema_errors,'reports/schema_errors.data_model')
     export_csv(schema_errors, 'reports/schema_errors.csv', headers)
 
     # Summarise Average Quality Score
     summary_score, headers = generate_quality_score()
-    export_json(summary_score,'reports/metadata_quality.json')
+    export_json(summary_score,'reports/metadata_quality.data_model')
     export_csv(summary_score, 'reports/metadata_quality.csv', headers)
 
 
