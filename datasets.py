@@ -17,7 +17,7 @@ DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses"
 DATA_MODEL_CLASSES_ELEMENTS = DATA_MODEL_CLASSES + "/{CLASS_ID}/dataElements"
 
 def request_url(URL):
-  """HTTP GET request and load into json"""
+  """HTTP GET request and load into data_model"""
   r = requests.get(URL)
   if r.status_code != requests.codes.ok:
     r.raise_for_status()
