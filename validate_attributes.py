@@ -372,9 +372,6 @@ def generate_attribute_list(metadata_sections=METADATA_SECTIONS, metadata_levels
 
 def schema_validation_check(data_models, metadata_sections = METADATA_SECTIONS, reporting_levels = REPORTING_LEVELS):
     schema = get_json(DATASET_SCHEMA)
-    reporting_dict = init_reporting_dict(metadata_sections=metadata_sections,
-                                         reporting_levels=reporting_levels,
-                                         txt='attributes_with_errors')
     validation_attributes = set(generate_attribute_list(metadata_sections, reporting_levels))
     data = []
     headers = []
@@ -385,11 +382,15 @@ def schema_validation_check(data_models, metadata_sections = METADATA_SECTIONS, 
         for attribute in (set(dm_validate.keys()) - validation_attributes):
             dm_validate.pop(attribute, None)
         errors = validate_schema(schema, dm_validate)
+        d = dict()
         d = {
             'id': dm['id'],
             'publisher': dm['publisher'],
             'title': dm['title'],
         }
+        reporting_dict = init_reporting_dict(metadata_sections=metadata_sections,
+                                             reporting_levels=reporting_levels,
+                                             txt='attributes_with_errors')
         total_errors = 0
         for level in reporting_levels:
             level_errors = 0
