@@ -18,7 +18,7 @@ def main():
     json_object = json.dumps(main_dict, indent=4)
 
     # Writing to sample.json
-    with open("CI_TEST.json", "w") as outfile:
+    with open("weights.json", "w") as outfile:
         outfile.write(json_object)
 
 

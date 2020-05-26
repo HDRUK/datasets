@@ -19,6 +19,7 @@ from datasets import export_csv, export_json
 DATASET_SCHEMA = 'schema/dataset.schema.json'
 BASELINE_SAMPLE = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
 DATASETS_JSON = "datasets.json"
+WEIGHTS = "weights.json"
 
 METADATA_SECTIONS = {
     "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
@@ -114,7 +115,7 @@ def generate_quality_score():
 
     #Generate completeness percent & weighted completeness percent
     scores = get_json('reports/attribute_completeness.json')
-    completion_weightings = get_json('utility_weightings_by_attribute.json')
+    completion_weightings = get_json(WEIGHTS)
     data = {}
     for s in scores:
         data[s['id']] = {
@@ -131,7 +132,7 @@ def generate_quality_score():
     schema = get_json(DATASET_SCHEMA)
     total_attributes = len(list(schema['properties'].keys()))
     errors = get_json('reports/attribute_errors.json')
-    error_weightings = get_json('utility_weightings_by_attribute.json')
+    error_weightings = get_json(WEIGHTS)
     for e in errors:
         e_score = round((e['attributes_with_errors'] / total_attributes) * 100, 2)
         we_score = round(attribute_weighted_score(e, error_weightings) * 100, 2)
