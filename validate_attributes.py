@@ -17,14 +17,10 @@ import numpy as np
 
 DATASET_SCHEMA = 'https://raw.githubusercontent.com/HMrz/datasets/MDW/schema/dataset.schema.json'
 DATASETS_JSON = 'https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json'
-#DATASETS_CSV = 'https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.csv'
-DATACLASSES = 'https://raw.githubusercontent.com/HDRUK/datasets/master/dataclasses.csv'
-DATAELEMENTS = 'https://raw.githubusercontent.com/HDRUK/datasets/master/dataelements.csv'
 TM_NAME_LEN = 2
 TM_DESC_LEN = 6
-DATATYPES = ''
 
-METADATA_SECTIONS = {
+REPORTING_ATTRIBUTES = {
     "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
     "B: Business": ["description", "releaseDate", "accessRequestCost", "accessRequestDuration", "dataController",
                     "dataProcessor", "license", "usageRestriction", "derivedDatasets", "linkedDataset"],
@@ -43,7 +39,7 @@ REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
                     "D: Format & Structure", "E: Attribution", "F: Technical Metadata"]
 
 
-def init_reporting_dict(metadata_sections = METADATA_SECTIONS, reporting_levels = REPORTING_LEVELS, txt='attribute_reporting'):
+def init_reporting_dict(metadata_sections = REPORTING_ATTRIBUTES, reporting_levels = REPORTING_LEVELS, txt='attribute_reporting'):
     reporting_dict = {}
     attribute_count = 0
     for level in reporting_levels:
@@ -61,9 +57,9 @@ def init_reporting_dict(metadata_sections = METADATA_SECTIONS, reporting_levels 
 
 def process_technical_metadata(data_classes):
     """
-
-    @param data_classes:
-    @return:
+    Process technical metadata for an uploaded data-model
+    @param data_classes: uploaded data-classes for a data-model
+    @return: dictionary containing technical metadata
     """
     technical_md = {}
     technical_md['tableCount'] = len(data_classes)
@@ -109,8 +105,9 @@ def process_technical_metadata(data_classes):
     return technical_md
 
 
-def import_datamodels(datamodel_uri):
+def import_dm_tm(datamodel_uri):
     """
+    Import data-models and process technical metadata
     @param dataset_uri: dataset URI or file path
     @return: all datasets as a list of JSON/dicts
     """
@@ -129,9 +126,8 @@ def import_datamodels(datamodel_uri):
 
 def compute_tech_md_completeness(data_model):
     """
-
-    @param data_model:
-    @return:
+    check if technical metadata is complete
+    @param data_model: uploaded data-model
     """
     if data_model.get('dataClassesCount', 0) < 1:
         return
@@ -185,15 +181,16 @@ def check_completeness(data_models):
             dm.pop(attribute, None) # any attribute not in the schema, drop from the data model
         s = copy.deepcopy(schema)
         s.update(dm)
-        score = attribute_completeness(s)
+        score = check_attribute_completeness(s)
         d.update(score)
         header.extend(d.keys())
         data.append(d)
     return data, list(set(header))
 
+
 def generate_baseline_from_sections(metadata_sections, metadata_levels=None):
     '''
-    generate the baseline schema from METADATA_SECTIONS, a dictionary of dictionaries
+    generate the baseline schema from REPORTING_ATTRIBUTES, a dictionary of dictionaries
 
     '''
     baseline_dict = {}
@@ -221,7 +218,15 @@ def generate_attribute_list(metadata_sections, metadata_levels=None, add_id=True
 
     return raw_attributes
 
-def attribute_completeness(d, metadata_sections = METADATA_SECTIONS, reporting_levels = REPORTING_LEVELS):
+
+def check_attribute_completeness(dm, metadata_sections = REPORTING_ATTRIBUTES, reporting_levels = REPORTING_LEVELS):
+    """
+    Count completed (i.e. filled or populated) data-model attributes
+    @param dm: data-model
+    @param metadata_sections: reporting attributes and levels
+    @param reporting_levels: reporting levels
+    @return: dictionary with completeness for each attribute and level
+    """
     reporting_dict = init_reporting_dict(metadata_sections=metadata_sections,
                                          reporting_levels=reporting_levels,
                                          txt='filled_attributes')
@@ -234,20 +239,21 @@ def attribute_completeness(d, metadata_sections = METADATA_SECTIONS, reporting_l
             elif 'total_attributes' == k:
                 continue
             elif "dataClassesCount" == k:
-                reporting_dict[level][k] = 0 if d.get(k, 0) == 0 else 1
+                reporting_dict[level][k] = 0 if dm.get(k, 0) == 0 else 1
                 total_populated += reporting_dict[level][k]
                 level_total += reporting_dict[level][k]
             else:
-                reporting_dict[level][k] = 1 if d.get(k, None) is not None else 0
+                reporting_dict[level][k] = 1 if dm.get(k, None) is not None else 0
                 total_populated += reporting_dict[level][k]
                 level_total += reporting_dict[level][k]
         reporting_dict[level]['filled_attributes'] = level_total
     reporting_dict['filled_attributes'] = total_populated
     return reporting_dict
 
-def generate_baseline_from_sections(metadata_sections=METADATA_SECTIONS, metadata_levels=None):
+
+def generate_baseline_from_sections(metadata_sections=REPORTING_ATTRIBUTES, metadata_levels=None):
     '''
-    generate the baseline schema from METADATA_SECTIONS, a dictionary of dictionaries
+    generate the baseline schema from REPORTING_ATTRIBUTES, a dictionary of dictionaries
 
     '''
     baseline_dict = {}
@@ -288,7 +294,7 @@ def populated_attributes(d):
     count = 0
     nulls = 0
     data = { f"{attr_level} Missing Count": 0 for attr_level in REPORTING_LEVELS}
-    reporting_dict = {key: METADATA_SECTIONS.get(key, None) for key in REPORTING_LEVELS}
+    reporting_dict = {key: REPORTING_ATTRIBUTES.get(key, None) for key in REPORTING_LEVELS}
     for k,v in d.items():
         count = count + 1
         for section, attributes in reporting_dict.items():
@@ -306,7 +312,7 @@ def populated_attributes(d):
         else:
             if k not in ["id", "publisher", "title"]:
                 d[k] = True
-        # data.update(d)
+        # data.update(dm)
     data['missing_attributes'] = nulls
     data['total_attributes'] = count
     return data
@@ -339,9 +345,9 @@ def validate_schema(schema, data_model):
     return err
 
 
-def generate_baseline_from_sections(metadata_sections=METADATA_SECTIONS, metadata_levels=REPORTING_LEVELS, add_id=True):
+def generate_baseline_from_sections(metadata_sections=REPORTING_ATTRIBUTES, metadata_levels=REPORTING_LEVELS, add_id=True):
     '''
-    generate the baseline schema from METADATA_SECTIONS, a dictionary of dictionaries
+    generate the baseline schema from REPORTING_ATTRIBUTES, a dictionary of dictionaries
 
     '''
     baseline_dict = {}
@@ -352,7 +358,7 @@ def generate_baseline_from_sections(metadata_sections=METADATA_SECTIONS, metadat
     return baseline_dict
 
 
-def generate_attribute_list(metadata_sections=METADATA_SECTIONS, metadata_levels=REPORTING_LEVELS, add_id=True):
+def generate_attribute_list(metadata_sections=REPORTING_ATTRIBUTES, metadata_levels=REPORTING_LEVELS, add_id=True):
     '''
 
     '''
@@ -370,7 +376,14 @@ def generate_attribute_list(metadata_sections=METADATA_SECTIONS, metadata_levels
 
     return raw_attributes
 
-def schema_validation_check(data_models, metadata_sections = METADATA_SECTIONS, reporting_levels = REPORTING_LEVELS):
+def check_attribute_validation(data_models, metadata_sections = REPORTING_ATTRIBUTES, reporting_levels = REPORTING_LEVELS):
+    """
+    Generate dictionary that validates each attribute against the JSON validation schema
+    @param data_models: data-models for validation
+    @param metadata_sections: reporting levels and attributes
+    @param reporting_levels: reporting attributes
+    @return: dictionary with validation for each attribute
+    """
     schema = get_json(DATASET_SCHEMA)
     validation_attributes = set(generate_attribute_list(metadata_sections, reporting_levels))
     data = []
@@ -433,15 +446,15 @@ def export_json(data, filename, indent=2):
 
 def main():
     # read in datasets
-    data_models = import_datamodels(DATASETS_JSON)
+    data_models = import_dm_tm(DATASETS_JSON)
 
     # Compile Metadata Completeness Score
-    completeness_score, headers = check_completeness(data_models)
+    completeness_score, headers = check_attribute_completeness(data_models)
     export_json(completeness_score,'reports/attribute_completeness.json')
     # export_csv(completeness_score, 'reports/completeness.csv', headers)
 
     # Complie Schema Validation Error Score
-    schema_errors, headers = schema_validation_check(data_models)
+    schema_errors, headers = check_attribute_validation(data_models)
     export_json(schema_errors,'reports/attribute_errors.json')
     # export_csv(schema_errors, 'reports/schema_errors.csv', headers)
 

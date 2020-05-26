@@ -13,7 +13,9 @@ import json
 import urllib
 import requests
 from pprint import pprint
-from validate_schema import get_json, validate_schema, generate_baseline_from_sections, generate_attribute_list
+from validate_schema import get_json, validate_schema, \
+                            generate_baseline_from_sections, generate_attribute_list, \
+                            import_dm_tm, check_dm_completeness, check_attribute_validation
 from datasets import export_csv, export_json
 
 DATASET_SCHEMA = 'schema/dataset.schema.json'
@@ -119,7 +121,7 @@ def generate_quality_score():
     '''
 
     # Generate completeness percent & weighted completeness percent
-    scores = get_json('reports/attribute_completeness.json')
+    scores = get_json('reports/check_attribute_completeness.json')
     completion_weightings = get_json(WEIGHTS)
     data = {}
     for s in scores:
@@ -199,7 +201,7 @@ def main():
     export_json(completeness_score,'reports/completeness.json')
     export_csv(completeness_score, 'reports/completeness.csv', headers)
 
-    # Complie Schema Validation Error Score
+    # Compile Schema Validation Error Score
     schema_errors, headers = schema_validation_check()
     export_json(schema_errors,'reports/schema_errors.json')
     export_csv(schema_errors, 'reports/schema_errors.csv', headers)
@@ -208,6 +210,16 @@ def main():
     summary_score, headers = generate_quality_score()
     export_json(summary_score,'reports/metadata_quality.json')
     export_csv(summary_score, 'reports/metadata_quality.csv', headers)
+
+    # Attribute level checks
+    # read in datasets
+    data_models = import_dm_tm(DATASETS_JSON)
+    # Compile Attribute Completeness Score
+    attribute_completeness_score = check_dm_completeness(data_models)
+    export_json(attribute_completeness_score,'reports/check_attribute_completeness.json')
+    # Compile Attribute Schema Validation Error Score
+    schema_errors = check_attribute_validation(data_models)
+    export_json(schema_errors,'reports/attribute_errors.json')
 
 
 if __name__ == "__main__":
