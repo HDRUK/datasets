@@ -16,9 +16,9 @@ from pprint import pprint
 from validate_schema import get_json, validate_schema, generate_baseline_from_sections, generate_attribute_list
 from datasets import export_csv, export_json
 
-DATASET_SCHEMA = 'schema/dataset.schema.data_model'
+DATASET_SCHEMA = 'schema/dataset.schema.json'
 BASELINE_SAMPLE = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
-DATASETS_JSON = "datasets.data_model"
+DATASETS_JSON = "datasets.json"
 
 METADATA_SECTIONS = {
     "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
@@ -110,26 +110,11 @@ def schema_validation_check():
         data.append(d)
     return data, list(set(headers))
 
-def weighted_schema_errors_by_attribute(e, ew):
-    we_score = 1 # weighted error score starts at 100%, and reduces based on errors revealed below
-
-    #flattern the ew JSON into a flat dictionary
-    flat_dict = {}
-    for section, subsection_kv in ew.items():
-        for dimension, weight in subsection_kv.items():
-            flat_dict[dimension] = weight
-
-    #go through flat_dict and check errors
-    for attribute_error in e["errors"]:
-        attribute_error_score = 1* flat_dict[attribute_error["attribute"]]
-        we_score = we_score - attribute_error_score
-    return we_score
-
-
-
 def generate_quality_score():
-    scores = get_json('reports/completeness.data_model')
-    completion_weightings = get_json('utility_weightings_by_section.data_model')
+
+    #Generate completeness percent & weighted completeness percent
+    scores = get_json('reports/attribute_completeness.json')
+    completion_weightings = get_json('utility_weightings_by_attribute.json')
     data = {}
     for s in scores:
         data[s['id']] = {
@@ -138,22 +123,21 @@ def generate_quality_score():
             'title': s['title']
         }
         c_score = round((s['filled_attributes'] / s['total_attributes']) * 100, 2) #completion score
-        wc_score = round(attribute_weighted_completeness_score(s, completion_weightings) *100, 2) # weighted completion score
+        wc_score = round(attribute_weighted_score(s, completion_weightings) *100, 2) # weighted completion score
         data[s['id']]['completeness_percent'] = c_score
         data[s['id']]['weighted_completeness_percent'] = wc_score
     
-    # TODO: Differentiate between error classes (required vs format) by weighting them
+    # Generate error percent and weighted error percent
     schema = get_json(DATASET_SCHEMA)
     total_attributes = len(list(schema['properties'].keys()))
-    errors = get_json('reports/schema_errors.data_model')
-    error_weightings = get_json('utility_weightings_by_attribute.data_model')
+    errors = get_json('reports/attribute_errors.json')
+    error_weightings = get_json('utility_weightings_by_attribute.json')
     for e in errors:
-        e_score = round((e['schema_error_count'] / total_attributes) * 100, 2)
-        #we_score = round(weighted_schema_errors_by_attribute(e, error_weightings) * 100, 2)
-        #data[e['id']]['error_percent'] = e_score
-        #data[e['id']]['weighted_error_score'] = we_score
-    
-    # # Calculate average quality score (lower the better)
+        e_score = round((e['attributes_with_errors'] / total_attributes) * 100, 2)
+        we_score = round(attribute_weighted_score(e, error_weightings) * 100, 2)
+        data[e['id']]['error_percent'] = e_score
+        data[e['id']]['weighted_error_percent'] = we_score
+
     # quality_scores = [100 - round(mean([v['missingness_percent'], v['error_percent']]),2) for k, v in data.items()]
     # mean_quality_score = round(mean(quality_scores))
     # stdev_quality_score = round(stdev(quality_scores))
@@ -163,9 +147,8 @@ def generate_quality_score():
     summary_data = []
     headers = []
     for id, d in data.items():
-        #avg_score = round(mean([data[id]['missingness_percent'], data[id]['error_percent']]), 2)
-        avg_score = 50
-        d['quality_score'] = round(100 - avg_score, 2)
+        avg_score = round(mean([data[id]['completeness_percent'], 100-data[id]['error_percent']]), 2)
+        d['quality_score'] = avg_score
         if d['quality_score'] <= 50:
             d['quality_rating'] = "Not Rated"
         elif d['quality_score'] > 50 and d['quality_score'] <= 70:
@@ -177,9 +160,8 @@ def generate_quality_score():
         elif d['quality_score'] > 90:
             d['quality_rating'] = "Platinum"
 
-        #weighted_avg_score = round(mean([data[id]['weighted_missingness_percent'], data[id]['weighted_error_score']]), 2)
-        weighted_avg_score = 60
-        d['weighted_quality_score'] = round(100 - weighted_avg_score, 2)
+        weighted_avg_score = round(mean([data[id]['weighted_completeness_percent'], 100-data[id]['weighted_error_percent']]), 2)
+        d['weighted_quality_score'] = weighted_avg_score
         if d['weighted_quality_score'] <= 50:
             d['weighted_quality_rating'] = "Not Rated"
         elif d['weighted_quality_score'] > 50 and d['weighted_quality_score'] <= 70:
@@ -208,28 +190,28 @@ def weighted_completeness_score(s, cw):
                 "F: Technical Metadata Category Weighting"]))*100,2)
     return wc_score
 
-def attribute_weighted_completeness_score(s, alw):
+def attribute_weighted_score(s, w):
     score = 0
     for section in REPORTING_LEVELS:
         section_score = s[section]
-        for att_name, att_weights in alw[section].items():
+        for att_name, att_weights in w[section].items():
             score = score + (section_score[att_name]*att_weights)
     return score
 
 def main():
     # Compile Metadata Completeness Score
     completeness_score, headers = completeness_check()
-    export_json(completeness_score,'reports/completeness.data_model')
+    export_json(completeness_score,'reports/completeness.json')
     export_csv(completeness_score, 'reports/completeness.csv', headers)
 
     # Complie Schema Validation Error Score
     schema_errors, headers = schema_validation_check()
-    export_json(schema_errors,'reports/schema_errors.data_model')
+    export_json(schema_errors,'reports/schema_errors.json')
     export_csv(schema_errors, 'reports/schema_errors.csv', headers)
 
     # Summarise Average Quality Score
     summary_score, headers = generate_quality_score()
-    export_json(summary_score,'reports/metadata_quality.data_model')
+    export_json(summary_score,'reports/metadata_quality.json')
     export_csv(summary_score, 'reports/metadata_quality.csv', headers)
 
 
