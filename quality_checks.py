@@ -40,6 +40,7 @@ REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
                     "D: Format & Structure", "E: Attribution", "F: Technical Metadata"]
 
 def nullScore(d):
+    ''' CHECK WITH HEIKO: Do we need this anymore? '''
     count = 0
     nulls = 0
     data = { f"{attr_level} Missing Count": 0 for attr_level in REPORTING_LEVELS}
@@ -112,8 +113,12 @@ def schema_validation_check():
     return data, list(set(headers))
 
 def generate_quality_score():
+    '''Reads the completeness and error json reports, and calculates the metadata quality scores.
 
-    #Generate completeness percent & weighted completeness percent
+    return summary_data, list(set(headers))
+    '''
+
+    # Generate completeness percent & weighted completeness percent
     scores = get_json('reports/attribute_completeness.json')
     completion_weightings = get_json(WEIGHTS)
     data = {}
@@ -139,59 +144,48 @@ def generate_quality_score():
         data[e['id']]['error_percent'] = e_score
         data[e['id']]['weighted_error_percent'] = we_score
 
-    # quality_scores = [100 - round(mean([v['missingness_percent'], v['error_percent']]),2) for k, v in data.items()]
-    # mean_quality_score = round(mean(quality_scores))
-    # stdev_quality_score = round(stdev(quality_scores))
-    # print("MEAN:", mean_quality_score)
-    # print("STDEV:", stdev_quality_score)
-
+    # Generate quality score, weighted quality score, quality score rating, and weighted quality score rating
     summary_data = []
     headers = []
     for id, d in data.items():
         avg_score = round(mean([data[id]['completeness_percent'], 100-data[id]['error_percent']]), 2)
         d['quality_score'] = avg_score
-        if d['quality_score'] <= 50:
-            d['quality_rating'] = "Not Rated"
-        elif d['quality_score'] > 50 and d['quality_score'] <= 70:
-            d['quality_rating'] = "Bronze"
-        elif d['quality_score'] > 70 and d['quality_score'] <= 80:
-            d['quality_rating'] = "Silver"
-        elif d['quality_score'] > 80 and d['quality_score'] <= 90:
-            d['quality_rating'] = "Gold"
-        elif d['quality_score'] > 90:
-            d['quality_rating'] = "Platinum"
+        d['quality_rating'] = quality_ratings(d['quality_score'])
 
         weighted_avg_score = round(mean([data[id]['weighted_completeness_percent'], 100-data[id]['weighted_error_percent']]), 2)
         d['weighted_quality_score'] = weighted_avg_score
-        if d['weighted_quality_score'] <= 50:
-            d['weighted_quality_rating'] = "Not Rated"
-        elif d['weighted_quality_score'] > 50 and d['weighted_quality_score'] <= 70:
-            d['weighted_quality_rating'] = "Bronze"
-        elif d['weighted_quality_score'] > 70 and d['weighted_quality_score'] <= 80:
-            d['weighted_quality_rating'] = "Silver"
-        elif d['weighted_quality_score'] > 80 and d['weighted_quality_score'] <= 90:
-            d['weighted_quality_rating'] = "Gold"
-        elif d['weighted_quality_score'] > 90:
-            d['weighted_quality_rating'] = "Platinum"
+        d['weighted_quality_rating'] = quality_ratings(d['weighted_quality_score'])
 
         headers.extend(d.keys())
         summary_data.append(d)
+
     return summary_data, list(set(headers))
 
-def weighted_completeness_score(s, cw):
-    wc_score = round((((s["A: Summary Missing Count"] /s["A: Summary Total Attributes"]) * cw["A: Summary Category Weighting"])
-                + ((s["B: Business Missing Count"] /s["B: Business Total Attributes"]) * cw["B: Business Category Weighting"])
-                + ((s["C: Coverage & Detail Missing Count"] / s["C: Coverage & Detail Total Attributes"]) * cw[
-                "C: Coverage & Detail Category Weighting"])
-                + ((s["D: Format & Structure Missing Count"] / s["D: Format & Structure Total Attributes"]) * cw[
-                "D: Format & Structure Category Weighting"])
-                + ((s["E: Attribution Missing Count"] / s["E: Attribution Total Attributes"]) * cw[
-                "E: Attribution Category Weighting"])
-                + ((s["F: Technical Metadata Missing Count"] / s["F: Technical Metadata Total Attributes"]) * cw[
-                "F: Technical Metadata Category Weighting"]))*100,2)
-    return wc_score
+def quality_ratings(s):
+    '''Takes in a score and returns the resulting quality rating
+
+    Keyword arguments:
+    s -- score: a single score from the dictionary of metadata scores
+
+    '''
+    if s <= 50:
+        return "Not Rated"
+    elif s > 50 and s <= 70:
+        return "Bronze"
+    elif s > 70 and s <= 80:
+        return "Silver"
+    elif s > 80 and s <= 90:
+        return "Gold"
+    elif s > 90:
+        return "Platinum"
 
 def attribute_weighted_score(s, w):
+    '''Applies the provided attribute weightings to the completeness and error score.
+
+    Keyword arguments:
+    s -- score: a dictionary of metadata scores
+    w -- weights: a dictionary of metadata attributes and weights
+    '''
     score = 0
     for section in REPORTING_LEVELS:
         section_score = s[section]
