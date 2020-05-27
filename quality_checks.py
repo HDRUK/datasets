@@ -18,10 +18,10 @@ from validate_schema import get_json, validate_schema, \
                             import_dm_tm, check_dm_completeness, check_attribute_validation, flatten_reporting_dict
 from datasets import export_csv, export_json
 
-DATASET_SCHEMA = 'schema/dataset.schema.json'
+DATASET_SCHEMA = 'config/schema/dataset.schema.json'
 BASELINE_SAMPLE = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
 DATASETS_JSON = "datasets.json"
-WEIGHTS = "weights.json"
+WEIGHTS = "config/weights/weights.json"
 
 METADATA_SECTIONS = {
     "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
@@ -121,7 +121,7 @@ def generate_quality_score():
     '''
 
     # Generate completeness percent & weighted completeness percent
-    scores = get_json('reports/check_attribute_completeness.json')
+    scores = get_json('reports/attribute_completeness.json')
     completion_weightings = get_json(WEIGHTS)
     data = {}
     for s in scores:
