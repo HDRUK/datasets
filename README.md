@@ -7,3 +7,43 @@ This repo automatically collects the datasets published on the Gateway including
 ### [Raw Daily CSV Extract](https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.csv)
 
 ### [Raw Daily JSON Extract](https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json)
+
+# HDR UK Data Documentation Scores
+
+Scripts are available to score the metadata completeness and errors, and calculate the metadata quality score.
+
+## How to run these scripts
+
+## How scores are calculated
+
+**Completeness Percent** = # filled fields / # total fields
+
+**Weighted Completeness Percent** = sum(weights of filled fields)
+
+**Error Percent** = # fields with errors/ # total fields
+
+**Weighted Error Percent** = sum(weights of fields with errors)
+
+**Quality score** = (completeness percent + (1-error percent))/2
+
+**Weighted Quality Score**** = (weighted completeness percent + (1-weight error percent))/2
+
+**Rating:** Based on (weighted) quality score 
+
+| < 50 | Not rated |
+
+| >50 & <= 70 | Bronze |
+
+| - >70 & <=80|  Silver |
+
+| >80 & <=90 | Gold |
+
+| >90 | Platinum |
+
+## How to modify weights
+
+1. Download the attribute_weights_config.xls file
+2. Update the weights in the 'weightings configuration' tab in the excel file, by adjusting the number in the boosting column
+3. Copy the data from the TSV tab of the spreadsheet, and paste it over the existing data in the weightings_config.tsv file in the directory
+4. Run the "create_weightings_json.py" script.  This will overwrite the data in the weights.json file
+
