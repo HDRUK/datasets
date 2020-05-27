@@ -15,7 +15,7 @@ import requests
 from pprint import pprint
 from validate_schema import get_json, validate_schema, \
                             generate_baseline_from_sections, generate_attribute_list, \
-                            import_dm_tm, check_dm_completeness, check_attribute_validation
+                            import_dm_tm, check_dm_completeness, check_attribute_validation, flatten_reporting_dict
 from datasets import export_csv, export_json
 
 DATASET_SCHEMA = 'schema/dataset.schema.json'
@@ -217,11 +217,15 @@ def main():
 
     # Compile Attribute Completeness Score
     attribute_completeness_score = check_dm_completeness(data_models)
-    export_json(attribute_completeness_score,'reports/check_attribute_completeness.json')
+    export_json(attribute_completeness_score,'reports/attribute_completeness.json')
+    csv_data, headers = flatten_reporting_dict(attribute_completeness_score)
+    export_csv(csv_data, 'reports/attribute_completeness.csv', headers)
 
     # Compile Attribute Schema Validation Error Score
-    schema_errors = check_attribute_validation(data_models)
-    export_json(schema_errors,'reports/attribute_errors.json')
+    attribute_schema_errors = check_attribute_validation(data_models)
+    export_json(attribute_schema_errors,'reports/attribute_errors.json')
+    csv_data, headers = flatten_reporting_dict(attribute_schema_errors)
+    export_csv(csv_data, 'reports/attribute_errors.csv', headers)
 
 
 if __name__ == "__main__":
