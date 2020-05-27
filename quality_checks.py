@@ -214,9 +214,11 @@ def main():
     # Attribute level checks
     # read in datasets
     data_models = import_dm_tm(DATASETS_JSON)
+
     # Compile Attribute Completeness Score
     attribute_completeness_score = check_dm_completeness(data_models)
     export_json(attribute_completeness_score,'reports/check_attribute_completeness.json')
+
     # Compile Attribute Schema Validation Error Score
     schema_errors = check_attribute_validation(data_models)
     export_json(schema_errors,'reports/attribute_errors.json')
