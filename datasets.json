@@ -21679,172 +21679,6 @@
       "dataClasses": []
     },
     {
-      "id": "5b5505fb-915d-4677-aa0a-b2a28ed4e897",
-      "domainType": "DataModel",
-      "label": "COVID-19 Test results",
-      "documentationVersion": "1.0.0",
-      "description": "Test results from Laboratory Information Management System for COVID19 tests (coronavirus SARS CoV2 PCR and coronavirus PCR tests). Details tests, outcomes, and some clinically relevant patient information about Covid19 Tests in Wales.",
-      "editable": false,
-      "lastUpdated": "2020-05-05T13:50:29.496Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-05-05T13:54:47.94Z",
-      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
-      "keywords": "SAIL, Welsh, COVID19, nCOV, coronavirus",
-      "contactPoint": "https://saildatabank.com/contact/",
-      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
-      "jurisdiction": "GB-WLS",
-      "language": "en",
-      "title": "COVID-19 Test results",
-      "linkedDataset": "Yes",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Not Available",
-      "controlledVocabulary": "See Conforms To",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "25000",
-      "group": "Not Applicable",
-      "identifier": "COVID_LIMS",
-      "creator": "Welsh Results Reports Service (WRRS)",
-      "releaseDate": "2020-04-04T00:00:00Z",
-      "format": "SQL database table",
-      "abstract": "Test results from Laboratory Information Management System for COVID19 tests (coronavirus SARS CoV2 PCR and coronavirus PCR tests).",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "No",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Patients having COVID-19 test in Wales.",
-      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
-      "periodicity": "To be completed",
-      "publisher": "SAIL Databank",
-      "ageBand": "All Ages",
-      "accessRights": "https://saildatabank.com/application-process/",
-      "conformsTo": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm",
-      "geographicCoverage": "Wales",
-      "doi": "TBC",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "8f6a0675-f2b9-40c9-b256-d60e4491712d",
-          "domainType": "DataClass",
-          "label": "COVID_LIMSTESTRESULTS",
-          "description": "Test results from Laboratory Information Management System for COVID19 tests (corona virus SARS CoV2 PCR and coronavirus PCR tests)",
-          "lastUpdated": "2020-05-05T13:50:29.573Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "dccba7b6-419f-4996-b0c2-d278ebb81160",
-              "domainType": "DataElement",
-              "label": "TAT_REQ_M",
-              "description": "TAT_REQ_M",
-              "dataType": {
-                "id": "6f71877b-b7f2-4d4e-92dd-23c33cd6704a",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "5df37e79-645f-4ca5-a140-43b0875c6a25",
-              "domainType": "DataElement",
-              "label": "NEW_CASE_FLG",
-              "description": "New case flag (1 = new case)",
-              "dataType": {
-                "id": "6f71877b-b7f2-4d4e-92dd-23c33cd6704a",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "c02095ff-693f-4baa-b972-516b32531aa5",
-              "domainType": "DataElement",
-              "label": "EPI",
-              "description": "Episode number",
-              "dataType": {
-                "id": "f2f945d7-446e-467c-adf4-1f3b6ee558b9",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "688c2328-b069-4d0a-9356-2a07103d7a29",
-              "domainType": "DataElement",
-              "label": "COVID19_TEST_RESULT",
-              "description": "Covid19 test result (Positive/ Negative)",
-              "dataType": {
-                "id": "f2f945d7-446e-467c-adf4-1f3b6ee558b9",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "fdf31588-d258-4b40-b961-ef5ca6749096",
-              "domainType": "DataElement",
-              "label": "PAT_TYPE_DESC",
-              "description": "Patient type description",
-              "dataType": {
-                "id": "f2f945d7-446e-467c-adf4-1f3b6ee558b9",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "44345809-2085-4a3e-af5e-865c57167784",
-              "domainType": "DataElement",
-              "label": "RESULT_CD",
-              "description": "Test result code",
-              "dataType": {
-                "id": "f2f945d7-446e-467c-adf4-1f3b6ee558b9",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "4a3ca238-467b-4ccb-8240-aa4d124d5d01",
-              "domainType": "DataElement",
-              "label": "SUBJECT_LSOA2001_CD",
-              "description": "Subject LSOA2001 Code",
-              "dataType": {
-                "id": "f2f945d7-446e-467c-adf4-1f3b6ee558b9",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "4fd380ea-351f-4413-af6b-05421d94d3d1",
-              "domainType": "DataElement",
-              "label": "SPCM_RECEIVED_DTTM",
-              "description": "Specimen Received (date time)",
-              "dataType": {
-                "id": "81b4bed0-1b7c-40ad-9548-beca6f195450",
-                "domainType": "PrimitiveType",
-                "label": "TIMESTAMP"
-              }
-            },
-            {
-              "id": "66807927-af04-4ae8-bb0f-d14985bfc92e",
-              "domainType": "DataElement",
-              "label": "SUBJECT_DOB_MON_OF_WEEK",
-              "description": "The Monday for the week of the DOB of the subject",
-              "dataType": {
-                "id": "81b4bed0-1b7c-40ad-9548-beca6f195450",
-                "domainType": "PrimitiveType",
-                "label": "TIMESTAMP"
-              }
-            },
-            {
-              "id": "a3e6bdb8-e9d9-4320-8bc2-87c52566069a",
-              "domainType": "DataElement",
-              "label": "FIRST_AUTHORISED_DT",
-              "description": "Date that the test was first authorised",
-              "dataType": {
-                "id": "d463dd3b-bbbd-4679-b260-ae61290062c8",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "5b85d641-73dd-4dba-a1a3-b6340227d2ef",
       "domainType": "DataModel",
       "label": "Child Health Systems Programme - First Visit",
@@ -45321,6 +45155,172 @@
       "group": "Data yet to be acquired for HDR UK IBD Hub",
       "dataClassesCount": 0,
       "dataClasses": []
+    },
+    {
+      "id": "9d80a3e3-0c71-4818-b77b-26fbdd02d8ad",
+      "domainType": "DataModel",
+      "label": "COVID-19 Test results",
+      "documentationVersion": "2.0.0",
+      "description": "Test results from Laboratory Information Management System for COVID19 tests (coronavirus SARS CoV2 PCR and coronavirus PCR tests). Details tests, outcomes, and some clinically relevant patient information about Covid19 Tests in Wales.",
+      "editable": false,
+      "lastUpdated": "2020-05-27T11:41:56.9Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-05-27T11:46:26.319Z",
+      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
+      "keywords": "SAIL, Welsh, COVID19, nCOV, coronavirus",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
+      "jurisdiction": "GB-WLS",
+      "language": "en",
+      "title": "COVID-19 Test results",
+      "linkedDataset": "Yes",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Not Available",
+      "controlledVocabulary": "See Conforms To",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "25000",
+      "group": "Not Applicable",
+      "identifier": "COVID_LIMS",
+      "creator": "Welsh Results Reports Service (WRRS)",
+      "releaseDate": "2020-04-04T00:00:00Z",
+      "format": "SQL database table",
+      "abstract": "Test results from Laboratory Information Management System for COVID19 tests (coronavirus SARS CoV2 PCR and coronavirus PCR tests).",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Patients having COVID-19 test in Wales.",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "To be completed",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "All Ages",
+      "accessRights": "https://saildatabank.com/application-process/",
+      "conformsTo": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm",
+      "geographicCoverage": "Wales",
+      "doi": "TBC",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "82534587-4f62-4922-919f-00f9367a2dcd",
+          "domainType": "DataClass",
+          "label": "COVID_LIMSTESTRESULTS",
+          "description": "Test results from Laboratory Information Management System for COVID19 tests (corona virus SARS CoV2 PCR and coronavirus PCR tests)",
+          "lastUpdated": "2020-05-27T11:41:57.393Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "90262d41-a26e-47f2-96b9-0da8117600ae",
+              "domainType": "DataElement",
+              "label": "AUTHORISED_DTTM",
+              "description": "Date time that the report was authorised",
+              "dataType": {
+                "id": "db9d2b14-2ace-404e-8b53-ccf61f51184d",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "fc27de51-8ef9-4c5a-aa84-9615677dd341",
+              "domainType": "DataElement",
+              "label": "NEW_CASE_FLG",
+              "description": "New case flag (1 = new case)",
+              "dataType": {
+                "id": "0612008f-f0e0-41d4-a912-39179e1aeb8e",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "3ef4ba0e-01b3-4d13-a07f-957eaca95341",
+              "domainType": "DataElement",
+              "label": "FIRST_AUTHORISED_DTTM",
+              "description": "Date time test first authorised",
+              "dataType": {
+                "id": "db9d2b14-2ace-404e-8b53-ccf61f51184d",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "c2b303c1-363b-496b-8e26-c8dda5ad19f3",
+              "domainType": "DataElement",
+              "label": "SPCM_RECEIVED_DTTM",
+              "description": "Specimen Received (date time)",
+              "dataType": {
+                "id": "db9d2b14-2ace-404e-8b53-ccf61f51184d",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "a26e2148-e609-45aa-b23e-8c858298da4a",
+              "domainType": "DataElement",
+              "label": "UPDATED",
+              "description": "Record updated date time",
+              "dataType": {
+                "id": "db9d2b14-2ace-404e-8b53-ccf61f51184d",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "fc5bfae8-3100-416f-8d6a-a69a6b0ea79d",
+              "domainType": "DataElement",
+              "label": "TAT_REQ_M",
+              "description": "TAT_REQ_M",
+              "dataType": {
+                "id": "0612008f-f0e0-41d4-a912-39179e1aeb8e",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "5356935c-2f4c-4fc6-9ccc-9fcff5b5e8cc",
+              "domainType": "DataElement",
+              "label": "LOC_CD",
+              "description": "Local  code",
+              "dataType": {
+                "id": "066f95bd-4ee3-4555-9731-c7527f7b8ffe",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "b44309c0-278c-4333-a718-8b90357ea1fa",
+              "domainType": "DataElement",
+              "label": "TEST_SET_NAME",
+              "description": "Test set name",
+              "dataType": {
+                "id": "066f95bd-4ee3-4555-9731-c7527f7b8ffe",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "725deb60-30a7-476c-bfba-5e991c267f8c",
+              "domainType": "DataElement",
+              "label": "RESULT_CD",
+              "description": "Test result code",
+              "dataType": {
+                "id": "066f95bd-4ee3-4555-9731-c7527f7b8ffe",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "6c2b18e2-fccb-4d8f-b6ab-936d571c2804",
+              "domainType": "DataElement",
+              "label": "MRN_LIMS_PERSON_ID_E",
+              "description": "Encrypted LIMS person identifier",
+              "dataType": {
+                "id": "bbaa56d5-c56f-48be-81f4-2f97614fc6b1",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "9e8982cb-6e2b-4c6e-b9d5-80a3794eb1dc",
