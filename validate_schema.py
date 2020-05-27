@@ -10,10 +10,9 @@ import re
 import json
 import requests
 import copy
-# noinspection PyPackageRequirements
 from jsonschema import validate, Draft7Validator, FormatChecker, draft7_format_checker
 
-DATASET_SCHEMA = 'schema/dataset.schema.json'
+DATASET_SCHEMA = 'config/schema/dataset.schema.json'
 DATASETS_JSON = 'https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json'
 BASELINE_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
 
@@ -58,7 +57,7 @@ REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
 
 
 def get_json(json_uri):
-    if isinstance(json_uri, dict):
+    if isinstance(json_uri,dict):
         return json_uri
     elif os.path.isfile(json_uri):
         with open(json_uri, 'r') as json_file:
@@ -77,7 +76,7 @@ def export_json(data, filename, indent=2):
 def validate_schema(schema, json):
     schema = get_json(schema)
     json = get_json(json)
-
+    
     v = Draft7Validator(schema, format_checker=draft7_format_checker)
     errors = sorted(v.iter_errors(json), key=lambda e: e.path)
     print(json['id'], ": Number of validation errors = ", len(errors))
@@ -125,7 +124,7 @@ def validate_attribute_schema(schema, data_model):
         else:
             print(error.message)
             attribute = re.findall(r"(.*?)'", error.message)[1]
-            err.setdefault(attribute, []).append(error.message)
+            err.setdefault(attribute,[]).append(error.message)
             # err['attribute'] = re.findall(r"(.*?)'", error.message)[1]
             # err['message'] = error.message
     return err
@@ -180,7 +179,7 @@ def import_dm_tm(datamodel_uri):
     models_with_metadata = 0
     for dm in data_models['dataModels']:
         if dm.get('dataClassesCount', 0) > 0:
-            # dm['technicalMetaDataValidation'] = process_technical_metadata(dm.get('dataClasses', []))
+            #dm['technicalMetaDataValidation'] = process_technical_metadata(dm.get('dataClasses', []))
             technicalMetaDataValidation = process_technical_metadata(dm.get('dataClasses', []))
             dm['technicalMetaDataValidation'] = technicalMetaDataValidation
             models_with_metadata += 1
@@ -287,7 +286,7 @@ def check_dm_completeness(data_models):
         }
         compute_tech_md_completeness(dm)
         for attribute in (set(dm.keys()) - set(schema.keys())):
-            dm.pop(attribute, None)  # any attribute not in the schema, drop from the data model
+            dm.pop(attribute, None) # any attribute not in the schema, drop from the data model
         s = copy.deepcopy(schema)
         s.update(dm)
         score = check_attribute_completeness(s)
@@ -330,7 +329,7 @@ def check_attribute_validation(data_models, metadata_sections=REPORTING_ATTRIBUT
                 for k in reporting_dict[level].keys():
                     if 'dataClassesCount' == k:
                         i = dm_validate.get(k, 0)
-                        reporting_dict[level][k] = int(1 - (i > 1))
+                        reporting_dict[level][k] = int( 1 - (i>1))
                     elif 'attributes_with_errors' == k:
                         continue
                     elif 'total_attributes' == k:
@@ -358,8 +357,7 @@ def check_attribute_validation(data_models, metadata_sections=REPORTING_ATTRIBUT
     return data
 
 
-def generate_baseline_from_sections(metadata_sections=REPORTING_ATTRIBUTES, metadata_levels=REPORTING_LEVELS,
-                                    add_id=True):
+def generate_baseline_from_sections(metadata_sections=REPORTING_ATTRIBUTES, metadata_levels=REPORTING_LEVELS, add_id=True):
     '''
     generate the baseline schema from REPORTING_ATTRIBUTES, a dictionary of dictionaries
     @param metadata_sections: reporting levels and attributes
@@ -392,8 +390,7 @@ def compute_tech_md_completeness(data_model):
     data_model['sensitive'] = None
 
 
-def init_reporting_dict(metadata_sections=REPORTING_ATTRIBUTES, reporting_levels=REPORTING_LEVELS,
-                        txt='attribute_reporting'):
+def init_reporting_dict(metadata_sections = REPORTING_ATTRIBUTES, reporting_levels = REPORTING_LEVELS, txt='attribute_reporting'):
     """
     Initialise dictionary that mirrors reporting levels and attributes
     @param metadata_sections: reporting levels and attributes
@@ -474,6 +471,7 @@ def main():
 
     # Compile Metadata Completeness Score
     attribute_completeness_score = check_dm_completeness(data_models)
+    export_json(attribute_completeness_score,'reports/attribute_completeness.json')
     # export_json(attribute_completeness_score,'reports/attribute_completeness.json')
     data, headers = flatten_reporting_dict(attribute_completeness_score)
 
