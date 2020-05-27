@@ -20,14 +20,23 @@ in the reports folder
 ## About the reports
 
 **completeness.json & completeness.csv**  
-Reports the number of missing attributes, per section of the metadata specification, for each dataset
+Lists the number of missing attributes, per section of the metadata specification, for each dataset
 
 **schema_errors.json & schema_errors.csv**  
 Lists the metadata attributes that reported schema validation errors, and the associated error messages for each dataset
 
-**attribute_completeness.json**  
-Reports the missing attributes of the metadata specification (0: missing or 1: complete), for each dataset.
+**attribute_completeness.json & attribute_completeness.csv**  
+Lists the attributes of the metadata specification, and whether or not they have been completed 
+(0: missing or 1: complete), for each dataset.
 Calculates the total number of filled attributes and total attributes by dataset.
+
+**attribute_errors.json & attribute_errors.csv**
+Lists the attributes of the metadata specification, and whether or not the schema validation returned an error 
+(0: no errors or 1: one or more errors), for each dataset.
+Calculates the total number of attributes with errors and total attributes by dataset.
+
+**metadata_quality.json & metadata_quality.csv**
+Lists each dataset, and the resulting scores.
 
 ## How scores are calculated
 
@@ -40,7 +49,8 @@ Calculates the total number of filled attributes and total attributes by dataset
 **Quality score** = (completeness percent + (1-error percent))/2  
 **Weighted Quality Score**** = (weighted completeness percent + (1-weight error percent))/2
 
-**Rating:** Based on (weighted) quality score 
+**Quality Rating / Weighted Quality Rating:**  
+Based on (weighted)/quality score 
 
 | < 50 | Not rated |
 | >50 & <= 70 | Bronze |
