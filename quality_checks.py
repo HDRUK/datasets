@@ -42,7 +42,7 @@ REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
                     "D: Format & Structure", "E: Attribution", "F: Technical Metadata"]
 
 def nullScore(d):
-    ''' CHECK WITH HEIKO: Do we need this anymore? '''
+    ''' This function calculates the scores for the completeness report'''
     count = 0
     nulls = 0
     data = { f"{attr_level} Missing Count": 0 for attr_level in REPORTING_LEVELS}
@@ -168,7 +168,6 @@ def quality_ratings(s):
 
     Keyword arguments:
     s -- score: a single score from the dictionary of metadata scores
-
     '''
     if s <= 50:
         return "Not Rated"

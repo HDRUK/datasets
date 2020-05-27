@@ -14,6 +14,21 @@ Scripts are available to score the metadata completeness and errors, and calcula
 
 ## How to run these scripts
 
+1. Run quality_checks.py.  This script takes the output of the daily extract (see above) and produces the outputs 
+in the reports folder
+
+## About the reports
+
+**completeness.json & completeness.csv**  
+Reports the number of missing attributes, per section of the metadata specification, for each dataset
+
+**schema_errors.json & schema_errors.csv**  
+Lists the metadata attributes that reported schema validation errors, and the associated error messages for each dataset
+
+**attribute_completeness.json**  
+Reports the missing attributes of the metadata specification (0: missing or 1: complete), for each dataset.
+Calculates the total number of filled attributes and total attributes by dataset.
+
 ## How scores are calculated
 
 **Completeness Percent** = # filled fields / # total fields  
