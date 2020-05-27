@@ -16,28 +16,21 @@ Scripts are available to score the metadata completeness and errors, and calcula
 
 ## How scores are calculated
 
-**Completeness Percent** = # filled fields / # total fields
-
+**Completeness Percent** = # filled fields / # total fields  
 **Weighted Completeness Percent** = sum(weights of filled fields)
 
-**Error Percent** = # fields with errors/ # total fields
-
+**Error Percent** = # fields with errors/ # total fields  
 **Weighted Error Percent** = sum(weights of fields with errors)
 
-**Quality score** = (completeness percent + (1-error percent))/2
-
+**Quality score** = (completeness percent + (1-error percent))/2  
 **Weighted Quality Score**** = (weighted completeness percent + (1-weight error percent))/2
 
 **Rating:** Based on (weighted) quality score 
 
 | < 50 | Not rated |
-
 | >50 & <= 70 | Bronze |
-
 | - >70 & <=80|  Silver |
-
 | >80 & <=90 | Gold |
-
 | >90 | Platinum |
 
 ## How to modify weights
