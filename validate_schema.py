@@ -10,6 +10,7 @@ import re
 import json
 import requests
 import copy
+# noinspection PyPackageRequirements
 from jsonschema import validate, Draft7Validator, FormatChecker, draft7_format_checker
 
 DATASET_SCHEMA = 'schema/dataset.schema.json'
