@@ -35,7 +35,7 @@ Lists the attributes of the metadata specification, and whether or not the schem
 (0: no errors or 1: one or more errors), for each dataset.
 Calculates the total number of attributes with errors and total attributes by dataset.
 
-**metadata_quality.json & metadata_quality.csv**
+**metadata_quality.json & metadata_quality.csv**  
 Lists each dataset, and the resulting scores.
 
 ## How scores are calculated
@@ -60,8 +60,8 @@ Based on (weighted)/quality score
 
 ## How to modify weights
 
-1. Download the attribute_weights_config.xls file
+1. Download the config/weights/attribute_weights_config.xls file
 2. Update the weights in the 'weightings configuration' tab in the excel file, by adjusting the number in the boosting column
-3. Copy the data from the TSV tab of the spreadsheet, and paste it over the existing data in the weightings_config.tsv file in the directory
-4. Run the "create_weightings_json.py" script.  This will overwrite the data in the weights.json file
+3. Copy the data from the TSV tab of the spreadsheet, and paste it over the existing data in the config/weights/weightings_config.tsv file in the directory
+4. Run the "config/weights/create_weightings_json.py" script.  This will overwrite the data in the config/weights/weights.json file
 

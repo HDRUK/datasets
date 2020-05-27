@@ -12,7 +12,7 @@ import requests
 import copy
 from jsonschema import validate, Draft7Validator, FormatChecker, draft7_format_checker
 
-DATASET_SCHEMA = 'schema/dataset.schema.json'
+DATASET_SCHEMA = 'config/schema/dataset.schema.json'
 DATASETS_JSON = 'https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json'
 BASELINE_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
 
@@ -437,7 +437,7 @@ def main():
 
     # Compile Metadata Completeness Score
     attribute_completeness_score = check_dm_completeness(data_models)
-    export_json(attribute_completeness_score,'reports/check_attribute_completeness.json')
+    export_json(attribute_completeness_score,'reports/attribute_completeness.json')
 
     # Compile Schema Validation Error Score
     schema_errors = check_attribute_validation(data_models)
