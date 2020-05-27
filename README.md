@@ -52,6 +52,8 @@ Lists each dataset, and the resulting scores.
 **Quality Rating / Weighted Quality Rating:**  
 Based on (weighted)/quality score 
 
+| (Weighted)/Quality Score | Rating |
+| --- | --- |
 | < 50 | Not rated |
 | >50 & <= 70 | Bronze |
 | - >70 & <=80|  Silver |
