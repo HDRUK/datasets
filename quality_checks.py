@@ -20,7 +20,7 @@ from datasets import export_csv, export_json
 
 DATASET_SCHEMA = 'config/schema/dataset.schema.json'
 BASELINE_SAMPLE = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
-DATASETS_JSON = "datasets.json"
+DATASETS_JSON = 'https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json'
 WEIGHTS = "config/weights/weights.json"
 
 METADATA_SECTIONS = {
@@ -170,16 +170,14 @@ def quality_ratings(s):
     s -- score: a single score from the dictionary of metadata scores
 
     '''
-    if s <= 50:
+    if s <= 66:
         return "Not Rated"
-    elif s > 50 and s <= 70:
+    elif s > 66 and s <= 76:
         return "Bronze"
-    elif s > 70 and s <= 80:
+    elif s > 76 and s <= 86:
         return "Silver"
-    elif s > 80 and s <= 90:
+    elif s > 86:
         return "Gold"
-    elif s > 90:
-        return "Platinum"
 
 def attribute_weighted_score(s, w):
     '''Applies the provided attribute weightings to the completeness and error score.
