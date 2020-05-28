@@ -206,11 +206,6 @@ def main():
     export_json(schema_errors,'reports/schema_errors.json')
     export_csv(schema_errors, 'reports/schema_errors.csv', headers)
 
-    # Summarise Average Quality Score
-    summary_score, headers = generate_quality_score()
-    export_json(summary_score,'reports/metadata_quality.json')
-    export_csv(summary_score, 'reports/metadata_quality.csv', headers)
-
     # Attribute level checks
     # read in datasets
     data_models = import_dm_tm(DATASETS_JSON)
@@ -226,6 +221,11 @@ def main():
     export_json(attribute_schema_errors,'reports/attribute_errors.json')
     csv_data, headers = flatten_reporting_dict(attribute_schema_errors)
     export_csv(csv_data, 'reports/attribute_errors.csv', headers)
+
+    # Summarise Average Quality Score
+    summary_score, headers = generate_quality_score()
+    export_json(summary_score,'reports/metadata_quality.json')
+    export_csv(summary_score, 'reports/metadata_quality.csv', headers)
 
 
 if __name__ == "__main__":
