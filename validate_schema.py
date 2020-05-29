@@ -12,7 +12,7 @@ import requests
 import copy
 from jsonschema import validate, Draft7Validator, FormatChecker, draft7_format_checker
 
-DATASET_SCHEMA = 'config/schema/dataset.schema.json'
+DATASET_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset.schema.json'
 DATASETS_JSON = 'https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json'
 BASELINE_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
 
