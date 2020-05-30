@@ -8472,6 +8472,35 @@
     ]
   },
   {
+    "id": "4dd35210-e618-4e6b-b3ed-62479c6c052e",
+    "publisher": "ALLIANCE > IMPERIAL COLLEGE LONDON",
+    "title": "National Neonatal Research Database",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '4-6 weeks' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS Data Dictionary' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS Data Dictionary' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England, Wales, Scotland and the Isle of Man' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "5055113a-bb7b-4b55-80c4-1b2d3ddc0ec7",
     "publisher": "University of Dundee Health Informatics Centre",
     "title": "Fife Radiology",
@@ -16678,96 +16707,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
-    "id": "9b49b4d8-28b6-47d4-be8c-d5d3091ecd36",
-    "publisher": "Imperial College London",
-    "title": "NNRD: National Neonatal Research Database",
-    "schema_error_count": 20,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "abstract",
-        "message": "abstract: 'Electronic health records for all neonatal unit admissions across England, Scotland and Wales as specified in the national Neonatal Data Set.\\nData requests can be made with the Neonatal Data Analysis Unit (NDAU). Patient level data can only be supplied when anonymised unless special permission is obtained from the Confidential Advisory Group.' is too long"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'As per Data Sharing Agreement' is not valid under any of the given schemas",
-        "suberrors": "    type: 'As per Data Sharing Agreement' is not of type 'array'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Neonatal Data Set includes ICD-10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Neonatal Data Set includes ICD-10' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England, Scotland and Wales' is not a 'uri'"
       }
     ]
   },
