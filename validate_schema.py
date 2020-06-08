@@ -280,9 +280,9 @@ def check_dm_completeness(data_models):
         dm = copy.deepcopy(data_model)
         print("Processing:", dm['id'])
         d = {
-            'id': dm['id'],
-            'publisher': dm['publisher'],
-            'title': dm['title']
+            'id': dm.get('id',None),
+            'publisher': dm.get('publisher',None),
+            'title': dm.get('title',None)
         }
         compute_tech_md_completeness(dm)
         for attribute in (set(dm.keys()) - set(schema.keys())):
@@ -313,11 +313,10 @@ def check_attribute_validation(data_models, metadata_sections=REPORTING_ATTRIBUT
         for attribute in (set(dm_validate.keys()) - validation_attributes):
             dm_validate.pop(attribute, None)
         errors = validate_attribute_schema(schema, dm_validate)
-        d = dict()
         d = {
-            'id': dm['id'],
-            'publisher': dm['publisher'],
-            'title': dm['title'],
+            'id': dm.get('id',None),
+            'publisher': dm.get('publisher',None),
+            'title': dm.get('title',None)
         }
         reporting_dict = init_reporting_dict(metadata_sections=metadata_sections,
                                              reporting_levels=reporting_levels,

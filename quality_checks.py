@@ -78,9 +78,9 @@ def completeness_check():
     for dm in data_models['dataModels']:
         print("Processing:", dm['id'])
         d = {
-            'id': dm['id'],
-            'publisher': dm['publisher'],
-            'title': dm['title']
+            'id': dm.get('id',None),
+            'publisher': dm.get('publisher',None),
+            'title': dm.get('title',None)
         }
         for attribute in (set(dm.keys()) - set(schema.keys())):
             dm.pop(attribute, None) # any attribute not in the schema, drop from the data model
@@ -104,9 +104,9 @@ def schema_validation_check():
             dm_validate.pop(attribute, None)
         errors = validate_schema(schema, dm_validate)
         d = {
-            'id': dm['id'],
-            'publisher': dm['publisher'],
-            'title': dm['title'],
+            'id': dm.get('id',None),
+            'publisher': dm.get('publisher',None),
+            'title': dm.get('title',None),
             'schema_error_count': len(errors),
             'errors': errors
         }
