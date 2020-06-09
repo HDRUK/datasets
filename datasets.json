@@ -1,5 +1,5 @@
 {
-  "count": 445,
+  "count": 446,
   "dataModels": [
     {
       "id": "004d1932-f06e-49d2-b87a-e5e4140ffbb3",
@@ -54946,14 +54946,14 @@
       "lastUpdated": "2020-01-14T12:10:30.442Z",
       "classifiers": [
         {
-          "id": "ef85dd01-09a1-43af-81ef-82e402328572",
-          "label": "NIHR HIC Data Models",
-          "lastUpdated": "2019-12-17T12:17:55.21Z"
-        },
-        {
           "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
           "label": "Critical Care",
           "lastUpdated": "2019-10-24T09:45:59.854Z"
+        },
+        {
+          "id": "ef85dd01-09a1-43af-81ef-82e402328572",
+          "label": "NIHR HIC Data Models",
+          "lastUpdated": "2019-12-17T12:17:55.21Z"
         }
       ],
       "type": "Data Asset",
@@ -62699,6 +62699,50 @@
       "ageBand": "0-4",
       "accessRights": "https://www.informationgovernance.scot.nhs.uk/pbpphsc/\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/",
       "geographicCoverage": "Scotland",
+      "dataClassesCount": 0,
+      "dataClasses": []
+    },
+    {
+      "id": "cd0cc1de-f0bc-4247-9e67-47e162e2cc6b",
+      "domainType": "DataModel",
+      "label": "National Cancer Registration Dataset 2018",
+      "documentationVersion": "0.0.1",
+      "description": "Data Resource Profile: National Cancer Registration Dataset: https://academic.oup.com/ije/article/49/1/16/5476570\n\nData Resource Profile: The Systemic Anti-Cancer Therapy (SACT) dataset: https://academic.oup.com/ije/article/49/1/15/5538002",
+      "editable": false,
+      "lastUpdated": "2020-06-09T09:09:21.041Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-02T11:00:17.404Z",
+      "accessRequestCost": "PHE applies charges on a full economic cost recovery basis for any work to prepare and release data through the ODR. All requests are charged on a project by project basis to reflect that the amount of work required to facilitate access to the data will differ. \n\nFor the 2020/21 financial year, the unit cost per hour for ODR services is set at \u00a3415.80 (excluding VAT). Please note that unless a valid exemption applies, VAT will be charged at the prevailing rate at time of invoicing. \n\nService charges are either \u2018variable\u2019 or \u2018fixed\u2019 as detailed below.\n\nService Cost\nODR review, contract execution and ongoing administration \n\n\u00a3831.60\n\nAmendments to existing extant contracts (inclusive of ODR review and management of contract variations)\n\n\u00a3415.80\n\nData preparation, extraction and quality assurance of the data (applicable to new applications and amendments) or bespoke data linkage.\n\nCharges will be quoted based on the complexity of the request and the frequency at which the data will be disseminated and/or bespoke linkage will be applied.",
+      "keywords": "Cancer, neoplasm, neoplasia, tumour, cancer registry, cancer registration",
+      "contactPoint": "https://www.gov.uk/government/publications/accessing-public-health-england-data",
+      "accessRequestDuration": "2-3 months from a valid application.",
+      "jurisdiction": "GB-EAW",
+      "datasetEndDate": "2018-12-01",
+      "datasetStartDate": "1995-01-01",
+      "language": "en",
+      "title": "National Cancer Registration Dataset 2018",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "https://www.ndrs.nhs.uk/wp-content/uploads/2020/02/Final-NCRAS-publications-and-resources-Jan19-to-Dec-19.pdf",
+      "controlledVocabulary": "ICD 10 Codes, NHS Data Dictionary, OPSC 4.8",
+      "dataController": "Public Health England",
+      "statisticalPopulation": "10000000",
+      "group": "No Group",
+      "identifier": "PHE_NCRAS_2018",
+      "creator": "This work uses data that has been provided by patients and collected by the NHS as part of their care and support. The data are collated, maintained and quality assured by the National Cancer Registration and Analysis Service, which is part of Public Health England (PHE). Access to the data was facilitated by the PHE Office for Data Release.",
+      "releaseDate": "2020-06-01T00:00:00Z",
+      "format": "csv, dta",
+      "abstract": "Population-based cancer registration data, using event-based registration, for all patients diagnosed with a primary tumour (ICD 10 C00-97x, D00-48x) in England.",
+      "dataProcessor": "Not Applicable",
+      "derivedDatasets": "There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands; or full dates truncated to month and year, or year alone). In addition, fields such as STAGE_BEST, ROUTE_CODE, FINAL_ROUTE and Charlson Scores are derived based on published methodologies.",
+      "license": "Project specific, revocable, non exclusive licence will be established through ODR Approval.",
+      "populationType": "Patients diagnosed with cancer (neoplasia) in England",
+      "fileSize": "100Mb",
+      "periodicity": "Annual",
+      "publisher": "ALLIANCE > PUBLIC HEALTH ENGLAND",
+      "ageBand": "All ages",
+      "accessRights": "ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\n\nthe common law duty of confidentiality\ndata protection legislation (including the General Data Protection Regulation)\n7 Caldicott principles\nthe Information Commissioner\u2019s statutory data sharing code of practice\nthe national data opt-out programme\n\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data",
+      "geographicCoverage": "England",
       "dataClassesCount": 0,
       "dataClasses": []
     },
