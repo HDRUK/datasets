@@ -22118,6 +22118,57 @@
     ]
   },
   {
+    "id": "cd0cc1de-f0bc-4247-9e67-47e162e2cc6b",
+    "publisher": "ALLIANCE > PUBLIC HEALTH ENGLAND",
+    "title": "National Cancer Registration Dataset 2018",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-3 months from a valid application.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "contactPoint: 'https://www.gov.uk/government/publications/accessing-public-health-england-data' is not a 'email'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD 10 Codes, NHS Data Dictionary, OPSC 4.8' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD 10 Codes, NHS Data Dictionary, OPSC 4.8' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands; or full dates truncated to month and year, or year alone). In addition, fields such as STAGE_BEST, ROUTE_CODE, FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands; or full dates truncated to month and year, or year alone). In addition, fields such as STAGE_BEST, ROUTE_CODE, FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      }
+    ]
+  },
+  {
     "id": "cd452690-b0f7-4e9f-a41a-275c1276b3cc",
     "publisher": "HUBS > DISCOVER NOW",
     "title": "Patient level data",
