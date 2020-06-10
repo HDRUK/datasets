@@ -1,5 +1,5 @@
 {
-  "count": 446,
+  "count": 448,
   "dataModels": [
     {
       "id": "004d1932-f06e-49d2-b87a-e5e4140ffbb3",
@@ -54946,14 +54946,14 @@
       "lastUpdated": "2020-01-14T12:10:30.442Z",
       "classifiers": [
         {
-          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
-          "label": "Critical Care",
-          "lastUpdated": "2019-10-24T09:45:59.854Z"
-        },
-        {
           "id": "ef85dd01-09a1-43af-81ef-82e402328572",
           "label": "NIHR HIC Data Models",
           "lastUpdated": "2019-12-17T12:17:55.21Z"
+        },
+        {
+          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
+          "label": "Critical Care",
+          "lastUpdated": "2019-10-24T09:45:59.854Z"
         }
       ],
       "type": "Data Asset",
@@ -62666,6 +62666,190 @@
       ]
     },
     {
+      "id": "cc4f967a-7a64-461f-ad15-bb8036fb81af",
+      "domainType": "DataModel",
+      "label": "Annual District Death Daily",
+      "documentationVersion": "0.0.1",
+      "description": "Daily version of Annual District Deaths Datasets. Office for National Statistics (ONS) register of all deaths relating to Welsh residents, including those that died outside of Wales.\n\nThe data are collected from death registrations.",
+      "semanticLinks": [
+        {
+          "id": "36d68386-f118-416b-8bfd-e71978a5a6fb",
+          "linkType": "Superseded By",
+          "domainType": "CatalogueSemanticLink",
+          "source": {
+            "id": "cc4f967a-7a64-461f-ad15-bb8036fb81af",
+            "domainType": "DataModel",
+            "label": "Annual District Death Daily",
+            "documentationVersion": "0.0.1"
+          },
+          "target": {
+            "id": "14a752a8-8efa-4bab-85c1-190e1f20c8cf",
+            "domainType": "DataModel",
+            "label": "Annual District Death Daily",
+            "documentationVersion": "1.0.0"
+          }
+        }
+      ],
+      "editable": false,
+      "lastUpdated": "2020-06-10T12:05:39.822Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-10T09:53:21.441Z",
+      "accessRequestCost": "0 GBP",
+      "keywords": "SAIL, Death, Wales, Daily",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Other",
+      "jurisdiction": "GB-WLS",
+      "datasetStartDate": "1996-01-01",
+      "language": "en",
+      "title": "Annual District Death Daily",
+      "linkedDataset": "Linkable to Other SAIL Linked datasets",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Not Available",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "32000",
+      "group": "No Group",
+      "identifier": "ADDD",
+      "creator": "NHS Wales Informatics Service",
+      "releaseDate": "2020-06-05T00:00:00Z",
+      "format": "SQL table",
+      "abstract": "Daily version of Annual District Death Dataset.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Deaths per year",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "Daily",
+      "publisher": "SAIL Databank",
+      "ageBand": "All Ages",
+      "accessRights": "In Progress",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "b6f70026-530a-40c1-a0ba-996f8b13ef0d",
+          "domainType": "DataClass",
+          "label": "DEATHS",
+          "description": "The Office for National Statistics (ONS) Annual District Death Extract (ADDE) is a register of all deaths relating to Welsh residents, including those that died out of Wales. To aid in user needs, timely but provisional counts of death registrations in England and Wales are pubilshed weekly, monthly, and quarterly. Annual mortality statistics (based on deaths registered in a calendar year) are published in separate packages to enable the timely release of statistics. From 1974 to 2005, mortality statistics were published in the annual reference volumns, DH1, DH2, and DH4. From 1993 to 2005, figures were based on deaths occurring annually in England and Wales in the reference year. Prior to 1993, figures were based on deaths registered in England and Wales in the reference year. In 2006, these three volumes were replaced by a single publication, Mortality statistics: deaths registered in England and Wales (Series DR) based on deaths registered in a reference year.",
+          "lastUpdated": "2020-06-10T09:48:42.719Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "e1b04c5d-cac1-42a3-a843-563df841ba9d",
+              "domainType": "DataElement",
+              "label": "DEATHSTATS_PREV_CENSUS_HEALTH_ORG_CD",
+              "description": "Organisation Code for the Local Health Board (LHB) for the place of the deceased , based upon the previous census. Identified via the NHS Postcode Directory.",
+              "dataType": {
+                "id": "49dc83c3-98fb-4154-9b47-a04c7760fb99",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "9160cc58-273b-4428-86c5-0af2bc5f3dd1",
+              "domainType": "DataElement",
+              "label": "DEC_OR_MOTHER_SOCIOECONOMIC_CLASS_CD",
+              "description": "Socio-economic classification code; National Statistics Socio-economic Classification operational category for mother of deceased juvenile. Covers all records after 2001; codes are derived during the online coding and validation process from a pre-existing field that contains the values 1-40 of the operational categories of the National Statistics Socioeconomic Classification based on Standard Occupational Classification.",
+              "dataType": {
+                "id": "49dc83c3-98fb-4154-9b47-a04c7760fb99",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "4409ac81-f501-4a27-aa47-f69250bb6f5e",
+              "domainType": "DataElement",
+              "label": "DEC_STATS_PREV_CENSUS_LA_PREV_CD",
+              "description": "Description to follow",
+              "dataType": {
+                "id": "4c22d5d0-e09d-458d-a3fc-10a03cddafb8",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "f4e8abb5-7ecb-4fdd-98af-0456f6b10660",
+              "domainType": "DataElement",
+              "label": "DEC_STATS_PREV_CENSUS_LSOA_CD",
+              "description": "Lower Super Output Area [LSOA] code of the residence of the deceased, based upon the previous census.   This has been derived from the postcode taken from the previous census.",
+              "dataType": {
+                "id": "49dc83c3-98fb-4154-9b47-a04c7760fb99",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "011659ba-2a3f-4d90-8fe7-bd4fa36eddb6",
+              "domainType": "DataElement",
+              "label": "DEC_SHA_CD",
+              "description": "Description to follow",
+              "dataType": {
+                "id": "49dc83c3-98fb-4154-9b47-a04c7760fb99",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "bb769f52-070e-4a94-8a8e-6127abd6d3b2",
+              "domainType": "DataElement",
+              "label": "DEATHCAUSE_ROWPOS_2_CD",
+              "description": "ICD-9 or ICD-10 code to understand underlying [secondary] or external cause of death.",
+              "dataType": {
+                "id": "49dc83c3-98fb-4154-9b47-a04c7760fb99",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "403cda8f-cb82-4957-90f2-f6ed52c2db4d",
+              "domainType": "DataElement",
+              "label": "DEATHSTATS_PREV_CENSUS_LA_CD",
+              "description": "Local Authority code for the place of death of the deceased, based on the previous census.",
+              "dataType": {
+                "id": "49dc83c3-98fb-4154-9b47-a04c7760fb99",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "fcb9fd4b-f8da-43fc-8fff-7b6b3e93544b",
+              "domainType": "DataElement",
+              "label": "DEATHCAUSE_DIAG_SEC_CAUSE_CD",
+              "description": "This field identifies the nature of injury when the underlying cause of death (defined by ICD-10 OR ICD-9) is an external cause. It is possible to have more than one nature of injury code for a single death. This covers all records where the underlying cause of death is an external cause from 2001 onwards [using ICD-10 coding ONLY], and from 1993-2000 [using ICD-9 coding ONLY]. Sometimes information on injuries is derived from coroner forms that are supplied to ONS, in particular coroner certificates of cause of death after inquest. NOTE - Because the revised form no longer includes specific questions about type of injury and parts of body injured, some coroners now often provide less detail than before. The result is that some deaths are assigned to residual codes for nature of injury. For example, in ICD-10 the statement \u201chead injury\u201d is coded to \u201cunspecified injury of head\u201d (S09.9), whereas with more detail it might be assigned to \u201cfracture of skull and facial bones\u201d (S02.n). The move from ICD-9 to ICD-10 had an impact on the allocation of secondary causes. ONS published an assessment of this impact (Griffiths and Rooney 2003). In ICD-10, when more than one body region is involved, coding is made to the relevant category of injuries involving multiple body regions (T00\u2013T07). Therefore, in the above example of an occupant injured in a transport accident, under ICD-10 the secondary cause would be classified as \u201cother specified injuries involving multiple body regions\u201d (T06.8), whereas under ICD-9 the secondary cause would be more specifically classified as a fracture of the skull (ICD-9 800). Missing Values and imputation: Field is blank for deaths at age under 28 days.",
+              "dataType": {
+                "id": "49dc83c3-98fb-4154-9b47-a04c7760fb99",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "f8c8ffb5-6582-4a67-a8f3-0ad08c6cb890",
+              "domainType": "DataElement",
+              "label": "DEATHCAUSE_ROWPOS_1_CD",
+              "description": "ICD-9 or ICD-10 code to understand underlying [secondary] or external cause of death.",
+              "dataType": {
+                "id": "49dc83c3-98fb-4154-9b47-a04c7760fb99",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "e4878b5b-dec1-4888-84cb-c1caad317c51",
+              "domainType": "DataElement",
+              "label": "DEATHCAUSE_DIAG_UNDERLYING_CD",
+              "description": "Coded underlying cause of death. Automated cause coding is used to allocate an International Classification of Diseases (ICD) code for each medical condition on the certificate and to identify the underlying cause, with approximately 90% of records being automatically coded using IRIS (2014 to present).",
+              "dataType": {
+                "id": "49dc83c3-98fb-4154-9b47-a04c7760fb99",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cd051ddc-b383-4583-aeca-b2e1fe5b17e3",
       "domainType": "DataModel",
       "label": "National Records of Scotland (NRS) - Births Data",
@@ -67144,6 +67328,172 @@
                 "id": "13936caf-f065-46c0-bee5-3efb4bc38ea9",
                 "domainType": "PrimitiveType",
                 "label": "String"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d8b14954-5507-45dc-8bb5-638dda8a121d",
+      "domainType": "DataModel",
+      "label": "Emergency Department Dataset Daily",
+      "documentationVersion": "0.0.1",
+      "description": "Administrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
+      "editable": false,
+      "lastUpdated": "2020-06-10T09:51:37.811Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-10T09:56:20.236Z",
+      "accessRequestCost": "0 GBP",
+      "keywords": "SAIL, Emergency, A&E",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Other",
+      "jurisdiction": "GB-WLS",
+      "datasetStartDate": "2009-04-01",
+      "language": "en",
+      "title": "Emergency Department Dataset Daily",
+      "linkedDataset": "Linkable to any SAIL linked dataset",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Lyons, R.A., Jones, K.H., John, G. et al. The SAIL databank: linking multiple health and social care datasets. BMC Med Inform Decis Mak 9, 3 (2009). https://doi.org/10.1186/1472-6947-9-3",
+      "controlledVocabulary": "ICD-10",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "750000",
+      "group": "No Group",
+      "identifier": "EDDD",
+      "creator": "NHS Wales Informatics Service (NWIS)",
+      "releaseDate": "2020-06-05T00:00:00Z",
+      "format": "SQL table",
+      "abstract": "Daily version of Emergency Department Dataset.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project. Data within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Emergency department attendances per year",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "Daily",
+      "publisher": "SAIL Databank",
+      "ageBand": "All Ages",
+      "accessRights": "In Progress",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "2507cff9-3acd-4470-b96d-5e66a220dcd2",
+          "domainType": "DataClass",
+          "label": "EDDS",
+          "description": "All data related to the Emergancy Department Data Set:\nThe Emergency Department Data Set (EDDS) captures attendances at Accident & Emergency departments and Minor Injury Units (MIUs) in Welsh hospitals.\nVelindre NHS Trust does not provide EDDS data as there are no A&E departments or MIUs in the Trust.\nWelsh residents who attended an emergency department in England are not included.\nThe submission is based on administrative end date.\nPlanned follow up patients are included.\nDefinitions that apply to SITREPS may differ from those associated to the EDDS.",
+          "lastUpdated": "2020-06-10T09:51:37.831Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "bf3b905b-d388-4cb5-9e50-681c565063b1",
+              "domainType": "DataElement",
+              "label": "TREAT_CD_2",
+              "description": "Second indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance. Up to 6 types of treatment or guidance can be reported.",
+              "dataType": {
+                "id": "c99d9227-fca5-4df5-955b-a68b0f762935",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "e68873e3-f95d-4d34-9c1d-533620d78b44",
+              "domainType": "DataElement",
+              "label": "SIDE_CD_1",
+              "description": "First indication of the side of the human body. Up to 6 sides of the human body can be reported.",
+              "dataType": {
+                "id": "c99d9227-fca5-4df5-955b-a68b0f762935",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "06cba367-46d8-4601-abe2-6a65d2a1e3dc",
+              "domainType": "DataElement",
+              "label": "PROV_SITE_CD",
+              "description": "Provider Site Code (5 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
+              "dataType": {
+                "id": "7f77bf23-3063-4473-b1c7-12cef9010d97",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "336a925c-5b40-49e2-bfda-cf0f2630ccca",
+              "domainType": "DataElement",
+              "label": "TREAT_CD_5",
+              "description": "Fifth indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance. Up to 6 types of treatment or guidance can be reported.",
+              "dataType": {
+                "id": "c99d9227-fca5-4df5-955b-a68b0f762935",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "72442268-8072-494d-b9f0-b11f34bc4bff",
+              "domainType": "DataElement",
+              "label": "ADD_DETAILS",
+              "description": "A record of any additional details of the incident that led to the Accident & Emergency Department Attendance that cannot be recorded elsewhere within the dataset.",
+              "dataType": {
+                "id": "3d132f0a-ab16-4282-8ada-3d12d2dda8d2",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "fe143180-a97f-4770-b14a-0ed4028ed937",
+              "domainType": "DataElement",
+              "label": "TREAT_CD_3",
+              "description": "Third indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance. Up to 6 types of treatment or guidance can be reported.",
+              "dataType": {
+                "id": "c99d9227-fca5-4df5-955b-a68b0f762935",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "6c23cae3-e293-4d83-b7b0-6ffc60db095a",
+              "domainType": "DataElement",
+              "label": "ANAT_AREA_CD_5",
+              "description": "Fifth part of the human body (up to 6 parts of the human body can be reported)",
+              "dataType": {
+                "id": "c99d9227-fca5-4df5-955b-a68b0f762935",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "375bb2b5-f3d3-49af-aa2f-8efea7fba6ac",
+              "domainType": "DataElement",
+              "label": "SPORT",
+              "description": "The sport in which the patient was participating at the time of injury that led to the Accident and Emergency Department attendance.",
+              "dataType": {
+                "id": "c99d9227-fca5-4df5-955b-a68b0f762935",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "e8d388c2-1d52-4f75-852d-4a1562a92980",
+              "domainType": "DataElement",
+              "label": "DISCHARGE",
+              "description": "This records the outcome of the Accident and Emergency Department Attendance.",
+              "dataType": {
+                "id": "c99d9227-fca5-4df5-955b-a68b0f762935",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "5d8e8754-bd8b-4c8f-a0bc-cb54c41f375b",
+              "domainType": "DataElement",
+              "label": "TREAT_CD_4",
+              "description": "Fourth indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance. Up to 6 types of treatment or guidance can be reported.",
+              "dataType": {
+                "id": "c99d9227-fca5-4df5-955b-a68b0f762935",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
               }
             }
           ]
