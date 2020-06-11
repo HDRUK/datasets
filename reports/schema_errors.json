@@ -22073,6 +22073,35 @@
     ]
   },
   {
+    "id": "cc4f967a-7a64-461f-ad15-bb8036fb81af",
+    "publisher": "SAIL Databank",
+    "title": "Annual District Death Daily",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable to Other SAIL Linked datasets' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable to Other SAIL Linked datasets' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "cd051ddc-b383-4583-aeca-b2e1fe5b17e3",
     "publisher": "ALLIANCE > SCOTLAND",
     "title": "National Records of Scotland (NRS) - Births Data",
@@ -23245,6 +23274,40 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "d8b14954-5507-45dc-8bb5-638dda8a121d",
+    "publisher": "SAIL Databank",
+    "title": "Emergency Department Dataset Daily",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD-10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD-10' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable to any SAIL linked dataset' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable to any SAIL linked dataset' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
