@@ -9,12 +9,14 @@ import csv
 import json
 import urllib
 import requests
+from pprint import pprint
 
 API_BASE_URL="https://metadata-catalogue.org/hdruk/api"
 DATA_MODELS = API_BASE_URL + "/dataModels"
 DATA_MODEL_ID = API_BASE_URL + "/facets/{MODEL_ID}/profile/uk.ac.hdrukgateway/HdrUkProfilePluginService"
 DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses"
 DATA_MODEL_CLASSES_ELEMENTS = DATA_MODEL_CLASSES + "/{CLASS_ID}/dataElements"
+DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticLinks"
 
 def request_url(URL):
   """HTTP GET request and load into data_model"""
@@ -76,6 +78,22 @@ def get_data_classes(data_model_id):
   data['dataClasses'] = data_classes
   return data
 
+def get_semantic_links(data_model_id):
+  print("Processing Semantic Links...")
+  data = {}
+  URL = DATA_MODEL_SEMANTIC_LINKS.format(MODEL_ID=data_model_id)
+  ret = request_url(URL)
+  if ret['count'] > 0:
+    for links in ret['items']:
+      src_ver = links['source']['documentationVersion']
+      src_id = links['source']['id']
+      data[src_ver] = src_id
+
+      tar_ver = links['target']['documentationVersion']
+      tar_id = links['target']['id']
+      data[tar_ver] = tar_id
+  return { 'versions': data }
+
 def process_data_models(data_models_list):
   print("Processing Data Models...")
   headers = []
@@ -94,6 +112,10 @@ def process_data_models(data_models_list):
     # Collecting Data Classes
     data_classes = get_data_classes(d['id'])
     row.update(data_classes)
+
+    # Collect SemanticLinks
+    semantic_links = get_semantic_links(d['id'])
+    row.update(semantic_links)
 
     headers.extend(list(row.keys()))
     data_models.append(row)
