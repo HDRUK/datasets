@@ -93,7 +93,7 @@ def get_semantic_links(data_model_id):
       tar_id = links['target']['id']
       data[tar_ver] = tar_id
     data['latest'] = data_model_id
-  return { 'versions': data }
+  return { 'revisions': data }
 
 def process_data_models(data_models_list):
   print("Processing Data Models...")
