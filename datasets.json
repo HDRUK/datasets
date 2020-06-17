@@ -31004,6 +31004,932 @@
       }
     },
     {
+      "id": "75c41a64-9c78-4a26-a34d-4bef2d11d506",
+      "domainType": "DataModel",
+      "label": "Patient Episode Dataset for Wales",
+      "documentationVersion": "4.0.0",
+      "description": "NHS Wales hospital admissions (Inpatients and daycases) dataset comprising of attendance and clinical information for all hospital admissions: includes diagnoses and operations performed. Includes spell and episode level data.\nThe data are collected and coded at each hospital. Administrative information is collected from the central PAS (Patient Administrative System), such as specialty of care, admission and discharge dates. After the patient is discharged the handwritten patient notes are transcribed by clinical coder into medical coding terminology (ICD10 and OPCS).\n\nThe data held in PEDW is of interest to public health services since it can provide information regarding both health service utilisation and also the incidence and prevalence of disease. However, since PEDW was created to track hospital activity from the point of view of payments for services, rather than epidemiological analysis, the use of PEDW for public health work is not straightforward. For example:\n\nCounts will vary depending on the number of diagnosis fields used e.g. primary only, all fields;\nThere are a number of different things that can be counted in PEDW e.g. individual episodes of care, admissions, discharges, periods of continuous care (group of episodes), patients or procedures.\nWhen looking at diagnosis or procedures the number will vary depending on whether you look at only in the primary diagnosis / procedure field or if the secondary fields are also included.\nCoding practices vary. In particular, coding practices for recording secondary diagnoses is likely to vary for different hospitals. This makes regional variations more difficult to interpret. The validation process led by the Corporate Health Improvement Programme and implemented by NWIS is aiming to address some of these inconsistencies.\n\nDue to the complexity and pitfalls of PEDW it is recommended that any PEDW requests for public health purposes are discussed with a member of the SAIL team. In turn the SAIL will seek advice from NWIS if required.",
+      "editable": false,
+      "lastUpdated": "2020-06-17T11:31:04.121Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-17T11:35:48.403Z",
+      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
+      "keywords": "SAIL, PEDW",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
+      "jurisdiction": "GB",
+      "datasetEndDate": "2020-05-28",
+      "datasetStartDate": "1995-04-01",
+      "language": "en",
+      "title": "Patient Episode Dataset for Wales",
+      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Hunt, L.P. et al. (2013)90-day mortality after 409?096 total hip replacements for osteoarthritis, from the National Joint Registry for England and Wales: a retrospective analysis,\nThe Lancet, 382:9898, 1097-1104, https://doi.org/10.1016/S0140-6736(13)61749-3",
+      "controlledVocabulary": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/admittedpatientcaredatasetapcds.htm",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "950000",
+      "group": "No Group",
+      "identifier": "PEDW",
+      "creator": "NHS Wales\u2019 Informatics Service (NWIS)",
+      "releaseDate": "2019-07-15T00:00:00Z",
+      "format": "SQL database table",
+      "abstract": "The database contains all inpatient and day case activity undertaken in NHS Wales plus data on Welsh residents treated in English Trusts.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Admitted patient care record for NHS patients who have had daycase or inpatient admission. Approx. 950,000 hospital admissions per year.",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "Monthly",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "Any Age",
+      "accessRights": "https://saildatabank.com/application-process/",
+      "conformsTo": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/admittedpatientcaredatasetapcds.htm",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 8,
+      "dataClasses": [
+        {
+          "id": "ab6d6d71-d74b-4265-8aa0-5e29b0178d65",
+          "domainType": "DataClass",
+          "label": "SUPERSPELL",
+          "description": "Attendance information at superspell level (1 row = 1 superspell)",
+          "lastUpdated": "2020-06-17T11:31:04.373Z",
+          "dataElementsCount": 6,
+          "dataElements": [
+            {
+              "id": "98d64fae-7198-4543-90e5-3ebb3f87c0bf",
+              "domainType": "DataElement",
+              "label": "PROV_UNIT_CD",
+              "description": "Provider Unit Code (3 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "78803a81-3c05-4b12-bc3e-ce0fb60f4dd6",
+              "domainType": "DataElement",
+              "label": "EPI_NUM",
+              "description": "A number used to identify episodes uniquely, and is a sequence number for each consultant episode in a hospital provider spell.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "eaf7dd8b-2b56-458c-b70a-e39f1b14d0fe",
+              "domainType": "DataElement",
+              "label": "PERSON_SPELL_NUM_E",
+              "description": "An encrypted unique identifier for each person spell for an individual, which may include spells under one or more organisations.",
+              "dataType": {
+                "id": "339581a7-f0cb-4cd9-a333-ebabad33370b",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "d47f6ca8-ff9c-4002-a572-103a0d94d550",
+              "domainType": "DataElement",
+              "label": "SPELL_NUM_E",
+              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
+              "dataType": {
+                "id": "339581a7-f0cb-4cd9-a333-ebabad33370b",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "eb7937a3-6411-42e8-8f28-3a70d1480210",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "84f762d3-d2aa-43d0-90a8-632e8d431c29",
+              "domainType": "DataElement",
+              "label": "PROVIDER_SPELL_NUM_E",
+              "description": "An encrypted unique identifier for each provider spell for an individual, which only includes spells under one organisation.",
+              "dataType": {
+                "id": "339581a7-f0cb-4cd9-a333-ebabad33370b",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            }
+          ]
+        },
+        {
+          "id": "95ab135f-9d73-47a9-b383-88874d1c0564",
+          "domainType": "DataClass",
+          "label": "EPISODE",
+          "description": "Attendance information at episode level (1 row = 1 episode)",
+          "lastUpdated": "2020-06-17T11:31:04.375Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "cf5d6d1f-eab0-4c78-a926-6a8ef1901755",
+              "domainType": "DataElement",
+              "label": "HRG_REFERENCECOST_CD",
+              "description": "The Healthcare Resource Group Reference Cost Code for the overall spell.",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "d1f4bba6-a930-4d69-b2ea-57d32ab71f77",
+              "domainType": "DataElement",
+              "label": "PROV_UNIT_CD",
+              "description": "Provider Unit Code (3 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "dffd828b-579d-4f7d-98d7-45fcd709dfdd",
+              "domainType": "DataElement",
+              "label": "SITE_CD_OF_TREAT",
+              "description": "Site Code of Treatment (5 character code). The organisation code for the site where the patient will be or is treated.",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "6ad5b095-4a19-4574-bb86-5ab7c27ebc48",
+              "domainType": "DataElement",
+              "label": "CON_SPEC_MAIN_CD",
+              "description": "A unique code identifying each Main Specialty designated by Royal Colleges. Specialties are divisions of clinical work which may be defined by body systems (dermatology), age (paediatrics), clinical technology (nuclear medicine), clinical function (rheumatology), group of diseases (oncology) or combinations of these factors.Only Specialty titles recognised by the Royal Colleges and Faculties should be used. This list is maintained by the General and Specialist Medical Practice (Education, Training and Qualifications) Order 2003 and European Primary and Specialist Dental Qualifications Regulations 1998.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "3d5ba84b-45b7-4c3d-8410-b18b1c2f1a69",
+              "domainType": "DataElement",
+              "label": "EPI_END_DT",
+              "description": "The end date of a consultant episode. This is the end of a stay, an episode, period covered by a plan, or other period of time.",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "ca561d88-6f06-473b-978c-c5657b0ed885",
+              "domainType": "DataElement",
+              "label": "OPER_CD",
+              "description": "The full Procedure code available (OPCS4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "f70ad652-931d-481d-bcc0-cc3f962b4fe1",
+              "domainType": "DataElement",
+              "label": "CON_SPEC_CD_OF_TREAT",
+              "description": "Code to indicate the specialty under which the patient will be or is treated. This may either be the same as the specialty function recorded as the consultants main specialty or a different specialty function which will be the consultants interest specialty function. Note that both the main specialty function and the interest specialty function should be based on one of the Royal College specialties.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "4ab7dbcb-dbbe-4da2-9a7e-556548bb7208",
+              "domainType": "DataElement",
+              "label": "HRG_V31_DESC",
+              "description": "Healthcare Resource Group code description for a previous version of HRG codes (v3.1)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "131c8c95-15d5-464b-82fd-7c684da9f27a",
+              "domainType": "DataElement",
+              "label": "EPI_STR_YR",
+              "description": "The year of the start of a stay, an episode, period covered by a plan, or other period of time.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "8995b993-d5b7-41c2-b9c9-95c1e693bc70",
+              "domainType": "DataElement",
+              "label": "HRG_LOCALPAYMENT_DESC",
+              "description": "The Healthcare Resource Group Local Payment Code description for the overall spell.",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b2a0965a-b070-4a80-b231-617ea3111240",
+          "domainType": "DataClass",
+          "label": "OPER",
+          "description": "Clinical Procedure information (1 row = 1 operation)",
+          "lastUpdated": "2020-06-17T11:31:04.376Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "c3d03276-dd10-4893-b6c0-89a808b48b84",
+              "domainType": "DataElement",
+              "label": "OPER_YR",
+              "description": "The year of the patient procedure.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "046333e3-2ed1-42eb-9f24-fa139437a88e",
+              "domainType": "DataElement",
+              "label": "EPI_NUM",
+              "description": "A number used to identify episodes uniquely, and is a sequence number for each consultant episode in a hospital provider spell.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "1ae3cfc8-e5d9-4c1a-b471-608a9ceb56d7",
+              "domainType": "DataElement",
+              "label": "OPER_CD_4",
+              "description": "The 4th digit of the Procedure code available (OPCS4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "1a9fbba5-af16-4148-bc53-b500e9559469",
+              "domainType": "DataElement",
+              "label": "PROV_UNIT_CD",
+              "description": "Provider Unit Code (3 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "0233a568-8035-4386-be13-89185223530b",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "1662247d-6a09-422a-ac92-e53cd80885b0",
+              "domainType": "DataElement",
+              "label": "OPER_CD",
+              "description": "The full Procedure code available (OPCS4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "8fd9a80a-988d-4aff-9f0e-270fedc4349e",
+              "domainType": "DataElement",
+              "label": "OPER_DT",
+              "description": "This is the date of the start of a patient procedure.",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "8cb458a3-5465-4255-a815-2aebb2c352cf",
+              "domainType": "DataElement",
+              "label": "SPELL_NUM_E",
+              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
+              "dataType": {
+                "id": "339581a7-f0cb-4cd9-a333-ebabad33370b",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "aebe0587-eae1-4beb-aa2b-7f34ea8ba612",
+              "domainType": "DataElement",
+              "label": "OPER_CD_123",
+              "description": "The first 3 digits of the Procedure code available (OPCS4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "edf0c1b6-d7db-4e6b-9be0-286f48a5fb72",
+              "domainType": "DataElement",
+              "label": "OPER_MTH",
+              "description": "The month of the patient procedure.",
+              "dataType": {
+                "id": "f86fcc41-763a-44e2-9886-fe2796fda987",
+                "domainType": "PrimitiveType",
+                "label": "SMALLINT"
+              }
+            }
+          ]
+        },
+        {
+          "id": "c9069af5-f21a-4a0e-9339-0f25ccce1442",
+          "domainType": "DataClass",
+          "label": "AGE_EPI_STR_UNDER1",
+          "description": "Data dictionary for AGE_EPI_STR_UNDER1_CD, a code giving the age of patient at start date of episode or date of admission for first episode, for ages less than 1 yr.",
+          "lastUpdated": "2020-06-17T11:31:04.377Z",
+          "dataElementsCount": 6,
+          "dataElements": [
+            {
+              "id": "0613808e-cac8-4a68-ab1f-949117e7c860",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "d2f604d4-92d0-447b-ba33-0c308b068a08",
+              "domainType": "DataElement",
+              "label": "AGE_EPI_STR_UNDER1_DESC",
+              "description": "For ages less than 1 year. Description of the age of patient at start date of episode or at date of admission of first episode.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "7a68835a-5611-4831-8366-60355476124b",
+              "domainType": "DataElement",
+              "label": "TO_DT",
+              "description": "The code applies to data up to this date",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "0f858983-aba3-412a-903c-a5f147f0a4b3",
+              "domainType": "DataElement",
+              "label": "AGE_EPI_STR_UNDER1_CD",
+              "description": "For ages less than 1 year. Code to indicate the age of patient at start date of episode or at date of admission of first episode.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "7dd05e61-ef82-409d-802e-119705ff61fd",
+              "domainType": "DataElement",
+              "label": "FROM_DT",
+              "description": "The code applies to data from this date",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "a5f180a0-1601-4af8-951e-88b692ace149",
+              "domainType": "DataElement",
+              "label": "ROW_STS",
+              "description": "This shows whether this code is active",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            }
+          ]
+        },
+        {
+          "id": "0a2d3318-7681-47e9-9b2c-11141ffbd12d",
+          "domainType": "DataClass",
+          "label": "OPER_TRANS",
+          "description": "Clinical Procedure information at episode level (1 row = 1 episode)",
+          "lastUpdated": "2020-06-17T11:31:04.378Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "d8b574e2-bb7b-4892-a386-f01cce3e4d77",
+              "domainType": "DataElement",
+              "label": "SPELL_NUM_E",
+              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
+              "dataType": {
+                "id": "339581a7-f0cb-4cd9-a333-ebabad33370b",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "c7d5c43c-b82a-47bc-bf65-be1e07fa6ab9",
+              "domainType": "DataElement",
+              "label": "OPER_CD_5",
+              "description": "5th procedure in the episode. Secondary procedure code (OPCS-4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "69f8e1dd-02d5-420e-8ae4-592deadd0e96",
+              "domainType": "DataElement",
+              "label": "OPER_CD_4",
+              "description": "4th procedure in the episode. Secondary procedure code (OPCS-4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "182de4f0-114d-4841-a2cc-907766aa9cc3",
+              "domainType": "DataElement",
+              "label": "OPER_CD_10",
+              "description": "10th procedure in the episode. Secondary procedure code (OPCS-4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "d1ab741b-7123-4850-9093-54d73788043e",
+              "domainType": "DataElement",
+              "label": "OPER_DT_5",
+              "description": "Date of the start of the 5th (secondary) patient procedure in the episode",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "3afc8633-58fc-475d-9c92-401c23570559",
+              "domainType": "DataElement",
+              "label": "OPER_CD_1",
+              "description": "1st procedure in the episode. Primary procedure code (OPCS-4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "43a2e8a5-053b-4caf-ab26-7cec5380051e",
+              "domainType": "DataElement",
+              "label": "OPER_CD_7",
+              "description": "7th procedure in the episode. Secondary procedure code (OPCS-4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "a1faeceb-f64f-4cb0-b6e8-dfcc1c5779ad",
+              "domainType": "DataElement",
+              "label": "OPER_DT_3",
+              "description": "Date of the start of the 3rd (secondary) patient procedure in the episode",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "6398b263-793c-4137-8ba5-7d8250b14f0b",
+              "domainType": "DataElement",
+              "label": "EPI_NUM",
+              "description": "A number used to identify episodes uniquely, and is a sequence number for each consultant episode in a hospital provider spell.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "d1070b80-0c41-4a53-a199-902171c30224",
+              "domainType": "DataElement",
+              "label": "OPER_CD_3",
+              "description": "3rd procedure in the episode. Secondary procedure code (OPCS-4)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        },
+        {
+          "id": "8e52a48a-8674-4d25-acfa-3b45c677f93c",
+          "domainType": "DataClass",
+          "label": "DIAG_TRANS",
+          "description": "Diagnosis information at episode level (1 row = 1 episode)",
+          "lastUpdated": "2020-06-17T11:31:04.379Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "78ccb39e-6e34-4aa6-9c51-d90253d8025e",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_3",
+              "description": "3rd diagnosis in the episode. Secondary diagnosis code (ICD-10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "7c07338c-f936-4291-897a-a4a244fe70f7",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_4",
+              "description": "4th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "c8f260f2-cc79-4900-b3ba-9ca435e91b17",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_14",
+              "description": "14th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "0e7fe13a-6170-4e43-818c-c265f01f060a",
+              "domainType": "DataElement",
+              "label": "EPI_NUM",
+              "description": "A number used to identify episodes uniquely, and is a sequence number for each consultant episode in a hospital provider spell.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "8c7f5cd8-8d49-42c5-b485-c5b70d02ee01",
+              "domainType": "DataElement",
+              "label": "PROV_UNIT_CD",
+              "description": "Provider Unit Code (3 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "49769e17-d4ec-48c8-b974-67cbf19d019d",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_11",
+              "description": "11th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "c1cb390f-8e18-43c2-8c49-1f4ffe538553",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_2",
+              "description": "2nd diagnosis in the episode. Secondary diagnosis code (ICD-10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "73202118-81a4-42c5-8311-cfb244088639",
+              "domainType": "DataElement",
+              "label": "SPELL_NUM_E",
+              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
+              "dataType": {
+                "id": "339581a7-f0cb-4cd9-a333-ebabad33370b",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "f8d4c8cb-3c7d-47c1-96b0-64b918bc64bf",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_1",
+              "description": "1st diagnosis in the episode. Primary diagnosis code (ICD-10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "fbeacc29-fd94-426b-8ff6-a4cdfe1d67a1",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_12",
+              "description": "12th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        },
+        {
+          "id": "20027bce-143d-4d3e-bb14-d4dc386cb967",
+          "domainType": "DataClass",
+          "label": "SPELL",
+          "description": "Attendance information at spell level (1 row = 1 spell)",
+          "lastUpdated": "2020-06-17T11:31:04.379Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "831e6bb6-ca3c-4a56-9e5c-2a50e964dab8",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "582b3bbc-f8d5-419a-97d0-e82b0e291271",
+              "domainType": "DataElement",
+              "label": "DISCH_DESTINATION_CD",
+              "description": "Code classifying where a patient is sent on completion of a hospital provider spell, or a note that the patient died or was a still birth.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "1ee3a5ec-1cb0-4dc3-ab93-2ac588410074",
+              "domainType": "DataElement",
+              "label": "DISCH_MTHD_CD",
+              "description": "Code indicating the method of discharge from a hospital provider spell.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "a1cda280-5bf2-4593-9837-7bc8503f8edc",
+              "domainType": "DataElement",
+              "label": "ADMIS_DT",
+              "description": "This is the beginning of a hospital provider spell, or the date of admission. The consultant has assumed responsibility for care following the decision to admit the patient. This may be before formal admission procedures have been completed and the patient is transferred to a ward.",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "d7b752e7-6a00-4c98-ba34-afc510861277",
+              "domainType": "DataElement",
+              "label": "CURR_PROV_UNIT_CD",
+              "description": "Current Provider Unit Code (3 character code). The current organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient. To enable longtiduninal analysis over a period of years, a current field can be used to map previously used codes to current version/name.",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "230c8e7a-55bb-40c5-bb8b-57e3d684e8e1",
+              "domainType": "DataElement",
+              "label": "HRG_REFERENCECOST_DESC",
+              "description": "The Healthcare Resource Group Reference Cost Code description for the overall spell",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "5540ef19-e253-4816-98a6-d3037da186ef",
+              "domainType": "DataElement",
+              "label": "LSOA_CD",
+              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "b488a8ee-b169-44fc-a46a-0f291c3e6a49",
+              "domainType": "DataElement",
+              "label": "REG_GP_PRAC_CD_E",
+              "description": "The encrypted unique GP Practice code to which the patient is registered.",
+              "dataType": {
+                "id": "339581a7-f0cb-4cd9-a333-ebabad33370b",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "7796d443-cf80-4bb1-9c9c-0ffdb8b58c67",
+              "domainType": "DataElement",
+              "label": "ALF_E",
+              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
+              "dataType": {
+                "id": "339581a7-f0cb-4cd9-a333-ebabad33370b",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "d5ca470c-de6c-4189-be59-246fdcfe7e34",
+              "domainType": "DataElement",
+              "label": "RES_WARD_CD",
+              "description": "Code indicating the electoral ward in which the patient is resident.",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        },
+        {
+          "id": "21031eaa-7c4e-4420-9a79-d03388f590e7",
+          "domainType": "DataClass",
+          "label": "DIAG",
+          "description": "Diagnosis information (1 row = 1 diagnosis)",
+          "lastUpdated": "2020-06-17T11:31:04.38Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "e668ffc4-3f30-4aae-b81e-7e15cc7cb4c6",
+              "domainType": "DataElement",
+              "label": "PROV_UNIT_CD",
+              "description": "Provider Unit Code (3 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "bd8aa612-841e-4b5b-b53c-bce55c42a713",
+              "domainType": "DataElement",
+              "label": "DIAG_NUM",
+              "description": "A number used to identify the position of diagnosis assigned to a patient. Value 1 relates to the primary ICD Diagnostic Code. Values > 1 relate to secondary ICD diagnositic codes.",
+              "dataType": {
+                "id": "0b5b79f4-1392-4375-adc4-fd9d35f62890",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "6d492d1d-e515-48d6-abe6-2f249fd2d7a9",
+              "domainType": "DataElement",
+              "label": "SPELL_NUM_E",
+              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
+              "dataType": {
+                "id": "339581a7-f0cb-4cd9-a333-ebabad33370b",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "ab6c5db4-c390-4f91-8169-0afe17e21899",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "dac3380c-a13f-4255-9529-63ecc1318c4b",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "0096f46e-b8c3-4976-b3e7-f37c6e10edc9",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_123",
+              "description": "The first 3 digits of the Diagnostic code available (ICD 10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "9d9b5fbd-c7ca-45c5-804b-abbaec1c4bf8",
+              "domainType": "DataElement",
+              "label": "DIAG_CD",
+              "description": "The full Diagnostic code available (ICD 10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "0b14d4e1-9a3a-4c43-a50c-9f607fc05176",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_56",
+              "description": "The 5th and 6th digit of the Diagnostic code available (ICD 10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "0e26c8e2-3a60-4428-92cf-254b6888bdf1",
+              "domainType": "DataElement",
+              "label": "EPI_NUM",
+              "description": "A number used to identify episodes uniquely, and is a sequence number for each consultant episode in a hospital provider spell.",
+              "dataType": {
+                "id": "11380062-ae3c-454f-ad95-39621967eea9",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "e2e12f5d-dba2-4358-bbf4-3d7c22ab8859",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_4",
+              "description": "The 4th digit of the Diagnostic code available (ICD 10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "d71b835a-4394-4a8f-a9c3-d569ed8d609e",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_1234",
+              "description": "The first 4 digits of the Diagnostic code available (ICD 10)",
+              "dataType": {
+                "id": "46678ae8-1c87-4542-8fa1-038c96eeb846",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "3.0.0": "bb9b1a6b-e8e3-410e-85cc-61bde7a9bc7b",
+        "4.0.0": "75c41a64-9c78-4a26-a34d-4bef2d11d506",
+        "2.0.0": "511c1eb5-904e-442d-992c-db3bb2ec1a86",
+        "latest": "75c41a64-9c78-4a26-a34d-4bef2d11d506"
+      }
+    },
+    {
       "id": "76ec0282-02e0-4fff-b016-76bc6ffcb784",
       "domainType": "DataModel",
       "label": "National Asthma and COPD Audit Programme (NACAP): secondary care workstream \u2013 children and young people asthma (organisational)",
@@ -60617,929 +61543,6 @@
         }
       ],
       "revisions": {}
-    },
-    {
-      "id": "bb9b1a6b-e8e3-410e-85cc-61bde7a9bc7b",
-      "domainType": "DataModel",
-      "label": "Patient Episode Dataset for Wales",
-      "documentationVersion": "3.0.0",
-      "description": "NHS Wales hospital admissions (Inpatients and daycases) dataset comprising of attendance and clinical information for all hospital admissions: includes diagnoses and operations performed. Includes spell and episode level data.\nThe data are collected and coded at each hospital. Administrative information is collected from the central PAS (Patient Administrative System), such as specialty of care, admission and discharge dates. After the patient is discharged the handwritten patient notes are transcribed by clinical coder into medical coding terminology (ICD10 and OPCS).\n\nThe data held in PEDW is of interest to public health services since it can provide information regarding both health service utilisation and also the incidence and prevalence of disease. However, since PEDW was created to track hospital activity from the point of view of payments for services, rather than epidemiological analysis, the use of PEDW for public health work is not straightforward. For example:\n\nCounts will vary depending on the number of diagnosis fields used e.g. primary only, all fields;\nThere are a number of different things that can be counted in PEDW e.g. individual episodes of care, admissions, discharges, periods of continuous care (group of episodes), patients or procedures.\nWhen looking at diagnosis or procedures the number will vary depending on whether you look at only in the primary diagnosis / procedure field or if the secondary fields are also included.\nCoding practices vary. In particular, coding practices for recording secondary diagnoses is likely to vary for different hospitals. This makes regional variations more difficult to interpret. The validation process led by the Corporate Health Improvement Programme and implemented by NWIS is aiming to address some of these inconsistencies.\n\nDue to the complexity and pitfalls of PEDW it is recommended that any PEDW requests for public health purposes are discussed with a member of the SAIL team. In turn the SAIL will seek advice from NWIS if required.",
-      "editable": false,
-      "lastUpdated": "2020-04-27T10:27:39.203Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-04-27T10:31:51.59Z",
-      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
-      "keywords": "SAIL, PEDW",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3months.",
-      "jurisdiction": "GB",
-      "datasetStartDate": "1995-04-01",
-      "language": "en",
-      "title": "Patient Episode Dataset for Wales",
-      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
-      "physicalSampleAvailability": "Not Available",
-      "controlledVocabulary": "See Conforms To",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "950000",
-      "group": "Not Applicable",
-      "identifier": "PEDW",
-      "creator": "NHS Wales\u2019 Informatics Service (NWIS)",
-      "releaseDate": "2019-07-15T00:00:00Z",
-      "format": "SQL database table",
-      "abstract": "The database contains all inpatient and day case activity undertaken in NHS Wales plus data on Welsh residents treated in English Trusts.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "No",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Admitted patient care record for NHS patients who have had daycase or inpatient admission. Approx. 950,000 hospital admissions per year.",
-      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
-      "periodicity": "Quarterly, March, June, September, December",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "Any Age",
-      "accessRights": "https://saildatabank.com/application-process/",
-      "conformsTo": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/admittedpatientcaredatasetapcds.htm",
-      "geographicCoverage": "Wales",
-      "doi": "Not Available",
-      "dataClassesCount": 8,
-      "dataClasses": [
-        {
-          "id": "8fb7c95b-9911-4588-8b5d-89eab8971aab",
-          "domainType": "DataClass",
-          "label": "EPISODE",
-          "description": "Attendance information at episode level (1 row = 1 episode)",
-          "lastUpdated": "2020-04-27T10:27:39.246Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "2e9b9af5-047c-4a43-9bf4-d279ce4ffbb8",
-              "domainType": "DataElement",
-              "label": "SITE_CD_OF_TREAT",
-              "description": "Site Code of Treatment (5 character code). The organisation code for the site where the patient will be or is treated.",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "cd6fe719-68a2-49d4-9af4-f8547df3f573",
-              "domainType": "DataElement",
-              "label": "HRG_V31_CD",
-              "description": "Healthcare Resource Group code for a previous version of HRG codes (v3.1).",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "c101a749-f01e-44df-9e57-fb01669bfb41",
-              "domainType": "DataElement",
-              "label": "AGE_EPI_STR_YR",
-              "description": "For ages greater or equal to 1 year. The age of patient, in years, at start date of episode or at date of admission of first episode.",
-              "dataType": {
-                "id": "ee9216b9-7288-4105-a93f-de38831c168a",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "4187fac1-d42c-4c89-89a9-53d87a955aa6",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "fbf3392b-ae81-438b-a912-f28a899c8aa8",
-              "domainType": "DataElement",
-              "label": "PROV_SITE_CD",
-              "description": "Provider Site Code (5 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "c9f8a7d5-70e8-454b-9dcb-6dc82e7324cf",
-              "domainType": "DataElement",
-              "label": "CURR_PROV_UNIT_CD",
-              "description": "Current Provider Unit Code (3 character code). The current organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient. To enable longtiduninal analysis over a period of years, a current field can be used to map previously used codes to current version/name.",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "6a970e7a-9ac7-41ac-98b1-acfbf9de3cbb",
-              "domainType": "DataElement",
-              "label": "CON_SPEC_MAIN_CD",
-              "description": "A unique code identifying each Main Specialty designated by Royal Colleges. Specialties are divisions of clinical work which may be defined by body systems (dermatology), age (paediatrics), clinical technology (nuclear medicine), clinical function (rheumatology), group of diseases (oncology) or combinations of these factors.Only Specialty titles recognised by the Royal Colleges and Faculties should be used. This list is maintained by the General and Specialist Medical Practice (Education, Training and Qualifications) Order 2003 and European Primary and Specialist Dental Qualifications Regulations 1998.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "26fba747-09a0-4155-8fb5-f21c541ac7a2",
-              "domainType": "DataElement",
-              "label": "OPER_CD",
-              "description": "The full Procedure code available (OPCS4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "641eff06-64a3-41b2-b71c-3dbc6999f18e",
-              "domainType": "DataElement",
-              "label": "EPI_END_YR",
-              "description": "The year of the end of a stay, an episode, period covered by a plan, or other period of time.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "bf833bd6-4506-45ba-a8f9-6307b87fff57",
-              "domainType": "DataElement",
-              "label": "OPER_CD_4",
-              "description": "The 4th digit of the Procedure code available (OPCS4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        },
-        {
-          "id": "56cd8175-42f5-4eaa-ac8f-3e319e1b8cf7",
-          "domainType": "DataClass",
-          "label": "AGE_EPI_STR_UNDER1",
-          "description": "Data dictionary for AGE_EPI_STR_UNDER1_CD, a code giving the age of patient at start date of episode or date of admission for first episode, for ages less than 1 yr.",
-          "lastUpdated": "2020-04-27T10:27:39.247Z",
-          "dataElementsCount": 6,
-          "dataElements": [
-            {
-              "id": "96f8b63d-075c-4d4b-8133-07a2ca1fc18c",
-              "domainType": "DataElement",
-              "label": "ROW_STS",
-              "description": "This shows whether this code is active",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "1f389e89-59f2-4718-bf35-4360dcd63c29",
-              "domainType": "DataElement",
-              "label": "AGE_EPI_STR_UNDER1_DESC",
-              "description": "For ages less than 1 year. Description of the age of patient at start date of episode or at date of admission of first episode.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "81b0f988-6407-4dec-b467-4506b1563e79",
-              "domainType": "DataElement",
-              "label": "AGE_EPI_STR_UNDER1_CD",
-              "description": "For ages less than 1 year. Code to indicate the age of patient at start date of episode or at date of admission of first episode.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "f8725dd9-fbe8-456f-95fb-e3b7e37bdd7f",
-              "domainType": "DataElement",
-              "label": "TO_DT",
-              "description": "The code applies to data up to this date",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "93dc3076-4c12-4f92-8642-83f7a4e5d041",
-              "domainType": "DataElement",
-              "label": "FROM_DT",
-              "description": "The code applies to data from this date",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "731b1ac3-4c52-45bb-b16c-a94ded4e0daa",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            }
-          ]
-        },
-        {
-          "id": "1025bc11-41ad-4530-aced-b4b36943f48c",
-          "domainType": "DataClass",
-          "label": "DIAG_TRANS",
-          "description": "Diagnosis information at episode level (1 row = 1 episode)",
-          "lastUpdated": "2020-04-27T10:27:39.248Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "d0f92e61-632d-4ac7-954e-85e7fc9d00bd",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_12",
-              "description": "12th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "296b78d4-6d88-4b9b-b8e1-27c768cbeaf9",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_3",
-              "description": "3rd diagnosis in the episode. Secondary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "a5481831-589c-40f2-9cf0-6052d999a8a0",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_1",
-              "description": "1st diagnosis in the episode. Primary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "7c238eaf-fd36-4e8f-8d22-e9a23f290541",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_10",
-              "description": "10th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "9e983e95-3520-4a2c-862d-ae29a5d1f1dc",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_11",
-              "description": "11th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "2170538b-baee-4663-9dae-d0b20a7b45ab",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_14",
-              "description": "14th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "ab6d6d2c-53a2-4e37-910b-34dee9933aad",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_4",
-              "description": "4th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "9571a94a-4bc2-4a0e-8af2-33f0b60ce597",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_8",
-              "description": "8th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "1ea59654-d3ec-4653-92b8-3b2867908be2",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_2",
-              "description": "2nd diagnosis in the episode. Secondary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "19880811-4be6-419e-acba-ef97f109652f",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_5",
-              "description": "5th diagnosis in the episode. Secondary diagnosis code (ICD-10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        },
-        {
-          "id": "d1f88b1a-e5e6-47fe-83fe-d656e6891724",
-          "domainType": "DataClass",
-          "label": "DIAG",
-          "description": "Diagnosis information (1 row = 1 diagnosis)",
-          "lastUpdated": "2020-04-27T10:27:39.249Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "f9290561-928d-4c6b-90de-a49207e51cb4",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_123",
-              "description": "The first 3 digits of the Diagnostic code available (ICD 10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "239aac13-34e5-42f0-9e9c-918e67da1c2f",
-              "domainType": "DataElement",
-              "label": "DIAG_CD",
-              "description": "The full Diagnostic code available (ICD 10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "418f19f3-071a-4bbc-814f-80212f423b5f",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_56",
-              "description": "The 5th and 6th digit of the Diagnostic code available (ICD 10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "2f8837e1-c8bb-4100-bcf3-6b60ea5c8627",
-              "domainType": "DataElement",
-              "label": "EPI_NUM",
-              "description": "A number used to identify episodes uniquely, and is a sequence number for each consultant episode in a hospital provider spell.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "a0498888-b240-4691-ad78-e0f314e30b31",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "13323052-8f36-48c9-a390-5c6e8a2a5bb3",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_1234",
-              "description": "The first 4 digits of the Diagnostic code available (ICD 10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "15f98cea-aceb-457f-9b91-cb789b7d0cec",
-              "domainType": "DataElement",
-              "label": "PROV_UNIT_CD",
-              "description": "Provider Unit Code (3 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "3ae9e1fe-2591-41ce-83a7-183e90a8d640",
-              "domainType": "DataElement",
-              "label": "DIAG_NUM",
-              "description": "A number used to identify the position of diagnosis assigned to a patient. Value 1 relates to the primary ICD Diagnostic Code. Values > 1 relate to secondary ICD diagnositic codes.",
-              "dataType": {
-                "id": "ee9216b9-7288-4105-a93f-de38831c168a",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "c4ff178d-4245-4056-ac75-7090d28cf6aa",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_4",
-              "description": "The 4th digit of the Diagnostic code available (ICD 10)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "385caac3-373a-4e78-acd2-fbe2e5a6cf69",
-              "domainType": "DataElement",
-              "label": "SPELL_NUM_E",
-              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
-              "dataType": {
-                "id": "b2ea3e7a-dec2-406e-b61f-0f1b04f3cee2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            }
-          ]
-        },
-        {
-          "id": "8d3e1089-239e-4250-bc0b-f4acfe787862",
-          "domainType": "DataClass",
-          "label": "OPER",
-          "description": "Clinical Procedure information (1 row = 1 operation)",
-          "lastUpdated": "2020-04-27T10:27:39.25Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "610c9e2d-481a-4bd3-a906-dd517a6e07fd",
-              "domainType": "DataElement",
-              "label": "OPER_DT",
-              "description": "This is the date of the start of a patient procedure.",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "56488f9d-487b-4fa2-86c1-f82e7a1d1513",
-              "domainType": "DataElement",
-              "label": "SPELL_NUM_E",
-              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
-              "dataType": {
-                "id": "b2ea3e7a-dec2-406e-b61f-0f1b04f3cee2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "a3e5634d-3c7d-4a4f-a6cf-f203e0d877b2",
-              "domainType": "DataElement",
-              "label": "OPER_CD_123",
-              "description": "The first 3 digits of the Procedure code available (OPCS4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "758c5125-f47f-4d38-80b0-211539da4cdf",
-              "domainType": "DataElement",
-              "label": "OPER_MTH",
-              "description": "The month of the patient procedure.",
-              "dataType": {
-                "id": "e1e91e68-8b51-4fa8-a192-d97f5a14fb03",
-                "domainType": "PrimitiveType",
-                "label": "SMALLINT"
-              }
-            },
-            {
-              "id": "7dc7c3ef-6862-45cd-9d74-4581f7615110",
-              "domainType": "DataElement",
-              "label": "PROV_UNIT_CD",
-              "description": "Provider Unit Code (3 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "d96b9b24-4d81-44ce-be38-648b32be7374",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "e84d78b5-b6b8-420b-8e9a-af3dd03cd169",
-              "domainType": "DataElement",
-              "label": "EPI_NUM",
-              "description": "A number used to identify episodes uniquely, and is a sequence number for each consultant episode in a hospital provider spell.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "17254ea7-7b8b-490c-ade4-281196758504",
-              "domainType": "DataElement",
-              "label": "OPER_CD_4",
-              "description": "The 4th digit of the Procedure code available (OPCS4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "42092693-7d9f-4097-b991-d21f81600923",
-              "domainType": "DataElement",
-              "label": "OPER_NUM",
-              "description": "A number used to identify the position of procedure assigned to a patient. Value 1 relates to the primary OPCS4 procedure Code. Values > 1 relate to secondary OPCS4 procedure codes.",
-              "dataType": {
-                "id": "ee9216b9-7288-4105-a93f-de38831c168a",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "1339a310-8876-4ae1-a1b6-5aad23ddaf34",
-              "domainType": "DataElement",
-              "label": "OPER_CD",
-              "description": "The full Procedure code available (OPCS4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        },
-        {
-          "id": "51ba9f9a-0dee-4e87-a310-e0c0eed1575e",
-          "domainType": "DataClass",
-          "label": "SUPERSPELL",
-          "description": "Attendance information at superspell level (1 row = 1 superspell)",
-          "lastUpdated": "2020-04-27T10:27:39.25Z",
-          "dataElementsCount": 6,
-          "dataElements": [
-            {
-              "id": "795874b5-fe34-4614-bf22-18a75667665b",
-              "domainType": "DataElement",
-              "label": "PERSON_SPELL_NUM_E",
-              "description": "An encrypted unique identifier for each person spell for an individual, which may include spells under one or more organisations.",
-              "dataType": {
-                "id": "b2ea3e7a-dec2-406e-b61f-0f1b04f3cee2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "ce698dca-a46d-4231-99c6-651df1178acb",
-              "domainType": "DataElement",
-              "label": "SPELL_NUM_E",
-              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
-              "dataType": {
-                "id": "b2ea3e7a-dec2-406e-b61f-0f1b04f3cee2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "87aca8c6-effd-4c4c-a2f1-adcc4aca017e",
-              "domainType": "DataElement",
-              "label": "PROV_UNIT_CD",
-              "description": "Provider Unit Code (3 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "992ac313-f825-4a74-ad7d-00d99a21191f",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "6292978c-529d-4b54-8bd2-abe863841451",
-              "domainType": "DataElement",
-              "label": "EPI_NUM",
-              "description": "A number used to identify episodes uniquely, and is a sequence number for each consultant episode in a hospital provider spell.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "f6af8d03-5cfa-489f-ad49-e2fea63f2b37",
-              "domainType": "DataElement",
-              "label": "PROVIDER_SPELL_NUM_E",
-              "description": "An encrypted unique identifier for each provider spell for an individual, which only includes spells under one organisation.",
-              "dataType": {
-                "id": "b2ea3e7a-dec2-406e-b61f-0f1b04f3cee2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            }
-          ]
-        },
-        {
-          "id": "2bec6a0d-87eb-4b93-aad6-36ad86e99bb8",
-          "domainType": "DataClass",
-          "label": "SPELL",
-          "description": "Attendance information at spell level (1 row = 1 spell)",
-          "lastUpdated": "2020-04-27T10:27:39.251Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "6fd39551-35ba-4071-b63f-d057ab8feb80",
-              "domainType": "DataElement",
-              "label": "ADMIS_DEC_DT",
-              "description": "This is the date upon which the clinician makes the decision to admit the patient",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "dabf1cdb-48ad-44e2-a96c-695810b1fe9c",
-              "domainType": "DataElement",
-              "label": "CURR_RES_DHA_CD",
-              "description": "Code indicating the current District Health Authority in which the patient is resident. To enable longtiduninal analysis over a period of years, a current field can be used to map previously used codes to current version/name.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "2f7c2f29-51dc-4b15-b5f5-e6c65675656a",
-              "domainType": "DataElement",
-              "label": "CASE_REC_NUM_E",
-              "description": "Encypted case record number. A unique identifier for a patient within a hospital or health care provider.",
-              "dataType": {
-                "id": "b2ea3e7a-dec2-406e-b61f-0f1b04f3cee2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "3c9d4eb4-accc-445a-a30b-9bbec2c676a7",
-              "domainType": "DataElement",
-              "label": "ADMIS_SPEC_CD",
-              "description": "This is the specialty under which the patient was treated during their first episode in the spell. This may either be the same as the specialty function recorded as the consultants main specialty or a different specialty function which will be the consultants interest specialty function. Note that both the main specialty function and the interest specialty function should be based on one of the Royal College specialties.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "614f5306-b109-4a3c-959a-64f9293123c9",
-              "domainType": "DataElement",
-              "label": "SPELL_NUM_E",
-              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
-              "dataType": {
-                "id": "b2ea3e7a-dec2-406e-b61f-0f1b04f3cee2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "0a622360-7482-4a8e-ab63-2f376ed81653",
-              "domainType": "DataElement",
-              "label": "CURR_RES_WARD_CD",
-              "description": "Code indicating the current electoral ward in which the patient is resident. To enable longtiduninal analysis over a period of years, a current field can be used to map previously used codes to current version/name.",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "9e2a3f30-81e1-4d57-850e-de57e4609bee",
-              "domainType": "DataElement",
-              "label": "FIN_ADMIS_YR",
-              "description": "The financial year of the beginning of a hospital provider spell, or the year of admission.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "c12af1ed-1550-4b4d-8fe6-2bf5de092db9",
-              "domainType": "DataElement",
-              "label": "GNDR_CD",
-              "description": "Code indicating the sex (gender) of person, employee or patient.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "2e9c52c0-37d4-46ca-a586-625359ebd6de",
-              "domainType": "DataElement",
-              "label": "LSOA2001_CD",
-              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for a previous version of LSOA codes (2001)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "800b912f-932b-42d2-a396-b1a33d2405a2",
-              "domainType": "DataElement",
-              "label": "HRG_V35_DESC",
-              "description": "Healthcare Resource Group code description for a previous version of HRG codes (v3.5)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        },
-        {
-          "id": "a1fcc2e8-d814-4faa-9ea0-848fe59f4ce6",
-          "domainType": "DataClass",
-          "label": "OPER_TRANS",
-          "description": "Clinical Procedure information at episode level (1 row = 1 episode)",
-          "lastUpdated": "2020-04-27T10:27:39.251Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "88e27d9c-af12-4d90-931f-f6cc2d742dfc",
-              "domainType": "DataElement",
-              "label": "OPER_DT_4",
-              "description": "Date of the start of the 4th (secondary) patient procedure in the episode",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "8c643b55-949c-4d4c-b868-5e80064b8dab",
-              "domainType": "DataElement",
-              "label": "EPI_NUM",
-              "description": "A number used to identify episodes uniquely, and is a sequence number for each consultant episode in a hospital provider spell.",
-              "dataType": {
-                "id": "a2e85d9a-614a-40fb-925c-e93368fcfe56",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "c6f74795-e843-469c-968d-fe8af6108ae1",
-              "domainType": "DataElement",
-              "label": "OPER_CD_2",
-              "description": "2nd procedure in the episode. Secondary procedure code (OPCS-4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "5e04ec05-e6e0-406c-ad0f-ebf279381899",
-              "domainType": "DataElement",
-              "label": "OPER_DT_2",
-              "description": "Date of the start of the 2nd (secondary) patient procedure in the episode",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "ab5b38c9-0daf-4444-8f30-c6b4882fdf2b",
-              "domainType": "DataElement",
-              "label": "OPER_CD_1",
-              "description": "1st procedure in the episode. Primary procedure code (OPCS-4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "23be9031-d418-453b-8dde-cc326b2cac98",
-              "domainType": "DataElement",
-              "label": "OPER_CD_4",
-              "description": "4th procedure in the episode. Secondary procedure code (OPCS-4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "504bb64f-e2ae-4ec0-a5d2-5a2d1502f1e4",
-              "domainType": "DataElement",
-              "label": "SPELL_NUM_E",
-              "description": "Encrypted Spell Number. A number (alphanumeric) to provide a unique identifier for each hospital provider spell for a health care provider.",
-              "dataType": {
-                "id": "b2ea3e7a-dec2-406e-b61f-0f1b04f3cee2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "b6f20ed5-1342-4175-9281-cb31dee722fe",
-              "domainType": "DataElement",
-              "label": "OPER_DT_12",
-              "description": "Date of the start of the 12th (secondary) patient procedure in the episode",
-              "dataType": {
-                "id": "1d4a0d2a-a88b-47fe-898c-6f5a21dd8a80",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "535964f8-dacc-4d63-b02d-c7f5d1b9742e",
-              "domainType": "DataElement",
-              "label": "OPER_CD_7",
-              "description": "7th procedure in the episode. Secondary procedure code (OPCS-4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "cfbaea3b-9229-4d48-87f9-e06e84cc4ba1",
-              "domainType": "DataElement",
-              "label": "OPER_CD_8",
-              "description": "8th procedure in the episode. Secondary procedure code (OPCS-4)",
-              "dataType": {
-                "id": "2b767cab-9590-40ac-818d-78c9b44d7137",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "2.0.0": "511c1eb5-904e-442d-992c-db3bb2ec1a86",
-        "3.0.0": "bb9b1a6b-e8e3-410e-85cc-61bde7a9bc7b",
-        "latest": "bb9b1a6b-e8e3-410e-85cc-61bde7a9bc7b"
-      }
     },
     {
       "id": "bc2d2a17-0f36-4cb0-85d3-b54e64460d75",
