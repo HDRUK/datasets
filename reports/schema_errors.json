@@ -5362,71 +5362,6 @@
     ]
   },
   {
-    "id": "2e986f12-6195-4cb8-ab71-80f4a60619e6",
-    "publisher": "HUBS > GUT REACTION, ALLIANCE > NIHR BIORESOURCE",
-    "title": "Contact detail",
-    "schema_error_count": 13,
-    "errors": [
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'A data access request must be approved by the independent NIHR BioResource Steering Committee that meets quarterly.  With Contact Details, access will not be approved unless there is a demonstrable and ethically approved requirement, which is likely to take much longer to realise.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Contact details are only available in very limited circumstances to studies with ethical approval, and with explicit participant consent.  We always look for methods to avoid releasing participant details, but it is possible through the recall study process described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Contact details are only available in very limited circumstances to studies with ethical approval, and with explicit participant consent.  We always look for methods to avoid releasing participant details, but it is possible through the recall study process described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'TBD' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'TBD' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'All datasets are potentially linkable' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'All datasets are potentially linkable' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Updated daily' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "2f57c592-c65c-4d1c-b92d-d19d2a11c02e",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "BioDock",
@@ -6854,66 +6789,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
-    "id": "3f1e8d9c-df81-4374-815c-621ab3013581",
-    "publisher": "HUBS > GUT REACTION, ALLIANCE > NIHR BIORESOURCE",
-    "title": "Consent records",
-    "schema_error_count": 12,
-    "errors": [
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'A data access request must be approved by the Data Access Committee (DAC) (for lightweight applications for existing resources) or the independent NIHR BioResource Steering Committee (SC) (everything else). The DAC meets virtually, and should decide within one week. The SC acts as the point of reporting and escalation for the DAC, and meets quarterly.  With Consent records, it is the method of calculation of those consenting that is approved, and not the release of records per se.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Consent details are not available outwith the staff group, but are instead used to filter datasets that may be released and to exclude participants from direct recontact' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Consent details are not available outwith the staff group, but are instead used to filter datasets that may be released and to exclude participants from direct recontact' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'TBD' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'TBD' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'All datasets are potentially linkable' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'All datasets are potentially linkable' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Updated daily' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -10376,6 +10251,57 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA, Plasma, Serum' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "62fc43ed-1198-4769-ad39-a0bc2c05fd47",
+    "publisher": "ALLIANCE > NIHR BIORESOURCE",
+    "title": "Contact detail",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'A data access request must be approved by the independent NIHR BioResource Steering Committee that meets quarterly.  With Contact Details, access will not be approved unless there is a demonstrable and ethically approved requirement, which is likely to take much longer to realise.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Contact details are only available in very limited circumstances to studies with ethical approval, and with explicit participant consent.  We always look for methods to avoid releasing participant details, but it is possible through the recall study process described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Contact details are only available in very limited circumstances to studies with ethical approval, and with explicit participant consent.  We always look for methods to avoid releasing participant details, but it is possible through the recall study process described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'All datasets are potentially linkable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'All datasets are potentially linkable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -14702,6 +14628,52 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "89e57932-ac48-48ac-a6e5-29795bc38b94",
+    "publisher": "ALLIANCE > NIHR BIORESOURCE",
+    "title": "Consent records",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'A data access request must be approved by the Data Access Committee (DAC) (for lightweight applications for existing resources) or the independent NIHR BioResource Steering Committee (SC) (everything else). The DAC meets virtually, and should decide within one week. The SC acts as the point of reporting and escalation for the DAC, and meets quarterly.  With Consent records, it is the method of calculation of those consenting that is approved, and not the release of records per se.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Consent details are not available outwith the staff group, but are instead used to filter datasets that may be released and to exclude participants from direct recontact' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Consent details are not available outwith the staff group, but are instead used to filter datasets that may be released and to exclude participants from direct recontact' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'All datasets are potentially linkable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'All datasets are potentially linkable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },

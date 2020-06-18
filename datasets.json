@@ -29495,6 +29495,177 @@
       }
     },
     {
+      "id": "6ecc2cb0-3b9b-47fc-9c80-78da44f070ef",
+      "domainType": "DataModel",
+      "label": "Demographic",
+      "documentationVersion": "2.0.0",
+      "description": "The NIHR Bioresource consists of several groups of participants: ~70k from the general population and blood donors (COMPARE, INTERVAL and STRIDES studies); ~19k with one of ~50 rare diseases (RD) including a ~5k pilot for GEL; ~30k with Inflammatory Bowel Disease (IBD) which include the members of the HDR UK IBD Hub; and ~20k with Anxiety or depression (GLAD study). It intends to extend recruitment in all areas, and to other rare and common disease groups, with a target of ~300k by 2022. The NIHR BioResource acquires demographic details \u2013 e.g. age, sex, ethnicity - from participants at recruitment.  This is used to pre-screen or match participants when inviting them to take part in experimental medicine studies.  De-identified versions of this data is available to researchers investigating the feasibility of future studies.",
+      "editable": false,
+      "lastUpdated": "2020-06-18T11:05:26.05Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-18T11:10:14.484Z",
+      "accessRequestCost": "There are no costs associated with data access requests.",
+      "keywords": "IBD, Crohn\u2019s, colitis, recall, demographics, feasibility, cohort, discover",
+      "contactPoint": "nbr@bioresource.nihr.ac.uk",
+      "accessRequestDuration": "A data access request must be approved by the Data Access Committee (DAC) (for lightweight applications for existing resources) or the independent NIHR BioResource Steering Committee (SC) (everything else). The DAC meets virtually, and should decide within one week. The SC acts as the point of reporting and escalation for the DAC, and meets quarterly.  With requests for Demographics, this should use the lightweight process unless the purpose of accessing data is unclear, or the destination unsafe.",
+      "jurisdiction": "GB",
+      "datasetStartDate": "2016-01-13",
+      "language": "en",
+      "title": "Demographic",
+      "linkedDataset": "All datasets are potentially linkable",
+      "physicalSampleAvailability": "DNA, Plasma",
+      "citations": "Publications are listed at https://bioresourcesupport.org.uk/publications/?nyear=all",
+      "controlledVocabulary": "Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp",
+      "dataController": "Cambridge University Hospitals NHS Foundation Trust (CUH)",
+      "statisticalPopulation": "0",
+      "group": "Research data",
+      "identifier": "Demographics",
+      "creator": "NIHR BioResource.\nAcknowledgement text:\n\u201dWe thank NIHR BioResource volunteers for their participation, and gratefully acknowledge NIHR BioResource centres, NHS Trusts and staff for their contribution. We thank the National Institute for Health Research and NHS Blood and Transplant. The views expressed are those of the author(s) and not necessarily those of the NHS, the NIHR or the Department of Health and Social Care\u201d",
+      "format": "csv",
+      "abstract": "The NIHR BioResource acquires broad demographics \u2013 e.g. age, sex, ethnicity - from participants at recruitment.  This is used to pre-screen or match participants when inviting them to take part in experimental medicine studies",
+      "dataProcessor": "Data processors are NIHR BioResource staff and others with Letters of Access to CUH",
+      "derivedDatasets": "Not Available",
+      "license": "The terms and conditions of data access are described in the Data Access Agreement (data-only requests) and Confirmation of Conduct forms (all other requests) available on the NIHR BioResource application process webpage https://bioresource.nihr.ac.uk/researchers/researchers/application-process/",
+      "populationType": "The NIHR IBD BioResource - of which the HDR UK IBD Hub is part - consists of ~30,000 participants, and is continuing to recruit. It is split roughly: 50% Crohn\u2019s, 47% colitis, 3% IBD unclassified",
+      "fileSize": "5MB",
+      "periodicity": "Quarterly releases anticipated, starting January 2020",
+      "publisher": "ALLIANCE > NIHR BIORESOURCE",
+      "ageBand": "Any Age",
+      "accessRights": "Demographic details are available in order that researchers may check the feasibility of potential new studies.  Some differential privacy constraints are applied, e.g. to turn concrete ages into age bands, in order to reduce the disclosure risk. A cohort discovery tool based on i2b2 https://www.i2b2.org/ has been piloted for the HDR UK Sprint Exemplar in Rare Diseases run in Cambridge in 2019.  This runs under managed access for registered users. The Data Access Application process is described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/ where the registration process will also be described",
+      "geographicCoverage": "United Kingdom",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "611dddae-48af-4e4b-b749-5242d5b8bd0e",
+          "domainType": "DataClass",
+          "label": "Demographics",
+          "description": "Demographics",
+          "lastUpdated": "2020-06-18T11:05:26.179Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "82124a9b-99fd-4069-9481-6f3094f97f28",
+              "domainType": "DataElement",
+              "label": "Alcoholintake",
+              "description": "Do you drink alcohol?",
+              "dataType": {
+                "id": "d1297795-ddc5-4137-ba9d-371f8a4427c7",
+                "domainType": "PrimitiveType",
+                "label": "String"
+              }
+            },
+            {
+              "id": "3117ecd7-80ca-4c59-a71a-7e26dbef5da8",
+              "domainType": "DataElement",
+              "label": "Weight",
+              "description": "Weight - in kilograms",
+              "dataType": {
+                "id": "24b6600d-4214-4c22-93fc-21011e42bacf",
+                "domainType": "PrimitiveType",
+                "label": "Decimal"
+              }
+            },
+            {
+              "id": "c0effd85-c922-4326-82ab-fac29f6f05af",
+              "domainType": "DataElement",
+              "label": "Nonsmoker",
+              "description": "Non-smoker",
+              "dataType": {
+                "id": "d1297795-ddc5-4137-ba9d-371f8a4427c7",
+                "domainType": "PrimitiveType",
+                "label": "String"
+              }
+            },
+            {
+              "id": "8c04c0b8-3bd5-4236-8c08-bd97f0e9ad5f",
+              "domainType": "DataElement",
+              "label": "Ethnicity",
+              "description": "Ethnic background",
+              "dataType": {
+                "id": "d1297795-ddc5-4137-ba9d-371f8a4427c7",
+                "domainType": "PrimitiveType",
+                "label": "String"
+              }
+            },
+            {
+              "id": "edd6cd82-1d3f-4127-9e8b-a23b8ea24630",
+              "domainType": "DataElement",
+              "label": "Gender",
+              "description": "Which gender do you identify with?",
+              "dataType": {
+                "id": "d1297795-ddc5-4137-ba9d-371f8a4427c7",
+                "domainType": "PrimitiveType",
+                "label": "String"
+              }
+            },
+            {
+              "id": "113a6ae5-3d3f-47f6-b8ae-29b21e216175",
+              "domainType": "DataElement",
+              "label": "Dietary",
+              "description": "Do you have a specific diet? None, Vegetarian, Pescetarian, Vegan, Other",
+              "dataType": {
+                "id": "d1297795-ddc5-4137-ba9d-371f8a4427c7",
+                "domainType": "PrimitiveType",
+                "label": "String"
+              }
+            },
+            {
+              "id": "958cc34c-0330-442c-b2a3-6da0ba5e9f2e",
+              "domainType": "DataElement",
+              "label": "Height",
+              "description": "Height - in metres/centimetres",
+              "dataType": {
+                "id": "24b6600d-4214-4c22-93fc-21011e42bacf",
+                "domainType": "PrimitiveType",
+                "label": "Decimal"
+              }
+            },
+            {
+              "id": "c7a835d8-e011-47db-b233-4b1524c51b73",
+              "domainType": "DataElement",
+              "label": "Exsmoker",
+              "description": "Ex-smoker",
+              "dataType": {
+                "id": "d1297795-ddc5-4137-ba9d-371f8a4427c7",
+                "domainType": "PrimitiveType",
+                "label": "String"
+              }
+            },
+            {
+              "id": "89982ea7-dc2c-4396-883e-36bd5caaf1e9",
+              "domainType": "DataElement",
+              "label": "BMI",
+              "description": "Body mass index - derived value",
+              "dataType": {
+                "id": "24b6600d-4214-4c22-93fc-21011e42bacf",
+                "domainType": "PrimitiveType",
+                "label": "Decimal"
+              }
+            },
+            {
+              "id": "d5abfab3-7098-46ac-931b-32d1a3796d52",
+              "domainType": "DataElement",
+              "label": "Currentsmoker",
+              "description": "Current smoker",
+              "dataType": {
+                "id": "d1297795-ddc5-4137-ba9d-371f8a4427c7",
+                "domainType": "PrimitiveType",
+                "label": "String"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "0.0.1": "75499f5d-2ef7-49ee-aaaf-b490cac739f9",
+        "2.0.0": "6ecc2cb0-3b9b-47fc-9c80-78da44f070ef",
+        "1.0.0": "e9b1ef97-ff63-4336-b3f8-2d5c5f5accce",
+        "latest": "6ecc2cb0-3b9b-47fc-9c80-78da44f070ef"
+      }
+    },
+    {
       "id": "6efbc62f-6ebb-4f18-959b-1ec6fd0cc6fb",
       "domainType": "DataModel",
       "label": "Epilepsy 12 - Patient Reported Experience Measure",
@@ -73366,177 +73537,6 @@
         "0.0.1": "40cafc92-f5c3-4883-a7ee-d6aa5f18a5a0",
         "1.0.0": "e8f5b1b5-2c08-439a-b337-70b454aa40f3",
         "latest": "e8f5b1b5-2c08-439a-b337-70b454aa40f3"
-      }
-    },
-    {
-      "id": "e9b1ef97-ff63-4336-b3f8-2d5c5f5accce",
-      "domainType": "DataModel",
-      "label": "Demographic",
-      "documentationVersion": "1.0.0",
-      "description": "The NIHR Bioresource consists of several groups of participants: ~70k from the general population and blood donors (COMPARE, INTERVAL and STRIDES studies); ~19k with one of ~50 rare diseases (RD) including a ~5k pilot for GEL; ~30k with Inflammatory Bowel Disease (IBD) which include the members of the HDR UK IBD Hub; and ~20k with Anxiety or depression (GLAD study). It intends to extend recruitment in all areas, and to other rare and common disease groups, with a target of ~300k by 2022. The NIHR BioResource acquires demographic details \u2013 e.g. age, sex, ethnicity - from participants at recruitment.  This is used to pre-screen or match participants when inviting them to take part in experimental medicine studies.  De-identified versions of this data is available to researchers investigating the feasibility of future studies.",
-      "editable": false,
-      "lastUpdated": "2020-02-07T12:06:48.263Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-02-07T12:10:12.913Z",
-      "accessRequestCost": "There are no costs associated with data access requests.",
-      "keywords": "IBD Crohn\u2019s colitis recall demographics feasibility cohort discover",
-      "contactPoint": "nbr@bioresource.nihr.ac.uk",
-      "accessRequestDuration": "A data access request must be approved by the Data Access Committee (DAC) (for lightweight applications for existing resources) or the independent NIHR BioResource Steering Committee (SC) (everything else). The DAC meets virtually, and should decide within one week. The SC acts as the point of reporting and escalation for the DAC, and meets quarterly.  With requests for Demographics, this should use the lightweight process unless the purpose of accessing data is unclear, or the destination unsafe.",
-      "jurisdiction": "GB",
-      "datasetStartDate": "2016-01-13",
-      "language": "en",
-      "title": "Demographic",
-      "linkedDataset": "All datasets are potentially linkable",
-      "physicalSampleAvailability": "DNA, Plasma",
-      "citations": "Publications are listed at https://bioresourcesupport.org.uk/publications/?nyear=all",
-      "controlledVocabulary": "Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp",
-      "dataController": "Cambridge University Hospitals NHS Foundation Trust (CUH)",
-      "statisticalPopulation": "0",
-      "group": "Research data",
-      "identifier": "Demographics",
-      "creator": "NIHR BioResource.\nAcknowledgement text:\n\u201dWe thank NIHR BioResource volunteers for their participation, and gratefully acknowledge NIHR BioResource centres, NHS Trusts and staff for their contribution. We thank the National Institute for Health Research and NHS Blood and Transplant. The views expressed are those of the author(s) and not necessarily those of the NHS, the NIHR or the Department of Health and Social Care\u201d",
-      "format": "csv",
-      "abstract": "The NIHR BioResource acquires broad demographics \u2013 e.g. age, sex, ethnicity - from participants at recruitment.  This is used to pre-screen or match participants when inviting them to take part in experimental medicine studies",
-      "dataProcessor": "Data processors are NIHR BioResource staff and others with Letters of Access to CUH",
-      "derivedDatasets": "None",
-      "license": "The terms and conditions of data access are described in the Data Access Agreement (data-only requests) and Confirmation of Conduct forms (all other requests) available on the NIHR BioResource application process webpage https://bioresource.nihr.ac.uk/researchers/researchers/application-process/",
-      "populationType": "The NIHR IBD BioResource - of which the HDR UK IBD Hub is part - consists of ~30,000 participants, and is continuing to recruit. It is split roughly: 50% Crohn\u2019s, 47% colitis, 3% IBD unclassified",
-      "fileSize": "5MB",
-      "periodicity": "Quarterly releases anticipated, starting January 2020",
-      "publisher": "HUBS > GUT REACTION, ALLIANCE > NIHR BIORESOURCE",
-      "ageBand": "Any Age",
-      "accessRights": "Demographic details are available in order that researchers may check the feasibility of potential new studies.  Some differential privacy constraints are applied, e.g. to turn concrete ages into age bands, in order to reduce the disclosure risk. A cohort discovery tool based on i2b2 https://www.i2b2.org/ has been piloted for the HDR UK Sprint Exemplar in Rare Diseases run in Cambridge in 2019.  This runs under managed access for registered users. The Data Access Application process is described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/ where the registration process will also be described",
-      "conformsTo": "TBD",
-      "geographicCoverage": "United Kingdom",
-      "doi": "TBD",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "7bb7f961-2744-4a76-a278-41ff0bade143",
-          "domainType": "DataClass",
-          "label": "Demographics",
-          "description": "Demographics",
-          "lastUpdated": "2020-02-07T12:06:48.306Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "f6ab0275-7af2-4030-a32f-725b4fc36b98",
-              "domainType": "DataElement",
-              "label": "Alcoholintake",
-              "description": "Do you drink alcohol?",
-              "dataType": {
-                "id": "1289a280-6cdc-4bf5-9d66-843087e1fcaa",
-                "domainType": "PrimitiveType",
-                "label": "String"
-              }
-            },
-            {
-              "id": "5f04cdda-edd4-4e87-91a6-c533c877dfae",
-              "domainType": "DataElement",
-              "label": "Height",
-              "description": "Height - in metres/centimetres",
-              "dataType": {
-                "id": "79215268-4f5c-46f8-8e22-62761c89e317",
-                "domainType": "PrimitiveType",
-                "label": "Decimal"
-              }
-            },
-            {
-              "id": "22f08af7-a9a5-4218-9f7d-b771af244a6e",
-              "domainType": "DataElement",
-              "label": "Exsmoker",
-              "description": "Ex-smoker",
-              "dataType": {
-                "id": "1289a280-6cdc-4bf5-9d66-843087e1fcaa",
-                "domainType": "PrimitiveType",
-                "label": "String"
-              }
-            },
-            {
-              "id": "0bcbe779-165f-4273-b653-fb26601e99a7",
-              "domainType": "DataElement",
-              "label": "Nonsmoker",
-              "description": "Non-smoker",
-              "dataType": {
-                "id": "1289a280-6cdc-4bf5-9d66-843087e1fcaa",
-                "domainType": "PrimitiveType",
-                "label": "String"
-              }
-            },
-            {
-              "id": "620a423e-1e05-450a-b927-5d48fb4ac260",
-              "domainType": "DataElement",
-              "label": "Dietary",
-              "description": "Do you have a specific diet? None, Vegetarian, Pescetarian, Vegan, Other",
-              "dataType": {
-                "id": "1289a280-6cdc-4bf5-9d66-843087e1fcaa",
-                "domainType": "PrimitiveType",
-                "label": "String"
-              }
-            },
-            {
-              "id": "791c2a38-77dc-4ab8-9ba6-19194f3a686e",
-              "domainType": "DataElement",
-              "label": "Gender",
-              "description": "Which gender do you identify with?",
-              "dataType": {
-                "id": "1289a280-6cdc-4bf5-9d66-843087e1fcaa",
-                "domainType": "PrimitiveType",
-                "label": "String"
-              }
-            },
-            {
-              "id": "a1e2ee09-c0ff-4af7-9bcc-4c18f81dfbb4",
-              "domainType": "DataElement",
-              "label": "BMI",
-              "description": "Body mass index - derived value",
-              "dataType": {
-                "id": "79215268-4f5c-46f8-8e22-62761c89e317",
-                "domainType": "PrimitiveType",
-                "label": "Decimal"
-              }
-            },
-            {
-              "id": "2c6c3081-04de-4cc4-86f0-cb35672f2ca4",
-              "domainType": "DataElement",
-              "label": "Weight",
-              "description": "Weight - in kilograms",
-              "dataType": {
-                "id": "79215268-4f5c-46f8-8e22-62761c89e317",
-                "domainType": "PrimitiveType",
-                "label": "Decimal"
-              }
-            },
-            {
-              "id": "1db5c61f-adfc-468a-8255-af461dc2e599",
-              "domainType": "DataElement",
-              "label": "Ethnicity",
-              "description": "Ethnic background",
-              "dataType": {
-                "id": "1289a280-6cdc-4bf5-9d66-843087e1fcaa",
-                "domainType": "PrimitiveType",
-                "label": "String"
-              }
-            },
-            {
-              "id": "2e97c6cb-21b7-4aec-a192-1348c6e40cb6",
-              "domainType": "DataElement",
-              "label": "Currentsmoker",
-              "description": "Current smoker",
-              "dataType": {
-                "id": "1289a280-6cdc-4bf5-9d66-843087e1fcaa",
-                "domainType": "PrimitiveType",
-                "label": "String"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "0.0.1": "75499f5d-2ef7-49ee-aaaf-b490cac739f9",
-        "1.0.0": "e9b1ef97-ff63-4336-b3f8-2d5c5f5accce",
-        "latest": "e9b1ef97-ff63-4336-b3f8-2d5c5f5accce"
       }
     },
     {
