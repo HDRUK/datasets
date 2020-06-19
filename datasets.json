@@ -886,6 +886,178 @@
       }
     },
     {
+      "id": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1",
+      "domainType": "DataModel",
+      "label": "Emergency Department Dataset Daily",
+      "documentationVersion": "2.0.0",
+      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nAdministrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
+      "editable": false,
+      "lastUpdated": "2020-06-18T12:47:54.52Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-18T12:52:42.267Z",
+      "accessRequestCost": "0 GBP",
+      "keywords": "SAIL, Emergency, A&E",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Other",
+      "jurisdiction": "GB-WLS",
+      "datasetStartDate": "2009-04-01",
+      "language": "en",
+      "title": "Emergency Department Dataset Daily",
+      "linkedDataset": "Linkable to any SAIL linked dataset",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Lyons, R.A., Jones, K.H., John, G. et al. The SAIL databank: linking multiple health and social care datasets. BMC Med Inform Decis Mak 9, 3 (2009). https://doi.org/10.1186/1472-6947-9-3",
+      "controlledVocabulary": "ICD-10",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "750000",
+      "group": "No Group",
+      "identifier": "EDDD",
+      "creator": "NHS Wales Informatics Service (NWIS)",
+      "releaseDate": "2020-06-05T00:00:00Z",
+      "format": "SQL table",
+      "abstract": "Daily version of Emergency Department Dataset.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project. Data within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Emergency department attendances per year",
+      "fileSize": "Will vary significantly depending on linked datasets, release version, variable selection etc",
+      "periodicity": "Daily",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "All Ages",
+      "accessRights": "In Progress",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "a96acab7-bb2a-4516-8ca3-0d750bfbfcd3",
+          "domainType": "DataClass",
+          "label": "EDDS",
+          "description": "All data related to the Emergancy Department Data Set:\nThe Emergency Department Data Set (EDDS) captures attendances at Accident & Emergency departments and Minor Injury Units (MIUs) in Welsh hospitals.\nVelindre NHS Trust does not provide EDDS data as there are no A&E departments or MIUs in the Trust.\nWelsh residents who attended an emergency department in England are not included.\nThe submission is based on administrative end date.\nPlanned follow up patients are included.\nDefinitions that apply to SITREPS may differ from those associated to the EDDS.",
+          "lastUpdated": "2020-06-18T12:47:54.712Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "16239651-2520-4ae8-9634-66199130faa7",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "07344e4d-7f19-410d-98dd-60273adde5b4",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "9147a6b4-2385-4bb5-af95-ca1025abe6ef",
+              "domainType": "DataElement",
+              "label": "TRIAGE_CAT",
+              "description": "The triage category is assigned to a patient as a result of an initial assessment by medical or nursing staff in an Accident and Emergency Department.",
+              "dataType": {
+                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "96204cf0-8bb2-4593-b996-1962c84ea3dd",
+              "domainType": "DataElement",
+              "label": "SPORT",
+              "description": "The sport in which the patient was participating at the time of injury that led to the Accident and Emergency Department attendance.",
+              "dataType": {
+                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "a96a38c5-f323-4e71-ad82-46a96cbdc02d",
+              "domainType": "DataElement",
+              "label": "AMB_INCID_NO_E",
+              "description": "Encrypted Ambulance Incident Number. When a patient arrives by ambulance, this is the incident number for that journey, allocated by the Ambulance Control.",
+              "dataType": {
+                "id": "7ff190c3-2753-4748-8c9b-463ba4bd8dad",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "a128dfd9-45cf-4ca4-867a-dcd212e83a41",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_5",
+              "description": "Fifth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance. Up to 6 diagnosis type codes can be reported.",
+              "dataType": {
+                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "257fa169-7a0e-4880-98d8-eed9cbd8488d",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_6",
+              "description": "Sixth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance. Up to 6 diagnosis type codes can be reported.",
+              "dataType": {
+                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "d36aef17-cd17-4478-8f8a-66646565c9e2",
+              "domainType": "DataElement",
+              "label": "DISCHARGE",
+              "description": "This records the outcome of the Accident and Emergency Department Attendance.",
+              "dataType": {
+                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "79a17c0e-01cf-49d6-b30f-bb719f720cd5",
+              "domainType": "DataElement",
+              "label": "ADMIN_END_TM",
+              "description": "This is the time that the patients Accident and Emergency Attendance Ends.",
+              "dataType": {
+                "id": "451cb19f-c0ee-4ee0-9a81-8189a2da92be",
+                "domainType": "PrimitiveType",
+                "label": "TIME"
+              }
+            },
+            {
+              "id": "69189c35-f7d4-42b9-aa11-79ec3e9784d0",
+              "domainType": "DataElement",
+              "label": "INVEST_CD_6",
+              "description": "Sixth investigation type code. Investigation type codes may be requested to assist with diagnosis during and Accident and Emergency Department Attendance. Up to 6 investigation types can be reported.",
+              "dataType": {
+                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "451db623-e181-46ee-a1e9-2aceedb14c98",
+              "domainType": "DataElement",
+              "label": "SITE_CD_OF_TREAT",
+              "description": "Site Code of Treatment (5 character code). The organisation code for the site where the patient will be or is treated.",
+              "dataType": {
+                "id": "963e3c22-c347-4696-a31d-0cb836c41bc6",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "1.0.0": "7ed951dc-6d9f-4c08-a41c-719ec3381503",
+        "2.0.0": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1",
+        "0.0.1": "d8b14954-5507-45dc-8bb5-638dda8a121d",
+        "latest": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1"
+      }
+    },
+    {
       "id": "0711cc7e-80d5-4781-a1ab-2637ea176ceb",
       "domainType": "DataModel",
       "label": "Millennium Clinical Events",
@@ -4908,176 +5080,6 @@
         "2.0.0": "148a3896-e4ed-48ef-8643-48df726041e1",
         "1.0.0": "91412d6b-b713-439b-82bc-33b0a85f521f",
         "latest": "148a3896-e4ed-48ef-8643-48df726041e1"
-      }
-    },
-    {
-      "id": "14a752a8-8efa-4bab-85c1-190e1f20c8cf",
-      "domainType": "DataModel",
-      "label": "Annual District Death Daily",
-      "documentationVersion": "1.0.0",
-      "description": "Daily version of Annual District Deaths Datasets. Office for National Statistics (ONS) register of all deaths relating to Welsh residents, including those that died outside of Wales.\n\nThe data are collected from death registrations.",
-      "editable": false,
-      "lastUpdated": "2020-06-10T12:05:39.802Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-06-10T12:10:21.962Z",
-      "accessRequestCost": "0 GBP",
-      "keywords": "SAIL, Death, Wales, Daily",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Other",
-      "jurisdiction": "GB-WLS",
-      "datasetStartDate": "1996-01-01",
-      "language": "en",
-      "title": "Annual District Death Daily",
-      "linkedDataset": "Linkable to Other SAIL Linked datasets",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Not Available",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "32000",
-      "group": "No Group",
-      "identifier": "ADDD",
-      "creator": "NHS Wales Informatics Service",
-      "releaseDate": "2020-06-05T00:00:00Z",
-      "format": "SQL table",
-      "abstract": "Daily version of Annual District Death Dataset.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Deaths per year",
-      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
-      "periodicity": "Daily",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "All Ages",
-      "accessRights": "In Progress",
-      "geographicCoverage": "Wales",
-      "doi": "In Progress",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "3eceb3cb-fa9b-4471-8453-df0dface344a",
-          "domainType": "DataClass",
-          "label": "DEATHS",
-          "description": "The Office for National Statistics (ONS) Annual District Death Extract (ADDE) is a register of all deaths relating to Welsh residents, including those that died out of Wales. To aid in user needs, timely but provisional counts of death registrations in England and Wales are pubilshed weekly, monthly, and quarterly. Annual mortality statistics (based on deaths registered in a calendar year) are published in separate packages to enable the timely release of statistics. From 1974 to 2005, mortality statistics were published in the annual reference volumns, DH1, DH2, and DH4. From 1993 to 2005, figures were based on deaths occurring annually in England and Wales in the reference year. Prior to 1993, figures were based on deaths registered in England and Wales in the reference year. In 2006, these three volumes were replaced by a single publication, Mortality statistics: deaths registered in England and Wales (Series DR) based on deaths registered in a reference year.",
-          "lastUpdated": "2020-06-10T12:05:40.009Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "d38af99c-9f5d-40f0-b2ba-de4b48c82a99",
-              "domainType": "DataElement",
-              "label": "DEATHSTATS_PREV_CENSUS_COUNTRY_CD",
-              "description": "Country code in which the deceased is/was resident, based on the previous census. For 2007 onwards, the National Statistics Country Classification [NSCC] has been used to code country of birth. The classification is available online via NSCC. For dates 1982-2006, country of birth code lists for this period is provided in separate excel file.",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "4a229513-1651-4d34-94aa-7307790fbccc",
-              "domainType": "DataElement",
-              "label": "DEATHCAUSE_DIAG_6_CD",
-              "description": "Coded cause of death, this is coded to ICD9 for deaths from 1993-2000 and ICD10 for deaths from 2001- Onwards",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "ff9ec9f6-2b95-4f85-b0a6-0199fc095b04",
-              "domainType": "DataElement",
-              "label": "DEC_STATS_PREV_CENSUS_COUNTRY_CD",
-              "description": "Country code in which the deceased is/was resident, based on the previous census. For 2007 onwards, the National Statistics Country Classification [NSCC] has been used to code country of birth. The classification is available online via NSCC. For dates 1982-2006, country of birth code lists for this period is provided in separate excel file.",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "d32fbc74-4668-490a-b828-e44bb53f3f79",
-              "domainType": "DataElement",
-              "label": "DEC_COUNTYANDDISTRICT_CD",
-              "description": "County and district code of usual residence of deceased. These geographies will differ across the UK, based on time. In Wales, this is/was a subdivision of Counties at the time.",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "1010e84f-5201-4b5a-ba69-c0f810fd34b6",
-              "domainType": "DataElement",
-              "label": "DEC_COUNTY_CD",
-              "description": "County code of usual residence of deceased. These geographies will differ across the UK, based on time. In Wales, counties can be ceremonial, historic, or preserved; most changed into Local Authorities.",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "b7bceec2-e794-4691-a186-1112b1b0bfda",
-              "domainType": "DataElement",
-              "label": "DEC_LSOA_CD",
-              "description": "Lower Super Output Area [LSOA] code of the residence of the deceased. The LSOA code has been derived from the postcode of usual residence of deceased.",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "38c7fa93-1f90-4694-93e8-a991b7baa50c",
-              "domainType": "DataElement",
-              "label": "DEC_OR_MOTHER_SOCIOECONOMIC_CLASS_CD",
-              "description": "Socio-economic classification code; National Statistics Socio-economic Classification operational category for mother of deceased juvenile. Covers all records after 2001; codes are derived during the online coding and validation process from a pre-existing field that contains the values 1-40 of the operational categories of the National Statistics Socioeconomic Classification based on Standard Occupational Classification.",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "a17c5184-e0e1-481d-b9bc-db971b51b6cc",
-              "domainType": "DataElement",
-              "label": "DEATHSTATS_PREV_CENSUS_HEALTH_ORG_CD",
-              "description": "Organisation Code for the Local Health Board (LHB) for the place of the deceased , based upon the previous census. Identified via the NHS Postcode Directory.",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "01a4eed9-94ca-436e-a14a-0dc46001e6f4",
-              "domainType": "DataElement",
-              "label": "DEATHCAUSE_ROWPOS_6_CD",
-              "description": "ICD-9 or ICD-10 code to understand underlying [secondary] or external cause of death.",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "85eacfa0-1004-41a0-8d4c-c6da842e9e26",
-              "domainType": "DataElement",
-              "label": "DEC_HEALTH_ORG_CD",
-              "description": "Organisation Code for the Local Health Board (LHB) where the deceased is/was a resident, identified via the NHS Postcode Directory.",
-              "dataType": {
-                "id": "3e9423c7-174c-447a-8215-1adc66195bf3",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "0.0.1": "cc4f967a-7a64-461f-ad15-bb8036fb81af",
-        "1.0.0": "14a752a8-8efa-4bab-85c1-190e1f20c8cf",
-        "latest": "14a752a8-8efa-4bab-85c1-190e1f20c8cf"
       }
     },
     {
@@ -16534,181 +16536,6 @@
       }
     },
     {
-      "id": "479ff1c9-444c-4855-a65d-ddc37f040120",
-      "domainType": "DataModel",
-      "label": "COVID-19 Test results",
-      "documentationVersion": "4.0.0",
-      "description": "Test results from Laboratory Information Management System for COVID19 tests (coronavirus SARS CoV2 PCR and coronavirus PCR tests). Details tests, outcomes, and some clinically relevant patient information about Covid19 Tests in Wales.",
-      "editable": false,
-      "lastUpdated": "2020-06-02T16:30:21.93Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-06-02T16:34:58.594Z",
-      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
-      "keywords": "SAIL, Welsh, COVID19, nCOV, coronavirus",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
-      "jurisdiction": "GB-WLS",
-      "datasetStartDate": "2020-02-03",
-      "language": "en",
-      "title": "COVID-19 Test results",
-      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Not Available",
-      "controlledVocabulary": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "25000",
-      "group": "No Group",
-      "identifier": "COVID_LIMS",
-      "creator": "Welsh Results Reports Service (WRRS)",
-      "releaseDate": "2020-04-04T00:00:00Z",
-      "format": "SQL database table",
-      "abstract": "Test results from Laboratory Information Management System for COVID19 tests (coronavirus SARS CoV2 PCR and coronavirus PCR tests).",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Patients having COVID-19 test in Wales.",
-      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
-      "periodicity": "Irregular",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "All Ages",
-      "accessRights": "https://saildatabank.com/application-process/",
-      "conformsTo": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm",
-      "geographicCoverage": "Wales",
-      "doi": "In Progress",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "b3e611a9-848b-44f7-bcef-0f4fb5e14870",
-          "domainType": "DataClass",
-          "label": "COVID_LIMSTESTRESULTS",
-          "description": "Test results from Laboratory Information Management System for COVID19 tests (corona virus SARS CoV2 PCR and coronavirus PCR tests)",
-          "lastUpdated": "2020-06-02T16:30:22.22Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "f7c9026d-9b9f-4d21-ac35-e419c09cbd5c",
-              "domainType": "DataElement",
-              "label": "SET_KEY",
-              "description": "Key whether result for test set obtained",
-              "dataType": {
-                "id": "fed65c0c-c0aa-493d-8b03-3786055cd789",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "8d02fae9-362a-483c-b24c-bf38b321a2eb",
-              "domainType": "DataElement",
-              "label": "LAST_CHANGED_DTTM",
-              "description": "Date time record last changed",
-              "dataType": {
-                "id": "93e90c96-4714-427a-8e7e-b0fdb3818d86",
-                "domainType": "PrimitiveType",
-                "label": "TIMESTAMP"
-              }
-            },
-            {
-              "id": "619fb43e-0d17-4a3a-aaa0-f599309cf02a",
-              "domainType": "DataElement",
-              "label": "AUTHORISED_DTTM",
-              "description": "Date time that the report was authorised",
-              "dataType": {
-                "id": "93e90c96-4714-427a-8e7e-b0fdb3818d86",
-                "domainType": "PrimitiveType",
-                "label": "TIMESTAMP"
-              }
-            },
-            {
-              "id": "c8d605d1-18b5-402c-95e2-d4c3b9b29d00",
-              "domainType": "DataElement",
-              "label": "LA_RES_ONS_CD",
-              "description": "Local Authority of residence based on ONS data",
-              "dataType": {
-                "id": "fed65c0c-c0aa-493d-8b03-3786055cd789",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "23e8a41a-7b02-48b3-9e74-a4b3955ce09f",
-              "domainType": "DataElement",
-              "label": "POSSIBLE_DUPLICATE_OR_SURPLUS_REC",
-              "description": "Duplicate record",
-              "dataType": {
-                "id": "bb78f0cd-08d9-4c27-b33f-f22c1187ce1d",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "02a70678-9429-4bb1-b8ad-b0f6629cd0c4",
-              "domainType": "DataElement",
-              "label": "TAT_REQ_M",
-              "description": "TAT_REQ_M",
-              "dataType": {
-                "id": "bb78f0cd-08d9-4c27-b33f-f22c1187ce1d",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "abb195f4-9a82-4860-bcfe-f968915d062b",
-              "domainType": "DataElement",
-              "label": "PAT_TYPE_CD",
-              "description": "Patient type code",
-              "dataType": {
-                "id": "fed65c0c-c0aa-493d-8b03-3786055cd789",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "b22143f5-1dd3-4b80-a8b8-68a35329b10d",
-              "domainType": "DataElement",
-              "label": "SUBJECT_DOB_MON_OF_WEEK",
-              "description": "The Monday for the week of the DOB of the subject",
-              "dataType": {
-                "id": "93e90c96-4714-427a-8e7e-b0fdb3818d86",
-                "domainType": "PrimitiveType",
-                "label": "TIMESTAMP"
-              }
-            },
-            {
-              "id": "c8f823b0-e8fd-4c01-9f33-17174baa44b9",
-              "domainType": "DataElement",
-              "label": "OUTBREAK",
-              "description": "Outbreak description",
-              "dataType": {
-                "id": "fed65c0c-c0aa-493d-8b03-3786055cd789",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "dbf17987-9b2f-4e52-ad93-2c2f36830e22",
-              "domainType": "DataElement",
-              "label": "COVID19_TEST_RESULT",
-              "description": "Covid19 test result (Positive/ Negative)",
-              "dataType": {
-                "id": "fed65c0c-c0aa-493d-8b03-3786055cd789",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "1.0.0": "5b5505fb-915d-4677-aa0a-b2a28ed4e897",
-        "4.0.0": "479ff1c9-444c-4855-a65d-ddc37f040120",
-        "0.0.1": "4deb26a2-529b-4b5f-ac8d-682caa1ea4a8",
-        "3.0.0": "f7bb38ca-31e0-463c-9196-75967e9f82ef",
-        "2.0.0": "9d80a3e3-0c71-4818-b77b-26fbdd02d8ad",
-        "latest": "479ff1c9-444c-4855-a65d-ddc37f040120"
-      }
-    },
-    {
       "id": "47bec08b-57b7-450e-9be7-af19bab99b58",
       "domainType": "DataModel",
       "label": "National Vascular Registry Audit - Lower Limb Bypass clinical dataset",
@@ -19452,6 +19279,353 @@
         "0.0.1": "9a063ff8-4473-4ad7-b588-0283911787ef",
         "1.0.0": "514018c0-86e8-4998-8460-bb99912281ae",
         "latest": "514018c0-86e8-4998-8460-bb99912281ae"
+      }
+    },
+    {
+      "id": "520fe2c1-d442-4ec2-8209-bcfd792a4f48",
+      "domainType": "DataModel",
+      "label": "Annual District Death Daily",
+      "documentationVersion": "2.0.0",
+      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nDaily version of Annual District Deaths Datasets. Office for National Statistics (ONS) register of all deaths relating to Welsh residents, including those that died outside of Wales.\n\nThe data are collected from death registrations.",
+      "editable": false,
+      "lastUpdated": "2020-06-18T12:54:28.595Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-18T12:59:16.376Z",
+      "accessRequestCost": "0 GBP",
+      "keywords": "SAIL, Death, Wales, Daily",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Other",
+      "jurisdiction": "GB-WLS",
+      "datasetStartDate": "1996-01-01",
+      "language": "en",
+      "title": "Annual District Death Daily",
+      "linkedDataset": "Linkable to Other SAIL Linked datasets",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Not Available",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "32000",
+      "group": "No Group",
+      "identifier": "ADDD",
+      "creator": "NHS Wales Informatics Service",
+      "releaseDate": "2020-06-05T00:00:00Z",
+      "format": "SQL table",
+      "abstract": "Daily version of Annual District Death Dataset.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Deaths per year",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "Daily",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "All Ages",
+      "accessRights": "In Progress",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "280a0d5b-c5f0-40ef-aef6-17d9551d5055",
+          "domainType": "DataClass",
+          "label": "DEATHS",
+          "description": "The Office for National Statistics (ONS) Annual District Death Extract (ADDE) is a register of all deaths relating to Welsh residents, including those that died out of Wales. To aid in user needs, timely but provisional counts of death registrations in England and Wales are pubilshed weekly, monthly, and quarterly. Annual mortality statistics (based on deaths registered in a calendar year) are published in separate packages to enable the timely release of statistics. From 1974 to 2005, mortality statistics were published in the annual reference volumns, DH1, DH2, and DH4. From 1993 to 2005, figures were based on deaths occurring annually in England and Wales in the reference year. Prior to 1993, figures were based on deaths registered in England and Wales in the reference year. In 2006, these three volumes were replaced by a single publication, Mortality statistics: deaths registered in England and Wales (Series DR) based on deaths registered in a reference year.",
+          "lastUpdated": "2020-06-18T12:54:28.761Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "ecdc4020-1797-4759-96ae-2dad74dca22f",
+              "domainType": "DataElement",
+              "label": "DEATHCAUSE_DIAG_2_CD",
+              "description": "Coded cause of death, this is coded to ICD9 for deaths from 1993-2000 and ICD10 for deaths from 2001- Onwards",
+              "dataType": {
+                "id": "2d24c9fb-25cb-4a6e-a044-bab29ec95d69",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "8b4f0d03-08e1-47b3-b1fe-b03a5d1ea811",
+              "domainType": "DataElement",
+              "label": "DEATH_ANNUALRECORD_IND_CD",
+              "description": "Description to follow",
+              "dataType": {
+                "id": "2d24c9fb-25cb-4a6e-a044-bab29ec95d69",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "7629e94b-9f8f-4774-bfec-689324ccf224",
+              "domainType": "DataElement",
+              "label": "DEATHCAUSE_DIAG_1_CD",
+              "description": "Coded cause of death, this is coded to ICD9 for deaths from 1993-2000 and ICD10 for deaths from 2001- Onwards",
+              "dataType": {
+                "id": "2d24c9fb-25cb-4a6e-a044-bab29ec95d69",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "a294f249-cee3-4c01-8c82-27bdf11048f3",
+              "domainType": "DataElement",
+              "label": "DEATHCAUSE_DIAG_3_CD",
+              "description": "Coded cause of death, this is coded to ICD9 for deaths from 1993-2000 and ICD10 for deaths from 2001- Onwards",
+              "dataType": {
+                "id": "2d24c9fb-25cb-4a6e-a044-bab29ec95d69",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "d28fbca7-d991-4fd6-ab6d-da3e2e7666a6",
+              "domainType": "DataElement",
+              "label": "DEC_BIRTHCOUNTRY_CD",
+              "description": "Country code of place of birth of the deceased. For 2007 onwards, the National Statistics Country Classification [NSCC] has been used to code country of birth. The classification is available online via NSCC. For dates 1982-2006, country of birth code lists for this period is provided in separate excel file.",
+              "dataType": {
+                "id": "2d24c9fb-25cb-4a6e-a044-bab29ec95d69",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "aaf9e11a-eb6c-4614-b5b1-6d2b1fabc1e3",
+              "domainType": "DataElement",
+              "label": "DEC_OCC_TYPE_CD",
+              "description": "Occupation code of the deceased. For 2001 onwards, Standard Occupational Classification [SOC] codes apply. For 1986-2000 use OCC90M codes. For 1982-1985 use OCC codes. 1986-1990 values are coded to Classification of occupations 1980. For further information on all codes, see ONS website. Only 10% of live births have occupation of mother and father coded, while 100% of stillbirths have occupation coded for both the mother and father where present. ALL codes are coded automatically where possible from details held in the occupation text field and the industry text field recorded at birth registration. Records which cannot be automatically coded are manually coded instead.",
+              "dataType": {
+                "id": "2d24c9fb-25cb-4a6e-a044-bab29ec95d69",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "30778b3c-3efd-4c48-9288-d912261a4323",
+              "domainType": "DataElement",
+              "label": "DEATH_REG_DT_VALID",
+              "description": "Description to follow",
+              "dataType": {
+                "id": "2d24c9fb-25cb-4a6e-a044-bab29ec95d69",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "50dec6cd-fa42-49f0-9306-762e07dfb51b",
+              "domainType": "DataElement",
+              "label": "DEATHCAUSE_ROWPOS_1_CD",
+              "description": "ICD-9 or ICD-10 code to understand underlying [secondary] or external cause of death.",
+              "dataType": {
+                "id": "2d24c9fb-25cb-4a6e-a044-bab29ec95d69",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "8636dbbd-064e-4362-8a71-e26b08fbcb58",
+              "domainType": "DataElement",
+              "label": "DEATHCAUSE_ROWPOS_2_CD",
+              "description": "ICD-9 or ICD-10 code to understand underlying [secondary] or external cause of death.",
+              "dataType": {
+                "id": "2d24c9fb-25cb-4a6e-a044-bab29ec95d69",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "912d573f-c84e-4dbc-9365-c193405ff8b9",
+              "domainType": "DataElement",
+              "label": "DEATH_REG_DT",
+              "description": "Date the death was registered. Value Labels/Coding: dates are in the format YYYYMMDD for example 24 February 2015 would be 20150224. This date is derived from the death certificate.",
+              "dataType": {
+                "id": "eb0fe25e-dfa8-46b0-9392-05d582734253",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "1.0.0": "14a752a8-8efa-4bab-85c1-190e1f20c8cf",
+        "2.0.0": "520fe2c1-d442-4ec2-8209-bcfd792a4f48",
+        "0.0.1": "cc4f967a-7a64-461f-ad15-bb8036fb81af",
+        "latest": "520fe2c1-d442-4ec2-8209-bcfd792a4f48"
+      }
+    },
+    {
+      "id": "5257d66d-e0b0-45c4-96a6-7a3753eb9771",
+      "domainType": "DataModel",
+      "label": "COVID-19 Test results",
+      "documentationVersion": "5.0.0",
+      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nTest results from Laboratory Information Management System for COVID19 tests (coronavirus SARS CoV2 PCR and coronavirus PCR tests). Details tests, outcomes, and some clinically relevant patient information about Covid19 Tests in Wales.",
+      "editable": false,
+      "lastUpdated": "2020-06-18T13:20:28.645Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-18T13:25:16.622Z",
+      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
+      "keywords": "SAIL, Welsh, COVID19, nCOV, coronavirus",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
+      "jurisdiction": "GB-WLS",
+      "datasetStartDate": "2020-02-03",
+      "language": "en",
+      "title": "COVID-19 Test results",
+      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Not Available",
+      "controlledVocabulary": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "25000",
+      "group": "No Group",
+      "identifier": "COVID_LIMS",
+      "creator": "Welsh Results Reports Service (WRRS)",
+      "releaseDate": "2020-04-04T00:00:00Z",
+      "format": "SQL database table",
+      "abstract": "Test results from Laboratory Information Management System for COVID19 tests (coronavirus SARS CoV2 PCR and coronavirus PCR tests).",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Patients having COVID-19 test in Wales.",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "Irregular",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "All Ages",
+      "accessRights": "https://saildatabank.com/application-process/",
+      "conformsTo": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "e86cb381-3a6a-442f-b9d2-4ab6dc4ab3a0",
+          "domainType": "DataClass",
+          "label": "COVID_LIMSTESTRESULTS",
+          "description": "Test results from Laboratory Information Management System for COVID19 tests (corona virus SARS CoV2 PCR and coronavirus PCR tests)",
+          "lastUpdated": "2020-06-18T13:20:28.962Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "f1af913a-ef62-42ab-a0f6-928e5f5531d3",
+              "domainType": "DataElement",
+              "label": "LA_RES_ONS_CD",
+              "description": "Local Authority of residence based on ONS data",
+              "dataType": {
+                "id": "8ba5902e-b15e-402e-8238-2a6421a6f144",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "4fa757a8-4a68-4d8d-a112-3d86f45d066c",
+              "domainType": "DataElement",
+              "label": "UPDATED",
+              "description": "Record updated date time",
+              "dataType": {
+                "id": "ece62607-0117-4fa9-b3c4-ef36b74ad593",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "3fe1d6e3-c3c0-44a8-911d-26e6bd0760a2",
+              "domainType": "DataElement",
+              "label": "SPCM_COLLECTED_DTTM",
+              "description": "Specimen Collected (date time)",
+              "dataType": {
+                "id": "ece62607-0117-4fa9-b3c4-ef36b74ad593",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "fdc2d8c4-2507-41a7-809d-caf27b68149f",
+              "domainType": "DataElement",
+              "label": "FIRST_AUTHORISED_TM",
+              "description": "Time that the test was first authorised",
+              "dataType": {
+                "id": "3c0b6256-0284-40ef-9668-8f1203cc9cb5",
+                "domainType": "PrimitiveType",
+                "label": "TIME"
+              }
+            },
+            {
+              "id": "1971e19d-f527-4b07-9313-e96995a4a58d",
+              "domainType": "DataElement",
+              "label": "REQST_TYPE",
+              "description": "The way in which the test was requested (e.g. paper, electronic)",
+              "dataType": {
+                "id": "8ba5902e-b15e-402e-8238-2a6421a6f144",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "e7822d20-ccbc-4c8f-9573-659a1ae80cf3",
+              "domainType": "DataElement",
+              "label": "SPCM_COLLECTED_DT",
+              "description": "Specimen Collected (date time)",
+              "dataType": {
+                "id": "45944a0d-fabe-4b60-aafd-d8517fc88418",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "0df6e999-6355-450d-8906-f07b00a82deb",
+              "domainType": "DataElement",
+              "label": "RECORD_ID_E",
+              "description": "Encrypted record identifier",
+              "dataType": {
+                "id": "8edf79af-6390-4c42-b307-24d91f9d3d10",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "c9ea25a0-1ff9-4a1b-953a-fe530e14e836",
+              "domainType": "DataElement",
+              "label": "RESULT_CD",
+              "description": "Test result code",
+              "dataType": {
+                "id": "8ba5902e-b15e-402e-8238-2a6421a6f144",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "9a4b45ab-8550-4d44-bf7e-8b6cebac759c",
+              "domainType": "DataElement",
+              "label": "OUTBREAK",
+              "description": "Outbreak description",
+              "dataType": {
+                "id": "8ba5902e-b15e-402e-8238-2a6421a6f144",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "74d93cf4-622d-4568-9649-b8d769149f34",
+              "domainType": "DataElement",
+              "label": "TEST_SET_NAME",
+              "description": "Test set name",
+              "dataType": {
+                "id": "8ba5902e-b15e-402e-8238-2a6421a6f144",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "1.0.0": "5b5505fb-915d-4677-aa0a-b2a28ed4e897",
+        "5.0.0": "5257d66d-e0b0-45c4-96a6-7a3753eb9771",
+        "0.0.1": "4deb26a2-529b-4b5f-ac8d-682caa1ea4a8",
+        "4.0.0": "479ff1c9-444c-4855-a65d-ddc37f040120",
+        "3.0.0": "f7bb38ca-31e0-463c-9196-75967e9f82ef",
+        "2.0.0": "9d80a3e3-0c71-4818-b77b-26fbdd02d8ad",
+        "latest": "5257d66d-e0b0-45c4-96a6-7a3753eb9771"
       }
     },
     {
@@ -22847,457 +23021,6 @@
       }
     },
     {
-      "id": "5dc5998d-efa4-490a-9a46-feb6eb27dabe",
-      "domainType": "DataModel",
-      "label": "COVID-19 Symptom Tracker Dataset",
-      "documentationVersion": "8.0.0",
-      "description": "The COVID Symptom Tracker (https://covid.joinzoe.com/) mobile application was designed by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.\n\nThis research is led by Dr Tim Spector, professor of genetic epidemiology at King\u2019s College London and director of TwinsUK a scientific study of 15,000 identical and non-identical twins, which has been running for nearly three decades.\n\nThe dataset schema includes:\n\nDemographic Information (Year of Birth, Gender, Height, Weight, Postcode)\nHealth Screening Questions (Activity, Heart Disease, Diabetes, Lung Disease, Smoking Status, Kidney Disease, Chemotherapy, Immunosuppressants, Corticosteroids, Blood Pressure Medications, Previous COVID, COVID Symptoms, Needs Help, Housebound Problems, Help Availability, Mobility Aid)\nCOVID Testing Conducted\nHow You Feel?\nSymptom Description\nLocation Information (Home, Hospital, Back From Hospital)\nTreatment Received\nThe data is hosted within the SAIL Databank, a trusted research environment facilitating remote access to health, social care, and administrative data for various national organisations.\n\nThe process for requesting access to the data is dependent on your use case. SAIL is currently expediting all requests that feed directly into the response to the COVID-19 national emergency, and therefore requests from NHS or Government institutions, or organisations working alongside such care providers and policymakers to feed intelligence directly back into the national response, are being expedited with a ~48-hour governance turnaround for such applications once made. Please make enquiries using the link at the bottom of the page which will go the SAIL Databank team, or to Chris Orton at c.orton@swansea.ac.uk\n\nSAIL is welcoming requests from other organisations and for longer-term academic study on the dataset, but please note if this is not directly relevant to the emergency research being carried out which directly interfaces with national responding agencies, there may be an access delay whilst priority use cases are serviced.",
-      "editable": false,
-      "lastUpdated": "2020-06-10T12:47:39.766Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-06-10T12:52:20.484Z",
-      "accessRequestCost": "Contact SAIL Databank (saildatabank@swansea.ac.uk) for further information",
-      "keywords": "COVID-19, SYMPTOM, TRACKER, MOBILE APP, CORONAVIRUS, COVID, SAIL, covid-19, covid",
-      "contactPoint": "saildatabank@swansea.ac.uk",
-      "accessRequestDuration": ">1 WEEK",
-      "jurisdiction": "GB-GBN",
-      "datasetEndDate": "2020-08-01",
-      "datasetStartDate": "2020-03-16",
-      "language": "en",
-      "title": "COVID-19 Symptom Tracker Dataset",
-      "linkedDataset": "Restricted governance dataset",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "D. A. Drew et al., Science\n10.1126/science.abc0473 (2020)",
-      "controlledVocabulary": "https://bit.ly/Zoe-COVID-Dictionary",
-      "dataController": "Zoe Global Ltd (https://joinzoe.com/)",
-      "statisticalPopulation": "3500000",
-      "group": "No Group",
-      "identifier": "COVID-SYM-TRACK",
-      "creator": "The COVID symptom tracker was created by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.",
-      "releaseDate": "2020-04-03T00:00:00Z",
-      "format": "CSV Tables",
-      "abstract": "The COVID Symptom Tracker was designed by doctors and scientists at King's College London (KCL), Guys and St Thomas\u2019 Hospital working in partnership with ZOE Global. Led by Dr Tim Spector, professor of genetic epidemiology at KCL and director of TwinsUK.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "https://covid.joinzoe.com/privacy-notice",
-      "populationType": "General Population",
-      "fileSize": "Over 500MB",
-      "periodicity": "Daily",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "15-90+",
-      "accessRights": "https://saildatabank.com/application-process/two-stage-process/",
-      "conformsTo": "https://bit.ly/Zoe-COVID-Dictionary",
-      "geographicCoverage": "Great Britain",
-      "doi": "In Progress",
-      "dataClassesCount": 4,
-      "dataClasses": [
-        {
-          "id": "13255687-b05c-4d3a-a70a-c8094d2bbcb8",
-          "domainType": "DataClass",
-          "label": "ZOE_ALF",
-          "description": "Data about the patients registered to use the ZOE symtom tracker app.\nSpecifically including the anonymised linking field (ALF) using the split file anonymisation and probabilistic matching.\nThis enables this ZOE_ALF table to be linked to other tables within the SAIL databank.\nNote that special permission is required to access to this table, and thus have linked CVST data.",
-          "lastUpdated": "2020-06-10T12:47:40.786Z",
-          "dataElementsCount": 8,
-          "dataElements": [
-            {
-              "id": "4cd0804b-6184-499f-8716-17509eb2a2ab",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DATE",
-              "description": "Date when the data made available i.e. date of loading.",
-              "dataType": {
-                "id": "3b66714a-e983-4b3e-a982-c3f2348c5fb4",
-                "domainType": "PrimitiveType",
-                "label": "date"
-              }
-            },
-            {
-              "id": "265f6529-55d2-476b-adc5-e98dfaf1ebe2",
-              "domainType": "DataElement",
-              "label": "YR_OF_BIRTH",
-              "description": "The year of birth of the individual.",
-              "dataType": {
-                "id": "38f9807e-b7aa-4875-9419-37a9e5fd383e",
-                "domainType": "PrimitiveType",
-                "label": "integer"
-              }
-            },
-            {
-              "id": "865848ec-37f8-41d5-a4eb-660f3e0af7f2",
-              "domainType": "DataElement",
-              "label": "LSOA2011_CD",
-              "description": "Lower Layer Super Output Area Code of the individual. For the current version of LSOA codes (2011).",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "17526a20-6fd0-49ec-a0ee-9521157d1a88",
-              "domainType": "DataElement",
-              "label": "ALF_E",
-              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
-              "dataType": {
-                "id": "db18c9b5-76f4-41ac-82f9-a2c45e438bb2",
-                "domainType": "PrimitiveType",
-                "label": "bigint"
-              }
-            },
-            {
-              "id": "409b7aac-0300-4e1f-a81f-0a86027519ac",
-              "domainType": "DataElement",
-              "label": "ID_E",
-              "description": "Unique patient ID. Used to link the assessment and alf tables to the patient table.",
-              "dataType": {
-                "id": "db18c9b5-76f4-41ac-82f9-a2c45e438bb2",
-                "domainType": "PrimitiveType",
-                "label": "bigint"
-              }
-            },
-            {
-              "id": "3987cc61-6cd6-4e72-8de3-ababf8b5d5c7",
-              "domainType": "DataElement",
-              "label": "SEX",
-              "description": "The sex (gender) of the individual.",
-              "dataType": {
-                "id": "26353a08-0a68-4e70-a152-94da45f46c07",
-                "domainType": "PrimitiveType",
-                "label": "smallint"
-              }
-            },
-            {
-              "id": "8aa952ff-a96e-49c1-b81e-b124e29f8374",
-              "domainType": "DataElement",
-              "label": "ALF_STS_CD",
-              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
-              "dataType": {
-                "id": "38f9807e-b7aa-4875-9419-37a9e5fd383e",
-                "domainType": "PrimitiveType",
-                "label": "integer"
-              }
-            },
-            {
-              "id": "67c477f3-2400-4676-9289-a5caf191440f",
-              "domainType": "DataElement",
-              "label": "ALF_MATCH_PCT",
-              "description": "Match percentage assigned when deriving the Encrypted Anonymised Linking Field.",
-              "dataType": {
-                "id": "3c9b86a1-0f53-4e85-99a3-87e893baca2e",
-                "domainType": "PrimitiveType",
-                "label": "double"
-              }
-            }
-          ]
-        },
-        {
-          "id": "6d7f561b-bb0b-4990-b134-1a0f89494e2c",
-          "domainType": "DataClass",
-          "label": "CVST_ASSESSMENTS",
-          "description": "Assessment level data",
-          "lastUpdated": "2020-06-10T12:47:40.787Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "5b607f7d-6b8e-43b8-b594-384da2614f2c",
-              "domainType": "DataElement",
-              "label": "ISOLATION_LOTS_OF_PEOPLE",
-              "description": "Indicator of how much patients have been isolating over the last week.\n\nThe number of times, in the last week, the patient has visited somewhere with lots of people (e.g. whilst getting groceries, on public transport, or at work)",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "dfd6fbf0-f902-4ffa-a678-7c79e5080c6b",
-              "domainType": "DataElement",
-              "label": "PATIENT_ID_E",
-              "description": "Unique patient ID. Used to link the assessment and alf tables to the patient table.",
-              "dataType": {
-                "id": "db18c9b5-76f4-41ac-82f9-a2c45e438bb2",
-                "domainType": "PrimitiveType",
-                "label": "bigint"
-              }
-            },
-            {
-              "id": "ec390d15-3b3e-488d-b2d3-bc0c19e0833a",
-              "domainType": "DataElement",
-              "label": "UPDATED_AT",
-              "description": "UTC timestamp at which this patient level data was most recently updated.",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "bfe25174-1f91-4ea8-8e50-5a59451d2ce7",
-              "domainType": "DataElement",
-              "label": "SKIPPED_MEALS",
-              "description": "For individuals who are not feeling quite right.  Indicates if they have been skipping meals.",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "e82b05a2-8842-4f89-95b1-e981dbe283cb",
-              "domainType": "DataElement",
-              "label": "LOCATION",
-              "description": "For individuals who are not feeling quite right.  Indicates where they are right now.\n\nCan take 4 values. Values and corresponding descriptions:\n- home //  I'm at home. I haven't been to the hospital for suspected COVID-19 symptoms\n- hospital // I am at the hospital with suspected COVID-19 symptoms\n- back_from_hospital // I am back from the hospital, I'd like to tell you about my treatment\n- back_from_hospital // I am back from the hospital, I've already told you about my treatment",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "d93476a8-032e-4aa8-978d-3dbea41870e7",
-              "domainType": "DataElement",
-              "label": "RED_WELTS_ON_FACE_OR_LIPS",
-              "description": "For individuals who are not feeling quite right.  Indicates if they are experiencing red welts on their face or lips.",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "649cfba9-19ec-4d8a-97d8-4349cb920239",
-              "domainType": "DataElement",
-              "label": "SOMETIMES_USED_SHORTAGE",
-              "description": "For health care workers, who, in the last day,  have sometimes used PPE at work. Indicates whether:\n\nCan take 3 values. Values and corresponding descriptions:\n- all_needed // They haven't always needed PPE, but have had enough when they did\n- not_enough // They would have used PPE all the time, but they haven't had enough\n- reused // They've had to reuse PPE because of shortage\nThe maximum length of the value is 16",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "fe54f9f0-7e7e-4b94-b054-5848b094486a",
-              "domainType": "DataElement",
-              "label": "NEVER_USED_SHORTAGE",
-              "description": "For health care workers, who, in the last day,  have never used PPE at work. Indicates whether:\n\nCan take 2 values. Values and corresponding descriptions:\n- not_needed // They haven't needed PPE\n- not_available // They needed PPE, but it wasn't available\nThe maximum length of the value is 16",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "70c4048e-163e-4070-9888-00c98431edd7",
-              "domainType": "DataElement",
-              "label": "DIARRHOEA_FREQUENCY",
-              "description": "For individuals who are not feeling quite right. Indicates how often they are experiencing diarrhoea.",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "8d8e25cd-69b7-4b7b-b437-bb8c965c176c",
-              "domainType": "DataElement",
-              "label": "LEVEL_OF_ISOLATION",
-              "description": "For individuals who are not feeling quite right.  Indicates how much they have been isolating over the last week.\n\nCan take 3 values. Values and corresponding descriptions:\n- not_left_the_house // I have not left the house\n- rarely_left_the_house // I rarely leave the house. When I do, I have little interaction with others (e.g. for exercise)\n- often_left_the_house // I have to leave the house often and am in contact with other people (e.g. still working outside the house or using public transport)",
-              "dataType": {
-                "id": "0edd2d6b-9197-4037-907b-eaf1f22a9641",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "62dbd6f3-49f5-410f-8619-01ad0af5a28f",
-          "domainType": "DataClass",
-          "label": "CVST_PATIENTS_EXPORT",
-          "description": "Patient level data",
-          "lastUpdated": "2020-06-10T12:47:40.788Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "26eadb4d-d041-4543-b382-7f53febee636",
-              "domainType": "DataElement",
-              "label": "COUNTRY_CODE",
-              "description": "Country code of the individual. Can take values GB or US only.",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "fe0a6e30-7b83-470f-abab-d059db7a9443",
-              "domainType": "DataElement",
-              "label": "HAS_HEART_DISEASE",
-              "description": "Indictaes if the individual has heart disease.",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "29e3c493-c3d9-4df6-a08f-1f9d34d7cd91",
-              "domainType": "DataElement",
-              "label": "HAS_CANCER",
-              "description": "Indicates if the individual is living with cancer.",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "ee4367b4-b6d8-476f-aaed-b2c6dacbc43e",
-              "domainType": "DataElement",
-              "label": "HEIGHT _CM",
-              "description": "Height of the individual. Export is anonymised by rounding downwards to 10cm.",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "381aeab2-129a-45d2-822f-6034f5369733",
-              "domainType": "DataElement",
-              "label": "YEAR_OF_BIRTH",
-              "description": "Year of birth of the individual. \nExport is anonymised by rounding upwards to 5 years - effectively age rounded down.",
-              "dataType": {
-                "id": "4ee2d943-b539-46d7-b91c-161a8a0759e2",
-                "domainType": "PrimitiveType",
-                "label": "decimal"
-              }
-            },
-            {
-              "id": "a8f3ac88-6531-47bd-aae1-ec84214015dd",
-              "domainType": "DataElement",
-              "label": "HAVE_WORKED_IN_HOSPITAL_HOME_HEALTH",
-              "description": "Indicates if the individual has physically worked in home health since the COVID-19 epidemic began.",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "b7f96892-f552-4648-ab05-d3a344840aeb",
-              "domainType": "DataElement",
-              "label": "RACE_IS_US_ASIAN",
-              "description": "Indicates if the race of the individual is Asian American.",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "99a8dc67-f6cb-4c2a-9bf4-6de7fc6bfe04",
-              "domainType": "DataElement",
-              "label": "CONTACT_HEALTH_WORKER",
-              "description": "Inidcates if the individual is a health worker coming into contact with patients",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "34d6ccf9-ab77-4dd8-a4d8-2dd0290b6b76",
-              "domainType": "DataElement",
-              "label": "PAST_SYMPTOM_FATIGUE",
-              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had fatigue.",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "9cc5661c-a829-4b5e-af3a-2762df4b89cb",
-              "domainType": "DataElement",
-              "label": "RACE_IS_UK_ASIAN",
-              "description": "Indicates if the race of the individual is Asian British.",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            }
-          ]
-        },
-        {
-          "id": "5af10221-62a7-4f7f-825d-d1e633330d69",
-          "domainType": "DataClass",
-          "label": "PATIENT_LIST",
-          "description": "Indicates whether or not a patient has opted out of the populaton, along with the date of opt-out where appropriate.\nUsed as an aid for processing patient opt-outs.",
-          "lastUpdated": "2020-06-10T12:47:40.788Z",
-          "dataElementsCount": 4,
-          "dataElements": [
-            {
-              "id": "525fae31-cb22-4b76-9b4d-f6c59bced25c",
-              "domainType": "DataElement",
-              "label": "OPT_OUT_PROC_DT",
-              "description": "For individuals who have opted out of the population.\nDate in which ZOE processed the opt-out.",
-              "dataType": {
-                "id": "919e0d45-f5b8-4748-9820-8b4b7c5de574",
-                "domainType": "PrimitiveType",
-                "label": "timestamp"
-              }
-            },
-            {
-              "id": "75b37245-d9fa-4e63-92ff-32e85c2f7e16",
-              "domainType": "DataElement",
-              "label": "OPTED_OUT",
-              "description": "Indicates whether or not the individual has opted out of the population.\nWe say that an individual has opted out if they were in previous feeds of the data, but not in the current feed.\nIf an individual is deemed to have opted out, their records are deleted from both the temporal and historical tables.\n\nCan take 2 values. Values and correspnding meaning:\n- N // No, individual has not opted out\n- Y // Yes, individual has opted out",
-              "dataType": {
-                "id": "5264864f-dabf-4cea-8bd5-19e02b7050ba",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "96fd634f-cf6e-4e76-bbdd-d25b744a4e26",
-              "domainType": "DataElement",
-              "label": "OPT_OUT_DATE",
-              "description": "For individuals who have opted out of the population.\nDate in which the individual requested to opt-out",
-              "dataType": {
-                "id": "3b66714a-e983-4b3e-a982-c3f2348c5fb4",
-                "domainType": "PrimitiveType",
-                "label": "date"
-              }
-            },
-            {
-              "id": "b3cd110d-57ce-483e-9cf4-24f5b0f5b16b",
-              "domainType": "DataElement",
-              "label": "PATIENT_ID_E",
-              "description": "Unique patient ID.",
-              "dataType": {
-                "id": "db18c9b5-76f4-41ac-82f9-a2c45e438bb2",
-                "domainType": "PrimitiveType",
-                "label": "bigint"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "7.0.0": "6846f613-e2e3-4dac-bb24-c867033db4ec",
-        "8.0.0": "5dc5998d-efa4-490a-9a46-feb6eb27dabe",
-        "4.0.0": "06f8c66d-4e91-44dc-a109-1df729b72b61",
-        "2.0.0": "4e0008a5-c930-494a-bdcc-f88e30fc36d2",
-        "1.0.0": "9b604483-9cdc-41b2-b82c-14ee3dd705f6",
-        "6.0.0": "9c5a8ae6-fbc2-43f6-b4ae-4dd2b2a617b5",
-        "5.0.0": "c1231f9b-b617-4ad8-80ad-f84d26f7964a",
-        "3.0.0": "2197a025-e722-4b21-9208-9e4c8e5d3b6a",
-        "latest": "5dc5998d-efa4-490a-9a46-feb6eb27dabe"
-      }
-    },
-    {
       "id": "5e022f8f-4d07-44bb-a87c-43e31200fe1e",
       "domainType": "DataModel",
       "label": "ARIA Radonc",
@@ -24879,407 +24602,6 @@
         "2.0.0": "61cf3b8d-5a1b-4241-aaac-89599bf17ab6",
         "1.0.0": "49b14365-9d27-4947-8ae3-7364240d15ed",
         "latest": "61cf3b8d-5a1b-4241-aaac-89599bf17ab6"
-      }
-    },
-    {
-      "id": "61fb7abd-b0d9-4887-b474-57b1f1d0130a",
-      "domainType": "DataModel",
-      "label": "Covid Vulnerable People's list",
-      "documentationVersion": "1.0.0",
-      "description": "The Chief Medical Officer (CMO) for England, working with the CMOs of the devolved nations and other senior clinicians, commissioned NHS Digital to produce a list of people at \u201chigh risk\u201d of complications from COVID-19, who should be shielded for at least 12 weeks. The CMO for Wales commissioned a collaboration of national bodies in Wales (NWIS, DU, NWSSP, PHW) to identify \u201chigh risk\u201d people for the Welsh population, based largely on the NHS Digital methodology. This list is referred to as the Shielded Patient List (SPL). \n\nThe \u201chigh risk\u201d list was defined as a subset of a wider group of people who may be \u201cat risk\u201d. Specific advice applies to these groups, currently this advice is:\n \u2022 \u201cAt Risk\u201d \u2013 large group normally at risk from the flu - should practice strict social distancing \n\u2022 \u201cAt high risk\u201d \u2013 a smaller sub-group (circa 70k), defined by CMO \u2013 should practice complete social \u201cshielding\u201d NHS Digital have described the methodology that has been used to identify patients who meet the high risk criteria due to their inclusion in one or more of the disease groups. \n\nAs there are differences in some of the systems used across the devolved nations, nuanced differences in application and interpretation of CMO guidance, this document describes the Welsh methodology.https://nwis.nhs.wales/coronavirus/coronavirus-content/coronavirus-documents/covid-19-high-risk-shielded-patient-list-identification-methodology/",
-      "editable": false,
-      "lastUpdated": "2020-06-02T16:37:06.44Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-06-02T16:41:44.149Z",
-      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
-      "keywords": "SAIL, covid, coronavirus, vulnerable",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
-      "jurisdiction": "GB-WLS",
-      "datasetEndDate": "2020-05-12",
-      "datasetStartDate": "2020-05-12",
-      "language": "en",
-      "title": "Covid Vulnerable People's list",
-      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Not Available",
-      "controlledVocabulary": "None",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "170000",
-      "group": "No Group",
-      "identifier": "CVVP",
-      "creator": "NWIS",
-      "releaseDate": "2020-05-12T00:00:00Z",
-      "format": "SQL database table",
-      "abstract": "List of people notified of vulnerable status and instructed to self-isolate during Covid pandemic.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "People identified vulnerable to C19.  Approx 170000.",
-      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
-      "periodicity": "STATIC",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "All Ages",
-      "accessRights": "https://saildatabank.com/application-process/",
-      "conformsTo": "None",
-      "geographicCoverage": "Wales",
-      "doi": "In Progress",
-      "dataClassesCount": 4,
-      "dataClasses": [
-        {
-          "id": "c9c29def-6784-4aff-8ef6-49685e479874",
-          "domainType": "DataClass",
-          "label": "VULNERABLE_PATIENTS",
-          "description": "Information about the patients.",
-          "lastUpdated": "2020-06-02T16:37:06.483Z",
-          "dataElementsCount": 6,
-          "dataElements": [
-            {
-              "id": "ae457ec4-e1fa-4537-bedb-99cd1671956d",
-              "domainType": "DataElement",
-              "label": "ALF_E",
-              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
-              "dataType": {
-                "id": "b719eba9-7ecb-4016-950d-0c6c0e165d18",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "099fa887-b7a2-46a9-92a4-7cc60e00b793",
-              "domainType": "DataElement",
-              "label": "ALF_STS_CD",
-              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
-              "dataType": {
-                "id": "02fabcd7-5a7d-48b5-843f-e71d212b9e26",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "5e9bd0b7-5ddd-41e0-adba-5c8a19c50080",
-              "domainType": "DataElement",
-              "label": "LSOA2011_CD",
-              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
-              "dataType": {
-                "id": "490cff69-d655-4fd7-b890-7d959b7c6400",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "6490180e-02cd-46b2-b90a-0636bcc89496",
-              "domainType": "DataElement",
-              "label": "DOB",
-              "description": "Date of birthof the patient.",
-              "dataType": {
-                "id": "61e84d42-4eca-4499-b15a-d4c72a917c48",
-                "domainType": "PrimitiveType",
-                "label": "TIMESTAMP"
-              }
-            },
-            {
-              "id": "64b275f5-b67d-4b33-a67e-40ae2fc1cd1d",
-              "domainType": "DataElement",
-              "label": "SEX",
-              "description": "Code indicating the sex (gender) of person, employee or patient.",
-              "dataType": {
-                "id": "161ca25d-8c25-4a16-9dec-b6d8b084310b",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "0f5e7262-0f6f-449f-b4be-c91cb3818a30",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "02a77396-b018-47c8-b3c1-bb30a6f51d1b",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            }
-          ]
-        },
-        {
-          "id": "86681024-7351-44a2-a9bc-f7554019980d",
-          "domainType": "DataClass",
-          "label": "VULNERABLE_PATIENTS_20200429",
-          "description": "Information about the patients.",
-          "lastUpdated": "2020-06-02T16:37:06.484Z",
-          "dataElementsCount": 6,
-          "dataElements": [
-            {
-              "id": "9263bb56-10d3-4c72-a246-4487169fc4ea",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "02a77396-b018-47c8-b3c1-bb30a6f51d1b",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "9042f242-9210-4578-adf8-a4157c085471",
-              "domainType": "DataElement",
-              "label": "SEX",
-              "description": "Code indicating the sex (gender) of person, employee or patient.",
-              "dataType": {
-                "id": "161ca25d-8c25-4a16-9dec-b6d8b084310b",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "98b3fa92-02c4-4ff5-a12f-1906fe3403ca",
-              "domainType": "DataElement",
-              "label": "ALF_E",
-              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
-              "dataType": {
-                "id": "b719eba9-7ecb-4016-950d-0c6c0e165d18",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "b5903ca3-eb8d-4694-8423-5bb9ba239430",
-              "domainType": "DataElement",
-              "label": "ALF_STS_CD",
-              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
-              "dataType": {
-                "id": "02fabcd7-5a7d-48b5-843f-e71d212b9e26",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "86da804e-24d7-4913-a60a-57450f8fb197",
-              "domainType": "DataElement",
-              "label": "LSOA2011_CD",
-              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
-              "dataType": {
-                "id": "490cff69-d655-4fd7-b890-7d959b7c6400",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "1d0517cf-b884-492c-8b39-661cdb4b0025",
-              "domainType": "DataElement",
-              "label": "DOB",
-              "description": "Date of birthof the patient.",
-              "dataType": {
-                "id": "61e84d42-4eca-4499-b15a-d4c72a917c48",
-                "domainType": "PrimitiveType",
-                "label": "TIMESTAMP"
-              }
-            }
-          ]
-        },
-        {
-          "id": "e0818a1d-e927-4a9e-9867-00b85a2cf0bb",
-          "domainType": "DataClass",
-          "label": "DF_VULNERABLE_PATIENTS",
-          "description": "Information about the patient's vulnerability",
-          "lastUpdated": "2020-06-02T16:37:06.485Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "86418929-4096-4c2e-87ce-f99cc9738d6e",
-              "domainType": "DataElement",
-              "label": "WAVE",
-              "description": "For a given phase, the wave in which the patient was first considered vulnerable.",
-              "dataType": {
-                "id": "490cff69-d655-4fd7-b890-7d959b7c6400",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "7b899854-456f-477a-aeea-c0a1d984494e",
-              "domainType": "DataElement",
-              "label": "ALF_E",
-              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
-              "dataType": {
-                "id": "b719eba9-7ecb-4016-950d-0c6c0e165d18",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "41f4551b-3bda-4040-b935-bc1c0255230e",
-              "domainType": "DataElement",
-              "label": "ALF_STS_CD",
-              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
-              "dataType": {
-                "id": "02fabcd7-5a7d-48b5-843f-e71d212b9e26",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "8e75fbe8-fe3e-491b-b8fd-218429d2994b",
-              "domainType": "DataElement",
-              "label": "PHASE",
-              "description": "The phase in which the patient was first considered vulnerable.",
-              "dataType": {
-                "id": "490cff69-d655-4fd7-b890-7d959b7c6400",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "529a3055-a49a-4893-acd3-7d1aa2ebd357",
-              "domainType": "DataElement",
-              "label": "VULNERABLE_CAT",
-              "description": "Category code and description indicating the reason the patient is considered vulnerable.",
-              "dataType": {
-                "id": "490cff69-d655-4fd7-b890-7d959b7c6400",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "1892a460-6b85-419d-8c7a-2c9ca1b5c5e9",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "02a77396-b018-47c8-b3c1-bb30a6f51d1b",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "87eff113-434f-4400-9e75-e11fa607f587",
-              "domainType": "DataElement",
-              "label": "TO_NWSSP",
-              "description": "Date in which the patient was first considered vulnerable.",
-              "dataType": {
-                "id": "490cff69-d655-4fd7-b890-7d959b7c6400",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "bf4bd695-a770-4da6-b663-cedfd6acad6d",
-              "domainType": "DataElement",
-              "label": "SEX",
-              "description": "Code indicating the sex (gender) of person, employee or patient.",
-              "dataType": {
-                "id": "161ca25d-8c25-4a16-9dec-b6d8b084310b",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "0cf8a878-c284-424c-903c-7a92ff4bf51f",
-              "domainType": "DataElement",
-              "label": "LSOA2011_CD",
-              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
-              "dataType": {
-                "id": "490cff69-d655-4fd7-b890-7d959b7c6400",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "1b046bfc-ae2c-450d-8d51-7fd31a27493d",
-              "domainType": "DataElement",
-              "label": "DOB",
-              "description": "Date of birthof the patient.",
-              "dataType": {
-                "id": "61e84d42-4eca-4499-b15a-d4c72a917c48",
-                "domainType": "PrimitiveType",
-                "label": "TIMESTAMP"
-              }
-            }
-          ]
-        },
-        {
-          "id": "0e6bf525-3415-4c3d-a9c0-f5b122907675",
-          "domainType": "DataClass",
-          "label": "CVVP_VULNERABLE_PATIENTS",
-          "description": "Information about the patients.",
-          "lastUpdated": "2020-06-02T16:37:06.486Z",
-          "dataElementsCount": 6,
-          "dataElements": [
-            {
-              "id": "2ede937a-b9aa-4f29-ae73-9a0c45650c1a",
-              "domainType": "DataElement",
-              "label": "SEX",
-              "description": "Code indicating the sex (gender) of person, employee or patient.",
-              "dataType": {
-                "id": "02fabcd7-5a7d-48b5-843f-e71d212b9e26",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "1d52a6f4-d74f-413b-be79-afaa437ba853",
-              "domainType": "DataElement",
-              "label": "ALF_STS_CD",
-              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
-              "dataType": {
-                "id": "02fabcd7-5a7d-48b5-843f-e71d212b9e26",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "a755f77f-4ad0-4ef0-9753-fbaa5eb7b2fd",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "02a77396-b018-47c8-b3c1-bb30a6f51d1b",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "e6359846-a164-465f-8a9d-109b26c4bfd0",
-              "domainType": "DataElement",
-              "label": "LSOA2011_CD",
-              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
-              "dataType": {
-                "id": "161ca25d-8c25-4a16-9dec-b6d8b084310b",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "fda16c70-ba93-4335-bea1-ce31bb17b172",
-              "domainType": "DataElement",
-              "label": "ALF_E",
-              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
-              "dataType": {
-                "id": "b719eba9-7ecb-4016-950d-0c6c0e165d18",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "030beb81-d181-4eae-b5fa-8f6fe02cf5aa",
-              "domainType": "DataElement",
-              "label": "DOB",
-              "description": "Date of birthof the patient.",
-              "dataType": {
-                "id": "161ca25d-8c25-4a16-9dec-b6d8b084310b",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "0.0.1": "ff1632f6-16da-4196-8ce4-ef65d9f92e29",
-        "1.0.0": "61fb7abd-b0d9-4887-b474-57b1f1d0130a",
-        "latest": "61fb7abd-b0d9-4887-b474-57b1f1d0130a"
       }
     },
     {
@@ -29787,6 +29109,458 @@
         "2.0.0": "7038a67d-34ca-4754-a50f-41aa2849db69",
         "1.0.0": "04dc45da-97e4-484f-a7d0-174d12c74787",
         "latest": "7038a67d-34ca-4754-a50f-41aa2849db69"
+      }
+    },
+    {
+      "id": "71e22289-32df-43dc-a20f-756f2c814c36",
+      "domainType": "DataModel",
+      "label": "COVID-19 Symptom Tracker Dataset",
+      "documentationVersion": "10.0.0",
+      "description": "The COVID Symptom Tracker (https://covid.joinzoe.com/) mobile application was designed by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.\n\nThis research is led by Dr Tim Spector, professor of genetic epidemiology at King\u2019s College London and director of TwinsUK a scientific study of 15,000 identical and non-identical twins, which has been running for nearly three decades.\n\nThe dataset schema includes:\n\nDemographic Information (Year of Birth, Gender, Height, Weight, Postcode)\nHealth Screening Questions (Activity, Heart Disease, Diabetes, Lung Disease, Smoking Status, Kidney Disease, Chemotherapy, Immunosuppressants, Corticosteroids, Blood Pressure Medications, Previous COVID, COVID Symptoms, Needs Help, Housebound Problems, Help Availability, Mobility Aid)\nCOVID Testing Conducted\nHow You Feel?\nSymptom Description\nLocation Information (Home, Hospital, Back From Hospital)\nTreatment Received\nThe data is hosted within the SAIL Databank, a trusted research environment facilitating remote access to health, social care, and administrative data for various national organisations.\n\nThe process for requesting access to the data is dependent on your use case. SAIL is currently expediting all requests that feed directly into the response to the COVID-19 national emergency, and therefore requests from NHS or Government institutions, or organisations working alongside such care providers and policymakers to feed intelligence directly back into the national response, are being expedited with a ~48-hour governance turnaround for such applications once made. Please make enquiries using the link at the bottom of the page which will go the SAIL Databank team, or to Chris Orton at c.orton@swansea.ac.uk\n\nSAIL is welcoming requests from other organisations and for longer-term academic study on the dataset, but please note if this is not directly relevant to the emergency research being carried out which directly interfaces with national responding agencies, there may be an access delay whilst priority use cases are serviced.",
+      "editable": false,
+      "lastUpdated": "2020-06-18T13:42:14.675Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-18T13:47:00.387Z",
+      "keywords": "COVID-19, SYMPTOM, TRACKER, MOBILE APP, CORONAVIRUS, COVID, SAIL",
+      "contactPoint": "saildatabank@swansea.ac.uk",
+      "accessRequestDuration": ">1 WEEK",
+      "jurisdiction": "GB-GBN",
+      "datasetEndDate": "2020-08-01",
+      "datasetStartDate": "2020-03-16",
+      "language": "en",
+      "title": "COVID-19 Symptom Tracker Dataset",
+      "linkedDataset": "Not Available",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "D. A. Drew et al., Science\n10.1126/science.abc0473 (2020)",
+      "controlledVocabulary": "Local Standard",
+      "dataController": "Zoe Global Ltd (https://joinzoe.com/)",
+      "statisticalPopulation": "3500000",
+      "group": "No Group",
+      "identifier": "COVID-SYM-TRACK",
+      "creator": "The COVID symptom tracker was created by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.",
+      "releaseDate": "2020-04-03T00:00:00Z",
+      "format": "CSV Tables",
+      "abstract": "The COVID Symptom Tracker was designed by doctors and scientists at King's College London (KCL), Guys and St Thomas\u2019 Hospital working in partnership with ZOE Global. Led by Dr Tim Spector, professor of genetic epidemiology at KCL and director of TwinsUK.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "https://covid.joinzoe.com/privacy-notice",
+      "populationType": "General Population",
+      "fileSize": "Over 500MB",
+      "periodicity": "Daily",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "15-90+",
+      "accessRights": "https://saildatabank.com/application-process/two-stage-process/",
+      "conformsTo": "Local - See Technical Details",
+      "geographicCoverage": "Great Britain",
+      "doi": "In Progress",
+      "dataClassesCount": 4,
+      "dataClasses": [
+        {
+          "id": "ea13c505-3a27-4c67-964b-5b7e50f09b19",
+          "domainType": "DataClass",
+          "label": "CVST_ASSESSMENTS",
+          "description": "Assessment level data",
+          "lastUpdated": "2020-06-18T13:42:15.88Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "a249b468-17a6-42ab-95f2-ce597bac3a29",
+              "domainType": "DataElement",
+              "label": "CHEST_PAIN",
+              "description": "For individuals who are not feeling quite right. Indicates if they are feeling an unusual chest pain or tightness in their chest",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "b74ccbba-4c46-4d31-8ad6-175358192559",
+              "domainType": "DataElement",
+              "label": "BLISTERS_ON_FEET",
+              "description": "For individuals who are not feeling quite right.  Indicates if they are experiencing blisters on their feet.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "1b157468-c0c5-46d9-9125-a4aa737e589b",
+              "domainType": "DataElement",
+              "label": "UNUSUAL_MUSCLE_PAINS",
+              "description": "For individuals who are not feeling quite right.  Indicates if they have unusual strong muscle pains.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "23355c65-c087-44ab-82f9-664b61760264",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DATE",
+              "description": "Date when the data made available i.e. date of loading.",
+              "dataType": {
+                "id": "9eb77f21-f947-4161-999c-0990cd3e39e7",
+                "domainType": "PrimitiveType",
+                "label": "date"
+              }
+            },
+            {
+              "id": "572bcd30-41db-4120-81e5-b630bc9ad553",
+              "domainType": "DataElement",
+              "label": "DIZZY_LIGHT_HEADED",
+              "description": "For individuals who are not feeling quite right.  Indicates if they have been feeling dizzy or light headed.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "c68a6fa2-100f-4375-8103-faf30370d65d",
+              "domainType": "DataElement",
+              "label": "ID_E",
+              "description": "Unique assessment ID.",
+              "dataType": {
+                "id": "ddb08c34-409a-4720-b18f-4c29b8fff1c7",
+                "domainType": "PrimitiveType",
+                "label": "bigint"
+              }
+            },
+            {
+              "id": "0aebcd93-699e-435c-bf74-acd6b0c59bad",
+              "domainType": "DataElement",
+              "label": "DATE_TEST_OCCURRED",
+              "description": "For individuals who have been tested for COVID-19. Indicates the date the test occurred.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "c52f19b0-72e3-424b-8b87-42f1284b5e55",
+              "domainType": "DataElement",
+              "label": "SHORTNESS_OF_BREATH",
+              "description": "For individuals who are not feeling quite right. Indicates if they are experiencing unusual shortness of breath.\n\nCan take 4 values. Values and corresponding descriptions:\n- no // No\n- mild // Yes. Mild symtpoms - slight shortness of breath during ordinary activity\n- significant // Yes. Significant symptoms - breathing is comfortable only at rest\n- severe // Yes. Severe symptoms - breathing is difficult even at rest",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "0536c907-10b2-4702-9419-550a6cf24574",
+              "domainType": "DataElement",
+              "label": "TESTED_COVID_POSITIVE",
+              "description": "For individuals who have been tested for COVID-19. Indicates if they tested positive.\n\nCan take 3 values. Values and corresponding descriptions:\n- yes // Yes\n- no // No\n- waiting // Waiting",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "8dfb478e-2da6-4109-8486-2aac759a29a5",
+              "domainType": "DataElement",
+              "label": "HOARSE_VOICE",
+              "description": "For individuals who are not feeling quite right. Indicates if they have an unusually hoarse voice.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            }
+          ]
+        },
+        {
+          "id": "602277f1-5cb4-48bc-9173-97790f94b34b",
+          "domainType": "DataClass",
+          "label": "CVST_PATIENTS_EXPORT",
+          "description": "Patient level data",
+          "lastUpdated": "2020-06-18T13:42:15.881Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "fad14100-5643-4fe9-a3db-8c0bcbcb7f0f",
+              "domainType": "DataElement",
+              "label": "PAST_SYMPTOM_PERSISTENT_COUGH",
+              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had a persistent cough.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "193f7d00-d512-4ed1-8111-ce8ab2176449",
+              "domainType": "DataElement",
+              "label": "PAST_SYMPTOM_DELIRIUM",
+              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had delirium.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "faf77331-b4de-4ead-a108-973a91a225c1",
+              "domainType": "DataElement",
+              "label": "CLASSIC_SYMPTOMS",
+              "description": "Indicates if the individual has had the classic symptoms (high fever and persistent cough) for several days.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "4172959b-0fb6-41a5-825b-dc94e57090a4",
+              "domainType": "DataElement",
+              "label": "PAST_SYMPTOM_SHORTNESS_OF_BREATH",
+              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had shortness of breath.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "83b46364-4511-476a-bd4d-45bce0b6c5a3",
+              "domainType": "DataElement",
+              "label": "HAS_KIDNEY_DISEASE",
+              "description": "Indicates if the individual has kidney disease.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "aedc1119-8a9f-4afe-9505-e3bfa29089fb",
+              "domainType": "DataElement",
+              "label": "PAST_SYMPTOM_SKIPPED_MEALS",
+              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had skipped meals.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "259181ab-1dc9-4fe2-ab13-7e88921da95f",
+              "domainType": "DataElement",
+              "label": "LSOA11CD",
+              "description": "Lower Layer Super Output Area Code of the individual.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "2aeac3f2-4d18-4b05-82e3-c36302f05433",
+              "domainType": "DataElement",
+              "label": "CLASSIC_SYMPTOMS_DAYS_AGO",
+              "description": "For individuals with classic symptoms. The number of days ago their symptoms started.",
+              "dataType": {
+                "id": "a5f07a01-61f3-43cb-ad19-36868a802fbc",
+                "domainType": "PrimitiveType",
+                "label": "integer"
+              }
+            },
+            {
+              "id": "eb971bb8-a3f3-406b-b84b-3dfba5a1ee40",
+              "domainType": "DataElement",
+              "label": "DOES_CHEMIOTHERAPY",
+              "description": "For an individual living with cancer. Indicates if the individual is on chemotherapy or immunotherapy for cancer.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "7cd8bd65-9ee8-4d30-9e02-2ec1435d5d33",
+              "domainType": "DataElement",
+              "label": "INTERACTED_PATIENTS_WITH_COVID",
+              "description": "Indicates if the individual has EVER interacted in person with patients with documented or presumed COVID-10 infection.\n\nCan take 4 values. Values and corresponding descriptions:\n- yes_document // Yes, documented COVID-19 cases only\n- yes_suspected // Yes, suspected COVID-19 cases only\n- yes_doumented_suspected // Yes, both documented & suspected COVID-19 cases\n- no // Not that I know of\nThe maximum length of the value is 32.",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            }
+          ]
+        },
+        {
+          "id": "536d3409-a31f-4346-a5eb-7b764d1b7e9f",
+          "domainType": "DataClass",
+          "label": "PATIENT_LIST",
+          "description": "Indicates whether or not a patient has opted out of the populaton, along with the date of opt-out where appropriate.\nUsed as an aid for processing patient opt-outs.",
+          "lastUpdated": "2020-06-18T13:42:15.883Z",
+          "dataElementsCount": 4,
+          "dataElements": [
+            {
+              "id": "21212cc3-ee75-4b85-b710-c1cf2585068f",
+              "domainType": "DataElement",
+              "label": "OPT_OUT_DATE",
+              "description": "For individuals who have opted out of the population.\nDate in which the individual requested to opt-out",
+              "dataType": {
+                "id": "9eb77f21-f947-4161-999c-0990cd3e39e7",
+                "domainType": "PrimitiveType",
+                "label": "date"
+              }
+            },
+            {
+              "id": "2dd2045d-a256-4780-adfb-a5855d8891fa",
+              "domainType": "DataElement",
+              "label": "OPTED_OUT",
+              "description": "Indicates whether or not the individual has opted out of the population.\nWe say that an individual has opted out if they were in previous feeds of the data, but not in the current feed.\nIf an individual is deemed to have opted out, their records are deleted from both the temporal and historical tables.\n\nCan take 2 values. Values and correspnding meaning:\n- N // No, individual has not opted out\n- Y // Yes, individual has opted out",
+              "dataType": {
+                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "64b5362a-9b89-4cbd-bbce-3bd35344a53a",
+              "domainType": "DataElement",
+              "label": "PATIENT_ID_E",
+              "description": "Unique patient ID.",
+              "dataType": {
+                "id": "ddb08c34-409a-4720-b18f-4c29b8fff1c7",
+                "domainType": "PrimitiveType",
+                "label": "bigint"
+              }
+            },
+            {
+              "id": "f3008f87-c255-4f23-9f30-39956f228bb5",
+              "domainType": "DataElement",
+              "label": "OPT_OUT_PROC_DT",
+              "description": "For individuals who have opted out of the population.\nDate in which ZOE processed the opt-out.",
+              "dataType": {
+                "id": "1a191fba-b33c-434d-b93a-25abc4d85f55",
+                "domainType": "PrimitiveType",
+                "label": "timestamp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "9f719fe1-e8f6-4f7e-96b1-5b78588a5c42",
+          "domainType": "DataClass",
+          "label": "ZOE_ALF",
+          "description": "Data about the patients registered to use the ZOE symtom tracker app.\nSpecifically including the anonymised linking field (ALF) using the split file anonymisation and probabilistic matching.\nThis enables this ZOE_ALF table to be linked to other tables within the SAIL databank.\nNote that special permission is required to access to this table, and thus have linked CVST data.",
+          "lastUpdated": "2020-06-18T13:42:15.884Z",
+          "dataElementsCount": 8,
+          "dataElements": [
+            {
+              "id": "54482d60-3bc0-4953-830d-1dab6d4d49d2",
+              "domainType": "DataElement",
+              "label": "YR_OF_BIRTH",
+              "description": "The year of birth of the individual.",
+              "dataType": {
+                "id": "a5f07a01-61f3-43cb-ad19-36868a802fbc",
+                "domainType": "PrimitiveType",
+                "label": "integer"
+              }
+            },
+            {
+              "id": "de627776-af7b-46fb-b166-ac62bc5beff8",
+              "domainType": "DataElement",
+              "label": "SEX",
+              "description": "The sex (gender) of the individual.",
+              "dataType": {
+                "id": "724de9d3-a73e-4519-8ea9-7dbd41dcffa3",
+                "domainType": "PrimitiveType",
+                "label": "smallint"
+              }
+            },
+            {
+              "id": "0da2debc-46db-4716-8f38-5849c09b3177",
+              "domainType": "DataElement",
+              "label": "ALF_STS_CD",
+              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
+              "dataType": {
+                "id": "a5f07a01-61f3-43cb-ad19-36868a802fbc",
+                "domainType": "PrimitiveType",
+                "label": "integer"
+              }
+            },
+            {
+              "id": "364d03bf-dc06-43d2-96b4-29c044bb85d2",
+              "domainType": "DataElement",
+              "label": "ALF_MATCH_PCT",
+              "description": "Match percentage assigned when deriving the Encrypted Anonymised Linking Field.",
+              "dataType": {
+                "id": "cf99a1d0-5f01-420a-8ec5-1fd089f7354c",
+                "domainType": "PrimitiveType",
+                "label": "double"
+              }
+            },
+            {
+              "id": "d7272233-1857-42e0-8b1a-323d5d83dc33",
+              "domainType": "DataElement",
+              "label": "ALF_E",
+              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
+              "dataType": {
+                "id": "ddb08c34-409a-4720-b18f-4c29b8fff1c7",
+                "domainType": "PrimitiveType",
+                "label": "bigint"
+              }
+            },
+            {
+              "id": "47d572cd-b3cc-4ad3-9981-3071ccca0a87",
+              "domainType": "DataElement",
+              "label": "LSOA2011_CD",
+              "description": "Lower Layer Super Output Area Code of the individual. For the current version of LSOA codes (2011).",
+              "dataType": {
+                "id": "c4d1c117-fa66-4f3a-80fd-f68f365dff03",
+                "domainType": "PrimitiveType",
+                "label": "varchar"
+              }
+            },
+            {
+              "id": "86f72356-8384-4ee6-b1c5-b3ca53e9f5db",
+              "domainType": "DataElement",
+              "label": "ID_E",
+              "description": "Unique patient ID. Used to link the assessment and alf tables to the patient table.",
+              "dataType": {
+                "id": "ddb08c34-409a-4720-b18f-4c29b8fff1c7",
+                "domainType": "PrimitiveType",
+                "label": "bigint"
+              }
+            },
+            {
+              "id": "a159465b-6867-4798-bfec-0d0ab250baed",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DATE",
+              "description": "Date when the data made available i.e. date of loading.",
+              "dataType": {
+                "id": "9eb77f21-f947-4161-999c-0990cd3e39e7",
+                "domainType": "PrimitiveType",
+                "label": "date"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "1.0.0": "9b604483-9cdc-41b2-b82c-14ee3dd705f6",
+        "10.0.0": "71e22289-32df-43dc-a20f-756f2c814c36",
+        "9.0.0": "9dee28f9-44e7-4690-a091-c2e493d9d8ed",
+        "8.0.0": "5dc5998d-efa4-490a-9a46-feb6eb27dabe",
+        "7.0.0": "6846f613-e2e3-4dac-bb24-c867033db4ec",
+        "4.0.0": "06f8c66d-4e91-44dc-a109-1df729b72b61",
+        "2.0.0": "4e0008a5-c930-494a-bdcc-f88e30fc36d2",
+        "6.0.0": "9c5a8ae6-fbc2-43f6-b4ae-4dd2b2a617b5",
+        "5.0.0": "c1231f9b-b617-4ad8-80ad-f84d26f7964a",
+        "3.0.0": "2197a025-e722-4b21-9208-9e4c8e5d3b6a",
+        "latest": "71e22289-32df-43dc-a20f-756f2c814c36"
       }
     },
     {
@@ -38076,177 +37850,6 @@
         }
       ],
       "revisions": {}
-    },
-    {
-      "id": "7ed951dc-6d9f-4c08-a41c-719ec3381503",
-      "domainType": "DataModel",
-      "label": "Emergency Department Dataset Daily",
-      "documentationVersion": "1.0.0",
-      "description": "Administrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
-      "editable": false,
-      "lastUpdated": "2020-06-10T15:45:44.085Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-06-10T15:50:26.552Z",
-      "accessRequestCost": "0 GBP",
-      "keywords": "SAIL, Emergency, A&E",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Other",
-      "jurisdiction": "GB-WLS",
-      "datasetStartDate": "2009-04-01",
-      "language": "en",
-      "title": "Emergency Department Dataset Daily",
-      "linkedDataset": "Linkable to any SAIL linked dataset",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Lyons, R.A., Jones, K.H., John, G. et al. The SAIL databank: linking multiple health and social care datasets. BMC Med Inform Decis Mak 9, 3 (2009). https://doi.org/10.1186/1472-6947-9-3",
-      "controlledVocabulary": "ICD-10",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "750000",
-      "group": "No Group",
-      "identifier": "EDDD",
-      "creator": "NHS Wales Informatics Service (NWIS)",
-      "releaseDate": "2020-06-05T00:00:00Z",
-      "format": "SQL table",
-      "abstract": "Daily version of Emergency Department Dataset.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project. Data within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Emergency department attendances per year",
-      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
-      "periodicity": "Daily",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "All Ages",
-      "accessRights": "In Progress",
-      "geographicCoverage": "Wales",
-      "doi": "In Progress",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "e08f03a1-b31d-4596-be99-4b8119f00752",
-          "domainType": "DataClass",
-          "label": "EDDS",
-          "description": "All data related to the Emergancy Department Data Set:\nThe Emergency Department Data Set (EDDS) captures attendances at Accident & Emergency departments and Minor Injury Units (MIUs) in Welsh hospitals.\nVelindre NHS Trust does not provide EDDS data as there are no A&E departments or MIUs in the Trust.\nWelsh residents who attended an emergency department in England are not included.\nThe submission is based on administrative end date.\nPlanned follow up patients are included.\nDefinitions that apply to SITREPS may differ from those associated to the EDDS.",
-          "lastUpdated": "2020-06-10T15:45:44.189Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "833fbbd9-916e-44dc-bdd6-9a70d3a0ecbb",
-              "domainType": "DataElement",
-              "label": "ADMIN_ARR_TM",
-              "description": "Accident and Emergency Attendance Administrative Arrival Time is when the Accident and Emergency reception staff are notified in person that a patient has arrived and needs to be seen within the Accident and Emergency Department. Notification could be by the Ambulance Crew, the patient themselves, or a person accompanying the patient e.g. relative / friend.",
-              "dataType": {
-                "id": "9505c515-8460-4516-a510-15e28d8aa7f2",
-                "domainType": "PrimitiveType",
-                "label": "TIME"
-              }
-            },
-            {
-              "id": "4a300858-0520-4ae9-be3d-afdbe391941e",
-              "domainType": "DataElement",
-              "label": "TREAT_CD_2",
-              "description": "Second indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance. Up to 6 types of treatment or guidance can be reported.",
-              "dataType": {
-                "id": "fa088dd0-eaf7-4053-b4d7-39a5575d3ee2",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "011d8d28-a820-441e-aec6-7c60b08a3a76",
-              "domainType": "DataElement",
-              "label": "ACTIVITY",
-              "description": "What the patient was doing at the time of injury. This item helps establish a picture of how the physical or chemical injury occurred.",
-              "dataType": {
-                "id": "fa088dd0-eaf7-4053-b4d7-39a5575d3ee2",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "74c85199-d00d-480c-b9af-d9d0e995c494",
-              "domainType": "DataElement",
-              "label": "ANAT_AREA_CD_5",
-              "description": "Fifth part of the human body (up to 6 parts of the human body can be reported)",
-              "dataType": {
-                "id": "fa088dd0-eaf7-4053-b4d7-39a5575d3ee2",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "993483ab-22d0-42b2-b848-aff7a7d1fd30",
-              "domainType": "DataElement",
-              "label": "INVEST_CD_6",
-              "description": "Sixth investigation type code. Investigation type codes may be requested to assist with diagnosis during and Accident and Emergency Department Attendance. Up to 6 investigation types can be reported.",
-              "dataType": {
-                "id": "fa088dd0-eaf7-4053-b4d7-39a5575d3ee2",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "eb0a6625-e088-4c5a-9d72-48ebce17647c",
-              "domainType": "DataElement",
-              "label": "INVEST_CD_3",
-              "description": "Third investigation type code. Investigation type codes may be requested to assist with diagnosis during and Accident and Emergency Department Attendance. Up to 6 investigation types can be reported.",
-              "dataType": {
-                "id": "fa088dd0-eaf7-4053-b4d7-39a5575d3ee2",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "61644d07-3656-41fe-a10b-44b4d547dd12",
-              "domainType": "DataElement",
-              "label": "ADMIN_END_DT",
-              "description": "This is the date that the patients Accident and Emergency Attendance Ends.",
-              "dataType": {
-                "id": "5597f36f-a5f3-429e-87bb-d5e0f53f413a",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "c41dfa83-5f83-4ec7-9a73-367b5a247e7c",
-              "domainType": "DataElement",
-              "label": "ATTEND_CATEGORY",
-              "description": "Accident and Emergency Attendance Category is an indication of whether a patient is making a first or follow-up attendance at the Accident and Emergency Department.",
-              "dataType": {
-                "id": "fa088dd0-eaf7-4053-b4d7-39a5575d3ee2",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "2a9fdd0b-803b-4f24-8134-5d137063bdbd",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_4",
-              "description": "Fourth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance. Up to 6 diagnosis type codes can be reported.",
-              "dataType": {
-                "id": "fa088dd0-eaf7-4053-b4d7-39a5575d3ee2",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "c5b0ce20-ec56-452c-9d96-1c2a9f3f096a",
-              "domainType": "DataElement",
-              "label": "SIDE_CD_5",
-              "description": "Fifth indication of the side of the human body. Up to 6 sides of the human body can be reported.",
-              "dataType": {
-                "id": "fa088dd0-eaf7-4053-b4d7-39a5575d3ee2",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "0.0.1": "d8b14954-5507-45dc-8bb5-638dda8a121d",
-        "1.0.0": "7ed951dc-6d9f-4c08-a41c-719ec3381503",
-        "latest": "7ed951dc-6d9f-4c08-a41c-719ec3381503"
-      }
     },
     {
       "id": "7f125091-12ba-464d-af7d-9a88179b0b95",
@@ -48776,6 +48379,408 @@
         "2.0.0": "96d29a1d-9566-4793-8dbb-351fbe2eb790",
         "1.0.0": "b5c7e5b2-3922-4b2a-8483-ad0372892024",
         "latest": "96d29a1d-9566-4793-8dbb-351fbe2eb790"
+      }
+    },
+    {
+      "id": "978b24ad-81a1-4046-b74f-d4e4abc4af5b",
+      "domainType": "DataModel",
+      "label": "Covid Vulnerable People's list",
+      "documentationVersion": "2.0.0",
+      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nThe Chief Medical Officer (CMO) for England, working with the CMOs of the devolved nations and other senior clinicians, commissioned NHS Digital to produce a list of people at \u201chigh risk\u201d of complications from COVID-19, who should be shielded for at least 12 weeks. The CMO for Wales commissioned a collaboration of national bodies in Wales (NWIS, DU, NWSSP, PHW) to identify \u201chigh risk\u201d people for the Welsh population, based largely on the NHS Digital methodology. This list is referred to as the Shielded Patient List (SPL). \n\nThe \u201chigh risk\u201d list was defined as a subset of a wider group of people who may be \u201cat risk\u201d. Specific advice applies to these groups, currently this advice is:\n \u2022 \u201cAt Risk\u201d \u2013 large group normally at risk from the flu - should practice strict social distancing \n\u2022 \u201cAt high risk\u201d \u2013 a smaller sub-group (circa 70k), defined by CMO \u2013 should practice complete social \u201cshielding\u201d NHS Digital have described the methodology that has been used to identify patients who meet the high risk criteria due to their inclusion in one or more of the disease groups. \n\nAs there are differences in some of the systems used across the devolved nations, nuanced differences in application and interpretation of CMO guidance, this document describes the Welsh methodology.https://nwis.nhs.wales/coronavirus/coronavirus-content/coronavirus-documents/covid-19-high-risk-shielded-patient-list-identification-methodology/",
+      "editable": false,
+      "lastUpdated": "2020-06-18T17:42:51.931Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-18T17:47:40.23Z",
+      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
+      "keywords": "SAIL, covid, coronavirus, vulnerable",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
+      "jurisdiction": "GB-WLS",
+      "datasetEndDate": "2020-05-12",
+      "datasetStartDate": "2020-05-12",
+      "language": "en",
+      "title": "Covid Vulnerable People's list",
+      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Not Available",
+      "controlledVocabulary": "LOCAL",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "170000",
+      "group": "No Group",
+      "identifier": "CVVP",
+      "creator": "NWIS",
+      "releaseDate": "2020-05-12T00:00:00Z",
+      "format": "SQL database table",
+      "abstract": "List of people notified of vulnerable status and instructed to self-isolate during Covid pandemic.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "People identified vulnerable to C19.  Approx 170000.",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "STATIC",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "All Ages",
+      "accessRights": "https://saildatabank.com/application-process/",
+      "conformsTo": "LOCAL",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 4,
+      "dataClasses": [
+        {
+          "id": "6544e953-3680-4e27-8a1a-0009e4720db0",
+          "domainType": "DataClass",
+          "label": "DF_VULNERABLE_PATIENTS",
+          "description": "Information about the patient's vulnerability",
+          "lastUpdated": "2020-06-18T17:42:52.048Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "dfe45bf8-3483-4db8-855a-218a05753cce",
+              "domainType": "DataElement",
+              "label": "WAVE",
+              "description": "For a given phase, the wave in which the patient was first considered vulnerable.",
+              "dataType": {
+                "id": "00dc37cf-074d-4b03-9756-7c93f12ee590",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "2631781c-64af-4378-809a-0ccf6f9d6de5",
+              "domainType": "DataElement",
+              "label": "LSOA2011_CD",
+              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
+              "dataType": {
+                "id": "00dc37cf-074d-4b03-9756-7c93f12ee590",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "a0aa02a3-b491-4f05-9e28-1ddd5e7d8f9f",
+              "domainType": "DataElement",
+              "label": "DOB",
+              "description": "Date of birthof the patient.",
+              "dataType": {
+                "id": "661b03b8-d75b-4221-8831-3d6b82c9c4fd",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "6aa3f4a9-a447-41df-a238-01704d9f03fb",
+              "domainType": "DataElement",
+              "label": "ALF_E",
+              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
+              "dataType": {
+                "id": "3bc922fc-05cd-4483-a042-82989cc03a78",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "5702eb37-0032-4c54-84ee-fdc2005e68b2",
+              "domainType": "DataElement",
+              "label": "SEX",
+              "description": "Code indicating the sex (gender) of person, employee or patient.",
+              "dataType": {
+                "id": "5e5d502f-9940-4a91-b800-ce4e7a45f723",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "5ee51058-51c8-46fb-822a-af9b6155719e",
+              "domainType": "DataElement",
+              "label": "PHASE",
+              "description": "The phase in which the patient was first considered vulnerable.",
+              "dataType": {
+                "id": "00dc37cf-074d-4b03-9756-7c93f12ee590",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "c25ca09b-3304-4333-8b0a-4171b488a7c8",
+              "domainType": "DataElement",
+              "label": "TO_NWSSP",
+              "description": "Date in which the patient was first considered vulnerable.",
+              "dataType": {
+                "id": "00dc37cf-074d-4b03-9756-7c93f12ee590",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "c82bbba4-1761-47a4-be60-c42e320acb04",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "729c2c2b-6a8a-41c3-ac76-9229464d0c4e",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "6b2806b6-df57-42e3-abb6-c83e5a662ce0",
+              "domainType": "DataElement",
+              "label": "ALF_STS_CD",
+              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
+              "dataType": {
+                "id": "e8d7a2da-ca2f-41d8-9e78-81c9311420e6",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "9474dac4-0d9c-4cfd-ab95-f4a10b6f2272",
+              "domainType": "DataElement",
+              "label": "VULNERABLE_CAT",
+              "description": "Category code and description indicating the reason the patient is considered vulnerable.",
+              "dataType": {
+                "id": "00dc37cf-074d-4b03-9756-7c93f12ee590",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        },
+        {
+          "id": "6eda2335-e429-4864-b652-6d9882e81be5",
+          "domainType": "DataClass",
+          "label": "VULNERABLE_PATIENTS",
+          "description": "Information about the patients.",
+          "lastUpdated": "2020-06-18T17:42:52.049Z",
+          "dataElementsCount": 6,
+          "dataElements": [
+            {
+              "id": "a0189fa7-bd4f-4aab-a5d4-723b2ddd9262",
+              "domainType": "DataElement",
+              "label": "LSOA2011_CD",
+              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
+              "dataType": {
+                "id": "00dc37cf-074d-4b03-9756-7c93f12ee590",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "554b0fe3-93b8-4008-ae18-07747c429932",
+              "domainType": "DataElement",
+              "label": "ALF_STS_CD",
+              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
+              "dataType": {
+                "id": "e8d7a2da-ca2f-41d8-9e78-81c9311420e6",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "a41536dd-83b6-4d51-8b29-ca56cd3f4ab8",
+              "domainType": "DataElement",
+              "label": "SEX",
+              "description": "Code indicating the sex (gender) of person, employee or patient.",
+              "dataType": {
+                "id": "5e5d502f-9940-4a91-b800-ce4e7a45f723",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "4a39e7d2-5fe4-4a65-9f9e-904cdbe5b492",
+              "domainType": "DataElement",
+              "label": "DOB",
+              "description": "Date of birthof the patient.",
+              "dataType": {
+                "id": "661b03b8-d75b-4221-8831-3d6b82c9c4fd",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "6e845efe-be18-428c-a62f-ad8973fa3bfe",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "729c2c2b-6a8a-41c3-ac76-9229464d0c4e",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "502de61f-f454-4326-a294-ee8761b301b9",
+              "domainType": "DataElement",
+              "label": "ALF_E",
+              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
+              "dataType": {
+                "id": "3bc922fc-05cd-4483-a042-82989cc03a78",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ae0e121f-cb4f-4949-8612-062cfb8ce95e",
+          "domainType": "DataClass",
+          "label": "VULNERABLE_PATIENTS_20200429",
+          "description": "Information about the patients.",
+          "lastUpdated": "2020-06-18T17:42:52.051Z",
+          "dataElementsCount": 6,
+          "dataElements": [
+            {
+              "id": "268c8d19-e63d-4f8c-b027-189e62c4685c",
+              "domainType": "DataElement",
+              "label": "DOB",
+              "description": "Date of birthof the patient.",
+              "dataType": {
+                "id": "661b03b8-d75b-4221-8831-3d6b82c9c4fd",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "8f0eb0cf-b79e-495a-9391-fb49799a0ba9",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "729c2c2b-6a8a-41c3-ac76-9229464d0c4e",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "8def9da4-87c7-45a8-b670-7eee1307b014",
+              "domainType": "DataElement",
+              "label": "LSOA2011_CD",
+              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
+              "dataType": {
+                "id": "00dc37cf-074d-4b03-9756-7c93f12ee590",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "e4561a69-0f01-4186-ae97-808f3f8575f3",
+              "domainType": "DataElement",
+              "label": "SEX",
+              "description": "Code indicating the sex (gender) of person, employee or patient.",
+              "dataType": {
+                "id": "5e5d502f-9940-4a91-b800-ce4e7a45f723",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "bcb7f7bc-9dc9-4b40-928a-e2b112338a71",
+              "domainType": "DataElement",
+              "label": "ALF_E",
+              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
+              "dataType": {
+                "id": "3bc922fc-05cd-4483-a042-82989cc03a78",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "323dea98-836b-4dbe-9b8a-cdd8c1fc97ed",
+              "domainType": "DataElement",
+              "label": "ALF_STS_CD",
+              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
+              "dataType": {
+                "id": "e8d7a2da-ca2f-41d8-9e78-81c9311420e6",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2f666182-c9d9-49d7-8b20-8a6e670d5a1c",
+          "domainType": "DataClass",
+          "label": "CVVP_VULNERABLE_PATIENTS",
+          "description": "Information about the patients.",
+          "lastUpdated": "2020-06-18T17:42:52.052Z",
+          "dataElementsCount": 6,
+          "dataElements": [
+            {
+              "id": "73a251bd-ca03-40a5-9067-c37b0bf2d214",
+              "domainType": "DataElement",
+              "label": "ALF_E",
+              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
+              "dataType": {
+                "id": "3bc922fc-05cd-4483-a042-82989cc03a78",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "04203dce-a264-4442-91b7-70f54fbf53e1",
+              "domainType": "DataElement",
+              "label": "ALF_STS_CD",
+              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
+              "dataType": {
+                "id": "e8d7a2da-ca2f-41d8-9e78-81c9311420e6",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "d4705bbc-8ce5-4e65-890c-17809db752ca",
+              "domainType": "DataElement",
+              "label": "DOB",
+              "description": "Date of birthof the patient.",
+              "dataType": {
+                "id": "5e5d502f-9940-4a91-b800-ce4e7a45f723",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "3336f1a4-1fdb-4719-9178-a24687bc94e4",
+              "domainType": "DataElement",
+              "label": "LSOA2011_CD",
+              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
+              "dataType": {
+                "id": "5e5d502f-9940-4a91-b800-ce4e7a45f723",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "cae985da-d607-4479-b0cf-218dfb4b014e",
+              "domainType": "DataElement",
+              "label": "SEX",
+              "description": "Code indicating the sex (gender) of person, employee or patient.",
+              "dataType": {
+                "id": "e8d7a2da-ca2f-41d8-9e78-81c9311420e6",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "f5b9bd4d-e1b2-4214-99a4-ecf281ff6929",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "729c2c2b-6a8a-41c3-ac76-9229464d0c4e",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "1.0.0": "61fb7abd-b0d9-4887-b474-57b1f1d0130a",
+        "2.0.0": "978b24ad-81a1-4046-b74f-d4e4abc4af5b",
+        "0.0.1": "ff1632f6-16da-4196-8ce4-ef65d9f92e29",
+        "latest": "978b24ad-81a1-4046-b74f-d4e4abc4af5b"
       }
     },
     {
@@ -60046,14 +60051,14 @@
       "lastUpdated": "2020-01-14T12:10:30.442Z",
       "classifiers": [
         {
-          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
-          "label": "Critical Care",
-          "lastUpdated": "2019-10-24T09:45:59.854Z"
-        },
-        {
           "id": "ef85dd01-09a1-43af-81ef-82e402328572",
           "label": "NIHR HIC Data Models",
           "lastUpdated": "2019-12-17T12:17:55.21Z"
+        },
+        {
+          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
+          "label": "Critical Care",
+          "lastUpdated": "2019-10-24T09:45:59.854Z"
         }
       ],
       "type": "Data Asset",

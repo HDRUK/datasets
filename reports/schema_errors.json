@@ -11585,6 +11585,57 @@
     ]
   },
   {
+    "id": "6ecc2cb0-3b9b-47fc-9c80-78da44f070ef",
+    "publisher": "ALLIANCE > NIHR BIORESOURCE",
+    "title": "Demographic",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'A data access request must be approved by the Data Access Committee (DAC) (for lightweight applications for existing resources) or the independent NIHR BioResource Steering Committee (SC) (everything else). The DAC meets virtually, and should decide within one week. The SC acts as the point of reporting and escalation for the DAC, and meets quarterly.  With requests for Demographics, this should use the lightweight process unless the purpose of accessing data is unclear, or the destination unsafe.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Demographic details are available in order that researchers may check the feasibility of potential new studies.  Some differential privacy constraints are applied, e.g. to turn concrete ages into age bands, in order to reduce the disclosure risk. A cohort discovery tool based on i2b2 https://www.i2b2.org/ has been piloted for the HDR UK Sprint Exemplar in Rare Diseases run in Cambridge in 2019.  This runs under managed access for registered users. The Data Access Application process is described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/ where the registration process will also be described' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Demographic details are available in order that researchers may check the feasibility of potential new studies.  Some differential privacy constraints are applied, e.g. to turn concrete ages into age bands, in order to reduce the disclosure risk. A cohort discovery tool based on i2b2 https://www.i2b2.org/ has been piloted for the HDR UK Sprint Exemplar in Rare Diseases run in Cambridge in 2019.  This runs under managed access for registered users. The Data Access Application process is described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/ where the registration process will also be described' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'All datasets are potentially linkable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'All datasets are potentially linkable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Quarterly releases anticipated, starting January 2020' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "6efbc62f-6ebb-4f18-959b-1ec6fd0cc6fb",
     "publisher": "ALLIANCE > HQIP",
     "title": "Epilepsy 12 - Patient Reported Experience Measure",
@@ -24501,67 +24552,6 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
-      }
-    ]
-  },
-  {
-    "id": "e9b1ef97-ff63-4336-b3f8-2d5c5f5accce",
-    "publisher": "HUBS > GUT REACTION, ALLIANCE > NIHR BIORESOURCE",
-    "title": "Demographic",
-    "schema_error_count": 12,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'A data access request must be approved by the Data Access Committee (DAC) (for lightweight applications for existing resources) or the independent NIHR BioResource Steering Committee (SC) (everything else). The DAC meets virtually, and should decide within one week. The SC acts as the point of reporting and escalation for the DAC, and meets quarterly.  With requests for Demographics, this should use the lightweight process unless the purpose of accessing data is unclear, or the destination unsafe.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Demographic details are available in order that researchers may check the feasibility of potential new studies.  Some differential privacy constraints are applied, e.g. to turn concrete ages into age bands, in order to reduce the disclosure risk. A cohort discovery tool based on i2b2 https://www.i2b2.org/ has been piloted for the HDR UK Sprint Exemplar in Rare Diseases run in Cambridge in 2019.  This runs under managed access for registered users. The Data Access Application process is described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/ where the registration process will also be described' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Demographic details are available in order that researchers may check the feasibility of potential new studies.  Some differential privacy constraints are applied, e.g. to turn concrete ages into age bands, in order to reduce the disclosure risk. A cohort discovery tool based on i2b2 https://www.i2b2.org/ has been piloted for the HDR UK Sprint Exemplar in Rare Diseases run in Cambridge in 2019.  This runs under managed access for registered users. The Data Access Application process is described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/ where the registration process will also be described' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'TBD' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Ethnicity uses NHS ethnic category code https://www.datadictionary.nhs.uk/data_dictionary/attributes/e/end/ethnic_category_code_de.asp' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'TBD' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'TBD' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'All datasets are potentially linkable' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'All datasets are potentially linkable' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Quarterly releases anticipated, starting January 2020' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
