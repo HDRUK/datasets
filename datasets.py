@@ -21,7 +21,11 @@ DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticL
 def request_url(URL):
   """HTTP GET request and load into data_model"""
   r = requests.get(URL)
-  if r.status_code != requests.codes.ok:
+  if r.status_code == requests.codes.unauthorized:
+    return {}
+  elif r.status_code == requests.codes.not_found:
+    return {}
+  elif r.status_code != requests.codes.ok:
     r.raise_for_status()
   return json.loads(r.text)
 
@@ -95,6 +99,39 @@ def get_semantic_links(data_model_id):
     data['latest'] = data_model_id
   return { 'revisions': data }
 
+def fix_dates(revisions):
+  print("Fixing Dates...")
+  from datetime import datetime
+  data = {}
+  last_updated = []
+  date_finalised = []
+  for version, id in revisions.items():
+    URL = DATA_MODELS + "/" + id
+    ret = request_url(URL)
+    if ret.get("lastUpdated", None) is not None:
+      try:
+        lu = datetime.strptime(ret["lastUpdated"], "%Y-%m-%dT%H:%M:%S.%fZ")
+      except ValueError:
+        lu = datetime.strptime(ret["lastUpdated"], "%Y-%m-%dT%H:%M:%SZ")
+    else:
+      lu = None
+    if ret.get("dateFinalised", None) is not None:
+      try:
+        du = datetime.strptime(ret["dateFinalised"], "%Y-%m-%dT%H:%M:%S.%fZ")
+      except ValueError:
+        du = datetime.strptime(ret["dateFinalised"], "%Y-%m-%dT%H:%M:%SZ")
+    else:
+      du = None
+    if lu is not None: last_updated.append(lu)
+    if du is not None: date_finalised.append(du)
+  if len(last_updated) > 0 and len(date_finalised) > 0:
+    data['modified'] = max(last_updated).strftime("%Y-%m-%dT%H:%M:%SZ")
+    data['issued'] = min(date_finalised).strftime("%Y-%m-%dT%H:%M:%SZ")
+  else:
+    data['modified'] = None
+    data['issued'] = None
+  return data
+
 def process_data_models(data_models_list):
   print("Processing Data Models...")
   headers = []
@@ -117,6 +154,10 @@ def process_data_models(data_models_list):
     # Collect SemanticLinks
     semantic_links = get_semantic_links(d['id'])
     row.update(semantic_links)
+
+    # Fix Dates
+    dates = fix_dates(row['revisions'])
+    row.update(dates)
 
     headers.extend(list(row.keys()))
     data_models.append(row)
