@@ -1084,180 +1084,6 @@
       "issued": "2020-01-13T14:58:45Z"
     },
     {
-      "id": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1",
-      "domainType": "DataModel",
-      "label": "Emergency Department Dataset Daily",
-      "documentationVersion": "2.0.0",
-      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nAdministrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
-      "editable": false,
-      "lastUpdated": "2020-06-18T12:47:54.52Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-06-18T12:52:42.267Z",
-      "accessRequestCost": "0 GBP",
-      "keywords": "SAIL, Emergency, A&E",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Other",
-      "jurisdiction": "GB-WLS",
-      "datasetStartDate": "2009-04-01",
-      "language": "en",
-      "title": "Emergency Department Dataset Daily",
-      "linkedDataset": "Linkable to any SAIL linked dataset",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Lyons, R.A., Jones, K.H., John, G. et al. The SAIL databank: linking multiple health and social care datasets. BMC Med Inform Decis Mak 9, 3 (2009). https://doi.org/10.1186/1472-6947-9-3",
-      "controlledVocabulary": "ICD-10",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "750000",
-      "group": "No Group",
-      "identifier": "EDDD",
-      "creator": "NHS Wales Informatics Service (NWIS)",
-      "releaseDate": "2020-06-05T00:00:00Z",
-      "format": "SQL table",
-      "abstract": "Daily version of Emergency Department Dataset.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project. Data within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Emergency department attendances per year",
-      "fileSize": "Will vary significantly depending on linked datasets, release version, variable selection etc",
-      "periodicity": "Daily",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "All Ages",
-      "accessRights": "In Progress",
-      "geographicCoverage": "Wales",
-      "doi": "In Progress",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "a96acab7-bb2a-4516-8ca3-0d750bfbfcd3",
-          "domainType": "DataClass",
-          "label": "EDDS",
-          "description": "All data related to the Emergancy Department Data Set:\nThe Emergency Department Data Set (EDDS) captures attendances at Accident & Emergency departments and Minor Injury Units (MIUs) in Welsh hospitals.\nVelindre NHS Trust does not provide EDDS data as there are no A&E departments or MIUs in the Trust.\nWelsh residents who attended an emergency department in England are not included.\nThe submission is based on administrative end date.\nPlanned follow up patients are included.\nDefinitions that apply to SITREPS may differ from those associated to the EDDS.",
-          "lastUpdated": "2020-06-18T12:47:54.712Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "16239651-2520-4ae8-9634-66199130faa7",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Date when the data made available i.e. date of loading",
-              "dataType": {
-                "id": "07344e4d-7f19-410d-98dd-60273adde5b4",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "9147a6b4-2385-4bb5-af95-ca1025abe6ef",
-              "domainType": "DataElement",
-              "label": "TRIAGE_CAT",
-              "description": "The triage category is assigned to a patient as a result of an initial assessment by medical or nursing staff in an Accident and Emergency Department.",
-              "dataType": {
-                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "96204cf0-8bb2-4593-b996-1962c84ea3dd",
-              "domainType": "DataElement",
-              "label": "SPORT",
-              "description": "The sport in which the patient was participating at the time of injury that led to the Accident and Emergency Department attendance.",
-              "dataType": {
-                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "a96a38c5-f323-4e71-ad82-46a96cbdc02d",
-              "domainType": "DataElement",
-              "label": "AMB_INCID_NO_E",
-              "description": "Encrypted Ambulance Incident Number. When a patient arrives by ambulance, this is the incident number for that journey, allocated by the Ambulance Control.",
-              "dataType": {
-                "id": "7ff190c3-2753-4748-8c9b-463ba4bd8dad",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "a128dfd9-45cf-4ca4-867a-dcd212e83a41",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_5",
-              "description": "Fifth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance. Up to 6 diagnosis type codes can be reported.",
-              "dataType": {
-                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "257fa169-7a0e-4880-98d8-eed9cbd8488d",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_6",
-              "description": "Sixth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance. Up to 6 diagnosis type codes can be reported.",
-              "dataType": {
-                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "d36aef17-cd17-4478-8f8a-66646565c9e2",
-              "domainType": "DataElement",
-              "label": "DISCHARGE",
-              "description": "This records the outcome of the Accident and Emergency Department Attendance.",
-              "dataType": {
-                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "79a17c0e-01cf-49d6-b30f-bb719f720cd5",
-              "domainType": "DataElement",
-              "label": "ADMIN_END_TM",
-              "description": "This is the time that the patients Accident and Emergency Attendance Ends.",
-              "dataType": {
-                "id": "451cb19f-c0ee-4ee0-9a81-8189a2da92be",
-                "domainType": "PrimitiveType",
-                "label": "TIME"
-              }
-            },
-            {
-              "id": "69189c35-f7d4-42b9-aa11-79ec3e9784d0",
-              "domainType": "DataElement",
-              "label": "INVEST_CD_6",
-              "description": "Sixth investigation type code. Investigation type codes may be requested to assist with diagnosis during and Accident and Emergency Department Attendance. Up to 6 investigation types can be reported.",
-              "dataType": {
-                "id": "ec04864f-d3a2-4466-8932-ab502bd78aaf",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "451db623-e181-46ee-a1e9-2aceedb14c98",
-              "domainType": "DataElement",
-              "label": "SITE_CD_OF_TREAT",
-              "description": "Site Code of Treatment (5 character code). The organisation code for the site where the patient will be or is treated.",
-              "dataType": {
-                "id": "963e3c22-c347-4696-a31d-0cb836c41bc6",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "1.0.0": "7ed951dc-6d9f-4c08-a41c-719ec3381503",
-        "2.0.0": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1",
-        "0.0.1": "d8b14954-5507-45dc-8bb5-638dda8a121d",
-        "latest": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1"
-      },
-      "modified": "2020-06-18T12:47:54Z",
-      "issued": "2020-06-10T09:56:20Z"
-    },
-    {
       "id": "0711cc7e-80d5-4781-a1ab-2637ea176ceb",
       "domainType": "DataModel",
       "label": "Millennium Clinical Events",
@@ -56863,180 +56689,6 @@
       "issued": "2020-01-13T14:54:29Z"
     },
     {
-      "id": "a8a6941a-080e-452a-badc-91c40841b4f3",
-      "domainType": "DataModel",
-      "label": "Emergency Department Data Set",
-      "documentationVersion": "2.0.0",
-      "description": "Administrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
-      "editable": false,
-      "lastUpdated": "2020-04-27T08:59:06.244Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-04-27T09:03:19.606Z",
-      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
-      "keywords": "SAIL, A&E, Emergency",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3months.",
-      "jurisdiction": "GB",
-      "datasetStartDate": "2009-04-01",
-      "language": "en",
-      "title": "Emergency Department Data Set",
-      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
-      "physicalSampleAvailability": "Not Available",
-      "controlledVocabulary": "See Conforms To",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "750000",
-      "group": "Not Applicable",
-      "identifier": "EDDS",
-      "creator": "NHS Wales\u2019 Informatics Service (NWIS)",
-      "releaseDate": "2019-09-13T00:00:00Z",
-      "format": "SQL database table",
-      "abstract": "Attendance and clinical information for all Accident and Emergency attendances.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "No",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "A&E attendances. Approx 750,000 attendances per year.",
-      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
-      "periodicity": "Quarterly, March, June, September, December",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "Any Age",
-      "accessRights": "https://saildatabank.com/application-process/",
-      "conformsTo": "http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm",
-      "geographicCoverage": "Wales",
-      "doi": "Not Available",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "c3f75f25-4d12-4585-b492-f4ea2cdc10a0",
-          "domainType": "DataClass",
-          "label": "EDDS",
-          "description": "All data related to the Emergancy Department Data Set:\nThe Emergency Department Data Set (EDDS) captures attendances at Accident & Emergency departments and Minor Injury Units (MIUs) in Welsh hospitals.\nVelindre NHS Trust does not provide EDDS data as there are no A&E departments or MIUs in the Trust.\nWelsh residents who attended an emergency department in England are not included.\nThe submission is based on administrative end date.\nPlanned follow up patients are included.\nDefinitions that apply to SITREPS may differ from those associated to the EDDS.",
-          "lastUpdated": "2020-04-27T08:59:06.285Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "465fd3dc-6b6c-4801-9dc1-793ed6dd8478",
-              "domainType": "DataElement",
-              "label": "ANAT_AREA_CD_4",
-              "description": "Fourth part of the human body (up to 6 parts of the human body can be reported)",
-              "dataType": {
-                "id": "7b65ffa4-3e80-49c8-9ec0-d7c7dfa848ae",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "fda1ad42-34f6-4609-bff0-49c01486ac4c",
-              "domainType": "DataElement",
-              "label": "DISCHARGE",
-              "description": "This records the outcome of the Accident and Emergency Department Attendance.",
-              "dataType": {
-                "id": "7b65ffa4-3e80-49c8-9ec0-d7c7dfa848ae",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "23118755-95fc-4a55-818c-ee2328fa267d",
-              "domainType": "DataElement",
-              "label": "PRAC_CD_E",
-              "description": "The encrypted GP practice code where the appointment occured.",
-              "dataType": {
-                "id": "2cfd874b-ffdb-4109-9043-296fc73f963a",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "36d7b55d-ed28-45dc-a4ca-56f67203dabf",
-              "domainType": "DataElement",
-              "label": "DIAG_CD_6",
-              "description": "Sixth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance. Up to 6 diagnosis type codes can be reported.",
-              "dataType": {
-                "id": "7b65ffa4-3e80-49c8-9ec0-d7c7dfa848ae",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "979bebb3-756a-4134-87f3-d6d2d5e1448c",
-              "domainType": "DataElement",
-              "label": "ATTEND_GROUP",
-              "description": "A general reason for an Accident and Emergency Department Attendance.",
-              "dataType": {
-                "id": "7b65ffa4-3e80-49c8-9ec0-d7c7dfa848ae",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "d93b7f38-2564-434b-8d35-304a9b15923d",
-              "domainType": "DataElement",
-              "label": "TRIAGE_CAT",
-              "description": "The triage category is assigned to a patient as a result of an initial assessment by medical or nursing staff in an Accident and Emergency Department.",
-              "dataType": {
-                "id": "7b65ffa4-3e80-49c8-9ec0-d7c7dfa848ae",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "a263e371-2213-45d6-9022-4362c6b37a2d",
-              "domainType": "DataElement",
-              "label": "ANAT_AREA_CD_6",
-              "description": "Sixth part of the human body (up to 6 parts of the human body can be reported)",
-              "dataType": {
-                "id": "7b65ffa4-3e80-49c8-9ec0-d7c7dfa848ae",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "6d17a4dd-f2ad-493b-b808-6700a01ea3bd",
-              "domainType": "DataElement",
-              "label": "ALCOHOL_IND",
-              "description": "In the clinical opinion of the Emergency Department, has the presence of alcohol in the presenting patient contributed to this attendance?",
-              "dataType": {
-                "id": "7b65ffa4-3e80-49c8-9ec0-d7c7dfa848ae",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "7c76796b-84f3-4b2c-9914-b57a0d69f9ea",
-              "domainType": "DataElement",
-              "label": "TREAT_CD_3",
-              "description": "Third indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance. Up to 6 types of treatment or guidance can be reported.",
-              "dataType": {
-                "id": "7b65ffa4-3e80-49c8-9ec0-d7c7dfa848ae",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "59b051f9-8fdc-4a62-a7af-113adeb42283",
-              "domainType": "DataElement",
-              "label": "TREAT_CD_5",
-              "description": "Fifth indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance. Up to 6 types of treatment or guidance can be reported.",
-              "dataType": {
-                "id": "7b65ffa4-3e80-49c8-9ec0-d7c7dfa848ae",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "0.0.1": "f977b86e-7602-41f8-9835-fbcb399558af",
-        "2.0.0": "a8a6941a-080e-452a-badc-91c40841b4f3",
-        "1.0.0": "e38ad63f-5eef-4a12-aa4e-f095cca89714",
-        "latest": "a8a6941a-080e-452a-badc-91c40841b4f3"
-      },
-      "modified": "2020-04-27T08:59:06Z",
-      "issued": "2020-01-13T14:47:29Z"
-    },
-    {
       "id": "aa019da2-0f2f-493c-95e8-7263ee735f46",
       "domainType": "DataModel",
       "label": "Mental Health Minimum Dataset v3_3.5 (Non-Sensitive)",
@@ -73816,6 +73468,182 @@
       "issued": "2020-01-13T14:55:22Z"
     },
     {
+      "id": "e3ad1af1-ff22-4393-89bb-bed7545c59ac",
+      "domainType": "DataModel",
+      "label": "Emergency Department Data Set",
+      "documentationVersion": "3.0.0",
+      "description": "Administrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
+      "editable": false,
+      "lastUpdated": "2020-06-25T11:24:46.715Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-25T11:29:39.177Z",
+      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
+      "keywords": "SAIL, A&E, Emergency",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
+      "jurisdiction": "GB",
+      "datasetEndDate": "2020-05-28",
+      "datasetStartDate": "2009-04-01",
+      "language": "en",
+      "title": "Emergency Department Data Set",
+      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
+      "physicalSampleAvailability": "Not Available",
+      "controlledVocabulary": "LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "750000",
+      "group": "No Group",
+      "identifier": "EDDS",
+      "creator": "NHS Wales\u2019 Informatics Service (NWIS)",
+      "releaseDate": "2019-09-13T00:00:00Z",
+      "format": "SQL database table",
+      "abstract": "Attendance and clinical information for all Accident and Emergency attendances.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "A&E attendances. Approx 750,000 attendances per year.",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "Quarterly, March, June, September, December",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "Any Age",
+      "accessRights": "https://saildatabank.com/application-process/",
+      "conformsTo": "LOCAL",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "187b1321-ceb6-41d5-95bd-19807b0096ad",
+          "domainType": "DataClass",
+          "label": "EDDS",
+          "description": "All data related to the Emergancy Department Data Set:\nThe Emergency Department Data Set (EDDS) captures attendances at Accident & Emergency departments and Minor Injury Units (MIUs) in Welsh hospitals.\nVelindre NHS Trust does not provide EDDS data as there are no A&E departments or MIUs in the Trust.\nWelsh residents who attended an emergency department in England are not included.\nThe submission is based on administrative end date.\nPlanned follow up patients are included.\nDefinitions that apply to SITREPS may differ from those associated to the EDDS.",
+          "lastUpdated": "2020-06-25T11:24:46.9Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "e295af7c-8f6c-4ad0-8a02-ab4a7209ce1e",
+              "domainType": "DataElement",
+              "label": "ANAT_AREA_CD_5",
+              "description": "Fifth part of the human body.\n\nNotes:\n- Up to 6 parts of the human body can be reported in this section of the data set.\n- Where a physical injury has taken place, 'Diagnosis Type' and 'Anatomical Area' should have a 1-1 relationship e.g. Abrasion \u2013 Hand. .\n- Where multiple body parts have been affected the value '501' should be used.\n- Anatomical area also has a 1-1 relationship with Anatomical side.",
+              "dataType": {
+                "id": "9a137719-acc9-41f3-93b3-dca8f2327e39",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "086cfd20-9801-41a0-b854-ac74d836c39f",
+              "domainType": "DataElement",
+              "label": "SITE_CD_OF_TREAT",
+              "description": "Site Code of Treatment (5 character code). The organisation code for the site where the patient will be or is treated.",
+              "dataType": {
+                "id": "0fff4c1b-7a74-460e-b549-1ca756933473",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "c73eff3d-b2bd-4407-bfac-648e70fe4c72",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_4",
+              "description": "Fourth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance.\n\nNotes:\n- At least one Diagnosis Type must be reported\n- Up to 6 diagnosis types can be reported in this section of the Data Set\n- Where a physical injury has taken place; 'Diagnosis Type' and 'Anatomical Area' should have a 1-1 relationship e.g. Abrasion \u2013 Hand.\n- For medical conditions where anatomical area is not relevant only a diagnosis type should be recorded.\n- When analysing diagnosis types ALL entries should be considered",
+              "dataType": {
+                "id": "9a137719-acc9-41f3-93b3-dca8f2327e39",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "c2b441d5-4ba3-45da-a823-84c9b64f3b04",
+              "domainType": "DataElement",
+              "label": "ADD_DETAILS",
+              "description": "Additional Incident details. A record of any additional details of the incident that led to the Accident & Emergency Department Attendance that cannot be recorded elsewhere within the dataset.\n\nNote: This field allows for any supplementary information supporting either the injury or illness causing the patient to attend the Accident & Emergency Department, or any other details pertaining to the patient's treatment, to be recorded; this includes details relating to the location where the incident occurred specifically, Road, Vehicle collision or Assault incidents.",
+              "dataType": {
+                "id": "306863e6-ae48-4798-8659-a5b3a4e86be0",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "6e85f59b-efd6-45be-b90b-762769ed1998",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_5",
+              "description": "Fifth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance.\n\nNotes:\n- At least one Diagnosis Type must be reported\n- Up to 6 diagnosis types can be reported in this section of the Data Set\n- Where a physical injury has taken place; 'Diagnosis Type' and 'Anatomical Area' should have a 1-1 relationship e.g. Abrasion \u2013 Hand.\n- For medical conditions where anatomical area is not relevant only a diagnosis type should be recorded.\n- When analysing diagnosis types ALL entries should be considered",
+              "dataType": {
+                "id": "9a137719-acc9-41f3-93b3-dca8f2327e39",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "2122da9f-bbfb-4465-974d-f05b2636e1fa",
+              "domainType": "DataElement",
+              "label": "SIDE_CD_2",
+              "description": "Second indication of the side of the human body. Up to 6 sides of the human body can be reported.\n\nNote: Anatomical Area has a 1-1 relationship with Anatomical Side, so that 'Anatomical Side 1' directly relates to the body part reported in 'Anatomical Area 1' e.g. Left Hand.",
+              "dataType": {
+                "id": "9a137719-acc9-41f3-93b3-dca8f2327e39",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "58605704-6398-43d2-82b7-1de4b0344d8a",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_2",
+              "description": "Second diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance.\n\nNotes:\n- At least one Diagnosis Type must be reported\n- Up to 6 diagnosis types can be reported in this section of the Data Set\n- Where a physical injury has taken place; 'Diagnosis Type' and 'Anatomical Area' should have a 1-1 relationship e.g. Abrasion \u2013 Hand.\n- For medical conditions where anatomical area is not relevant only a diagnosis type should be recorded.\n- When analysing diagnosis types ALL entries should be considered",
+              "dataType": {
+                "id": "9a137719-acc9-41f3-93b3-dca8f2327e39",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "d2db1f03-937b-44df-b396-f1d0b4610729",
+              "domainType": "DataElement",
+              "label": "PROV_SITE_CD",
+              "description": "Provider Site Code (5 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.\n\nNotes:\n\n1.  Healthcare providers may also act as commissioners when sub-contracting patient care services to other providers of health care.\n\n2.  Although the healthcare provider identified in this data item is responsible for managing the patient\u2019s treatment, it may not necessarily be where the treatment is actually conducted. For example, where the treatment has been sub-contracted to another healthcare provider.\n\n3.  For OPRD (outpatient referral dataset), the Organisation Code (Code of Provider) is that of the organisation receiving the referral. If the provider is a Local Health Board/Trust, use the 3 character Local Health Board/Trust code with 2 zeros placed in the 4th and 5th character position.\n\n4.  For RTTD (Referral to Treatment Times (Combined)), use the 3 character Local Health Board/Trust code.",
+              "dataType": {
+                "id": "0fff4c1b-7a74-460e-b549-1ca756933473",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "600deb66-8e43-4520-ab49-df3aea3188a9",
+              "domainType": "DataElement",
+              "label": "ADMIN_END_DT",
+              "description": "Administrative End Date. This is the date that the patients Accident and Emergency Attendance Ends. \n\nAccident and Emergency Attendance Administrative End Date is when one of the following criteria is met;\n-  The patient leaves the Accident and Emergency Department to continue their treatment elsewhere, wherever this might be, this is the point of clinical handover;\n-  The patient is discharged and is medically fit to leave the department;\n-  The patient self discharges;\n-  The patient dies.",
+              "dataType": {
+                "id": "1499bb73-5dd6-4b18-873d-af733450128c",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "ae4b532b-66db-4973-bba4-dcbd7000be56",
+              "domainType": "DataElement",
+              "label": "PRESENTING_COMPLAINT",
+              "description": "This is the presenting complaint with which the patient attended the Accident and Emergency Department.",
+              "dataType": {
+                "id": "306863e6-ae48-4798-8659-a5b3a4e86be0",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "0.0.1": "f977b86e-7602-41f8-9835-fbcb399558af",
+        "3.0.0": "e3ad1af1-ff22-4393-89bb-bed7545c59ac",
+        "2.0.0": "a8a6941a-080e-452a-badc-91c40841b4f3",
+        "1.0.0": "e38ad63f-5eef-4a12-aa4e-f095cca89714",
+        "latest": "e3ad1af1-ff22-4393-89bb-bed7545c59ac"
+      },
+      "modified": "2020-06-25T11:24:46Z",
+      "issued": "2020-01-13T14:47:29Z"
+    },
+    {
       "id": "e3c2d5ff-e08b-4fc9-a874-19123fab7183",
       "domainType": "DataModel",
       "label": "Chronic Medication",
@@ -77123,6 +76951,183 @@
       },
       "modified": "2020-04-27T09:18:22Z",
       "issued": "2020-01-10T18:12:18Z"
+    },
+    {
+      "id": "efb03936-6904-44fc-9d73-c6794206a6db",
+      "domainType": "DataModel",
+      "label": "Emergency Department Dataset Daily",
+      "documentationVersion": "3.0.0",
+      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nAdministrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
+      "editable": false,
+      "lastUpdated": "2020-06-25T11:25:40.164Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-25T11:30:32.809Z",
+      "accessRequestCost": "0 GBP",
+      "keywords": "SAIL, Emergency, A&E",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Other",
+      "jurisdiction": "GB-WLS",
+      "datasetEndDate": "2020-05-28",
+      "datasetStartDate": "2009-04-01",
+      "language": "en",
+      "title": "Emergency Department Dataset Daily",
+      "linkedDataset": "Linkable to any SAIL linked dataset",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Lyons, R.A., Jones, K.H., John, G. et al. The SAIL databank: linking multiple health and social care datasets. BMC Med Inform Decis Mak 9, 3 (2009). https://doi.org/10.1186/1472-6947-9-3",
+      "controlledVocabulary": "LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "750000",
+      "group": "No Group",
+      "identifier": "EDDD",
+      "creator": "NHS Wales Informatics Service (NWIS)",
+      "releaseDate": "2020-06-05T00:00:00Z",
+      "format": "SQL table",
+      "abstract": "Daily version of Emergency Department Dataset.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project. Data within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Emergency department attendances per year",
+      "fileSize": "Will vary significantly depending on linked datasets, release version, variable selection etc",
+      "periodicity": "Daily",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "All Ages",
+      "accessRights": "In Progress",
+      "conformsTo": "LOCAL",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "90141c1e-f25b-4ef1-9a4f-8dba3930be3a",
+          "domainType": "DataClass",
+          "label": "EDDS",
+          "description": "All data related to the Emergancy Department Data Set:\nThe Emergency Department Data Set (EDDS) captures attendances at Accident & Emergency departments and Minor Injury Units (MIUs) in Welsh hospitals.\nVelindre NHS Trust does not provide EDDS data as there are no A&E departments or MIUs in the Trust.\nWelsh residents who attended an emergency department in England are not included.\nThe submission is based on administrative end date.\nPlanned follow up patients are included.\nDefinitions that apply to SITREPS may differ from those associated to the EDDS.",
+          "lastUpdated": "2020-06-25T11:25:40.522Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "ec9c3e46-6399-4861-b094-58e7f1cbaa1c",
+              "domainType": "DataElement",
+              "label": "ALCOHOL_IND",
+              "description": "Alcohol Indicator. In the clinical opinion of the Emergency Department, has the presence of alcohol in the presenting patient contributed to this attendance?\n\nNote: this question only needs to be answered for New Attendances and Unplanned Follow-ups. For Follow-up patients, value \u201804 \u2013 Not Applicable\u2019 should be recorded in this field.",
+              "dataType": {
+                "id": "82a854df-b9ea-4d88-93fa-da91c4e8f523",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "45064754-33f8-48f5-b261-61241adbce6f",
+              "domainType": "DataElement",
+              "label": "ATTEND_CATEGORY",
+              "description": "Accident and Emergency Attendance Category is an indication of whether a patient is making a first or follow-up attendance at the Accident and Emergency Department.\n\nNote - possible values\n- New Attendance. A new attendance is the first visit made by a patient to the Accident and Emergency Department for a particular injury or ailment. A new attendance can be the first in a series or one single attendance in an Accident and Emergency Department.\n- Planned Follow-up Attendance. A follow-up Accident and Emergency Attendance is a subsequent planned attendance at the same department, and for the same incident as the first attendance. A planned follow-up attendance is agreed or requested by a clinician.\n- Unplanned Follow-up Attendance. A patient returning to the Accident and Emergency Department with a conditional previously treated where they have not been asked to return by the clinician will be counted as an unplanned follow-up attendance.",
+              "dataType": {
+                "id": "82a854df-b9ea-4d88-93fa-da91c4e8f523",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "3db6266d-f7d6-4044-bec5-b92cefc5f599",
+              "domainType": "DataElement",
+              "label": "TREAT_CD_2",
+              "description": "Second indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance.\n\nNotes:\n- The treatment fields do not directly relate to any of the diagnosis fields, but record any treatments that have taken place.\n- Up to 6 treatments can be reported in this section of the Data Set",
+              "dataType": {
+                "id": "82a854df-b9ea-4d88-93fa-da91c4e8f523",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "074ec8ea-1739-4f29-b6f4-d963f01b1eeb",
+              "domainType": "DataElement",
+              "label": "TREAT_CD_4",
+              "description": "Fourth indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance.\n\nNotes:\n- The treatment fields do not directly relate to any of the diagnosis fields, but record any treatments that have taken place.\n- Up to 6 treatments can be reported in this section of the Data Set",
+              "dataType": {
+                "id": "82a854df-b9ea-4d88-93fa-da91c4e8f523",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "11ac3f65-a4d7-458d-8203-db1449a4e31a",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_2",
+              "description": "Second diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance.\n\nNotes:\n- At least one Diagnosis Type must be reported\n- Up to 6 diagnosis types can be reported in this section of the Data Set\n- Where a physical injury has taken place; 'Diagnosis Type' and 'Anatomical Area' should have a 1-1 relationship e.g. Abrasion \u2013 Hand.\n- For medical conditions where anatomical area is not relevant only a diagnosis type should be recorded.\n- When analysing diagnosis types ALL entries should be considered",
+              "dataType": {
+                "id": "82a854df-b9ea-4d88-93fa-da91c4e8f523",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "66201978-6ee7-4a56-a4c8-6b7bf1640825",
+              "domainType": "DataElement",
+              "label": "TREAT_CD_1",
+              "description": "First indication of the type of treatment or guidance which may be provided to a patient as a result of an Accident and Emergency Attendance.\n\nNotes:\n- The treatment fields do not directly relate to any of the diagnosis fields, but record any treatments that have taken place.\n- Up to 6 treatments can be reported in this section of the Data Set",
+              "dataType": {
+                "id": "82a854df-b9ea-4d88-93fa-da91c4e8f523",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "98c5fb4b-ca80-42d5-ba09-7e192860db81",
+              "domainType": "DataElement",
+              "label": "ADMIN_END_TM",
+              "description": "Administrative End Time. This is the time that the patients Accident and Emergency Attendance Ends.\n\nAdministrative End Time is when one of the following criteria is met;\n-  The patient leaves the Accident and Emergency Department to continue their treatment elsewhere, wherever that might be, this is the point of clinical handover;\n-  The patient is discharged and is medically fit to leave the department;\n-  The patient self discharges;\n-  The patient dies.",
+              "dataType": {
+                "id": "ab927d27-f0cf-4763-a282-925597278bd7",
+                "domainType": "PrimitiveType",
+                "label": "TIME"
+              }
+            },
+            {
+              "id": "35c77f9e-2d14-471e-abf4-787bc01e67e1",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_4",
+              "description": "Fourth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance.\n\nNotes:\n- At least one Diagnosis Type must be reported\n- Up to 6 diagnosis types can be reported in this section of the Data Set\n- Where a physical injury has taken place; 'Diagnosis Type' and 'Anatomical Area' should have a 1-1 relationship e.g. Abrasion \u2013 Hand.\n- For medical conditions where anatomical area is not relevant only a diagnosis type should be recorded.\n- When analysing diagnosis types ALL entries should be considered",
+              "dataType": {
+                "id": "82a854df-b9ea-4d88-93fa-da91c4e8f523",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "514e210e-6e4b-4f49-8783-ebf3981b24e2",
+              "domainType": "DataElement",
+              "label": "DIAG_CD_6",
+              "description": "Sixth diagnosis type code, which may have beeen identified during an Accident and Emergency Department Attendance.\n\nNotes:\n- At least one Diagnosis Type must be reported\n- Up to 6 diagnosis types can be reported in this section of the Data Set\n- Where a physical injury has taken place; 'Diagnosis Type' and 'Anatomical Area' should have a 1-1 relationship e.g. Abrasion \u2013 Hand.\n- For medical conditions where anatomical area is not relevant only a diagnosis type should be recorded.\n- When analysing diagnosis types ALL entries should be considered",
+              "dataType": {
+                "id": "82a854df-b9ea-4d88-93fa-da91c4e8f523",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "a8126179-8daf-4234-a50d-0001796e8831",
+              "domainType": "DataElement",
+              "label": "PROV_SITE_CD",
+              "description": "Provider Site Code (5 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.\n\nNotes:\n\n1.  Healthcare providers may also act as commissioners when sub-contracting patient care services to other providers of health care.\n\n2.  Although the healthcare provider identified in this data item is responsible for managing the patient\u2019s treatment, it may not necessarily be where the treatment is actually conducted. For example, where the treatment has been sub-contracted to another healthcare provider.\n\n3.  For OPRD (outpatient referral dataset), the Organisation Code (Code of Provider) is that of the organisation receiving the referral. If the provider is a Local Health Board/Trust, use the 3 character Local Health Board/Trust code with 2 zeros placed in the 4th and 5th character position.\n\n4.  For RTTD (Referral to Treatment Times (Combined)), use the 3 character Local Health Board/Trust code.",
+              "dataType": {
+                "id": "55476512-1c5a-422a-9e3c-b0bfec21f8cc",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "2.0.0": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1",
+        "3.0.0": "efb03936-6904-44fc-9d73-c6794206a6db",
+        "1.0.0": "7ed951dc-6d9f-4c08-a41c-719ec3381503",
+        "0.0.1": "d8b14954-5507-45dc-8bb5-638dda8a121d",
+        "latest": "efb03936-6904-44fc-9d73-c6794206a6db"
+      },
+      "modified": "2020-06-25T11:25:40Z",
+      "issued": "2020-06-10T09:56:20Z"
     },
     {
       "id": "efbb3bf4-834b-417e-b002-03fc41715e58",
