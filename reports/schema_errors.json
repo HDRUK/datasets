@@ -749,40 +749,6 @@
     ]
   },
   {
-    "id": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Emergency Department Dataset Daily",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD-10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD-10' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkable to any SAIL linked dataset' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkable to any SAIL linked dataset' is not one of ['Not Known', 'Not Available']"
-      }
-    ]
-  },
-  {
     "id": "0711cc7e-80d5-4781-a1ab-2637ea176ceb",
     "publisher": "Oxford University Hospitals NHS Foundation Trust",
     "title": "Millennium Clinical Events",
@@ -18666,58 +18632,6 @@
     ]
   },
   {
-    "id": "a8a6941a-080e-452a-badc-91c40841b4f3",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Emergency Department Data Set",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'See Conforms To' is not valid under any of the given schemas",
-        "suberrors": "    type: 'See Conforms To' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'No' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'No' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not Available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Quarterly, March, June, September, December' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "aa019da2-0f2f-493c-95e8-7263ee735f46",
     "publisher": "NHS Digital",
     "title": "Mental Health Minimum Dataset v3_3.5 (Non-Sensitive)",
@@ -24202,6 +24116,44 @@
     ]
   },
   {
+    "id": "e3ad1af1-ff22-4393-89bb-bed7545c59ac",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Emergency Department Data Set",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Quarterly, March, June, September, December' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "e3c2d5ff-e08b-4fc9-a874-19123fab7183",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "Chronic Medication",
@@ -25151,6 +25103,36 @@
         "attribute": "linkedDataset",
         "message": "linkedDataset: 'Hospital care (Accident and Emergency; Inpatient; Outpatient; Imaging)\\nDeath registry\\nCancer registry and treatment\\nMental health services\\nSocio-economic measures' is not valid under any of the given schemas",
         "suberrors": "    enum: 'Hospital care (Accident and Emergency; Inpatient; Outpatient; Imaging)\\nDeath registry\\nCancer registry and treatment\\nMental health services\\nSocio-economic measures' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
+    "id": "efb03936-6904-44fc-9d73-c6794206a6db",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Emergency Department Dataset Daily",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable to any SAIL linked dataset' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable to any SAIL linked dataset' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
