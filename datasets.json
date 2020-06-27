@@ -5028,6 +5028,181 @@
       "issued": "2020-01-13T14:55:21Z"
     },
     {
+      "id": "12d06bda-1e60-441f-85a4-92cd29779b41",
+      "domainType": "DataModel",
+      "label": "Annual District Birth Extract",
+      "documentationVersion": "3.0.0",
+      "description": "Office for National Statistics (ONS) register of all births in Wales.\n\nThe data are collected from birth registrations.",
+      "editable": false,
+      "lastUpdated": "2020-06-26T12:50:32.798Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-06-26T12:55:25.467Z",
+      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
+      "keywords": "SAIL, Birth",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
+      "jurisdiction": "GB",
+      "datasetEndDate": "2020-04-24",
+      "datasetStartDate": "1996-01-01",
+      "language": "en",
+      "title": "Annual District Birth Extract",
+      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Schl\u00fcter et al., (2019); Impact of cystic fibrosis on birthweight: a population based study of children in Denmark and Wales. \nhttp://dx.doi.org/10.1136/thoraxjnl-2018-211706",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "785000",
+      "group": "No Group",
+      "identifier": "ADBE",
+      "creator": "NHS Wales Informatics Service (NWIS)",
+      "releaseDate": "2019-04-02T00:00:00Z",
+      "format": "SQL database table",
+      "abstract": "Register of all births in Wales.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Births in wales. Approx. 35,000 births per year.",
+      "fileSize": "Will vary significantly depending on linked datasets, release version, variable selection etc",
+      "periodicity": "Annually, March",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "0-4",
+      "accessRights": "https://saildatabank.com/application-process/",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "c973d657-0090-4aac-b247-04baa7c99419",
+          "domainType": "DataClass",
+          "label": "BIRTHS",
+          "description": "The Office for National Statistics (ONS) Annual District Birth Extract (ADBE) is a register of all births relating to Welsh residents, including those born out of Wales and subsequently registered in Wales. Birth statistics are derived from information recorded when live births and stillbirths are registered as part of civil registration, a legal requirement; these data represent the most complete data source available. The registration of births is a service carried out by the Local Registration Service in partnership with the General Register Office (GRO) in England and Wales. ONS produces five birth statistical releases between July and November each year. These releases include statistics about births that occurred during the previous year. This is all data related to the ONS Annual District Birth Extract. The registration of life events (births, deaths, marriages and civil partnerships) is a service carried out by the Local Registration Service in partnership with the General Register Office (GRO) in Southport, England. The provision of life events data by GRO is formally defined by a service level agreement between GRO and ONS",
+          "lastUpdated": "2020-06-26T12:50:32.976Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "20daf00a-af8c-4467-a972-da6b93ddf5d0",
+              "domainType": "DataElement",
+              "label": "BIRTH_MARRIAGE_IND_CD",
+              "description": "Marital/civil partnership status of parents and Registration type. This field is derived based on whether marriage/civil partnership details are recorded at birth registration and from 1986 onwards whether the addresses of the mother and father/second parent are the same.  To determine whether a birth registration outside of marriage prior to 1986 is a joint registration or a sole registration you need to look to see whether father\u2019s details are recorded on the birth registration. Prior to 1986 it is not possible to determine whether for joint registrations the parents were living at the same address or at different addresses. Marital/civil partnership status of parents and registration type. From 1 September 2009, births could be registered under the Human Fertilisation and Embryology Act 2008 by a same sex female couple (records where the variable PIND [second female parent indicator] = 1), these births could be registered within or outside of a civil partnership/marriage. Marriages of same sex couples could take place in England and Wales from 29 March 2014. NOTE - there are separate indicators to denote multiple or previous marriage/civil partnerships.",
+              "dataType": {
+                "id": "e83ed6dd-2352-45f4-bd5b-a6a96f59d01f",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "9bc3aac6-3d26-44bd-abb0-03ce0ea051ff",
+              "domainType": "DataElement",
+              "label": "STILLBIRTH_DIAG_12_CD",
+              "description": "This field can contain original stillbirth cause of death code according to the 9th or 10th Revision of the International Classification of Disease (ICD-9 or ICD-10) depending upon the year. These fields are only present for stillbirths. ICD-9 is used for 1993-2000 and ICD10 is used for 2001 onwards. These multiple fields contain each cause mentioned on the stillbirth certificate translated into ICD codes. Up to 15 causes can be stored on the dataset, in separate columns. For 1993 to 2000 only 8 original cause of death codes are stored.",
+              "dataType": {
+                "id": "e83ed6dd-2352-45f4-bd5b-a6a96f59d01f",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "03564431-a1cd-4caf-b3fa-8f43c7a1bf99",
+              "domainType": "DataElement",
+              "label": "BIRTHSTATS_CURR_CENSUS_HEALTH_ORG_PREV_CD",
+              "description": "Description to follow",
+              "dataType": {
+                "id": "742cc183-9666-4937-bff5-c5abaf485250",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "a8d15405-2c94-4908-a769-13545a3b2781",
+              "domainType": "DataElement",
+              "label": "STILLBIRTH_CAUSE_7_CD",
+              "description": "This field can contain original stillbirth cause of death code according to the 9th or 10th Revision of the International Classification of Disease (ICD-9 or ICD-10) depending upon the year. These fields are only present for stillbirths. ICD-9 is used for 1993-2000 and ICD10 is used for 2001 onwards. These multiple fields contain each cause mentioned on the stillbirth certificate translated into ICD codes. Up to 15 causes can be stored on the dataset, in separate columns. For 1993 to 2000 only 8 original cause of death codes are stored.",
+              "dataType": {
+                "id": "e83ed6dd-2352-45f4-bd5b-a6a96f59d01f",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "3a0ad429-ab11-4dd3-8a59-7303291d4859",
+              "domainType": "DataElement",
+              "label": "BIRTH_REG_DT_VALID",
+              "description": "Description to follow",
+              "dataType": {
+                "id": "e83ed6dd-2352-45f4-bd5b-a6a96f59d01f",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "f1cc15e3-29b3-4b92-9df6-7c014341c7e7",
+              "domainType": "DataElement",
+              "label": "STILLBIRTH_DIAG_15_CD",
+              "description": "This field can contain original stillbirth cause of death code according to the 9th or 10th Revision of the International Classification of Disease (ICD-9 or ICD-10) depending upon the year. These fields are only present for stillbirths. ICD-9 is used for 1993-2000 and ICD10 is used for 2001 onwards. These multiple fields contain each cause mentioned on the stillbirth certificate translated into ICD codes. Up to 15 causes can be stored on the dataset, in separate columns. For 1993 to 2000 only 8 original cause of death codes are stored.",
+              "dataType": {
+                "id": "e83ed6dd-2352-45f4-bd5b-a6a96f59d01f",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "77bbdf97-c704-43a2-ab78-545d815795b3",
+              "domainType": "DataElement",
+              "label": "MOTHERSTATS_CURR_CENSUS_COUNTRY_CD",
+              "description": "Country code in which the mother is resident, based on the current census. For 2007 onwards, the National Statistics Country Classification [NSCC] has been used to code country of birth. The classification is available online via NSCC. For dates 1982-2006, country of birth code lists for this period is provided in separate excel file.",
+              "dataType": {
+                "id": "e83ed6dd-2352-45f4-bd5b-a6a96f59d01f",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "372c465b-e7c6-4ec5-ad5c-9ae82f27bf35",
+              "domainType": "DataElement",
+              "label": "MOTHER_POSTCODE_IMPUTATION_IND_CD",
+              "description": "No postcode is present when mother\u2019s area of usual residence is outside of the UK. Where the mother\u2019s usual residence is within England and Wales and the postcode is not present or is considered invalid, a postcode will be imputed (PCDIND = 1). The indicator is set to 1 automatically if a valid postcode is not present when data are received. This field is blank if the postcode has otherwise not been imputed. Data present throughout except 1998.",
+              "dataType": {
+                "id": "e83ed6dd-2352-45f4-bd5b-a6a96f59d01f",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "987eb9d1-beab-430c-8b7a-c06c4e8c8e4c",
+              "domainType": "DataElement",
+              "label": "MOTHERSTATS_PREV_CENSUS_LA_PREV_CD",
+              "description": "Description to follow",
+              "dataType": {
+                "id": "742cc183-9666-4937-bff5-c5abaf485250",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "426fb93e-7d20-4908-b8c5-8bc2aa170f89",
+              "domainType": "DataElement",
+              "label": "MOTHER_OCC_CLASS_CD",
+              "description": "Occupation code of mother. For 2001 onwards, Standard Occupational Classification [SOC] codes apply. For 1986-2000 use OCC90M codes. For 1982-1985 use OCC codes. 1986-1990 values are coded to Classification of occupations 1980. For further information on all codes, see ONS website. Only 10% of live births have occupation of mother and father coded, while 100% of stillbirths have occupation coded for both the mother and father where present. ALL codes are coded automatically where possible from details held in the occupation text field and the industry text field recorded at birth registration. Records which cannot be automatically coded are manually coded instead.",
+              "dataType": {
+                "id": "e83ed6dd-2352-45f4-bd5b-a6a96f59d01f",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "1.0.0": "e2c66076-9a12-426c-9d55-692c5f88dc23",
+        "3.0.0": "12d06bda-1e60-441f-85a4-92cd29779b41",
+        "0.0.1": "91abbc97-33ab-438c-9beb-92147615c605",
+        "2.0.0": "9366bf21-4862-4f86-bb2d-8370b1f6dfdc",
+        "latest": "12d06bda-1e60-441f-85a4-92cd29779b41"
+      },
+      "modified": "2020-06-26T12:50:32Z",
+      "issued": "2020-01-13T14:47:26Z"
+    },
+    {
       "id": "13a931c1-18cf-4d60-be79-a527acb0a36d",
       "domainType": "DataModel",
       "label": "Obesity Research Biobank Syndicate (ORBiS)",
@@ -46056,179 +46231,6 @@
       "issued": null
     },
     {
-      "id": "9366bf21-4862-4f86-bb2d-8370b1f6dfdc",
-      "domainType": "DataModel",
-      "label": "Annual District Birth Extract",
-      "documentationVersion": "2.0.0",
-      "description": "Office for National Statistics (ONS) register of all births in Wales.\n\nThe data are collected from birth registrations.",
-      "editable": false,
-      "lastUpdated": "2020-04-27T09:00:28.695Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-04-27T09:04:41.781Z",
-      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
-      "keywords": "SAIL, Birth",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
-      "jurisdiction": "GB",
-      "datasetEndDate": "2018-12-31",
-      "datasetStartDate": "1996-01-01",
-      "language": "en",
-      "title": "Annual District Birth Extract",
-      "linkedDataset": "Yes. To any SAIL dataset & reference data",
-      "physicalSampleAvailability": "Not Available",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "35000",
-      "group": "Not Applicable",
-      "identifier": "ADBE",
-      "creator": "NHS Wales Informatics Service (NWIS)",
-      "releaseDate": "2019-04-02T00:00:00Z",
-      "format": "SQL database table",
-      "abstract": "Register of all births in Wales.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "No",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Births in wales. Approx. 35,000 births per year.",
-      "fileSize": "Will vary significantly depending on linked datasets, release version, variable selection etc",
-      "periodicity": "Annually, March",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "0-4",
-      "accessRights": "https://saildatabank.com/application-process/",
-      "geographicCoverage": "Wales",
-      "doi": "Not Available",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "2b43cf1e-281e-49ca-8538-0bbc2eb1f2fa",
-          "domainType": "DataClass",
-          "label": "BIRTHS",
-          "description": "The Office for National Statistics (ONS) Annual District Birth Extract (ADBE) is a register of all births relating to Welsh residents, including those born out of Wales and subsequently registered in Wales. Birth statistics are derived from information recorded when live births and stillbirths are registered as part of civil registration, a legal requirement; these data represent the most complete data source available. The registration of births is a service carried out by the Local Registration Service in partnership with the General Register Office (GRO) in England and Wales. ONS produces five birth statistical releases between July and November each year. These releases include statistics about births that occurred during the previous year. This is all data related to the ONS Annual District Birth Extract. The registration of life events (births, deaths, marriages and civil partnerships) is a service carried out by the Local Registration Service in partnership with the General Register Office (GRO) in Southport, England. The provision of life events data by GRO is formally defined by a service level agreement between GRO and ONS",
-          "lastUpdated": "2020-04-27T09:00:28.733Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "23880784-3eef-4af6-bb19-8acda8edd9f2",
-              "domainType": "DataElement",
-              "label": "STILLBIRTH_DIAG_2_CD",
-              "description": "This field can contain original stillbirth cause of death code according to the 9th or 10th Revision of the International Classification of Disease (ICD-9 or ICD-10) depending upon the year. These fields are only present for stillbirths. ICD-9 is used for 1993-2000 and ICD10 is used for 2001 onwards. These multiple fields contain each cause mentioned on the stillbirth certificate translated into ICD codes. Up to 15 causes can be stored on the dataset, in separate columns. For 1993 to 2000 only 8 original cause of death codes are stored.",
-              "dataType": {
-                "id": "05380f43-23e3-4b26-b6b8-1db8b417a2bf",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "ed4c761f-4735-4000-bf2f-08aa420fc6ce",
-              "domainType": "DataElement",
-              "label": "MOTHER_URBANRURAL_CD",
-              "description": "The urban/rural classification code, included to the extent that this could be entered using information via ONS statistical records, derived from the postcode of usual residence of mother. NOTE - there will have been cases where the postcode that was recorded for the mother did not exist by the time urban/rural codes were to be added retrospectively, and it was not known into which urban/rural category that postcode would have falled. Urban/rural classification codes are  available for all but an odd case for 1999 onwards. The reliability of the classification will decrease the further back one goes, because the nature of any given area changes with time and development.",
-              "dataType": {
-                "id": "98a72f19-5fa8-48d8-8147-b02951fefcb5",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "f3024be9-5057-4302-a0fd-c9985fb1094b",
-              "domainType": "DataElement",
-              "label": "MULTIPLEBIRTH_IND_CD",
-              "description": "When a birth registration is one of a multiple birth maternity the multiple birth indicator is set to 1. This indicator is assigned by ONS. Values: 1 = multiple birth; this field is blank on singleton births. This data is good from 1993 onwards. Prior to 1993 MULTIPLEBIRTH_TYPE_CD needs to be used to identify multiple births.",
-              "dataType": {
-                "id": "05380f43-23e3-4b26-b6b8-1db8b417a2bf",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "1c999bc0-00f5-4dca-bf8a-861376f7e5a5",
-              "domainType": "DataElement",
-              "label": "BIRTH_CCG_CD",
-              "description": "Description to follow",
-              "dataType": {
-                "id": "05380f43-23e3-4b26-b6b8-1db8b417a2bf",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "5482685b-b3ac-49c4-baaa-664886d70070",
-              "domainType": "DataElement",
-              "label": "BIRTHSTATS_PREV_CENSUS_COUNTRY_CD",
-              "description": "Country code of the place of birth, based on the previous census. For 2007 onwards, the National Statistics Country Classification [NSCC] has been used to code country of birth. The classification is available online via NSCC. For dates 1982-2006, country of birth code lists for this period is provided in separate excel file.",
-              "dataType": {
-                "id": "05380f43-23e3-4b26-b6b8-1db8b417a2bf",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "f6b05bfb-2152-42c9-b345-631e6cad871c",
-              "domainType": "DataElement",
-              "label": "MOTHERSTATS_CURR_CENSUS_HEALTH_ORG_PREV_CD",
-              "description": "Description to follow",
-              "dataType": {
-                "id": "98a72f19-5fa8-48d8-8147-b02951fefcb5",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "1d67a365-0a1b-4567-8bcd-dd2668d9578e",
-              "domainType": "DataElement",
-              "label": "MOTHERSTATS_CURR_CENSUS_LA_PREV_CD",
-              "description": "Description to follow",
-              "dataType": {
-                "id": "98a72f19-5fa8-48d8-8147-b02951fefcb5",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "802b4178-58fe-4425-933e-89daa32d7e83",
-              "domainType": "DataElement",
-              "label": "ANNUALRECORD_IND",
-              "description": "Birth record id",
-              "dataType": {
-                "id": "98a72f19-5fa8-48d8-8147-b02951fefcb5",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "14f72248-5774-4fba-82c9-9f1c0d51618a",
-              "domainType": "DataElement",
-              "label": "STILLBIRTH_DIAG_10_CD",
-              "description": "This field can contain original stillbirth cause of death code according to the 9th or 10th Revision of the International Classification of Disease (ICD-9 or ICD-10) depending upon the year. These fields are only present for stillbirths. ICD-9 is used for 1993-2000 and ICD10 is used for 2001 onwards. These multiple fields contain each cause mentioned on the stillbirth certificate translated into ICD codes. Up to 15 causes can be stored on the dataset, in separate columns. For 1993 to 2000 only 8 original cause of death codes are stored.",
-              "dataType": {
-                "id": "05380f43-23e3-4b26-b6b8-1db8b417a2bf",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "231b459b-a238-4ae0-9004-4a993d43c2a2",
-              "domainType": "DataElement",
-              "label": "STILLBIRTH_CAUSE_8_CD",
-              "description": "This field can contain original stillbirth cause of death code according to the 9th or 10th Revision of the International Classification of Disease (ICD-9 or ICD-10) depending upon the year. These fields are only present for stillbirths. ICD-9 is used for 1993-2000 and ICD10 is used for 2001 onwards. These multiple fields contain each cause mentioned on the stillbirth certificate translated into ICD codes. Up to 15 causes can be stored on the dataset, in separate columns. For 1993 to 2000 only 8 original cause of death codes are stored.",
-              "dataType": {
-                "id": "05380f43-23e3-4b26-b6b8-1db8b417a2bf",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "1.0.0": "e2c66076-9a12-426c-9d55-692c5f88dc23",
-        "2.0.0": "9366bf21-4862-4f86-bb2d-8370b1f6dfdc",
-        "0.0.1": "91abbc97-33ab-438c-9beb-92147615c605",
-        "latest": "9366bf21-4862-4f86-bb2d-8370b1f6dfdc"
-      },
-      "modified": "2020-04-27T09:00:28Z",
-      "issued": "2020-01-13T14:47:26Z"
-    },
-    {
       "id": "93ffc937-dc5f-4fae-bb75-a8ad19ac3d3e",
       "domainType": "DataModel",
       "label": "GENOMICS ENGLAND 100K CANCER & COMMON",
@@ -60367,14 +60369,14 @@
       "lastUpdated": "2020-01-14T12:10:30.442Z",
       "classifiers": [
         {
-          "id": "ef85dd01-09a1-43af-81ef-82e402328572",
-          "label": "NIHR HIC Data Models",
-          "lastUpdated": "2019-12-17T12:17:55.21Z"
-        },
-        {
           "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
           "label": "Critical Care",
           "lastUpdated": "2019-10-24T09:45:59.854Z"
+        },
+        {
+          "id": "ef85dd01-09a1-43af-81ef-82e402328572",
+          "label": "NIHR HIC Data Models",
+          "lastUpdated": "2019-12-17T12:17:55.21Z"
         }
       ],
       "type": "Data Asset",
