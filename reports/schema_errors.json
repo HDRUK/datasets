@@ -2163,6 +2163,39 @@
     ]
   },
   {
+    "id": "12d06bda-1e60-441f-85a4-92cd29779b41",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Annual District Birth Extract",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Annually, March' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "13a931c1-18cf-4d60-be79-a527acb0a36d",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Obesity Research Biobank Syndicate (ORBiS)",
@@ -15565,49 +15598,6 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not of type 'array'"
-      }
-    ]
-  },
-  {
-    "id": "9366bf21-4862-4f86-bb2d-8370b1f6dfdc",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Annual District Birth Extract",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'No' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'No' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not Available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually, March' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
