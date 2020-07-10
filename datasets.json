@@ -34632,480 +34632,6 @@
       "issued": "2020-01-13T14:55:21Z"
     },
     {
-      "id": "71e22289-32df-43dc-a20f-756f2c814c36",
-      "domainType": "DataModel",
-      "label": "COVID-19 Symptom Tracker Dataset",
-      "documentationVersion": "10.0.0",
-      "description": "The COVID Symptom Tracker (https://covid.joinzoe.com/) mobile application was designed by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.\n\nThis research is led by Dr Tim Spector, professor of genetic epidemiology at King\u2019s College London and director of TwinsUK a scientific study of 15,000 identical and non-identical twins, which has been running for nearly three decades.\n\nThe dataset schema includes:\n\nDemographic Information (Year of Birth, Gender, Height, Weight, Postcode)\nHealth Screening Questions (Activity, Heart Disease, Diabetes, Lung Disease, Smoking Status, Kidney Disease, Chemotherapy, Immunosuppressants, Corticosteroids, Blood Pressure Medications, Previous COVID, COVID Symptoms, Needs Help, Housebound Problems, Help Availability, Mobility Aid)\nCOVID Testing Conducted\nHow You Feel?\nSymptom Description\nLocation Information (Home, Hospital, Back From Hospital)\nTreatment Received\nThe data is hosted within the SAIL Databank, a trusted research environment facilitating remote access to health, social care, and administrative data for various national organisations.\n\nThe process for requesting access to the data is dependent on your use case. SAIL is currently expediting all requests that feed directly into the response to the COVID-19 national emergency, and therefore requests from NHS or Government institutions, or organisations working alongside such care providers and policymakers to feed intelligence directly back into the national response, are being expedited with a ~48-hour governance turnaround for such applications once made. Please make enquiries using the link at the bottom of the page which will go the SAIL Databank team, or to Chris Orton at c.orton@swansea.ac.uk\n\nSAIL is welcoming requests from other organisations and for longer-term academic study on the dataset, but please note if this is not directly relevant to the emergency research being carried out which directly interfaces with national responding agencies, there may be an access delay whilst priority use cases are serviced.",
-      "semanticLinks": [
-        {
-          "id": "62c3806d-a6a3-46d9-90f3-bbcb512f30b1",
-          "linkType": "Superseded By",
-          "domainType": "CatalogueSemanticLink",
-          "source": {
-            "id": "71e22289-32df-43dc-a20f-756f2c814c36",
-            "domainType": "DataModel",
-            "label": "COVID-19 Symptom Tracker Dataset",
-            "documentationVersion": "10.0.0"
-          },
-          "target": {
-            "id": "e525b056-1bac-46ee-838c-6bef8a8815cb",
-            "domainType": "DataModel",
-            "label": "COVID-19 Symptom Tracker Dataset",
-            "documentationVersion": "11.0.0"
-          }
-        }
-      ],
-      "editable": false,
-      "lastUpdated": "2020-07-09T12:09:32.173Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-06-18T13:47:00.387Z",
-      "keywords": "COVID-19, SYMPTOM, TRACKER, MOBILE APP, CORONAVIRUS, COVID, SAIL",
-      "contactPoint": "saildatabank@swansea.ac.uk",
-      "accessRequestDuration": ">1 WEEK",
-      "jurisdiction": "GB-GBN",
-      "datasetEndDate": "2020-08-01",
-      "datasetStartDate": "2020-03-16",
-      "language": "en",
-      "title": "COVID-19 Symptom Tracker Dataset",
-      "linkedDataset": "Not Available",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "D. A. Drew et al., Science\n10.1126/science.abc0473 (2020)",
-      "controlledVocabulary": "Local Standard",
-      "dataController": "Zoe Global Ltd (https://joinzoe.com/)",
-      "statisticalPopulation": "3500000",
-      "group": "No Group",
-      "identifier": "COVID-SYM-TRACK",
-      "creator": "The COVID symptom tracker was created by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.",
-      "releaseDate": "2020-04-03T00:00:00Z",
-      "format": "CSV Tables",
-      "abstract": "The COVID Symptom Tracker was designed by doctors and scientists at King's College London (KCL), Guys and St Thomas\u2019 Hospital working in partnership with ZOE Global. Led by Dr Tim Spector, professor of genetic epidemiology at KCL and director of TwinsUK.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "https://covid.joinzoe.com/privacy-notice",
-      "populationType": "General Population",
-      "fileSize": "Over 500MB",
-      "periodicity": "Daily",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "15-90+",
-      "accessRights": "https://saildatabank.com/application-process/two-stage-process/",
-      "conformsTo": "Local - See Technical Details",
-      "geographicCoverage": "Great Britain",
-      "doi": "In Progress",
-      "dataClassesCount": 4,
-      "dataClasses": [
-        {
-          "id": "ea13c505-3a27-4c67-964b-5b7e50f09b19",
-          "domainType": "DataClass",
-          "label": "CVST_ASSESSMENTS",
-          "description": "Assessment level data",
-          "lastUpdated": "2020-06-18T13:42:15.88Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "a249b468-17a6-42ab-95f2-ce597bac3a29",
-              "domainType": "DataElement",
-              "label": "CHEST_PAIN",
-              "description": "For individuals who are not feeling quite right. Indicates if they are feeling an unusual chest pain or tightness in their chest",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "b74ccbba-4c46-4d31-8ad6-175358192559",
-              "domainType": "DataElement",
-              "label": "BLISTERS_ON_FEET",
-              "description": "For individuals who are not feeling quite right.  Indicates if they are experiencing blisters on their feet.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "1b157468-c0c5-46d9-9125-a4aa737e589b",
-              "domainType": "DataElement",
-              "label": "UNUSUAL_MUSCLE_PAINS",
-              "description": "For individuals who are not feeling quite right.  Indicates if they have unusual strong muscle pains.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "23355c65-c087-44ab-82f9-664b61760264",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DATE",
-              "description": "Date when the data made available i.e. date of loading.",
-              "dataType": {
-                "id": "9eb77f21-f947-4161-999c-0990cd3e39e7",
-                "domainType": "PrimitiveType",
-                "label": "date"
-              }
-            },
-            {
-              "id": "572bcd30-41db-4120-81e5-b630bc9ad553",
-              "domainType": "DataElement",
-              "label": "DIZZY_LIGHT_HEADED",
-              "description": "For individuals who are not feeling quite right.  Indicates if they have been feeling dizzy or light headed.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "c68a6fa2-100f-4375-8103-faf30370d65d",
-              "domainType": "DataElement",
-              "label": "ID_E",
-              "description": "Unique assessment ID.",
-              "dataType": {
-                "id": "ddb08c34-409a-4720-b18f-4c29b8fff1c7",
-                "domainType": "PrimitiveType",
-                "label": "bigint"
-              }
-            },
-            {
-              "id": "0aebcd93-699e-435c-bf74-acd6b0c59bad",
-              "domainType": "DataElement",
-              "label": "DATE_TEST_OCCURRED",
-              "description": "For individuals who have been tested for COVID-19. Indicates the date the test occurred.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "c52f19b0-72e3-424b-8b87-42f1284b5e55",
-              "domainType": "DataElement",
-              "label": "SHORTNESS_OF_BREATH",
-              "description": "For individuals who are not feeling quite right. Indicates if they are experiencing unusual shortness of breath.\n\nCan take 4 values. Values and corresponding descriptions:\n- no // No\n- mild // Yes. Mild symtpoms - slight shortness of breath during ordinary activity\n- significant // Yes. Significant symptoms - breathing is comfortable only at rest\n- severe // Yes. Severe symptoms - breathing is difficult even at rest",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "0536c907-10b2-4702-9419-550a6cf24574",
-              "domainType": "DataElement",
-              "label": "TESTED_COVID_POSITIVE",
-              "description": "For individuals who have been tested for COVID-19. Indicates if they tested positive.\n\nCan take 3 values. Values and corresponding descriptions:\n- yes // Yes\n- no // No\n- waiting // Waiting",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "8dfb478e-2da6-4109-8486-2aac759a29a5",
-              "domainType": "DataElement",
-              "label": "HOARSE_VOICE",
-              "description": "For individuals who are not feeling quite right. Indicates if they have an unusually hoarse voice.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            }
-          ]
-        },
-        {
-          "id": "602277f1-5cb4-48bc-9173-97790f94b34b",
-          "domainType": "DataClass",
-          "label": "CVST_PATIENTS_EXPORT",
-          "description": "Patient level data",
-          "lastUpdated": "2020-06-18T13:42:15.881Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "fad14100-5643-4fe9-a3db-8c0bcbcb7f0f",
-              "domainType": "DataElement",
-              "label": "PAST_SYMPTOM_PERSISTENT_COUGH",
-              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had a persistent cough.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "193f7d00-d512-4ed1-8111-ce8ab2176449",
-              "domainType": "DataElement",
-              "label": "PAST_SYMPTOM_DELIRIUM",
-              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had delirium.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "faf77331-b4de-4ead-a108-973a91a225c1",
-              "domainType": "DataElement",
-              "label": "CLASSIC_SYMPTOMS",
-              "description": "Indicates if the individual has had the classic symptoms (high fever and persistent cough) for several days.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "4172959b-0fb6-41a5-825b-dc94e57090a4",
-              "domainType": "DataElement",
-              "label": "PAST_SYMPTOM_SHORTNESS_OF_BREATH",
-              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had shortness of breath.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "83b46364-4511-476a-bd4d-45bce0b6c5a3",
-              "domainType": "DataElement",
-              "label": "HAS_KIDNEY_DISEASE",
-              "description": "Indicates if the individual has kidney disease.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "aedc1119-8a9f-4afe-9505-e3bfa29089fb",
-              "domainType": "DataElement",
-              "label": "PAST_SYMPTOM_SKIPPED_MEALS",
-              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had skipped meals.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "259181ab-1dc9-4fe2-ab13-7e88921da95f",
-              "domainType": "DataElement",
-              "label": "LSOA11CD",
-              "description": "Lower Layer Super Output Area Code of the individual.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "2aeac3f2-4d18-4b05-82e3-c36302f05433",
-              "domainType": "DataElement",
-              "label": "CLASSIC_SYMPTOMS_DAYS_AGO",
-              "description": "For individuals with classic symptoms. The number of days ago their symptoms started.",
-              "dataType": {
-                "id": "a5f07a01-61f3-43cb-ad19-36868a802fbc",
-                "domainType": "PrimitiveType",
-                "label": "integer"
-              }
-            },
-            {
-              "id": "eb971bb8-a3f3-406b-b84b-3dfba5a1ee40",
-              "domainType": "DataElement",
-              "label": "DOES_CHEMIOTHERAPY",
-              "description": "For an individual living with cancer. Indicates if the individual is on chemotherapy or immunotherapy for cancer.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "7cd8bd65-9ee8-4d30-9e02-2ec1435d5d33",
-              "domainType": "DataElement",
-              "label": "INTERACTED_PATIENTS_WITH_COVID",
-              "description": "Indicates if the individual has EVER interacted in person with patients with documented or presumed COVID-10 infection.\n\nCan take 4 values. Values and corresponding descriptions:\n- yes_document // Yes, documented COVID-19 cases only\n- yes_suspected // Yes, suspected COVID-19 cases only\n- yes_doumented_suspected // Yes, both documented & suspected COVID-19 cases\n- no // Not that I know of\nThe maximum length of the value is 32.",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            }
-          ]
-        },
-        {
-          "id": "536d3409-a31f-4346-a5eb-7b764d1b7e9f",
-          "domainType": "DataClass",
-          "label": "PATIENT_LIST",
-          "description": "Indicates whether or not a patient has opted out of the populaton, along with the date of opt-out where appropriate.\nUsed as an aid for processing patient opt-outs.",
-          "lastUpdated": "2020-06-18T13:42:15.883Z",
-          "dataElementsCount": 4,
-          "dataElements": [
-            {
-              "id": "21212cc3-ee75-4b85-b710-c1cf2585068f",
-              "domainType": "DataElement",
-              "label": "OPT_OUT_DATE",
-              "description": "For individuals who have opted out of the population.\nDate in which the individual requested to opt-out",
-              "dataType": {
-                "id": "9eb77f21-f947-4161-999c-0990cd3e39e7",
-                "domainType": "PrimitiveType",
-                "label": "date"
-              }
-            },
-            {
-              "id": "2dd2045d-a256-4780-adfb-a5855d8891fa",
-              "domainType": "DataElement",
-              "label": "OPTED_OUT",
-              "description": "Indicates whether or not the individual has opted out of the population.\nWe say that an individual has opted out if they were in previous feeds of the data, but not in the current feed.\nIf an individual is deemed to have opted out, their records are deleted from both the temporal and historical tables.\n\nCan take 2 values. Values and correspnding meaning:\n- N // No, individual has not opted out\n- Y // Yes, individual has opted out",
-              "dataType": {
-                "id": "cb60bdcd-73ca-4b6e-b15e-778a8a6af44c",
-                "domainType": "PrimitiveType",
-                "label": "char"
-              }
-            },
-            {
-              "id": "64b5362a-9b89-4cbd-bbce-3bd35344a53a",
-              "domainType": "DataElement",
-              "label": "PATIENT_ID_E",
-              "description": "Unique patient ID.",
-              "dataType": {
-                "id": "ddb08c34-409a-4720-b18f-4c29b8fff1c7",
-                "domainType": "PrimitiveType",
-                "label": "bigint"
-              }
-            },
-            {
-              "id": "f3008f87-c255-4f23-9f30-39956f228bb5",
-              "domainType": "DataElement",
-              "label": "OPT_OUT_PROC_DT",
-              "description": "For individuals who have opted out of the population.\nDate in which ZOE processed the opt-out.",
-              "dataType": {
-                "id": "1a191fba-b33c-434d-b93a-25abc4d85f55",
-                "domainType": "PrimitiveType",
-                "label": "timestamp"
-              }
-            }
-          ]
-        },
-        {
-          "id": "9f719fe1-e8f6-4f7e-96b1-5b78588a5c42",
-          "domainType": "DataClass",
-          "label": "ZOE_ALF",
-          "description": "Data about the patients registered to use the ZOE symtom tracker app.\nSpecifically including the anonymised linking field (ALF) using the split file anonymisation and probabilistic matching.\nThis enables this ZOE_ALF table to be linked to other tables within the SAIL databank.\nNote that special permission is required to access to this table, and thus have linked CVST data.",
-          "lastUpdated": "2020-06-18T13:42:15.884Z",
-          "dataElementsCount": 8,
-          "dataElements": [
-            {
-              "id": "54482d60-3bc0-4953-830d-1dab6d4d49d2",
-              "domainType": "DataElement",
-              "label": "YR_OF_BIRTH",
-              "description": "The year of birth of the individual.",
-              "dataType": {
-                "id": "a5f07a01-61f3-43cb-ad19-36868a802fbc",
-                "domainType": "PrimitiveType",
-                "label": "integer"
-              }
-            },
-            {
-              "id": "de627776-af7b-46fb-b166-ac62bc5beff8",
-              "domainType": "DataElement",
-              "label": "SEX",
-              "description": "The sex (gender) of the individual.",
-              "dataType": {
-                "id": "724de9d3-a73e-4519-8ea9-7dbd41dcffa3",
-                "domainType": "PrimitiveType",
-                "label": "smallint"
-              }
-            },
-            {
-              "id": "0da2debc-46db-4716-8f38-5849c09b3177",
-              "domainType": "DataElement",
-              "label": "ALF_STS_CD",
-              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
-              "dataType": {
-                "id": "a5f07a01-61f3-43cb-ad19-36868a802fbc",
-                "domainType": "PrimitiveType",
-                "label": "integer"
-              }
-            },
-            {
-              "id": "364d03bf-dc06-43d2-96b4-29c044bb85d2",
-              "domainType": "DataElement",
-              "label": "ALF_MATCH_PCT",
-              "description": "Match percentage assigned when deriving the Encrypted Anonymised Linking Field.",
-              "dataType": {
-                "id": "cf99a1d0-5f01-420a-8ec5-1fd089f7354c",
-                "domainType": "PrimitiveType",
-                "label": "double"
-              }
-            },
-            {
-              "id": "d7272233-1857-42e0-8b1a-323d5d83dc33",
-              "domainType": "DataElement",
-              "label": "ALF_E",
-              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
-              "dataType": {
-                "id": "ddb08c34-409a-4720-b18f-4c29b8fff1c7",
-                "domainType": "PrimitiveType",
-                "label": "bigint"
-              }
-            },
-            {
-              "id": "47d572cd-b3cc-4ad3-9981-3071ccca0a87",
-              "domainType": "DataElement",
-              "label": "LSOA2011_CD",
-              "description": "Lower Layer Super Output Area Code of the individual. For the current version of LSOA codes (2011).",
-              "dataType": {
-                "id": "c4d1c117-fa66-4f3a-80fd-f68f365dff03",
-                "domainType": "PrimitiveType",
-                "label": "varchar"
-              }
-            },
-            {
-              "id": "86f72356-8384-4ee6-b1c5-b3ca53e9f5db",
-              "domainType": "DataElement",
-              "label": "ID_E",
-              "description": "Unique patient ID. Used to link the assessment and alf tables to the patient table.",
-              "dataType": {
-                "id": "ddb08c34-409a-4720-b18f-4c29b8fff1c7",
-                "domainType": "PrimitiveType",
-                "label": "bigint"
-              }
-            },
-            {
-              "id": "a159465b-6867-4798-bfec-0d0ab250baed",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DATE",
-              "description": "Date when the data made available i.e. date of loading.",
-              "dataType": {
-                "id": "9eb77f21-f947-4161-999c-0990cd3e39e7",
-                "domainType": "PrimitiveType",
-                "label": "date"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "1.0.0": "9b604483-9cdc-41b2-b82c-14ee3dd705f6",
-        "10.0.0": "71e22289-32df-43dc-a20f-756f2c814c36",
-        "9.0.0": "9dee28f9-44e7-4690-a091-c2e493d9d8ed",
-        "8.0.0": "5dc5998d-efa4-490a-9a46-feb6eb27dabe",
-        "7.0.0": "6846f613-e2e3-4dac-bb24-c867033db4ec",
-        "4.0.0": "06f8c66d-4e91-44dc-a109-1df729b72b61",
-        "2.0.0": "4e0008a5-c930-494a-bdcc-f88e30fc36d2",
-        "6.0.0": "9c5a8ae6-fbc2-43f6-b4ae-4dd2b2a617b5",
-        "5.0.0": "c1231f9b-b617-4ad8-80ad-f84d26f7964a",
-        "3.0.0": "2197a025-e722-4b21-9208-9e4c8e5d3b6a",
-        "11.0.0": "e525b056-1bac-46ee-838c-6bef8a8815cb",
-        "latest": "71e22289-32df-43dc-a20f-756f2c814c36"
-      },
-      "modified": "2020-07-09T12:09:33Z",
-      "issued": "2020-04-09T13:41:24Z"
-    },
-    {
       "id": "72fe91de-b0c0-423a-ad68-bd7067b20ad8",
       "domainType": "DataModel",
       "label": "Infoflex Cancer Registry",
@@ -74404,6 +73930,461 @@
       },
       "modified": "2020-04-27T09:04:30Z",
       "issued": "2020-01-13T15:48:23Z"
+    },
+    {
+      "id": "e525b056-1bac-46ee-838c-6bef8a8815cb",
+      "domainType": "DataModel",
+      "label": "COVID-19 Symptom Tracker Dataset",
+      "documentationVersion": "11.0.0",
+      "description": "The COVID Symptom Tracker (https://covid.joinzoe.com/) mobile application was designed by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.\n\nThis research is led by Dr Tim Spector, professor of genetic epidemiology at King\u2019s College London and director of TwinsUK a scientific study of 15,000 identical and non-identical twins, which has been running for nearly three decades.\n\nThe dataset schema includes:\n\nDemographic Information (Year of Birth, Gender, Height, Weight, Postcode)\nHealth Screening Questions (Activity, Heart Disease, Diabetes, Lung Disease, Smoking Status, Kidney Disease, Chemotherapy, Immunosuppressants, Corticosteroids, Blood Pressure Medications, Previous COVID, COVID Symptoms, Needs Help, Housebound Problems, Help Availability, Mobility Aid)\nCOVID Testing Conducted\nHow You Feel?\nSymptom Description\nLocation Information (Home, Hospital, Back From Hospital)\nTreatment Received\nThe data is hosted within the SAIL Databank, a trusted research environment facilitating remote access to health, social care, and administrative data for various national organisations.\n\nThe process for requesting access to the data is dependent on your use case. SAIL is currently expediting all requests that feed directly into the response to the COVID-19 national emergency, and therefore requests from NHS or Government institutions, or organisations working alongside such care providers and policymakers to feed intelligence directly back into the national response, are being expedited with a ~48-hour governance turnaround for such applications once made. Please make enquiries using the link at the bottom of the page which will go the SAIL Databank team, or to Chris Orton at c.orton@swansea.ac.uk\n\nSAIL is welcoming requests from other organisations and for longer-term academic study on the dataset, but please note if this is not directly relevant to the emergency research being carried out which directly interfaces with national responding agencies, there may be an access delay whilst priority use cases are serviced.",
+      "editable": false,
+      "lastUpdated": "2020-07-09T12:09:32.122Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-07-09T12:09:36.214Z",
+      "keywords": "COVID-19, SYMPTOM, TRACKER, MOBILE APP, CORONAVIRUS, COVID, SAIL",
+      "contactPoint": "saildatabank@swansea.ac.uk",
+      "accessRequestDuration": ">1 WEEK",
+      "jurisdiction": "GB-GBN",
+      "datasetEndDate": "2020-08-01",
+      "datasetStartDate": "2020-03-16",
+      "language": "en",
+      "title": "COVID-19 Symptom Tracker Dataset",
+      "linkedDataset": "Not Available",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "D. A. Drew et al., Science\n10.1126/science.abc0473 (2020)",
+      "controlledVocabulary": "Local Standard",
+      "dataController": "Zoe Global Ltd (https://joinzoe.com/)",
+      "statisticalPopulation": "3500000",
+      "group": "No Group",
+      "identifier": "COVID-SYM-TRACK",
+      "creator": "The COVID symptom tracker was created by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.",
+      "releaseDate": "2020-04-03T00:00:00Z",
+      "format": "CSV Tables",
+      "abstract": "The COVID Symptom Tracker was designed by doctors and scientists at King's College London (KCL), Guys and St Thomas\u2019 Hospital working in partnership with ZOE Global. Led by Dr Tim Spector, professor of genetic epidemiology at KCL and director of TwinsUK.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "https://covid.joinzoe.com/privacy-notice",
+      "populationType": "General Population",
+      "fileSize": "Over 500MB",
+      "periodicity": "Daily",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "15-90+",
+      "accessRights": "https://saildatabank.com/application-process/two-stage-process/",
+      "conformsTo": "Local - See Technical Details",
+      "geographicCoverage": "Great Britain",
+      "doi": "In Progress",
+      "dataClassesCount": 4,
+      "dataClasses": [
+        {
+          "id": "a9d22023-b09d-4eed-9feb-ff708230e03d",
+          "domainType": "DataClass",
+          "label": "ZOE_ALF",
+          "description": "The ZOE_ALF table is exclusively for national emergency response for COVID-19.\n\nData about the patients registered to use the ZOE symtom tracker app.\nSpecifically including the anonymised linking field (ALF) using the split file anonymisation and probabilistic matching.\nThis enables this ZOE_ALF table to be linked to other tables within the SAIL databank.",
+          "lastUpdated": "2020-07-09T12:09:33.381Z",
+          "dataElementsCount": 8,
+          "dataElements": [
+            {
+              "id": "2e316b27-d7f4-4ac5-95ef-73bbced796f6",
+              "domainType": "DataElement",
+              "label": "ALF_STS_CD",
+              "description": "Status code assigned when deriving the Encrypted Anonymised Linking Field.",
+              "dataType": {
+                "id": "80f25310-ed13-4a3a-8108-49b32817e997",
+                "domainType": "PrimitiveType",
+                "label": "integer"
+              }
+            },
+            {
+              "id": "32305bb3-6311-4df1-8da7-486b7d42d6c1",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DATE",
+              "description": "Date when the data made available i.e. date of loading.",
+              "dataType": {
+                "id": "c18bd2cb-43a4-46f4-a1ac-d65593cf8192",
+                "domainType": "PrimitiveType",
+                "label": "date"
+              }
+            },
+            {
+              "id": "80884a0b-5800-4835-bca1-b4b73d2ae6bd",
+              "domainType": "DataElement",
+              "label": "SEX",
+              "description": "The sex (gender) of the individual.",
+              "dataType": {
+                "id": "f2a9cba9-160d-4581-877d-5a14d5a22aa1",
+                "domainType": "PrimitiveType",
+                "label": "smallint"
+              }
+            },
+            {
+              "id": "ce505ea1-1db7-4fcc-840d-5310a059d726",
+              "domainType": "DataElement",
+              "label": "ID_E",
+              "description": "Unique patient ID. Used to link the assessment and alf tables to the patient table.",
+              "dataType": {
+                "id": "f0298093-4c9b-4180-b783-8aebee828e62",
+                "domainType": "PrimitiveType",
+                "label": "bigint"
+              }
+            },
+            {
+              "id": "4bd93f18-e6bb-4ea2-bb3d-c0757201998b",
+              "domainType": "DataElement",
+              "label": "ALF_MATCH_PCT",
+              "description": "Match percentage assigned when deriving the Encrypted Anonymised Linking Field.",
+              "dataType": {
+                "id": "4f3fba3a-a2aa-4ebb-9716-92ecb7eb8e79",
+                "domainType": "PrimitiveType",
+                "label": "double"
+              }
+            },
+            {
+              "id": "0ee1f695-8ca1-48ef-aa12-c28d872fae71",
+              "domainType": "DataElement",
+              "label": "LSOA2011_CD",
+              "description": "Lower Layer Super Output Area Code of the individual. For the current version of LSOA codes (2011).",
+              "dataType": {
+                "id": "4c88c7dc-ee28-4c23-8279-adc03454d1d2",
+                "domainType": "PrimitiveType",
+                "label": "varchar"
+              }
+            },
+            {
+              "id": "20e18e31-0617-4727-8039-8c18d5ead468",
+              "domainType": "DataElement",
+              "label": "YR_OF_BIRTH",
+              "description": "The year of birth of the individual.",
+              "dataType": {
+                "id": "80f25310-ed13-4a3a-8108-49b32817e997",
+                "domainType": "PrimitiveType",
+                "label": "integer"
+              }
+            },
+            {
+              "id": "2a99f5cf-9f80-4c10-8afe-2d5fbb18744d",
+              "domainType": "DataElement",
+              "label": "ALF_E",
+              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
+              "dataType": {
+                "id": "f0298093-4c9b-4180-b783-8aebee828e62",
+                "domainType": "PrimitiveType",
+                "label": "bigint"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ede3c599-82ac-4d8c-9c88-f54c020ca9bd",
+          "domainType": "DataClass",
+          "label": "CVST_PATIENTS_EXPORT",
+          "description": "Patient level data",
+          "lastUpdated": "2020-07-09T12:09:33.383Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "97afa817-77aa-4c4f-b081-cc4fb442fd7a",
+              "domainType": "DataElement",
+              "label": "PROFILE_ATTRIBUTES_UPDATED_AT",
+              "description": "UTC timestamp at which this patient level data was most recently updated.",
+              "dataType": {
+                "id": "4c88c7dc-ee28-4c23-8279-adc03454d1d2",
+                "domainType": "PrimitiveType",
+                "label": "varchar"
+              }
+            },
+            {
+              "id": "efa8b85c-8c85-4b5a-b00d-3cd7a65ac149",
+              "domainType": "DataElement",
+              "label": "LAST_ASKED_LEVEL_OF_ISOLATION",
+              "description": "Indicates how much the individual had been isolating the last time they were asked.",
+              "dataType": {
+                "id": "4c88c7dc-ee28-4c23-8279-adc03454d1d2",
+                "domainType": "PrimitiveType",
+                "label": "varchar"
+              }
+            },
+            {
+              "id": "c6c53141-e38e-4ef5-a280-5e93a5144557",
+              "domainType": "DataElement",
+              "label": "RACE_IS_OTHER",
+              "description": "Indicates if the race of the individual is different from the possible options provided.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "63c933b3-f95f-4a9c-98df-fca23c3a75d1",
+              "domainType": "DataElement",
+              "label": "DOES_CHEMIOTHERAPY",
+              "description": "For an individual living with cancer. Indicates if the individual is on chemotherapy or immunotherapy for cancer.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "762831b4-ed21-4ef2-b99e-bbac80a48555",
+              "domainType": "DataElement",
+              "label": "LADCD",
+              "description": "Local Authority District Code of the individual.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "4fbc4bd6-40cb-48a2-b64c-80ac81726a42",
+              "domainType": "DataElement",
+              "label": "HAVE_WORKED_IN_HOSPITAL_CLINIC",
+              "description": "Indicates if the individual has physically worked in a clinic outside a hospital since the COVID-19 epidemic began.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "6b4095f5-b02e-4931-b85e-d097dc2b0d49",
+              "domainType": "DataElement",
+              "label": "MSOA11NM",
+              "description": "Middle Layer Super Output Area Name of the individual.",
+              "dataType": {
+                "id": "4c88c7dc-ee28-4c23-8279-adc03454d1d2",
+                "domainType": "PrimitiveType",
+                "label": "varchar"
+              }
+            },
+            {
+              "id": "7cdeb75e-90aa-42a5-98d2-e16a9866e621",
+              "domainType": "DataElement",
+              "label": "SMOKER_STATUS",
+              "description": "Indicates the smoker status of the individual.\n\nCan take 3 values. Values and corresponding descriptions:\n- yes // Yes\n- not_currently // Not currently\n- never // Never",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "a866f006-1ed8-4a82-b461-798db5f943a7",
+              "domainType": "DataElement",
+              "label": "LSOA11CD",
+              "description": "Lower Layer Super Output Area Code of the individual.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "b84eaba3-0bb5-4535-b5c2-d6191211d091",
+              "domainType": "DataElement",
+              "label": "PAST_SYMPTOM_DELIRIUM",
+              "description": "For individuals who had been unwell in the month prior to signing up to the app.  Indicates if they had delirium.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0be9679-6332-4109-956c-807c4923566a",
+          "domainType": "DataClass",
+          "label": "PATIENT_LIST",
+          "description": "Indicates whether or not a patient has opted out of the populaton, along with the date of opt-out where appropriate.\nUsed as an aid for processing patient opt-outs.",
+          "lastUpdated": "2020-07-09T12:09:33.385Z",
+          "dataElementsCount": 4,
+          "dataElements": [
+            {
+              "id": "7f17953b-8f7c-46fc-b965-9524476bdbcc",
+              "domainType": "DataElement",
+              "label": "OPT_OUT_PROC_DT",
+              "description": "For individuals who have opted out of the population.\nDate in which ZOE processed the opt-out.",
+              "dataType": {
+                "id": "35120bc2-a8d2-4807-9d9f-0b9bd4fb9875",
+                "domainType": "PrimitiveType",
+                "label": "timestamp"
+              }
+            },
+            {
+              "id": "7fb4d13a-00f1-4f34-98d3-4a6547ab9757",
+              "domainType": "DataElement",
+              "label": "PATIENT_ID_E",
+              "description": "Unique patient ID.",
+              "dataType": {
+                "id": "f0298093-4c9b-4180-b783-8aebee828e62",
+                "domainType": "PrimitiveType",
+                "label": "bigint"
+              }
+            },
+            {
+              "id": "29a41cf2-dc62-4f1e-91dc-549ad5f543a0",
+              "domainType": "DataElement",
+              "label": "OPTED_OUT",
+              "description": "Indicates whether or not the individual has opted out of the population.\nWe say that an individual has opted out if they were in previous feeds of the data, but not in the current feed.\nIf an individual is deemed to have opted out, their records are deleted from both the temporal and historical tables.\n\nCan take 2 values. Values and correspnding meaning:\n- N // No, individual has not opted out\n- Y // Yes, individual has opted out",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "0ba93b55-847f-4cc7-b599-ce0722b520ad",
+              "domainType": "DataElement",
+              "label": "OPT_OUT_DATE",
+              "description": "For individuals who have opted out of the population.\nDate in which the individual requested to opt-out",
+              "dataType": {
+                "id": "c18bd2cb-43a4-46f4-a1ac-d65593cf8192",
+                "domainType": "PrimitiveType",
+                "label": "date"
+              }
+            }
+          ]
+        },
+        {
+          "id": "7f3506dc-eed1-4555-8892-4debc009db51",
+          "domainType": "DataClass",
+          "label": "CVST_ASSESSMENTS",
+          "description": "Assessment level data",
+          "lastUpdated": "2020-07-09T12:09:33.385Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "f95cc8f3-7a12-468e-8517-6e0f3728180b",
+              "domainType": "DataElement",
+              "label": "VERSION",
+              "description": "Version of the app this assessment was created on.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "bbedd9cd-f704-4ed1-9273-a287858b7e6c",
+              "domainType": "DataElement",
+              "label": "MASK_CLOTH_OR_SCARF",
+              "description": "For individuals that have worn a face mask. Indicates if it was a cloth or scarf.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "6111d0b3-5db4-4b53-9ddf-8956b4584a38",
+              "domainType": "DataElement",
+              "label": "UPDATED_AT",
+              "description": "UTC timestamp at which this patient level data was most recently updated.",
+              "dataType": {
+                "id": "4c88c7dc-ee28-4c23-8279-adc03454d1d2",
+                "domainType": "PrimitiveType",
+                "label": "varchar"
+              }
+            },
+            {
+              "id": "7b5a6c2c-ee31-493a-973b-9c6076bd0df4",
+              "domainType": "DataElement",
+              "label": "NEVER_USED_SHORTAGE",
+              "description": "For health care workers, who, in the last day,  have never used PPE at work. Indicates whether:\n\nCan take 2 values. Values and corresponding descriptions:\n- not_needed // They haven't needed PPE\n- not_available // They needed PPE, but it wasn't available\nThe maximum length of the value is 16",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "dd7d354d-cbc5-4534-a65c-886af7073578",
+              "domainType": "DataElement",
+              "label": "DATE_TEST_OCCURRED_GUESS",
+              "description": "For individuals who have been tested for COVID-19. Indicates the indiviuals guess as to the date the test occurred.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "aba47bac-0c1c-47df-be40-f27a1de00087",
+              "domainType": "DataElement",
+              "label": "CHEST_PAIN",
+              "description": "For individuals who are not feeling quite right. Indicates if they are feeling an unusual chest pain or tightness in their chest",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "2fd812e9-fc83-43af-9b79-12dc44446c0a",
+              "domainType": "DataElement",
+              "label": "FEVER",
+              "description": "For individuals who are not feeling quite right. Indicates if they have a fever.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "ce9df0d6-47ed-4edd-bdb2-3fc2f1d0f3d6",
+              "domainType": "DataElement",
+              "label": "TYPICAL_HAYFEVER",
+              "description": "For individuals who are not feeling quite right.  Indicates if they are experiencing typical hayfever symptoms.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "a3f7e3ec-acf4-404d-903e-7d259b1435b2",
+              "domainType": "DataElement",
+              "label": "HAVE_USED_PPE",
+              "description": "For health care workers. Indicates if, in the last day, they have used personal protective equipment (PPE) at work.\nWhere depending on their specific work requirements, PPE might include gloves, masks, face shields, etc.\n\nCan take 3 values. Values and corresponding descriptions:\n- always // Always\n- sometimes //  Sometimes\n- never // Never\nThe maximum length of the value is 16.",
+              "dataType": {
+                "id": "57048d1d-ad6b-40ce-8a20-861c70e201c4",
+                "domainType": "PrimitiveType",
+                "label": "char"
+              }
+            },
+            {
+              "id": "3732ba62-0d39-4dcc-a521-1299ca9e750a",
+              "domainType": "DataElement",
+              "label": "LEVEL_OF_ISOLATION",
+              "description": "For individuals who are not feeling quite right.  Indicates how much they have been isolating over the last week.\n\nCan take 3 values. Values and corresponding descriptions:\n- not_left_the_house // I have not left the house\n- rarely_left_the_house // I rarely leave the house. When I do, I have little interaction with others (e.g. for exercise)\n- often_left_the_house // I have to leave the house often and am in contact with other people (e.g. still working outside the house or using public transport)",
+              "dataType": {
+                "id": "4c88c7dc-ee28-4c23-8279-adc03454d1d2",
+                "domainType": "PrimitiveType",
+                "label": "varchar"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "1.0.0": "9b604483-9cdc-41b2-b82c-14ee3dd705f6",
+        "11.0.0": "e525b056-1bac-46ee-838c-6bef8a8815cb",
+        "10.0.0": "71e22289-32df-43dc-a20f-756f2c814c36",
+        "8.0.0": "5dc5998d-efa4-490a-9a46-feb6eb27dabe",
+        "7.0.0": "6846f613-e2e3-4dac-bb24-c867033db4ec",
+        "4.0.0": "06f8c66d-4e91-44dc-a109-1df729b72b61",
+        "2.0.0": "4e0008a5-c930-494a-bdcc-f88e30fc36d2",
+        "6.0.0": "9c5a8ae6-fbc2-43f6-b4ae-4dd2b2a617b5",
+        "5.0.0": "c1231f9b-b617-4ad8-80ad-f84d26f7964a",
+        "3.0.0": "2197a025-e722-4b21-9208-9e4c8e5d3b6a",
+        "9.0.0": "9dee28f9-44e7-4690-a091-c2e493d9d8ed",
+        "latest": "e525b056-1bac-46ee-838c-6bef8a8815cb"
+      },
+      "modified": "2020-07-09T12:09:33Z",
+      "issued": "2020-04-09T13:41:24Z"
     },
     {
       "id": "e678366e-bb53-4dbb-a228-05114e0b6eb3",

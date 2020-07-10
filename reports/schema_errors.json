@@ -5595,6 +5595,40 @@
     ]
   },
   {
+    "id": "337f2a0d-e876-4ec1-b05f-38b98aac93a8",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Annual District Death Daily",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Exclusively for national emergency response for COVID-19' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Exclusively for national emergency response for COVID-19' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable to Other SAIL Linked datasets' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable to Other SAIL Linked datasets' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "342bef6e-8fa2-49f0-bdbb-c95d866aa145",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Scottish Human Papillomavirus Archive",
@@ -8739,73 +8773,6 @@
     ]
   },
   {
-    "id": "520fe2c1-d442-4ec2-8209-bcfd792a4f48",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Annual District Death Daily",
-    "schema_error_count": 5,
-    "errors": [
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkable to Other SAIL Linked datasets' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkable to Other SAIL Linked datasets' is not one of ['Not Known', 'Not Available']"
-      }
-    ]
-  },
-  {
-    "id": "5257d66d-e0b0-45c4-96a6-7a3753eb9771",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "COVID-19 Test results",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm' is not valid under any of the given schemas",
-        "suberrors": "    type: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      }
-    ]
-  },
-  {
     "id": "5261e3d5-b32f-4180-a374-61cab95e63f1",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "Annual Review Encounters",
@@ -9415,6 +9382,84 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "58543551-f91b-4655-bf02-64593f580851",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Test results",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Exclusively for national emergency response for COVID-19' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Exclusively for national emergency response for COVID-19' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm' is not valid under any of the given schemas",
+        "suberrors": "    type: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
+    "id": "590a53fc-e3d9-4254-9839-e734044da4f2",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Emergency Department Dataset Daily",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Exclusively for national emergency response for COVID-19' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Exclusively for national emergency response for COVID-19' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable to any SAIL linked dataset' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable to any SAIL linked dataset' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
@@ -15149,6 +15194,44 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: '1 Month Cycle' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "8d89da6f-e0c7-436e-bf56-697137221b5f",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Shielded People list",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Exclusively for national emergency response for COVID-19' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Exclusively for national emergency response for COVID-19' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -24166,39 +24249,6 @@
     ]
   },
   {
-    "id": "e7d0131d-9022-473d-a9a3-f8a22d76c55b",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "COVID-19 Shielded People list",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "e85e5c8c-b6be-4e8b-8a0b-13b785b457a2",
     "publisher": "HUBS > DISCOVER NOW",
     "title": "North West London Community Data (NWL COM)",
@@ -24957,36 +25007,6 @@
         "attribute": "linkedDataset",
         "message": "linkedDataset: 'Hospital care (Accident and Emergency; Inpatient; Outpatient; Imaging)\\nDeath registry\\nCancer registry and treatment\\nMental health services\\nSocio-economic measures' is not valid under any of the given schemas",
         "suberrors": "    enum: 'Hospital care (Accident and Emergency; Inpatient; Outpatient; Imaging)\\nDeath registry\\nCancer registry and treatment\\nMental health services\\nSocio-economic measures' is not one of ['Not Known', 'Not Available']"
-      }
-    ]
-  },
-  {
-    "id": "efb03936-6904-44fc-9d73-c6794206a6db",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Emergency Department Dataset Daily",
-    "schema_error_count": 5,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkable to any SAIL linked dataset' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkable to any SAIL linked dataset' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
