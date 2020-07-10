@@ -12007,39 +12007,6 @@
     ]
   },
   {
-    "id": "71e22289-32df-43dc-a20f-756f2c814c36",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "COVID-19 Symptom Tracker Dataset",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '>1 WEEK' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Local - See Technical Details' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Local Standard' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Great Britain' is not a 'uri'"
-      }
-    ]
-  },
-  {
     "id": "72fe91de-b0c0-423a-ad68-bd7067b20ad8",
     "publisher": "Oxford University Hospitals NHS Foundation Trust",
     "title": "Infoflex Cancer Registry",
@@ -24199,6 +24166,39 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available upon request' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available upon request' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "e525b056-1bac-46ee-838c-6bef8a8815cb",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Symptom Tracker Dataset",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '>1 WEEK' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Local - See Technical Details' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Local Standard' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Great Britain' is not a 'uri'"
       }
     ]
   },
