@@ -5397,6 +5397,47 @@
     ]
   },
   {
+    "id": "2eef1fc0-6028-435d-a0ed-0d01f8262ca9",
+    "publisher": "HUBS > BREATHE",
+    "title": "Assessing the eDPSEEA model in seasonal pollen induced asthma in Islamabad",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Please contact the RESPIRE team.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Please contact the RESPIRE team.' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Availability to be confirmed' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "2f57c592-c65c-4d1c-b92d-d19d2a11c02e",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "BioDock",
