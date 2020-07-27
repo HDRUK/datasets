@@ -3555,6 +3555,53 @@
     ]
   },
   {
+    "id": "1f55cfcc-1c5d-44e3-9d60-3bedeb033f0a",
+    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
+    "title": "Cystic Fibrosis Patient Demographics",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Local Standard' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'UK' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "201602df-7432-4710-98a7-18f59e4f211e",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "University of Southampton Faculty of Medicine Tissue Bank",
@@ -5397,47 +5444,6 @@
     ]
   },
   {
-    "id": "2eef1fc0-6028-435d-a0ed-0d01f8262ca9",
-    "publisher": "HUBS > BREATHE",
-    "title": "Assessing the eDPSEEA model in seasonal pollen induced asthma in Islamabad",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Access is managed on a project-by-project basis. Please contact the RESPIRE team.' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Access is managed on a project-by-project basis. Please contact the RESPIRE team.' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'Availability to be confirmed' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "2f57c592-c65c-4d1c-b92d-d19d2a11c02e",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "BioDock",
@@ -6588,57 +6594,6 @@
     ]
   },
   {
-    "id": "3b4e8fed-1c14-4c79-a20c-dfeab520be89",
-    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
-    "title": "Demographics",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Local Standard' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'UK' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually (continuous)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "3b930e97-b8eb-4680-9ad1-db6bccc6e1d8",
     "publisher": "ALLIANCE > SCOTLAND",
     "title": "Scottish Immunisation Recall System (SIRS)",
@@ -7268,49 +7223,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'Not Known' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "id": "425de2a1-5216-4973-a5cd-5cd3c35e40b3",
-    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
-    "title": "Transplants",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Local Standard' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'UK' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'All  our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'All  our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
@@ -7956,48 +7868,6 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
-      }
-    ]
-  },
-  {
-    "id": "48e1ee09-4dcb-40ce-8236-b64ce7f92aad",
-    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
-    "title": "CFQ-R",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Local Standard' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'UK' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'Not available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -8743,7 +8613,7 @@
   {
     "id": "5261e3d5-b32f-4180-a374-61cab95e63f1",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
-    "title": "Annual Review Encounters",
+    "title": "Cystic Fibrosis Patient Annual Review Encounters",
     "schema_error_count": 9,
     "errors": [
       {
@@ -11461,7 +11331,7 @@
   {
     "id": "6c6c46a8-b9b5-4137-a329-1e21030b9efb",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
-    "title": "Tendon Rupture",
+    "title": "Cystic Fibrosis Patient Tendon Rupture",
     "schema_error_count": 10,
     "errors": [
       {
@@ -12823,6 +12693,57 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Provisional data: Monthly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "7b4930b8-52df-4259-9106-dad8c1ffe14f",
+    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
+    "title": "Cystic Fibrosis Patient NTM culture",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Local Standard' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'UK' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Annually (Continuous)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -14519,6 +14440,48 @@
     ]
   },
   {
+    "id": "8881192f-ffdf-4917-be80-e7daab9a0ca2",
+    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
+    "title": "Cystic Fibrosis Patient CFQ-R",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Local Standard' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'UK' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "88c33d07-b009-4377-911a-8ba7bcdbf2b7",
     "publisher": "HUBS > NHS DIGITRIALS",
     "title": "National Diabetes Audit",
@@ -14891,48 +14854,6 @@
     ]
   },
   {
-    "id": "8b009063-5760-4915-8bcb-020ca17f8898",
-    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
-    "title": "Sweat Tests",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Local Standard' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'UK' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'Not available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "8b1f4b49-78b7-4f15-b4d0-ea2b009750cc",
     "publisher": "ALLIANCE > SAIL",
     "title": "Outpatient Referral",
@@ -15059,6 +14980,49 @@
     ]
   },
   {
+    "id": "8c5be9df-c9b8-43ab-83ca-5d5dd61549da",
+    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
+    "title": "Cystic Fibrosis Patient Transplants",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Local Standard' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'UK' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "8d3f80d4-aeae-46f0-809b-cd6c51e24f75",
     "publisher": "NHS Digital",
     "title": "Bridge file: Hospital Episode Statistics to Mental Health Minimum Data Set",
@@ -15167,6 +15131,44 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "8dd6f22d-e513-4ee7-a7e8-abe055727076",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Substance Misuse Dataset",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/substancemisusedatasetsmds.htm' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/substancemisusedatasetsmds.htm' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -15522,44 +15524,6 @@
       {
         "attribute": "title",
         "message": "title: 'National Asthma and COPD Audit Programme (NACAP): Pulmonary rehabilitation - organisational audit' is too long"
-      }
-    ]
-  },
-  {
-    "id": "9279c4fc-171e-4711-8a4e-e9c866c2e894",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Substance Misuse Dataset",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/substancemisusedatasetsmds.htm' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/substancemisusedatasetsmds.htm' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -21004,6 +20968,47 @@
     ]
   },
   {
+    "id": "c2548017-7913-40e1-bf98-aaa2e907b0ea",
+    "publisher": "HUBS > BREATHE",
+    "title": "Assessing the eDPSEEA model in seasonal pollen induced asthma in Islamabad",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Please contact the RESPIRE team.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Please contact the RESPIRE team.' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Availability to be confirmed' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "c275f19e-2373-43dc-8e83-3318aaf8bfa4",
     "publisher": "ALLIANCE > DUNDEE",
     "title": "Tayside Bowel Screening Dataset",
@@ -21681,57 +21686,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: '1 Month Cycle' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
-    "id": "c7db2002-4fbd-4c46-8032-e53a73e08c16",
-    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
-    "title": "NTM culture",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Local Standard' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'UK' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually (Continuous)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -24026,57 +23980,6 @@
     ]
   },
   {
-    "id": "e3c2d5ff-e08b-4fc9-a874-19123fab7183",
-    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
-    "title": "Chronic Medication",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Local Standard' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'UK' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually (continuous)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "e516a359-74a8-4932-b4df-f2cf75eef89d",
     "publisher": "HUBS > BREATHE",
     "title": "Unified Cohorts Research Network",
@@ -24167,6 +24070,48 @@
       {
         "attribute": "geographicCoverage",
         "message": "geographicCoverage: 'Great Britain' is not a 'uri'"
+      }
+    ]
+  },
+  {
+    "id": "e66b726f-8e58-4411-be32-1d00ba1df13f",
+    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
+    "title": "Cystic Fibrosis Patient Sweat Tests",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Local Standard' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'UK' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -25609,6 +25554,53 @@
         "attribute": "linkedDataset",
         "message": "linkedDataset: 'Linkage to HES, National PROMS and Civil Registration Data is available subject to additional permissions' is not valid under any of the given schemas",
         "suberrors": "    enum: 'Linkage to HES, National PROMS and Civil Registration Data is available subject to additional permissions' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "f55dd7ed-cb11-4bb6-84a7-29ae83ffe3fc",
+    "publisher": "ALLIANCE > CYSTIC FIBROSIS",
+    "title": "Cystic Fibrosis Patient Chronic Medication",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '16 weeks (8 weeks for Committee decision and 8 weeks for data extraction and processing)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Local Standard' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Local Standard' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Local Standard' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'UK' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'All our datasets are linked by a common identifier. No external linkages.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'All our datasets are linked by a common identifier. No external linkages.' is not one of ['Not Known', 'Not Available']"
       },
       {
         "attribute": "periodicity",
