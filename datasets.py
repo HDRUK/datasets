@@ -121,7 +121,7 @@ def fix_dates(revisions):
       except ValueError:
         du = datetime.strptime(ret["dateFinalised"], "%Y-%m-%dT%H:%M:%SZ")
     else:
-      du = None
+      du = lu
     if lu is not None: last_updated.append(lu)
     if du is not None: date_finalised.append(du)
   if len(last_updated) > 0 and len(date_finalised) > 0:
