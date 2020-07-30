@@ -9458,40 +9458,6 @@
     ]
   },
   {
-    "id": "5af81815-6304-4013-be04-702b15eefab1",
-    "publisher": "HUBS > DISCOVER NOW",
-    "title": "North West London Vulnerable Patient List (NWL VPL)",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '4 - 6 weeks' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL, NHS NATIONAL CODES, ODS' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL, NHS NATIONAL CODES, ODS' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions\\nElectronic Frailty Index\\nQ-Admissions\\nPatient Segments\\nRisk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions\\nElectronic Frailty Index\\nQ-Admissions\\nPatient Segments\\nRisk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      }
-    ]
-  },
-  {
     "id": "5b85d641-73dd-4dba-a1a3-b6340227d2ef",
     "publisher": "ALLIANCE > SCOTLAND",
     "title": "Child Health Systems Programme - First Visit",
