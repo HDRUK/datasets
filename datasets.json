@@ -1,5 +1,5 @@
 {
-  "count": 456,
+  "count": 455,
   "dataModels": [
     {
       "id": "004d1932-f06e-49d2-b87a-e5e4140ffbb3",
@@ -27875,176 +27875,6 @@
       },
       "modified": "2020-04-27T09:10:47Z",
       "issued": "2020-01-13T17:16:31Z"
-    },
-    {
-      "id": "5af81815-6304-4013-be04-702b15eefab1",
-      "domainType": "DataModel",
-      "label": "North West London Vulnerable Patient List (NWL VPL)",
-      "documentationVersion": "0.0.1",
-      "description": "NHSD definined list of vulnerable patients in regards to COVID-19.",
-      "editable": false,
-      "lastUpdated": "2020-06-12T14:08:24.345Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-06-12T14:13:08.976Z",
-      "accessRequestCost": "In Progress",
-      "keywords": "Vulnerable patients",
-      "contactPoint": "researchers@registerfordiscover.org.uk",
-      "accessRequestDuration": "4 - 6 weeks",
-      "jurisdiction": "GB",
-      "datasetStartDate": "2020-05-01",
-      "language": "en",
-      "title": "North West London Vulnerable Patient List (NWL VPL)",
-      "linkedDataset": "Not Available",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Not Available",
-      "controlledVocabulary": "LOCAL, NHS NATIONAL CODES, ODS",
-      "dataController": "Joint data controller model across North West London",
-      "statisticalPopulation": "80035",
-      "group": "No Group",
-      "identifier": "NWL VPL",
-      "creator": "NHS Brent CCG",
-      "releaseDate": "2020-05-06T00:00:00Z",
-      "format": "Excel, SQL, Tableau, R",
-      "abstract": "The NWL Vunerable Patient List linked table is for patients previously defined as vulnerable and now called shielded patient list by NHS England. These are patients who are registered with a North West London General Practice.",
-      "dataProcessor": "NHS BRENT CCG",
-      "derivedDatasets": "Long Term Conditions\nElectronic Frailty Index\nQ-Admissions\nPatient Segments\nRisk Segments",
-      "license": "In Progress",
-      "populationType": "NHSD definined list of vulnerable patients in regards to COVID-19",
-      "fileSize": "10MB",
-      "periodicity": "Monthly",
-      "publisher": "HUBS > DISCOVER NOW",
-      "ageBand": "Any Age",
-      "accessRights": "https://www.registerfordiscover.org.uk/researchers/how-to-access-discover",
-      "conformsTo": "LOCAL",
-      "geographicCoverage": "NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG",
-      "doi": "In Progress",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "563b8046-b729-4716-be6c-525fedb19645",
-          "domainType": "DataClass",
-          "label": "Vulnerable Patients",
-          "description": "NHSD definined list of vulnerable patients in regards to COVID-19",
-          "lastUpdated": "2020-06-12T14:08:24.367Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "d1c849f5-ed28-4580-a76e-1d2d17ca3045",
-              "domainType": "DataElement",
-              "label": "Flag_PregnantWithCongentialHeartDefect",
-              "description": "Had had PregnantWithCongentialHeartDefect",
-              "dataType": {
-                "id": "ee55991e-b163-482f-81f0-b755de6811e4",
-                "domainType": "PrimitiveType",
-                "label": "bit"
-              }
-            },
-            {
-              "id": "9f94e850-33fa-40a4-8da3-146fe61543b9",
-              "domainType": "DataElement",
-              "label": "dv_CCGOfResidence_FromPostcode",
-              "description": "CCG Code of address (eg 07Y)",
-              "dataType": {
-                "id": "68188500-8676-4f6b-9088-5ad99787f3a6",
-                "domainType": "PrimitiveType",
-                "label": "varchar(10)"
-              }
-            },
-            {
-              "id": "88e65ed8-ca93-408e-9a63-7c718da6c461",
-              "domainType": "DataElement",
-              "label": "Flag_RareDiseases",
-              "description": "Has had RareDiseases",
-              "dataType": {
-                "id": "ee55991e-b163-482f-81f0-b755de6811e4",
-                "domainType": "PrimitiveType",
-                "label": "bit"
-              }
-            },
-            {
-              "id": "b20d2d6f-15fc-49bd-ac06-c2352b52f055",
-              "domainType": "DataElement",
-              "label": "OSLAUA",
-              "description": "OS Code for Local Authority",
-              "dataType": {
-                "id": "e5b87fd4-6671-4359-9d5c-fb575a123357",
-                "domainType": "PrimitiveType",
-                "label": "varchar(9)"
-              }
-            },
-            {
-              "id": "4ce6fa28-b36a-4f45-a9c3-c0da740b0de8",
-              "domainType": "DataElement",
-              "label": "age",
-              "description": "Age",
-              "dataType": {
-                "id": "159a1aeb-4704-4769-8e91-d9f92a3338ed",
-                "domainType": "PrimitiveType",
-                "label": "int"
-              }
-            },
-            {
-              "id": "b9e1d1d2-2b69-4637-90fd-2f4e3116b06c",
-              "domainType": "DataElement",
-              "label": "MonthofDeath",
-              "description": "1 Day of Month",
-              "dataType": {
-                "id": "6304ae92-6542-4466-a41d-fe0b7ee4213f",
-                "domainType": "PrimitiveType",
-                "label": "date"
-              }
-            },
-            {
-              "id": "160337f2-1331-409b-8d0f-869539ac8b0b",
-              "domainType": "DataElement",
-              "label": "dv_CCGOfRegistration_FromPractice",
-              "description": "CCG Code of practice (eg 07Y)",
-              "dataType": {
-                "id": "68188500-8676-4f6b-9088-5ad99787f3a6",
-                "domainType": "PrimitiveType",
-                "label": "varchar(10)"
-              }
-            },
-            {
-              "id": "f1f52165-e80d-4d80-8842-5c3f410a0e5d",
-              "domainType": "DataElement",
-              "label": "Flag_HeamatologicalCancers",
-              "description": "Has had HeamatologicalCancers",
-              "dataType": {
-                "id": "ee55991e-b163-482f-81f0-b755de6811e4",
-                "domainType": "PrimitiveType",
-                "label": "bit"
-              }
-            },
-            {
-              "id": "753fd458-cf08-4f2e-b9c4-5bc0af52749f",
-              "domainType": "DataElement",
-              "label": "Flag_Transplant",
-              "description": "Has had transplant",
-              "dataType": {
-                "id": "ee55991e-b163-482f-81f0-b755de6811e4",
-                "domainType": "PrimitiveType",
-                "label": "bit"
-              }
-            },
-            {
-              "id": "67640d4c-57d4-4a3b-94e2-1e2246c78719",
-              "domainType": "DataElement",
-              "label": "Flag_PDSInformallyDeceased",
-              "description": "Flag_PDSInformallyDeceased",
-              "dataType": {
-                "id": "ee55991e-b163-482f-81f0-b755de6811e4",
-                "domainType": "PrimitiveType",
-                "label": "bit"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {},
-      "modified": null,
-      "issued": null
     },
     {
       "id": "5b85d641-73dd-4dba-a1a3-b6340227d2ef",
@@ -62354,14 +62184,14 @@
       "lastUpdated": "2020-01-14T12:10:30.442Z",
       "classifiers": [
         {
-          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
-          "label": "Critical Care",
-          "lastUpdated": "2019-10-24T09:45:59.854Z"
-        },
-        {
           "id": "ef85dd01-09a1-43af-81ef-82e402328572",
           "label": "NIHR HIC Data Models",
           "lastUpdated": "2019-12-17T12:17:55.21Z"
+        },
+        {
+          "id": "f2af5a13-0b50-4536-be85-4ef7f6f67c8f",
+          "label": "Critical Care",
+          "lastUpdated": "2019-10-24T09:45:59.854Z"
         }
       ],
       "type": "Data Asset",
