@@ -1432,6 +1432,184 @@
       "issued": "2020-01-13T15:06:29Z"
     },
     {
+      "id": "08a7c3c9-16e5-46f7-b594-f84618fcc62e",
+      "domainType": "DataModel",
+      "label": "Annual District Death Daily",
+      "documentationVersion": "4.0.0",
+      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nDaily version of Annual District Deaths Datasets. Office for National Statistics (ONS) register of all deaths relating to Welsh residents, including those that died outside of Wales.\n\nThe data are collected from death registrations.",
+      "editable": false,
+      "lastUpdated": "2020-07-31T09:43:27.279Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-07-31T09:43:47.685Z",
+      "accessRequestCost": "0 GBP",
+      "keywords": "SAIL, Death, Wales, Daily",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Other",
+      "jurisdiction": "GB-WLS",
+      "datasetEndDate": "2020-07-23",
+      "datasetStartDate": "2016-01-16",
+      "language": "en",
+      "title": "Annual District Death Daily",
+      "linkedDataset": "Linkable to Other SAIL Linked datasets",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Not Available",
+      "controlledVocabulary": "ICD-10",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "32000",
+      "group": "No Group",
+      "identifier": "ADDD",
+      "creator": "NHS Wales Informatics Service",
+      "releaseDate": "2020-06-05T00:00:00Z",
+      "format": "SQL table",
+      "abstract": "Daily version of Annual District Death Dataset.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Deaths of Welsh residents. Approx 32,000 deaths per year.",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "Daily",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "All Ages",
+      "accessRights": "Exclusively for national emergency response for COVID-19",
+      "conformsTo": "LOCAL",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "384cd052-a78b-461b-a3cb-687c9b3dcd33",
+          "domainType": "DataClass",
+          "label": "DF_ONS_DEATHSDAILY",
+          "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nDaily version of Annual District Deaths Datasets. Office for National Statistics (ONS) register of all deaths relating to Welsh residents, including those that died outside of Wales.\n\nThe data are collected from death registrations.",
+          "lastUpdated": "2020-07-31T09:43:27.927Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "fac31564-176e-46e3-aeb0-5d9a267938a0",
+              "domainType": "DataElement",
+              "label": "SECCATDM",
+              "description": "Socio-economic classification code; National Statistics Socio-economic Classification operational category for mother of deceased juvenile. Covers all records after 2001; codes are derived during the online coding and validation process from a pre-existing field that contains the values 1-40 of the operational categories of the National Statistics Socioeconomic Classification based on Standard Occupational Classification.",
+              "dataType": {
+                "id": "b039cfe2-2481-45aa-ab6d-2ceaa32b315b",
+                "domainType": "PrimitiveType",
+                "label": "SMALLINT"
+              }
+            },
+            {
+              "id": "ea15d85f-f38f-4566-94c3-1fdf05819b7b",
+              "domainType": "DataElement",
+              "label": "CAUSE_ROW_4",
+              "description": "ICD-9 or ICD-10 code to understand underlying [secondary] or external cause of death.",
+              "dataType": {
+                "id": "fe80cc41-e095-44bb-9bae-5506b0d9f668",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "f1fda261-16a6-4199-baca-73c44925c989",
+              "domainType": "DataElement",
+              "label": "DEATH_DT",
+              "description": "Date of death day.  Value Labels/Coding: 00-31=day. This is derived from the death certificate. If the value is unknown or omitted then it is populated with 0.",
+              "dataType": {
+                "id": "6800ec93-d515-4c8a-a1b6-b57c025a6deb",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "4ece4a7c-6197-4cc6-a84e-9412c022e466",
+              "domainType": "DataElement",
+              "label": "INQUEST_DATE",
+              "description": "The inquest date of the death.",
+              "dataType": {
+                "id": "fe80cc41-e095-44bb-9bae-5506b0d9f668",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "d3d8a495-43cf-4e98-9c36-d79f1f4c1995",
+              "domainType": "DataElement",
+              "label": "CAUSE_CD_1",
+              "description": "Coded cause of death, this is coded to ICD9 for deaths from 1993-2000 and ICD10 for deaths from 2001- Onwards",
+              "dataType": {
+                "id": "fe80cc41-e095-44bb-9bae-5506b0d9f668",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "3292cf62-f5cc-4893-8424-deb197e9f7a9",
+              "domainType": "DataElement",
+              "label": "CAUSE_CD_3",
+              "description": "Coded cause of death, this is coded to ICD9 for deaths from 1993-2000 and ICD10 for deaths from 2001- Onwards",
+              "dataType": {
+                "id": "fe80cc41-e095-44bb-9bae-5506b0d9f668",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "f5d4c271-6227-4552-a2e7-4e7a6da7de9d",
+              "domainType": "DataElement",
+              "label": "LASTUPDATED",
+              "description": "The date the death was last updated in this dataset.",
+              "dataType": {
+                "id": "3da4159e-b801-47d9-9d64-ac3803924991",
+                "domainType": "PrimitiveType",
+                "label": "TIMESTAMP"
+              }
+            },
+            {
+              "id": "5af2c6de-5c63-4c96-a48d-89583e558d2b",
+              "domainType": "DataElement",
+              "label": "DOB",
+              "description": "Date of birth of the individual.",
+              "dataType": {
+                "id": "6800ec93-d515-4c8a-a1b6-b57c025a6deb",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "784c00c7-a746-487c-81fa-862159e20386",
+              "domainType": "DataElement",
+              "label": "CAUSE_CD_8",
+              "description": "Coded cause of death, this is coded to ICD9 for deaths from 1993-2000 and ICD10 for deaths from 2001- Onwards",
+              "dataType": {
+                "id": "fe80cc41-e095-44bb-9bae-5506b0d9f668",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "492de219-649a-41ff-b2db-a027f29d33c1",
+              "domainType": "DataElement",
+              "label": "NHS_IND",
+              "description": "NHS establishment indicator for place of death. This is a code derived during the Communal Establishment coding process from the Communal Establishment file, using the entity code of place of death in CESTRSS. Not present if CESTRSS is H or E. Values are 1: NHS establishment; 2: Non-NHS establishment.",
+              "dataType": {
+                "id": "b039cfe2-2481-45aa-ab6d-2ceaa32b315b",
+                "domainType": "PrimitiveType",
+                "label": "SMALLINT"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "3.0.0": "337f2a0d-e876-4ec1-b05f-38b98aac93a8",
+        "4.0.0": "08a7c3c9-16e5-46f7-b594-f84618fcc62e",
+        "2.0.0": "520fe2c1-d442-4ec2-8209-bcfd792a4f48",
+        "1.0.0": "14a752a8-8efa-4bab-85c1-190e1f20c8cf",
+        "0.0.1": "cc4f967a-7a64-461f-ad15-bb8036fb81af",
+        "latest": "08a7c3c9-16e5-46f7-b594-f84618fcc62e"
+      },
+      "modified": "2020-07-31T09:43:27Z",
+      "issued": "2020-06-10T09:53:21Z"
+    },
+    {
       "id": "09586db0-4da4-47f8-9434-13cbd2da2bb9",
       "domainType": "DataModel",
       "label": "Paediatric Intensive Care Audit Network - customised data collection",
@@ -15315,180 +15493,6 @@
       "issued": "2020-01-13T17:05:23Z"
     },
     {
-      "id": "337f2a0d-e876-4ec1-b05f-38b98aac93a8",
-      "domainType": "DataModel",
-      "label": "Annual District Death Daily",
-      "documentationVersion": "3.0.0",
-      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nDaily version of Annual District Deaths Datasets. Office for National Statistics (ONS) register of all deaths relating to Welsh residents, including those that died outside of Wales.\n\nThe data are collected from death registrations.",
-      "editable": false,
-      "lastUpdated": "2020-07-09T09:46:56.44Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-07-09T09:47:02.255Z",
-      "accessRequestCost": "0 GBP",
-      "keywords": "SAIL, Death, Wales, Daily",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Other",
-      "jurisdiction": "GB-WLS",
-      "datasetStartDate": "1996-01-01",
-      "language": "en",
-      "title": "Annual District Death Daily",
-      "linkedDataset": "Linkable to Other SAIL Linked datasets",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Not Available",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "32000",
-      "group": "No Group",
-      "identifier": "ADDD",
-      "creator": "NHS Wales Informatics Service",
-      "releaseDate": "2020-06-05T00:00:00Z",
-      "format": "SQL table",
-      "abstract": "Daily version of Annual District Death Dataset.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Deaths per year",
-      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
-      "periodicity": "Daily",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "All Ages",
-      "accessRights": "Exclusively for national emergency response for COVID-19",
-      "geographicCoverage": "Wales",
-      "doi": "In Progress",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "d572acf0-358f-4ef7-8b78-cb58d0740aa2",
-          "domainType": "DataClass",
-          "label": "DEATHS",
-          "description": "The Office for National Statistics (ONS) Annual District Death Extract (ADDE) is a register of all deaths relating to Welsh residents, including those that died out of Wales. To aid in user needs, timely but provisional counts of death registrations in England and Wales are pubilshed weekly, monthly, and quarterly. Annual mortality statistics (based on deaths registered in a calendar year) are published in separate packages to enable the timely release of statistics. From 1974 to 2005, mortality statistics were published in the annual reference volumns, DH1, DH2, and DH4. From 1993 to 2005, figures were based on deaths occurring annually in England and Wales in the reference year. Prior to 1993, figures were based on deaths registered in England and Wales in the reference year. In 2006, these three volumes were replaced by a single publication, Mortality statistics: deaths registered in England and Wales (Series DR) based on deaths registered in a reference year.",
-          "lastUpdated": "2020-07-09T09:46:56.706Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "822b2d2f-6808-43c7-8274-c8979c6761df",
-              "domainType": "DataElement",
-              "label": "DEC_STATS_PREV_CENSUS_HEALTH_ORG_PREV_CD",
-              "description": "Description to follow",
-              "dataType": {
-                "id": "b9289ef2-0b01-4700-90d6-2ca9c58a79f3",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "c26e7557-590d-4941-84ac-06f386e60966",
-              "domainType": "DataElement",
-              "label": "DEATHCAUSE_DIAG_3_CD",
-              "description": "Coded cause of death, this is coded to ICD9 for deaths from 1993-2000 and ICD10 for deaths from 2001- Onwards",
-              "dataType": {
-                "id": "7f3b392e-09db-4078-8a31-afeb9f1a9005",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "6fd89ff9-2c17-4370-a0ad-9caa0d3e1070",
-              "domainType": "DataElement",
-              "label": "DEATHSTATS_PREV_CENSUS_LA_CD",
-              "description": "Local Authority code for the place of death of the deceased, based on the previous census.",
-              "dataType": {
-                "id": "7f3b392e-09db-4078-8a31-afeb9f1a9005",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "4c3fff99-535d-4798-9829-a0d421e037b3",
-              "domainType": "DataElement",
-              "label": "DEATHCAUSE_ROWPOS_4_CD",
-              "description": "ICD-9 or ICD-10 code to understand underlying [secondary] or external cause of death.",
-              "dataType": {
-                "id": "7f3b392e-09db-4078-8a31-afeb9f1a9005",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "2de635db-2b64-439f-b44c-54f25cacfc1f",
-              "domainType": "DataElement",
-              "label": "DEATH_COMMUNAL_ESTABLISHMENT_CD_E",
-              "description": "Communal establishment code of residence; coding ranges 00000-99999 [see communal establishment list for full description]. Covers all records where the deceased died in a communal establishment with a stay of over 6 months [e.g. nursing home]. Specific derivation: where a deceased person dies in a communal establishment and their length of stay is over 6 months which will populate the field CESTSTAY with a value of 2. The CESTRSSR code is applied in relation to that specific communal establishment where they lived. Missing Values and imputation, or where blank, will have \"\".",
-              "dataType": {
-                "id": "3b57fc14-3e59-4d64-b7de-4ff7db40bc7a",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "89292d2d-2fad-441a-9f53-7806a74910d0",
-              "domainType": "DataElement",
-              "label": "DEC_OR_MOTHER_RETIRED_IND_CD",
-              "description": "Retired indicator for deceased or mother [in case of child]. Value=1 for \"retired\", black if otherwise.",
-              "dataType": {
-                "id": "7f3b392e-09db-4078-8a31-afeb9f1a9005",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "dcb8c9fa-1470-415c-9a4b-0475fde8da27",
-              "domainType": "DataElement",
-              "label": "DEATHCAUSE_ROWPOS_7_CD",
-              "description": "ICD-9 or ICD-10 code to understand underlying [secondary] or external cause of death.",
-              "dataType": {
-                "id": "7f3b392e-09db-4078-8a31-afeb9f1a9005",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "3d05680c-5a22-498d-a40f-898468bbd2d1",
-              "domainType": "DataElement",
-              "label": "DEATHCAUSE_DIAG_5_CD",
-              "description": "Coded cause of death, this is coded to ICD9 for deaths from 1993-2000 and ICD10 for deaths from 2001- Onwards",
-              "dataType": {
-                "id": "7f3b392e-09db-4078-8a31-afeb9f1a9005",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "ba4bb355-cdda-4404-84c0-f6cc88f6339f",
-              "domainType": "DataElement",
-              "label": "DEC_OR_MOTHER_SOCIOECONOMIC_CLASS_CD",
-              "description": "Socio-economic classification code; National Statistics Socio-economic Classification operational category for mother of deceased juvenile. Covers all records after 2001; codes are derived during the online coding and validation process from a pre-existing field that contains the values 1-40 of the operational categories of the National Statistics Socioeconomic Classification based on Standard Occupational Classification.",
-              "dataType": {
-                "id": "7f3b392e-09db-4078-8a31-afeb9f1a9005",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "a7ab9cfb-92d3-47da-a1c7-a7d8275a113c",
-              "domainType": "DataElement",
-              "label": "DEATH_ESTABLISHMENT_TYPE_CD",
-              "description": "Establishment type where birth occurred [e.g. NHS facility or other/elsewhere]. Value labels/coding/range 01-83,99; see communal establishment list. Covers all records where death took place in communal establishment. Derived in the Communal Establishment Coding process which uses the entity code held in CESTRSS [Communal Establishment Code] to find establishment type on the OGSS Communal Establishment file.",
-              "dataType": {
-                "id": "7f3b392e-09db-4078-8a31-afeb9f1a9005",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "2.0.0": "520fe2c1-d442-4ec2-8209-bcfd792a4f48",
-        "3.0.0": "337f2a0d-e876-4ec1-b05f-38b98aac93a8",
-        "1.0.0": "14a752a8-8efa-4bab-85c1-190e1f20c8cf",
-        "0.0.1": "cc4f967a-7a64-461f-ad15-bb8036fb81af",
-        "latest": "337f2a0d-e876-4ec1-b05f-38b98aac93a8"
-      },
-      "modified": "2020-07-09T09:46:56Z",
-      "issued": "2020-06-10T09:53:21Z"
-    },
-    {
       "id": "342bef6e-8fa2-49f0-bdbb-c95d866aa145",
       "domainType": "DataModel",
       "label": "Scottish Human Papillomavirus Archive",
@@ -27698,184 +27702,6 @@
       "issued": "2020-04-27T09:05:28Z"
     },
     {
-      "id": "590a53fc-e3d9-4254-9839-e734044da4f2",
-      "domainType": "DataModel",
-      "label": "Emergency Department Dataset Daily",
-      "documentationVersion": "4.0.0",
-      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nAdministrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
-      "editable": false,
-      "lastUpdated": "2020-07-09T09:45:36.38Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-07-09T09:45:42.129Z",
-      "accessRequestCost": "0 GBP",
-      "keywords": "SAIL, Emergency, A&E",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Other",
-      "jurisdiction": "GB-WLS",
-      "datasetEndDate": "2020-05-28",
-      "datasetStartDate": "2009-04-01",
-      "language": "en",
-      "title": "Emergency Department Dataset Daily",
-      "linkedDataset": "Linkable to any SAIL linked dataset",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Lyons, R.A., Jones, K.H., John, G. et al. The SAIL databank: linking multiple health and social care datasets. BMC Med Inform Decis Mak 9, 3 (2009). https://doi.org/10.1186/1472-6947-9-3",
-      "controlledVocabulary": "LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "750000",
-      "group": "No Group",
-      "identifier": "EDDD",
-      "creator": "NHS Wales Informatics Service (NWIS)",
-      "releaseDate": "2020-06-05T00:00:00Z",
-      "format": "SQL table",
-      "abstract": "Daily version of Emergency Department Dataset.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project. Data within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Emergency department attendances per year",
-      "fileSize": "Will vary significantly depending on linked datasets, release version, variable selection etc",
-      "periodicity": "Daily",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "All Ages",
-      "accessRights": "Exclusively for national emergency response for COVID-19",
-      "conformsTo": "LOCAL",
-      "geographicCoverage": "Wales",
-      "doi": "In Progress",
-      "dataClassesCount": 1,
-      "dataClasses": [
-        {
-          "id": "2307742c-f36c-447d-8a26-397761e4122c",
-          "domainType": "DataClass",
-          "label": "EDDS",
-          "description": "All data related to the Emergancy Department Data Set:\nThe Emergency Department Data Set (EDDS) captures attendances at Accident & Emergency departments and Minor Injury Units (MIUs) in Welsh hospitals.\nVelindre NHS Trust does not provide EDDS data as there are no A&E departments or MIUs in the Trust.\nWelsh residents who attended an emergency department in England are not included.\nThe submission is based on administrative end date.\nPlanned follow up patients are included.\nDefinitions that apply to SITREPS may differ from those associated to the EDDS.",
-          "lastUpdated": "2020-07-09T09:45:36.898Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "2d2f717e-3235-4a00-b6b3-814e5cb04201",
-              "domainType": "DataElement",
-              "label": "ALCOHOL_IND",
-              "description": "Alcohol Indicator. In the clinical opinion of the Emergency Department, has the presence of alcohol in the presenting patient contributed to this attendance?\n\nNote: this question only needs to be answered for New Attendances and Unplanned Follow-ups. For Follow-up patients, value \u201804 \u2013 Not Applicable\u2019 should be recorded in this field.",
-              "dataType": {
-                "id": "0e04eae7-18ef-431a-acf8-55baf5a59b3f",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "0cc2c930-39de-4a88-8a03-0e2d84fe6788",
-              "domainType": "DataElement",
-              "label": "INVEST_CD_2",
-              "description": "Second investigation type code. Investigation type codes may be requested to assist with diagnosis during and Accident and Emergency Department Attendance.\n\nNote: Up to 6 types of investigation can be listed in this section of the Data Set.",
-              "dataType": {
-                "id": "0e04eae7-18ef-431a-acf8-55baf5a59b3f",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "a8156d0d-ae80-4e41-ba72-be6e7e7ae631",
-              "domainType": "DataElement",
-              "label": "AMB_INCID_NO_E",
-              "description": "Encrypted Ambulance Incident Number. When a patient arrives by ambulance, this is the incident number for that journey, allocated by the Ambulance Control.\n\nFor patients who did not arrive by ambulance, this field should be left blank.",
-              "dataType": {
-                "id": "d493a34f-7776-491a-9c65-37fb7dfffec2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "bd231dff-4dc7-4865-90dd-f2c835e4eac1",
-              "domainType": "DataElement",
-              "label": "INVEST_CD_4",
-              "description": "Fourth investigation type code. Investigation type codes may be requested to assist with diagnosis during and Accident and Emergency Department Attendance.\n\nNote: Up to 6 types of investigation can be listed in this section of the Data Set.",
-              "dataType": {
-                "id": "0e04eae7-18ef-431a-acf8-55baf5a59b3f",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "97c1e005-9c41-4031-b76a-804713ba3233",
-              "domainType": "DataElement",
-              "label": "SITE_CD_OF_TREAT",
-              "description": "Site Code of Treatment (5 character code). The organisation code for the site where the patient will be or is treated.",
-              "dataType": {
-                "id": "cf7555b8-ef5c-4bd5-ad1f-35e7c4736de9",
-                "domainType": "PrimitiveType",
-                "label": "VARCHAR"
-              }
-            },
-            {
-              "id": "f360915a-346f-40ea-9a31-82401169dd33",
-              "domainType": "DataElement",
-              "label": "ALF_E",
-              "description": "The Anonymised Linking Field, which has been Encrypted for its use within the database, is derived from the persons NHS number by double encryption (first encryption occurs in NWIS and the second in SAIL). If the NHS number is not supplied in the data extract then matching methods are applied.",
-              "dataType": {
-                "id": "d493a34f-7776-491a-9c65-37fb7dfffec2",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "c973063f-9b40-4d4e-8775-5a540e3f2d31",
-              "domainType": "DataElement",
-              "label": "ADD_DETAILS",
-              "description": "Additional Incident details. A record of any additional details of the incident that led to the Accident & Emergency Department Attendance that cannot be recorded elsewhere within the dataset.\n\nNote: This field allows for any supplementary information supporting either the injury or illness causing the patient to attend the Accident & Emergency Department, or any other details pertaining to the patient's treatment, to be recorded; this includes details relating to the location where the incident occurred specifically, Road, Vehicle collision or Assault incidents.",
-              "dataType": {
-                "id": "72d688bb-c324-4345-a92e-ce32f12ba10b",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "5e6be9be-1b11-4188-97f5-aebda9345dda",
-              "domainType": "DataElement",
-              "label": "ACTIVITY",
-              "description": "What the patient was doing at the time of injury. This item helps establish a picture of how the physical or chemical injury occurred.",
-              "dataType": {
-                "id": "0e04eae7-18ef-431a-acf8-55baf5a59b3f",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "475efc94-388f-462d-8ffe-10564710ca84",
-              "domainType": "DataElement",
-              "label": "ARRIVAL_MODE",
-              "description": "The principal means by which a patient arrives at an Accident and Emergency department.\n\nNotes:\n- If the patient has been transported from a Heliport/pad to the Accident and Emergency Department by Ambulance, the arrival mode should still be recorded as '02' Helicopter/ Air Ambulance.\n- Record value \u201998 \u2013 Not Applicable (Planned Follow-Up)\u2019 for patients attending the Accident and Emergency Department for a planned follow-up appointment.",
-              "dataType": {
-                "id": "0e04eae7-18ef-431a-acf8-55baf5a59b3f",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "42ad91f5-7287-44d5-8d83-9f25d71fe600",
-              "domainType": "DataElement",
-              "label": "DOB_YEAR",
-              "description": "The year of the Date of birth of patient / client.",
-              "dataType": {
-                "id": "0e04eae7-18ef-431a-acf8-55baf5a59b3f",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "3.0.0": "efb03936-6904-44fc-9d73-c6794206a6db",
-        "4.0.0": "590a53fc-e3d9-4254-9839-e734044da4f2",
-        "2.0.0": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1",
-        "1.0.0": "7ed951dc-6d9f-4c08-a41c-719ec3381503",
-        "0.0.1": "d8b14954-5507-45dc-8bb5-638dda8a121d",
-        "latest": "590a53fc-e3d9-4254-9839-e734044da4f2"
-      },
-      "modified": "2020-07-09T09:45:36Z",
-      "issued": "2020-06-10T09:56:20Z"
-    },
-    {
       "id": "593a5263-e2b5-4433-81c1-30b35a520488",
       "domainType": "DataModel",
       "label": "King's Health Partners Cancer Biobank",
@@ -27924,6 +27750,302 @@
       },
       "modified": "2020-04-27T09:10:34Z",
       "issued": "2020-01-13T17:05:23Z"
+    },
+    {
+      "id": "599b721f-054b-4b4d-b447-5dee7797ab58",
+      "domainType": "DataModel",
+      "label": "Looked After Children Wales",
+      "documentationVersion": "2.0.0",
+      "description": "Information about looked after children. Includes demographic and episode level information.",
+      "editable": false,
+      "lastUpdated": "2020-07-31T11:02:00.421Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-07-31T11:02:22.976Z",
+      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
+      "keywords": "SAIL, Welsh, Children",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
+      "jurisdiction": "GB-WLS",
+      "datasetEndDate": "2018-03-31",
+      "datasetStartDate": "1999-06-21",
+      "language": "en",
+      "title": "Looked After Children Wales",
+      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Not Available",
+      "controlledVocabulary": "LOCAL",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "7000",
+      "group": "No Group",
+      "identifier": "LACW",
+      "creator": "Public Health Wales NHS Trust",
+      "releaseDate": "2019-12-11T00:00:00Z",
+      "format": "SQL database table",
+      "abstract": "Information about looked after children. Includes demographic and episode level information.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Looked after children. Approx 7000 children per year",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "Annual",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "0-19",
+      "accessRights": "https://saildatabank.com/application-process/",
+      "conformsTo": "LOCAL",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 2,
+      "dataClasses": [
+        {
+          "id": "7db1b82f-e517-49a5-a98a-57a32c78e7c1",
+          "domainType": "DataClass",
+          "label": "EPISODE_MAIN",
+          "description": "Episodes of care. Data items which relate to individual episodes of care, which either start or end during the census period",
+          "lastUpdated": "2020-07-31T11:02:00.568Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "235ea1aa-c1a4-4e8a-86a1-5078b65e39cc",
+              "domainType": "DataElement",
+              "label": "DATE_OF_DATA_COLLECTION",
+              "description": "Collection date. Date when the data submitted to Statistics for Wales i.e. date of return submission which is the first day of May following the end of each census period",
+              "dataType": {
+                "id": "c7cf699a-b784-4fbc-a626-ed4eb2bfd418",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "c00038ab-1ac6-49fe-8584-a73c5697ad04",
+              "domainType": "DataElement",
+              "label": "DATE_OF_EPISODE",
+              "description": "Date episode commenced. Date that each episode began. See tab GEN_DEFINITIONS for further information",
+              "dataType": {
+                "id": "c7cf699a-b784-4fbc-a626-ed4eb2bfd418",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "fc4abe9a-1a27-43d5-844e-5898da7bfa11",
+              "domainType": "DataElement",
+              "label": "LOCAL_AUTHORITY_CODE",
+              "description": "Local authority. An integer identifying the child's local authorty on 31 March 20XX. See tab LA_CODES for local authority code list.",
+              "dataType": {
+                "id": "771c0173-e8c9-4e35-bb04-decee88adfb8",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "8229aad8-db64-4e68-8b65-1f987ad0c4ae",
+              "domainType": "DataElement",
+              "label": "YEAR_CODE",
+              "description": "Census year. Census year NB integer is incorrectly formatted - possibly requires reformatting to be useable?",
+              "dataType": {
+                "id": "771c0173-e8c9-4e35-bb04-decee88adfb8",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "47d696f3-7bb7-4b06-9047-a626def7c12f",
+              "domainType": "DataElement",
+              "label": "REASON_EPISODE_STARTED_CODE",
+              "description": "Reason for new episode. An alphanumeric code one character long. \n\nS = started to be looked after (either because the child is starting to be looked after for the first time or had previously ceased to be looked after and is now starting to be looked after again. Also used where individual short breaks are recorded using legal status V1 - see tabs GEN_DEFINITIONS and LEGAL_STATUS); L = change of legal status; P = change of placement only; B = change of both legal status and placement status at same time \n\nThere are a few particular circumstances when a change of placement can be considered as temporary and where a placement change should not be recorded on the LACW census record; these special cases are defined in tab PLACEMENT_CODES.",
+              "dataType": {
+                "id": "3e85da74-55be-4b32-b384-9d81b69d8f11",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "8443f645-5c14-4d68-beaa-01446acff1ef",
+              "domainType": "DataElement",
+              "label": "SHORT_BREAKS",
+              "description": "Short breaks. An integer indicating the number of short term breaks (legal status V1) the child received",
+              "dataType": {
+                "id": "771c0173-e8c9-4e35-bb04-decee88adfb8",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "a933828e-1b47-4c75-8a56-bc56cc9a5908",
+              "domainType": "DataElement",
+              "label": "REASON_EPISODE_FINISHED_CODE",
+              "description": "Reason episode ceased. An alphanumeric field indicating the main reason the episode ended. X1 = the episode has ended and a further episode has started. For other code definitions see tab FINISHED_CODES",
+              "dataType": {
+                "id": "3e85da74-55be-4b32-b384-9d81b69d8f11",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "611f0deb-556b-4713-ad24-4b45d5b5d46f",
+              "domainType": "DataElement",
+              "label": "CATEGORY_OF_NEED_CODE",
+              "description": "Category of need. A code indicating the main reason why a child started to receive care and support services. Only one reason can be recorded - in the event of a child having multiple needs the primary category of need is recorded. See tab CAT_OF_NEED for category definitions",
+              "dataType": {
+                "id": "3e85da74-55be-4b32-b384-9d81b69d8f11",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "d777f188-e0fe-4dda-bd4c-86ffcd78cf19",
+              "domainType": "DataElement",
+              "label": "CHILD_CODE_E",
+              "description": "Local authority child identifier. SAIL-encrypted Local authority Child Identifier. Unique ID for each child which is retained from year to year. Links to LACC dataset.",
+              "dataType": {
+                "id": "977a2d57-f73d-4623-bd1c-3086919c3943",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "44759744-0fd8-481b-a070-1b5320c2d4e4",
+              "domainType": "DataElement",
+              "label": "IRN_E",
+              "description": "Individual record number (Education dataset). SAIL-encrypted Individual Record Number; links to the EDUW dataset, field SYSTEM_ID_E",
+              "dataType": {
+                "id": "977a2d57-f73d-4623-bd1c-3086919c3943",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            }
+          ]
+        },
+        {
+          "id": "55a606c9-53e1-4589-ae06-293a5d337296",
+          "domainType": "DataClass",
+          "label": "CHILD_MAIN",
+          "description": "Looked after children. Personal details of the child, such as date of birth, sex, ethnic origin and legal status",
+          "lastUpdated": "2020-07-31T11:02:00.57Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "585eacca-8a8a-48cf-9555-00d6ebbb9764",
+              "domainType": "DataElement",
+              "label": "ASYLUM",
+              "description": "Unaccompanied asylum seeking child (UASC). 0 = the child was not UASC on 31 March 20XX; 1 = the child was UASC on 31 March 20XX.",
+              "dataType": {
+                "id": "771c0173-e8c9-4e35-bb04-decee88adfb8",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "e92a03c1-325f-43d0-89dd-ec3d2dc7f9fc",
+              "domainType": "DataElement",
+              "label": "AREA_OFFICE_CODE",
+              "description": "Unknown but field not populated with data (all values NULL)",
+              "dataType": {
+                "id": "3e85da74-55be-4b32-b384-9d81b69d8f11",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "8bdcfa39-91b9-4c25-b703-73e94f75457d",
+              "domainType": "DataElement",
+              "label": "DATE_CEASED_UASC",
+              "description": "Date when the child ceased to be an unaccompanied asylum seeking child",
+              "dataType": {
+                "id": "c7cf699a-b784-4fbc-a626-ed4eb2bfd418",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "8c56b2a8-25c9-4654-b71d-5e38c0f93423",
+              "domainType": "DataElement",
+              "label": "LOCAL_AUTHORITY_CODE",
+              "description": "An integer identifying the child's local authorty on 31 March 20XX. See tab LA_CODES for local authority code list.",
+              "dataType": {
+                "id": "771c0173-e8c9-4e35-bb04-decee88adfb8",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "d168fa20-5e98-4f8a-ad03-ac18e68f1590",
+              "domainType": "DataElement",
+              "label": "YEAR_CODE",
+              "description": "Census year NB integer is incorrectly formatted - possibly requires reformatting to be useable?",
+              "dataType": {
+                "id": "771c0173-e8c9-4e35-bb04-decee88adfb8",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "985fb6bd-5852-4782-8d6c-793ad7fbd1b8",
+              "domainType": "DataElement",
+              "label": "CHILD_CODE_E",
+              "description": "Local authority child identifier. SAIL-encrypted Local authority Child Identifier. Unique ID for each child which is retained from year to year. Links to LACC dataset.",
+              "dataType": {
+                "id": "977a2d57-f73d-4623-bd1c-3086919c3943",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "3f35cd5c-90a4-4594-8de5-570b4304f5f3",
+              "domainType": "DataElement",
+              "label": "IRN_E",
+              "description": "Individual record number (Education dataset). SAIL-encrypted Individual Record Number; links to the EDUW dataset, field SYSTEM_ID_E",
+              "dataType": {
+                "id": "977a2d57-f73d-4623-bd1c-3086919c3943",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "f4070927-27d0-4a13-b53a-537b0e278c75",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Available from date. Date when the data made available",
+              "dataType": {
+                "id": "c7cf699a-b784-4fbc-a626-ed4eb2bfd418",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "c6afdcf7-4057-4330-a746-be0a3ac014be",
+              "domainType": "DataElement",
+              "label": "DISABILITY_CODE",
+              "description": "A True/False field indicating whether the child had a disability on 31 March 20XX. \n\nFor the purposes of this item, the definition of disabled follows that of Section 6 of the Equality Act 2010, which states that: \"A person (P) has a disability if \n(a) P has a physical or mental imparment AND \n(b) the impairment has a substantial and long-term adverse effect on P's ability to carry out normal day-to-day activities.\u201d \n\n0 = the child does not have a disability; 1 = the child has a disability; 2 = unknown",
+              "dataType": {
+                "id": "771c0173-e8c9-4e35-bb04-decee88adfb8",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "b913a596-0147-48e6-9f0a-a036fed8e410",
+              "domainType": "DataElement",
+              "label": "DATE_OF_DATA_COLLECTION",
+              "description": "Date of return submission which is the first day of May following the end of each census period",
+              "dataType": {
+                "id": "c7cf699a-b784-4fbc-a626-ed4eb2bfd418",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "1.0.0": "6a513265-38ff-463c-a6a5-4b6ad5753f15",
+        "2.0.0": "599b721f-054b-4b4d-b447-5dee7797ab58",
+        "0.0.1": "ab3c4f7a-cc7f-456c-9d31-9fb040455cdd",
+        "latest": "599b721f-054b-4b4d-b447-5dee7797ab58"
+      },
+      "modified": "2020-07-31T11:02:00Z",
+      "issued": "2020-06-01T14:56:00Z"
     },
     {
       "id": "59bc96f9-69b7-4763-81a8-ec4695b6b55e",
@@ -32221,301 +32343,6 @@
       },
       "modified": "2020-04-28T16:56:27Z",
       "issued": "2020-01-10T22:06:53Z"
-    },
-    {
-      "id": "6a513265-38ff-463c-a6a5-4b6ad5753f15",
-      "domainType": "DataModel",
-      "label": "Looked After Children Wales",
-      "documentationVersion": "1.0.0",
-      "description": "Information about looked after children. Includes demographic and episode level information.",
-      "editable": false,
-      "lastUpdated": "2020-06-03T10:43:46.526Z",
-      "type": "Data Asset",
-      "finalised": true,
-      "dateFinalised": "2020-06-03T10:48:24.721Z",
-      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
-      "keywords": "SAIL, Welsh, Children",
-      "contactPoint": "SAILDatabank@swansea.ac.uk",
-      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.",
-      "jurisdiction": "GB-WLS",
-      "datasetEndDate": "2016-09-01",
-      "datasetStartDate": "2018-08-31",
-      "language": "en",
-      "title": "Looked After Children Wales",
-      "linkedDataset": "Yes. To any SAIL dataset & reference data.",
-      "physicalSampleAvailability": "Not Available",
-      "citations": "Not Available",
-      "controlledVocabulary": "LOCAL",
-      "dataController": "SAIL Databank",
-      "statisticalPopulation": "7000",
-      "group": "No Group",
-      "identifier": "LACW",
-      "creator": "Public Health Wales NHS Trust",
-      "releaseDate": "2019-12-11T00:00:00Z",
-      "format": "SQL database table",
-      "abstract": "Information about looked after children. Includes demographic and episode level information.",
-      "dataProcessor": "SAIL Databank",
-      "derivedDatasets": "Not Available",
-      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
-      "populationType": "Looked after children. Approx 7000 children per year",
-      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
-      "periodicity": "Annual",
-      "publisher": "ALLIANCE > SAIL",
-      "ageBand": "0-19",
-      "accessRights": "https://saildatabank.com/application-process/",
-      "conformsTo": "LOCAL",
-      "geographicCoverage": "Wales",
-      "doi": "In Progress",
-      "dataClassesCount": 2,
-      "dataClasses": [
-        {
-          "id": "db63a5ba-7375-41d4-92d5-99fe828a929e",
-          "domainType": "DataClass",
-          "label": "EPISODE_MAIN",
-          "description": "Episodes of care. Data items which relate to individual episodes of care, which either start or end during the census period",
-          "lastUpdated": "2020-06-03T10:43:46.611Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "ba653b4e-8b5c-439a-ab5f-b055de2d894d",
-              "domainType": "DataElement",
-              "label": "EPISODE_NUMBER",
-              "description": "Episode number. An integer indicating the sequential numbering of episodes logged against an individual child",
-              "dataType": {
-                "id": "eb4b7fc0-30c4-4e45-8e35-97a6f55da4a0",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "4b38a5f9-9eb7-4a86-9e6d-6f2416b7bcc1",
-              "domainType": "DataElement",
-              "label": "PLACEMENT_TYPE_CODE",
-              "description": "Placement code. An alphanumeric field indicating where the child is living. There can be instances where a child remains living at the same location but the placement code changes and in these instances a new event will be triggered.\n\nSee tab PLACEMENT_CODES for further information and code definitions",
-              "dataType": {
-                "id": "b6ac59d6-885f-4329-a69f-7a1f6b034f91",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "3ab45396-d2d6-4d55-82ee-68ffea2d54ed",
-              "domainType": "DataElement",
-              "label": "SHORT_BREAKS",
-              "description": "Short breaks. An integer indicating the number of short term breaks (legal status V1) the child received",
-              "dataType": {
-                "id": "eb4b7fc0-30c4-4e45-8e35-97a6f55da4a0",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "38fd3672-9c02-4925-868e-ea8877ae2798",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Available from date. SAIL generated field - Date when the data were made available to the databank",
-              "dataType": {
-                "id": "78ec6d9c-a50c-4b5b-adc5-a12485e9dff5",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "fe28fc4d-f18c-48d7-afa1-a29ad3428892",
-              "domainType": "DataElement",
-              "label": "DATE_CEASED",
-              "description": "Date episode ceased. Date the episode ended. Episodes cannot start and end on the same date. A continuation episode must start on the same day as the previous episode ended. Field will be left blank if the episode has not ended and the child is being looked after on the night of 31 March 20XX.\n\nWhen a child ceases to be looked after because of adoption (reason episode ceased code E11, E12) the date the episode ended is the date the court grants the adoption order.\n\nWhen a child ceases to be looked after because he/she dies whilst being looked after (reason episode ceased code E2), the date episode ceased must be the same as the date of death as recorded on the death certificate.",
-              "dataType": {
-                "id": "78ec6d9c-a50c-4b5b-adc5-a12485e9dff5",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "c2a89f8b-05da-479a-aea6-345b50e4a67d",
-              "domainType": "DataElement",
-              "label": "DATE_OF_DATA_COLLECTION",
-              "description": "Collection date. Date when the data submitted to Statistics for Wales i.e. date of return submission which is the first day of May following the end of each census period",
-              "dataType": {
-                "id": "78ec6d9c-a50c-4b5b-adc5-a12485e9dff5",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "b0e5da9b-97a3-4e32-b973-1135f3529968",
-              "domainType": "DataElement",
-              "label": "YEAR_CODE",
-              "description": "Census year. Census year NB integer is incorrectly formatted - possibly requires reformatting to be useable?",
-              "dataType": {
-                "id": "eb4b7fc0-30c4-4e45-8e35-97a6f55da4a0",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "9681ec3d-e37a-4fa0-bd93-40c8561cf6c4",
-              "domainType": "DataElement",
-              "label": "REASON_EPISODE_FINISHED_CODE",
-              "description": "Reason episode ceased. An alphanumeric field indicating the main reason the episode ended. X1 = the episode has ended and a further episode has started. For other code definitions see tab FINISHED_CODES",
-              "dataType": {
-                "id": "b6ac59d6-885f-4329-a69f-7a1f6b034f91",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "aa6290d6-63d3-4007-b170-e60563e281a9",
-              "domainType": "DataElement",
-              "label": "CATEGORY_OF_NEED_CODE",
-              "description": "Category of need. A code indicating the main reason why a child started to receive care and support services. Only one reason can be recorded - in the event of a child having multiple needs the primary category of need is recorded. See tab CAT_OF_NEED for category definitions",
-              "dataType": {
-                "id": "b6ac59d6-885f-4329-a69f-7a1f6b034f91",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "ef1955ff-50e9-4416-9459-b3876d614151",
-              "domainType": "DataElement",
-              "label": "REASON_EPISODE_STARTED_CODE",
-              "description": "Reason for new episode. An alphanumeric code one character long. \n\nS = started to be looked after (either because the child is starting to be looked after for the first time or had previously ceased to be looked after and is now starting to be looked after again. Also used where individual short breaks are recorded using legal status V1 - see tabs GEN_DEFINITIONS and LEGAL_STATUS); L = change of legal status; P = change of placement only; B = change of both legal status and placement status at same time \n\nThere are a few particular circumstances when a change of placement can be considered as temporary and where a placement change should not be recorded on the LACW census record; these special cases are defined in tab PLACEMENT_CODES.",
-              "dataType": {
-                "id": "b6ac59d6-885f-4329-a69f-7a1f6b034f91",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            }
-          ]
-        },
-        {
-          "id": "5ed8bcda-44ae-438f-8b21-7c81769fb9f4",
-          "domainType": "DataClass",
-          "label": "CHILD_MAIN",
-          "description": "Looked after children. Personal details of the child, such as date of birth, sex, ethnic origin and legal status",
-          "lastUpdated": "2020-06-03T10:43:46.612Z",
-          "dataElementsCount": 10,
-          "dataElements": [
-            {
-              "id": "26b56b0a-b1ca-43f7-8ef4-cf8de5bfb684",
-              "domainType": "DataElement",
-              "label": "AREA_OFFICE_CODE",
-              "description": "Unknown but field not populated with data (all values NULL)",
-              "dataType": {
-                "id": "b6ac59d6-885f-4329-a69f-7a1f6b034f91",
-                "domainType": "PrimitiveType",
-                "label": "CHARACTER"
-              }
-            },
-            {
-              "id": "96f315ff-0b27-4f27-bbc8-cd076edb7333",
-              "domainType": "DataElement",
-              "label": "DATE_CEASED_UASC",
-              "description": "Date when the child ceased to be an unaccompanied asylum seeking child",
-              "dataType": {
-                "id": "78ec6d9c-a50c-4b5b-adc5-a12485e9dff5",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "7bed2ff5-2d89-4142-b0a6-d2c3c237963a",
-              "domainType": "DataElement",
-              "label": "IRN_E",
-              "description": "Individual record number (Education dataset). SAIL-encrypted Individual Record Number; links to the EDUW dataset, field SYSTEM_ID_E",
-              "dataType": {
-                "id": "4d0c213e-7811-4348-8eff-d2846affb846",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "4cda5315-4f23-42b1-b78b-38022c14bc6d",
-              "domainType": "DataElement",
-              "label": "ASYLUM",
-              "description": "Unaccompanied asylum seeking child (UASC). 0 = the child was not UASC on 31 March 20XX; 1 = the child was UASC on 31 March 20XX.",
-              "dataType": {
-                "id": "eb4b7fc0-30c4-4e45-8e35-97a6f55da4a0",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "db603789-5529-415a-a32a-8cb54a36467b",
-              "domainType": "DataElement",
-              "label": "AVAIL_FROM_DT",
-              "description": "Available from date. Date when the data made available",
-              "dataType": {
-                "id": "78ec6d9c-a50c-4b5b-adc5-a12485e9dff5",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "aeed3886-5089-409a-a4b7-051cdad04896",
-              "domainType": "DataElement",
-              "label": "DATE_OF_DATA_COLLECTION",
-              "description": "Date of return submission which is the first day of May following the end of each census period",
-              "dataType": {
-                "id": "78ec6d9c-a50c-4b5b-adc5-a12485e9dff5",
-                "domainType": "PrimitiveType",
-                "label": "DATE"
-              }
-            },
-            {
-              "id": "53937966-a553-40f2-9a9a-529e2fe13d65",
-              "domainType": "DataElement",
-              "label": "CHILD_CODE_E",
-              "description": "Local authority child identifier. SAIL-encrypted Local authority Child Identifier. Unique ID for each child which is retained from year to year. Links to LACC dataset.",
-              "dataType": {
-                "id": "4d0c213e-7811-4348-8eff-d2846affb846",
-                "domainType": "PrimitiveType",
-                "label": "BIGINT"
-              }
-            },
-            {
-              "id": "b583ec22-9dbb-47d4-bcf9-5eae2a848e9e",
-              "domainType": "DataElement",
-              "label": "DISABILITY_CODE",
-              "description": "A True/False field indicating whether the child had a disability on 31 March 20XX. \n\nFor the purposes of this item, the definition of disabled follows that of Section 6 of the Equality Act 2010, which states that: \"A person (P) has a disability if \n(a) P has a physical or mental imparment AND \n(b) the impairment has a substantial and long-term adverse effect on P's ability to carry out normal day-to-day activities.\u201d \n\n0 = the child does not have a disability; 1 = the child has a disability; 2 = unknown",
-              "dataType": {
-                "id": "eb4b7fc0-30c4-4e45-8e35-97a6f55da4a0",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "43027ee2-e985-4b07-9b90-e893c00214be",
-              "domainType": "DataElement",
-              "label": "YEAR_CODE",
-              "description": "Census year NB integer is incorrectly formatted - possibly requires reformatting to be useable?",
-              "dataType": {
-                "id": "eb4b7fc0-30c4-4e45-8e35-97a6f55da4a0",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            },
-            {
-              "id": "409a64d5-8a16-485a-85f4-0b117834e4ca",
-              "domainType": "DataElement",
-              "label": "LOCAL_AUTHORITY_CODE",
-              "description": "An integer identifying the child's local authorty on 31 March 20XX. See tab LA_CODES for local authority code list.",
-              "dataType": {
-                "id": "eb4b7fc0-30c4-4e45-8e35-97a6f55da4a0",
-                "domainType": "PrimitiveType",
-                "label": "INTEGER"
-              }
-            }
-          ]
-        }
-      ],
-      "revisions": {
-        "0.0.1": "ab3c4f7a-cc7f-456c-9d31-9fb040455cdd",
-        "1.0.0": "6a513265-38ff-463c-a6a5-4b6ad5753f15",
-        "latest": "6a513265-38ff-463c-a6a5-4b6ad5753f15"
-      },
-      "modified": "2020-06-03T10:43:46Z",
-      "issued": "2020-06-01T14:56:00Z"
     },
     {
       "id": "6a8066c7-a8f4-44a6-9efd-871b19a3689f",
@@ -73060,6 +72887,185 @@
       },
       "modified": "2020-04-27T13:32:56Z",
       "issued": "2020-04-27T13:32:56Z"
+    },
+    {
+      "id": "d92fd972-10b7-4163-bcd3-43c941202615",
+      "domainType": "DataModel",
+      "label": "Emergency Department Dataset Daily",
+      "documentationVersion": "5.0.0",
+      "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nAdministrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
+      "editable": false,
+      "lastUpdated": "2020-07-31T11:07:36.981Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-07-31T11:07:58.856Z",
+      "accessRequestCost": "0 GBP",
+      "keywords": "SAIL, Emergency, A&E",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Other",
+      "jurisdiction": "GB-WLS",
+      "datasetEndDate": "2020-07-28",
+      "datasetStartDate": "2010-07-22",
+      "language": "en",
+      "title": "Emergency Department Dataset Daily",
+      "linkedDataset": "Linkable to any SAIL linked dataset",
+      "physicalSampleAvailability": "Not Available",
+      "citations": "Lyons, R.A., Jones, K.H., John, G. et al. The SAIL databank: linking multiple health and social care datasets. BMC Med Inform Decis Mak 9, 3 (2009). https://doi.org/10.1186/1472-6947-9-3",
+      "controlledVocabulary": "LOCAL: http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/emergencydepartmentdatasetedds.htm",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "750000",
+      "group": "No Group",
+      "identifier": "EDDD",
+      "creator": "NHS Wales Informatics Service (NWIS)",
+      "releaseDate": "2020-06-05T00:00:00Z",
+      "format": "SQL table",
+      "abstract": "Daily version of Emergency Department Dataset.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party's intellectual property are non-severable and shall remain the introducing party's property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project. Data within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "A&E attendances. Approx 750,000 attendances per year.",
+      "fileSize": "Will vary significantly depending on linked datasets, release version, variable selection etc",
+      "periodicity": "Daily",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "All Ages",
+      "accessRights": "Exclusively for national emergency response for COVID-19",
+      "conformsTo": "LOCAL",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 1,
+      "dataClasses": [
+        {
+          "id": "5c4e312b-c1d0-4315-9434-7277dccd983c",
+          "domainType": "DataClass",
+          "label": "DF_EDD_HEALTHEVENTATTENDANCE",
+          "description": "Currently this dataset is exclusively for projects designated National Covid Emergency Response.\n\nAdministrative and clinical information for all NHS Wales Accident and Emergency department attendances. Includes the All Wales Injury Surveillance Systems (AWISS) dataset.\n\nData recording practices may vary, especially in some of the minor A&E and Minor Injury Units which could account for some local differences.",
+          "lastUpdated": "2020-07-31T11:07:37.449Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "bdc9fe94-bd18-4cf7-bd5a-5bcbdccad9fc",
+              "domainType": "DataElement",
+              "label": "AMB_INCID_NO",
+              "description": "Ambulance Incident Number. When a patient arrives by ambulance, this is the incident number for that journey, allocated by the Ambulance Control.\n\nFor patients who did not arrive by ambulance, this field should be left blank.",
+              "dataType": {
+                "id": "5dc36ffd-af83-4afc-90ca-fb8c18795777",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "cf0920cb-3d7d-4c19-8ca7-7302a1797cb3",
+              "domainType": "DataElement",
+              "label": "SIDE1",
+              "description": "First indication of the side of the human body. Up to 6 sides of the human body can be reported. \n\nNote: Anatomical Area has a 1-1 relationship with Anatomical Side, so that 'Anatomical Side 1' directly relates to the body part reported in 'Anatomical Area 1' e.g. Left Hand.",
+              "dataType": {
+                "id": "5dc36ffd-af83-4afc-90ca-fb8c18795777",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "7ce48445-babd-40d8-a6ab-645864dd3604",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "dbd798e8-daca-4df9-be75-1030be260de8",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "c861c692-7c76-4af6-acd0-e760150670c0",
+              "domainType": "DataElement",
+              "label": "SEX",
+              "description": "This is the sex (gender) of person, employee or patient.",
+              "dataType": {
+                "id": "5dc36ffd-af83-4afc-90ca-fb8c18795777",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "10624f50-03fe-4529-9bd9-15808b58ae81",
+              "domainType": "DataElement",
+              "label": "PROV_SITE_CD",
+              "description": "Provider Site Code (5 character code). This is the organisation code of the health care provider. The provider code identifies the health care provider who is responsible for managing the treatment of the patient.\n\nNotes:\n\n1.  Healthcare providers may also act as commissioners when sub-contracting patient care services to other providers of health care.\n\n2.  Although the healthcare provider identified in this data item is responsible for managing the patient\u2019s treatment, it may not necessarily be where the treatment is actually conducted. For example, where the treatment has been sub-contracted to another healthcare provider.\n\n3.  For OPRD (outpatient referral dataset), the Organisation Code (Code of Provider) is that of the organisation receiving the referral. If the provider is a Local Health Board/Trust, use the 3 character Local Health Board/Trust code with 2 zeros placed in the 4th and 5th character position.\n\n4.  For RTTD (Referral to Treatment Times (Combined)), use the 3 character Local Health Board/Trust code.",
+              "dataType": {
+                "id": "1b347c05-fdfa-42fe-99f4-0fc7ca594979",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "4865945f-156b-47b8-8ae7-702b59f38aa5",
+              "domainType": "DataElement",
+              "label": "SIDE5",
+              "description": "Fifth indication of the side of the human body. Up to 6 sides of the human body can be reported.\n\nNote: Anatomical Area has a 1-1 relationship with Anatomical Side, so that 'Anatomical Side 1' directly relates to the body part reported in 'Anatomical Area 1' e.g. Left Hand.",
+              "dataType": {
+                "id": "5dc36ffd-af83-4afc-90ca-fb8c18795777",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "a103a7f4-7120-453a-b94d-70453b5bf73c",
+              "domainType": "DataElement",
+              "label": "ANAT_AREA6",
+              "description": "Sixth part of the human body.\n\nNotes:\n- Up to 6 parts of the human body can be reported in this section of the data set.\n- Where a physical injury has taken place, 'Diagnosis Type' and 'Anatomical Area' should have a 1-1 relationship e.g. Abrasion \u2013 Hand. .\n- Where multiple body parts have been affected the value '501' should be used.\n- Anatomical area also has a 1-1 relationship with Anatomical side.",
+              "dataType": {
+                "id": "5dc36ffd-af83-4afc-90ca-fb8c18795777",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "005ff1b0-83c3-4d2f-a2e2-807c43814de8",
+              "domainType": "DataElement",
+              "label": "ADMIN_ARR_TM",
+              "description": "Accident and Emergency Attendance Administrative Arrival Time is when the Accident and Emergency reception staff are notified in person that a patient has arrived and needs to be seen within the Accident and Emergency Department. Notification could be by the Ambulance Crew, the patient themselves, or a person accompanying the patient e.g. relative / friend.",
+              "dataType": {
+                "id": "018076f4-a588-440a-b4ad-93d5d0180fdd",
+                "domainType": "PrimitiveType",
+                "label": "TIME"
+              }
+            },
+            {
+              "id": "f239b5c7-dc3d-43da-a5f5-79d98aab358c",
+              "domainType": "DataElement",
+              "label": "DOB_YR",
+              "description": "The year of the Date of birth of patient / client.",
+              "dataType": {
+                "id": "5dc36ffd-af83-4afc-90ca-fb8c18795777",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "805b1769-d65f-4abb-acb4-6e6affedb25d",
+              "domainType": "DataElement",
+              "label": "ANAT_AREA5",
+              "description": "Fifth part of the human body.\n\nNotes:\n- Up to 6 parts of the human body can be reported in this section of the data set.\n- Where a physical injury has taken place, 'Diagnosis Type' and 'Anatomical Area' should have a 1-1 relationship e.g. Abrasion \u2013 Hand. .\n- Where multiple body parts have been affected the value '501' should be used.\n- Anatomical area also has a 1-1 relationship with Anatomical side.",
+              "dataType": {
+                "id": "5dc36ffd-af83-4afc-90ca-fb8c18795777",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {
+        "3.0.0": "efb03936-6904-44fc-9d73-c6794206a6db",
+        "5.0.0": "d92fd972-10b7-4163-bcd3-43c941202615",
+        "2.0.0": "06a0f252-44f3-4c0e-a291-dd4ceb61f2e1",
+        "1.0.0": "7ed951dc-6d9f-4c08-a41c-719ec3381503",
+        "4.0.0": "590a53fc-e3d9-4254-9839-e734044da4f2",
+        "0.0.1": "d8b14954-5507-45dc-8bb5-638dda8a121d",
+        "latest": "d92fd972-10b7-4163-bcd3-43c941202615"
+      },
+      "modified": "2020-07-31T11:07:37Z",
+      "issued": "2020-06-10T09:56:20Z"
     },
     {
       "id": "d936d21f-6b78-470c-b623-6d1213f2a041",
