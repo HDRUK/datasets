@@ -2439,6 +2439,43 @@
     ]
   },
   {
+    "id": "160190a1-45b9-4f7f-be57-55bc54c23f1f",
+    "publisher": "HUBS > BREATHE",
+    "title": "Documenting pneumonia case management practices in selected communities in Pakistan",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team.' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      },
+      {
+        "attribute": "title",
+        "message": "title: 'Documenting pneumonia case management practices in selected communities in Pakistan' is too long"
+      }
+    ]
+  },
+  {
     "id": "16341d43-0e79-4afa-a84f-67db018e449f",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "INCA Trial",
@@ -8821,6 +8858,51 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "id": "548721da-1539-4e8e-9630-79738bfd7ce2",
+    "publisher": "HUBS > BREATHE",
+    "title": "Community perception on effective approaches to promote acceptance and adherence to public health measures for COVID-19 prevention and control",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team.' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      },
+      {
+        "attribute": "title",
+        "message": "title: 'Community perception on effective approaches to promote acceptance and adherence to public health measures for COVID-19 prevention and control' is too long"
       }
     ]
   },
