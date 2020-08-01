@@ -11841,6 +11841,44 @@
     ]
   },
   {
+    "id": "700e984c-74b5-4353-bf1a-c16600a5190d",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Care Home Dataset",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months. This is expedited for emergency response projects.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Exclusively for national emergency response for COVID-19' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Exclusively for national emergency response for COVID-19' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Not Applicable' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable with other datasets with a residential anonymised linkage field (RALF).' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable with other datasets with a residential anonymised linkage field (RALF).' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "7038a67d-34ca-4754-a50f-41aa2849db69",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Joint Registry - Primary Hip Replacement dataset",
