@@ -1,5 +1,5 @@
 {
-  "count": 459,
+  "count": 460,
   "dataModels": [
     {
       "id": "004d1932-f06e-49d2-b87a-e5e4140ffbb3",
@@ -34608,6 +34608,263 @@
       },
       "modified": "2020-04-28T16:56:21Z",
       "issued": "2020-01-10T22:06:52Z"
+    },
+    {
+      "id": "700e984c-74b5-4353-bf1a-c16600a5190d",
+      "domainType": "DataModel",
+      "label": "Care Home Dataset",
+      "documentationVersion": "0.0.1",
+      "description": "This database contains residential and geographical information data about care homes in Wales.",
+      "editable": false,
+      "lastUpdated": "2020-07-31T12:20:56.917Z",
+      "type": "Data Asset",
+      "finalised": true,
+      "dateFinalised": "2020-07-31T12:21:19.61Z",
+      "accessRequestCost": "Data provision is free from SAIL. Overall project costing depends on the number of people that require access to the SAIL Gateway, the activities that SAIL needs to complete (e.g. loading non-standard datasets), data refreshes, analytical work required, disclosure control process, and special case technological requirements.",
+      "keywords": "SAIL, CARE",
+      "contactPoint": "SAILDatabank@swansea.ac.uk",
+      "accessRequestDuration": "Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months. This is expedited for emergency response projects.",
+      "jurisdiction": "GB-WLS",
+      "datasetEndDate": "2020-06-01",
+      "datasetStartDate": "2018-05-09",
+      "language": "en",
+      "title": "Care Home Dataset",
+      "linkedDataset": "Linkable with other datasets with a residential anonymised linkage field (RALF).",
+      "physicalSampleAvailability": "Not Available",
+      "controlledVocabulary": "LOCAL",
+      "dataController": "SAIL Databank",
+      "statisticalPopulation": "1000",
+      "group": "No Group",
+      "identifier": "CARE",
+      "creator": "SAIL",
+      "releaseDate": "2019-05-21T00:00:00Z",
+      "format": "SQL database table",
+      "abstract": "This database contains residential and geographical information data about care homes in Wales.",
+      "dataProcessor": "SAIL Databank",
+      "derivedDatasets": "Not Available",
+      "license": "Background Intellectual property introduced by either party shall remain the property of the introducing party. The parties agree that any improvements or modifications to the introducing party\u2019s intellectual property are non-severable and shall remain the introducing party\u2019s property. Intellectual property contained within the SAIL databank whether wholly or partially (SAIL IP) shall be owned by Swansea University and a non-exclusive royalty free licence is granted to the Customer to use SAIL IP to undertake the project.\nData within the SAIL databank remains the IP of Swansea University whilst IP in the interrogated data is the property of the Customer.",
+      "populationType": "Care Homes in Wales",
+      "fileSize": "Will vary significantly depending on linked datasets, release version,  variable selection etc",
+      "periodicity": "STATIC",
+      "publisher": "ALLIANCE > SAIL",
+      "ageBand": "Not Applicable",
+      "accessRights": "Exclusively for national emergency response for COVID-19",
+      "conformsTo": "LOCAL",
+      "geographicCoverage": "Wales",
+      "doi": "In Progress",
+      "dataClassesCount": 2,
+      "dataClasses": [
+        {
+          "id": "3ccad702-103e-4ea0-bf51-2703578f358d",
+          "domainType": "DataClass",
+          "label": "CARE_HOMES_RALF20200708",
+          "description": "Care Home Residential Anonymised Linkage Field data. Contains geographic information data about care homes.",
+          "lastUpdated": "2020-07-31T12:20:56.974Z",
+          "dataElementsCount": 7,
+          "dataElements": [
+            {
+              "id": "dea235ad-c19e-4dad-a7ac-5e00ef5d4ffb",
+              "domainType": "DataElement",
+              "label": "UPRN_QAS_MATCH_CD",
+              "description": "Unique Property Reference Number [UPRN] quality match code.  UPRN is a unique identifier for every spatial address in Great Britain, maintained by Ordnance Survey.  UPRN provides comprehensive, complete, consistent identifier throughout a property's life cycle - from planning permission through to demolition.",
+              "dataType": {
+                "id": "b601182c-3c59-45e9-be1d-3a75a44f2dc7",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "89a7783b-30d1-4418-89e6-4cfee447ca71",
+              "domainType": "DataElement",
+              "label": "AVAIL_FROM_DT",
+              "description": "Date when the data made available i.e. date of loading",
+              "dataType": {
+                "id": "c001f8a2-f804-41e7-b41e-d6b6e469b94d",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "5eca511c-286c-48cc-a72f-814b930c66d3",
+              "domainType": "DataElement",
+              "label": "RALF_STS_CD",
+              "description": "The status code generated when deriving RALF_E [for the encrypted residence identifier - Residence Anonymised Linking Field]. RALF_E is itself is derived from the persons postal address, which allows researchers to associate individuals within the same home, and carry out health geographic studies without knowing the actual location of the properties in space.",
+              "dataType": {
+                "id": "350a6de5-ec21-4d71-8111-d49832c64980",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "c3ecafae-c226-4d1a-aae0-df934ae72cc5",
+              "domainType": "DataElement",
+              "label": "SYSTEM_ID_E",
+              "description": "Encrypted System ID for Care home record",
+              "dataType": {
+                "id": "671fabba-d1ff-4181-be4d-f60845469d68",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "9bfa616d-a335-44b6-83ff-ee82c10d525b",
+              "domainType": "DataElement",
+              "label": "RALF_E",
+              "description": "This is the encrypted residence identifier [Residence Anonymised Linking Field], derived from the persons postal address, which allows researchers to associate individuals within the same home, and carry out health geographic studies without knowing the actual location of the properties in space.",
+              "dataType": {
+                "id": "671fabba-d1ff-4181-be4d-f60845469d68",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "38231d61-e32e-4512-b487-1042cd53895a",
+              "domainType": "DataElement",
+              "label": "LSOA_CD_2001",
+              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for a previous version of LSOA codes (2001)",
+              "dataType": {
+                "id": "b601182c-3c59-45e9-be1d-3a75a44f2dc7",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            },
+            {
+              "id": "2cca4115-8dac-45b0-a15f-ac29e6319e83",
+              "domainType": "DataElement",
+              "label": "LSOA_CD_2011",
+              "description": "Lower Layer Super Output Area (LSOA) code in which the patient is resident, for the latest version of LSOA codes (2011)",
+              "dataType": {
+                "id": "b601182c-3c59-45e9-be1d-3a75a44f2dc7",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bfaad1cd-5089-44de-8318-7c5e1a7b0b3c",
+          "domainType": "DataClass",
+          "label": "CARE_HOMES_20200708",
+          "description": "Care Home data. Contains residential information data about care homes.",
+          "lastUpdated": "2020-07-31T12:20:56.976Z",
+          "dataElementsCount": 10,
+          "dataElements": [
+            {
+              "id": "28bc72b6-cbb6-496c-af26-c8e425c95c3d",
+              "domainType": "DataElement",
+              "label": "REG_DATE",
+              "description": "Date in which the the care home was registered",
+              "dataType": {
+                "id": "c001f8a2-f804-41e7-b41e-d6b6e469b94d",
+                "domainType": "PrimitiveType",
+                "label": "DATE"
+              }
+            },
+            {
+              "id": "fea74e41-6657-4562-b0b1-f267ba305d2a",
+              "domainType": "DataElement",
+              "label": "SIZE",
+              "description": "Size of the care home",
+              "dataType": {
+                "id": "81346537-744f-43e4-87bd-1d5c8f18d7ae",
+                "domainType": "PrimitiveType",
+                "label": "DECIMAL"
+              }
+            },
+            {
+              "id": "e7724738-a7c2-4842-b7e2-df9a2664414c",
+              "domainType": "DataElement",
+              "label": "SYSTEM_ID_E",
+              "description": "Encrypted System ID for Care home record",
+              "dataType": {
+                "id": "671fabba-d1ff-4181-be4d-f60845469d68",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "bb9dbd4a-2c18-455e-bb9e-102a3b33d7fe",
+              "domainType": "DataElement",
+              "label": "HOUSING_TYPE",
+              "description": "Housing type of the care home",
+              "dataType": {
+                "id": "671902fc-f897-48ce-b2bd-da66d560d483",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "0e97fe3b-6c9b-4bcf-b706-9317a35c6ffb",
+              "domainType": "DataElement",
+              "label": "SERVICES",
+              "description": "List of the services provided by the care home",
+              "dataType": {
+                "id": "671902fc-f897-48ce-b2bd-da66d560d483",
+                "domainType": "PrimitiveType",
+                "label": "VARCHAR"
+              }
+            },
+            {
+              "id": "1c8b5bae-b7ea-4963-af02-16e48b1115be",
+              "domainType": "DataElement",
+              "label": "LINKED_CARE_HOMES",
+              "description": "Number of care homes linked with the given care home",
+              "dataType": {
+                "id": "350a6de5-ec21-4d71-8111-d49832c64980",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "99fdca81-280f-4764-a08e-1a2269ce21e9",
+              "domainType": "DataElement",
+              "label": "PLACES_M2",
+              "description": "Maximum number of places at the care home",
+              "dataType": {
+                "id": "350a6de5-ec21-4d71-8111-d49832c64980",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "10a4a932-d2b2-464d-8dcb-1e956b0fd11b",
+              "domainType": "DataElement",
+              "label": "PLACES",
+              "description": "Maximum number of places at the care home",
+              "dataType": {
+                "id": "350a6de5-ec21-4d71-8111-d49832c64980",
+                "domainType": "PrimitiveType",
+                "label": "INTEGER"
+              }
+            },
+            {
+              "id": "49caa5d7-7862-4a37-a739-8f4654a89591",
+              "domainType": "DataElement",
+              "label": "URN_E",
+              "description": "Encrypted unique record number (URN) of the care home. Note that the unencrypted URN links to a specific care home from the care inspectorate Wales list.",
+              "dataType": {
+                "id": "671fabba-d1ff-4181-be4d-f60845469d68",
+                "domainType": "PrimitiveType",
+                "label": "BIGINT"
+              }
+            },
+            {
+              "id": "0c643393-73ce-44a2-8e40-a673873f3593",
+              "domainType": "DataElement",
+              "label": "LAST_REPORT_DATE",
+              "description": "Month and year in which the care home last reported",
+              "dataType": {
+                "id": "b601182c-3c59-45e9-be1d-3a75a44f2dc7",
+                "domainType": "PrimitiveType",
+                "label": "CHARACTER"
+              }
+            }
+          ]
+        }
+      ],
+      "revisions": {},
+      "modified": null,
+      "issued": null
     },
     {
       "id": "7038a67d-34ca-4754-a50f-41aa2849db69",
