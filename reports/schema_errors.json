@@ -2474,43 +2474,6 @@
     ]
   },
   {
-    "id": "160190a1-45b9-4f7f-be57-55bc54c23f1f",
-    "publisher": "HUBS > BREATHE",
-    "title": "Documenting pneumonia case management practices in selected communities in Pakistan",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team.' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team.' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
-      },
-      {
-        "attribute": "title",
-        "message": "title: 'Documenting pneumonia case management practices in selected communities in Pakistan' is too long"
-      }
-    ]
-  },
-  {
     "id": "16341d43-0e79-4afa-a84f-67db018e449f",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "INCA Trial",
@@ -3434,53 +3397,6 @@
     ]
   },
   {
-    "id": "1d7d2724-3175-438b-a3a3-77875f776548",
-    "publisher": "HUBS > BREATHE",
-    "title": "UK BiLEVE Consortium Dataset",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Instant access to full GWAS Summary statistics: https://www.ebi.ac.uk/gwas/publications/30804560' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'NCBI dbSNP identifiers (rsid), chromosome and position according to GRCh37/hg19 reference build of the human genome.' is not valid under any of the given schemas",
-        "suberrors": "    type: 'NCBI dbSNP identifiers (rsid), chromosome and position according to GRCh37/hg19 reference build of the human genome.' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Derived lung function variables deposited with UK Biobank' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Derived lung function variables deposited with UK Biobank' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Not Applicable (single release)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "1da704e3-f5ee-4614-8880-10541637a0b7",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Cardiac Audit Programme - National Audit of Percutaneous Coronary Interventions (PCI)",
@@ -3546,83 +3462,6 @@
       {
         "attribute": "title",
         "message": "title: 'National Cardiac Audit Programme - National Audit of Percutaneous Coronary Interventions (PCI)' is too long"
-      }
-    ]
-  },
-  {
-    "id": "1e266f05-4fa8-40d8-a008-7dff627bfa9b",
-    "publisher": "HUBS > BREATHE",
-    "title": "COPDMAP Consortium",
-    "schema_error_count": 16,
-    "errors": [
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Contact Professor Chris Brightling for further information (ceb17@leicester.ac.uk)' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Available upon request' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Available upon request' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    type: 'N/A' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'N/A' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
@@ -4275,6 +4114,88 @@
       {
         "attribute": "title",
         "message": "title: 'Falls and Fragility Fracture Audit Programme Fracture Liaison Service Database clinical dataset' is too long"
+      }
+    ]
+  },
+  {
+    "id": "24661368-557a-4f29-a694-27e5995f4e2e",
+    "publisher": "HUBS > BREATHE",
+    "title": "A pedagogical research on use of an online learning platform by final year medical students on under five pneumonia",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      },
+      {
+        "attribute": "title",
+        "message": "title: 'A pedagogical research on use of an online learning platform by final year medical students on under five pneumonia' is too long"
+      }
+    ]
+  },
+  {
+    "id": "2542abf8-e50b-4962-9fa1-6dba1b7e8439",
+    "publisher": "HUBS > BREATHE",
+    "title": "mHealth for pneumonia prevention",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/what-is-respire' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/what-is-respire' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
       }
     ]
   },
@@ -5885,6 +5806,51 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: '1 Month Cycle' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "36a5623d-0b5c-4b4b-bbba-cd16690000cb",
+    "publisher": "HUBS > BREATHE",
+    "title": "Community perception on effective approaches to promote acceptance and adherence to public health measures for COVID-19 prevention and control",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      },
+      {
+        "attribute": "title",
+        "message": "title: 'Community perception on effective approaches to promote acceptance and adherence to public health measures for COVID-19 prevention and control' is too long"
       }
     ]
   },
@@ -8383,6 +8349,54 @@
     ]
   },
   {
+    "id": "505318b6-609c-4baf-9dea-2e3532f936f8",
+    "publisher": "HUBS > BREATHE",
+    "title": "COPDMAP Consortium",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      }
+    ]
+  },
+  {
     "id": "50631db6-126e-4b3a-8035-444b66ba4afa",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Audit of Psychosis - Audit on Early Intervention in Psychosis services -  patient experience survey",
@@ -8896,51 +8910,6 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
-      }
-    ]
-  },
-  {
-    "id": "548721da-1539-4e8e-9630-79738bfd7ce2",
-    "publisher": "HUBS > BREATHE",
-    "title": "Community perception on effective approaches to promote acceptance and adherence to public health measures for COVID-19 prevention and control",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team.' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team.' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
-      },
-      {
-        "attribute": "title",
-        "message": "title: 'Community perception on effective approaches to promote acceptance and adherence to public health measures for COVID-19 prevention and control' is too long"
       }
     ]
   },
@@ -10541,6 +10510,39 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "id": "6439bf82-d0b4-4d7f-b7d9-f1e716b12df5",
+    "publisher": "HUBS > BREATHE",
+    "title": "Wales Asthma Observatory",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Read V2, ICD-10, OPCS-4, EDDS diagnosis codes' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Read V2, ICD-10, OPCS-4, EDDS diagnosis codes' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Annually; or manually by users (using SQL/R script)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -15470,6 +15472,39 @@
     ]
   },
   {
+    "id": "8fc0a2cc-a8ce-4558-a98a-c514255833d8",
+    "publisher": "HUBS > BREATHE",
+    "title": "Pneumonia case management practices in selected communities in Pakistan",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      }
+    ]
+  },
+  {
     "id": "907f5adc-b405-483e-ba4b-a52b7a6ead10",
     "publisher": "HUBS > NHS DIGITRIALS",
     "title": "Personal Demographic Service",
@@ -16565,6 +16600,47 @@
     ]
   },
   {
+    "id": "985467cb-0381-4e5c-b725-2e89e7e96d27",
+    "publisher": "HUBS > BREATHE",
+    "title": "Understanding the reasons for delay in seeking care for pneumonia among caregivers of children under five in Pakistan",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      },
+      {
+        "attribute": "title",
+        "message": "title: 'Understanding the reasons for delay in seeking care for pneumonia among caregivers of children under five in Pakistan' is too long"
+      }
+    ]
+  },
+  {
     "id": "98a03f2b-1a67-4653-a4f5-f9db7262a94d",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Public Health England Seroepidemiology Unit",
@@ -17479,6 +17555,49 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Data is available via the Data Access process described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/' is not valid under any of the given schemas",
         "suberrors": "    type: 'Data is available via the Data Access process described at https://bioresource.nihr.ac.uk/researchers/researchers/application-process/' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "9e798632-442a-427b-8d0e-456f754d28dc",
+    "publisher": "HDR UK",
+    "title": "HDR UK Papers & Preprints",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Immediate' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Open Access' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Open Access' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Not Applicable' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Not Applicable' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Not Applicable' is not of type 'array'"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    pattern: 'Not Applicable' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'GB' is not a 'uri'"
       }
     ]
   },
@@ -21338,6 +21457,40 @@
         "attribute": "accessRights",
         "message": "accessRights: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.strokeaudit.org/Research/Data-requests.aspx' is not valid under any of the given schemas",
         "suberrors": "    type: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.strokeaudit.org/Research/Data-requests.aspx' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "c43363e5-a2cd-4990-a425-733dfe559a4f",
+    "publisher": "HUBS > BREATHE",
+    "title": "UK BiLEVE Consortium Dataset",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Instant access to full GWAS Summary statistics: https://www.ebi.ac.uk/gwas/publications/30804560' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Derived lung function variables deposited with UK Biobank' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Derived lung function variables deposited with UK Biobank' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -26910,62 +27063,6 @@
       {
         "attribute": "title",
         "message": "title: 'National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures' is too long"
-      }
-    ]
-  },
-  {
-    "id": "fe9bf0d9-3212-4120-96a6-d455f92dd192",
-    "publisher": "HUBS > BREATHE",
-    "title": "Wales Asthma Observatory",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Please see: https://saildatabank.com/application-process/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Read V2, ICD-10, OPCS-4, EDDS diagnosis codes' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Read V2, ICD-10, OPCS-4, EDDS diagnosis codes' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'To Follow' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'To Follow' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'N/A' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually; or manually by users (using SQL/R script)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'Not available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
