@@ -10228,6 +10228,39 @@
     ]
   },
   {
+    "id": "62824365-480a-4d20-9ab2-7e7739e7e2ec",
+    "publisher": "HUBS > BREATHE",
+    "title": "ICT-based intervention for adult asthma with limited health literacy",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '>18' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Malaysia' is not a 'uri'"
+      }
+    ]
+  },
+  {
     "id": "628284ca-0adf-45a9-8d7a-ea6f14a15e1c",
     "publisher": "ALLIANCE > SAIL",
     "title": "Critical Care Dataset",
@@ -24016,6 +24049,52 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Provisional data: Monthly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "df63e893-f688-4bb4-956c-cc4354bb4001",
+    "publisher": "HUBS > BREATHE",
+    "title": "Klang Asthma Cohort",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '>18' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Malaysia' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Klang Asthma Cohort: Developing and evaluating interventions at patient and practice level to improve asthma care (University of Malaya, Malaysia)' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Klang Asthma Cohort: Developing and evaluating interventions at patient and practice level to improve asthma care (University of Malaya, Malaysia)' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
