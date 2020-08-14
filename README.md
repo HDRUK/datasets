@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (466)
+## HDR UK Datasets (467)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -405,6 +405,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/e525b056-1bac-46ee-838c-6bef8a8815cb)
 - [National Survey for Wales](https://web.www.healthdatagateway.org/dataset/ee78ce42-7f1f-4c97-80cc-ea6ad628e5da)
 - [National Exercise Referral Scheme](https://web.www.healthdatagateway.org/dataset/fe3c7527-e802-4a51-9aa2-19e7d4d22783)
+
+### SAIL Databank (1)
+- [Education - Wales](https://web.www.healthdatagateway.org/dataset/b16f3c4c-2a7a-4ad4-8dfb-50caf106f9e4)
 
 ### SCOTLAND (21)
 - [Scotland Accident and Emergency](https://web.www.healthdatagateway.org/dataset/01728d51-19eb-4527-8add-6b660cb557cc)

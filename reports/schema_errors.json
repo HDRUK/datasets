@@ -19424,6 +19424,36 @@
     ]
   },
   {
+    "id": "b16f3c4c-2a7a-4ad4-8dfb-50caf106f9e4",
+    "publisher": "SAIL Databank",
+    "title": "Education - Wales",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Includes a derived dataset to include anonymised linkage field at person level' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Includes a derived dataset to include anonymised linkage field at person level' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable to other datasets with ALF field' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable to other datasets with ALF field' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "b2124786-9658-40cc-b5a3-6624885ce490",
     "publisher": "ALLIANCE > DUNDEE",
     "title": "Patient SIMD Postcode",
