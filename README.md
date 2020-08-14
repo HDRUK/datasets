@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (467)
+## HDR UK Datasets (468)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -100,10 +100,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [Liver Enzyme](https://web.www.healthdatagateway.org/dataset/2d3d2c36-240e-4d38-a6ae-893bafbf6fbb)
 - [Microbiology Cultures](https://web.www.healthdatagateway.org/dataset/4d6c18fc-54c6-41f1-a7a9-76289c2f4194)
 - [Cystic Fibrosis Patient Annual Review Encounters](https://web.www.healthdatagateway.org/dataset/5261e3d5-b32f-4180-a374-61cab95e63f1)
-- [Cystic Fibrosis Patient Tendon Rupture](https://web.www.healthdatagateway.org/dataset/6c6c46a8-b9b5-4137-a329-1e21030b9efb)
-- [Cystic Fibrosis Patient NTM culture](https://web.www.healthdatagateway.org/dataset/7b4930b8-52df-4259-9106-dad8c1ffe14f)
 - [Cystic Fibrosis Patient CFQ-R](https://web.www.healthdatagateway.org/dataset/8881192f-ffdf-4917-be80-e7daab9a0ca2)
 - [Cystic Fibrosis Patient Transplants](https://web.www.healthdatagateway.org/dataset/8c5be9df-c9b8-43ab-83ca-5d5dd61549da)
+- [Cystic Fibrosis Patient NTM culture](https://web.www.healthdatagateway.org/dataset/af148400-1ec6-436d-910e-45350a54c390)
+- [Cystic Fibrosis Patient Tendon Rupture](https://web.www.healthdatagateway.org/dataset/e432737f-43c0-43c1-aef5-71cb204d770c)
 - [Cystic Fibrosis Patient Sweat Tests](https://web.www.healthdatagateway.org/dataset/e66b726f-8e58-4411-be32-1d00ba1df13f)
 - [Cystic Fibrosis Patient Chronic Medication](https://web.www.healthdatagateway.org/dataset/f55dd7ed-cb11-4bb6-84a7-29ae83ffe3fc)
 
@@ -112,7 +112,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Yorkshire Specialist Register of Cancer in Children and Young People](https://web.www.healthdatagateway.org/dataset/8e2892c2-19db-4922-85fe-60364e53f812)
 - [Comprehensive Patient Records for Cancer Outcomes](https://web.www.healthdatagateway.org/dataset/a5b00b37-a33e-4d8d-b0c0-045d184e05bd)
 
-### DISCOVER NOW (15)
+### DISCOVER NOW (16)
 - [North West London Accident and Emergency Data (NWL A&E)](https://web.www.healthdatagateway.org/dataset/0a524760-0efc-477e-8a3b-805e1a0f67ec)
 - [North West London Mental Health Data (NWL MH)](https://web.www.healthdatagateway.org/dataset/21d58202-15a2-4ec8-9f36-3080de3905a5)
 - [North West London Pathology (NWL PATH)](https://web.www.healthdatagateway.org/dataset/22a99111-46ad-4d3f-a2d5-09351e851350)
@@ -127,6 +127,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [North West London Admitted Patient Care Data (NWL APC)](https://web.www.healthdatagateway.org/dataset/b339ea90-c3dd-44d8-a968-88eba9e3edb3)
 - [North West London Primary Care Events Data (NWL PCE)](https://web.www.healthdatagateway.org/dataset/bc2d2a17-0f36-4cb0-85d3-b54e64460d75)
 - [North West London Primary Care Prescriptions Data (NWL PCP)](https://web.www.healthdatagateway.org/dataset/c1f947c3-4956-4e0b-93ef-23ce9abda000)
+- [North West London Vulnerable Patient List (NWL VPL)](https://web.www.healthdatagateway.org/dataset/c461cc0a-5866-40d2-a576-c9a7c30b75b1)
 - [North West London Community Data (NWL COM)](https://web.www.healthdatagateway.org/dataset/e85e5c8c-b6be-4e8b-8a0b-13b785b457a2)
 
 ### DUNDEE (23)
