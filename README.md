@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (468)
+## HDR UK Datasets (467)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -112,7 +112,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Yorkshire Specialist Register of Cancer in Children and Young People](https://web.www.healthdatagateway.org/dataset/8e2892c2-19db-4922-85fe-60364e53f812)
 - [Comprehensive Patient Records for Cancer Outcomes](https://web.www.healthdatagateway.org/dataset/a5b00b37-a33e-4d8d-b0c0-045d184e05bd)
 
-### DISCOVER NOW (16)
+### DISCOVER NOW (15)
 - [North West London Accident and Emergency Data (NWL A&E)](https://web.www.healthdatagateway.org/dataset/0a524760-0efc-477e-8a3b-805e1a0f67ec)
 - [North West London Mental Health Data (NWL MH)](https://web.www.healthdatagateway.org/dataset/21d58202-15a2-4ec8-9f36-3080de3905a5)
 - [North West London Pathology (NWL PATH)](https://web.www.healthdatagateway.org/dataset/22a99111-46ad-4d3f-a2d5-09351e851350)
@@ -127,7 +127,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [North West London Admitted Patient Care Data (NWL APC)](https://web.www.healthdatagateway.org/dataset/b339ea90-c3dd-44d8-a968-88eba9e3edb3)
 - [North West London Primary Care Events Data (NWL PCE)](https://web.www.healthdatagateway.org/dataset/bc2d2a17-0f36-4cb0-85d3-b54e64460d75)
 - [North West London Primary Care Prescriptions Data (NWL PCP)](https://web.www.healthdatagateway.org/dataset/c1f947c3-4956-4e0b-93ef-23ce9abda000)
-- [North West London Vulnerable Patient List (NWL VPL)](https://web.www.healthdatagateway.org/dataset/c461cc0a-5866-40d2-a576-c9a7c30b75b1)
 - [North West London Community Data (NWL COM)](https://web.www.healthdatagateway.org/dataset/e85e5c8c-b6be-4e8b-8a0b-13b785b457a2)
 
 ### DUNDEE (23)
@@ -398,13 +397,13 @@ This repo automatically collects the datasets published on the Gateway including
 - [GP dataset - Welsh Primary Care](https://web.www.healthdatagateway.org/dataset/7909f8a5-5440-4b9a-843f-cb48cd1f7e08)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/8a9404f0-5209-4438-8261-b3a0d2d563f5)
 - [Outpatient Referral](https://web.www.healthdatagateway.org/dataset/8b1f4b49-78b7-4f15-b4d0-ea2b009750cc)
-- [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/8d89da6f-e0c7-436e-bf56-697137221b5f)
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/8dd6f22d-e513-4ee7-a7e8-abe055727076)
 - [Postponed Admitted Procedures](https://web.www.healthdatagateway.org/dataset/947ab204-b052-4cac-897b-d771f8dcfd1f)
-- [Emergency Department Dataset Daily](https://web.www.healthdatagateway.org/dataset/d92fd972-10b7-4163-bcd3-43c941202615)
+- [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/a0882580-5021-4b87-8297-c5990bbe062b)
+- [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/c42ceb2a-c9c2-491d-9f34-3da55413225f)
 - [Brecon dataset](https://web.www.healthdatagateway.org/dataset/e0ed59e2-8fb5-44d4-b694-f31d46884954)
-- [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/e525b056-1bac-46ee-838c-6bef8a8815cb)
 - [National Survey for Wales](https://web.www.healthdatagateway.org/dataset/ee78ce42-7f1f-4c97-80cc-ea6ad628e5da)
+- [Emergency Department Dataset Daily](https://web.www.healthdatagateway.org/dataset/eebb647a-63eb-4e62-b052-26cb2eb4799d)
 - [National Exercise Referral Scheme](https://web.www.healthdatagateway.org/dataset/fe3c7527-e802-4a51-9aa2-19e7d4d22783)
 
 ### SAIL Databank (1)
