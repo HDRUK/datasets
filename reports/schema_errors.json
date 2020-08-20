@@ -1041,6 +1041,43 @@
     ]
   },
   {
+    "id": "09e8e407-82b4-4ed4-b296-53810472cbe9",
+    "publisher": "HUBS > BREATHE",
+    "title": "Reasons for delay in seeking care for pneumonia in children under five",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      }
+    ]
+  },
+  {
     "id": "0a0b0779-2d76-461d-9621-be54c3a3e98a",
     "publisher": "HUBS > BREATHE",
     "title": "Idiopathic Pulmonary Fibrosis (IPF) Genome-wide Association Study",
@@ -1457,6 +1494,47 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "0d0ce21e-afc1-4d9f-bf54-e0545363a0cc",
+    "publisher": "HUBS > BREATHE",
+    "title": "Research on use of an online learning platform on under-five pneumonia",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
       }
     ]
   },
@@ -4194,51 +4272,6 @@
     ]
   },
   {
-    "id": "24661368-557a-4f29-a694-27e5995f4e2e",
-    "publisher": "HUBS > BREATHE",
-    "title": "A pedagogical research on use of an online learning platform by final year medical students on under five pneumonia",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
-      },
-      {
-        "attribute": "title",
-        "message": "title: 'A pedagogical research on use of an online learning platform by final year medical students on under five pneumonia' is too long"
-      }
-    ]
-  },
-  {
     "id": "2542abf8-e50b-4962-9fa1-6dba1b7e8439",
     "publisher": "HUBS > BREATHE",
     "title": "mHealth for pneumonia prevention",
@@ -5831,51 +5864,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: '1 Month Cycle' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
-    "id": "36a5623d-0b5c-4b4b-bbba-cd16690000cb",
-    "publisher": "HUBS > BREATHE",
-    "title": "Community perception on effective approaches to promote acceptance and adherence to public health measures for COVID-19 prevention and control",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
-      },
-      {
-        "attribute": "title",
-        "message": "title: 'Community perception on effective approaches to promote acceptance and adherence to public health measures for COVID-19 prevention and control' is too long"
       }
     ]
   },
@@ -16467,47 +16455,6 @@
     ]
   },
   {
-    "id": "985467cb-0381-4e5c-b725-2e89e7e96d27",
-    "publisher": "HUBS > BREATHE",
-    "title": "Understanding the reasons for delay in seeking care for pneumonia among caregivers of children under five in Pakistan",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
-      },
-      {
-        "attribute": "title",
-        "message": "title: 'Understanding the reasons for delay in seeking care for pneumonia among caregivers of children under five in Pakistan' is too long"
-      }
-    ]
-  },
-  {
     "id": "98a03f2b-1a67-4653-a4f5-f9db7262a94d",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Public Health England Seroepidemiology Unit",
@@ -19193,6 +19140,47 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "af238430-c257-4d60-9ff0-1de6b825f09e",
+    "publisher": "HUBS > BREATHE",
+    "title": "Community perception on public health measures for COVID-19 prevention/control",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '18+' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
       }
     ]
   },
