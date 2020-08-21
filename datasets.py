@@ -10,6 +10,7 @@ import json
 import urllib
 import requests
 from pprint import pprint
+from migrate_v1_to_v2 import map_data
 
 API_BASE_URL="https://metadata-catalogue.org/hdruk/api"
 DATA_MODELS = API_BASE_URL + "/dataModels"
@@ -29,6 +30,10 @@ def request_url(URL):
     r.raise_for_status()
   return json.loads(r.text)
 
+def read_json(filename):
+  with open(filename, 'r') as file:
+    return json.load(file)
+
 def export_csv(data, filename, header=None):
   if header is None:
     header = ['id', 'name', 'publisher', 'description', 'author', 'metadata_version']
@@ -42,7 +47,7 @@ def export_json(data, filename, indent=2):
     json.dump(data, jsonfile, indent=indent)
 
 def get_data_elements(data_model_id, data_class_id):
-  print("Processing Data Elemenets...")
+  print("Processing Data Elements...")
   data = []
   URL = DATA_MODEL_CLASSES_ELEMENTS.format(MODEL_ID=data_model_id, CLASS_ID=data_class_id)
   de_row = request_url(URL)
@@ -124,11 +129,13 @@ def fix_dates(revisions):
       du = lu
     if lu is not None: last_updated.append(lu)
     if du is not None: date_finalised.append(du)
-  if len(last_updated) > 0 and len(date_finalised) > 0:
+  if len(last_updated) > 0:
     data['modified'] = max(last_updated).strftime("%Y-%m-%dT%H:%M:%SZ")
-    data['issued'] = min(date_finalised).strftime("%Y-%m-%dT%H:%M:%SZ")
   else:
     data['modified'] = None
+  if len(date_finalised) > 0:
+    data['issued'] = min(date_finalised).strftime("%Y-%m-%dT%H:%M:%SZ")
+  else:
     data['issued'] = None
   return data
 
@@ -200,6 +207,20 @@ def format_csv_tables(data):
   print("Count: DE ", len(tables['dataElements']['data']))
   return tables
 
+def migrate_v1_to_v2(data):
+  new_data = []
+  count = data['count']
+  data = data['dataModels']
+  for d in data:
+    new_d = {}
+    map_data(d, new_d)
+    new_data.append(new_d)
+  return {
+    'count': len(new_data),
+    'dataModels': new_data
+  }
+
+
 def main():
   data_models_list = request_url(DATA_MODELS)
   data, headers = process_data_models(data_models_list)
@@ -208,6 +229,10 @@ def main():
   export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
   export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
   export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
+
+  # Dataset v1 to v2 migration
+  new_data = migrate_v1_to_v2(data)
+  export_json(new_data, 'datasets.v2.json')
 
 
 if __name__ == "__main__":
