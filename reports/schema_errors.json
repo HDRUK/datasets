@@ -8311,6 +8311,35 @@
     ]
   },
   {
+    "id": "4fcc3265-6eca-4d34-be50-94d07aba2c7b",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Cafcass Wales",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "505318b6-609c-4baf-9dea-2e3532f936f8",
     "publisher": "HUBS > BREATHE",
     "title": "COPDMAP Consortium",
@@ -9271,49 +9300,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "id": "58543551-f91b-4655-bf02-64593f580851",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "COVID-19 Test results",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Exclusively for national emergency response for COVID-19' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Exclusively for national emergency response for COVID-19' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm' is not valid under any of the given schemas",
-        "suberrors": "    type: 'http://www.datadictionary.wales.nhs.uk/index.html#!WordDocuments/pathology1.htm' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
@@ -15356,6 +15342,35 @@
       {
         "attribute": "geographicCoverage",
         "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      }
+    ]
+  },
+  {
+    "id": "8fe6593f-a238-463e-90dd-280884dbd29b",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Cafcass England",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Does not have SAIL anonymised linkage field.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Does not have SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
@@ -25367,6 +25382,35 @@
     ]
   },
   {
+    "id": "efc2bb06-d502-4424-ac92-72834459fbaa",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Consolidated Deaths",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "f075ceb7-5bed-4e6b-8e83-211aee945356",
     "publisher": "HUBS > PIONEER",
     "title": "Society for Acute Medicine Benchmarking Audit",
@@ -26734,6 +26778,40 @@
     ]
   },
   {
+    "id": "faad83e3-3ba2-4324-aee2-2ddcc6fdaab9",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Test results",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS WALES NATIONAL CODES (http://www.datadictionary.wales.nhs.uk/)' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS WALES NATIONAL CODES (http://www.datadictionary.wales.nhs.uk/)' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable at the person level to any dataset with SAIL anonymised linkage field' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable at the person level to any dataset with SAIL anonymised linkage field' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "faf7ec31-999a-4d87-9d6d-8837ff2fa486",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Cardiac Audit Programme - National Adult Cardiac Surgery Audit (NACSA)",
@@ -27076,6 +27154,39 @@
       {
         "attribute": "title",
         "message": "title: 'National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures' is too long"
+      }
+    ]
+  },
+  {
+    "id": "fea0b4be-4097-4c2e-86f2-03dc1ee2877b",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Welsh Dispensing Dataset",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
