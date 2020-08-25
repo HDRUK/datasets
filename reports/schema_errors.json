@@ -5702,6 +5702,36 @@
     ]
   },
   {
+    "id": "32f616fb-af37-46b5-9473-7a3460656bdf",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Education - Wales",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Includes a derived dataset to include anonymised linkage field at person level' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Includes a derived dataset to include anonymised linkage field at person level' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable to other datasets with ALF field' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable to other datasets with ALF field' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "342bef6e-8fa2-49f0-bdbb-c95d866aa145",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Scottish Human Papillomavirus Archive",
@@ -19099,36 +19129,6 @@
     ]
   },
   {
-    "id": "b16f3c4c-2a7a-4ad4-8dfb-50caf106f9e4",
-    "publisher": "SAIL Databank",
-    "title": "Education - Wales",
-    "schema_error_count": 5,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Includes a derived dataset to include anonymised linkage field at person level' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Includes a derived dataset to include anonymised linkage field at person level' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkable to other datasets with ALF field' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkable to other datasets with ALF field' is not one of ['Not Known', 'Not Available']"
-      }
-    ]
-  },
-  {
     "id": "b2124786-9658-40cc-b5a3-6624885ce490",
     "publisher": "ALLIANCE > DUNDEE",
     "title": "Patient SIMD Postcode",
@@ -25185,6 +25185,62 @@
         "attribute": "linkedDataset",
         "message": "linkedDataset: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not valid under any of the given schemas",
         "suberrors": "    enum: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
+    "id": "f029cd46-0d49-4de1-b1eb-b780b079b9de",
+    "publisher": "HUBS > PIONEER",
+    "title": "PIONEER - COVID",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'TBA' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'TBA' is not valid under any of the given schemas",
+        "suberrors": "    type: 'TBA' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'A-E' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'OMOP/Athena' is not valid under any of the given schemas",
+        "suberrors": "    type: 'OMOP/Athena' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'West Midlands Region, UK' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'None' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'On application' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },

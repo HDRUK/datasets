@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (471)
+## HDR UK Datasets (472)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -359,9 +359,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [Sunquest](https://web.www.healthdatagateway.org/dataset/eaca9ed1-30b6-4157-8894-8e53efc84849)
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
-### PIONEER (4)
+### PIONEER (5)
 - [University Hospitals Birmingham PICS data](https://web.www.healthdatagateway.org/dataset/1d1244b6-aeeb-4655-b5a2-2357ed28227a)
 - [Birmingham Out of Hours Research Database](https://web.www.healthdatagateway.org/dataset/d546521a-79be-4a53-83bd-ff008bda6171)
+- [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/f029cd46-0d49-4de1-b1eb-b780b079b9de)
 - [Society for Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/f075ceb7-5bed-4e6b-8e83-211aee945356)
 - [PIONEER - Genomics Patients and related data](https://web.www.healthdatagateway.org/dataset/f202a9da-f036-4e8c-a069-a20ff6c8a9e1)
 
@@ -371,7 +372,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
 
-### SAIL (37)
+### SAIL (38)
 - [Referral to Treatment Times](https://web.www.healthdatagateway.org/dataset/009417f0-232a-4ebc-b12c-59c5352a49d3)
 - [Maternity Indicators Dataset](https://web.www.healthdatagateway.org/dataset/05fda11b-b66c-4cfa-a137-a6937401cdb5)
 - [Annual District Death Daily](https://web.www.healthdatagateway.org/dataset/08a7c3c9-16e5-46f7-b594-f84618fcc62e)
@@ -379,6 +380,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cervical Screening Wales](https://web.www.healthdatagateway.org/dataset/113b54b0-fee5-427a-b569-04e150c1f06d)
 - [Patient Episode Dataset for Wales](https://web.www.healthdatagateway.org/dataset/1a4708e5-14d3-4177-b4ef-35f71e72a16c)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/2c764139-22a3-4db9-89ee-583fdb9d9396)
+- [Education - Wales](https://web.www.healthdatagateway.org/dataset/32f616fb-af37-46b5-9473-7a3460656bdf)
 - [Diagnostic and Therapy Services Waiting Times](https://web.www.healthdatagateway.org/dataset/393b666c-157b-4fee-afde-61ff93948f27)
 - [Congenital Anomaly Register and Information Service](https://web.www.healthdatagateway.org/dataset/3c430204-f632-4add-9fcb-f0ff88caea13)
 - [Welsh Demographic Service (WDS)](https://web.www.healthdatagateway.org/dataset/46568011-ae01-4e3a-9ef7-187606316668)
@@ -409,9 +411,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [COVID-19 Test results](https://web.www.healthdatagateway.org/dataset/faad83e3-3ba2-4324-aee2-2ddcc6fdaab9)
 - [National Exercise Referral Scheme](https://web.www.healthdatagateway.org/dataset/fe3c7527-e802-4a51-9aa2-19e7d4d22783)
 - [Welsh Dispensing Dataset](https://web.www.healthdatagateway.org/dataset/fea0b4be-4097-4c2e-86f2-03dc1ee2877b)
-
-### SAIL Databank (1)
-- [Education - Wales](https://web.www.healthdatagateway.org/dataset/b16f3c4c-2a7a-4ad4-8dfb-50caf106f9e4)
 
 ### SCOTLAND (21)
 - [Scotland Accident and Emergency](https://web.www.healthdatagateway.org/dataset/01728d51-19eb-4527-8add-6b660cb557cc)
