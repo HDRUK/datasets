@@ -416,6 +416,55 @@
     ]
   },
   {
+    "id": "02961e24-4cb3-4cd3-90bd-4248a00391ce",
+    "publisher": "HUBS > NHS DIGITRIALS",
+    "title": "Hospital Episode Statistics Admitted Patient Care",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "0477b06f-cbed-4949-982e-ce248a47ed1a",
     "publisher": "Oxford University Hospitals NHS Foundation Trust",
     "title": "SOLUS",
@@ -8011,80 +8060,6 @@
     ]
   },
   {
-    "id": "4aaf4b66-1bd3-4213-9c86-2626ace88740",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Hospital Episode Statistics Accident and Emergency",
-    "schema_error_count": 16,
-    "errors": [
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "datasetEndDate",
-        "message": "datasetEndDate: 'Ongoing' is not a 'date'"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "datasetStartDate: '4/1/07' is not a 'date'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'No' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'No' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: '1 Month Cycle' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "4b71fca4-8b2c-4e37-8996-b64a9c1450f0",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Paediatric Diabetes Audit - Spotlight survey of diabetes-related technologies",
@@ -9922,80 +9897,6 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
-      }
-    ]
-  },
-  {
-    "id": "6111c3eb-028c-429e-a78c-6eb9e6b36b66",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Hospital Episode Statistics Admitted Patient Care",
-    "schema_error_count": 16,
-    "errors": [
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "datasetEndDate",
-        "message": "datasetEndDate: 'Ongoing' is not a 'date'"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "datasetStartDate: '4/1/89' is not a 'date'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'No' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'No' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: '1 Month Cycle' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -13090,6 +12991,63 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA, Immortalized cell lines' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "7f841dc4-87ed-4048-b06b-1a1e9198b8c1",
+    "publisher": "HUBS > NHS DIGITRIALS",
+    "title": "Diagnostic Imaging Dataset",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -17541,6 +17499,59 @@
     ]
   },
   {
+    "id": "a104ba06-be82-4f2d-b177-f13948643f84",
+    "publisher": "HUBS > NHS DIGITRIALS",
+    "title": "Hospital Episode Statistics Accident and Emergency",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "a1a67182-e81b-4144-ac51-92a86f277eb2",
     "publisher": "NHS Digital",
     "title": "Mental Health Minimum Dataset v4.1 (Non-Sensitive) Events",
@@ -20562,84 +20573,6 @@
     ]
   },
   {
-    "id": "bfbf7741-65d1-47e3-92e2-bcf50e8c0c20",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Civil Registration - Deaths",
-    "schema_error_count": 17,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "datasetEndDate",
-        "message": "datasetEndDate: 'Ongoing' is not a 'date'"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "datasetStartDate: '1/1/93' is not a 'date'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'No' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'No' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
-      }
-    ]
-  },
-  {
     "id": "c10d6c3a-e405-4ee9-828f-02443c210879",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "UCL Infection DNA Bank",
@@ -23298,6 +23231,63 @@
     ]
   },
   {
+    "id": "d83cc514-3e36-41a8-b9bc-c288265e66cf",
+    "publisher": "HUBS > NHS DIGITRIALS",
+    "title": "Civil Registration - Deaths",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "d90830f4-5aaa-4075-8c8d-839627224d16",
     "publisher": "ALLIANCE > CPRD",
     "title": "Cancer Patient Experience Survey (CPES) for CPRD Aurum",
@@ -24713,80 +24703,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
-    "id": "eb80104c-1292-49b7-9d18-58337353c4cc",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Diagnostic Imaging Dataset",
-    "schema_error_count": 16,
-    "errors": [
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "datasetEndDate",
-        "message": "datasetEndDate: 'Ongoing' is not a 'date'"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "datasetStartDate: '4/1/12' is not a 'date'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'No' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'No' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: '1 Month Cycle' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
