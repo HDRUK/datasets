@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (472)
+## HDR UK Datasets (479)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -25,7 +25,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/b41bb360-f2ed-49f0-a45b-b2fb05321975)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/f8bab14a-bc9b-4dd1-a6c6-c57588605849)
 
-### BREATHE (27)
+### BREATHE (34)
+- [Development of spirometry predictive values for Indian population](https://web.www.healthdatagateway.org/dataset/0985f58b-87e0-42d2-9ee7-efd618abcd51)
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/09e8e407-82b4-4ed4-b296-53810472cbe9)
 - [Idiopathic Pulmonary Fibrosis (IPF) Genome-wide Association Study](https://web.www.healthdatagateway.org/dataset/0a0b0779-2d76-461d-9621-be54c3a3e98a)
 - [Research on use of an online learning platform on under-five pneumonia](https://web.www.healthdatagateway.org/dataset/0d0ce21e-afc1-4d9f-bf54-e0545363a0cc)
@@ -35,6 +36,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [COPDMAP Consortium](https://web.www.healthdatagateway.org/dataset/505318b6-609c-4baf-9dea-2e3532f936f8)
 - [Prospective Observation of Fibrosis in the Lung Clinical Endpoints](https://web.www.healthdatagateway.org/dataset/50feb9f3-3be8-4690-913b-bd462d27d3db)
 - [International Severe Asthma Registry](https://web.www.healthdatagateway.org/dataset/52a4c514-0414-43c7-a400-1498a70ed85a)
+- [Care-seeking practices for childhood pneumonia in non/tribal areas of Pune India](https://web.www.healthdatagateway.org/dataset/561b8a79-6bac-4ffc-91f4-0bbec4e90968)
 - [ICT-based intervention for adult asthma with limited health literacy](https://web.www.healthdatagateway.org/dataset/62824365-480a-4d20-9ab2-7e7739e7e2ec)
 - [Wales Asthma Observatory](https://web.www.healthdatagateway.org/dataset/6439bf82-d0b4-4d7f-b7d9-f1e716b12df5)
 - [Leicester Respiratory Research Database](https://web.www.healthdatagateway.org/dataset/663146dd-0bc3-4d12-95c7-50873a3d45b6)
@@ -44,15 +46,20 @@ This repo automatically collects the datasets published on the Gateway including
 - [Children's Health in London and Luton (CHILL)](https://web.www.healthdatagateway.org/dataset/957329a0-6f7f-4df7-ad46-1aa4be1a507d)
 - [Optimum Patient Care Research Database](https://web.www.healthdatagateway.org/dataset/ae4b8371-d037-46e8-bdcd-bf3de08ef38e)
 - [Community perception on public health measures for COVID-19 prevention/control](https://web.www.healthdatagateway.org/dataset/af238430-c257-4d60-9ff0-1de6b825f09e)
+- [Assessment of ASHA’s workload and its determinants](https://web.www.healthdatagateway.org/dataset/bab944af-e345-4893-8640-a88aaff97c72)
+- [4 LMIC Asian Country ChrOnic: estimating respiratory disease burden in adults](https://web.www.healthdatagateway.org/dataset/be9bf427-d96d-4b1a-b1d1-83bdc3e8790b)
 - [Vitamin D supplementation meta-analyses](https://web.www.healthdatagateway.org/dataset/c16605d7-6e6e-4461-bfab-107660e31427)
 - [Assessing the eDPSEEA model in seasonal pollen induced asthma in Islamabad](https://web.www.healthdatagateway.org/dataset/c2548017-7913-40e1-bf98-aaa2e907b0ea)
 - [UK BiLEVE Consortium Dataset](https://web.www.healthdatagateway.org/dataset/c43363e5-a2cd-4990-a425-733dfe559a4f)
+- [Strategy introducing Pulmonary Rehabilitation for COPD management in rural India](https://web.www.healthdatagateway.org/dataset/d3e859ba-cfb0-4eda-a14c-34b08d113cd9)
 - [Exploration of Pneumonia Related Policy Formation and Implementation in Pakistan](https://web.www.healthdatagateway.org/dataset/d5446d68-2fb9-4f0f-962e-7b7ed484d534)
 - [UK Lung Volume Reduction Surgery](https://web.www.healthdatagateway.org/dataset/def6669b-0fac-485c-84b2-2ea83ec31123)
 - [Klang Asthma Cohort](https://web.www.healthdatagateway.org/dataset/df63e893-f688-4bb4-956c-cc4354bb4001)
 - [Unified Cohorts Research Network](https://web.www.healthdatagateway.org/dataset/e516a359-74a8-4932-b4df-f2cf75eef89d)
+- [Introducing pulse oximetry in IMNCI, primary health facilities in Pune India](https://web.www.healthdatagateway.org/dataset/ecc4daf2-e58a-4ebc-9608-4bc741231fb9)
 - [Its Not JUST Idiopathic pulmonary fibrosis Study (INJUSTIS)](https://web.www.healthdatagateway.org/dataset/edc8f0c6-64f8-4f6d-a1dd-41e05033d54e)
 - [SpiroMeta Consortium Dataset](https://web.www.healthdatagateway.org/dataset/f908efd6-c6ac-448b-89b9-222c50aec7c8)
+- [Teleconsultation in remote rural India: management of COPD and Asthma](https://web.www.healthdatagateway.org/dataset/ffc34689-1a81-4f56-9c3f-e62b76d8445b)
 
 ### COG-UK (1)
 - [COG-UK Viral Genome Sequences](https://web.www.healthdatagateway.org/dataset/c6dc78fa-1543-4fbf-87d8-a3f48e7de813)
@@ -360,9 +367,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
 ### PIONEER (5)
+- [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/0a6fb352-c081-4909-bd16-8a73c3291e3f)
 - [University Hospitals Birmingham PICS data](https://web.www.healthdatagateway.org/dataset/1d1244b6-aeeb-4655-b5a2-2357ed28227a)
 - [Birmingham Out of Hours Research Database](https://web.www.healthdatagateway.org/dataset/d546521a-79be-4a53-83bd-ff008bda6171)
-- [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/f029cd46-0d49-4de1-b1eb-b780b079b9de)
 - [Society for Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/f075ceb7-5bed-4e6b-8e83-211aee945356)
 - [PIONEER - Genomics Patients and related data](https://web.www.healthdatagateway.org/dataset/f202a9da-f036-4e8c-a069-a20ff6c8a9e1)
 
