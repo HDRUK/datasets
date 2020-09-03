@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (481)
+## HDR UK Datasets (484)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -25,15 +25,17 @@ This repo automatically collects the datasets published on the Gateway including
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/b41bb360-f2ed-49f0-a45b-b2fb05321975)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/f8bab14a-bc9b-4dd1-a6c6-c57588605849)
 
-### BREATHE (36)
+### BREATHE (39)
 - [Development of spirometry predictive values for Indian population](https://web.www.healthdatagateway.org/dataset/0985f58b-87e0-42d2-9ee7-efd618abcd51)
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/09e8e407-82b4-4ed4-b296-53810472cbe9)
 - [Idiopathic Pulmonary Fibrosis (IPF) Genome-wide Association Study](https://web.www.healthdatagateway.org/dataset/0a0b0779-2d76-461d-9621-be54c3a3e98a)
 - [Research on use of an online learning platform on under-five pneumonia](https://web.www.healthdatagateway.org/dataset/0d0ce21e-afc1-4d9f-bf54-e0545363a0cc)
+- [Asthma and COPD: practices and perceptions of GPs in rural India](https://web.www.healthdatagateway.org/dataset/184b973d-ac38-4fc5-8203-f2a244574b4f)
 - [mHealth for pneumonia prevention](https://web.www.healthdatagateway.org/dataset/2542abf8-e50b-4962-9fa1-6dba1b7e8439)
 - [4 Country ChrOnic: estimating respiratory disease burden in adults, South India](https://web.www.healthdatagateway.org/dataset/2dc79612-0e0d-4336-aaa1-6abd90d28589)
 - [COVID-19 Detection from Chest X-Rays using Deep Learning](https://web.www.healthdatagateway.org/dataset/3aa01779-831e-478f-b4e3-7c111d642b18)
 - [Extended Cohort for E-health, Environment and DNA (EXCEED)](https://web.www.healthdatagateway.org/dataset/3ee52adc-b97e-4f7b-a251-a1c9841a380c)
+- [Theory of Planned Behaviour Intervention: respiratory disease in South India](https://web.www.healthdatagateway.org/dataset/47e9fa0a-d74f-43bc-ae63-0eb33f354f01)
 - [COPDMAP Consortium](https://web.www.healthdatagateway.org/dataset/505318b6-609c-4baf-9dea-2e3532f936f8)
 - [Prospective Observation of Fibrosis in the Lung Clinical Endpoints](https://web.www.healthdatagateway.org/dataset/50feb9f3-3be8-4690-913b-bd462d27d3db)
 - [International Severe Asthma Registry](https://web.www.healthdatagateway.org/dataset/52a4c514-0414-43c7-a400-1498a70ed85a)
@@ -42,6 +44,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Wales Asthma Observatory](https://web.www.healthdatagateway.org/dataset/6439bf82-d0b4-4d7f-b7d9-f1e716b12df5)
 - [Leicester Respiratory Research Database](https://web.www.healthdatagateway.org/dataset/663146dd-0bc3-4d12-95c7-50873a3d45b6)
 - [Prevention, detection, treatment: adult lung disease/cancer in rural Tamil Nadu](https://web.www.healthdatagateway.org/dataset/736a9d09-83c7-4cfa-ae82-a10b2a69efc8)
+- [Effects of second-hand smoke on pregnant women: a phenomenological study](https://web.www.healthdatagateway.org/dataset/7480abe4-e073-40ef-882d-217542b5e08e)
 - [EMEP4UK Pollution](https://web.www.healthdatagateway.org/dataset/79116473-bda2-413c-82ad-ba2b86e5076f)
 - [Pneumonia case management practices in selected communities in Pakistan](https://web.www.healthdatagateway.org/dataset/8fc0a2cc-a8ce-4558-a98a-c514255833d8)
 - [Genetics of Asthma Severity & Phenotypes](https://web.www.healthdatagateway.org/dataset/94c082e5-b45f-43fe-9340-f4855f392fd4)
