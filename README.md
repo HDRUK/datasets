@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (485)
+## HDR UK Datasets (487)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -25,12 +25,13 @@ This repo automatically collects the datasets published on the Gateway including
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/b41bb360-f2ed-49f0-a45b-b2fb05321975)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/f8bab14a-bc9b-4dd1-a6c6-c57588605849)
 
-### BREATHE (39)
+### BREATHE (40)
 - [Development of spirometry predictive values for Indian population](https://web.www.healthdatagateway.org/dataset/0985f58b-87e0-42d2-9ee7-efd618abcd51)
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/09e8e407-82b4-4ed4-b296-53810472cbe9)
 - [Idiopathic Pulmonary Fibrosis (IPF) Genome-wide Association Study](https://web.www.healthdatagateway.org/dataset/0a0b0779-2d76-461d-9621-be54c3a3e98a)
 - [Research on use of an online learning platform on under-five pneumonia](https://web.www.healthdatagateway.org/dataset/0d0ce21e-afc1-4d9f-bf54-e0545363a0cc)
 - [Asthma and COPD: practices and perceptions of GPs in rural India](https://web.www.healthdatagateway.org/dataset/184b973d-ac38-4fc5-8203-f2a244574b4f)
+- [Early Pandemic Evaluation and Enhanced Surveillance of COVID-19 (EAVE II)](https://web.www.healthdatagateway.org/dataset/191c1e3f-4eff-41b9-bff1-c6510f7c6c3d)
 - [mHealth for pneumonia prevention](https://web.www.healthdatagateway.org/dataset/2542abf8-e50b-4962-9fa1-6dba1b7e8439)
 - [4 Country ChrOnic: estimating respiratory disease burden in adults, South India](https://web.www.healthdatagateway.org/dataset/2dc79612-0e0d-4336-aaa1-6abd90d28589)
 - [COVID-19 Detection from Chest X-Rays using Deep Learning](https://web.www.healthdatagateway.org/dataset/3aa01779-831e-478f-b4e3-7c111d642b18)
@@ -269,6 +270,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Moorfields Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/6959639d-5bd2-4b53-918e-8f56784b2870)
 - [UHB Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/94351432-da7e-4d44-97eb-4359d45e0240)
 
+### ISARIC 4C (1)
+- [COVID-19 Clinical Information Network (CO-CIN)](https://web.www.healthdatagateway.org/dataset/78b4e352-a47f-4b45-aeb8-32eeb49e59df)
+
 ### LEICESTER (3)
 - [The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease](https://web.www.healthdatagateway.org/dataset/05ade19c-75f5-4623-ade6-99fb21c2d4e3)
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
@@ -390,14 +394,15 @@ This repo automatically collects the datasets published on the Gateway including
 - [Annual District Death Daily](https://web.www.healthdatagateway.org/dataset/08a7c3c9-16e5-46f7-b594-f84618fcc62e)
 - [National Community Child Health Database (NCCHD)](https://web.www.healthdatagateway.org/dataset/0e88bc9d-bdfb-417c-8926-fdc513f5e8da)
 - [Cervical Screening Wales](https://web.www.healthdatagateway.org/dataset/113b54b0-fee5-427a-b569-04e150c1f06d)
+- [Cafcass Wales](https://web.www.healthdatagateway.org/dataset/1700f545-5f8b-48d5-bb07-da91da75dc88)
 - [Patient Episode Dataset for Wales](https://web.www.healthdatagateway.org/dataset/1a4708e5-14d3-4177-b4ef-35f71e72a16c)
+- [Cafcass England](https://web.www.healthdatagateway.org/dataset/23306c88-ecb0-4955-99d4-c5d20e84cebf)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/2c764139-22a3-4db9-89ee-583fdb9d9396)
 - [Education - Wales](https://web.www.healthdatagateway.org/dataset/32f616fb-af37-46b5-9473-7a3460656bdf)
 - [COVID-19 Test results](https://web.www.healthdatagateway.org/dataset/3824c991-3763-448d-89bd-347c3234b63b)
 - [Diagnostic and Therapy Services Waiting Times](https://web.www.healthdatagateway.org/dataset/393b666c-157b-4fee-afde-61ff93948f27)
 - [Congenital Anomaly Register and Information Service](https://web.www.healthdatagateway.org/dataset/3c430204-f632-4add-9fcb-f0ff88caea13)
 - [Welsh Demographic Service (WDS)](https://web.www.healthdatagateway.org/dataset/46568011-ae01-4e3a-9ef7-187606316668)
-- [Cafcass Wales](https://web.www.healthdatagateway.org/dataset/4fcc3265-6eca-4d34-be50-94d07aba2c7b)
 - [Emergency Department Data Set](https://web.www.healthdatagateway.org/dataset/50d07fb3-4d8e-413d-9958-434838daea4d)
 - [Children Receiving Care and Support Census](https://web.www.healthdatagateway.org/dataset/5343bac9-244f-4211-8c9a-d9c29c79b4f3)
 - [Welsh Cancer Intelligence and Surveillance Unit (WCISU)](https://web.www.healthdatagateway.org/dataset/54abedcd-d6d8-482b-a3fd-1217101a9a8e)
@@ -414,7 +419,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/8a9404f0-5209-4438-8261-b3a0d2d563f5)
 - [Outpatient Referral](https://web.www.healthdatagateway.org/dataset/8b1f4b49-78b7-4f15-b4d0-ea2b009750cc)
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/8dd6f22d-e513-4ee7-a7e8-abe055727076)
-- [Cafcass England](https://web.www.healthdatagateway.org/dataset/8fe6593f-a238-463e-90dd-280884dbd29b)
 - [Postponed Admitted Procedures](https://web.www.healthdatagateway.org/dataset/947ab204-b052-4cac-897b-d771f8dcfd1f)
 - [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/a0882580-5021-4b87-8297-c5990bbe062b)
 - [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/c42ceb2a-c9c2-491d-9f34-3da55413225f)
@@ -448,7 +452,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/df63bdd2-712d-478e-8aae-36d01158a440)
 - [Scottish Cancer Registry (SMR06)](https://web.www.healthdatagateway.org/dataset/f79d91c1-981e-4389-8626-b2cef391cf90)
 
-### SLaM (1)
+### South London and Maudsley NHS Trust (1)
 - [South London and Maudsley NHS Foundation Trust (SLaM) Clinical Record Interactive Search (CRIS) platform](https://web.www.healthdatagateway.org/dataset/21cd4b8e-f4f5-44a6-83eb-b7799e98ba55)
 
 ### TISSUE DIRECTORY (105)
