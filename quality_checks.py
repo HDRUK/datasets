@@ -193,6 +193,32 @@ def attribute_weighted_score(s, w):
             score = score + (section_score[att_name]*att_weights)
     return score
 
+def read_csv(filename):
+  header = []
+  data = []
+  with open(filename, mode='r', encoding='utf-8-sig', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    header = reader.fieldnames
+    for row in reader:
+      data.append(row)
+  return data, header
+
+def update_utility_scores(summary_scores, utility_scores, headers=None):
+    pass
+    DATA = []
+    for score in summary_scores:
+        id = score['id']
+        d  = dict.fromkeys(headers, "")
+        us = [us for us in utility_scores if us['id'] == id]
+        if len(us):
+            d.update(us[0])
+        d['id'] = score['id']
+        d['publisher'] = score['publisher']
+        d['title'] = score['title']
+        d['Metadata Richness'] = score['weighted_quality_rating']
+        DATA.append(d)
+    return DATA
+
 def main():
     # Compile Metadata Completeness Score
     completeness_score, headers = completeness_check()
@@ -224,6 +250,13 @@ def main():
     summary_score, headers = generate_quality_score()
     export_json(summary_score,'reports/metadata_quality.json')
     export_csv(summary_score, 'reports/metadata_quality.csv', headers)
+
+    # # Generate Data Utility Framework scores
+    utility_scores, headers = read_csv('reports/data_utility.csv')
+    # utility_scores = update_utility_scores(summary_score, utility_scores, headers)
+    utility_scores = update_utility_scores(summary_score, utility_scores, headers)
+    export_json(utility_scores,'reports/data_utility.json')
+    export_csv(utility_scores, 'reports/data_utility.csv', headers)
 
 
 if __name__ == "__main__":
