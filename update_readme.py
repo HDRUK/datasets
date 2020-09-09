@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# usage: validate.py
+# usage: update_readme.py
 __author__ = "Susheel Varma"
 __copyright__ = "Copyright (c) 2019-2020 Susheel Varma All Rights Reserved."
 __email__ = "susheel.varma@hdruk.ac.uk"
@@ -55,6 +55,8 @@ def cleanup_dataset_publishers(d):
             dp['name'] = "BARTS HEALTH NHS TRUST"
         elif dp['name'] == "University of Bristol":
             dp['name'] = "UNIVERSITY OF BRISTOL"
+        elif dp['name'] == "SLaM":
+            dp['name'] = "South London and Maudsley NHS Trust"
         elif dp['name'].startswith("NIHR Health Informatics Collaborative"):
             dp['name'] = "NIHR HIC " + dp['name'].split("NIHR Health Informatics Collaborative ")[1]
             dp['name'] = dp['name'].upper()
