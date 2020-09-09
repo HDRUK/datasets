@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (484)
+## HDR UK Datasets (485)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -384,7 +384,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
 
-### SAIL (38)
+### SAIL (39)
 - [Referral to Treatment Times](https://web.www.healthdatagateway.org/dataset/009417f0-232a-4ebc-b12c-59c5352a49d3)
 - [Maternity Indicators Dataset](https://web.www.healthdatagateway.org/dataset/05fda11b-b66c-4cfa-a137-a6937401cdb5)
 - [Annual District Death Daily](https://web.www.healthdatagateway.org/dataset/08a7c3c9-16e5-46f7-b594-f84618fcc62e)
@@ -410,6 +410,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Care Home Dataset](https://web.www.healthdatagateway.org/dataset/700e984c-74b5-4353-bf1a-c16600a5190d)
 - [Pathology Data from WRRS](https://web.www.healthdatagateway.org/dataset/78fee45f-9f03-46b1-be8e-650c54e2c3fa)
 - [GP dataset - Welsh Primary Care](https://web.www.healthdatagateway.org/dataset/7909f8a5-5440-4b9a-843f-cb48cd1f7e08)
+- [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/87e37362-b924-4bbf-89cd-661803ab03c0)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/8a9404f0-5209-4438-8261-b3a0d2d563f5)
 - [Outpatient Referral](https://web.www.healthdatagateway.org/dataset/8b1f4b49-78b7-4f15-b4d0-ea2b009750cc)
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/8dd6f22d-e513-4ee7-a7e8-abe055727076)
