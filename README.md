@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (487)
+## HDR UK Datasets (489)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -121,9 +121,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cystic Fibrosis Patient Sweat Tests](https://web.www.healthdatagateway.org/dataset/e66b726f-8e58-4411-be32-1d00ba1df13f)
 
 ### DATA-CAN (3)
-- [Children’s Kidney Cancers - Great Ormond Street Hospital](https://web.www.healthdatagateway.org/dataset/38b7cb24-d401-4f7e-b4ff-ddfd9329ac40)
-- [Yorkshire Specialist Register of Cancer in Children and Young People](https://web.www.healthdatagateway.org/dataset/8e2892c2-19db-4922-85fe-60364e53f812)
-- [Comprehensive Patient Records for Cancer Outcomes](https://web.www.healthdatagateway.org/dataset/a5b00b37-a33e-4d8d-b0c0-045d184e05bd)
+- [Children’s Kidney Cancers - Great Ormond Street Hospital](https://web.www.healthdatagateway.org/dataset/395d4311-da00-49a4-b78e-5387c961d803)
+- [Comprehensive Patient Records for Cancer Outcomes](https://web.www.healthdatagateway.org/dataset/49dc6bfb-37f7-4f18-92e7-1a06ab80633e)
+- [Yorkshire Specialist Register of Cancer in Children and Young People](https://web.www.healthdatagateway.org/dataset/b765d514-1642-4762-a521-73463c977094)
 
 ### DISCOVER NOW (15)
 - [North West London Accident and Emergency Data (NWL A&E)](https://web.www.healthdatagateway.org/dataset/0a524760-0efc-477e-8a3b-805e1a0f67ec)
@@ -388,7 +388,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
 
-### SAIL (39)
+### SAIL (41)
 - [Referral to Treatment Times](https://web.www.healthdatagateway.org/dataset/009417f0-232a-4ebc-b12c-59c5352a49d3)
 - [Maternity Indicators Dataset](https://web.www.healthdatagateway.org/dataset/05fda11b-b66c-4cfa-a137-a6937401cdb5)
 - [Annual District Death Daily](https://web.www.healthdatagateway.org/dataset/08a7c3c9-16e5-46f7-b594-f84618fcc62e)
@@ -401,6 +401,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Education - Wales](https://web.www.healthdatagateway.org/dataset/32f616fb-af37-46b5-9473-7a3460656bdf)
 - [COVID-19 Test results](https://web.www.healthdatagateway.org/dataset/3824c991-3763-448d-89bd-347c3234b63b)
 - [Diagnostic and Therapy Services Waiting Times](https://web.www.healthdatagateway.org/dataset/393b666c-157b-4fee-afde-61ff93948f27)
+- [Welsh Ambulance Services NHS Trust](https://web.www.healthdatagateway.org/dataset/3b3d9ab1-e896-4ccc-a679-2414ced68590)
 - [Congenital Anomaly Register and Information Service](https://web.www.healthdatagateway.org/dataset/3c430204-f632-4add-9fcb-f0ff88caea13)
 - [Welsh Demographic Service (WDS)](https://web.www.healthdatagateway.org/dataset/46568011-ae01-4e3a-9ef7-187606316668)
 - [Emergency Department Data Set](https://web.www.healthdatagateway.org/dataset/50d07fb3-4d8e-413d-9958-434838daea4d)
@@ -415,14 +416,15 @@ This repo automatically collects the datasets published on the Gateway including
 - [Care Home Dataset](https://web.www.healthdatagateway.org/dataset/700e984c-74b5-4353-bf1a-c16600a5190d)
 - [Pathology Data from WRRS](https://web.www.healthdatagateway.org/dataset/78fee45f-9f03-46b1-be8e-650c54e2c3fa)
 - [GP dataset - Welsh Primary Care](https://web.www.healthdatagateway.org/dataset/7909f8a5-5440-4b9a-843f-cb48cd1f7e08)
-- [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/87e37362-b924-4bbf-89cd-661803ab03c0)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/8a9404f0-5209-4438-8261-b3a0d2d563f5)
 - [Outpatient Referral](https://web.www.healthdatagateway.org/dataset/8b1f4b49-78b7-4f15-b4d0-ea2b009750cc)
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/8dd6f22d-e513-4ee7-a7e8-abe055727076)
 - [Postponed Admitted Procedures](https://web.www.healthdatagateway.org/dataset/947ab204-b052-4cac-897b-d771f8dcfd1f)
 - [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/a0882580-5021-4b87-8297-c5990bbe062b)
+- [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/c0da6801-6907-4c06-8fba-d21943c3a931)
 - [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/c42ceb2a-c9c2-491d-9f34-3da55413225f)
 - [Brecon dataset](https://web.www.healthdatagateway.org/dataset/e0ed59e2-8fb5-44d4-b694-f31d46884954)
+- [Higher Education Statistics Agency (HESA) Student Data](https://web.www.healthdatagateway.org/dataset/ec8e4933-2118-4366-a61a-090748e49be7)
 - [National Survey for Wales](https://web.www.healthdatagateway.org/dataset/ee78ce42-7f1f-4c97-80cc-ea6ad628e5da)
 - [Emergency Department Dataset Daily](https://web.www.healthdatagateway.org/dataset/eebb647a-63eb-4e62-b052-26cb2eb4799d)
 - [COVID-19 Consolidated Deaths](https://web.www.healthdatagateway.org/dataset/efc2bb06-d502-4424-ac92-72834459fbaa)

@@ -6304,76 +6304,6 @@
     ]
   },
   {
-    "id": "38b7cb24-d401-4f7e-b4ff-ddfd9329ac40",
-    "publisher": "HUBS > DATA-CAN",
-    "title": "Children\u2019s Kidney Cancers - Great Ormond Street Hospital",
-    "schema_error_count": 14,
-    "errors": [
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '3-6 months' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Held within UCL Data Safe Haven - Access process has been detailed' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Held within UCL Data Safe Haven - Access process has been detailed' is not of type 'array'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'international data standards see technical metadata' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD-10; OPCS4.8; SNOMED CT' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD-10; OPCS4.8; SNOMED CT' is not of type 'array'"
-      },
-      {
-        "attribute": "dataController",
-        "message": "dataController: 'GOSH' is too short"
-      },
-      {
-        "attribute": "dataProcessor",
-        "message": "dataProcessor: 'UCL' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'UCL' is not one of ['Not Applicable']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Multiple derivations' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Multiple derivations' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not currently available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not currently available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Currently comprising data on 670 children with kidney tumours who are resident across the UK and Republic of Ireland. This represents >90% of all incident cases diagnosed in the population' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'N = 3,170 patients: Full patient and tumour demographics, imaging archive of CT and MRI scans. There is also partial tumour genomic copy number data available. Further development underway to link to UK registry data - Scotland, Northern Ireland, Wales and England.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'N = 3,170 patients: Full patient and tumour demographics, imaging archive of CT and MRI scans. There is also partial tumour genomic copy number data available. Further development underway to link to UK registry data - Scotland, Northern Ireland, Wales and England.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: '2012-2019' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "3932ee85-69cb-414a-b4a0-b763010d90a5",
     "publisher": "HUBS > DISCOVER NOW",
     "title": "North West London High Cost Drugs Data (NWL HCD)",
@@ -6672,6 +6602,63 @@
         "attribute": "accessRights",
         "message": "accessRights: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.nicor.org.uk/for-researchers/' is not valid under any of the given schemas",
         "suberrors": "    type: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.nicor.org.uk/for-researchers/' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "395d4311-da00-49a4-b78e-5387c961d803",
+    "publisher": "HUBS > DATA-CAN",
+    "title": "Children\u2019s Kidney Cancers - Great Ormond Street Hospital",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '3-6 months' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Held within UCL Data Safe Haven - Access process has been detailed' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Held within UCL Data Safe Haven - Access process has been detailed' is not of type 'array'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Other' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD-10; OPCS4.8; SNOMED CT' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD-10; OPCS4.8; SNOMED CT' is not of type 'array'"
+      },
+      {
+        "attribute": "dataController",
+        "message": "dataController: 'GOSH' is too short"
+      },
+      {
+        "attribute": "dataProcessor",
+        "message": "dataProcessor: 'UCL' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'UCL' is not one of ['Not Applicable']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Multiple derivations' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Multiple derivations' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Currently comprising data on 670 children with kidney tumours who are resident across the UK and Republic of Ireland. This represents >90% of all incident cases diagnosed in the population' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'N = 3,170 patients: Full patient and tumour demographics, imaging archive of CT and MRI scans. There is also partial tumour genomic copy number data available. Further development underway to link to UK registry data - Scotland, Northern Ireland, Wales and England.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'N = 3,170 patients: Full patient and tumour demographics, imaging archive of CT and MRI scans. There is also partial tumour genomic copy number data available. Further development underway to link to UK registry data - Scotland, Northern Ireland, Wales and England.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -6988,6 +6975,39 @@
       {
         "attribute": "geographicCoverage",
         "message": "geographicCoverage: 'Pakistan' is not a 'uri'"
+      }
+    ]
+  },
+  {
+    "id": "3b3d9ab1-e896-4ccc-a679-2414ced68590",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Welsh Ambulance Services NHS Trust",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -8360,6 +8380,53 @@
       {
         "attribute": "geographicCoverage",
         "message": "geographicCoverage: 'India' is not a 'uri'"
+      }
+    ]
+  },
+  {
+    "id": "49dc6bfb-37f7-4f18-92e7-1a06ab80633e",
+    "publisher": "HUBS > DATA-CAN",
+    "title": "Comprehensive Patient Records for Cancer Outcomes",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '3-6 months' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'HL7' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD-10, OPCS4.8, SNOMED CT' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD-10, OPCS4.8, SNOMED CT' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Leeds' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'The data relates to patients in the UK that LTHT have a \u2018legitimate patient relationship\u2019 with and that were determined to have had a cancer diagnosis or be a matched non-cancer patient.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'The data relates to patients in the UK that LTHT have a \u2018legitimate patient relationship\u2019 with and that were determined to have had a cancer diagnosis or be a matched non-cancer patient.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -14769,35 +14836,6 @@
     ]
   },
   {
-    "id": "87e37362-b924-4bbf-89cd-661803ab03c0",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Daily Situation Report Data",
-    "schema_error_count": 5,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Not Applicable' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Does not have SAIL anonymised linkage field.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Does not have SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
-      }
-    ]
-  },
-  {
     "id": "8881192f-ffdf-4917-be80-e7daab9a0ca2",
     "publisher": "ALLIANCE > CYSTIC FIBROSIS",
     "title": "Cystic Fibrosis Patient CFQ-R",
@@ -15460,67 +15498,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
-    "id": "8e2892c2-19db-4922-85fe-60364e53f812",
-    "publisher": "HUBS > DATA-CAN",
-    "title": "Yorkshire Specialist Register of Cancer in Children and Young People",
-    "schema_error_count": 12,
-    "errors": [
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '3-6 months' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Through Leeds Institute for Data Analytics (LIDA). The Register resides with a MS SQL server relational database architecture. The dataset sits within the SEED\\nsecure area at UoL and is available to others through a UoL safe haven environment.' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Through Leeds Institute for Data Analytics (LIDA). The Register resides with a MS SQL server relational database architecture. The dataset sits within the SEED\\nsecure area at UoL and is available to others through a UoL safe haven environment.' is not of type 'array'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'International standards' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD-10; OPCS4.8; SNOMED CT' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD-10; OPCS4.8; SNOMED CT' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Multiple derivations' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Multiple derivations' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not currently available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not currently available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Yorkshire, UK regional population based register' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'The Register goes beyond the dataset held by NCRAS in having much more rich and detailed treatment histories of every patient through active follow-up so beyond the traditional 6-month window since diagnosis used by NCRAS, as well as more complete tumour staging information. Register also records any cancer recurrence alongside any subsequent treatment received.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'The Register goes beyond the dataset held by NCRAS in having much more rich and detailed treatment histories of every patient through active follow-up so beyond the traditional 6-month window since diagnosis used by NCRAS, as well as more complete tumour staging information. Register also records any cancer recurrence alongside any subsequent treatment received.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -18446,62 +18423,6 @@
     ]
   },
   {
-    "id": "a5b00b37-a33e-4d8d-b0c0-045d184e05bd",
-    "publisher": "HUBS > DATA-CAN",
-    "title": "Comprehensive Patient Records for Cancer Outcomes",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '3-6 months' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Open Standards' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD-10, OPCS4.8, SNOMED CT' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD-10, OPCS4.8, SNOMED CT' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not currently available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not currently available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Leeds' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'The data relates to patients in the UK that LTHT have a \u2018legitimate patient relationship\u2019 with and that were determined to have had a cancer diagnosis or be a matched non-cancer patient.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'The data relates to patients in the UK that LTHT have a \u2018legitimate patient relationship\u2019 with and that were determined to have had a cancer diagnosis or be a matched non-cancer patient.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Single extract' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "a617a37d-1813-49ad-8282-38169981a095",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "plasmaMATCH",
@@ -20296,6 +20217,58 @@
     ]
   },
   {
+    "id": "b765d514-1642-4762-a521-73463c977094",
+    "publisher": "HUBS > DATA-CAN",
+    "title": "Yorkshire Specialist Register of Cancer in Children and Young People",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '3-6 months' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Through Leeds Institute for Data Analytics (LIDA). The Register resides with a MS SQL server relational database architecture. The dataset sits within the SEED\\nsecure area at UoL and is available to others through a UoL safe haven environment.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Through Leeds Institute for Data Analytics (LIDA). The Register resides with a MS SQL server relational database architecture. The dataset sits within the SEED\\nsecure area at UoL and is available to others through a UoL safe haven environment.' is not of type 'array'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'Other' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD-10; OPCS4.8; SNOMED CT' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD-10; OPCS4.8; SNOMED CT' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Multiple derivations' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Multiple derivations' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Yorkshire, UK regional population based register' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'The Register goes beyond the dataset held by NCRAS in having much more rich and detailed treatment histories of every patient through active follow-up so beyond the traditional 6-month window since diagnosis used by NCRAS, as well as more complete tumour staging information. Register also records any cancer recurrence alongside any subsequent treatment received.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'The Register goes beyond the dataset held by NCRAS in having much more rich and detailed treatment histories of every patient through active follow-up so beyond the traditional 6-month window since diagnosis used by NCRAS, as well as more complete tumour staging information. Register also records any cancer recurrence alongside any subsequent treatment received.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "b796b821-97cf-4aa1-bbc7-53e3c1fbc33f",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "TRICON8",
@@ -21155,6 +21128,35 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "c0da6801-6907-4c06-8fba-d21943c3a931",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Daily Situation Report Data",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Not Applicable' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Does not have SAIL anonymised linkage field.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Does not have SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
@@ -25334,6 +25336,47 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "ec8e4933-2118-4366-a61a-090748e49be7",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Higher Education Statistics Agency (HESA) Student Data",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Weekly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
