@@ -5,6 +5,7 @@ __copyright__ = "Copyright (c) 2019-2020 Susheel Varma All Rights Reserved."
 __email__ = "susheel.varma@hdruk.ac.uk"
 __license__ = "Apache 2"
 
+import sys
 import csv
 import json
 import urllib
@@ -16,7 +17,7 @@ API_BASE_URL="https://metadata-catalogue.org/hdruk/api"
 DATA_MODELS = API_BASE_URL + "/dataModels"
 DATA_MODEL_ID = API_BASE_URL + "/facets/{MODEL_ID}/profile/uk.ac.hdrukgateway/HdrUkProfilePluginService"
 DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses"
-DATA_MODEL_CLASSES_ELEMENTS = DATA_MODEL_CLASSES + "/{CLASS_ID}/dataElements"
+DATA_MODEL_CLASSES_ELEMENTS = DATA_MODEL_CLASSES + "/{CLASS_ID}/dataElements?all=true"
 DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticLinks"
 
 def request_url(URL):
