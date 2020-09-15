@@ -102,7 +102,7 @@ def get_semantic_links(data_model_id):
       tar_ver = links['target']['documentationVersion']
       tar_id = links['target']['id']
       data[tar_ver] = tar_id
-    data['latest'] = data_model_id
+  data['latest'] = data_model_id
   return { 'revisions': data }
 
 def fix_dates(revisions):
