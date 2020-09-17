@@ -167,6 +167,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS Tayside, A&E Drugs given during an A&E visit](https://web.www.healthdatagateway.org/dataset/e8f5b1b5-2c08-439a-b337-70b454aa40f3)
 - [Fife Microbiology: Isolations](https://web.www.healthdatagateway.org/dataset/edaf29f4-9857-4bb0-97b9-ae88b70a2a3c)
 
+### GENERATION SCOTLAND (1)
+- [Generation Scotland: Scottish Family Health Study](https://web.www.healthdatagateway.org/dataset/301233da-53f8-4cea-8f74-4d4aa8d8c42c)
+
 ### GENOMICS ENGLAND (6)
 - [GENOMICS ENGLAND 100K NHSD LINKED DATA](https://web.www.healthdatagateway.org/dataset/15a7c12f-145c-46fc-acc9-c27e83ed2c4d)
 - [GENOMICS ENGLAND 100K BIOINFORMATICS DATA](https://web.www.healthdatagateway.org/dataset/7c9f9620-8f18-4e2d-bda0-a3a6f46756b6)
@@ -457,7 +460,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### South London and Maudsley NHS Trust (1)
 - [South London and Maudsley NHS Foundation Trust (SLaM) Clinical Record Interactive Search (CRIS) platform](https://web.www.healthdatagateway.org/dataset/21cd4b8e-f4f5-44a6-83eb-b7799e98ba55)
 
-### TISSUE DIRECTORY (105)
+### TISSUE DIRECTORY (104)
 - [Infectious Diseases BioBank at King's College London](https://web.www.healthdatagateway.org/dataset/0534b41b-9877-4e30-b3ce-e604b29d4990)
 - [Tayside Biorepository](https://web.www.healthdatagateway.org/dataset/0a4f19cc-8565-410b-ac02-2751f5284a9b)
 - [IMPORT HIGH trial blood samples](https://web.www.healthdatagateway.org/dataset/0df3a0a9-d261-47ff-99e5-9c7e67410712)
@@ -558,7 +561,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Leeds NIHR Biomarker Research Tissue Bank](https://web.www.healthdatagateway.org/dataset/f5b57b56-a4ed-46d4-825f-d181e8db809d)
 - [Oxford Musculoskeletal Biobank](https://web.www.healthdatagateway.org/dataset/f5ed34fa-154a-4613-a253-277547cfd8ca)
 - [NIHR Exeter Clinical Research Facility](https://web.www.healthdatagateway.org/dataset/f621fcc9-e9ab-4da4-bd34-e4530d11b59d)
-- [Generation Scotland](https://web.www.healthdatagateway.org/dataset/f72798fb-d168-4c3c-abce-f8300cbcb8b3)
 - [Multiple Sclerosis and Parkinson's Tissue Bank](https://web.www.healthdatagateway.org/dataset/f8f6e9ea-65c0-48a6-9beb-6de80bbbefda)
 - [UCL / UCLH Biobank for Studying Health and Disease](https://web.www.healthdatagateway.org/dataset/f9a712ae-9d41-41a6-b2ca-3127441b03ac)
 - [St Thomas' Hospitals Plasma, serum & DNA Bio bank from patients with antiphospholipid antibodies](https://web.www.healthdatagateway.org/dataset/f9f3af0d-ca1c-4e8f-b5e8-20962e1e7b4e)
