@@ -379,7 +379,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
 ### PIONEER (5)
-- [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/0a6fb352-c081-4909-bd16-8a73c3291e3f)
+- [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/166c6c04-c4dd-4df7-977a-b375fda23134)
 - [University Hospitals Birmingham PICS data](https://web.www.healthdatagateway.org/dataset/1d1244b6-aeeb-4655-b5a2-2357ed28227a)
 - [Birmingham Out of Hours Research Database](https://web.www.healthdatagateway.org/dataset/d546521a-79be-4a53-83bd-ff008bda6171)
 - [Society for Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/f075ceb7-5bed-4e6b-8e83-211aee945356)
