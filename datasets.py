@@ -9,6 +9,8 @@ import sys
 import csv
 import json
 import urllib
+import uuid
+import itertools
 import requests
 from pprint import pprint
 from migrate_v1_to_v2 import map_data
@@ -221,11 +223,39 @@ def migrate_v1_to_v2(data):
     'dataModels': new_data
   }
 
+def lookup_pid(id, revisions, original_data):
+  for od in original_data['dataModels']:
+    original_revisions = list(od['revisions'].values())
+    # Existing Dataset with matching ID
+    # if ID exists in original_data return existing PID or create one
+    if id == od['id']:
+      return od.get('pid', str(uuid.uuid4()))
+    
+    # Existing Dataset with matching revisions
+    # if revision matches any original_data revisions return existing PID or create one
+    elif any(item in revisions for item in original_revisions):
+        return od.get('pid', str(uuid.uuid4()))
+  
+  # New Dataset
+  # if nothing matches generate a new PID
+  return str(uuid.uuid4())
+
+def merge_dataset_extracts(original_data, new_data):
+  for d in new_data['dataModels']:
+    id = d['id']
+    d['pid'] = lookup_pid(id, list(d['revisions'].values()), original_data)
+  return new_data
 
 def main():
   data_models_list = request_url(DATA_MODELS)
   data, headers = process_data_models(data_models_list)
   export_json(data, 'datasets.json')
+
+  # data = read_json('datasets.json')
+  original_data = read_json('datasets.pid.json')
+  data = merge_dataset_extracts(original_data, data)
+  export_json(data, 'datasets.pid.json')
+  
   tables = format_csv_tables(data)
   export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
   export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
