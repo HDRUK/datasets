@@ -320,6 +320,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### NHS DIGITRIALS (9)
 - [Hospital Episode Statistics Admitted Patient Care](https://web.www.healthdatagateway.org/dataset/02961e24-4cb3-4cd3-90bd-4248a00391ce)
+- [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/059a221b-8452-426a-8bd3-4dcdc880469f)
 - [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/4487605e-1e20-4cbe-945f-7169e4ac667d)
 - [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/6a6b33a3-afd6-4f22-ba41-a87beccc3eb1)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/7f841dc4-87ed-4048-b06b-1a1e9198b8c1)
@@ -327,7 +328,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/a104ba06-be82-4f2d-b177-f13948643f84)
 - [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/c23c588f-7ab6-4c19-af4d-fe1e4d181102)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/c720c89a-b2c6-4cd6-b606-df34ff22b1c8)
-- [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/d83cc514-3e36-41a8-b9bc-c288265e66cf)
 
 ### NHSX (1)
 - [The National COVID-19 Chest Imaging Database](https://web.www.healthdatagateway.org/dataset/8c13e03e-b9d2-4b04-8b98-097643a6beaf)
@@ -386,7 +386,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [PIONEER - Genomics Patients and related data](https://web.www.healthdatagateway.org/dataset/f202a9da-f036-4e8c-a069-a20ff6c8a9e1)
 
 ### PUBLIC HEALTH ENGLAND (1)
-- [National Cancer Registration Dataset 2018](https://web.www.healthdatagateway.org/dataset/cd0cc1de-f0bc-4247-9e67-47e162e2cc6b)
+- [National Cancer Registration Dataset 2018](https://web.www.healthdatagateway.org/dataset/8045cbe5-738d-4d30-a360-06acbbace5a9)
 
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)

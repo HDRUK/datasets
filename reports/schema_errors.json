@@ -734,6 +734,61 @@
     ]
   },
   {
+    "id": "059a221b-8452-426a-8bd3-4dcdc880469f",
+    "publisher": "HUBS > NHS DIGITRIALS",
+    "title": "Civil Registration - Deaths",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 months. Please note we will only pause the elapsed time when we require further detail or approvals from an external provider are required.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD 9th & 10th Revisions, Organisation Codes, Establishment Codes, NHS Data Dictionary' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD 9th & 10th Revisions, Organisation Codes, Establishment Codes, NHS Data Dictionary' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Deaths (Parent)\\n              HES-ONS/Civil Reg Deaths Secondary Care Cut (Child)\\n              SHMI (Grandchild)\\n              Primary Care Mortality Data (Child)' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Deaths (Parent)\\n              HES-ONS/Civil Reg Deaths Secondary Care Cut (Child)\\n              SHMI (Grandchild)\\n              Primary Care Mortality Data (Child)' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Dataset linkable to other person level datasets' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Dataset linkable to other person level datasets' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Weekly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "05ade19c-75f5-4623-ade6-99fb21c2d4e3",
     "publisher": "ALLIANCE > LEICESTER",
     "title": "The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease",
@@ -13741,6 +13796,62 @@
     ]
   },
   {
+    "id": "8045cbe5-738d-4d30-a360-06acbbace5a9",
+    "publisher": "ALLIANCE > PUBLIC HEALTH ENGLAND",
+    "title": "National Cancer Registration Dataset 2018",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-3 months from a valid application.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'All ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'DCB1521: CANCER OUTCOMES AND SERVICES DATASET' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "contactPoint: 'https://www.gov.uk/government/publications/accessing-public-health-england-data' is not a 'email'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD 10 Codes, NHS Data Dictionary, OPSC 4.8' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD 10 Codes, NHS Data Dictionary, OPSC 4.8' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands; or full dates truncated to month and year, or year alone). In addition, fields such as STAGE_BEST, ROUTE_CODE, FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands; or full dates truncated to month and year, or year alone). In addition, fields such as STAGE_BEST, ROUTE_CODE, FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'NCRAS has been linked to a number of other collections and datasets including: CPRD (GOLD & ARUM), NHS Business Services Authority Prescribing Data, HES, ONS Civil Registration, Molecular Data, MINAP, NICOR, as well as a number of standing cohorts including UK Biobank.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'NCRAS has been linked to a number of other collections and datasets including: CPRD (GOLD & ARUM), NHS Business Services Authority Prescribing Data, HES, ONS Civil Registration, Molecular Data, MINAP, NICOR, as well as a number of standing cohorts including UK Biobank.' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
     "id": "81a515f5-5f4d-480e-b5ce-24faa7026c00",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "National Unified Renal Translational Research Enterprise (NURTuRE)",
@@ -22813,57 +22924,6 @@
     ]
   },
   {
-    "id": "cd0cc1de-f0bc-4247-9e67-47e162e2cc6b",
-    "publisher": "ALLIANCE > PUBLIC HEALTH ENGLAND",
-    "title": "National Cancer Registration Dataset 2018",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-3 months from a valid application.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "contactPoint",
-        "message": "contactPoint: 'https://www.gov.uk/government/publications/accessing-public-health-england-data' is not a 'email'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD 10 Codes, NHS Data Dictionary, OPSC 4.8' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD 10 Codes, NHS Data Dictionary, OPSC 4.8' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands; or full dates truncated to month and year, or year alone). In addition, fields such as STAGE_BEST, ROUTE_CODE, FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands; or full dates truncated to month and year, or year alone). In addition, fields such as STAGE_BEST, ROUTE_CODE, FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      }
-    ]
-  },
-  {
     "id": "ce9025c9-cf30-420b-8edb-f6ca438b099f",
     "publisher": "ALLIANCE > SCOTLAND",
     "title": "Child Health Systems Programme - 4-5 year review",
@@ -23851,63 +23911,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA, Plasma' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "id": "d83cc514-3e36-41a8-b9bc-c288265e66cf",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Civil Registration - Deaths",
-    "schema_error_count": 12,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
