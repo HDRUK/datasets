@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (489)
+## HDR UK Datasets (491)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -25,7 +25,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/b41bb360-f2ed-49f0-a45b-b2fb05321975)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/f8bab14a-bc9b-4dd1-a6c6-c57588605849)
 
-### BREATHE (40)
+### BREATHE (42)
 - [Development of spirometry predictive values for Indian population](https://web.www.healthdatagateway.org/dataset/0985f58b-87e0-42d2-9ee7-efd618abcd51)
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/09e8e407-82b4-4ed4-b296-53810472cbe9)
 - [Research on use of an online learning platform on under-five pneumonia](https://web.www.healthdatagateway.org/dataset/0d0ce21e-afc1-4d9f-bf54-e0545363a0cc)
@@ -34,6 +34,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Idiopathic Pulmonary Fibrosis (IPF) Genome-wide Association Study](https://web.www.healthdatagateway.org/dataset/24b82645-1854-438a-97b2-911bba469d3d)
 - [mHealth for pneumonia prevention](https://web.www.healthdatagateway.org/dataset/2542abf8-e50b-4962-9fa1-6dba1b7e8439)
 - [4 Country ChrOnic: estimating respiratory disease burden in adults, South India](https://web.www.healthdatagateway.org/dataset/2dc79612-0e0d-4336-aaa1-6abd90d28589)
+- [Exploring psychological issues of primary care teams in Malaysia amidst COVID-19](https://web.www.healthdatagateway.org/dataset/37eb2884-d7df-489f-a3ad-f02f1e510475)
 - [COVID-19 Detection from Chest X-Rays using Deep Learning](https://web.www.healthdatagateway.org/dataset/3aa01779-831e-478f-b4e3-7c111d642b18)
 - [Extended Cohort for E-health, Environment and DNA (EXCEED)](https://web.www.healthdatagateway.org/dataset/3ee52adc-b97e-4f7b-a251-a1c9841a380c)
 - [Theory of Planned Behaviour Intervention: respiratory disease in South India](https://web.www.healthdatagateway.org/dataset/47e9fa0a-d74f-43bc-ae63-0eb33f354f01)
@@ -45,6 +46,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [SpiroMeta Consortium Dataset](https://web.www.healthdatagateway.org/dataset/5d2758c6-b315-421f-9971-9df8ba83a2d4)
 - [ICT-based intervention for adult asthma with limited health literacy](https://web.www.healthdatagateway.org/dataset/62824365-480a-4d20-9ab2-7e7739e7e2ec)
 - [Wales Asthma Observatory](https://web.www.healthdatagateway.org/dataset/6439bf82-d0b4-4d7f-b7d9-f1e716b12df5)
+- [Exploring the provision of supportive care for patients with COPD in Malaysia](https://web.www.healthdatagateway.org/dataset/68eca6a2-7c32-4bea-bcd1-c07dc50ee018)
 - [Prevention, detection, treatment: adult lung disease/cancer in rural Tamil Nadu](https://web.www.healthdatagateway.org/dataset/736a9d09-83c7-4cfa-ae82-a10b2a69efc8)
 - [Effects of second-hand smoke on pregnant women: a phenomenological study](https://web.www.healthdatagateway.org/dataset/7480abe4-e073-40ef-882d-217542b5e08e)
 - [EMEP4UK Pollution](https://web.www.healthdatagateway.org/dataset/79116473-bda2-413c-82ad-ba2b86e5076f)
@@ -321,12 +323,12 @@ This repo automatically collects the datasets published on the Gateway including
 ### NHS DIGITRIALS (9)
 - [Hospital Episode Statistics Admitted Patient Care](https://web.www.healthdatagateway.org/dataset/02961e24-4cb3-4cd3-90bd-4248a00391ce)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/059a221b-8452-426a-8bd3-4dcdc880469f)
+- [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/19f21b8f-6ae0-4cbd-a175-596b8476f69a)
 - [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/4487605e-1e20-4cbe-945f-7169e4ac667d)
 - [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/6a6b33a3-afd6-4f22-ba41-a87beccc3eb1)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/7f841dc4-87ed-4048-b06b-1a1e9198b8c1)
 - [Hospital Episode Statistics Critical Care](https://web.www.healthdatagateway.org/dataset/88aef872-87fc-471b-a4ed-276349ef575a)
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/a104ba06-be82-4f2d-b177-f13948643f84)
-- [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/c23c588f-7ab6-4c19-af4d-fe1e4d181102)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/c720c89a-b2c6-4cd6-b606-df34ff22b1c8)
 
 ### NHSX (1)
