@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (491)
+## HDR UK Datasets (498)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -25,12 +25,16 @@ This repo automatically collects the datasets published on the Gateway including
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/b41bb360-f2ed-49f0-a45b-b2fb05321975)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/f8bab14a-bc9b-4dd1-a6c6-c57588605849)
 
-### BREATHE (42)
+### BREATHE (48)
+- [CuT-AsthMa: Culturally tailored school-based intervention for asthma in Malaysia](https://web.www.healthdatagateway.org/dataset/0692d86c-1f24-43a4-9508-005d00bd7259)
 - [Development of spirometry predictive values for Indian population](https://web.www.healthdatagateway.org/dataset/0985f58b-87e0-42d2-9ee7-efd618abcd51)
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/09e8e407-82b4-4ed4-b296-53810472cbe9)
 - [Research on use of an online learning platform on under-five pneumonia](https://web.www.healthdatagateway.org/dataset/0d0ce21e-afc1-4d9f-bf54-e0545363a0cc)
+- [Developing and Evaluating Interventions to Improve Asthma Care](https://web.www.healthdatagateway.org/dataset/0e8546e9-c841-4a99-a3f8-bb9020c6782c)
+- [4CCORD Study - 4 Country Chronic Respiratory Disease Study (Malaysia)](https://web.www.healthdatagateway.org/dataset/0f2acd6c-a774-46ec-9e73-bccc997073c5)
 - [Asthma and COPD: practices and perceptions of GPs in rural India](https://web.www.healthdatagateway.org/dataset/184b973d-ac38-4fc5-8203-f2a244574b4f)
 - [Early Pandemic Evaluation and Enhanced Surveillance of COVID-19 (EAVE II)](https://web.www.healthdatagateway.org/dataset/191c1e3f-4eff-41b9-bff1-c6510f7c6c3d)
+- [Air Quality Study: An ecological analysis of asthma health outcomes in Malaysia](https://web.www.healthdatagateway.org/dataset/1b80d25c-4f0f-497b-8614-4d1a8c4d1cd3)
 - [Idiopathic Pulmonary Fibrosis (IPF) Genome-wide Association Study](https://web.www.healthdatagateway.org/dataset/24b82645-1854-438a-97b2-911bba469d3d)
 - [mHealth for pneumonia prevention](https://web.www.healthdatagateway.org/dataset/2542abf8-e50b-4962-9fa1-6dba1b7e8439)
 - [4 Country ChrOnic: estimating respiratory disease burden in adults, South India](https://web.www.healthdatagateway.org/dataset/2dc79612-0e0d-4336-aaa1-6abd90d28589)
@@ -50,6 +54,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Prevention, detection, treatment: adult lung disease/cancer in rural Tamil Nadu](https://web.www.healthdatagateway.org/dataset/736a9d09-83c7-4cfa-ae82-a10b2a69efc8)
 - [Effects of second-hand smoke on pregnant women: a phenomenological study](https://web.www.healthdatagateway.org/dataset/7480abe4-e073-40ef-882d-217542b5e08e)
 - [EMEP4UK Pollution](https://web.www.healthdatagateway.org/dataset/79116473-bda2-413c-82ad-ba2b86e5076f)
+- [Developing Patient and Public Involvement in Research in Malaysia](https://web.www.healthdatagateway.org/dataset/7fe20f78-758d-4449-beb4-ccf98e2d8247)
 - [Children's Health in London and Luton (CHILL)](https://web.www.healthdatagateway.org/dataset/868613e0-23cc-4f8a-82da-18984589afd7)
 - [Pneumonia case management practices in selected communities in Pakistan](https://web.www.healthdatagateway.org/dataset/8fc0a2cc-a8ce-4558-a98a-c514255833d8)
 - [Genetics of Asthma Severity & Phenotypes](https://web.www.healthdatagateway.org/dataset/94c082e5-b45f-43fe-9340-f4855f392fd4)
@@ -67,6 +72,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Unified Cohorts Research Network](https://web.www.healthdatagateway.org/dataset/e516a359-74a8-4932-b4df-f2cf75eef89d)
 - [Introducing pulse oximetry in IMNCI, primary health facilities in Pune India](https://web.www.healthdatagateway.org/dataset/ecc4daf2-e58a-4ebc-9608-4bc741231fb9)
 - [Its Not JUST Idiopathic pulmonary fibrosis Study (INJUSTIS)](https://web.www.healthdatagateway.org/dataset/edc8f0c6-64f8-4f6d-a1dd-41e05033d54e)
+- [The Malaysian Asthma Hajj Study](https://web.www.healthdatagateway.org/dataset/eff41dbc-0ce4-4bfe-b51f-7b2753750332)
 - [Teleconsultation in remote rural India: management of COPD and Asthma](https://web.www.healthdatagateway.org/dataset/ffc34689-1a81-4f56-9c3f-e62b76d8445b)
 
 ### COG-UK (1)
@@ -393,7 +399,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
 
-### SAIL (41)
+### SAIL (42)
 - [Referral to Treatment Times](https://web.www.healthdatagateway.org/dataset/009417f0-232a-4ebc-b12c-59c5352a49d3)
 - [Maternity Indicators Dataset](https://web.www.healthdatagateway.org/dataset/05fda11b-b66c-4cfa-a137-a6937401cdb5)
 - [Annual District Death Daily](https://web.www.healthdatagateway.org/dataset/08a7c3c9-16e5-46f7-b594-f84618fcc62e)
@@ -409,6 +415,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Welsh Ambulance Services NHS Trust](https://web.www.healthdatagateway.org/dataset/3b3d9ab1-e896-4ccc-a679-2414ced68590)
 - [Congenital Anomaly Register and Information Service](https://web.www.healthdatagateway.org/dataset/3c430204-f632-4add-9fcb-f0ff88caea13)
 - [Welsh Demographic Service (WDS)](https://web.www.healthdatagateway.org/dataset/46568011-ae01-4e3a-9ef7-187606316668)
+- [Healthcare Workers Risk Assessment](https://web.www.healthdatagateway.org/dataset/47108b03-ca80-4311-8090-f474bd880e87)
 - [Emergency Department Data Set](https://web.www.healthdatagateway.org/dataset/50d07fb3-4d8e-413d-9958-434838daea4d)
 - [Children Receiving Care and Support Census](https://web.www.healthdatagateway.org/dataset/5343bac9-244f-4211-8c9a-d9c29c79b4f3)
 - [Welsh Cancer Intelligence and Surveillance Unit (WCISU)](https://web.www.healthdatagateway.org/dataset/54abedcd-d6d8-482b-a3fd-1217101a9a8e)
@@ -425,9 +432,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Outpatient Referral](https://web.www.healthdatagateway.org/dataset/8b1f4b49-78b7-4f15-b4d0-ea2b009750cc)
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/8dd6f22d-e513-4ee7-a7e8-abe055727076)
 - [Postponed Admitted Procedures](https://web.www.healthdatagateway.org/dataset/947ab204-b052-4cac-897b-d771f8dcfd1f)
-- [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/a0882580-5021-4b87-8297-c5990bbe062b)
 - [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/c0da6801-6907-4c06-8fba-d21943c3a931)
 - [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/c42ceb2a-c9c2-491d-9f34-3da55413225f)
+- [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/c84321f3-caf3-4b40-a41a-5ccebe5bb1aa)
 - [Brecon dataset](https://web.www.healthdatagateway.org/dataset/e0ed59e2-8fb5-44d4-b694-f31d46884954)
 - [Higher Education Statistics Agency (HESA) Student Data](https://web.www.healthdatagateway.org/dataset/ec8e4933-2118-4366-a61a-090748e49be7)
 - [National Survey for Wales](https://web.www.healthdatagateway.org/dataset/ee78ce42-7f1f-4c97-80cc-ea6ad628e5da)
