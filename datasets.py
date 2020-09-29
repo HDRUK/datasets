@@ -9,6 +9,7 @@ import sys
 import csv
 import json
 import urllib
+import codecs
 import uuid
 import itertools
 import requests
@@ -246,6 +247,29 @@ def merge_dataset_extracts(original_data, new_data):
     d['pid'] = lookup_pid(id, list(d['revisions'].values()), original_data)
   return new_data
 
+def generate_sitemap(data, filename):
+  BASE_URL = "https://www.healthdatagateway.org/"
+  DATASET_BASE_URL = "https://web.www.healthdatagateway.org/dataset/{}"
+  PAGES = [
+    "https://www.healthdatagateway.org/pages/about",
+    "https://www.healthdatagateway.org/pages/community",
+    "https://www.healthdatagateway.org/pages/cookie-notice",
+    "https://www.healthdatagateway.org/covid-19",
+    "https://www.healthdatagateway.org/pages/frequently-asked-questions",
+    "https://www.healthdatagateway.org/pages/guidelines",
+    "https://www.healthdatagateway.org/pages/key-terms-glossary",
+    "https://www.healthdatagateway.org/pages/latest-news",
+    "https://www.healthdatagateway.org/pages/metadata-quality"
+  ]
+
+  for d in data['dataModels']:
+    id = d['id']
+    PAGES.append(DATASET_BASE_URL.format(id))
+
+  with codecs.open(filename, 'w', encoding='utf8') as f:
+    f.write(BASE_URL + '\n')
+    f.writelines('\n'.join(PAGES))
+
 def main():
   data_models_list = request_url(DATA_MODELS)
   data, headers = process_data_models(data_models_list)
@@ -255,6 +279,9 @@ def main():
   original_data = read_json('datasets.pid.json')
   data = merge_dataset_extracts(original_data, data)
   export_json(data, 'datasets.pid.json')
+
+  # generate sitemap
+  generate_sitemap(data, 'sitemap.txt')
   
   tables = format_csv_tables(data)
   export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
