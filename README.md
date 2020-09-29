@@ -462,9 +462,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Records of Scotland (NRS) - Births Data](https://web.www.healthdatagateway.org/dataset/cd051ddc-b383-4583-aeca-b2e1fe5b17e3)
 - [Child Health Systems Programme - 4-5 year review](https://web.www.healthdatagateway.org/dataset/ce9025c9-cf30-420b-8edb-f6ca438b099f)
 - [Child Health Systems Programme - 27-30Months Review](https://web.www.healthdatagateway.org/dataset/ceca959a-11b1-4da3-8289-3cf22c9fc541)
-- [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/d936d21f-6b78-470c-b623-6d1213f2a041)
 - [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/df63bdd2-712d-478e-8aae-36d01158a440)
 - [Scottish Cancer Registry (SMR06)](https://web.www.healthdatagateway.org/dataset/f79d91c1-981e-4389-8626-b2cef391cf90)
+- [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/fb0e3d82-dcdb-4854-bdf5-99f03514a083)
 
 ### South London and Maudsley NHS Trust (1)
 - [South London and Maudsley NHS Foundation Trust (SLaM) Clinical Record Interactive Search (CRIS) platform](https://web.www.healthdatagateway.org/dataset/21cd4b8e-f4f5-44a6-83eb-b7799e98ba55)

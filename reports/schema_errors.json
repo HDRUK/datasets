@@ -24319,56 +24319,6 @@
     ]
   },
   {
-    "id": "d936d21f-6b78-470c-b623-6d1213f2a041",
-    "publisher": "ALLIANCE > SCOTLAND",
-    "title": "Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'https://www.isdscotland.org/Products-and-Services/eDRIS/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not valid under any of the given schemas",
-        "suberrors": "    type: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/index.asp' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/index.asp' is not valid under any of the given schemas",
-        "suberrors": "    type: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/index.asp' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'The Outpatient Attendance dataset covers all people offered a new or follow up outpatient appointment at a Scottish NHS hospital.' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Provisional Data: Monthly. The dataset is generally fully complete and ready for analysis three month preceding the current date.  So for example at the end of August, data is available until the end of May.' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "da4d3e21-3d81-49e9-ada0-6175e2341190",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Vascular Registry -  Abdominal Aortic Aneurysm Repair clinical dataset",
@@ -27591,6 +27541,61 @@
         "attribute": "accessRights",
         "message": "accessRights: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.nicor.org.uk/for-researchers/data-sharing-application-process/' is not valid under any of the given schemas",
         "suberrors": "    type: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.nicor.org.uk/for-researchers/data-sharing-application-process/' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "fb0e3d82-dcdb-4854-bdf5-99f03514a083",
+    "publisher": "ALLIANCE > SCOTLAND",
+    "title": "Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'https://www.isdscotland.org/Products-and-Services/eDRIS/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not valid under any of the given schemas",
+        "suberrors": "    type: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/index.asp' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/index.asp' is not valid under any of the given schemas",
+        "suberrors": "    type: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/index.asp' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'The Outpatient Attendance dataset covers all people offered a new or follow up outpatient appointment at a Scottish NHS hospital.' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'UK Biobank, Scottish Longitudinal Study' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'UK Biobank, Scottish Longitudinal Study' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Provisional Data: Monthly.' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Not avaliable' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
