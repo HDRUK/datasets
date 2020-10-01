@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (498)
+## HDR UK Datasets (499)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -289,10 +289,11 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
 
-### NHS DIGITAL (35)
+### NHS DIGITAL (36)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Mental Health Minimum Dataset v4 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/0e6e6ed5-ab81-4d7f-b06a-768bf33357ca)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/0fc61ace-397d-4489-9e62-77f88082e775)
+- [GPES Data for Pandemic Planning and Research (COVID-19)](https://web.www.healthdatagateway.org/dataset/10ba86d6-03f8-4343-8713-1ee9ba323ad7)
 - [Mental Health Services Data Set - Service Users](https://web.www.healthdatagateway.org/dataset/1d5e3b05-8ce3-4f80-ae3a-f6031ad8cf69)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/263ad0a8-ae90-4c1d-85d6-c3d2470eb2b7)
 - [Mental Health Minimum Dataset v2.6 (Sensitive)](https://web.www.healthdatagateway.org/dataset/263f28a4-9835-4856-b1c3-0a0d4085f207)
