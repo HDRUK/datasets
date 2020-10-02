@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (499)
+## HDR UK Datasets (500)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -289,7 +289,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
 
-### NHS DIGITAL (36)
+### NHS DIGITAL (37)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Mental Health Minimum Dataset v4 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/0e6e6ed5-ab81-4d7f-b06a-768bf33357ca)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/0fc61ace-397d-4489-9e62-77f88082e775)
@@ -304,6 +304,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health Minimum Dataset v4 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/46493a09-b3bb-4c0e-b944-82665ee21508)
 - [Emergency Care Data Set (ECDS)](https://web.www.healthdatagateway.org/dataset/4bb4bf38-870b-47e5-b5d1-dc75b3d4ea6a)
 - [Mental Health Services Data Set](https://web.www.healthdatagateway.org/dataset/5e37caad-4777-4d7e-be17-32220d8fed05)
+- [Medicines dispensed in Primary Care (NHSBSA data)](https://web.www.healthdatagateway.org/dataset/63bde137-b3b1-482e-8bac-3219e602e594)
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/78fe2e13-7f40-406f-a584-04909d0ce060)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/7aa02796-787a-42c2-b97e-d008fa77e4b8)
 - [Mental Health & Learning Disabilities Dataset v 1 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/8226b6fa-d815-4f15-9064-b56beb0fddb1)
@@ -331,7 +332,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Hospital Episode Statistics Admitted Patient Care](https://web.www.healthdatagateway.org/dataset/02961e24-4cb3-4cd3-90bd-4248a00391ce)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/059a221b-8452-426a-8bd3-4dcdc880469f)
 - [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/19f21b8f-6ae0-4cbd-a175-596b8476f69a)
-- [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/4487605e-1e20-4cbe-945f-7169e4ac667d)
+- [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/63aa23c0-80cf-48b1-89f2-909d5d5f70d8)
 - [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/6a6b33a3-afd6-4f22-ba41-a87beccc3eb1)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/7f841dc4-87ed-4048-b06b-1a1e9198b8c1)
 - [Hospital Episode Statistics Critical Care](https://web.www.healthdatagateway.org/dataset/88aef872-87fc-471b-a4ed-276349ef575a)
