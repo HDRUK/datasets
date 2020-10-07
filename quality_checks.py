@@ -215,7 +215,7 @@ def update_utility_scores(summary_scores, utility_scores, headers=None):
         d['id'] = score['id']
         d['publisher'] = score['publisher']
         d['title'] = score['title']
-        d['Metadata Richness'] = score['weighted_quality_rating']
+        d['metadata_richness'] = score['weighted_quality_rating']
         DATA.append(d)
     return DATA
 
