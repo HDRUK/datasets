@@ -6609,40 +6609,6 @@
     ]
   },
   {
-    "id": "3824c991-3763-448d-89bd-347c3234b63b",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "COVID-19 Test results",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'NHS WALES NATIONAL CODES (http://www.datadictionary.wales.nhs.uk/)' is not valid under any of the given schemas",
-        "suberrors": "    type: 'NHS WALES NATIONAL CODES (http://www.datadictionary.wales.nhs.uk/)' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
-      }
-    ]
-  },
-  {
     "id": "3932ee85-69cb-414a-b4a0-b763010d90a5",
     "publisher": "HUBS > DISCOVER NOW",
     "title": "North West London High Cost Drugs Data (NWL HCD)",
@@ -15895,6 +15861,44 @@
     ]
   },
   {
+    "id": "8b5525d3-4e31-4bb5-a8e3-6d7cd70bf4e2",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Test results",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS WALES NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS WALES NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "8c13e03e-b9d2-4b04-8b98-097643a6beaf",
     "publisher": "ALLIANCE > NHSX",
     "title": "The National COVID-19 Chest Imaging Database",
@@ -16203,6 +16207,62 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Access conditions are somewhat complicated, depnding on the consents given by both participants, and their clinical teams.  These are being fully enumerated to go with the release of our \"flagship\" rare diseases paper (written with GEL), currently available at the Biorxiv preprint server at DOI https://doi.org/10.1101/507244' is not valid under any of the given schemas",
         "suberrors": "    type: 'Access conditions are somewhat complicated, depnding on the consents given by both participants, and their clinical teams.  These are being fully enumerated to go with the release of our \"flagship\" rare diseases paper (written with GEL), currently available at the Biorxiv preprint server at DOI https://doi.org/10.1101/507244' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "8e66e623-2859-4a65-93d7-abd41e139976",
+    "publisher": "ALLIANCE > NHSDIGITAL",
+    "title": "Community Services Data Set",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'Availability to be confirmed' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },

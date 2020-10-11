@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (500)
+## HDR UK Datasets (501)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -339,6 +339,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/a104ba06-be82-4f2d-b177-f13948643f84)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/c720c89a-b2c6-4cd6-b606-df34ff22b1c8)
 
+### NHSDIGITAL (1)
+- [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/8e66e623-2859-4a65-93d7-abd41e139976)
+
 ### NHSX (1)
 - [The National COVID-19 Chest Imaging Database](https://web.www.healthdatagateway.org/dataset/8c13e03e-b9d2-4b04-8b98-097643a6beaf)
 
@@ -412,7 +415,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cafcass England](https://web.www.healthdatagateway.org/dataset/23306c88-ecb0-4955-99d4-c5d20e84cebf)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/2c764139-22a3-4db9-89ee-583fdb9d9396)
 - [Education - Wales](https://web.www.healthdatagateway.org/dataset/32f616fb-af37-46b5-9473-7a3460656bdf)
-- [COVID-19 Test results](https://web.www.healthdatagateway.org/dataset/3824c991-3763-448d-89bd-347c3234b63b)
 - [Diagnostic and Therapy Services Waiting Times](https://web.www.healthdatagateway.org/dataset/393b666c-157b-4fee-afde-61ff93948f27)
 - [Welsh Ambulance Services NHS Trust](https://web.www.healthdatagateway.org/dataset/3b3d9ab1-e896-4ccc-a679-2414ced68590)
 - [Congenital Anomaly Register and Information Service](https://web.www.healthdatagateway.org/dataset/3c430204-f632-4add-9fcb-f0ff88caea13)
@@ -431,6 +433,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [GP dataset - Welsh Primary Care](https://web.www.healthdatagateway.org/dataset/7909f8a5-5440-4b9a-843f-cb48cd1f7e08)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/8a9404f0-5209-4438-8261-b3a0d2d563f5)
 - [Outpatient Referral](https://web.www.healthdatagateway.org/dataset/8b1f4b49-78b7-4f15-b4d0-ea2b009750cc)
+- [COVID-19 Test results](https://web.www.healthdatagateway.org/dataset/8b5525d3-4e31-4bb5-a8e3-6d7cd70bf4e2)
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/8dd6f22d-e513-4ee7-a7e8-abe055727076)
 - [Postponed Admitted Procedures](https://web.www.healthdatagateway.org/dataset/947ab204-b052-4cac-897b-d771f8dcfd1f)
 - [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/c0da6801-6907-4c06-8fba-d21943c3a931)
