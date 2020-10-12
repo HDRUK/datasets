@@ -23,6 +23,7 @@ DATA_MODEL_METADATA = API_BASE_URL + "/facets/{MODEL_ID}/metadata?all=true"
 DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses"
 DATA_MODEL_CLASSES_ELEMENTS = DATA_MODEL_CLASSES + "/{CLASS_ID}/dataElements?all=true"
 DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticLinks"
+DATA_MODEL_PIDS = "https://api.uatbeta.healthdatagateway.org/api/v1/datasets/pidList"
 
 def request_url(URL):
   """HTTP GET request and load into data_model"""
@@ -225,28 +226,15 @@ def migrate_v1_to_v2(data):
     'dataModels': new_data
   }
 
-def lookup_pid(id, revisions, original_data):
-  for od in original_data['dataModels']:
-    original_revisions = list(od['revisions'].values())
-    # Existing Dataset with matching ID
-    # if ID exists in original_data return existing PID or create one
-    if id == od['id']:
-      return od.get('pid', str(uuid.uuid4()))
-    
-    # Existing Dataset with matching revisions
-    # if revision matches any original_data revisions return existing PID or create one
-    elif any(item in revisions for item in original_revisions):
-        return od.get('pid', str(uuid.uuid4()))
-  
-  # New Dataset
-  # if nothing matches generate a new PID
-  return str(uuid.uuid4())
-
-def merge_dataset_extracts(original_data, new_data):
-  for d in new_data['dataModels']:
+def lookup_pids(data):
+  pid_list = request_url(DATA_MODEL_PIDS)
+  for d in data['dataModels']:
     id = d['id']
-    d['pid'] = lookup_pid(id, list(d['revisions'].values()), original_data)
-  return new_data
+    for p in pid_list['data']:
+      if id in p['datasetIds']:
+        d['pid'] = p['pid']
+  return data
+
 
 def generate_sitemap(data, filename):
   BASE_URL = "https://www.healthdatagateway.org/"
@@ -276,10 +264,9 @@ def main():
   data, headers = process_data_models(data_models_list)
   export_json(data, 'datasets.json')
 
-  # data = read_json('datasets.json')
-  original_data = read_json('datasets.pid.json')
-  data = merge_dataset_extracts(original_data, data)
-  export_json(data, 'datasets.pid.json')
+  data = read_json('datasets.json')
+  pid_data = lookup_pids(data)
+  export_json(pid_data, 'datasets.pid.json')
 
   # generate sitemap
   generate_sitemap(data, 'sitemap.txt')
