@@ -289,7 +289,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
 
-### NHS DIGITAL (37)
+### NHS DIGITAL (38)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Mental Health Minimum Dataset v4 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/0e6e6ed5-ab81-4d7f-b06a-768bf33357ca)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/0fc61ace-397d-4489-9e62-77f88082e775)
@@ -311,6 +311,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [HES:Civil Registration (Deaths) bridge](https://web.www.healthdatagateway.org/dataset/86d7088b-7a15-4e9a-b2b0-857a67e04650)
 - [Mental Health Minimum Dataset v2.6 (Non-Sensitive)](https://web.www.healthdatagateway.org/dataset/895e5c2f-e484-4d08-91c6-35ac2f85c231)
 - [Bridge file: Hospital Episode Statistics to Mental Health Minimum Data Set](https://web.www.healthdatagateway.org/dataset/8d3f80d4-aeae-46f0-809b-cd6c51e24f75)
+- [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/8e66e623-2859-4a65-93d7-abd41e139976)
 - [Mental Health Services Data Set - Inpatients](https://web.www.healthdatagateway.org/dataset/8eace3c2-1dc8-4708-9350-ad129b7d2bc9)
 - [Secondary Uses Services](https://web.www.healthdatagateway.org/dataset/9475e59b-3fee-4775-9c18-fd5caafe7336)
 - [Mental Health Minimum Dataset v4 (Sensitive) Records](https://web.www.healthdatagateway.org/dataset/97fa09e6-5ea5-41cd-baf8-20366db13a3f)
@@ -338,9 +339,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Hospital Episode Statistics Critical Care](https://web.www.healthdatagateway.org/dataset/88aef872-87fc-471b-a4ed-276349ef575a)
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/a104ba06-be82-4f2d-b177-f13948643f84)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/c720c89a-b2c6-4cd6-b606-df34ff22b1c8)
-
-### NHSDIGITAL (1)
-- [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/8e66e623-2859-4a65-93d7-abd41e139976)
 
 ### NHSX (1)
 - [The National COVID-19 Chest Imaging Database](https://web.www.healthdatagateway.org/dataset/8c13e03e-b9d2-4b04-8b98-097643a6beaf)
