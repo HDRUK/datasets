@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (504)
+## HDR UK Datasets (505)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -340,6 +340,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/a104ba06-be82-4f2d-b177-f13948643f84)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/c720c89a-b2c6-4cd6-b606-df34ff22b1c8)
 
+### NHS Scotland (1)
+- [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/31e377bf-7c6c-4bc0-95f4-a4626cfa5807)
+
 ### NHSDIGITAL (1)
 - [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/2a689ef7-95a6-49fb-b57e-cac9f924bc85)
 
@@ -451,7 +454,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Welsh Dispensing Dataset](https://web.www.healthdatagateway.org/dataset/fea0b4be-4097-4c2e-86f2-03dc1ee2877b)
 
 ### SCOTLAND (22)
-- [ECOSS (-/+VE tested patients only)](https://web.www.healthdatagateway.org/dataset/0ab47a0e-1721-4c8e-aa4c-c30e64fef914)
 - [Prescribing Information System (PIS)](https://web.www.healthdatagateway.org/dataset/0b794715-53f3-422f-817a-92be3392c735)
 - [Unscheduled Care Datamart](https://web.www.healthdatagateway.org/dataset/117aa9f5-db76-48f9-9dd2-19e2d00a1b45)
 - [Child Health Systems Programme - First Visit](https://web.www.healthdatagateway.org/dataset/12d23c2c-5f35-4f59-80e3-584636c7cacb)
@@ -470,6 +472,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [GP Out of Hours](https://web.www.healthdatagateway.org/dataset/98babf8f-a557-410a-9075-640db283c9a3)
 - [Child Health Systems Programme - 4-5 year review](https://web.www.healthdatagateway.org/dataset/995c0f8d-f5ef-470a-8ffe-6bdb956bdbc0)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/bfc6e7c5-a81b-4fe2-95b5-d108a48d7d67)
+- [ECOSS (-/+VE tested patients only)](https://web.www.healthdatagateway.org/dataset/c415b97f-4dd8-4330-b682-bc76b1bbaab4)
 - [Scottish Immunisation Recall System (SIRS)](https://web.www.healthdatagateway.org/dataset/e9d504fc-4b61-4419-a400-ffda998fc377)
 - [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/fb0e3d82-dcdb-4854-bdf5-99f03514a083)
 - [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/ff0500de-acdf-4db6-b12f-263324696d47)
