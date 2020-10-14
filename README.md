@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (502)
+## HDR UK Datasets (504)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -340,6 +340,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/a104ba06-be82-4f2d-b177-f13948643f84)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/c720c89a-b2c6-4cd6-b606-df34ff22b1c8)
 
+### NHSDIGITAL (1)
+- [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/2a689ef7-95a6-49fb-b57e-cac9f924bc85)
+
 ### NHSX (1)
 - [The National COVID-19 Chest Imaging Database](https://web.www.healthdatagateway.org/dataset/8c13e03e-b9d2-4b04-8b98-097643a6beaf)
 
@@ -447,7 +450,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Exercise Referral Scheme](https://web.www.healthdatagateway.org/dataset/fe3c7527-e802-4a51-9aa2-19e7d4d22783)
 - [Welsh Dispensing Dataset](https://web.www.healthdatagateway.org/dataset/fea0b4be-4097-4c2e-86f2-03dc1ee2877b)
 
-### SCOTLAND (21)
+### SCOTLAND (22)
+- [ECOSS (-/+VE tested patients only)](https://web.www.healthdatagateway.org/dataset/0ab47a0e-1721-4c8e-aa4c-c30e64fef914)
 - [Prescribing Information System (PIS)](https://web.www.healthdatagateway.org/dataset/0b794715-53f3-422f-817a-92be3392c735)
 - [Unscheduled Care Datamart](https://web.www.healthdatagateway.org/dataset/117aa9f5-db76-48f9-9dd2-19e2d00a1b45)
 - [Child Health Systems Programme - First Visit](https://web.www.healthdatagateway.org/dataset/12d23c2c-5f35-4f59-80e3-584636c7cacb)
