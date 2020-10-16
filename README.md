@@ -292,7 +292,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
 
-### NHS DIGITAL (38)
+### NHS DIGITAL (39)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Mental Health Minimum Dataset v4 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/0e6e6ed5-ab81-4d7f-b06a-768bf33357ca)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/0fc61ace-397d-4489-9e62-77f88082e775)
@@ -324,6 +324,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health Minimum Data Set](https://web.www.healthdatagateway.org/dataset/acafb160-b18a-436e-90f1-dc4530a90267)
 - [Mental Health Minimum Dataset v4.1 (Non-Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/b53f716d-a5c3-4ad8-a2aa-cae09c12ac18)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/ba071b0b-5ef4-457b-b194-3a69c2c71a06)
+- [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/bc30732b-32cb-4f66-8794-e6e6691c79e7)
 - [Mental Health & Learning Disabilities Dataset v 1 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/bdc17b2c-8b0f-4959-ab9b-e2de32d8a5f9)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/c713773c-e961-400e-b44a-947002deb073)
 - [Mental Health Minimum Dataset v4.1 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/c97b8058-a6a4-4c8d-92e1-6e9f4cddd301)
@@ -345,9 +346,6 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### NHS Scotland (1)
 - [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/31e377bf-7c6c-4bc0-95f4-a4626cfa5807)
-
-### NHSDIGITAL (1)
-- [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/2a689ef7-95a6-49fb-b57e-cac9f924bc85)
 
 ### NHSX (1)
 - [The National COVID-19 Chest Imaging Database](https://web.www.healthdatagateway.org/dataset/8c13e03e-b9d2-4b04-8b98-097643a6beaf)
@@ -446,7 +444,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/8dd6f22d-e513-4ee7-a7e8-abe055727076)
 - [Postponed Admitted Procedures](https://web.www.healthdatagateway.org/dataset/947ab204-b052-4cac-897b-d771f8dcfd1f)
 - [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/c0da6801-6907-4c06-8fba-d21943c3a931)
-- [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/c42ceb2a-c9c2-491d-9f34-3da55413225f)
 - [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/c84321f3-caf3-4b40-a41a-5ccebe5bb1aa)
 - [Welsh Cancer Intelligence and Surveillance Unit (WCISU)](https://web.www.healthdatagateway.org/dataset/d2667c43-adfd-4a61-b090-38d39e35a392)
 - [Brecon dataset](https://web.www.healthdatagateway.org/dataset/e0ed59e2-8fb5-44d4-b694-f31d46884954)
@@ -454,6 +451,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Survey for Wales](https://web.www.healthdatagateway.org/dataset/ee78ce42-7f1f-4c97-80cc-ea6ad628e5da)
 - [Emergency Department Dataset Daily](https://web.www.healthdatagateway.org/dataset/eebb647a-63eb-4e62-b052-26cb2eb4799d)
 - [COVID-19 Consolidated Deaths](https://web.www.healthdatagateway.org/dataset/efc2bb06-d502-4424-ac92-72834459fbaa)
+- [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/fddcb382-3051-4394-8436-b92295f14259)
 - [National Exercise Referral Scheme](https://web.www.healthdatagateway.org/dataset/fe3c7527-e802-4a51-9aa2-19e7d4d22783)
 - [Welsh Dispensing Dataset](https://web.www.healthdatagateway.org/dataset/fea0b4be-4097-4c2e-86f2-03dc1ee2877b)
 
