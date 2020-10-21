@@ -2434,59 +2434,6 @@
     ]
   },
   {
-    "id": "10ba86d6-03f8-4343-8713-1ee9ba323ad7",
-    "publisher": "ALLIANCE > NHS DIGITAL",
-    "title": "GPES Data for Pandemic Planning and Research (COVID-19)",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Fill in the\\xa0Access Request Form for GPES Data for Pandemic Planning and Research (COVID-19) (https://digital.nhs.uk/binaries/content/assets/website-assets/services/dars/form-e---access-request-form-for-gdppr-data-from-nhs-digital-v0.3.docx)\\xa0and email it with your request to this address:\\xa0covid-19datasharing@nhsx.nhs.uk.\\xa0All requests will then be passed on to NHS Digital.' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Fill in the\\xa0Access Request Form for GPES Data for Pandemic Planning and Research (COVID-19) (https://digital.nhs.uk/binaries/content/assets/website-assets/services/dars/form-e---access-request-form-for-gdppr-data-from-nhs-digital-v0.3.docx)\\xa0and email it with your request to this address:\\xa0covid-19datasharing@nhsx.nhs.uk.\\xa0All requests will then be passed on to NHS Digital.' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      }
-    ]
-  },
-  {
     "id": "113b54b0-fee5-427a-b569-04e150c1f06d",
     "publisher": "ALLIANCE > SAIL",
     "title": "Cervical Screening Wales",
@@ -19527,6 +19474,63 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "a65213b3-4494-41f6-9438-ae02e82e41f3",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "GPES Data for Pandemic Planning and Research (COVID-19)",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Fill in the\\xa0Access Request Form for GPES Data for Pandemic Planning and Research (COVID-19) (https://digital.nhs.uk/binaries/content/assets/website-assets/services/dars/form-e---access-request-form-for-gdppr-data-from-nhs-digital-v0.3.docx)\\xa0and email it with your request to this address:\\xa0covid-19datasharing@nhsx.nhs.uk.\\xa0All requests will then be passed on to NHS Digital.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Fill in the\\xa0Access Request Form for GPES Data for Pandemic Planning and Research (COVID-19) (https://digital.nhs.uk/binaries/content/assets/website-assets/services/dars/form-e---access-request-form-for-gdppr-data-from-nhs-digital-v0.3.docx)\\xa0and email it with your request to this address:\\xa0covid-19datasharing@nhsx.nhs.uk.\\xa0All requests will then be passed on to NHS Digital.' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'AVAILABILITY TO BE CONFIRMED' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
