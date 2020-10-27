@@ -1,5 +1,5 @@
 {
-  "count": 513,
+  "count": 514,
   "dataModels": [
     {
       "identifier": "https://web.www.healthdatagateway.org/dataset/004d1932-f06e-49d2-b87a-e5e4140ffbb3",
@@ -242,10 +242,10 @@
         },
         "contactPoint": "njrresearch@hqip.org.uk",
         "keywords": [
-          "Replacement",
           "Joint",
-          "NJR",
-          "Elbow"
+          "Replacement",
+          "Elbow",
+          "NJR"
         ],
         "doiName": null
       },
@@ -554,14 +554,14 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
-          "middle-income",
-          "Malaysia",
-          "Asia",
           "COPD",
           "low-income",
+          "asthma",
+          "Malaysia",
+          "BREATHE",
           "RESPIRE",
-          "asthma"
+          "middle-income",
+          "Asia"
         ],
         "doiName": null
       },
@@ -666,12 +666,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
+          "Paediatric",
           "PICU",
-          "Core",
-          "Admission",
+          "Audit",
           "PICANet",
-          "Paediatric"
+          "Admission",
+          "Core"
         ],
         "doiName": null
       },
@@ -770,8 +770,8 @@
         "keywords": [
           "",
           "Imaging",
-          "Diagnostic",
-          "DIDs"
+          "DIDs",
+          "Diagnostic"
         ],
         "doiName": null
       },
@@ -871,12 +871,12 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "Operations",
           "Episodes",
+          "Hospital",
+          "Operations",
           "Emergency",
           "Inpatients",
-          "Diagnosis",
-          "Hospital"
+          "Diagnosis"
         ],
         "doiName": null
       },
@@ -1065,10 +1065,10 @@
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
           "Audit",
-          "Cardiac",
-          "Ischaemia",
           "Myocardial",
-          "NCAP"
+          "NCAP",
+          "Cardiac",
+          "Ischaemia"
         ],
         "doiName": null
       },
@@ -1262,13 +1262,13 @@
         },
         "contactPoint": "john.cason@kcl.ac.uk",
         "keywords": [
+          "Hepatitis C",
+          "BioBank",
+          "UKCRC Tissue Directory",
+          "Human immunodeficiency virus (organism)",
           "King's College London",
           "HIV",
-          "Hepatitis C",
-          "UKCRC Tissue Directory",
-          "Infectious Diseases",
-          "Human immunodeficiency virus (organism)",
-          "BioBank"
+          "Infectious Diseases"
         ],
         "doiName": "not available"
       },
@@ -1380,15 +1380,15 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "ONS",
-          "Deceased",
-          "Welsh Deaths",
-          "Deaths",
-          "GRO",
           "Registered Deaths",
+          "GRO",
+          "Deaths",
+          "ONS",
+          "Welsh Deaths",
           "England Deaths",
           "English Deaths",
-          "Wales Deaths"
+          "Wales Deaths",
+          "Deceased"
         ],
         "doiName": null
       },
@@ -1507,15 +1507,15 @@
         "contactPoint": "rwlm2@le.ac.uk",
         "keywords": [
           "Cardiovascular",
-          "Renal",
-          "GP",
-          "Kidney",
-          "PSP-CKD",
-          "Chronic",
-          "Outcomes",
           "Primary",
+          "Secondary",
+          "GP",
+          "Chronic",
           "Mortality",
-          "Secondary"
+          "Renal",
+          "PSP-CKD",
+          "Kidney",
+          "Outcomes"
         ],
         "doiName": null
       },
@@ -1624,9 +1624,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "Maternity",
           "Indicators",
-          "SAIL"
+          "SAIL",
+          "Maternity"
         ],
         "doiName": "in progress"
       },
@@ -1729,10 +1729,10 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
-          "RESPIRE",
           "Malaysia culturally-tailored school-based interventions",
-          "asthma"
+          "asthma",
+          "BREATHE",
+          "RESPIRE"
         ],
         "doiName": null
       },
@@ -1992,6 +1992,96 @@
       "observations": []
     },
     {
+      "identifier": "https://web.www.healthdatagateway.org/dataset/0756c167-e778-486f-9b96-94bd12af89cf",
+      "@schema": {
+        "type": "Dataset",
+        "version": "2.0.0",
+        "url": "https://raw.githubusercontent.com/HDRUK/schemata/develop/schema/dataset/latest/dataset.schema.json"
+      },
+      "version": "0.0.1",
+      "revisions": [],
+      "issued": "2020-10-26T16:55:52Z",
+      "modified": "2020-10-26T16:54:19Z",
+      "summary": {
+        "title": "Pillar 1 - England (Second Generation Surveillance Systems)",
+        "abstract": "The Second Generation Surveillance System (SGSS) is the national laboratory reporting system used in England to capture routine laboratory data on mainly infectious diseases and antimicrobial resistance.",
+        "publisher": {
+          "memberOf": "ALLIANCE",
+          "accessRights": "https://digital.nhs.uk/services/data-access-request-service-dars",
+          "deliveryLeadTime": "OTHER",
+          "name": "NHS DIGITAL",
+          "contactPoint": "enquiries@nhsdigital.nhs.uk"
+        },
+        "contactPoint": "enquiries@nhsdigital.nhs.uk",
+        "keywords": [
+          "SGSS",
+          "DIGITRIALS"
+        ],
+        "doiName": null
+      },
+      "documentation": {
+        "description": "The Second Generation Surveillance System (SGSS) is the national laboratory reporting system used in England to capture routine laboratory data on mainly infectious diseases and antimicrobial resistance. The Respiratory DataMart has been used to monitor major respiratory viruses circulating in England bringing together this data from PHE laboratories in England since 2009. Both SGSS and Respiratory DataMart have been adapted and combined to capture detections of SARS-CoV-2.\n\nSARS-CoV-2 testing started in UK laboratories on 24 January 2020. This data is reported through a combination of laboratory systems (SGSS and Respiratory DataMart). The majority of testing to date has been offered to those in hospital with a medical need as well as NHS key workers, rather than the general population. Confirmed cases therefore represent the typical population of people with severe disease rather than all of those who get infected.",
+        "isPartOf": [
+          "NOT APPLICABLE"
+        ]
+      },
+      "coverage": {
+        "spatial": "England",
+        "typicalAgeRange": "0-150",
+        "physicalSampleAvailability": [],
+        "followup": "UNKNOWN",
+        "pathway": null
+      },
+      "provenance": {
+        "origin": {
+          "purpose": [],
+          "source": [],
+          "collectionSituation": []
+        },
+        "temporal": {
+          "accrualPeriodicity": "MONTHLY",
+          "distributionReleaseDate": null,
+          "endDate": null,
+          "startDate": "2020-04-06"
+        }
+      },
+      "accessibility": {
+        "access": {
+          "accessRights": "https://digital.nhs.uk/services/data-access-request-service-dars",
+          "accessService": null,
+          "deliveryLeadTime": "OTHER",
+          "jurisdiction": [
+            "GB-ENG"
+          ],
+          "dataController": "NHS DIGITAL",
+          "dataProcessor": "NOT APPLICABLE"
+        },
+        "usage": {
+          "dataUseLimitation": [],
+          "dataUseRequirements": [],
+          "resourceCreator": "NHS DIGITAL",
+          "investigations": [
+            "accessibility_usage_investigations"
+          ],
+          "isReferencedBy": []
+        },
+        "formatAndStandards": {
+          "vocabularyEncodingScheme": [],
+          "conformsTo": [],
+          "language": [
+            "en"
+          ],
+          "format": []
+        }
+      },
+      "enrichmentAndLinkage": {
+        "qualifiedRelation": [],
+        "derivation": [],
+        "tools": []
+      },
+      "observations": []
+    },
+    {
       "identifier": "https://web.www.healthdatagateway.org/dataset/07abf678-a2c0-4d8b-8d25-8b9f180f9ff2",
       "@schema": {
         "type": "Dataset",
@@ -2129,9 +2219,9 @@
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
           "Death",
-          "SAIL",
+          "Wales",
           "Daily",
-          "Wales"
+          "SAIL"
         ],
         "doiName": "in progress"
       },
@@ -2247,11 +2337,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
+          "Paediatric",
           "PICU",
-          "Custom",
+          "Audit",
           "PICANet",
-          "Paediatric"
+          "Custom"
         ],
         "doiName": null
       },
@@ -2342,8 +2432,8 @@
           "spirometry",
           "healthy",
           "BREATHE",
-          "RESPIRE",
-          "predictive values"
+          "predictive values",
+          "RESPIRE"
         ],
         "doiName": null
       },
@@ -2463,11 +2553,11 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "Pakistan",
-          "BREATHE",
           "Caregivers",
-          "Pneumonia",
-          "RESPIRE"
+          "BREATHE",
+          "RESPIRE",
+          "Pakistan",
+          "Pneumonia"
         ],
         "doiName": "in progress"
       },
@@ -2582,12 +2672,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
+          "Paediatric",
           "PICU",
-          "Transport",
-          "Core",
+          "Audit",
           "PICANet",
-          "Paediatric"
+          "Transport",
+          "Core"
         ],
         "doiName": null
       },
@@ -2689,14 +2779,14 @@
         "contactPoint": "s.i.king@dundee.ac.uk",
         "keywords": [
           "UKCRC Tissue Directory",
-          "Malignant liver neoplasm",
-          "Malignant kidney tumour",
-          "Fit and well",
-          "Malignant neoplasm of endometrium of corpus uteri ",
-          "Tayside",
           "Malignant skin neoplasm",
+          "Fit and well",
           "Biorepository",
-          "Ischemic heart disease "
+          "Malignant kidney tumour",
+          "Tayside",
+          "Ischemic heart disease ",
+          "Malignant neoplasm of endometrium of corpus uteri ",
+          "Malignant liver neoplasm"
         ],
         "doiName": "not available"
       },
@@ -3054,12 +3144,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Asthma",
-          "Clinical",
           "Pulmonary Rehabilitation",
+          "COPD",
+          "Audit",
+          "Clinical",
           "NACAP",
-          "COPD"
+          "Asthma"
         ],
         "doiName": null
       },
@@ -3338,12 +3428,12 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "Pakistan",
-          "BREATHE",
           "Medical Students",
-          "Online Learning",
+          "BREATHE",
+          "RESPIRE",
+          "Pakistan",
           "Pneumonia",
-          "RESPIRE"
+          "Online Learning"
         ],
         "doiName": "in progress"
       },
@@ -3456,11 +3546,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
           "NNAP",
-          "NICU",
+          "Audit",
           "Clinical",
-          "Neonatal"
+          "Neonatal",
+          "NICU"
         ],
         "doiName": null
       },
@@ -3562,9 +3652,9 @@
         "contactPoint": "import-icrctsu@icr.ac.uk",
         "keywords": [
           "IMPORT HIGH",
-          "Malignant tumour of breast",
           "UKCRC Tissue Directory",
           "Blood Samples",
+          "Malignant tumour of breast",
           "Trial"
         ],
         "doiName": "not available"
@@ -3673,9 +3763,9 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
-          "HES",
+          "Outpatient",
           "OP",
-          "Outpatient"
+          "HES"
         ],
         "doiName": null
       },
@@ -3860,12 +3950,12 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
+          "asthma",
           "Malaysia",
-          "practice",
+          "BREATHE",
           "RESPIRE",
           "patients",
-          "asthma"
+          "practice"
         ],
         "doiName": null
       },
@@ -3978,8 +4068,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "Child Health",
-          "SAIL"
+          "SAIL",
+          "Child Health"
         ],
         "doiName": "in progress"
       },
@@ -4492,9 +4582,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
+          "Cervical",
           "Screening",
-          "SAIL",
-          "Cervical"
+          "SAIL"
         ],
         "doiName": "in progress"
       },
@@ -4612,11 +4702,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Dementia",
-          "Audit",
           "Carer experience",
           "NAD",
-          "Hospital"
+          "Hospital",
+          "Audit",
+          "Dementia"
         ],
         "doiName": null
       },
@@ -4722,11 +4812,11 @@
         "contactPoint": "nss.edris@nhs.net",
         "keywords": [
           "",
-          "Ambulance",
-          "Unscheduled Care",
-          "A&E",
           "NHS Scotland",
-          "Out of Hours"
+          "Ambulance",
+          "A&E",
+          "Out of Hours",
+          "Unscheduled Care"
         ],
         "doiName": null
       },
@@ -4834,14 +4924,14 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "NVR",
           "Vascular",
+          "Lower",
           "Registry",
-          "Amputation",
           "Clinical",
-          "Carotid",
+          "Amputation",
           "Limb",
-          "Lower"
+          "Carotid",
+          "NVR"
         ],
         "doiName": null
       },
@@ -4942,11 +5032,11 @@
         },
         "contactPoint": "njrresearch@hqip.org.uk",
         "keywords": [
-          "Hip",
-          "Joint",
           "Revised",
+          "Replacement",
+          "Hip",
           "NJR",
-          "Replacement"
+          "Joint"
         ],
         "doiName": null
       },
@@ -5162,11 +5252,11 @@
         "contactPoint": "r.zakeri@ucl.ac.uk",
         "keywords": [
           "Research",
-          "ORBiS",
-          "Obesity",
           "UKCRC Tissue Directory",
+          "Biobank",
+          "ORBiS",
           "Syndicate",
-          "Biobank"
+          "Obesity"
         ],
         "doiName": "not available"
       },
@@ -5279,10 +5369,10 @@
         "contactPoint": "ctc.watchandwait@ucl.ac.uk",
         "keywords": [
           "",
-          "Watch and Wait",
           "UKCRC Tissue Directory",
+          "Trial",
           "Malignant lymphoma (disorder)",
-          "Trial"
+          "Watch and Wait"
         ],
         "doiName": "not available"
       },
@@ -5394,12 +5484,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "PICU",
-          "Core",
-          "PICANet",
           "Paediatric",
-          "Refferal"
+          "Refferal",
+          "PICU",
+          "Audit",
+          "PICANet",
+          "Core"
         ],
         "doiName": null
       },
@@ -5496,10 +5586,10 @@
         },
         "contactPoint": "gecip-help@genomicsengland.co.uk",
         "keywords": [
+          "genome",
           "data",
-          "Hospital episode statistics",
           "DNA",
-          "genome"
+          "Hospital episode statistics"
         ],
         "doiName": "not available"
       },
@@ -5619,11 +5709,11 @@
         "contactPoint": "ctc.inca@ucl.ac.uk",
         "keywords": [
           "INCA",
-          "IO-R-CVP",
           "UKCRC Tissue Directory",
-          "Gem-R-CVP",
           "Malignant lymphoma (disorder)",
-          "Trial"
+          "Trial",
+          "Gem-R-CVP",
+          "IO-R-CVP"
         ],
         "doiName": "not available"
       },
@@ -6045,10 +6135,10 @@
         },
         "contactPoint": "ctc.idris@ucl.ac.uk",
         "keywords": [
-          "Trial",
-          "IDRIS",
+          "Plasmacytoma - category (morphologic abnormality)",
           "UKCRC Tissue Directory",
-          "Plasmacytoma - category (morphologic abnormality)"
+          "IDRIS",
+          "Trial"
         ],
         "doiName": "not available"
       },
@@ -6241,21 +6331,21 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "practices",
-          "diagnosis",
-          "GP",
-          "BREATHE",
-          "asthma",
-          "primary care physicians",
+          "India",
           "COPD",
-          "private",
+          "GP",
           "general medical practitioners",
+          "rural",
+          "asthma",
           "public",
-          "RESPIRE",
+          "primary care physicians",
+          "private",
           "management",
           "perceptions",
-          "rural",
-          "India"
+          "BREATHE",
+          "RESPIRE",
+          "diagnosis",
+          "practices"
         ],
         "doiName": null
       },
@@ -6368,10 +6458,10 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "NAP - EIP",
-          "Audit",
           "Psychosis",
-          "Case Note"
+          "Case Note",
+          "NAP - EIP",
+          "Audit"
         ],
         "doiName": null
       },
@@ -6596,11 +6686,11 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "Audit",
-          "Insulin",
-          "Type 2",
           "Diabetes",
-          "Type 1"
+          "Type 2",
+          "Type 1",
+          "Audit",
+          "Insulin"
         ],
         "doiName": null
       },
@@ -6721,12 +6811,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Clinical Dataset",
+          "COPD",
           "Audit",
-          "Asthma",
           "Secondary care",
           "NACAP",
-          "COPD"
+          "Asthma",
+          "Clinical Dataset"
         ],
         "doiName": null
       },
@@ -7034,12 +7124,12 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
-          "outcomes",
-          "Malaysia",
           "air quality",
+          "asthma",
+          "Malaysia",
+          "BREATHE",
           "RESPIRE",
-          "asthma"
+          "outcomes"
         ],
         "doiName": null
       },
@@ -7144,10 +7234,10 @@
         },
         "contactPoint": "ctc.darwin1@ucl.ac.uk",
         "keywords": [
-          "DARWIN1",
-          "Trial",
+          "Malignant tumour of lung",
           "UKCRC Tissue Directory",
-          "Malignant tumour of lung"
+          "DARWIN1",
+          "Trial"
         ],
         "doiName": "not available"
       },
@@ -7259,12 +7349,12 @@
         },
         "contactPoint": "nicam-icrctsu@icr.ac.uk",
         "keywords": [
-          "NICAM",
-          "c-KIT",
           "UKCRC Tissue Directory",
           "Nilotinib",
+          "NICAM",
           "AMM",
-          "Malignant melanoma of eye (disorder)"
+          "Malignant melanoma of eye (disorder)",
+          "c-KIT"
         ],
         "doiName": "not available"
       },
@@ -7376,12 +7466,12 @@
         },
         "contactPoint": "b.davidson@ucl.ac.uk",
         "keywords": [
-          "Malignant neoplasm of liver",
           "UKCRC Tissue Directory",
           "Malignant tumour of colon",
-          "HPB",
           "Malignant tumour of pancreas",
-          "Biobank"
+          "HPB",
+          "Biobank",
+          "Malignant neoplasm of liver"
         ],
         "doiName": "not available"
       },
@@ -7493,9 +7583,9 @@
         },
         "contactPoint": "pioneer@contacts.bham.ac.uk",
         "keywords": [
+          "PICS",
           "UHB",
-          "HER",
-          "PICS"
+          "HER"
         ],
         "doiName": null
       },
@@ -7596,11 +7686,11 @@
         },
         "contactPoint": "Ndns.Bioresource@phe.gov.uk",
         "keywords": [
-          "NDNS",
-          "UKCRC Tissue Directory",
+          "National Diet",
           "Nutrition",
-          "Fit and well",
-          "National Diet"
+          "UKCRC Tissue Directory",
+          "NDNS",
+          "Fit and well"
         ],
         "doiName": "not available"
       },
@@ -7711,8 +7801,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "CARE",
-          "SAIL"
+          "SAIL",
+          "CARE"
         ],
         "doiName": "in progress"
       },
@@ -7911,12 +8001,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
+          "Percutaneous",
           "Audit",
           "Interventions",
+          "NCAP",
           "PCI",
           "Cardiac",
-          "Percutaneous",
-          "NCAP",
           "Coronary"
         ],
         "doiName": null
@@ -8131,18 +8221,18 @@
         },
         "contactPoint": "kp1@soton.ac.uk",
         "keywords": [
-          "Faculty of Medicine",
+          "Malignant prostate tumour",
           "Malignant breast tumour",
           "UKCRC Tissue Directory",
-          "Malignant liver neoplasm",
-          "Malignant kidney tumour",
-          "Malignant prostate tumour",
-          "Malignant lymphoma",
           "Malignant skin neoplasm",
-          "HTA",
-          "Tissue Bank",
+          "University of Southampton",
           "Malignant thyroid gland tumour",
-          "University of Southampton"
+          "Tissue Bank",
+          "Malignant kidney tumour",
+          "Faculty of Medicine",
+          "Malignant lymphoma",
+          "Malignant liver neoplasm",
+          "HTA"
         ],
         "doiName": "not available"
       },
@@ -8259,8 +8349,8 @@
         },
         "contactPoint": "rio-icrctsu@icr.ac.uk",
         "keywords": [
-          "RIO",
           "",
+          "RIO",
           "Malignant tumour of breast",
           "UKCRC Tissue Directory"
         ],
@@ -8379,12 +8469,12 @@
         "contactPoint": "tnt-icrctsu@icr.ac.uk",
         "keywords": [
           "",
-          "Breast Cancer",
-          "Malignant tumour of breast",
-          "Triple Negative",
-          "UKCRC Tissue Directory",
           "TNT",
-          "Trial"
+          "UKCRC Tissue Directory",
+          "Triple Negative",
+          "Malignant tumour of breast",
+          "Trial",
+          "Breast Cancer"
         ],
         "doiName": "not available"
       },
@@ -8607,8 +8697,8 @@
         },
         "contactPoint": "researchers@registerfordiscover.org.uk",
         "keywords": [
-          "Mental Health",
-          "MH"
+          "MH",
+          "Mental Health"
         ],
         "doiName": "in progress"
       },
@@ -9149,11 +9239,11 @@
         },
         "contactPoint": "njrresearch@hqip.org.uk",
         "keywords": [
-          "Knee",
-          "Joint",
           "Revised",
+          "Replacement",
           "NJR",
-          "Replacement"
+          "Joint",
+          "Knee"
         ],
         "doiName": null
       },
@@ -9254,11 +9344,11 @@
         },
         "contactPoint": "hbrc-tissuebank@contacts.bham.ac.uk",
         "keywords": [
-          "Biomaterials",
-          "Human",
-          "Complete trisomy 21 syndrome (disorder)",
+          "HBRC",
           "UKCRC Tissue Directory",
-          "HBRC"
+          "Human",
+          "Biomaterials",
+          "Complete trisomy 21 syndrome (disorder)"
         ],
         "doiName": "not available"
       },
@@ -9370,13 +9460,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Clinical Dataset",
+          "Fragility",
+          "Fall",
+          "Fracture Liaison Service",
           "Audit",
           "FFFAP",
-          "Fracture Liaison Service",
           "Database",
-          "Fragility",
-          "Fall"
+          "Clinical Dataset"
         ],
         "doiName": null
       },
@@ -9482,10 +9572,10 @@
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
           "IPF",
-          "BREATHE",
-          "GWAS",
           "IDIOPATHIC INTERSTITIAL PNEUMONIA",
-          "IDIOPATHIC PULMONARY FIBROSIS"
+          "BREATHE",
+          "IDIOPATHIC PULMONARY FIBROSIS",
+          "GWAS"
         ],
         "doiName": "10.1164/rccm.201905-1017oc"
       },
@@ -9589,11 +9679,11 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "Pakistan",
-          "BREATHE",
-          "Pneumonia",
           "mHealth",
-          "RESPIRE"
+          "BREATHE",
+          "RESPIRE",
+          "Pakistan",
+          "Pneumonia"
         ],
         "doiName": "in progress"
       },
@@ -10095,13 +10185,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
+          "COPD",
           "Audit",
-          "Asthma",
           "Clinical",
           "NACAP",
-          "COPD",
-          "Secondary Care workstream",
-          "Children and Young People"
+          "Asthma",
+          "Children and Young People",
+          "Secondary Care workstream"
         ],
         "doiName": null
       },
@@ -10315,10 +10405,10 @@
         },
         "contactPoint": "ctc.ion@ucl.ac.uk",
         "keywords": [
-          "IoN",
-          "Trial",
+          "Malignant tumour of thyroid gland (disorder)",
           "UKCRC Tissue Directory",
-          "Malignant tumour of thyroid gland (disorder)"
+          "Trial",
+          "IoN"
         ],
         "doiName": "not available"
       },
@@ -10519,8 +10609,8 @@
         },
         "contactPoint": "chloe.smith@liverpool.ac.uk",
         "keywords": [
-          "ESPAC-Tplus",
           "UKCRC Tissue Directory",
+          "ESPAC-Tplus",
           "Carcinoma in situ of pancreas"
         ],
         "doiName": "not available"
@@ -10637,9 +10727,9 @@
         },
         "contactPoint": "nss.edris@nhs.net",
         "keywords": [
-          "stillbirths",
           "neonatal deaths",
-          "NHS Scotland"
+          "NHS Scotland",
+          "stillbirths"
         ],
         "doiName": null
       },
@@ -10851,12 +10941,12 @@
         },
         "contactPoint": "nddcbru@nottingham.ac.uk",
         "keywords": [
-          "Nottingham",
-          "Digestive Diseases",
+          "Collection",
           "UKCRC Tissue Directory",
-          "Disorder of digestive system (disorder)",
+          "Digestive Diseases",
           "NIHR",
-          "Collection"
+          "Disorder of digestive system (disorder)",
+          "Nottingham"
         ],
         "doiName": "not available"
       },
@@ -10972,16 +11062,16 @@
         },
         "contactPoint": "brainuk@soton.ac.uk",
         "keywords": [
-          "Brain",
-          "Alzheimer's disease (disorder)",
-          "Cerebrovascular disease (disorder)",
-          "UKCRC Tissue Directory",
           "Progressive sclerosing poliodystrophy (disorder)",
+          "UKCRC Tissue Directory",
           "Fit and well Glioma (disorder)Meningitis (disorder)",
-          "Neuropathology",
+          "Alzheimer's disease (disorder)",
+          "Brain",
           "Subarachnoid intracranial haemorrhage (disorder)",
+          "Multiple sclerosis (disorder)",
+          "Cerebrovascular disease (disorder)",
           "Degenerative brain disorder (disorder)",
-          "Multiple sclerosis (disorder)"
+          "Neuropathology"
         ],
         "doiName": "not available"
       },
@@ -11093,11 +11183,11 @@
         },
         "contactPoint": "njrresearch@hqip.org.uk",
         "keywords": [
-          "Joint",
           "Revised",
-          "NJR",
           "Replacement",
-          "Ankle"
+          "Ankle",
+          "NJR",
+          "Joint"
         ],
         "doiName": null
       },
@@ -11198,12 +11288,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Adult",
-          "NaDIA",
-          "Diabetes",
           "Hospital Characteristics Survey",
-          "Inpatient"
+          "Inpatient",
+          "Adult",
+          "Diabetes",
+          "Audit",
+          "NaDIA"
         ],
         "doiName": null
       },
@@ -11308,9 +11398,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "Bowel",
+          "Screening",
           "SAIL",
-          "Screening"
+          "Bowel"
         ],
         "doiName": "in progress"
       },
@@ -11622,13 +11712,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "FFFAP",
-          "Database",
           "Fragility",
           "Facilities Survey 2019",
           "Fall",
-          "Hip Fracture"
+          "Audit",
+          "FFFAP",
+          "Hip Fracture",
+          "Database"
         ],
         "doiName": null
       },
@@ -11716,14 +11806,14 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
-          "middle-income",
-          "Asia",
+          "India",
           "COPD",
           "low-income",
-          "RESPIRE",
           "asthma",
-          "India"
+          "BREATHE",
+          "RESPIRE",
+          "middle-income",
+          "Asia"
         ],
         "doiName": null
       },
@@ -11835,12 +11925,12 @@
         "contactPoint": "clare.orange@ggc.scot.nhs.uk",
         "keywords": [
           "NHS Greater Glasgow & Clyde",
-          "Malignant tumour of breast",
-          "Mesothelioma (malignant",
           "UKCRC Tissue Directory",
           "Bio-Repository",
+          "Malignant tumour of breast",
           "Malignant tumour of colon",
-          "clinical disorder)"
+          "clinical disorder)",
+          "Mesothelioma (malignant"
         ],
         "doiName": "not available"
       },
@@ -12159,8 +12249,8 @@
         "contactPoint": "info@bio-dock.com",
         "keywords": [
           "Fit and Well",
-          "Biodock",
-          "UKCRC Tissue Directory"
+          "UKCRC Tissue Directory",
+          "Biodock"
         ],
         "doiName": "not available"
       },
@@ -12259,15 +12349,15 @@
         },
         "contactPoint": "info@generationscotland.org",
         "keywords": [
+          "NHS Scotland",
           "Edinburgh",
           "Scotland",
-          "Glasgow",
-          "Generation",
           "UKCRC Tissue Directory",
-          "Dundee and Aberdeen",
+          "Glasgow",
           "Fit and well",
-          "NHS Scotland",
-          "genetic"
+          "genetic",
+          "Generation",
+          "Dundee and Aberdeen"
         ],
         "doiName": "in progress"
       },
@@ -12378,11 +12468,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Dementia",
-          "Audit",
           "NAD",
           "Casenote",
-          "Hospital"
+          "Hospital",
+          "Audit",
+          "Dementia"
         ],
         "doiName": null
       },
@@ -12483,12 +12573,12 @@
         },
         "contactPoint": "PHOTO-icrctsu@icr.ac.uk",
         "keywords": [
-          "TURBT",
           "UKCRC Tissue Directory",
-          "biorepository",
+          "Carcinoma in situ of bladder",
           "Translational bladder cancer",
-          "PHOTO",
-          "Carcinoma in situ of bladder"
+          "biorepository",
+          "TURBT",
+          "PHOTO"
         ],
         "doiName": "not available"
       },
@@ -12591,9 +12681,9 @@
         },
         "contactPoint": "phs.edris@nhs.net",
         "keywords": [
+          "hospital admissions",
           "RAPID",
-          "inpatient",
-          "hospital admissions"
+          "inpatient"
         ],
         "doiName": null
       },
@@ -12697,14 +12787,14 @@
         },
         "contactPoint": "LBIH-Biobank@liverpool.ac.uk",
         "keywords": [
-          "Malignant melanoma of eye",
-          "LBIH",
-          "Malignant neoplasm of endometrium of corpus uteri",
-          "Malignant liver neoplasm",
-          "Malignant adrenal gland tumour",
+          "Malignant cervix tumour",
           "UKCRC Tissue Directory",
+          "Malignant neoplasm of endometrium of corpus uteri",
+          "LBIH",
+          "Malignant adrenal gland tumour",
           "Biobank",
-          "Malignant cervix tumour"
+          "Malignant liver neoplasm",
+          "Malignant melanoma of eye"
         ],
         "doiName": "not available"
       },
@@ -12815,11 +12905,11 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "SCHOOL",
-          "SAIL",
-          "PUPIL",
           "LINKABLE",
-          "EDUCATION"
+          "EDUCATION",
+          "PUPIL",
+          "SAIL",
+          "SCHOOL"
         ],
         "doiName": "in progress"
       },
@@ -12937,13 +13027,13 @@
         },
         "contactPoint": "ramya.bhatia@ed.ac.uk",
         "keywords": [
-          "Human Papillomavirus",
-          "HPV",
           "Archive",
+          "HPV",
           "UKCRC Tissue Directory",
           "Malignant tumour of cervix",
-          "Biorepository",
-          "Scottish"
+          "Scottish",
+          "Human Papillomavirus",
+          "Biorepository"
         ],
         "doiName": "not available"
       },
@@ -13060,12 +13150,12 @@
         },
         "contactPoint": "hdbr@ncl.ac.uk",
         "keywords": [
-          "Human",
-          "HDBR",
-          "Biology",
           "UKCRC Tissue Directory",
           "Entire embryo (body structure)",
-          "Developmental"
+          "Developmental",
+          "HDBR",
+          "Human",
+          "Biology"
         ],
         "doiName": "not available"
       },
@@ -13267,11 +13357,11 @@
         },
         "contactPoint": "joely.irlam@ics.manchester.ac.uk",
         "keywords": [
-          "NIMRAD-TRANS",
-          "Malignant neoplasm of upper respiratory tract (disorder)",
-          "HNSCC",
           "UKCRC Tissue Directory",
-          "FFPE"
+          "NIMRAD-TRANS",
+          "FFPE",
+          "Malignant neoplasm of upper respiratory tract (disorder)",
+          "HNSCC"
         ],
         "doiName": "not available"
       },
@@ -13373,12 +13463,12 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
           "Malaysia",
-          "psychological",
-          "COVID-19",
           "primary care",
-          "RESPIRE"
+          "BREATHE",
+          "RESPIRE",
+          "COVID-19",
+          "psychological"
         ],
         "doiName": null
       },
@@ -13481,13 +13571,13 @@
         },
         "contactPoint": "s.l.myers@leeds.ac.uk",
         "keywords": [
-          "Leeds",
-          "School of Dentistry",
-          "Leeds Dental Institute",
           "UKCRC Tissue Directory",
+          "Leeds",
           "Teeth",
-          "Fit and well",
-          "Skeletal Tissues Bank"
+          "Skeletal Tissues Bank",
+          "Leeds Dental Institute",
+          "School of Dentistry",
+          "Fit and well"
         ],
         "doiName": "not available"
       },
@@ -13595,8 +13685,8 @@
         },
         "contactPoint": "researchers@registerfordiscover.org.uk",
         "keywords": [
-          "HCD",
-          "High Cost Drugs"
+          "High Cost Drugs",
+          "HCD"
         ],
         "doiName": "in progress"
       },
@@ -13811,10 +13901,10 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
+          "Waiting Times",
           "SAIL",
-          "Therapy",
           "Diagnostic",
-          "Waiting Times"
+          "Therapy"
         ],
         "doiName": "in progress"
       },
@@ -14031,12 +14121,12 @@
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
           "Pacemaker",
+          "Management",
           "Audit",
           "Device",
-          "Rhythm",
-          "Management",
+          "NCAP",
           "Cardiac",
-          "NCAP"
+          "Rhythm"
         ],
         "doiName": null
       },
@@ -14141,15 +14231,15 @@
         },
         "contactPoint": "datacan@uclpartners.com",
         "keywords": [
-          "renal",
-          "Wilms",
-          "molecular",
+          "tumour",
+          "clinical",
           "CANCER",
           "risk stratification",
-          "imaging",
+          "renal",
           "children",
-          "tumour",
-          "clinical"
+          "imaging",
+          "molecular",
+          "Wilms"
         ],
         "doiName": "in progress"
       },
@@ -14360,9 +14450,9 @@
         },
         "contactPoint": "cleft-collective@bristol.ac.uk",
         "keywords": [
-          "The Cleft Collective",
+          "Orofacial cleft (disorder)",
           "UKCRC Tissue Directory",
-          "Orofacial cleft (disorder)"
+          "The Cleft Collective"
         ],
         "doiName": "not available"
       },
@@ -14590,9 +14680,9 @@
         "contactPoint": "SWIFT-RTB@cardiff.ac.uk",
         "keywords": [
           "Fit and well",
-          "SWIFT-RTB",
           "Foetal tissue",
-          "UKCRC Tissue Directory"
+          "UKCRC Tissue Directory",
+          "SWIFT-RTB"
         ],
         "doiName": "not available"
       },
@@ -14704,10 +14794,10 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Epilepsy 12",
-          "Audit",
           "Paediatric",
-          "Clinical"
+          "Clinical",
+          "Audit",
+          "Epilepsy 12"
         ],
         "doiName": null
       },
@@ -14808,12 +14898,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "NPDA",
-          "Diabetes",
           "Paediatric",
+          "Diabetes",
+          "Workforce",
           "Spotlight",
-          "Workforce"
+          "Audit",
+          "NPDA"
         ],
         "doiName": null
       },
@@ -14901,12 +14991,12 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "Pakistan",
-          "BREATHE",
           "Covid-19",
           "Chest X-rays",
-          "Deep learning",
-          "RESPIRE"
+          "BREATHE",
+          "RESPIRE",
+          "Pakistan",
+          "Deep learning"
         ],
         "doiName": "in progress"
       },
@@ -15006,8 +15096,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "SAIL",
           "Emergency",
+          "SAIL",
           "Ambulance"
         ],
         "doiName": "in progress"
@@ -15126,8 +15216,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "SAIL",
-          "Congenital Anomaly"
+          "Congenital Anomaly",
+          "SAIL"
         ],
         "doiName": "in progress"
       },
@@ -15431,14 +15521,14 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Clinical",
-          "Depression",
           "NCAAD",
-          "Therapies",
-          "Spotlight",
+          "Psychological",
+          "Depression",
           "Anxiety",
-          "Psychological"
+          "Spotlight",
+          "Audit",
+          "Therapies",
+          "Clinical"
         ],
         "doiName": null
       },
@@ -15543,14 +15633,14 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
+          "Cohort",
           "Environment",
           "Electronic",
-          "BREATHE",
-          "Lifestyle",
-          "Population",
-          "Genetic",
           "EXCEED",
-          "Cohort"
+          "BREATHE",
+          "Genetic",
+          "Lifestyle",
+          "Population"
         ],
         "doiName": "10.1093/ije/dyz175 (for the research paper)"
       },
@@ -15700,10 +15790,10 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
+          "Surgery",
+          "Emergency laparotomy",
           "Audit",
           "NELA",
-          "Emergency laparotomy",
-          "Surgery",
           "Bowel"
         ],
         "doiName": null
@@ -15982,15 +16072,15 @@
         },
         "contactPoint": "enquiries@cellbank.org.uk",
         "keywords": [
-          "Leukaemia",
+          "Paediatric",
+          "Fit and Well",
+          "Cell",
           "Bloodwise",
-          "Childhood",
           "Bank",
           "UKCRC Tissue Directory",
-          "Fit and Well",
-          "Paediatric",
+          "Leukaemia",
           "Disease",
-          "Cell"
+          "Childhood"
         ],
         "doiName": "not available"
       },
@@ -16101,8 +16191,8 @@
         },
         "contactPoint": "researchers@registerfordiscover.org.uk",
         "keywords": [
-          "OP",
-          "Outpatient"
+          "Outpatient",
+          "OP"
         ],
         "doiName": "in progress"
       },
@@ -16314,11 +16404,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
           "NNAP",
+          "Audit",
+          "Neonatal",
           "NICU",
-          "Outcomes",
-          "Neonatal"
+          "Outcomes"
         ],
         "doiName": null
       },
@@ -16415,11 +16505,11 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
-          "PROMS",
-          "Measures",
-          "Patient",
           "Reported",
-          "Outcome"
+          "Outcome",
+          "PROMS",
+          "Patient",
+          "Measures"
         ],
         "doiName": null
       },
@@ -16523,13 +16613,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "FFFAP",
-          "Inpatient Falls",
-          "Clinical",
           "Fragility",
           "Dataset",
-          "Fall"
+          "Fall",
+          "Inpatient Falls",
+          "Audit",
+          "FFFAP",
+          "Clinical"
         ],
         "doiName": null
       },
@@ -16638,9 +16728,9 @@
         },
         "contactPoint": "nss.edris@nhs.net",
         "keywords": [
-          "CANCER",
           "Cancer Registry",
-          "NHS Scotland"
+          "NHS Scotland",
+          "CANCER"
         ],
         "doiName": null
       },
@@ -16939,8 +17029,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "SAIL",
-          "Welsh"
+          "Welsh",
+          "SAIL"
         ],
         "doiName": "in progress"
       },
@@ -17166,8 +17256,8 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "NVR",
           "Vascular",
+          "NVR",
           "Organisational",
           "Registry"
         ],
@@ -17270,13 +17360,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Congenital",
-          "Cardiac",
-          "Heart",
           "Paediatric",
+          "Heart",
+          "Congenital",
+          "Audit",
+          "NCAP",
           "Disease",
-          "NCAP"
+          "Cardiac"
         ],
         "doiName": null
       },
@@ -17365,8 +17455,8 @@
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
           "SAIL",
-          "Risk",
-          "Risk Assessments"
+          "Risk Assessments",
+          "Risk"
         ],
         "doiName": "in progress"
       },
@@ -17483,13 +17573,13 @@
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
           "",
-          "NVR",
-          "Vascular",
-          "Registry",
           "Bypass",
+          "Vascular",
+          "Lower",
           "Clinical",
           "Limb",
-          "Lower"
+          "Registry",
+          "NVR"
         ],
         "doiName": null
       },
@@ -17577,15 +17667,15 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
+          "India",
           "planned behaviour",
-          "Chronic Respiratory Disease",
-          "educational intervention",
           "southern Indian",
-          "theory",
-          "RESPIRE",
+          "educational intervention",
           "rural",
-          "India"
+          "theory",
+          "Chronic Respiratory Disease",
+          "BREATHE",
+          "RESPIRE"
         ],
         "doiName": null
       },
@@ -17700,13 +17790,13 @@
         },
         "contactPoint": "lida@leeds.ac.uk",
         "keywords": [
-          "research",
+          "secondary care",
           "Leeds",
           "CANCER",
-          "population",
-          "secondary care",
           "data",
-          "primary care"
+          "primary care",
+          "population",
+          "research"
         ],
         "doiName": "in progress"
       },
@@ -17920,12 +18010,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "NPDA",
-          "Diabetes",
           "Paediatric",
+          "Diabetes",
+          "Spotlight",
           "Technology",
-          "Spotlight"
+          "Audit",
+          "NPDA"
         ],
         "doiName": null
       },
@@ -18116,8 +18206,8 @@
         "contactPoint": "nss.edris@nhs.net",
         "keywords": [
           "Births",
-          "Neonatal Care",
-          "NHS Scotland"
+          "NHS Scotland",
+          "Neonatal Care"
         ],
         "doiName": null
       },
@@ -18225,9 +18315,9 @@
         },
         "contactPoint": "vincap-icrctsu@icr.ac.uk",
         "keywords": [
-          "Malignant tumour of penis (disorder)",
-          "",
           "VinCaP",
+          "",
+          "Malignant tumour of penis (disorder)",
           "UKCRC Tissue Directory"
         ],
         "doiName": "not available"
@@ -18340,10 +18430,10 @@
         },
         "contactPoint": "ctru-myelomaxii@leeds.ac.uk",
         "keywords": [
+          "Myeloma XII",
           "Clinical",
-          "UKCRC Tissue Directory",
           "Multiple myeloma (disorder)",
-          "Myeloma XII"
+          "UKCRC Tissue Directory"
         ],
         "doiName": "not available"
       },
@@ -18697,10 +18787,10 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
+          "Oct Nov 2019",
           "Audit",
           "NAP - EIP",
           "Psychosis",
-          "Oct Nov 2019",
           "Patient Experience"
         ],
         "doiName": null
@@ -18810,8 +18900,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "SAIL",
           "Emergency",
+          "SAIL",
           "A&E"
         ],
         "doiName": "in progress"
@@ -18934,11 +19024,11 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
-          "BREATHE",
           "Idiopathic Pulmonary Fibrosis",
           "Clinical",
-          "Lung",
-          "Observation"
+          "Observation",
+          "BREATHE",
+          "Lung"
         ],
         "doiName": "10.1016/s2213-2600(15)00048-x."
       },
@@ -19147,10 +19237,10 @@
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
           "Research",
-          "BREATHE",
-          "Biomedical",
           "Respiratory",
-          "Leicester"
+          "Leicester",
+          "Biomedical",
+          "BREATHE"
         ],
         "doiName": "in progress"
       },
@@ -19359,9 +19449,9 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
-          "BREATHE",
-          "Asthma",
           "Registry",
+          "Asthma",
+          "BREATHE",
           "ISAR"
         ],
         "doiName": null
@@ -19457,9 +19547,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "Children",
+          "Welsh",
           "SAIL",
-          "Welsh"
+          "Children"
         ],
         "doiName": "in progress"
       },
@@ -19575,11 +19665,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
+          "NACEL",
           "End of life",
           "Organisational Level",
-          "Care",
-          "NACEL"
+          "Audit",
+          "Care"
         ],
         "doiName": null
       },
@@ -19684,13 +19774,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "NVR",
           "Vascular",
-          "Registry",
           "Angioplasty",
+          "Lower",
           "Clinical",
           "Limb",
-          "Lower"
+          "Registry",
+          "NVR"
         ],
         "doiName": null
       },
@@ -19904,8 +19994,8 @@
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
           "Screening",
-          "Breast",
-          "SAIL"
+          "SAIL",
+          "Breast"
         ],
         "doiName": "in progress"
       },
@@ -20010,13 +20100,13 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "practices",
-          "pneumonia",
-          "BREATHE",
+          "India",
           "care-seeking",
           "children",
+          "BREATHE",
           "RESPIRE",
-          "India"
+          "pneumonia",
+          "practices"
         ],
         "doiName": null
       },
@@ -20128,10 +20218,10 @@
         "contactPoint": "whitefs@cardiff.ac.uk",
         "keywords": [
           "Cardiff",
-          "Dental caries (disorder)",
-          "Tooth",
           "UKCRC Tissue Directory",
-          "Dentistry"
+          "Dentistry",
+          "Tooth",
+          "Dental caries (disorder)"
         ],
         "doiName": "not available"
       },
@@ -20243,11 +20333,11 @@
         },
         "contactPoint": "ctc.cardamon@ucl.ac.uk",
         "keywords": [
-          "Clinical",
           "UKCRC Tissue Directory",
-          "Multiple myeloma (disorder)",
           "Cardamon",
-          "Trial"
+          "Trial",
+          "Clinical",
+          "Multiple myeloma (disorder)"
         ],
         "doiName": "not available"
       },
@@ -20359,9 +20449,9 @@
         },
         "contactPoint": "cheryl.gillett@kcl.ac.uk",
         "keywords": [
-          "Malignant tumour of breast",
-          "UKCRC Tissue Directory",
           "Cancer",
+          "UKCRC Tissue Directory",
+          "Malignant tumour of breast",
           "King's Health Partners",
           "Biobank"
         ],
@@ -20478,9 +20568,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "Children",
+          "Welsh",
           "SAIL",
-          "Welsh"
+          "Children"
         ],
         "doiName": "in progress"
       },
@@ -20596,15 +20686,15 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Experience",
-          "Patient",
           "NCAAD",
-          "Therapies",
-          "Spotlight",
-          "Anxiety",
           "Psychological",
-          "Survey"
+          "Experience",
+          "Anxiety",
+          "Survey",
+          "Spotlight",
+          "Audit",
+          "Therapies",
+          "Patient"
         ],
         "doiName": null
       },
@@ -20705,10 +20795,10 @@
         },
         "contactPoint": "sallyanne.meakins@nhs.net",
         "keywords": [
-          "clinical disorder)",
-          "MesobanK",
           "Mesothelioma (malignant",
-          "UKCRC Tissue Directory"
+          "MesobanK",
+          "UKCRC Tissue Directory",
+          "clinical disorder)"
         ],
         "doiName": "not available"
       },
@@ -21132,9 +21222,9 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
+          "SPIROMETA",
           "BREATHE",
-          "GWAS",
-          "SPIROMETA"
+          "GWAS"
         ],
         "doiName": "10.1038/s41588-018-0321-7"
       },
@@ -21423,11 +21513,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "NPDA",
-          "Core",
+          "Paediatric",
           "Diabetes",
-          "Paediatric"
+          "Audit",
+          "Core",
+          "NPDA"
         ],
         "doiName": null
       },
@@ -21528,22 +21618,22 @@
         },
         "contactPoint": "m.oates@liv.ac.uk",
         "keywords": [
-          "Leukaemia",
-          "FLAIR",
-          "CHOP-OR",
-          "RIAltO",
-          "UKCRC Tissue Directory",
-          "CLL210",
-          "CLEAR",
-          "ARCTIC",
-          "disease",
-          "Malignant lymphoma (disorder)",
-          "Trials",
-          "CLL",
-          "COSMIC",
           "AdMIRE",
+          "CLL210",
+          "COSMIC",
+          "UKCRC Tissue Directory",
           "UK",
-          "Biobank"
+          "Malignant lymphoma (disorder)",
+          "CHOP-OR",
+          "CLL",
+          "disease",
+          "FLAIR",
+          "ARCTIC",
+          "Trials",
+          "Biobank",
+          "Leukaemia",
+          "RIAltO",
+          "CLEAR"
         ],
         "doiName": "not available"
       },
@@ -21664,9 +21754,9 @@
         },
         "contactPoint": "nss.edris@nhs.net",
         "keywords": [
-          "Maternity",
+          "NHS Scotland",
           "Obstetrics ",
-          "NHS Scotland"
+          "Maternity"
         ],
         "doiName": null
       },
@@ -21786,8 +21876,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "SAIL",
           "Outpatient",
+          "SAIL",
           "Dataset"
         ],
         "doiName": "in progress"
@@ -21906,13 +21996,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Organisational",
-          "Perinatal",
-          "NMPA",
           "Maternity",
           "Hospital",
-          "Survey"
+          "Survey",
+          "Audit",
+          "Perinatal",
+          "NMPA",
+          "Organisational"
         ],
         "doiName": null
       },
@@ -22121,10 +22211,10 @@
         },
         "contactPoint": "research.support@ons.gov.uk",
         "keywords": [
-          "economic activity",
-          "health",
           "business",
-          "COVID-19"
+          "COVID-19",
+          "health",
+          "economic activity"
         ],
         "doiName": null
       },
@@ -22234,12 +22324,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Core",
-          "Depression",
-          "NCAAD",
           "Practice",
-          "Anxiety"
+          "NCAAD",
+          "Depression",
+          "Anxiety",
+          "Audit",
+          "Core"
         ],
         "doiName": null
       },
@@ -22327,11 +22417,11 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
+          "ICT",
+          "MALAYSIA",
           "HEALTH LITERACY",
           "SELF-MANAGEMENT",
-          "MALAYSIA",
-          "ICT",
+          "BREATHE",
           "RESPIRE"
         ],
         "doiName": "10.7488/ds/2753"
@@ -22462,8 +22552,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "Critical Care",
-          "SAIL"
+          "SAIL",
+          "Critical Care"
         ],
         "doiName": "in progress"
       },
@@ -22581,13 +22671,13 @@
         },
         "contactPoint": "f.forconi@soton.ac.uk",
         "keywords": [
-          "Lymphoid Tissue",
-          "UKTB",
-          "Bank",
-          "Real-world",
           "UKCRC Tissue Directory",
+          "Bank",
+          "UK",
           "Malignant lymphoma (disorder)",
-          "UK"
+          "Real-world",
+          "Lymphoid Tissue",
+          "UKTB"
         ],
         "doiName": "not available"
       },
@@ -22701,19 +22791,19 @@
         },
         "contactPoint": "a.gentry-maharaj@ucl.ac.uk",
         "keywords": [
-          "Dementia ",
-          "Malignant tumour of breast",
-          "Cerebrovascular accident ",
-          "UKCRC Tissue Directory",
-          "Malignant neoplasm of endometrium of corpus uteri )",
-          "Malignant colon tumour",
-          "Heart disease ",
-          "Fit and well",
           "Longitudinal",
           "Cohort",
-          "UKCTOCS",
           "Women's",
-          "UKLWC"
+          "UKCRC Tissue Directory",
+          "UKLWC",
+          "Dementia ",
+          "Malignant tumour of breast",
+          "Heart disease ",
+          "UKCTOCS",
+          "Malignant colon tumour",
+          "Fit and well",
+          "Malignant neoplasm of endometrium of corpus uteri )",
+          "Cerebrovascular accident "
         ],
         "doiName": "not available"
       },
@@ -22832,9 +22922,9 @@
         "contactPoint": "nbr@bioresource.nihr.ac.uk",
         "keywords": [
           "IBD",
-          "Crohn\u2019s",
+          "recall",
           "colitis",
-          "recall"
+          "Crohn\u2019s"
         ],
         "doiName": "in progress"
       },
@@ -22949,11 +23039,11 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "Baby",
-          "Childbirth",
           "Mother",
           "Maternity",
-          "Births"
+          "Childbirth",
+          "Births",
+          "Baby"
         ],
         "doiName": null
       },
@@ -23168,8 +23258,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "SAIL",
-          "Birth"
+          "Birth",
+          "SAIL"
         ],
         "doiName": "in progress"
       },
@@ -23388,11 +23478,11 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
+          "ASTHMA",
           "WAO",
           "BREATHE",
-          "WALES",
           "ELECTRONIC HEALTH RECORDS",
-          "ASTHMA"
+          "WALES"
         ],
         "doiName": "in progress"
       },
@@ -23602,11 +23692,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Dementia",
-          "Audit",
-          "Organisational",
           "NAD",
-          "Hospital"
+          "Hospital",
+          "Audit",
+          "Dementia",
+          "Organisational"
         ],
         "doiName": null
       },
@@ -24001,11 +24091,11 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
-          "Malaysia",
           "COPD",
-          "care",
+          "Malaysia",
+          "BREATHE",
           "RESPIRE",
+          "care",
           "patients"
         ],
         "doiName": null
@@ -24111,12 +24201,12 @@
         },
         "contactPoint": "bcntb@leeds.ac.uk",
         "keywords": [
+          "Leeds Breast Research Tissue Bank",
           "LBRTB",
-          "Malignant tumour of breast",
           "UKCRC Tissue Directory",
-          "Fit and well",
           "Benign tumour of breast",
-          "Leeds Breast Research Tissue Bank"
+          "Malignant tumour of breast",
+          "Fit and well"
         ],
         "doiName": "not available"
       },
@@ -24232,43 +24322,43 @@
         },
         "contactPoint": "enquiries@insight.hdrhub.org",
         "keywords": [
-          "UHB",
-          "AMD",
-          "Diabetic retinopathy",
-          "DME",
-          "MEH",
-          "Laterality",
-          "IOP",
-          "Eyes",
-          "Diagnosis",
-          "Treatment",
-          "VA",
-          "Cataracts",
           "Lens",
-          "DMO",
-          "Left",
           "Bilateral",
-          "Laser",
-          "Diabetes",
-          "Visual Acuity",
-          "glaucoma",
-          "Dry AMD",
+          "Lucentis",
+          "Age-related macular degeneration",
+          "DMO",
+          "Eyes",
           "Diabetic macular oedema",
           "Refraction",
+          "Laser",
+          "Diagnosis",
+          "Laterality",
+          "ophthalmology",
+          "Test",
           "IVT",
           "Injections",
-          "Lucentis",
-          "Series",
+          "Cataracts",
           "Exam",
-          "Genetics",
-          "DR",
-          "Test",
-          "Wet AMD",
-          "Right",
+          "Series",
+          "AMD",
+          "Diabetic retinopathy",
           "NHS",
+          "Visual Acuity",
+          "MEH",
+          "Genetics",
+          "glaucoma",
+          "Right",
+          "Treatment",
           "Both",
-          "Age-related macular degeneration",
-          "ophthalmology"
+          "DR",
+          "IOP",
+          "Diabetes",
+          "Left",
+          "VA",
+          "UHB",
+          "Wet AMD",
+          "DME",
+          "Dry AMD"
         ],
         "doiName": "not available"
       },
@@ -24384,16 +24474,16 @@
         },
         "contactPoint": "nibiobank@qub.ac.uk",
         "keywords": [
-          "Malignant tumour of breast",
-          "NIB",
-          "Malignant neoplasm of endometrium of corpus uteri (disorder)",
           "UKCRC Tissue Directory",
-          "Malignant tumour of colon",
-          "Fit and well",
           "Malignant tumour of ovary",
+          "Malignant neoplasm of endometrium of corpus uteri (disorder)",
+          "Malignant tumour of breast",
+          "Malignant tumour of colon",
+          "NIB",
           "Northern Ireland",
-          "Carcinoma in situ of prostate",
-          "Biobank"
+          "Biobank",
+          "Fit and well",
+          "Carcinoma in situ of prostate"
         ],
         "doiName": "not available"
       },
@@ -24708,11 +24798,11 @@
         },
         "contactPoint": "practiceenquiries@phc.ox.ac.uk",
         "keywords": [
-          "Access",
+          "Medical Records Systems",
           "Computerized - Biomedical Ontologies",
-          "Information Storage and Retrieval - Controlled Vocabulary - Epidemiologic Studies - Cohort Studies - Case-Control Studies - Observational Study - Clinical Trial - Health Care Quality",
+          "Access",
           "and Evaluation - Immunologic Surveillance - Sentinel Surveillance - Primary Health Care - Medical Record Linkage",
-          "Medical Records Systems"
+          "Information Storage and Retrieval - Controlled Vocabulary - Epidemiologic Studies - Cohort Studies - Case-Control Studies - Observational Study - Clinical Trial - Health Care Quality"
         ],
         "doiName": "not available"
       },
@@ -24973,11 +25063,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
           "NDA",
-          "Diabetes",
+          "Audit Clinical Dataset",
           "Foot Care",
-          "Audit Clinical Dataset"
+          "Diabetes",
+          "Audit"
         ],
         "doiName": null
       },
@@ -25074,8 +25164,8 @@
         },
         "contactPoint": "researchers@registerfordiscover.org.uk",
         "keywords": [
-          "ACS",
-          "Adult Social Care"
+          "Adult Social Care",
+          "ACS"
         ],
         "doiName": "in progress"
       },
@@ -25289,11 +25379,11 @@
         },
         "contactPoint": "njrresearch@hqip.org.uk",
         "keywords": [
-          "Elbow",
-          "Joint",
           "Revised",
+          "Elbow",
+          "Replacement",
           "NJR",
-          "Replacement"
+          "Joint"
         ],
         "doiName": null
       },
@@ -25390,9 +25480,9 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
-          "HES",
           "Accident",
           "Emergency",
+          "HES",
           "A&E"
         ],
         "doiName": null
@@ -25502,17 +25592,17 @@
         },
         "contactPoint": "enquiries@ethicaltissue.org",
         "keywords": [
-          "Ethical Tissue",
-          "Dementia ",
-          "University of Bradford",
-          "Malignant neoplasm of liver",
           "Malignant oral cavity tumour",
           "Malignant prostate tumour",
-          "UKCRC Tissue Directory",
           "Malignant stomach tumour",
-          "Fit and well",
+          "UKCRC Tissue Directory",
+          "Dementia ",
+          "Malignant brain neoplasm",
           "Carcinoma in situ of liver",
-          "Malignant brain neoplasm"
+          "Ethical Tissue",
+          "Malignant neoplasm of liver",
+          "Fit and well",
+          "University of Bradford"
         ],
         "doiName": "not available"
       },
@@ -25626,12 +25716,12 @@
         },
         "contactPoint": "nbr@bioresource.nihr.ac.uk",
         "keywords": [
-          "Crohn\u2019s",
-          "recall",
-          "cohort",
-          "demographics",
           "IBD",
+          "recall",
           "discover",
+          "demographics",
+          "cohort",
+          "Crohn\u2019s",
           "colitis",
           "feasibility"
         ],
@@ -25748,11 +25838,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
+          "Paediatric",
           "Experience",
-          "PREM",
+          "Audit",
           "Epilepsy 12",
-          "Paediatric"
+          "PREM"
         ],
         "doiName": null
       },
@@ -26038,19 +26128,19 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "lung cancer",
-          "Tamil Nadu",
-          "BREATHE",
-          "detection",
           "health worker",
+          "lung cancer",
+          "India",
           "low-income",
+          "detection",
+          "rural",
+          "Tamil Nadu",
+          "adult",
           "treatment",
           "lung diseases",
-          "RESPIRE",
-          "adult",
+          "BREATHE",
           "prevention",
-          "rural",
-          "India"
+          "RESPIRE"
         ],
         "doiName": null
       },
@@ -26252,10 +26342,10 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "Pakistan",
-          "BREATHE",
           "Second-hand smoke",
+          "BREATHE",
           "RESPIRE",
+          "Pakistan",
           "Pregnant woman"
         ],
         "doiName": "in progress"
@@ -26484,13 +26574,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Organisational",
-          "Asthma",
-          "NACAP",
           "COPD",
-          "Secondary Care workstream",
-          "Children and Young People"
+          "Audit",
+          "NACAP",
+          "Asthma",
+          "Children and Young People",
+          "Organisational",
+          "Secondary Care workstream"
         ],
         "doiName": null
       },
@@ -26587,12 +26677,12 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
+          "Inpatient",
           "APC",
           "HES",
-          "Patient",
           "Care",
           "Admitted",
-          "Inpatient"
+          "Patient"
         ],
         "doiName": null
       },
@@ -26785,12 +26875,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "NPDA",
-          "Diabetes",
           "Paediatric",
+          "Diabetes",
+          "Spotlight",
           "Technology",
-          "Spotlight"
+          "Audit",
+          "NPDA"
         ],
         "doiName": null
       },
@@ -27108,9 +27198,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "Primary care",
+          "GP",
           "SAIL",
-          "GP"
+          "Primary care"
         ],
         "doiName": "not available"
       },
@@ -27230,10 +27320,10 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
-          "BREATHE",
-          "ENVIRONMENTAL",
           "EMEP4UK",
-          "MODELLING"
+          "MODELLING",
+          "BREATHE",
+          "ENVIRONMENTAL"
         ],
         "doiName": null
       },
@@ -27336,16 +27426,16 @@
         },
         "contactPoint": "DTB@hyms.ac.uk",
         "keywords": [
-          "Leukaemia",
-          "Malignant tumour of rectum (disorder)",
-          "Malignant tumour of oesophagus",
-          "Mesothelioma (malignant",
           "UKCRC Tissue Directory",
-          "Malignant tumour of colon",
-          "clinical disorder)",
           "Daisy Tumour Bank",
+          "Malignant tumour of colon",
+          "Tumour",
           "disease",
-          "Tumour"
+          "clinical disorder)",
+          "Mesothelioma (malignant",
+          "Leukaemia",
+          "Malignant tumour of oesophagus",
+          "Malignant tumour of rectum (disorder)"
         ],
         "doiName": "not available"
       },
@@ -27546,10 +27636,10 @@
         },
         "contactPoint": "sw227@leicester.ac.uk",
         "keywords": [
-          "Hematologic neoplasm (disorder)",
+          "Biobank",
           "PTCL",
-          "UKCRC Tissue Directory",
-          "Biobank"
+          "Hematologic neoplasm (disorder)",
+          "UKCRC Tissue Directory"
         ],
         "doiName": "not available"
       },
@@ -27659,9 +27749,9 @@
         },
         "contactPoint": "gecip-help@genomicsengland.co.uk",
         "keywords": [
-          "data",
-          "Genomics",
           "sequencing",
+          "Genomics",
+          "data",
           "DNA"
         ],
         "doiName": "not available"
@@ -27784,10 +27874,10 @@
         },
         "contactPoint": "anna.brooke@bristol.ac.uk",
         "keywords": [
-          "Saliva",
-          "Bristol Dental School Saliva Bank",
           "Fit and well",
-          "UKCRC Tissue Directory"
+          "UKCRC Tissue Directory",
+          "Saliva",
+          "Bristol Dental School Saliva Bank"
         ],
         "doiName": "not available"
       },
@@ -28108,13 +28198,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Clinical Dataset",
+          "COPD",
           "Audit",
           "Secondary Care",
-          "Asthma",
+          "Adult Asthma",
           "NACAP",
-          "COPD",
-          "Adult Asthma"
+          "Asthma",
+          "Clinical Dataset"
         ],
         "doiName": null
       },
@@ -28215,11 +28305,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Epilepsy 12",
           "Paediatric",
+          "Survey",
+          "Audit",
           "National organisational",
-          "Survey"
+          "Epilepsy 12"
         ],
         "doiName": null
       },
@@ -28307,19 +28397,19 @@
         },
         "contactPoint": "researchers@registerfordiscover.org.uk",
         "keywords": [
-          "Primary Care Prescriptions",
-          "Integrated Care Record",
-          "Patient Level Data",
-          "Primary Care Events",
-          "Adult Social Care",
-          "High Cost Drugs",
           "Community",
-          "Mental Health",
           "Dataset",
-          "Outpatient Care",
+          "Mental Health",
+          "Patient Level Data",
+          "Accident and Emergency",
           "Admitted Patient Care",
+          "Primary Care Events",
+          "Primary Care Prescriptions",
+          "High Cost Drugs",
+          "Adult Social Care",
+          "Outpatient Care",
           "Linked",
-          "Accident and Emergency"
+          "Integrated Care Record"
         ],
         "doiName": "in progress"
       },
@@ -28440,12 +28530,12 @@
         },
         "contactPoint": "mndcollections@mndassociation.org",
         "keywords": [
-          "Motor neuron disease (disorder)",
           "UKCRC Tissue Directory",
           "UK",
+          "DNA",
+          "Motor neuron disease (disorder)",
           "Collections",
-          "MND",
-          "DNA"
+          "MND"
         ],
         "doiName": "not available"
       },
@@ -28554,9 +28644,9 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "Diagnostic Image",
           "Scan",
           "X-Ray",
+          "Diagnostic Image",
           "Radiology"
         ],
         "doiName": null
@@ -28665,11 +28755,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Dementia",
-          "Audit",
           "NAD",
+          "Hospital",
           "Spotlight",
-          "Hospital"
+          "Audit",
+          "Dementia"
         ],
         "doiName": null
       },
@@ -28757,11 +28847,11 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
-          "Malaysia",
-          "public",
-          "RESPIRE",
           "patient",
+          "public",
+          "Malaysia",
+          "BREATHE",
+          "RESPIRE",
           "involvement"
         ],
         "doiName": null
@@ -28865,12 +28955,12 @@
         },
         "contactPoint": "https://www.gov.uk/government/publications/accessing-public-health-england-data",
         "keywords": [
-          "neoplasia",
           "Cancer",
-          "cancer registry",
           "tumour",
-          "neoplasm",
-          "cancer registration"
+          "cancer registry",
+          "neoplasia",
+          "cancer registration",
+          "neoplasm"
         ],
         "doiName": null
       },
@@ -29001,16 +29091,16 @@
         },
         "contactPoint": "elainedavies@kidneyresearchuk.org",
         "keywords": [
-          "Translational",
-          "Renal",
-          "National",
-          "Enterprise",
           "Research",
+          "Enterprise",
           "UKCRC Tissue Directory",
           "Unified",
+          "Translational",
+          "Nephrotic syndrome (disorder)",
+          "National",
           "NURTuRE",
-          "Chronic kidney disease (disorder)",
-          "Nephrotic syndrome (disorder)"
+          "Renal",
+          "Chronic kidney disease (disorder)"
         ],
         "doiName": "not available"
       },
@@ -29211,9 +29301,9 @@
         },
         "contactPoint": "mrcctu.icon8b@ucl.ac.uk",
         "keywords": [
+          "Malignant tumour of ovary",
           "TRICON8B",
-          "UKCRC Tissue Directory",
-          "Malignant tumour of ovary"
+          "UKCRC Tissue Directory"
         ],
         "doiName": "not available"
       },
@@ -29325,10 +29415,10 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Dementia",
-          "Audit",
           "NAD",
           "Hospital",
+          "Audit",
+          "Dementia",
           "Staff Questionnaire"
         ],
         "doiName": null
@@ -29431,8 +29521,8 @@
         "contactPoint": "casps-icrctsu@icr.ac.uk",
         "keywords": [
           "Malignant neoplasm of connective tissue (disorder)",
-          "ASPS",
           "UKCRC Tissue Directory",
+          "ASPS",
           "CASPS"
         ],
         "doiName": "not available"
@@ -29545,11 +29635,11 @@
         },
         "contactPoint": "rtb@leeds.ac.uk",
         "keywords": [
-          "Leeds",
-          "Malignant tumour of kidney (disorder)",
           "UKCRC Tissue Directory",
-          "Multidisciplinary Research",
-          "Tissue Bank"
+          "Leeds",
+          "Tissue Bank",
+          "Malignant tumour of kidney (disorder)",
+          "Multidisciplinary Research"
         ],
         "doiName": "not available"
       },
@@ -29665,11 +29755,11 @@
         "contactPoint": "ctc.ukall14@ucl.ac.uk",
         "keywords": [
           "",
-          "Leukaemia",
-          "UKALL14",
           "UKCRC Tissue Directory",
+          "Trial",
           "disease",
-          "Trial"
+          "UKALL14",
+          "Leukaemia"
         ],
         "doiName": "not available"
       },
@@ -29885,11 +29975,11 @@
         },
         "contactPoint": "epilepsybrainbank@ucl.ac.uk",
         "keywords": [
-          "Brain",
-          "Neurology",
+          "Epilepsy (disorder)",
           "UKCRC Tissue Directory",
           "Tissue",
-          "Epilepsy (disorder)"
+          "Brain",
+          "Neurology"
         ],
         "doiName": "not available"
       },
@@ -30180,11 +30270,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Clinical Audit dataset",
           "NDA",
+          "Pregnancy",
           "Diabetes",
-          "Pregnancy"
+          "Audit",
+          "Clinical Audit dataset"
         ],
         "doiName": null
       },
@@ -30286,11 +30376,11 @@
         "contactPoint": "clare.orange@ggc.scot.nhs.uk",
         "keywords": [
           "",
-          "SCOT",
-          "Translational",
-          "Sample collection",
           "UKCRC Tissue Directory",
-          "Malignant tumour of colon"
+          "Translational",
+          "Malignant tumour of colon",
+          "SCOT",
+          "Sample collection"
         ],
         "doiName": "not available"
       },
@@ -30402,9 +30492,9 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
-          "HES",
+          "Outpatient",
           "OP",
-          "Outpatient"
+          "HES"
         ],
         "doiName": null
       },
@@ -30517,14 +30607,14 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
+          "AIR POLLUTION",
+          "COHORT",
+          "Luton",
+          "BREATHE",
           "CHILL",
           "Childre",
-          "BREATHE",
-          "AIR POLLUTION",
-          "London",
           "CHILD HEALTH",
-          "Luton",
-          "COHORT"
+          "London"
         ],
         "doiName": "in progress"
       },
@@ -30839,8 +30929,8 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
-          "Cause",
           "Registration",
+          "Cause",
           "Deaths"
         ],
         "doiName": null
@@ -30941,12 +31031,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
+          "Inflammatory",
           "Audit",
-          "Early",
-          "Arthritis",
-          "Clinical",
           "NEIAA",
-          "Inflammatory"
+          "Clinical",
+          "Early",
+          "Arthritis"
         ],
         "doiName": null
       },
@@ -31047,10 +31137,10 @@
         },
         "contactPoint": "nbr@bioresource.nihr.ac.uk",
         "keywords": [
-          "PID",
-          "Trusts",
           "PAH",
+          "Trusts",
           "BPD",
+          "PID",
           "NHS"
         ],
         "doiName": null
@@ -31261,12 +31351,12 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "Operations",
           "Episodes",
+          "Hospital",
+          "Operations",
           "Emergency",
-          "Critical Care",
           "Diagnosis",
-          "Hospital"
+          "Critical Care"
         ],
         "doiName": null
       },
@@ -31463,11 +31553,11 @@
         },
         "contactPoint": "tissuebank@cclg.org.uk",
         "keywords": [
-          "Leukaemia",
-          "CCLG",
           "UKCRC Tissue Directory",
+          "Children's Cancer",
+          "CCLG",
           "Tissue Bank",
-          "Children's Cancer"
+          "Leukaemia"
         ],
         "doiName": "not available"
       },
@@ -31580,11 +31670,11 @@
         },
         "contactPoint": "nbr@bioresource.nihr.ac.uk",
         "keywords": [
-          "Crohn\u2019s",
           "recall",
           "consent",
-          "BD",
-          "colitis"
+          "Crohn\u2019s",
+          "colitis",
+          "BD"
         ],
         "doiName": "in progress"
       },
@@ -31685,9 +31775,9 @@
         "contactPoint": "hbs@hscni.net",
         "keywords": [
           "Data and Connectivity National Core Study",
-          "Hospital Inpatient System",
-          "Northern Ireland",
           "admitted patient care",
+          "Northern Ireland",
+          "Hospital Inpatient System",
           "patient administration system"
         ],
         "doiName": null
@@ -32026,9 +32116,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "Referral",
+          "Outpatient",
           "SAIL",
-          "Outpatient"
+          "Referral"
         ],
         "doiName": "in progress"
       },
@@ -32173,8 +32263,8 @@
           "nCOV",
           "COVID19",
           "SAIL",
-          "Welsh",
-          "coronavirus"
+          "coronavirus",
+          "Welsh"
         ],
         "doiName": "in progress"
       },
@@ -32290,10 +32380,10 @@
         },
         "contactPoint": "imaging@nhsx.nhs.uk",
         "keywords": [
-          "imaging",
           "chest x-ray",
-          "chest MRI",
+          "imaging",
           "COVID-19",
+          "chest MRI",
           "chest CT scan"
         ],
         "doiName": "in progress"
@@ -32411,12 +32501,12 @@
         "contactPoint": "unirad-icrctsu@icr.ac.uk",
         "keywords": [
           "",
+          "UKCRC Tissue Directory",
+          "UNIRAD",
+          "UK",
           "Sample",
           "Malignant tumour of breast",
-          "UKCRC Tissue Directory",
-          "collection",
-          "UNIRAD",
-          "UK"
+          "collection"
         ],
         "doiName": "not available"
       },
@@ -32742,9 +32832,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
+          "SAIL",
           "Misuse",
-          "Substance",
-          "SAIL"
+          "Substance"
         ],
         "doiName": "in progress"
       },
@@ -32860,10 +32950,10 @@
         },
         "contactPoint": "nbr@bioresource.nihr.ac.uk",
         "keywords": [
-          "WGS",
           "GEL",
+          "Genome",
           "Sequencing",
-          "Genome"
+          "WGS"
         ],
         "doiName": null
       },
@@ -32951,8 +33041,8 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "Community Services",
-          "CSDS"
+          "CSDS",
+          "Community Services"
         ],
         "doiName": null
       },
@@ -33140,11 +33230,11 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "Pakistan",
-          "BREATHE",
-          "Pneumonia",
           "Case management",
-          "RESPIRE"
+          "BREATHE",
+          "RESPIRE",
+          "Pakistan",
+          "Pneumonia"
         ],
         "doiName": "in progress"
       },
@@ -33259,12 +33349,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Organisational",
-          "Asthma",
           "Pulmonary Rehabilitation",
+          "COPD",
+          "Audit",
           "NACAP",
-          "COPD"
+          "Asthma",
+          "Organisational"
         ],
         "doiName": null
       },
@@ -33361,11 +33451,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Adult",
           "NDA",
           "Diabetes",
-          "Core Clinical Audit Dataset"
+          "Audit",
+          "Core Clinical Audit Dataset",
+          "Adult"
         ],
         "doiName": null
       },
@@ -33657,12 +33747,12 @@
         },
         "contactPoint": "gecip-help@genomicsengland.co.uk",
         "keywords": [
-          "England",
-          "CANCER",
-          "genomics",
-          "data",
           "sequencing",
-          "DNA"
+          "CANCER",
+          "data",
+          "DNA",
+          "genomics",
+          "England"
         ],
         "doiName": "not available"
       },
@@ -33788,8 +33878,8 @@
         "keywords": [
           "Fit and well",
           "TwinsUK",
-          "UKCRC Tissue Directory",
-          "Cohort"
+          "Cohort",
+          "UKCRC Tissue Directory"
         ],
         "doiName": "not available"
       },
@@ -33909,43 +33999,43 @@
         },
         "contactPoint": "enquiries@insight.hdrhub.org",
         "keywords": [
-          "UHB",
-          "AMD",
-          "Diabetic retinopathy",
-          "DME",
-          "MEH",
-          "Laterality",
-          "IOP",
-          "Eyes",
-          "Diagnosis",
-          "Treatment",
-          "VA",
-          "Cataracts",
           "Lens",
-          "DMO",
-          "Left",
           "Bilateral",
-          "Laser",
-          "Diabetes",
-          "Visual Acuity",
-          "glaucoma",
-          "Dry AMD",
+          "Lucentis",
+          "Age-related macular degeneration",
+          "DMO",
+          "Eyes",
           "Diabetic macular oedema",
           "Refraction",
+          "Laser",
+          "Diagnosis",
+          "Laterality",
+          "ophthalmology",
+          "Test",
           "IVT",
           "Injections",
-          "Lucentis",
-          "Series",
+          "Cataracts",
           "Exam",
-          "Genetics",
-          "DR",
-          "Test",
-          "Wet AMD",
-          "Right",
+          "Series",
+          "AMD",
+          "Diabetic retinopathy",
           "NHS",
+          "Visual Acuity",
+          "MEH",
+          "Genetics",
+          "glaucoma",
+          "Right",
+          "Treatment",
           "Both",
-          "Age-related macular degeneration",
-          "ophthalmology"
+          "DR",
+          "IOP",
+          "Diabetes",
+          "Left",
+          "VA",
+          "UHB",
+          "Wet AMD",
+          "DME",
+          "Dry AMD"
         ],
         "doiName": "not available"
       },
@@ -34155,8 +34245,8 @@
         "keywords": [
           "Procedures",
           "SAIL",
-          "Admitted",
-          "Postponed"
+          "Postponed",
+          "Admitted"
         ],
         "doiName": "in progress"
       },
@@ -34275,9 +34365,9 @@
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
           "GASP",
+          "Genetics",
           "BREATHE",
           "Asthma",
-          "Genetics",
           "Phenotypes"
         ],
         "doiName": "10.1016/s2213-2600(18)30389-8"
@@ -34394,17 +34484,17 @@
         },
         "contactPoint": "octo-enquiries@oncology.ox.ac.uk",
         "keywords": [
-          "Barrett's oesophagus (disorder)",
-          "Oncology",
-          "Malignant tumour of oesophagus",
-          "Clinical",
           "UKCRC Tissue Directory",
-          "University of Oxford",
-          "Office",
-          "Trials",
           "Malignant tumour of ovary",
+          "University of Oxford",
+          "Clinical",
+          "Malignant tumour of pancreas",
           "OCTO",
-          "Malignant tumour of pancreas"
+          "Trials",
+          "Barrett's oesophagus (disorder)",
+          "Malignant tumour of oesophagus",
+          "Oncology",
+          "Office"
         ],
         "doiName": "not available"
       },
@@ -34718,14 +34808,14 @@
         },
         "contactPoint": "ctc.peace@ucl.ac.uk",
         "keywords": [
+          "UKCRC Tissue Directory",
           "Environment",
+          "PEACE",
+          "Carcinoma in situ of lung",
           "Study",
           "Evaluation",
-          "UKCRC Tissue Directory",
-          "Carcinoma in situ of lung",
-          "Advanced Cancer",
-          "PEACE",
-          "Posthumous"
+          "Posthumous",
+          "Advanced Cancer"
         ],
         "doiName": "not available"
       },
@@ -35025,13 +35115,13 @@
         },
         "contactPoint": "ezra.linley@phe.gov.uk",
         "keywords": [
+          "PHL",
+          "Seroepidemiology Unit",
+          "UKCRC Tissue Directory",
           "SEU",
           "Public Health England",
-          "UKCRC Tissue Directory",
-          "Seroepidemiology Unit",
           "PHE",
-          "Fit and well",
-          "PHL"
+          "Fit and well"
         ],
         "doiName": "not available"
       },
@@ -35147,8 +35237,8 @@
         },
         "contactPoint": "nss.edris@nhs.net",
         "keywords": [
-          "Out of Hours",
-          "GP"
+          "GP",
+          "Out of Hours"
         ],
         "doiName": null
       },
@@ -35680,12 +35770,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Bowel",
-          "Clinical",
           "Cancer",
           "NBOCA",
-          "Colon"
+          "Audit",
+          "Clinical",
+          "Colon",
+          "Bowel"
         ],
         "doiName": null
       },
@@ -35969,11 +36059,11 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
-          "PROMS",
-          "Measures",
-          "Patient",
           "Reported",
-          "Outcome"
+          "Outcome",
+          "PROMS",
+          "Patient",
+          "Measures"
         ],
         "doiName": null
       },
@@ -36077,12 +36167,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
           "Secondary Care Organisational Dataset",
-          "Asthma",
-          "NACAP",
           "COPD",
-          "Adult Asthma"
+          "Audit",
+          "Adult Asthma",
+          "NACAP",
+          "Asthma"
         ],
         "doiName": null
       },
@@ -36291,12 +36381,12 @@
         },
         "contactPoint": "alspac-data@bristol.ac.uk",
         "keywords": [
-          "study",
           "cohort",
-          "birth",
           "parents",
-          "child",
-          "transgenerational"
+          "study",
+          "transgenerational",
+          "birth",
+          "child"
         ],
         "doiName": null
       },
@@ -36436,13 +36526,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Clinical Dataset",
-          "Audit",
-          "FFFAP",
-          "Database",
           "Fragility",
+          "Audit",
           "Falls",
-          "Hip Fracture"
+          "FFFAP",
+          "Hip Fracture",
+          "Database",
+          "Clinical Dataset"
         ],
         "doiName": null
       },
@@ -36543,10 +36633,10 @@
         },
         "contactPoint": "a.gander@ucl.ac.uk",
         "keywords": [
-          "TAPb",
           "",
           "Tissue Access for Patient Benefit",
-          "UKCRC Tissue Directory"
+          "UKCRC Tissue Directory",
+          "TAPb"
         ],
         "doiName": "not available"
       },
@@ -36660,9 +36750,9 @@
         },
         "contactPoint": "nbr@bioresource.nihr.ac.uk",
         "keywords": [
-          "Counts",
+          "FBC",
           "Blood",
-          "FBC"
+          "Counts"
         ],
         "doiName": null
       },
@@ -36868,12 +36958,12 @@
         },
         "contactPoint": "R.T.Bryan@bham.ac.uk",
         "keywords": [
-          "POUT-T",
-          "Malignant tumour of urinary bladder (disorder)",
           "UKCRC Tissue Directory",
+          "Transitional cell carcinoma",
+          "POUT-T",
           "UTUC",
-          "Hematologic neoplasm (disorder)",
-          "Transitional cell carcinoma"
+          "Malignant tumour of urinary bladder (disorder)",
+          "Hematologic neoplasm (disorder)"
         ],
         "doiName": "not available"
       },
@@ -36988,8 +37078,8 @@
         "contactPoint": "mds@imm.ox.ac.uk",
         "keywords": [
           "Hematologic neoplasm (disorder)",
-          "UKCRC Tissue Directory",
-          "MDSBio"
+          "MDSBio",
+          "UKCRC Tissue Directory"
         ],
         "doiName": "not available"
       },
@@ -37097,12 +37187,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
+          "Inflammatory",
           "Audit",
-          "Early",
-          "Arthritis",
           "Patient Survey",
           "NEIAA",
-          "Inflammatory"
+          "Early",
+          "Arthritis"
         ],
         "doiName": null
       },
@@ -37403,12 +37493,12 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "Operations",
           "Episodes",
-          "Emergency",
-          "Diagnosis",
           "Hospital",
-          "Accident"
+          "Accident",
+          "Operations",
+          "Emergency",
+          "Diagnosis"
         ],
         "doiName": null
       },
@@ -37605,10 +37695,10 @@
         },
         "contactPoint": "anne.george@addenbrookes.nhs.uk",
         "keywords": [
-          "Cam-UroOnc Biorepository",
-          "Carcinoma in situ of prostate",
           "UKCRC Tissue Directory",
-          "BioBank"
+          "Cam-UroOnc Biorepository",
+          "BioBank",
+          "Carcinoma in situ of prostate"
         ],
         "doiName": "not available"
       },
@@ -37723,13 +37813,13 @@
         },
         "contactPoint": "ctc.icon9@ucl.ac.uk",
         "keywords": [
-          "Olaparib",
-          "Ovarian",
-          "UKCRC Tissue Directory",
           "Cancer",
-          "ICON9",
+          "Cediranib",
+          "UKCRC Tissue Directory",
           "Malignant tumour of ovary",
-          "Cediranib"
+          "ICON9",
+          "Olaparib",
+          "Ovarian"
         ],
         "doiName": "not available"
       },
@@ -37935,10 +38025,10 @@
         },
         "contactPoint": "l.baxter@sheffield.ac.uk",
         "keywords": [
-          "Brain Tissue Bank",
           "SBTB",
-          "Motor neuron disease (disorder)",
           "UKCRC Tissue Directory",
+          "Brain Tissue Bank",
+          "Motor neuron disease (disorder)",
           "Sheffield"
         ],
         "doiName": "not available"
@@ -38165,8 +38255,8 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "DIGITRIALS",
-          "GDPPR"
+          "GDPPR",
+          "DIGITRIALS"
         ],
         "doiName": null
       },
@@ -38366,16 +38456,16 @@
         },
         "contactPoint": "Wan-Fai.Ng@ncl.ac.uk",
         "keywords": [
-          "Registry",
-          "serum",
-          "Blood samples",
           "UKCRC Tissue Directory",
+          "serum",
+          "UK",
+          "DNA",
+          "Sjogren's syndrome (disorder)",
+          "Primary Sjogren's syndrome",
           "PBMC",
           "RNA",
-          "Primary Sjogren's syndrome",
-          "Sjogren's syndrome (disorder)",
-          "UK",
-          "DNA"
+          "Blood samples",
+          "Registry"
         ],
         "doiName": "not available"
       },
@@ -38487,14 +38577,14 @@
         },
         "contactPoint": "bwc.cehrb_@nhs.net",
         "keywords": [
-          "Leukaemia",
-          "Oncology",
-          "CEHRB",
+          "BioBank",
           "UKCRC Tissue Directory",
           "disease",
-          "BioBank",
+          "Central England",
           "Haemato-Oncology",
-          "Central England"
+          "CEHRB",
+          "Leukaemia",
+          "Oncology"
         ],
         "doiName": "not available"
       },
@@ -38795,12 +38885,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
+          "COPD",
           "Audit",
-          "Asthma",
           "Primary Care",
           "Workstream Resources",
           "NACAP",
-          "COPD"
+          "Asthma"
         ],
         "doiName": null
       },
@@ -38898,8 +38988,8 @@
         "contactPoint": "research.support@ons.gov.uk",
         "keywords": [
           "mortality",
-          "COVID-19",
-          "health"
+          "health",
+          "COVID-19"
         ],
         "doiName": null
       },
@@ -39094,8 +39184,8 @@
         "keywords": [
           "",
           "Imaging",
-          "Diagnostic",
-          "DIDs"
+          "DIDs",
+          "Diagnostic"
         ],
         "doiName": null
       },
@@ -39395,13 +39485,13 @@
         },
         "contactPoint": "requite@manchester.ac.uk",
         "keywords": [
-          "Malignant tumour of prostate (disorder)",
-          "Malignant tumour of breast",
           "UKCRC Tissue Directory",
           "Toxicity",
-          "Radiotherapy",
+          "REQUITE",
+          "Malignant tumour of breast",
+          "Malignant tumour of prostate (disorder)",
           "Malignant tumour of lung",
-          "REQUITE"
+          "Radiotherapy"
         ],
         "doiName": "not available"
       },
@@ -39514,9 +39604,9 @@
         },
         "contactPoint": "cubiobank@cardiff.ac.uk",
         "keywords": [
+          "Biobank",
           "Fit and well",
           "UKCRC Tissue Directory",
-          "Biobank",
           "Cardiff University"
         ],
         "doiName": "not available"
@@ -39637,9 +39727,9 @@
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
           "GP",
-          "BREATHE",
           "Primary Care",
           "OPCRD",
+          "BREATHE",
           "EHR"
         ],
         "doiName": null
@@ -39746,13 +39836,13 @@
         },
         "contactPoint": "CBSB_admin@medschl.cam.ac.uk",
         "keywords": [
-          "Leukaemia",
           "UKCRC Tissue Directory",
           "Cambridge Blood and Stem Cell Biobank",
-          "Fit and well",
-          "Disease",
           "Hematologic neoplasm (disorder)",
-          "Biobank"
+          "Biobank",
+          "Fit and well",
+          "Leukaemia",
+          "Disease"
         ],
         "doiName": "not available"
       },
@@ -39865,11 +39955,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
+          "NACEL",
           "End of life",
-          "Quality Survey",
+          "Audit",
           "Care",
-          "NACEL"
+          "Quality Survey"
         ],
         "doiName": null
       },
@@ -40079,12 +40169,12 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
+          "Covid-19",
+          "BREATHE",
+          "RESPIRE",
           "Pakistan",
           "public health",
-          "BREATHE",
-          "Covid-19",
-          "Community preception",
-          "RESPIRE"
+          "Community preception"
         ],
         "doiName": "in progress"
       },
@@ -40306,14 +40396,14 @@
         "contactPoint": "rapper@manchester.ac.uk",
         "keywords": [
           "",
+          "UKCRC Tissue Directory",
+          "SNPs",
+          "Malignant tumour of cervix",
+          "Malignant tumour of breast",
+          "RAPPER",
           "Malignant tumour of prostate (disorder)",
           "Malignant neoplasm of upper respiratory tract (disorder)",
-          "Malignant tumour of breast",
-          "SNPs",
-          "Radiogenomics",
-          "UKCRC Tissue Directory",
-          "RAPPER",
-          "Malignant tumour of cervix"
+          "Radiogenomics"
         ],
         "doiName": "not available"
       },
@@ -40422,10 +40512,10 @@
         },
         "contactPoint": "gecip-help@genomicsengland.co.uk",
         "keywords": [
+          "genome",
           "data",
-          "rare disease",
           "DNA",
-          "genome"
+          "rare disease"
         ],
         "doiName": "not available"
       },
@@ -40636,8 +40726,8 @@
         },
         "contactPoint": "researchers@registerfordiscover.org.uk",
         "keywords": [
-          "Patient Level Data",
-          "PLD"
+          "PLD",
+          "Patient Level Data"
         ],
         "doiName": "in progress"
       },
@@ -40754,11 +40844,11 @@
         },
         "contactPoint": "researchers@registerfordiscover.org.uk",
         "keywords": [
+          "Inpatient",
+          "Episode",
           "Spell",
           "APC",
-          "Episode",
-          "IP",
-          "Inpatient"
+          "IP"
         ],
         "doiName": "in progress"
       },
@@ -40881,10 +40971,10 @@
         },
         "contactPoint": "biol622@york.ac.uk",
         "keywords": [
-          "York",
           "Tissue Bank",
           "Fit and well",
-          "UKCRC Tissue Directory"
+          "UKCRC Tissue Directory",
+          "York"
         ],
         "doiName": "not available"
       },
@@ -40997,10 +41087,10 @@
         "contactPoint": "sarah.mcdonald@glasgow.ac.uk",
         "keywords": [
           "Research",
-          "UKCRC Tissue Directory",
-          "HCV",
           "Viral hepatitis type C",
-          "UK"
+          "UKCRC Tissue Directory",
+          "UK",
+          "HCV"
         ],
         "doiName": "not available"
       },
@@ -41502,41 +41592,41 @@
         },
         "contactPoint": "richard.cain@bristol.ac.uk",
         "keywords": [
-          "Vascular dementia (disorder)",
-          "Motor neuron disease (disorder)",
-          "Asthma (disorder)",
-          "Malignant tumour of breast",
-          "UKCRC Tissue Directory",
-          "Malignant neoplasm of brain",
-          "Brain",
-          "Congenital anomaly of brain (disorder)",
-          "Atrial fibrillation and flutter (disorder)",
-          "Huntington's chorea (disorder)",
-          "Malignant tumour of urinary bladder (disorder)",
-          "Complete trisomy 21 syndrome (disorder)",
-          "Malignant tumour of ovary",
-          "MRC",
           "Alzheimer's disease (disorder)",
-          "Depressive disorder (disorder)",
-          "Ischemic heart disease (disorder)",
-          "Malignant tumour of oesophagus",
-          "Diabetes mellitus type 1",
-          "Psychotic disorder (disorder)",
+          "Malignant tumour of breast",
           "Malignant tumour of colon",
-          "Jakob-Creutzfeldt disease (disorder)",
-          "Fit and well",
-          "Malignant tumour of lung",
-          "Diabetes mellitus type 2",
-          "Progressive supranuclear ophthalmoplegia (disorder)",
-          "Epilepsy (disorder)",
-          "Malignant tumour of prostate (disorder)",
           "Multiple system atrophy (disorder)",
-          "Cerebrovascular disease (disorder)",
+          "Malignant neoplasm of brain",
+          "Motor neuron disease (disorder)",
+          "Vascular dementia (disorder)",
+          "Malignant tumour of oesophagus",
           "Dementia (disorder)",
-          "Spinal muscular atrophy (disorder)",
+          "UKCRC Tissue Directory",
+          "MRC",
+          "Malignant tumour of ovary",
+          "Congenital anomaly of brain (disorder)",
+          "Asthma (disorder)",
+          "Fit and well",
+          "Cerebrovascular disease (disorder)",
+          "Complete trisomy 21 syndrome (disorder)",
+          "Diabetes mellitus type 1",
+          "Atrial fibrillation and flutter (disorder)",
+          "Progressive supranuclear ophthalmoplegia (disorder)",
+          "Brain",
+          "Huntington's chorea (disorder)",
+          "Depressive disorder (disorder)",
           "Degenerative brain disorder (disorder)",
           "Parkinson's disease (disorder)",
-          "Multiple sclerosis (disorder)"
+          "Psychotic disorder (disorder)",
+          "Jakob-Creutzfeldt disease (disorder)",
+          "Epilepsy (disorder)",
+          "Diabetes mellitus type 2",
+          "Malignant tumour of prostate (disorder)",
+          "Malignant tumour of urinary bladder (disorder)",
+          "Malignant tumour of lung",
+          "Multiple sclerosis (disorder)",
+          "Spinal muscular atrophy (disorder)",
+          "Ischemic heart disease (disorder)"
         ],
         "doiName": "not available"
       },
@@ -41759,10 +41849,10 @@
         "contactPoint": "datacan@uclpartners.com",
         "keywords": [
           "specialist",
-          "Yorkshire",
           "CANCER",
           "children",
-          "register"
+          "register",
+          "Yorkshire"
         ],
         "doiName": "in progress"
       },
@@ -41952,8 +42042,8 @@
         "keywords": [
           "Malignant tumour of ovary",
           "",
-          "UKCRC Tissue Directory",
-          "TRICON8"
+          "TRICON8",
+          "UKCRC Tissue Directory"
         ],
         "doiName": "not available"
       },
@@ -42328,12 +42418,12 @@
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
           "ASHA",
-          "BREATHE India",
           "CHW",
           "Accredited Social Health Activists",
-          "Community Health Worker",
           "RESPIRE",
-          "Workload"
+          "Community Health Worker",
+          "Workload",
+          "BREATHE India"
         ],
         "doiName": null
       },
@@ -42560,8 +42650,8 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "Digitrials",
           "National Cancer Registration and Analysis Service",
+          "Digitrials",
           "NCRAS"
         ],
         "doiName": null
@@ -42759,15 +42849,15 @@
         },
         "contactPoint": "parry-jonesa@cf.ac.uk",
         "keywords": [
-          "Malignant upper respiratory tract neoplasm",
-          "WCB",
+          "Wales",
           "UKCRC Tissue Directory",
+          "Malignant connective tissue neoplasm",
+          "Cancer Bank",
           "Hodgkin's disease",
           "Malignant endometrium of corpus uteri neoplasm",
-          "Cancer Bank",
-          "Wales",
-          "Malignant skin neoplasm",
-          "Malignant connective tissue neoplasm"
+          "Malignant upper respiratory tract neoplasm",
+          "WCB",
+          "Malignant skin neoplasm"
         ],
         "doiName": "not available"
       },
@@ -43077,10 +43167,10 @@
         "contactPoint": "njrresearch@hqip.org.uk",
         "keywords": [
           "Shoulder",
-          "Joint",
           "Revised",
+          "Replacement",
           "NJR",
-          "Replacement"
+          "Joint"
         ],
         "doiName": null
       },
@@ -43168,16 +43258,16 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "adults",
-          "Asian",
-          "BREATHE",
-          "middle-income",
-          "Chronic Respiratory Disease",
+          "India",
           "COPD",
           "low-income",
-          "RESPIRE",
+          "Asian",
           "asthma",
-          "India"
+          "Chronic Respiratory Disease",
+          "BREATHE",
+          "RESPIRE",
+          "adults",
+          "middle-income"
         ],
         "doiName": null
       },
@@ -43395,9 +43485,9 @@
         "contactPoint": "nss.edris@nhs.net",
         "keywords": [
           "Daycases",
+          "NHS Scotland",
           "Psychiatric Inpatients",
-          "Mental Health",
-          "NHS Scotland"
+          "Mental Health"
         ],
         "doiName": null
       },
@@ -43506,9 +43596,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "DSRD",
           "Covid-19",
-          "SAIL"
+          "SAIL",
+          "DSRD"
         ],
         "doiName": "in progress"
       },
@@ -43622,12 +43712,12 @@
         },
         "contactPoint": "v.enne@ucl.ac.uk",
         "keywords": [
-          "UCL",
-          "Bank",
-          "UKCRC Tissue Directory",
           "Infection",
+          "UKCRC Tissue Directory",
+          "Bank",
           "Influenza virus (organism)",
-          "DNA"
+          "DNA",
+          "UCL"
         ],
         "doiName": "not available"
       },
@@ -43739,11 +43829,11 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
-          "Vitamin D",
-          "BREATHE",
-          "Asthma",
           "Respiratory",
-          "COPD"
+          "Vitamin D",
+          "COPD",
+          "BREATHE",
+          "Asthma"
         ],
         "doiName": null
       },
@@ -43955,8 +44045,8 @@
         },
         "contactPoint": "researchers@registerfordiscover.org.uk",
         "keywords": [
-          "Primary care prescription",
-          "PCP"
+          "PCP",
+          "Primary care prescription"
         ],
         "doiName": "in progress"
       },
@@ -44172,11 +44262,11 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "Pakistan",
-          "BREATHE",
-          "Asthma",
           "Pollen",
-          "RESPIRE"
+          "BREATHE",
+          "RESPIRE",
+          "Pakistan",
+          "Asthma"
         ],
         "doiName": "in progress"
       },
@@ -44382,13 +44472,13 @@
         },
         "contactPoint": "ardentissuebank@uhcw.nhs.uk",
         "keywords": [
-          "Arden",
-          "UKCRC Tissue Directory",
           "Fit and Well",
-          "Lung",
+          "UKCRC Tissue Directory",
           "Tumour",
           "Tissue Bank",
-          "Biobank"
+          "Lung",
+          "Biobank",
+          "Arden"
         ],
         "doiName": "not available"
       },
@@ -44502,9 +44592,9 @@
         },
         "contactPoint": "NIHRLeicesterBRC@uhl-tr.nhs.uk",
         "keywords": [
+          "GENPC",
           "Cardiovascular",
-          "Primary Care",
-          "GENPC"
+          "Primary Care"
         ],
         "doiName": null
       },
@@ -44609,11 +44699,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Stroke",
-          "Audit",
           "Acute Organisational Survey",
-          "Sentinel",
-          "SSNAP"
+          "SSNAP",
+          "Audit",
+          "Stroke",
+          "Sentinel"
         ],
         "doiName": null
       },
@@ -44813,11 +44903,11 @@
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
           "UKBiLEVE",
-          "LUNG FUNCTION",
+          "COPD",
           "UK BIOBANK",
           "BREATHE",
-          "GWAS",
-          "COPD"
+          "LUNG FUNCTION",
+          "GWAS"
         ],
         "doiName": "10.1038/s41588-018-0321-7"
       },
@@ -44929,9 +45019,9 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
-          "HES",
           "Accident",
           "Emergency",
+          "HES",
           "A&E"
         ],
         "doiName": null
@@ -45037,8 +45127,8 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
-          "Cause",
           "Registration",
+          "Cause",
           "Deaths"
         ],
         "doiName": null
@@ -45143,10 +45233,10 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "NAP - EIP",
-          "Audit",
+          "Contextual Data",
           "Psychosis",
-          "Contextual Data"
+          "NAP - EIP",
+          "Audit"
         ],
         "doiName": null
       },
@@ -45346,13 +45436,13 @@
         "contactPoint": "d.j.collier@qmul.ac.uk",
         "keywords": [
           "Benign",
+          "UKCRC Tissue Directory",
+          "Barts",
           "Neoplasm",
           "Carcinoma",
-          "UKCRC Tissue Directory",
           "Breast",
           "Prostate",
-          "CTU",
-          "Barts"
+          "CTU"
         ],
         "doiName": "not available"
       },
@@ -45468,12 +45558,12 @@
         },
         "contactPoint": "contact@cogconsortium.uk",
         "keywords": [
-          "viral sequence",
           "COG-UK",
-          "genomics",
-          "FASTA",
           "COVID-19",
-          "SARS-CoV-2"
+          "FASTA",
+          "SARS-CoV-2",
+          "genomics",
+          "viral sequence"
         ],
         "doiName": "10.1016/s2666-5247(20)30054-9"
       },
@@ -45674,12 +45764,12 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "Operations",
           "Episodes",
+          "Hospital",
           "Outpatients",
+          "Operations",
           "Emergency",
-          "Diagnosis",
-          "Hospital"
+          "Diagnosis"
         ],
         "doiName": null
       },
@@ -45787,12 +45877,12 @@
         },
         "contactPoint": "ctc.rathl@ucl.ac.uk",
         "keywords": [
-          "Hodgkin lymphoma",
-          "RATHL",
-          "FDG-PET",
           "UKCRC Tissue Directory",
-          "Malignant lymphoma (disorder)",
+          "RATHL",
           "Trial",
+          "Malignant lymphoma (disorder)",
+          "Hodgkin lymphoma",
+          "FDG-PET",
           "ABVD"
         ],
         "doiName": "not available"
@@ -45917,9 +46007,9 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "shielded",
-          "covid",
           "SAIL",
+          "covid",
+          "shielded",
           "coronavirus"
         ],
         "doiName": "in progress"
@@ -46218,11 +46308,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "End of life",
-          "Care",
+          "Case Note Review",
           "NACEL",
-          "Case Note Review"
+          "End of life",
+          "Audit",
+          "Care"
         ],
         "doiName": null
       },
@@ -46288,6 +46378,161 @@
       "observations": []
     },
     {
+      "identifier": "https://web.www.healthdatagateway.org/dataset/cb29d860-da77-45a0-80e4-913d445f5a50",
+      "@schema": {
+        "type": "Dataset",
+        "version": "2.0.0",
+        "url": "https://raw.githubusercontent.com/HDRUK/schemata/develop/schema/dataset/latest/dataset.schema.json"
+      },
+      "version": "14.0.0",
+      "revisions": [
+        {
+          "version": "13.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/fddcb382-3051-4394-8436-b92295f14259"
+        },
+        {
+          "version": "14.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/cb29d860-da77-45a0-80e4-913d445f5a50"
+        },
+        {
+          "version": "2.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/4e0008a5-c930-494a-bdcc-f88e30fc36d2"
+        },
+        {
+          "version": "6.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/9c5a8ae6-fbc2-43f6-b4ae-4dd2b2a617b5"
+        },
+        {
+          "version": "5.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/c1231f9b-b617-4ad8-80ad-f84d26f7964a"
+        },
+        {
+          "version": "3.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/2197a025-e722-4b21-9208-9e4c8e5d3b6a"
+        },
+        {
+          "version": "9.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/9dee28f9-44e7-4690-a091-c2e493d9d8ed"
+        },
+        {
+          "version": "12.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/c42ceb2a-c9c2-491d-9f34-3da55413225f"
+        },
+        {
+          "version": "11.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/e525b056-1bac-46ee-838c-6bef8a8815cb"
+        },
+        {
+          "version": "1.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/9b604483-9cdc-41b2-b82c-14ee3dd705f6"
+        },
+        {
+          "version": "10.0.0",
+          "url": "https://web.www.healthdatagateway.org/dataset/71e22289-32df-43dc-a20f-756f2c814c36"
+        }
+      ],
+      "issued": "2020-04-09T13:41:24Z",
+      "modified": "2020-10-26T15:35:44Z",
+      "summary": {
+        "title": "COVID-19 Symptom Tracker Dataset",
+        "abstract": "The COVID Symptom Tracker was designed by doctors and scientists at King's College London (KCL), Guys and St Thomas\u2019 Hospital working in partnership with ZOE Global. Led by Dr Tim Spector, professor of genetic epidemiology at KCL and director of TwinsUK.",
+        "publisher": {
+          "memberOf": "ALLIANCE",
+          "accessRights": "https://saildatabank.com/application-process/two-stage-process/",
+          "deliveryLeadTime": "2-6 MONTHS",
+          "name": "SAIL",
+          "contactPoint": "saildatabank@swansea.ac.uk"
+        },
+        "contactPoint": "saildatabank@swansea.ac.uk",
+        "keywords": [
+          "SYMPTOM",
+          "CORONAVIRUS",
+          "COVID",
+          "MOBILE APP",
+          "SAIL",
+          "TRACKER",
+          "COVID-19"
+        ],
+        "doiName": "in progress"
+      },
+      "documentation": {
+        "description": "The COVID Symptom Tracker (https://covid.joinzoe.com/) mobile application was designed by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.\n\nThis research is led by Dr Tim Spector, professor of genetic epidemiology at King\u2019s College London and director of TwinsUK a scientific study of 15,000 identical and non-identical twins, which has been running for nearly three decades.\n\nThe dataset schema includes:\n\nDemographic Information (Year of Birth, Gender, Height, Weight, Postcode)\nHealth Screening Questions (Activity, Heart Disease, Diabetes, Lung Disease, Smoking Status, Kidney Disease, Chemotherapy, Immunosuppressants, Corticosteroids, Blood Pressure Medications, Previous COVID, COVID Symptoms, Needs Help, Housebound Problems, Help Availability, Mobility Aid)\nCOVID Testing Conducted\nHow You Feel?\nSymptom Description\nLocation Information (Home, Hospital, Back From Hospital)\nTreatment Received\nThe data is hosted within the SAIL Databank, a trusted research environment facilitating remote access to health, social care, and administrative data for various national organisations.\n\nThe process for requesting access to the data is dependent on your use case. SAIL is currently expediting all requests that feed directly into the response to the COVID-19 national emergency, and therefore requests from NHS or Government institutions, or organisations working alongside such care providers and policymakers to feed intelligence directly back into the national response, are being expedited with a ~48-hour governance turnaround for such applications once made. Please make enquiries using the link at the bottom of the page which will go the SAIL Databank team, or to Chris Orton at c.orton@swansea.ac.uk\n\nSAIL is welcoming requests from other organisations and for longer-term academic study on the dataset, but please note if this is not directly relevant to the emergency research being carried out which directly interfaces with national responding agencies, there may be an access delay whilst priority use cases are serviced.",
+        "isPartOf": [
+          "NOT APPLICABLE"
+        ]
+      },
+      "coverage": {
+        "spatial": "Great Britain",
+        "typicalAgeRange": "15-150",
+        "physicalSampleAvailability": [
+          "NOT AVAILABLE"
+        ],
+        "followup": "UNKNOWN",
+        "pathway": null
+      },
+      "provenance": {
+        "origin": {
+          "purpose": [],
+          "source": [],
+          "collectionSituation": []
+        },
+        "temporal": {
+          "accrualPeriodicity": "DAILY",
+          "distributionReleaseDate": "2020-04-03T00:00:00Z",
+          "endDate": "2020-08-09",
+          "startDate": "2020-03-21"
+        }
+      },
+      "accessibility": {
+        "access": {
+          "accessRights": "https://saildatabank.com/application-process/two-stage-process/",
+          "accessService": null,
+          "deliveryLeadTime": "2-6 MONTHS",
+          "jurisdiction": [
+            "GB-GBN"
+          ],
+          "dataController": "Zoe Global Ltd (https://joinzoe.com/)",
+          "dataProcessor": "SAIL Databank"
+        },
+        "usage": {
+          "dataUseLimitation": [],
+          "dataUseRequirements": [],
+          "resourceCreator": "The COVID symptom tracker was created by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.",
+          "investigations": [
+            "accessibility_usage_investigations"
+          ],
+          "isReferencedBy": [
+            "D. A. Drew et al.",
+            "Science 10.1126/science.abc0473 (2020)"
+          ]
+        },
+        "formatAndStandards": {
+          "vocabularyEncodingScheme": [
+            "LOCAL"
+          ],
+          "conformsTo": [
+            "LOCAL"
+          ],
+          "language": [
+            "en"
+          ],
+          "format": [
+            "CSV Tables"
+          ]
+        }
+      },
+      "enrichmentAndLinkage": {
+        "qualifiedRelation": [
+          "Not Available"
+        ],
+        "derivation": [
+          "Not Available"
+        ],
+        "tools": []
+      },
+      "observations": []
+    },
+    {
       "identifier": "https://web.www.healthdatagateway.org/dataset/cbda5643-96b7-4914-b990-a872e693ff29",
       "@schema": {
         "type": "Dataset",
@@ -46319,12 +46564,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Early",
-          "Arthritis",
-          "NEIAA",
           "Organisational Survey",
-          "Inflammatory"
+          "Inflammatory",
+          "Audit",
+          "NEIAA",
+          "Early",
+          "Arthritis"
         ],
         "doiName": null
       },
@@ -46510,12 +46755,12 @@
         },
         "contactPoint": "enquiries@cprd.com\u00a0",
         "keywords": [
+          "Inpatient",
           "APC",
           "HES",
-          "Patient",
           "Care",
           "Admitted",
-          "Inpatient"
+          "Patient"
         ],
         "doiName": null
       },
@@ -46611,8 +46856,8 @@
         },
         "contactPoint": "enquiries@nhsdigital.nhs.uk",
         "keywords": [
-          "DIGITRIALS",
-          "IAPT"
+          "IAPT",
+          "DIGITRIALS"
         ],
         "doiName": null
       },
@@ -46717,15 +46962,15 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Therapist",
-          "Depression",
           "NCAAD",
-          "Therapies",
-          "Spotlight",
-          "Anxiety",
           "Psychological",
-          "Survey"
+          "Depression",
+          "Anxiety",
+          "Survey",
+          "Spotlight",
+          "Audit",
+          "Therapies",
+          "Therapist"
         ],
         "doiName": null
       },
@@ -46921,8 +47166,8 @@
         "contactPoint": "registry@cysticfibrosis.org.uk",
         "keywords": [
           "Culture samples",
-          "Microbiology samples",
-          "CYSTIC FIBROSIS"
+          "CYSTIC FIBROSIS",
+          "Microbiology samples"
         ],
         "doiName": "10.1093/ije/dyx196"
       },
@@ -47047,8 +47292,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "CANCER",
-          "SAIL"
+          "SAIL",
+          "CANCER"
         ],
         "doiName": "in progress"
       },
@@ -47167,16 +47412,16 @@
         "contactPoint": "richard.adams@wales.nhs.uk",
         "keywords": [
           "Cardiff",
-          "Leukaemia",
-          "Malignant tumour of oesophagus",
-          "Malignant tumour of breast",
-          "UKCRC Tissue Directory",
           "Cancer",
+          "UKCRC Tissue Directory",
+          "Malignant tumour of breast",
           "Malignant tumour of colon",
-          "Disease",
-          "Trials",
           "Malignant tumour of lung",
-          "Malignant tumour of pancreas"
+          "Malignant tumour of pancreas",
+          "Trials",
+          "Leukaemia",
+          "Disease",
+          "Malignant tumour of oesophagus"
         ],
         "doiName": "not available"
       },
@@ -47393,11 +47638,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
+          "SSNAP",
+          "Audit",
           "Stroke",
           "Clinical Dataset",
-          "Audit",
-          "Sentinel",
-          "SSNAP"
+          "Sentinel"
         ],
         "doiName": null
       },
@@ -47498,16 +47743,16 @@
         },
         "contactPoint": "jay.brown@mft.nhs.uk",
         "keywords": [
-          "MFT",
-          "Alzheimer's disease ",
-          "Cerebrovascular disease ",
+          "Atrial fibrillation and flutter",
+          "Complete trisomy 21 syndrome",
+          "Degenerative brain disorder",
           "Asthma ",
           "UKCRC Tissue Directory",
-          "Complete trisomy 21 syndrome",
           "Congenital brain anomaly",
-          "Degenerative brain disorder",
+          "MFT",
+          "Alzheimer's disease ",
           "Biobank",
-          "Atrial fibrillation and flutter"
+          "Cerebrovascular disease "
         ],
         "doiName": "not available"
       },
@@ -47609,13 +47854,13 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
-          "INDIAN",
-          "RURAL",
           "COPD",
+          "PULMONARY REHABILITATION",
+          "BREATHE",
           "RESPIRE",
+          "INDIAN",
           "TESTING",
-          "PULMONARY REHABILITATION"
+          "RURAL"
         ],
         "doiName": null
       },
@@ -47811,9 +48056,9 @@
         "contactPoint": "mecfsbiobank@lshtm.ac.uk",
         "keywords": [
           "",
+          "ME/CFS",
           "Chronic fatigue syndrome",
           "UKCRC Tissue Directory",
-          "ME/CFS",
           "UK",
           "Biobank"
         ],
@@ -47918,9 +48163,9 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
+          "Policy",
           "BREATHE",
           "RESPIRE",
-          "Policy",
           "Pneumonia"
         ],
         "doiName": "in progress"
@@ -48034,10 +48279,10 @@
         },
         "contactPoint": "pioneer@contacts.bham.ac.uk",
         "keywords": [
-          "electronic health record",
-          "BORD",
           "Birmingham",
+          "BORD",
           "Out of Hours",
+          "electronic health record",
           "EHR"
         ],
         "doiName": null
@@ -48223,15 +48468,15 @@
         },
         "contactPoint": "grampian.biorepository@nhs.net",
         "keywords": [
-          "Malignant tumour of oesophagus",
-          "Malignant neoplasm of liver",
-          "Malignant tumour of breast",
           "UKCRC Tissue Directory",
+          "NHS Grampian",
+          "Malignant tumour of ovary",
+          "Malignant tumour of breast",
           "Malignant tumour of colon",
           "Malignant tumour of lung",
-          "Malignant tumour of ovary",
-          "NHS Grampian",
-          "Biorepository"
+          "Biorepository",
+          "Malignant neoplasm of liver",
+          "Malignant tumour of oesophagus"
         ],
         "doiName": "not available"
       },
@@ -48555,14 +48800,14 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "NVR",
-          "Vascular",
           "Aortic",
-          "Registry",
+          "Vascular",
+          "Repair",
           "Aneurysm",
-          "Abdominal",
           "Clinical",
-          "Repair"
+          "Abdominal",
+          "Registry",
+          "NVR"
         ],
         "doiName": null
       },
@@ -48752,15 +48997,15 @@
         },
         "contactPoint": "laura.moss@wales.nhs.uk",
         "keywords": [
-          "interNational",
-          "Bank",
           "Cancer",
-          "UKCRC Tissue Directory",
           "Thyroid",
-          "iNATT",
+          "UKCRC Tissue Directory",
           "Tissue",
+          "Bank",
+          "iNATT",
           "Anaplastic",
-          "Malignant tumour of thyroid gland (disorder)"
+          "Malignant tumour of thyroid gland (disorder)",
+          "interNational"
         ],
         "doiName": "not available"
       },
@@ -48876,12 +49121,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "NVR",
           "Vascular",
-          "Registry",
           "Endarterectomy",
+          "Registry",
           "Clinical",
-          "Carotid"
+          "Carotid",
+          "NVR"
         ],
         "doiName": null
       },
@@ -49084,12 +49329,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Bowel",
           "Cancer",
+          "Organisational Survey",
           "NBOCA",
+          "Audit",
           "Colon",
-          "Organisational Survey"
+          "Bowel"
         ],
         "doiName": null
       },
@@ -49290,17 +49535,17 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "asthma control",
-          "pictorial asthma action plan",
-          "BREATHE",
           "feasibility study",
           "Klang",
+          "asthma control",
+          "asthma",
+          "pictorial asthma action plan",
           "Malaysia",
-          "heal",
-          "practice",
+          "BREATHE",
           "RESPIRE",
+          "heal",
           "patients",
-          "asthma"
+          "practice"
         ],
         "doiName": null
       },
@@ -49492,9 +49737,9 @@
         },
         "contactPoint": "gecip-help@genomicsengland.co.uk",
         "keywords": [
-          "data",
+          "genome",
           "Public Health England",
-          "genome"
+          "data"
         ],
         "doiName": "not available"
       },
@@ -49617,10 +49862,10 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
+          "Paediatric",
           "Brecon",
           "Diabetes",
           "SAIL",
-          "Paediatric",
           "Children"
         ],
         "doiName": "in progress"
@@ -49739,12 +49984,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Oesophago-Gastric",
-          "NOGCA",
-          "Clinical",
           "Cancer",
-          "Dataset"
+          "Dataset",
+          "NOGCA",
+          "Audit",
+          "Clinical",
+          "Oesophago-Gastric"
         ],
         "doiName": null
       },
@@ -49845,8 +50090,8 @@
         },
         "contactPoint": "njrresearch@hqip.org.uk",
         "keywords": [
-          "Replacement",
           "Ankle",
+          "Replacement",
           "Joint",
           "NJR"
         ],
@@ -50062,11 +50307,11 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
-          "BREATHE",
           "Cohorts",
-          "Asthma",
+          "BREATHE",
+          "UNICORN",
           "Allergy",
-          "UNICORN"
+          "Asthma"
         ],
         "doiName": null
       },
@@ -50280,9 +50525,9 @@
         },
         "contactPoint": "david.steel@ncl.ac.uk",
         "keywords": [
+          "UKCRC Tissue Directory",
           "Degenerations",
           "Retinal",
-          "UKCRC Tissue Directory",
           "Dystrophies",
           "Biobank"
         ],
@@ -50513,17 +50758,17 @@
         },
         "contactPoint": "gcplab@liverpool.ac.uk",
         "keywords": [
-          "Malignant lymphoma ",
-          "GCP",
-          "Malignant urinary bladder tumour",
-          "Facility",
           "Malignant oral cavity tumour",
-          "UKCRC Tissue Directory",
-          "Laboratory",
+          "Malignant breast tumour",
           "University of Liverpool",
+          "UKCRC Tissue Directory",
+          "GCP",
           "Malignant eye melanoma",
-          "Carcinoma in situ of breast",
-          "Malignant breast tumour"
+          "Laboratory",
+          "Malignant lymphoma ",
+          "Facility",
+          "Malignant urinary bladder tumour",
+          "Carcinoma in situ of breast"
         ],
         "doiName": "not available"
       },
@@ -50846,10 +51091,10 @@
         "contactPoint": "administration@researchdonors.co.uk",
         "keywords": [
           "Blood",
-          "Research Donors Ltd",
+          "Collection",
           "UKCRC Tissue Directory",
-          "Fit and well",
-          "Collection"
+          "Research Donors Ltd",
+          "Fit and well"
         ],
         "doiName": "not available"
       },
@@ -51049,8 +51294,8 @@
         },
         "contactPoint": "Tommysnationalreproductivehealthbiobank@uhcw.nhs.uk",
         "keywords": [
-          "Fit and well",
           "",
+          "Fit and well",
           "UKCRC Tissue Directory",
           "Tommy's National Reproductive Health Biobank"
         ],
@@ -51151,10 +51396,10 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
+          "Students",
           "Higher Education",
           "SAIL",
-          "Graduates",
-          "Students"
+          "Graduates"
         ],
         "doiName": "in progress"
       },
@@ -51264,8 +51509,8 @@
         },
         "contactPoint": "gecip-help@genomicsengland.co.uk",
         "keywords": [
-          "CANCER",
           "genome",
+          "CANCER",
           "data",
           "rare disease",
           "DNA"
@@ -51376,12 +51621,12 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
           "Pune",
           "India",
           "Integrated Management of Childhood Illness",
-          "RESPIRE",
           "primary health",
+          "BREATHE",
+          "RESPIRE",
           "pulse oximetry"
         ],
         "doiName": null
@@ -51586,11 +51831,11 @@
         },
         "contactPoint": "breathe.saildatabank@swansea.ac.uk",
         "keywords": [
-          "BREATHE",
-          "Idiopathic pulmonary fibrosis",
-          "INJUSTIS",
+          "COHORT",
           "LUNG DISEASE",
-          "COHORT"
+          "BREATHE",
+          "INJUSTIS",
+          "Idiopathic pulmonary fibrosis"
         ],
         "doiName": "n/a"
       },
@@ -51706,10 +51951,10 @@
         },
         "contactPoint": "accessQTL@ed.ac.uk",
         "keywords": [
+          "UKCRC Tissue Directory",
+          "MRC HGU",
           "Quantitative Trait Locus",
           "QTL Programme",
-          "MRC HGU",
-          "UKCRC Tissue Directory",
           "Fit and well"
         ],
         "doiName": "not available"
@@ -51830,8 +52075,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "National Survey",
-          "SAIL"
+          "SAIL",
+          "National Survey"
         ],
         "doiName": "in progress"
       },
@@ -51950,17 +52195,17 @@
         },
         "contactPoint": "sharzad.moghadam@christie.nhs.uk",
         "keywords": [
-          "MCRC",
-          "Malignant tumour of breast",
+          "Cancer",
           "Manchester",
           "UKCRC Tissue Directory",
-          "Cancer",
-          "Malignant neoplasm of skin",
           "Research Centre",
+          "Malignant tumour of breast",
           "Malignant neoplasm of brain",
-          "Malignant tumour of thyroid gland (disorder)",
           "Malignant tumour of lung",
-          "Biobank"
+          "Biobank",
+          "Malignant tumour of thyroid gland (disorder)",
+          "MCRC",
+          "Malignant neoplasm of skin"
         ],
         "doiName": "not available"
       },
@@ -52092,8 +52337,8 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
-          "SAIL",
           "Emergency",
+          "SAIL",
           "A&E"
         ],
         "doiName": "in progress"
@@ -52329,13 +52574,13 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "National",
-          "Cardiac",
           "Heart",
-          "NCAP",
+          "Hospital",
+          "National",
+          "Audit",
           "Failure",
-          "Hospital"
+          "NCAP",
+          "Cardiac"
         ],
         "doiName": null
       },
@@ -52526,11 +52771,11 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
           "Hajj",
+          "asthma",
           "Malaysia",
-          "RESPIRE",
-          "asthma"
+          "BREATHE",
+          "RESPIRE"
         ],
         "doiName": null
       },
@@ -52739,8 +52984,8 @@
         },
         "contactPoint": "nbr@bioresource.nihr.ac.uk",
         "keywords": [
-          "Imputation",
-          "SNP"
+          "SNP",
+          "Imputation"
         ],
         "doiName": null
       },
@@ -52839,12 +53084,12 @@
         },
         "contactPoint": "Paul.Bishop@manchester.ac.uk",
         "keywords": [
-          "Degenerative disorder of macula (disorder)",
           "Manchester",
-          "Repository",
+          "Eye",
           "UKCRC Tissue Directory",
           "Tissue",
-          "Eye"
+          "Degenerative disorder of macula (disorder)",
+          "Repository"
         ],
         "doiName": "not available"
       },
@@ -53278,14 +53523,14 @@
         "contactPoint": "rwlm2@le.ac.uk",
         "keywords": [
           "Cardiovascular",
-          "Renal",
-          "GP",
-          "Kidney",
-          "Chronic",
-          "Outcomes",
           "Primary",
+          "GP",
+          "LCC",
+          "Chronic",
           "Mortality",
-          "LCC"
+          "Renal",
+          "Kidney",
+          "Outcomes"
         ],
         "doiName": null
       },
@@ -53386,12 +53631,12 @@
         },
         "contactPoint": "bristol-biobank@bristol.ac.uk",
         "keywords": [
-          "Bristol",
-          "Chronic multifocal osteomyelitis (disorder)",
           "UKCRC Tissue Directory",
-          "Tonsillitis",
+          "Bristol",
+          "Biobank",
           "Fit and well",
-          "Biobank"
+          "Chronic multifocal osteomyelitis (disorder)",
+          "Tonsillitis"
         ],
         "doiName": "not available"
       },
@@ -53512,9 +53757,9 @@
         "contactPoint": "njrresearch@hqip.org.uk",
         "keywords": [
           "Replacement",
-          "Knee",
           "Joint",
-          "NJR"
+          "NJR",
+          "Knee"
         ],
         "doiName": "10.1302/2058-5241.4.180084"
       },
@@ -53625,16 +53870,16 @@
         },
         "contactPoint": "rtb@leeds.ac.uk",
         "keywords": [
-          "Recipient of transplantation (finding)",
+          "UKCRC Tissue Directory",
+          "RTB",
           "Leeds",
           "Biomarker Research",
-          "Malignant tumour of kidney (disorder)",
-          "RTB",
-          "UKCRC Tissue Directory",
           "NIHR",
-          "Fit and well",
           "Tissue Bank",
-          "Cirrhosis of liver (disorder)"
+          "Recipient of transplantation (finding)",
+          "Malignant tumour of kidney (disorder)",
+          "Cirrhosis of liver (disorder)",
+          "Fit and well"
         ],
         "doiName": "not available"
       },
@@ -53749,13 +53994,13 @@
         },
         "contactPoint": "martin.taylor@ndorms.ox.ac.uk",
         "keywords": [
-          "Giant cell arteritis (disorder)",
-          "Oxford",
           "Osteoarthritis",
           "UKCRC Tissue Directory",
-          "OMB",
           "Musculoskeletal",
-          "Biobank"
+          "Oxford",
+          "Biobank",
+          "Giant cell arteritis (disorder)",
+          "OMB"
         ],
         "doiName": "not available"
       },
@@ -53867,16 +54112,16 @@
         },
         "contactPoint": "biobanking@exeter.ac.uk",
         "keywords": [
-          "Exeter",
-          "RDETB",
-          "PRB",
-          "Clinical",
           "UKCRC Tissue Directory",
-          "Diabetes mellitus type 1",
-          "Maturity-onset diabetes of the young (disorder)",
+          "Diabetes mellitus type 2",
+          "PRB",
           "NIHR",
+          "Maturity-onset diabetes of the young (disorder)",
+          "Clinical",
+          "Exeter",
           "Fit and well",
-          "Diabetes mellitus type 2"
+          "RDETB",
+          "Diabetes mellitus type 1"
         ],
         "doiName": "not available"
       },
@@ -53996,12 +54241,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
+          "Inpatient",
           "Harms",
-          "Clinical",
-          "NaDIA",
           "Diabetes",
-          "Inpatient"
+          "Audit",
+          "Clinical",
+          "NaDIA"
         ],
         "doiName": null
       },
@@ -54212,12 +54457,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
+          "Maternity",
+          "Hospital",
           "Audit",
           "Perinatal",
           "Clinical",
-          "NMPA",
-          "Maternity",
-          "Hospital"
+          "NMPA"
         ],
         "doiName": null
       },
@@ -54318,15 +54563,15 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "MNI-CORP",
-          "Perinatal",
-          "Clinical",
-          "Surveillance",
-          "Programme",
-          "Outcome",
-          "Newborn",
-          "Infant",
           "Maternal",
+          "Surveillance",
+          "Newborn",
+          "MNI-CORP",
+          "Infant",
+          "Perinatal",
+          "Outcome",
+          "Clinical",
+          "Programme",
           "Review"
         ],
         "doiName": null
@@ -54415,17 +54660,17 @@
         },
         "contactPoint": "ndau@imperial.ac.uk",
         "keywords": [
-          "daily records",
-          "National Neonatal Research Database",
-          "quality improvement",
-          "Neonatal Data Set",
-          "patient care and outcomes",
-          "neonatal inpatient stay",
-          "health services",
-          "epidemiological",
           "policy research",
+          "health services",
+          "neonatal inpatient stay",
           "clinical",
-          "follow-up health status"
+          "National Neonatal Research Database",
+          "patient care and outcomes",
+          "follow-up health status",
+          "epidemiological",
+          "daily records",
+          "Neonatal Data Set",
+          "quality improvement"
         ],
         "doiName": "in progress"
       },
@@ -54635,9 +54880,9 @@
         },
         "contactPoint": "d.gveric@imperial.ac.uk",
         "keywords": [
-          "Bank",
           "UKCRC Tissue Directory",
           "Tissue",
+          "Bank",
           "Multiple Sclerosis",
           "Parkinson's"
         ],
@@ -54751,11 +54996,11 @@
         },
         "contactPoint": "ci.bbfhad-admin@ucl.ac.uk",
         "keywords": [
-          "UCLH",
+          "UKCRC Tissue Directory",
           "Malignant tumour of breast",
           "UCL",
-          "UKCRC Tissue Directory",
-          "Biobank"
+          "Biobank",
+          "UCLH"
         ],
         "doiName": "not available"
       },
@@ -54868,13 +55113,13 @@
         "contactPoint": "johanna.young@gstt.nhs.uk",
         "keywords": [
           "serum",
-          "Plasma",
-          "St Thomas' Hospitals",
-          "Antiphospholipid syndrome (disorder)",
           "UKCRC Tissue Directory",
           "APS",
-          "Biobank",
-          "DNA"
+          "St Thomas' Hospitals",
+          "Plasma",
+          "DNA",
+          "Antiphospholipid syndrome (disorder)",
+          "Biobank"
         ],
         "doiName": "not available"
       },
@@ -54986,11 +55231,11 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
-          "Adult",
-          "Cardiac",
           "Surgery",
-          "NCAP"
+          "Audit",
+          "NCAP",
+          "Adult",
+          "Cardiac"
         ],
         "doiName": null
       },
@@ -55294,9 +55539,9 @@
         "keywords": [
           "Early Life Data",
           "UKCRC Tissue Directory",
+          "Cross-Linkage",
           "eLIXIR",
-          "Fit and well",
-          "Cross-Linkage"
+          "Fit and well"
         ],
         "doiName": "not available"
       },
@@ -55360,161 +55605,6 @@
           ],
           "format": [
             "In Progress"
-          ]
-        }
-      },
-      "enrichmentAndLinkage": {
-        "qualifiedRelation": [
-          "Not Available"
-        ],
-        "derivation": [
-          "Not Available"
-        ],
-        "tools": []
-      },
-      "observations": []
-    },
-    {
-      "identifier": "https://web.www.healthdatagateway.org/dataset/fddcb382-3051-4394-8436-b92295f14259",
-      "@schema": {
-        "type": "Dataset",
-        "version": "2.0.0",
-        "url": "https://raw.githubusercontent.com/HDRUK/schemata/develop/schema/dataset/latest/dataset.schema.json"
-      },
-      "version": "13.0.0",
-      "revisions": [
-        {
-          "version": "2.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/4e0008a5-c930-494a-bdcc-f88e30fc36d2"
-        },
-        {
-          "version": "13.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/fddcb382-3051-4394-8436-b92295f14259"
-        },
-        {
-          "version": "6.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/9c5a8ae6-fbc2-43f6-b4ae-4dd2b2a617b5"
-        },
-        {
-          "version": "5.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/c1231f9b-b617-4ad8-80ad-f84d26f7964a"
-        },
-        {
-          "version": "3.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/2197a025-e722-4b21-9208-9e4c8e5d3b6a"
-        },
-        {
-          "version": "9.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/9dee28f9-44e7-4690-a091-c2e493d9d8ed"
-        },
-        {
-          "version": "12.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/c42ceb2a-c9c2-491d-9f34-3da55413225f"
-        },
-        {
-          "version": "11.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/e525b056-1bac-46ee-838c-6bef8a8815cb"
-        },
-        {
-          "version": "1.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/9b604483-9cdc-41b2-b82c-14ee3dd705f6"
-        },
-        {
-          "version": "10.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/71e22289-32df-43dc-a20f-756f2c814c36"
-        },
-        {
-          "version": "8.0.0",
-          "url": "https://web.www.healthdatagateway.org/dataset/5dc5998d-efa4-490a-9a46-feb6eb27dabe"
-        }
-      ],
-      "issued": "2020-04-09T13:41:24Z",
-      "modified": "2020-10-15T14:31:48Z",
-      "summary": {
-        "title": "COVID-19 Symptom Tracker Dataset",
-        "abstract": "The COVID Symptom Tracker was designed by doctors and scientists at King's College London (KCL), Guys and St Thomas\u2019 Hospital working in partnership with ZOE Global. Led by Dr Tim Spector, professor of genetic epidemiology at KCL and director of TwinsUK.",
-        "publisher": {
-          "memberOf": "ALLIANCE",
-          "accessRights": "https://saildatabank.com/application-process/two-stage-process/",
-          "deliveryLeadTime": "2-6 MONTHS",
-          "name": "SAIL",
-          "contactPoint": "saildatabank@swansea.ac.uk"
-        },
-        "contactPoint": "saildatabank@swansea.ac.uk",
-        "keywords": [
-          "COVID",
-          "MOBILE APP",
-          "SYMPTOM",
-          "CORONAVIRUS",
-          "SAIL",
-          "COVID-19",
-          "TRACKER"
-        ],
-        "doiName": "in progress"
-      },
-      "documentation": {
-        "description": "The COVID Symptom Tracker (https://covid.joinzoe.com/) mobile application was designed by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.\n\nThis research is led by Dr Tim Spector, professor of genetic epidemiology at King\u2019s College London and director of TwinsUK a scientific study of 15,000 identical and non-identical twins, which has been running for nearly three decades.\n\nThe dataset schema includes:\n\nDemographic Information (Year of Birth, Gender, Height, Weight, Postcode)\nHealth Screening Questions (Activity, Heart Disease, Diabetes, Lung Disease, Smoking Status, Kidney Disease, Chemotherapy, Immunosuppressants, Corticosteroids, Blood Pressure Medications, Previous COVID, COVID Symptoms, Needs Help, Housebound Problems, Help Availability, Mobility Aid)\nCOVID Testing Conducted\nHow You Feel?\nSymptom Description\nLocation Information (Home, Hospital, Back From Hospital)\nTreatment Received\nThe data is hosted within the SAIL Databank, a trusted research environment facilitating remote access to health, social care, and administrative data for various national organisations.\n\nThe process for requesting access to the data is dependent on your use case. SAIL is currently expediting all requests that feed directly into the response to the COVID-19 national emergency, and therefore requests from NHS or Government institutions, or organisations working alongside such care providers and policymakers to feed intelligence directly back into the national response, are being expedited with a ~48-hour governance turnaround for such applications once made. Please make enquiries using the link at the bottom of the page which will go the SAIL Databank team, or to Chris Orton at c.orton@swansea.ac.uk\n\nSAIL is welcoming requests from other organisations and for longer-term academic study on the dataset, but please note if this is not directly relevant to the emergency research being carried out which directly interfaces with national responding agencies, there may be an access delay whilst priority use cases are serviced.",
-        "isPartOf": [
-          "NOT APPLICABLE"
-        ]
-      },
-      "coverage": {
-        "spatial": "Great Britain",
-        "typicalAgeRange": "15-150",
-        "physicalSampleAvailability": [
-          "NOT AVAILABLE"
-        ],
-        "followup": "UNKNOWN",
-        "pathway": null
-      },
-      "provenance": {
-        "origin": {
-          "purpose": [],
-          "source": [],
-          "collectionSituation": []
-        },
-        "temporal": {
-          "accrualPeriodicity": "DAILY",
-          "distributionReleaseDate": "2020-04-03T00:00:00Z",
-          "endDate": "2020-08-09",
-          "startDate": "2020-03-21"
-        }
-      },
-      "accessibility": {
-        "access": {
-          "accessRights": "https://saildatabank.com/application-process/two-stage-process/",
-          "accessService": null,
-          "deliveryLeadTime": "2-6 MONTHS",
-          "jurisdiction": [
-            "GB-GBN"
-          ],
-          "dataController": "Zoe Global Ltd (https://joinzoe.com/)",
-          "dataProcessor": "SAIL Databank"
-        },
-        "usage": {
-          "dataUseLimitation": [],
-          "dataUseRequirements": [],
-          "resourceCreator": "The COVID symptom tracker was created by doctors and scientists at King's College London, Guys and St Thomas\u2019 Hospitals working in partnership with ZOE Global Ltd \u2013 a health science company.",
-          "investigations": [
-            "accessibility_usage_investigations"
-          ],
-          "isReferencedBy": [
-            "D. A. Drew et al.",
-            "Science 10.1126/science.abc0473 (2020)"
-          ]
-        },
-        "formatAndStandards": {
-          "vocabularyEncodingScheme": [
-            "LOCAL"
-          ],
-          "conformsTo": [
-            "LOCAL"
-          ],
-          "language": [
-            "en"
-          ],
-          "format": [
-            "CSV Tables"
           ]
         }
       },
@@ -55791,12 +55881,12 @@
         },
         "contactPoint": "DataSharing@hqip.org.uk",
         "keywords": [
-          "Audit",
+          "Paediatric",
           "Experience",
-          "NPDA",
-          "PREM",
           "Diabetes",
-          "Paediatric"
+          "Audit",
+          "NPDA",
+          "PREM"
         ],
         "doiName": null
       },
@@ -55884,10 +55974,10 @@
         },
         "contactPoint": "SAILDatabank@swansea.ac.uk",
         "keywords": [
+          "Prescriptions",
           "SAIL",
-          "Prescribing",
           "Dispensing",
-          "Prescriptions"
+          "Prescribing"
         ],
         "doiName": "in progress"
       },
@@ -56194,15 +56284,15 @@
         },
         "contactPoint": "RESPIRE@ed.ac.uk",
         "keywords": [
-          "BREATHE",
           "teleconsultation",
-          "COPD",
-          "rural",
-          "micro-health-centre",
-          "RESPIRE",
           "remote",
+          "COPD",
+          "resource constrained",
           "asthma",
-          "resource constrained"
+          "rural",
+          "BREATHE",
+          "RESPIRE",
+          "micro-health-centre"
         ],
         "doiName": null
       },
