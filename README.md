@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (513)
+## HDR UK Datasets (514)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -294,7 +294,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
 
-### NHS DIGITAL (40)
+### NHS DIGITAL (41)
+- [Pillar 1 - England (Second Generation Surveillance Systems)](https://web.www.healthdatagateway.org/dataset/0756c167-e778-486f-9b96-94bd12af89cf)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Mental Health Minimum Dataset v4 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/0e6e6ed5-ab81-4d7f-b06a-768bf33357ca)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/0fc61ace-397d-4489-9e62-77f88082e775)
@@ -457,13 +458,13 @@ This repo automatically collects the datasets published on the Gateway including
 - [Postponed Admitted Procedures](https://web.www.healthdatagateway.org/dataset/947ab204-b052-4cac-897b-d771f8dcfd1f)
 - [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/c0da6801-6907-4c06-8fba-d21943c3a931)
 - [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/c84321f3-caf3-4b40-a41a-5ccebe5bb1aa)
+- [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/cb29d860-da77-45a0-80e4-913d445f5a50)
 - [Welsh Cancer Intelligence and Surveillance Unit (WCISU)](https://web.www.healthdatagateway.org/dataset/d2667c43-adfd-4a61-b090-38d39e35a392)
 - [Brecon dataset](https://web.www.healthdatagateway.org/dataset/e0ed59e2-8fb5-44d4-b694-f31d46884954)
 - [Higher Education Statistics Agency (HESA) Student Data](https://web.www.healthdatagateway.org/dataset/ec8e4933-2118-4366-a61a-090748e49be7)
 - [National Survey for Wales](https://web.www.healthdatagateway.org/dataset/ee78ce42-7f1f-4c97-80cc-ea6ad628e5da)
 - [Emergency Department Dataset Daily](https://web.www.healthdatagateway.org/dataset/eebb647a-63eb-4e62-b052-26cb2eb4799d)
 - [COVID-19 Consolidated Deaths](https://web.www.healthdatagateway.org/dataset/efc2bb06-d502-4424-ac92-72834459fbaa)
-- [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/fddcb382-3051-4394-8436-b92295f14259)
 - [National Exercise Referral Scheme](https://web.www.healthdatagateway.org/dataset/fe3c7527-e802-4a51-9aa2-19e7d4d22783)
 - [Welsh Dispensing Dataset](https://web.www.healthdatagateway.org/dataset/fea0b4be-4097-4c2e-86f2-03dc1ee2877b)
 
