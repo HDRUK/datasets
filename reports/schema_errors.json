@@ -778,61 +778,6 @@
     ]
   },
   {
-    "id": "059a221b-8452-426a-8bd3-4dcdc880469f",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Civil Registration - Deaths",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 months. Please note we will only pause the elapsed time when we require further detail or approvals from an external provider are required.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD 9th & 10th Revisions, Organisation Codes, Establishment Codes, NHS Data Dictionary' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD 9th & 10th Revisions, Organisation Codes, Establishment Codes, NHS Data Dictionary' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Deaths (Parent)\\n              HES-ONS/Civil Reg Deaths Secondary Care Cut (Child)\\n              SHMI (Grandchild)\\n              Primary Care Mortality Data (Child)' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Deaths (Parent)\\n              HES-ONS/Civil Reg Deaths Secondary Care Cut (Child)\\n              SHMI (Grandchild)\\n              Primary Care Mortality Data (Child)' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Dataset linkable to other person level datasets' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Dataset linkable to other person level datasets' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Weekly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "05ade19c-75f5-4623-ade6-99fb21c2d4e3",
     "publisher": "ALLIANCE > LEICESTER",
     "title": "The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease",
@@ -16089,54 +16034,6 @@
     ]
   },
   {
-    "id": "8a5816c8-5dc1-4300-873b-8fb3d27627b1",
-    "publisher": "ALLIANCE > HBS",
-    "title": "Admissions & Discharges",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Northern Ireland' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'AVAILABILITY TO BE CONFIRMED' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "8a9404f0-5209-4438-8261-b3a0d2d563f5",
     "publisher": "ALLIANCE > SAIL",
     "title": "Annual District Death Extract",
@@ -25134,6 +25031,65 @@
     ]
   },
   {
+    "id": "d796a1b6-8769-433c-a2cf-6a7b161db1fb",
+    "publisher": "HUB > NHS DIGITRIALS",
+    "title": "Civil Registration - Deaths",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10,ICD9,OTHER' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10,ICD9,OTHER' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Deaths (Parent)            ,HES-ONS/Civil Reg Deaths Secondary Care Cut (Child),SHMI (Grandchild),Primary Care Mortality Data (Child)' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Deaths (Parent)            ,HES-ONS/Civil Reg Deaths Secondary Care Cut (Child),SHMI (Grandchild),Primary Care Mortality Data (Child)' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Dataset linkable to other person level datasets via master data service,Linked data minimum example: NHS NUMBER + (DOB, GENDER, NAMES, POSTCODE, ADDRESS),Linked data minimum example 2: DOB + NAMES + (GENDER, POSTCODE, ADDRESS),MPS link https://digital.nhs.uk/services/master-person-service#:~:text=The%20Master%20Person%20Service%20(MPS)%20helps%20us%20increase%20the%20amount,various%20systems%20around%20the%20country.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Dataset linkable to other person level datasets via master data service,Linked data minimum example: NHS NUMBER + (DOB, GENDER, NAMES, POSTCODE, ADDRESS),Linked data minimum example 2: DOB + NAMES + (GENDER, POSTCODE, ADDRESS),MPS link https://digital.nhs.uk/services/master-person-service#:~:text=The%20Master%20Person%20Service%20(MPS)%20helps%20us%20increase%20the%20amount,various%20systems%20around%20the%20country.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'CONTINUOUS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "d7ec9584-cba3-46f9-9ef4-b1cb9eef2e7c",
     "publisher": "ALLIANCE > NIHR BIORESOURCE",
     "title": "Health and Lifestyle Questionnaire",
@@ -28430,6 +28386,64 @@
       {
         "attribute": "title",
         "message": "title: \"St Thomas' Hospitals Plasma, serum & DNA Bio bank from patients with antiphospholipid antibodies\" is too long"
+      }
+    ]
+  },
+  {
+    "id": "fac038e1-bd42-4df8-b68f-a827095b3784",
+    "publisher": "ALLIANCE > HBS",
+    "title": "Admissions & Discharges",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not known' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not known' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Northern Ireland' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This dataset can be linked with the NI Enhanced Prescribing database' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This dataset can be linked with the NI Enhanced Prescribing database' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'AVAILABILITY TO BE CONFIRMED' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },

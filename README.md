@@ -190,7 +190,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### HBS (2)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/59ad4112-1405-4414-961f-27325ab4c8e8)
-- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/8a5816c8-5dc1-4300-873b-8fb3d27627b1)
+- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/fac038e1-bd42-4df8-b68f-a827095b3784)
 
 ### HDR UK (1)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/9e798632-442a-427b-8d0e-456f754d28dc)
@@ -281,6 +281,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Estimating Chronic Respiratory Disease burden in adults in Asian LMICs](https://web.www.healthdatagateway.org/dataset/0150353c-d33d-4af0-b177-8ef0adf867f4)
 - [Developing and evaluating interventions to improve asthma care: HEAL ASTHMA](https://web.www.healthdatagateway.org/dataset/f73627e3-bd7c-4be2-81b4-3baf846ab787)
 
+### HUB > NHS DIGITRIALS (1)
+- [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/d796a1b6-8769-433c-a2cf-6a7b161db1fb)
+
 ### IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/f89af2f4-e3cd-4eaa-835d-94aa347d8a92)
 
@@ -339,9 +342,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/db113fcd-69a0-4357-9c6d-250085deb3f5)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/ff2c6982-00f3-4483-9fc2-19b3a7211d8d)
 
-### NHS DIGITRIALS (9)
+### NHS DIGITRIALS (8)
 - [Hospital Episode Statistics Admitted Patient Care](https://web.www.healthdatagateway.org/dataset/02961e24-4cb3-4cd3-90bd-4248a00391ce)
-- [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/059a221b-8452-426a-8bd3-4dcdc880469f)
 - [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/19f21b8f-6ae0-4cbd-a175-596b8476f69a)
 - [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/63aa23c0-80cf-48b1-89f2-909d5d5f70d8)
 - [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/6a6b33a3-afd6-4f22-ba41-a87beccc3eb1)
