@@ -10378,6 +10378,64 @@
     ]
   },
   {
+    "id": "59ad4112-1405-4414-961f-27325ab4c8e8",
+    "publisher": "ALLIANCE > HBS",
+    "title": "Enhanced Prescribing Database",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not known' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not known' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Northern Ireland' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This dataset can be linked to the NI Admissions and Discharges' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This dataset can be linked to the NI Admissions and Discharges' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "59bc96f9-69b7-4763-81a8-ec4695b6b55e",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Clinical Audit of Anxiety and Depression - spotlight audit on psychological therapies (therapist survey)",
@@ -27886,6 +27944,60 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "id": "f73627e3-bd7c-4be2-81b4-3baf846ab787",
+    "publisher": "HUB > BREATHE",
+    "title": "Developing and evaluating interventions to improve asthma care: HEAL ASTHMA",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Access is managed on a project-by-project basis. Contact the RESPIRE team: https://www.ed.ac.uk/usher/respire/about/projects' is not of type 'array'"
+      },
+      {
+        "attribute": "ageBand",
+        "message": "ageBand: '>18' does not match '\\\\d{1,3}-\\\\d{1,3}'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Malaysia' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Klang Asthma Cohort: Developing and evaluating interventions at patient and practice level to improve asthma care (University of Malaya,Malaysia)' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Klang Asthma Cohort: Developing and evaluating interventions at patient and practice level to improve asthma care (University of Malaya,Malaysia)' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },

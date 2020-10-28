@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (514)
+## HDR UK Datasets (516)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -188,7 +188,8 @@ This repo automatically collects the datasets published on the Gateway including
 ### GUT REACTION (1)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/97ddd990-f47a-40f5-9178-cbf742e4c613)
 
-### HBS (1)
+### HBS (2)
+- [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/59ad4112-1405-4414-961f-27325ab4c8e8)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/8a5816c8-5dc1-4300-873b-8fb3d27627b1)
 
 ### HDR UK (1)
@@ -276,8 +277,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Joint Registry - Primary Shoulder Replacement dataset](https://web.www.healthdatagateway.org/dataset/fe4662ad-9080-4bd8-8de4-51195d275d5b)
 - [National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures](https://web.www.healthdatagateway.org/dataset/fe872375-2401-4de1-9650-d4139cf5793a)
 
-### HUB > BREATHE (1)
+### HUB > BREATHE (2)
 - [Estimating Chronic Respiratory Disease burden in adults in Asian LMICs](https://web.www.healthdatagateway.org/dataset/0150353c-d33d-4af0-b177-8ef0adf867f4)
+- [Developing and evaluating interventions to improve asthma care: HEAL ASTHMA](https://web.www.healthdatagateway.org/dataset/f73627e3-bd7c-4be2-81b4-3baf846ab787)
 
 ### IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/f89af2f4-e3cd-4eaa-835d-94aa347d8a92)
