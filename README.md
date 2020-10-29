@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (516)
+## HDR UK Datasets (521)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -188,8 +188,9 @@ This repo automatically collects the datasets published on the Gateway including
 ### GUT REACTION (1)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/97ddd990-f47a-40f5-9178-cbf742e4c613)
 
-### HBS (2)
+### HBS (3)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/59ad4112-1405-4414-961f-27325ab4c8e8)
+- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/af5caf3f-a8f7-4365-af6e-8d9a59711ad1)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/fac038e1-bd42-4df8-b68f-a827095b3784)
 
 ### HDR UK (1)
@@ -404,14 +405,18 @@ This repo automatically collects the datasets published on the Gateway including
 - [Sunquest](https://web.www.healthdatagateway.org/dataset/eaca9ed1-30b6-4157-8894-8e53efc84849)
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
-### Office of National Statistics (2)
-- [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/06b2245d-e9e0-4ab2-989c-cae7bcd32a24)
+### Office of National Statistics (8)
+- [Labour Force Survey (Household)](https://web.www.healthdatagateway.org/dataset/07188ee0-5d2d-492d-a1cc-32cbbbfbe63b)
+- [Census 2011 E&W - Household structure for COVID-19 models](https://web.www.healthdatagateway.org/dataset/1e8d84b7-e9e2-4e03-8c53-025719f53746)
+- [Labour Force Survey (Longitudinal)](https://web.www.healthdatagateway.org/dataset/212d5331-3681-4477-97f6-0e1cee562cd6)
+- [Linked Census and death occurrences](https://web.www.healthdatagateway.org/dataset/28393252-4287-4be6-8b2a-591622ad6c29)
+- [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/5a2b59f8-e20d-4ff4-b209-4710f7aca970)
 - [Business Impact of COVID-19 Survey (BICS)](https://web.www.healthdatagateway.org/dataset/617aca9b-0fb9-45ec-8314-e16c3e074b01)
+- [Labour Force Survey (Person)](https://web.www.healthdatagateway.org/dataset/89f37cc8-8519-4fd8-a49c-fe591a530a8b)
+- [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/c0f5fde3-4e8a-4956-998b-1fb955f58a22)
 
-### Office of National Statistics > Office of National Statistics (3)
+### Office of National Statistics > Office of National Statistics (1)
 - [Coronavirus and the social impacts on Great Britain](https://web.www.healthdatagateway.org/dataset/2e7fe631-6d25-44b5-bfd4-92d34bfb8145)
-- [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/a984dd41-7959-43ab-b264-2b38c15251c5)
-- [Census 2011 E&W - Household structure for COVID-19 models](https://web.www.healthdatagateway.org/dataset/abaa6890-813c-415b-8d91-3c9ae0b48a89)
 
 ### PIONEER (5)
 - [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/166c6c04-c4dd-4df7-977a-b375fda23134)
