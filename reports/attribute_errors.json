@@ -4599,79 +4599,6 @@
     "total_attributes": 42
   },
   {
-    "id": "1a4708e5-14d3-4177-b4ef-35f71e72a16c",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Patient Episode Dataset for Wales",
-    "A: Summary": {
-      "identifier": 0,
-      "title": 0,
-      "abstract": 0,
-      "publisher": 0,
-      "contactPoint": 0,
-      "accessRights": 0,
-      "group": 0,
-      "attributes_with_errors": 0,
-      "total_attributes": 7
-    },
-    "B: Business": {
-      "description": 0,
-      "releaseDate": 0,
-      "accessRequestCost": 0,
-      "accessRequestDuration": 1,
-      "dataController": 0,
-      "dataProcessor": 0,
-      "license": 0,
-      "usageRestriction": 0,
-      "derivedDatasets": 0,
-      "linkedDataset": 1,
-      "attributes_with_errors": 2,
-      "total_attributes": 10
-    },
-    "C: Coverage & Detail": {
-      "geographicCoverage": 1,
-      "periodicity": 0,
-      "datasetEndDate": 0,
-      "datasetStartDate": 0,
-      "jurisdiction": 0,
-      "populationType": 0,
-      "statisticalPopulation": 0,
-      "ageBand": 1,
-      "physicalSampleAvailability": 0,
-      "keywords": 0,
-      "attributes_with_errors": 2,
-      "total_attributes": 10
-    },
-    "D: Format & Structure": {
-      "conformsTo": 0,
-      "controlledVocabulary": 1,
-      "language": 0,
-      "format": 0,
-      "fileSize": 0,
-      "attributes_with_errors": 1,
-      "total_attributes": 5
-    },
-    "E: Attribution": {
-      "creator": 0,
-      "citations": 0,
-      "doi": 0,
-      "attributes_with_errors": 0,
-      "total_attributes": 3
-    },
-    "F: Technical Metadata": {
-      "dataClassesCount": 0,
-      "tableName": 0,
-      "tableDescription": 0,
-      "columnName": 0,
-      "columnDescription": 0,
-      "dataType": 0,
-      "sensitive": 1,
-      "attributes_with_errors": 1,
-      "total_attributes": 7
-    },
-    "attributes_with_errors": 6,
-    "total_attributes": 42
-  },
-  {
     "id": "1aa60c9f-a458-454d-802a-e4c4628f3870",
     "publisher": "ALLIANCE > DUNDEE",
     "title": "NHS Tayside and Fife Accident & Emergency Dataset (ISD/National)",
@@ -6636,6 +6563,79 @@
       "columnDescription": 0,
       "dataType": 0,
       "sensitive": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 7
+    },
+    "attributes_with_errors": 7,
+    "total_attributes": 42
+  },
+  {
+    "id": "261b3424-2168-46ae-aaba-849fe43c70ff",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Outpatient Dataset",
+    "A: Summary": {
+      "identifier": 0,
+      "title": 0,
+      "abstract": 0,
+      "publisher": 0,
+      "contactPoint": 0,
+      "accessRights": 0,
+      "group": 0,
+      "attributes_with_errors": 0,
+      "total_attributes": 7
+    },
+    "B: Business": {
+      "description": 0,
+      "releaseDate": 0,
+      "accessRequestCost": 0,
+      "accessRequestDuration": 1,
+      "dataController": 0,
+      "dataProcessor": 0,
+      "license": 0,
+      "usageRestriction": 0,
+      "derivedDatasets": 0,
+      "linkedDataset": 1,
+      "attributes_with_errors": 2,
+      "total_attributes": 10
+    },
+    "C: Coverage & Detail": {
+      "geographicCoverage": 1,
+      "periodicity": 1,
+      "datasetEndDate": 0,
+      "datasetStartDate": 0,
+      "jurisdiction": 0,
+      "populationType": 0,
+      "statisticalPopulation": 0,
+      "ageBand": 0,
+      "physicalSampleAvailability": 1,
+      "keywords": 0,
+      "attributes_with_errors": 3,
+      "total_attributes": 10
+    },
+    "D: Format & Structure": {
+      "conformsTo": 0,
+      "controlledVocabulary": 1,
+      "language": 0,
+      "format": 0,
+      "fileSize": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 5
+    },
+    "E: Attribution": {
+      "creator": 0,
+      "citations": 0,
+      "doi": 0,
+      "attributes_with_errors": 0,
+      "total_attributes": 3
+    },
+    "F: Technical Metadata": {
+      "dataClassesCount": 0,
+      "tableName": 0,
+      "tableDescription": 0,
+      "columnName": 0,
+      "columnDescription": 0,
+      "dataType": 0,
+      "sensitive": 1,
       "attributes_with_errors": 1,
       "total_attributes": 7
     },
@@ -8903,6 +8903,79 @@
       "total_attributes": 7
     },
     "attributes_with_errors": 7,
+    "total_attributes": 42
+  },
+  {
+    "id": "33f2e9dd-9019-4e8b-9c0e-bbc6a8dc9d81",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "Medicines dispensed in Primary Care (NHSBSA data)",
+    "A: Summary": {
+      "identifier": 0,
+      "title": 0,
+      "abstract": 0,
+      "publisher": 0,
+      "contactPoint": 0,
+      "accessRights": 0,
+      "group": 0,
+      "attributes_with_errors": 0,
+      "total_attributes": 7
+    },
+    "B: Business": {
+      "description": 0,
+      "releaseDate": 0,
+      "accessRequestCost": 0,
+      "accessRequestDuration": 1,
+      "dataController": 0,
+      "dataProcessor": 0,
+      "license": 1,
+      "usageRestriction": 0,
+      "derivedDatasets": 0,
+      "linkedDataset": 0,
+      "attributes_with_errors": 2,
+      "total_attributes": 10
+    },
+    "C: Coverage & Detail": {
+      "geographicCoverage": 1,
+      "periodicity": 1,
+      "datasetEndDate": 0,
+      "datasetStartDate": 0,
+      "jurisdiction": 0,
+      "populationType": 1,
+      "statisticalPopulation": 1,
+      "ageBand": 0,
+      "physicalSampleAvailability": 1,
+      "keywords": 0,
+      "attributes_with_errors": 5,
+      "total_attributes": 10
+    },
+    "D: Format & Structure": {
+      "conformsTo": 0,
+      "controlledVocabulary": 1,
+      "language": 0,
+      "format": 0,
+      "fileSize": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 5
+    },
+    "E: Attribution": {
+      "creator": 0,
+      "citations": 0,
+      "doi": 1,
+      "attributes_with_errors": 1,
+      "total_attributes": 3
+    },
+    "F: Technical Metadata": {
+      "dataClassesCount": 0,
+      "tableName": 0,
+      "tableDescription": 0,
+      "columnName": 0,
+      "columnDescription": 0,
+      "dataType": 0,
+      "sensitive": 1,
+      "attributes_with_errors": 1,
+      "total_attributes": 7
+    },
+    "attributes_with_errors": 10,
     "total_attributes": 42
   },
   {
@@ -14892,79 +14965,6 @@
     "total_attributes": 42
   },
   {
-    "id": "5f7df31b-b69e-4eb3-9eeb-3a3ab1f157c3",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Outpatient Dataset",
-    "A: Summary": {
-      "identifier": 0,
-      "title": 0,
-      "abstract": 0,
-      "publisher": 0,
-      "contactPoint": 0,
-      "accessRights": 0,
-      "group": 0,
-      "attributes_with_errors": 0,
-      "total_attributes": 7
-    },
-    "B: Business": {
-      "description": 0,
-      "releaseDate": 0,
-      "accessRequestCost": 0,
-      "accessRequestDuration": 1,
-      "dataController": 0,
-      "dataProcessor": 0,
-      "license": 0,
-      "usageRestriction": 0,
-      "derivedDatasets": 0,
-      "linkedDataset": 1,
-      "attributes_with_errors": 2,
-      "total_attributes": 10
-    },
-    "C: Coverage & Detail": {
-      "geographicCoverage": 1,
-      "periodicity": 1,
-      "datasetEndDate": 0,
-      "datasetStartDate": 0,
-      "jurisdiction": 0,
-      "populationType": 0,
-      "statisticalPopulation": 0,
-      "ageBand": 1,
-      "physicalSampleAvailability": 0,
-      "keywords": 0,
-      "attributes_with_errors": 3,
-      "total_attributes": 10
-    },
-    "D: Format & Structure": {
-      "conformsTo": 0,
-      "controlledVocabulary": 1,
-      "language": 0,
-      "format": 0,
-      "fileSize": 0,
-      "attributes_with_errors": 1,
-      "total_attributes": 5
-    },
-    "E: Attribution": {
-      "creator": 0,
-      "citations": 0,
-      "doi": 0,
-      "attributes_with_errors": 0,
-      "total_attributes": 3
-    },
-    "F: Technical Metadata": {
-      "dataClassesCount": 0,
-      "tableName": 0,
-      "tableDescription": 0,
-      "columnName": 0,
-      "columnDescription": 0,
-      "dataType": 0,
-      "sensitive": 1,
-      "attributes_with_errors": 1,
-      "total_attributes": 7
-    },
-    "attributes_with_errors": 7,
-    "total_attributes": 42
-  },
-  {
     "id": "600be397-211b-4f65-9f82-e85f4393fb8a",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Maternity and Perinatal Audit Organisational Survey 2019",
@@ -15692,79 +15692,6 @@
       "total_attributes": 7
     },
     "attributes_with_errors": 12,
-    "total_attributes": 42
-  },
-  {
-    "id": "63bde137-b3b1-482e-8bac-3219e602e594",
-    "publisher": "ALLIANCE > NHS DIGITAL",
-    "title": "Medicines dispensed in Primary Care (NHSBSA data)",
-    "A: Summary": {
-      "identifier": 0,
-      "title": 0,
-      "abstract": 0,
-      "publisher": 0,
-      "contactPoint": 0,
-      "accessRights": 0,
-      "group": 0,
-      "attributes_with_errors": 0,
-      "total_attributes": 7
-    },
-    "B: Business": {
-      "description": 0,
-      "releaseDate": 0,
-      "accessRequestCost": 1,
-      "accessRequestDuration": 0,
-      "dataController": 0,
-      "dataProcessor": 0,
-      "license": 1,
-      "usageRestriction": 0,
-      "derivedDatasets": 0,
-      "linkedDataset": 0,
-      "attributes_with_errors": 2,
-      "total_attributes": 10
-    },
-    "C: Coverage & Detail": {
-      "geographicCoverage": 1,
-      "periodicity": 0,
-      "datasetEndDate": 0,
-      "datasetStartDate": 1,
-      "jurisdiction": 0,
-      "populationType": 1,
-      "statisticalPopulation": 1,
-      "ageBand": 0,
-      "physicalSampleAvailability": 1,
-      "keywords": 1,
-      "attributes_with_errors": 6,
-      "total_attributes": 10
-    },
-    "D: Format & Structure": {
-      "conformsTo": 1,
-      "controlledVocabulary": 0,
-      "language": 0,
-      "format": 0,
-      "fileSize": 0,
-      "attributes_with_errors": 1,
-      "total_attributes": 5
-    },
-    "E: Attribution": {
-      "creator": 0,
-      "citations": 0,
-      "doi": 1,
-      "attributes_with_errors": 1,
-      "total_attributes": 3
-    },
-    "F: Technical Metadata": {
-      "dataClassesCount": 0,
-      "tableName": 0,
-      "tableDescription": 0,
-      "columnName": 0,
-      "columnDescription": 0,
-      "dataType": 0,
-      "sensitive": 1,
-      "attributes_with_errors": 1,
-      "total_attributes": 7
-    },
-    "attributes_with_errors": 11,
     "total_attributes": 42
   },
   {
@@ -17082,6 +17009,79 @@
     "total_attributes": 42
   },
   {
+    "id": "6cc463b4-5524-40cc-8190-b484458ad48c",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "GPES Data for Pandemic Planning and Research (COVID-19)",
+    "A: Summary": {
+      "identifier": 0,
+      "title": 0,
+      "abstract": 0,
+      "publisher": 0,
+      "contactPoint": 0,
+      "accessRights": 1,
+      "group": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 7
+    },
+    "B: Business": {
+      "description": 0,
+      "releaseDate": 0,
+      "accessRequestCost": 0,
+      "accessRequestDuration": 1,
+      "dataController": 0,
+      "dataProcessor": 0,
+      "license": 1,
+      "usageRestriction": 0,
+      "derivedDatasets": 1,
+      "linkedDataset": 1,
+      "attributes_with_errors": 4,
+      "total_attributes": 10
+    },
+    "C: Coverage & Detail": {
+      "geographicCoverage": 1,
+      "periodicity": 1,
+      "datasetEndDate": 0,
+      "datasetStartDate": 0,
+      "jurisdiction": 0,
+      "populationType": 1,
+      "statisticalPopulation": 1,
+      "ageBand": 0,
+      "physicalSampleAvailability": 1,
+      "keywords": 0,
+      "attributes_with_errors": 5,
+      "total_attributes": 10
+    },
+    "D: Format & Structure": {
+      "conformsTo": 0,
+      "controlledVocabulary": 1,
+      "language": 0,
+      "format": 0,
+      "fileSize": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 5
+    },
+    "E: Attribution": {
+      "creator": 0,
+      "citations": 0,
+      "doi": 1,
+      "attributes_with_errors": 1,
+      "total_attributes": 3
+    },
+    "F: Technical Metadata": {
+      "dataClassesCount": 0,
+      "tableName": 0,
+      "tableDescription": 0,
+      "columnName": 0,
+      "columnDescription": 0,
+      "dataType": 0,
+      "sensitive": 1,
+      "attributes_with_errors": 1,
+      "total_attributes": 7
+    },
+    "attributes_with_errors": 13,
+    "total_attributes": 42
+  },
+  {
     "id": "6d1b9b23-1197-4857-9b17-9e26cb0633e8",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Joint Registry - Revision Elbow Replacement dataset",
@@ -17517,6 +17517,79 @@
       "total_attributes": 7
     },
     "attributes_with_errors": 11,
+    "total_attributes": 42
+  },
+  {
+    "id": "71275c4a-504e-42fb-8989-d83e5fc460c1",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "Secondary Uses Services",
+    "A: Summary": {
+      "identifier": 0,
+      "title": 0,
+      "abstract": 0,
+      "publisher": 0,
+      "contactPoint": 0,
+      "accessRights": 1,
+      "group": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 7
+    },
+    "B: Business": {
+      "description": 0,
+      "releaseDate": 0,
+      "accessRequestCost": 0,
+      "accessRequestDuration": 0,
+      "dataController": 0,
+      "dataProcessor": 0,
+      "license": 1,
+      "usageRestriction": 0,
+      "derivedDatasets": 0,
+      "linkedDataset": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 10
+    },
+    "C: Coverage & Detail": {
+      "geographicCoverage": 1,
+      "periodicity": 1,
+      "datasetEndDate": 0,
+      "datasetStartDate": 0,
+      "jurisdiction": 0,
+      "populationType": 1,
+      "statisticalPopulation": 1,
+      "ageBand": 0,
+      "physicalSampleAvailability": 1,
+      "keywords": 0,
+      "attributes_with_errors": 5,
+      "total_attributes": 10
+    },
+    "D: Format & Structure": {
+      "conformsTo": 0,
+      "controlledVocabulary": 1,
+      "language": 0,
+      "format": 0,
+      "fileSize": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 5
+    },
+    "E: Attribution": {
+      "creator": 0,
+      "citations": 0,
+      "doi": 1,
+      "attributes_with_errors": 1,
+      "total_attributes": 3
+    },
+    "F: Technical Metadata": {
+      "dataClassesCount": 0,
+      "tableName": 0,
+      "tableDescription": 0,
+      "columnName": 0,
+      "columnDescription": 0,
+      "dataType": 0,
+      "sensitive": 1,
+      "attributes_with_errors": 1,
+      "total_attributes": 7
+    },
+    "attributes_with_errors": 10,
     "total_attributes": 42
   },
   {
@@ -20367,6 +20440,79 @@
     "total_attributes": 42
   },
   {
+    "id": "856b0e6c-5a34-4e8c-93b6-c91cfb717627",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "Pillar 2 - Covid-19 UK Non-hospital Antigen Testing Results",
+    "A: Summary": {
+      "identifier": 0,
+      "title": 0,
+      "abstract": 0,
+      "publisher": 0,
+      "contactPoint": 0,
+      "accessRights": 0,
+      "group": 0,
+      "attributes_with_errors": 0,
+      "total_attributes": 7
+    },
+    "B: Business": {
+      "description": 0,
+      "releaseDate": 0,
+      "accessRequestCost": 0,
+      "accessRequestDuration": 1,
+      "dataController": 0,
+      "dataProcessor": 0,
+      "license": 1,
+      "usageRestriction": 0,
+      "derivedDatasets": 0,
+      "linkedDataset": 0,
+      "attributes_with_errors": 2,
+      "total_attributes": 10
+    },
+    "C: Coverage & Detail": {
+      "geographicCoverage": 1,
+      "periodicity": 1,
+      "datasetEndDate": 0,
+      "datasetStartDate": 0,
+      "jurisdiction": 0,
+      "populationType": 1,
+      "statisticalPopulation": 1,
+      "ageBand": 0,
+      "physicalSampleAvailability": 1,
+      "keywords": 0,
+      "attributes_with_errors": 5,
+      "total_attributes": 10
+    },
+    "D: Format & Structure": {
+      "conformsTo": 1,
+      "controlledVocabulary": 0,
+      "language": 0,
+      "format": 1,
+      "fileSize": 0,
+      "attributes_with_errors": 2,
+      "total_attributes": 5
+    },
+    "E: Attribution": {
+      "creator": 0,
+      "citations": 0,
+      "doi": 1,
+      "attributes_with_errors": 1,
+      "total_attributes": 3
+    },
+    "F: Technical Metadata": {
+      "dataClassesCount": 1,
+      "tableName": 0,
+      "tableDescription": 0,
+      "columnName": 0,
+      "columnDescription": 0,
+      "dataType": 0,
+      "sensitive": 1,
+      "attributes_with_errors": 2,
+      "total_attributes": 7
+    },
+    "attributes_with_errors": 12,
+    "total_attributes": 42
+  },
+  {
     "id": "858c517e-8ce3-4059-9326-d158489e48d1",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Diabetes Audit - National Diabetes in Pregnancy clinical Audit dataset",
@@ -22919,79 +23065,6 @@
       "total_attributes": 7
     },
     "attributes_with_errors": 13,
-    "total_attributes": 42
-  },
-  {
-    "id": "9475e59b-3fee-4775-9c18-fd5caafe7336",
-    "publisher": "NHS Digital",
-    "title": "Secondary Uses Services",
-    "A: Summary": {
-      "identifier": 0,
-      "title": 0,
-      "abstract": 1,
-      "publisher": 0,
-      "contactPoint": 0,
-      "accessRights": 1,
-      "group": 0,
-      "attributes_with_errors": 2,
-      "total_attributes": 7
-    },
-    "B: Business": {
-      "description": 0,
-      "releaseDate": 0,
-      "accessRequestCost": 1,
-      "accessRequestDuration": 0,
-      "dataController": 1,
-      "dataProcessor": 0,
-      "license": 1,
-      "usageRestriction": 0,
-      "derivedDatasets": 0,
-      "linkedDataset": 0,
-      "attributes_with_errors": 3,
-      "total_attributes": 10
-    },
-    "C: Coverage & Detail": {
-      "geographicCoverage": 1,
-      "periodicity": 1,
-      "datasetEndDate": 0,
-      "datasetStartDate": 1,
-      "jurisdiction": 1,
-      "populationType": 1,
-      "statisticalPopulation": 1,
-      "ageBand": 0,
-      "physicalSampleAvailability": 1,
-      "keywords": 1,
-      "attributes_with_errors": 8,
-      "total_attributes": 10
-    },
-    "D: Format & Structure": {
-      "conformsTo": 1,
-      "controlledVocabulary": 1,
-      "language": 1,
-      "format": 1,
-      "fileSize": 0,
-      "attributes_with_errors": 4,
-      "total_attributes": 5
-    },
-    "E: Attribution": {
-      "creator": 1,
-      "citations": 0,
-      "doi": 1,
-      "attributes_with_errors": 2,
-      "total_attributes": 3
-    },
-    "F: Technical Metadata": {
-      "dataClassesCount": 0,
-      "tableName": 0,
-      "tableDescription": 1,
-      "columnName": 0,
-      "columnDescription": 0,
-      "dataType": 0,
-      "sensitive": 1,
-      "attributes_with_errors": 2,
-      "total_attributes": 7
-    },
-    "attributes_with_errors": 21,
     "total_attributes": 42
   },
   {
@@ -25696,79 +25769,6 @@
     "total_attributes": 42
   },
   {
-    "id": "a65213b3-4494-41f6-9438-ae02e82e41f3",
-    "publisher": "ALLIANCE > NHS DIGITAL",
-    "title": "GPES Data for Pandemic Planning and Research (COVID-19)",
-    "A: Summary": {
-      "identifier": 0,
-      "title": 0,
-      "abstract": 0,
-      "publisher": 0,
-      "contactPoint": 0,
-      "accessRights": 1,
-      "group": 0,
-      "attributes_with_errors": 1,
-      "total_attributes": 7
-    },
-    "B: Business": {
-      "description": 0,
-      "releaseDate": 0,
-      "accessRequestCost": 1,
-      "accessRequestDuration": 1,
-      "dataController": 0,
-      "dataProcessor": 0,
-      "license": 1,
-      "usageRestriction": 0,
-      "derivedDatasets": 0,
-      "linkedDataset": 0,
-      "attributes_with_errors": 3,
-      "total_attributes": 10
-    },
-    "C: Coverage & Detail": {
-      "geographicCoverage": 1,
-      "periodicity": 1,
-      "datasetEndDate": 0,
-      "datasetStartDate": 0,
-      "jurisdiction": 0,
-      "populationType": 1,
-      "statisticalPopulation": 1,
-      "ageBand": 0,
-      "physicalSampleAvailability": 1,
-      "keywords": 0,
-      "attributes_with_errors": 5,
-      "total_attributes": 10
-    },
-    "D: Format & Structure": {
-      "conformsTo": 1,
-      "controlledVocabulary": 0,
-      "language": 0,
-      "format": 0,
-      "fileSize": 0,
-      "attributes_with_errors": 1,
-      "total_attributes": 5
-    },
-    "E: Attribution": {
-      "creator": 0,
-      "citations": 0,
-      "doi": 1,
-      "attributes_with_errors": 1,
-      "total_attributes": 3
-    },
-    "F: Technical Metadata": {
-      "dataClassesCount": 0,
-      "tableName": 0,
-      "tableDescription": 0,
-      "columnName": 0,
-      "columnDescription": 0,
-      "dataType": 0,
-      "sensitive": 1,
-      "attributes_with_errors": 1,
-      "total_attributes": 7
-    },
-    "attributes_with_errors": 12,
-    "total_attributes": 42
-  },
-  {
     "id": "a675ac5e-ecc2-4899-9c3c-65c2f36432c5",
     "publisher": "ALLIANCE > BARTS",
     "title": "Community Services Dataset",
@@ -27226,6 +27226,79 @@
       "total_attributes": 7
     },
     "attributes_with_errors": 11,
+    "total_attributes": 42
+  },
+  {
+    "id": "b1a2126a-640d-4b02-8acd-e5ce5ee454f0",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "ONS 2011 Census Wales (CENW)",
+    "A: Summary": {
+      "identifier": 0,
+      "title": 0,
+      "abstract": 0,
+      "publisher": 0,
+      "contactPoint": 0,
+      "accessRights": 0,
+      "group": 0,
+      "attributes_with_errors": 0,
+      "total_attributes": 7
+    },
+    "B: Business": {
+      "description": 0,
+      "releaseDate": 0,
+      "accessRequestCost": 0,
+      "accessRequestDuration": 1,
+      "dataController": 0,
+      "dataProcessor": 0,
+      "license": 1,
+      "usageRestriction": 0,
+      "derivedDatasets": 0,
+      "linkedDataset": 1,
+      "attributes_with_errors": 3,
+      "total_attributes": 10
+    },
+    "C: Coverage & Detail": {
+      "geographicCoverage": 1,
+      "periodicity": 1,
+      "datasetEndDate": 0,
+      "datasetStartDate": 0,
+      "jurisdiction": 0,
+      "populationType": 1,
+      "statisticalPopulation": 1,
+      "ageBand": 0,
+      "physicalSampleAvailability": 1,
+      "keywords": 0,
+      "attributes_with_errors": 5,
+      "total_attributes": 10
+    },
+    "D: Format & Structure": {
+      "conformsTo": 0,
+      "controlledVocabulary": 0,
+      "language": 0,
+      "format": 1,
+      "fileSize": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 5
+    },
+    "E: Attribution": {
+      "creator": 0,
+      "citations": 0,
+      "doi": 0,
+      "attributes_with_errors": 0,
+      "total_attributes": 3
+    },
+    "F: Technical Metadata": {
+      "dataClassesCount": 0,
+      "tableName": 0,
+      "tableDescription": 1,
+      "columnName": 0,
+      "columnDescription": 1,
+      "dataType": 0,
+      "sensitive": 1,
+      "attributes_with_errors": 3,
+      "total_attributes": 7
+    },
+    "attributes_with_errors": 12,
     "total_attributes": 42
   },
   {
@@ -32850,6 +32923,79 @@
     "total_attributes": 42
   },
   {
+    "id": "d99dd234-0fed-4731-99fe-82a567187854",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Patient Episode Dataset for Wales",
+    "A: Summary": {
+      "identifier": 0,
+      "title": 0,
+      "abstract": 0,
+      "publisher": 0,
+      "contactPoint": 0,
+      "accessRights": 0,
+      "group": 0,
+      "attributes_with_errors": 0,
+      "total_attributes": 7
+    },
+    "B: Business": {
+      "description": 0,
+      "releaseDate": 0,
+      "accessRequestCost": 0,
+      "accessRequestDuration": 1,
+      "dataController": 0,
+      "dataProcessor": 0,
+      "license": 0,
+      "usageRestriction": 0,
+      "derivedDatasets": 0,
+      "linkedDataset": 1,
+      "attributes_with_errors": 2,
+      "total_attributes": 10
+    },
+    "C: Coverage & Detail": {
+      "geographicCoverage": 1,
+      "periodicity": 1,
+      "datasetEndDate": 0,
+      "datasetStartDate": 0,
+      "jurisdiction": 0,
+      "populationType": 0,
+      "statisticalPopulation": 0,
+      "ageBand": 0,
+      "physicalSampleAvailability": 1,
+      "keywords": 0,
+      "attributes_with_errors": 3,
+      "total_attributes": 10
+    },
+    "D: Format & Structure": {
+      "conformsTo": 0,
+      "controlledVocabulary": 1,
+      "language": 0,
+      "format": 0,
+      "fileSize": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 5
+    },
+    "E: Attribution": {
+      "creator": 0,
+      "citations": 0,
+      "doi": 0,
+      "attributes_with_errors": 0,
+      "total_attributes": 3
+    },
+    "F: Technical Metadata": {
+      "dataClassesCount": 0,
+      "tableName": 0,
+      "tableDescription": 0,
+      "columnName": 0,
+      "columnDescription": 0,
+      "dataType": 0,
+      "sensitive": 1,
+      "attributes_with_errors": 1,
+      "total_attributes": 7
+    },
+    "attributes_with_errors": 7,
+    "total_attributes": 42
+  },
+  {
     "id": "da4d3e21-3d81-49e9-ada0-6175e2341190",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Vascular Registry -  Abdominal Aortic Aneurysm Repair clinical dataset",
@@ -34088,6 +34234,79 @@
       "total_attributes": 7
     },
     "attributes_with_errors": 9,
+    "total_attributes": 42
+  },
+  {
+    "id": "e7c99216-2d93-4cc5-96e8-36002aac80b1",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Lifelong Learning Wales Record (LLWR)",
+    "A: Summary": {
+      "identifier": 0,
+      "title": 0,
+      "abstract": 0,
+      "publisher": 0,
+      "contactPoint": 0,
+      "accessRights": 0,
+      "group": 0,
+      "attributes_with_errors": 0,
+      "total_attributes": 7
+    },
+    "B: Business": {
+      "description": 0,
+      "releaseDate": 0,
+      "accessRequestCost": 0,
+      "accessRequestDuration": 1,
+      "dataController": 0,
+      "dataProcessor": 0,
+      "license": 1,
+      "usageRestriction": 0,
+      "derivedDatasets": 0,
+      "linkedDataset": 1,
+      "attributes_with_errors": 3,
+      "total_attributes": 10
+    },
+    "C: Coverage & Detail": {
+      "geographicCoverage": 1,
+      "periodicity": 1,
+      "datasetEndDate": 0,
+      "datasetStartDate": 0,
+      "jurisdiction": 0,
+      "populationType": 1,
+      "statisticalPopulation": 1,
+      "ageBand": 0,
+      "physicalSampleAvailability": 1,
+      "keywords": 0,
+      "attributes_with_errors": 5,
+      "total_attributes": 10
+    },
+    "D: Format & Structure": {
+      "conformsTo": 0,
+      "controlledVocabulary": 0,
+      "language": 0,
+      "format": 1,
+      "fileSize": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 5
+    },
+    "E: Attribution": {
+      "creator": 1,
+      "citations": 0,
+      "doi": 0,
+      "attributes_with_errors": 1,
+      "total_attributes": 3
+    },
+    "F: Technical Metadata": {
+      "dataClassesCount": 0,
+      "tableName": 0,
+      "tableDescription": 1,
+      "columnName": 0,
+      "columnDescription": 0,
+      "dataType": 0,
+      "sensitive": 1,
+      "attributes_with_errors": 2,
+      "total_attributes": 7
+    },
+    "attributes_with_errors": 12,
     "total_attributes": 42
   },
   {
