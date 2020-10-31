@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (525)
+## HDR UK Datasets (526)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -354,8 +354,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/a104ba06-be82-4f2d-b177-f13948643f84)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/c720c89a-b2c6-4cd6-b606-df34ff22b1c8)
 
-### NHS Scotland (1)
+### NHS Scotland (2)
 - [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/31e377bf-7c6c-4bc0-95f4-a4626cfa5807)
+- [NHS Scotland General Practice (GP) Contact Data - Subset](https://web.www.healthdatagateway.org/dataset/a021f150-41e6-48c3-807c-a0cefa4cb2c2)
 
 ### NHSX (1)
 - [The National COVID-19 Chest Imaging Database](https://web.www.healthdatagateway.org/dataset/8c13e03e-b9d2-4b04-8b98-097643a6beaf)
