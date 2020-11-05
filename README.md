@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (526)
+## HDR UK Datasets (527)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -284,6 +284,9 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### HUB > NHS DIGITRIALS (1)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/d796a1b6-8769-433c-a2cf-6a7b161db1fb)
+
+### HUB > PIONEER (1)
+- [Acute care patients within the 100K Genome project](https://web.www.healthdatagateway.org/dataset/561b49f3-0941-4839-838c-9359fa69d48e)
 
 ### IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/f89af2f4-e3cd-4eaa-835d-94aa347d8a92)

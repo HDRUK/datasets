@@ -10485,6 +10485,75 @@
     ]
   },
   {
+    "id": "561b49f3-0941-4839-838c-9359fa69d48e",
+    "publisher": "HUB > PIONEER",
+    "title": "Acute care patients within the 100K Genome project",
+    "schema_error_count": 14,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Yet to be decided' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Governance of the datasets is yet to be determined' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Governance of the datasets is yet to be determined' is not of type 'array'"
+      },
+      {
+        "attribute": "dataProcessor",
+        "message": "dataProcessor: 'TBC' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'TBC' is not one of ['Not Applicable']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: 'Not Available' is not valid under any of the given schemas",
+        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'West Midlands Region, UK' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'None' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "561b8a79-6bac-4ffc-91f4-0bbec4e90968",
     "publisher": "HUBS > BREATHE",
     "title": "Care-seeking practices for childhood pneumonia in non/tribal areas of Pune India",
