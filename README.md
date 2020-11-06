@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (527)
+## HDR UK Datasets (528)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -281,6 +281,9 @@ This repo automatically collects the datasets published on the Gateway including
 ### HUB > BREATHE (2)
 - [Estimating Chronic Respiratory Disease burden in adults in Asian LMICs](https://web.www.healthdatagateway.org/dataset/0150353c-d33d-4af0-b177-8ef0adf867f4)
 - [Developing and evaluating interventions to improve asthma care: HEAL ASTHMA](https://web.www.healthdatagateway.org/dataset/f73627e3-bd7c-4be2-81b4-3baf846ab787)
+
+### HUB > HUBS > PIONEER (1)
+- [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/436029e7-febe-44d6-9cea-1ab9ef9174a1)
 
 ### HUB > NHS DIGITRIALS (1)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/d796a1b6-8769-433c-a2cf-6a7b161db1fb)
