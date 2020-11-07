@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (528)
+## HDR UK Datasets (529)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -439,7 +439,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
 
-### SAIL (47)
+### SAIL (48)
 - [Careers Wales dataset](https://web.www.healthdatagateway.org/dataset/007e20d2-f883-47c2-abdc-481b574382b2)
 - [Referral to Treatment Times](https://web.www.healthdatagateway.org/dataset/009417f0-232a-4ebc-b12c-59c5352a49d3)
 - [Maternity Indicators Dataset](https://web.www.healthdatagateway.org/dataset/05fda11b-b66c-4cfa-a137-a6937401cdb5)
@@ -462,6 +462,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Healthcare Workers Risk Assessment](https://web.www.healthdatagateway.org/dataset/47108b03-ca80-4311-8090-f474bd880e87)
 - [Emergency Department Data Set](https://web.www.healthdatagateway.org/dataset/50d07fb3-4d8e-413d-9958-434838daea4d)
 - [Children Receiving Care and Support Census](https://web.www.healthdatagateway.org/dataset/5343bac9-244f-4211-8c9a-d9c29c79b4f3)
+- [School Workforce Annual Census (SWAC)](https://web.www.healthdatagateway.org/dataset/54102beb-f0f0-4352-9127-68091cb7f561)
 - [Breast Test Wales](https://web.www.healthdatagateway.org/dataset/5547f46f-75b7-4338-89bb-29c361187d28)
 - [Looked After Children Wales](https://web.www.healthdatagateway.org/dataset/599b721f-054b-4b4d-b447-5dee7797ab58)
 - [Critical Care Dataset](https://web.www.healthdatagateway.org/dataset/628284ca-0adf-45a9-8d7a-ea6f14a15e1c)
