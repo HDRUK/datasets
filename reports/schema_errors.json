@@ -1203,41 +1203,6 @@
     ]
   },
   {
-    "id": "08a7c3c9-16e5-46f7-b594-f84618fcc62e",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Annual District Death Daily",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Exclusively for national emergency response for COVID-19' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Exclusively for national emergency response for COVID-19' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD-10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD-10' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkable to Other SAIL Linked datasets' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkable to Other SAIL Linked datasets' is not one of ['Not Known', 'Not Available']"
-      }
-    ]
-  },
-  {
     "id": "09586db0-4da4-47f8-9434-13cbd2da2bb9",
     "publisher": "ALLIANCE > HQIP",
     "title": "Paediatric Intensive Care Audit Network - customised data collection",
@@ -2172,6 +2137,39 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly, March, June, September, December' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "0ecd2b01-88bd-41a2-82fd-8bb7544caecd",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Shielded People list",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.,ALL' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.,ALL' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -5136,44 +5134,6 @@
     ]
   },
   {
-    "id": "261b3424-2168-46ae-aaba-849fe43c70ff",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Outpatient Dataset",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL,OPCS4,NHS NATIONAL CODES,NHS WALES NATIONAL CODES,ICD10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL,OPCS4,NHS NATIONAL CODES,NHS WALES NATIONAL CODES,ICD10' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "263ad0a8-ae90-4c1d-85d6-c3d2470eb2b7",
     "publisher": "NHS Digital",
     "title": "Mental Health Minimum Dataset v4 (Non-Sensitive) Episodes",
@@ -7933,6 +7893,44 @@
     ]
   },
   {
+    "id": "3bd6cd26-edc2-420a-86c5-f3e05606edfd",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "GP dataset - Welsh Primary Care",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: 'Not Available' is not valid under any of the given schemas",
+        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales, where patient GP Practice has agreed data sharing with SAIL' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.,ALL' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.,ALL' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "3c430204-f632-4add-9fcb-f0ff88caea13",
     "publisher": "ALLIANCE > SAIL",
     "title": "Congenital Anomaly Register and Information Service",
@@ -8790,6 +8788,70 @@
       {
         "attribute": "title",
         "message": "title: 'Falls and Fragility Fracture Audit Programme National Audit of Inpatient Falls clinical dataset' is too long"
+      }
+    ]
+  },
+  {
+    "id": "436029e7-febe-44d6-9cea-1ab9ef9174a1",
+    "publisher": "HUB > HUBS > PIONEER",
+    "title": "PIONEER - COVID ACUITY",
+    "schema_error_count": 14,
+    "errors": [
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'West Midlands' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -9751,6 +9813,66 @@
     ]
   },
   {
+    "id": "4f210cfb-8d0a-4fc9-9ce0-91ba1ee0dc79",
+    "publisher": "ALLIANCE > PUBLIC HEALTH ENGLAND",
+    "title": "National Cancer Registration and Analysis Service",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-3 MONTHS FROM A VALID APPLICATION.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not of type 'array'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'DCB1521: CANCER OUTCOMES AND SERVICES DATASET' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "contactPoint: 'https://www.gov.uk/government/publications/accessing-public-health-england-data' is not a 'email'"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD10,NHS NATIONAL CODES,OPCS4' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD10,NHS NATIONAL CODES,OPCS4' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands,or full dates truncated to month and year,or year alone). In addition,fields such as STAGE_BEST,ROUTE_CODE,FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands,or full dates truncated to month and year,or year alone). In addition,fields such as STAGE_BEST,ROUTE_CODE,FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'NCRAS has been linked to a number of other collections and datasets including: CPRD (GOLD & ARUM),NHS Business Services Authority Prescribing Data,HES,ONS Civil Registration,Molecular Data,MINAP,NICOR,as well as a number of standing cohorts including UK Biobank.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'NCRAS has been linked to a number of other collections and datasets including: CPRD (GOLD & ARUM),NHS Business Services Authority Prescribing Data,HES,ONS Civil Registration,Molecular Data,MINAP,NICOR,as well as a number of standing cohorts including UK Biobank.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "4f721a52-b3cd-4594-9099-5185f80832c7",
     "publisher": "ALLIANCE > SCOTLAND",
     "title": "Child Health Systems Programme - 27-30Months Review",
@@ -10354,6 +10476,51 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "id": "54102beb-f0f0-4352-9127-68091cb7f561",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "School Workforce Annual Census (SWAC)",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -12338,6 +12505,44 @@
     ]
   },
   {
+    "id": "662ed97c-23bf-43dc-88ba-2206d110d119",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Outpatient Dataset",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,OPCS4,NHS NATIONAL CODES,NHS WALES NATIONAL CODES,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,OPCS4,NHS NATIONAL CODES,NHS WALES NATIONAL CODES,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "66cb4fac-7b2d-4832-8265-6ee58aaad438",
     "publisher": "ALLIANCE > SAIL",
     "title": "Active Adult Survey",
@@ -13844,6 +14049,39 @@
     ]
   },
   {
+    "id": "779b6d54-b923-4416-b74e-917cab30baa9",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Annual District Death Extract",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'ALL,Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'ALL,Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "77b5cf84-d4f2-4418-bafa-73306cf2d2b2",
     "publisher": "ALLIANCE > CPRD",
     "title": "HES Admitted Patient Care data for CPRD GOLD",
@@ -14155,48 +14393,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly, March, June, September, December' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
-    "id": "7909f8a5-5440-4b9a-843f-cb48cd1f7e08",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "GP dataset - Welsh Primary Care",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not Available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales, where patient GP Practice has agreed data sharing with SAIL' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Quarterly, January, April, July, October' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -16590,44 +16786,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
-    "id": "8a9404f0-5209-4438-8261-b3a0d2d563f5",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Annual District Death Extract",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD-10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD-10' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually, March' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -24071,6 +24229,44 @@
     ]
   },
   {
+    "id": "c7c7d692-99a2-4ef4-b295-35c3e6e243a1",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Annual District Death Daily",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Exclusively for national emergency response for COVID-19' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Exclusively for national emergency response for COVID-19' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable to Other SAIL Linked datasets' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable to Other SAIL Linked datasets' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "c83d2206-3778-400b-9b26-27c7588af930",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "RATHL Trial",
@@ -24118,39 +24314,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "id": "c84321f3-caf3-4b40-a41a-5ccebe5bb1aa",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "COVID-19 Shielded People list",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All Ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -24361,34 +24524,6 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
-      }
-    ]
-  },
-  {
-    "id": "cb29d860-da77-45a0-80e4-913d445f5a50",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "COVID-19 Symptom Tracker Dataset",
-    "schema_error_count": 5,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Great Britain' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -25241,6 +25376,34 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "d4614d0c-8e38-413c-83c8-7b5d1cc30ee0",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Symptom Tracker Dataset",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Great Britain' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -26977,6 +27140,39 @@
     ]
   },
   {
+    "id": "ea3f0b0e-d91a-479f-a44e-010d86ddaf3f",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Consolidated Deaths",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "eaca9ed1-30b6-4157-8894-8e53efc84849",
     "publisher": "Oxford University Hospitals NHS Foundation Trust",
     "title": "Sunquest",
@@ -27631,35 +27827,6 @@
         "attribute": "accessRights",
         "message": "accessRights: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.nicor.org.uk/for-researchers/' is not valid under any of the given schemas",
         "suberrors": "    type: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.nicor.org.uk/for-researchers/' is not of type 'array'"
-      }
-    ]
-  },
-  {
-    "id": "efc2bb06-d502-4424-ac92-72834459fbaa",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "COVID-19 Consolidated Deaths",
-    "schema_error_count": 5,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Access request duration depends on scoping and the IGRP process. General estimate ~ 3 months.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkable at the person level to any dataset with SAIL anonymised linkage field.' is not one of ['Not Known', 'Not Available']"
       }
     ]
   },
