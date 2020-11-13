@@ -38,7 +38,7 @@ METADATA_SECTIONS = {
 }
 
 REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
-                    "D: Format & Structure", "E: Attribution", "F: Technical Metadata"]
+                    "D: Format & Structure", "E: Attribution", "F: Technical Metadata", "G: V2 Spec Additional Fields"]
 
 def nullScore(d):
     ''' CHECK WITH HEIKO: Do we need this anymore? '''
