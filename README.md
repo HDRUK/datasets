@@ -283,13 +283,14 @@ This repo automatically collects the datasets published on the Gateway including
 - [Developing and evaluating interventions to improve asthma care: HEAL ASTHMA](https://web.www.healthdatagateway.org/dataset/f73627e3-bd7c-4be2-81b4-3baf846ab787)
 
 ### HUB > HUBS > PIONEER (1)
-- [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/436029e7-febe-44d6-9cea-1ab9ef9174a1)
+- [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
 
 ### HUB > NHS DIGITRIALS (1)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/d796a1b6-8769-433c-a2cf-6a7b161db1fb)
 
-### HUB > PIONEER (1)
-- [Acute care patients within the 100K Genome project](https://web.www.healthdatagateway.org/dataset/561b49f3-0941-4839-838c-9359fa69d48e)
+### HUB > PIONEER (2)
+- [Acute care patients within the 100K Genome project](https://web.www.healthdatagateway.org/dataset/0048a401-e54c-49d7-8afc-6c5390fb66b9)
+- [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/d3d1cdf1-3a36-49d1-ba73-b02ebeceab9b)
 
 ### IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/f89af2f4-e3cd-4eaa-835d-94aa347d8a92)
@@ -426,8 +427,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### Office of National Statistics > Office of National Statistics (1)
 - [Coronavirus and the social impacts on Great Britain](https://web.www.healthdatagateway.org/dataset/2e7fe631-6d25-44b5-bfd4-92d34bfb8145)
 
-### PIONEER (5)
-- [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/166c6c04-c4dd-4df7-977a-b375fda23134)
+### PIONEER (4)
 - [University Hospitals Birmingham PICS data](https://web.www.healthdatagateway.org/dataset/1d1244b6-aeeb-4655-b5a2-2357ed28227a)
 - [Birmingham Out of Hours Research Database](https://web.www.healthdatagateway.org/dataset/d546521a-79be-4a53-83bd-ff008bda6171)
 - [Society for Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/f075ceb7-5bed-4e6b-8e83-211aee945356)
