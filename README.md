@@ -189,9 +189,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/97ddd990-f47a-40f5-9178-cbf742e4c613)
 
 ### HBS (3)
-- [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/59ad4112-1405-4414-961f-27325ab4c8e8)
-- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/af5caf3f-a8f7-4365-af6e-8d9a59711ad1)
-- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/fac038e1-bd42-4df8-b68f-a827095b3784)
+- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/3e8de4f3-ee1e-4898-a945-0487586c6767)
+- [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
+- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/8799e97b-bf13-407b-93bd-e96c8c4eb75f)
 
 ### HDR UK (1)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/9e798632-442a-427b-8d0e-456f754d28dc)
