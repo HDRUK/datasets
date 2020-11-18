@@ -2504,47 +2504,6 @@
     ]
   },
   {
-    "id": "110008b0-4c70-4e84-bce0-189d3601e305",
-    "publisher": "ALLIANCE > SCOTLAND",
-    "title": "General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'https://www.isdscotland.org/Products-and-Services/eDRIS/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'NHS SCOTLAND DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'NHS SCOTLAND NATIONAL CODES' is not valid under any of the given schemas",
-        "suberrors": "    type: 'NHS SCOTLAND NATIONAL CODES' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'The General / Acute Inpatient and Day Case data covers all residents in Scotland that receive care in hospital and general acute specialities.' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "113b54b0-fee5-427a-b569-04e150c1f06d",
     "publisher": "ALLIANCE > SAIL",
     "title": "Cervical Screening Wales",
@@ -4386,6 +4345,68 @@
     ]
   },
   {
+    "id": "1f9d9f96-df18-4660-9c96-d5318cd0d68e",
+    "publisher": "OTHER > HBS",
+    "title": "COVID antigen testing - Pillar 1",
+    "schema_error_count": 13,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not known' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not known' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Northern Ireland' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This dataset can be linked with NI Enhanced Prescribing ,This dataset can be linked with NI Admissions & Discharges' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This dataset can be linked with NI Enhanced Prescribing ,This dataset can be linked with NI Admissions & Discharges' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "201602df-7432-4710-98a7-18f59e4f211e",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "University of Southampton Faculty of Medicine Tissue Bank",
@@ -5097,6 +5118,52 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "2537007c-9e9e-4441-a0d1-59fa400566c5",
+    "publisher": "ALLIANCE > SCOTLAND",
+    "title": "General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS SCOTLAND DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS SCOTLAND NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS SCOTLAND NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'The General / Acute Inpatient and Day Case data covers all residents in Scotland that receive care in hospital and general acute specialities.' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Early Pandemic Evaluation and Enhanced Surveillance of COVID-19 (EAVE II), COVID-19 Clinical Information Network (CO-CIN)' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Early Pandemic Evaluation and Enhanced Surveillance of COVID-19 (EAVE II), COVID-19 Clinical Information Network (CO-CIN)' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -6688,74 +6755,6 @@
     ]
   },
   {
-    "id": "31e377bf-7c6c-4bc0-95f4-a4626cfa5807",
-    "publisher": "ALLIANCE > NHS Scotland",
-    "title": "RAPID (Hospital Stay Level Data)",
-    "schema_error_count": 15,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Weekly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "32b5d90f-6bad-40f8-96d7-69b11df6d5ff",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "LBIH Biobank",
@@ -7185,6 +7184,55 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'In Progress' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "380cbddb-e64e-42b9-a364-47c550262b6a",
+    "publisher": "ALLIANCE > NHS Scotland",
+    "title": "RAPID (Hospital Stay Level Data)",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: '\"https://www.isdscotland.org/Products-and-Services/eDRIS/COVID-19/\"' is not valid under any of the given schemas",
+        "suberrors": "    type: '\"https://www.isdscotland.org/Products-and-Services/eDRIS/COVID-19/\"' is not of type 'array'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS SCOTLAND DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Weekly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11527,61 +11575,6 @@
     ]
   },
   {
-    "id": "5f3d5f41-db25-4e93-b938-76ba07e84a8d",
-    "publisher": "ALLIANCE > SCOTLAND",
-    "title": "Maternity Inpatient and Day Case - Scottish Morbidity Record (SMR02)",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'https://www.isdscotland.org/Products-and-Services/eDRIS/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not valid under any of the given schemas",
-        "suberrors": "    type: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/' is not valid under any of the given schemas",
-        "suberrors": "    type: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Scotland' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'UK Biobank' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'UK Biobank' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Provisional data: Monthly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'Not avaliable' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "600be397-211b-4f65-9f82-e85f4393fb8a",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Maternity and Perinatal Audit Organisational Survey 2019",
@@ -12892,48 +12885,6 @@
     ]
   },
   {
-    "id": "6ab4e273-0799-4f67-929d-d1b07e68b1f4",
-    "publisher": "ALLIANCE > SCOTLAND",
-    "title": "National Records of Scotland (NRS) - Deaths Data",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'HTTPS://WWW.ISDSCOTLAND.ORG/PRODUCTS-AND-SERVICES/EDRIS/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not valid under any of the given schemas",
-        "suberrors": "    type: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Scotland' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'UK Biobank,Scottish Longitudinal Study,Scottish Ethnicity Linkage (SHeLS) Project,Million Women Study' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'UK Biobank,Scottish Longitudinal Study,Scottish Ethnicity Linkage (SHeLS) Project,Million Women Study' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVALIABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "6b41863d-690e-492e-8034-303d56f12f22",
     "publisher": "ALLIANCE > RCGP",
     "title": "The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database",
@@ -14042,78 +13993,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
-    "id": "78b4e352-a47f-4b45-aeb8-32eeb49e59df",
-    "publisher": "ALLIANCE > ISARIC 4C",
-    "title": "COVID-19 Clinical Information Network (CO-CIN)",
-    "schema_error_count": 16,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
       }
     ]
   },
@@ -15352,6 +15231,52 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "824e20d9-217a-4028-bb49-91164edcca00",
+    "publisher": "ALLIANCE > SCOTLAND",
+    "title": "Maternity Inpatient and Day Case - Scottish Morbidity Record (SMR02)",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS SCOTLAND DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS SCOTLAND NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS SCOTLAND NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Scotland' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'UK Biobank' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'UK Biobank' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -18657,6 +18582,50 @@
     ]
   },
   {
+    "id": "9a150924-8ade-40fa-8b36-44077fe0ac64",
+    "publisher": "ALLIANCE > ISARIC 4C",
+    "title": "COVID-19 Clinical Information Network (CO-CIN)",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-4 WEEKS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'UK' is not a 'uri'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'PLASMA,SERUM,SWABS,URINE,WHOLE BLOOD,OTHER' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "9a4ef776-6b4b-40cd-9c88-cbf1128780e9",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Bowel Cancer Audit - clinical dataset",
@@ -19988,6 +19957,51 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'Serum, Tissue' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "a3b9cfd3-abd1-4d18-99cc-360cd9d543c2",
+    "publisher": "ALLIANCE > SCOTLAND",
+    "title": "ECOSS (-/+VE tested patients only)",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Early Pandemic Evaluation and Enhanced Surveillance of COVID-19 (EAVE II) , COVID-19 Clinical Information Network (CO-CIN)' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Early Pandemic Evaluation and Enhanced Surveillance of COVID-19 (EAVE II) , COVID-19 Clinical Information Network (CO-CIN)' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -23639,82 +23653,6 @@
     ]
   },
   {
-    "id": "c415b97f-4dd8-4330-b682-bc76b1bbaab4",
-    "publisher": "ALLIANCE > SCOTLAND",
-    "title": "ECOSS (-/+VE tested patients only)",
-    "schema_error_count": 17,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "c43363e5-a2cd-4990-a425-733dfe559a4f",
     "publisher": "HUBS > BREATHE",
     "title": "UK BiLEVE Consortium Dataset",
@@ -25845,6 +25783,52 @@
     ]
   },
   {
+    "id": "d8043751-28d6-4cfe-b860-757e592ab3cb",
+    "publisher": "ALLIANCE > SCOTLAND",
+    "title": "Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS SCOTLAND DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS SCOTLAND NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS SCOTLAND NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'The Outpatient Attendance dataset covers all people offered a new or follow up outpatient appointment at a Scottish NHS hospital.' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'UK Biobank,Scottish Longitudinal Study' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'UK Biobank,Scottish Longitudinal Study' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "d90830f4-5aaa-4075-8c8d-839627224d16",
     "publisher": "ALLIANCE > CPRD",
     "title": "Cancer Patient Experience Survey (CPES) for CPRD Aurum",
@@ -26781,6 +26765,43 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available upon request' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available upon request' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "e61fce14-617d-4f7b-80aa-468d94c6d897",
+    "publisher": "ALLIANCE > SCOTLAND",
+    "title": "National Records of Scotland (NRS) - Deaths Data",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Scotland' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'UK Biobank,Scottish Longitudinal Study,Scottish Ethnicity Linkage (SHeLS) Project,Million Women Study' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'UK Biobank,Scottish Longitudinal Study,Scottish Ethnicity Linkage (SHeLS) Project,Million Women Study' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -29280,61 +29301,6 @@
         "attribute": "accessRights",
         "message": "accessRights: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.nicor.org.uk/for-researchers/data-sharing-application-process/' is not valid under any of the given schemas",
         "suberrors": "    type: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.nicor.org.uk/for-researchers/data-sharing-application-process/' is not of type 'array'"
-      }
-    ]
-  },
-  {
-    "id": "fb0e3d82-dcdb-4854-bdf5-99f03514a083",
-    "publisher": "ALLIANCE > SCOTLAND",
-    "title": "Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'https://www.isdscotland.org/Products-and-Services/eDRIS/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not valid under any of the given schemas",
-        "suberrors": "    type: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/index.asp' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/index.asp' is not valid under any of the given schemas",
-        "suberrors": "    type: 'https://www.ndc.scot.nhs.uk/Dictionary-A-Z/index.asp' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'The Outpatient Attendance dataset covers all people offered a new or follow up outpatient appointment at a Scottish NHS hospital.' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'UK Biobank, Scottish Longitudinal Study' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'UK Biobank, Scottish Longitudinal Study' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Provisional Data: Monthly.' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'Not avaliable' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },

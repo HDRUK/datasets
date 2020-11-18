@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (530)
+## HDR UK Datasets (531)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -188,7 +188,8 @@ This repo automatically collects the datasets published on the Gateway including
 ### GUT REACTION (1)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/97ddd990-f47a-40f5-9178-cbf742e4c613)
 
-### HBS (3)
+### HBS (4)
+- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/1f9d9f96-df18-4660-9c96-d5318cd0d68e)
 - [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/3e8de4f3-ee1e-4898-a945-0487586c6767)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/8799e97b-bf13-407b-93bd-e96c8c4eb75f)
@@ -300,7 +301,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [UHB Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/94351432-da7e-4d44-97eb-4359d45e0240)
 
 ### ISARIC 4C (1)
-- [COVID-19 Clinical Information Network (CO-CIN)](https://web.www.healthdatagateway.org/dataset/78b4e352-a47f-4b45-aeb8-32eeb49e59df)
+- [COVID-19 Clinical Information Network (CO-CIN)](https://web.www.healthdatagateway.org/dataset/9a150924-8ade-40fa-8b36-44077fe0ac64)
 
 ### LEICESTER (3)
 - [The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease](https://web.www.healthdatagateway.org/dataset/05ade19c-75f5-4623-ade6-99fb21c2d4e3)
@@ -362,7 +363,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/c720c89a-b2c6-4cd6-b606-df34ff22b1c8)
 
 ### NHS Scotland (2)
-- [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/31e377bf-7c6c-4bc0-95f4-a4626cfa5807)
+- [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/380cbddb-e64e-42b9-a364-47c550262b6a)
 - [NHS Scotland General Practice (GP) Contact Data - Subset](https://web.www.healthdatagateway.org/dataset/a021f150-41e6-48c3-807c-a0cefa4cb2c2)
 
 ### NHSX (1)
@@ -492,27 +493,27 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### SCOTLAND (22)
 - [Prescribing Information System (PIS)](https://web.www.healthdatagateway.org/dataset/0b794715-53f3-422f-817a-92be3392c735)
-- [General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)](https://web.www.healthdatagateway.org/dataset/110008b0-4c70-4e84-bce0-189d3601e305)
 - [Unscheduled Care Datamart](https://web.www.healthdatagateway.org/dataset/117aa9f5-db76-48f9-9dd2-19e2d00a1b45)
 - [Child Health Systems Programme - First Visit](https://web.www.healthdatagateway.org/dataset/12d23c2c-5f35-4f59-80e3-584636c7cacb)
+- [General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)](https://web.www.healthdatagateway.org/dataset/2537007c-9e9e-4441-a0d1-59fa400566c5)
 - [Scottish Stillbirth and Infant Death Survey](https://web.www.healthdatagateway.org/dataset/2b06afa3-dfc7-424b-8b9a-9325df6cfc19)
 - [Scottish Cancer Registry (SMR06)](https://web.www.healthdatagateway.org/dataset/4481aab8-9b4f-43dd-9cd4-1e427561a2a5)
 - [Child Health Systems Programme - School](https://web.www.healthdatagateway.org/dataset/4660884b-e40a-4251-ad19-40872641fa8c)
 - [Scottish Birth Record (SBR)](https://web.www.healthdatagateway.org/dataset/4c1f6594-9ade-4e24-8e44-af9ecb73e231)
 - [Child Health Systems Programme - 27-30Months Review](https://web.www.healthdatagateway.org/dataset/4f721a52-b3cd-4594-9099-5185f80832c7)
 - [Scotland Accident and Emergency](https://web.www.healthdatagateway.org/dataset/5cffe432-21f9-44ba-b0fc-a6200115c21c)
-- [Maternity Inpatient and Day Case - Scottish Morbidity Record (SMR02)](https://web.www.healthdatagateway.org/dataset/5f3d5f41-db25-4e93-b938-76ba07e84a8d)
 - [Child Health Systems Programme - 13-15 Month Review](https://web.www.healthdatagateway.org/dataset/60a303b6-1ebf-466e-ab5c-db92ca7a13c4)
-- [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/6ab4e273-0799-4f67-929d-d1b07e68b1f4)
 - [National Records of Scotland (NRS) - Births Data](https://web.www.healthdatagateway.org/dataset/7db1c8bd-8d99-4189-8510-e6bdb0e19219)
+- [Maternity Inpatient and Day Case - Scottish Morbidity Record (SMR02)](https://web.www.healthdatagateway.org/dataset/824e20d9-217a-4028-bb49-91164edcca00)
 - [Child Health Systems Programme - 6-8week review](https://web.www.healthdatagateway.org/dataset/86b39921-f0d4-42be-8236-1808c215c06b)
 - [National Records of Scotland (NRS) - Stillbirth Data](https://web.www.healthdatagateway.org/dataset/9328f206-db9a-4feb-9012-deab80cafd2e)
 - [GP Out of Hours](https://web.www.healthdatagateway.org/dataset/98babf8f-a557-410a-9075-640db283c9a3)
 - [Child Health Systems Programme - 4-5 year review](https://web.www.healthdatagateway.org/dataset/995c0f8d-f5ef-470a-8ffe-6bdb956bdbc0)
+- [ECOSS (-/+VE tested patients only)](https://web.www.healthdatagateway.org/dataset/a3b9cfd3-abd1-4d18-99cc-360cd9d543c2)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/bfc6e7c5-a81b-4fe2-95b5-d108a48d7d67)
-- [ECOSS (-/+VE tested patients only)](https://web.www.healthdatagateway.org/dataset/c415b97f-4dd8-4330-b682-bc76b1bbaab4)
+- [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/d8043751-28d6-4cfe-b860-757e592ab3cb)
+- [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/e61fce14-617d-4f7b-80aa-468d94c6d897)
 - [Scottish Immunisation Recall System (SIRS)](https://web.www.healthdatagateway.org/dataset/e9d504fc-4b61-4419-a400-ffda998fc377)
-- [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/fb0e3d82-dcdb-4854-bdf5-99f03514a083)
 
 ### South London and Maudsley NHS Trust (1)
 - [South London and Maudsley NHS Foundation Trust (SLaM) Clinical Record Interactive Search (CRIS) platform](https://web.www.healthdatagateway.org/dataset/21cd4b8e-f4f5-44a6-83eb-b7799e98ba55)
