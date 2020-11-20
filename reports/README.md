@@ -44,11 +44,11 @@ Based on (weighted)/quality score
 
 | (Weighted)/Quality Score | Rating |
 | --- | --- |
-| < 50 | Not rated |
-| >50 & <= 70 | Bronze |
-| - >70 & <=80|  Silver |
-| >80 & <=90 | Gold |
-| >90 | Platinum |
+| < 66 | Not rated |
+| >66 & <= 76 | Bronze |
+| - >76 & <=86|  Silver |
+| >86 | Gold |
+|  | Platinum |
 
 ## How to modify weights
 
