@@ -13,8 +13,7 @@ import copy
 from jsonschema import validate, Draft7Validator, FormatChecker, draft7_format_checker
 
 DATASET_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/dataset.schema.json'
-DATASETS_JSON = 'https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json'
-BASELINE_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
+DATASETS_JSON = 'datasets.json'
 
 REPORTING_ATTRIBUTES = {
     "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
@@ -36,24 +35,6 @@ REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
 
 TM_NAME_LEN = 2
 TM_DESC_LEN = 6
-
-REPORTING_ATTRIBUTES = {
-    "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
-    "B: Business": ["description", "releaseDate", "accessRequestCost", "accessRequestDuration", "dataController",
-                    "dataProcessor", "license", "usageRestriction", "derivedDatasets", "linkedDataset"],
-    "C: Coverage & Detail": ["geographicCoverage", "periodicity", "datasetEndDate", "datasetStartDate",
-                             "jurisdiction", "populationType", "statisticalPopulation", "ageBand",
-                             "physicalSampleAvailability", "keywords"],
-    "D: Format & Structure": ["conformsTo", "controlledVocabulary", "language", "format", "fileSize"],
-    "E: Attribution": ["creator", "citations", "doi"],
-    "F: Technical Metadata": ["dataClassesCount", "tableName", "tableDescription", "columnName", "columnDescription",
-                              "dataType", "sensitive"],
-    "G: Other Metadata": ["usageRestriction", "purpose", "source", "setting", "accessEnvironment",
-                          "linkageOpportunity", "disambiguatingDescription"],
-}
-
-REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
-                    "D: Format & Structure", "E: Attribution", "F: Technical Metadata"]
 
 
 def get_json(json_uri):
@@ -463,7 +444,7 @@ def flatten_reporting_dict(data_models):
 
 
 def main():
-    validate_schema(DATASET_SCHEMA, BASELINE_SCHEMA)
+    # validate_schema(DATASET_SCHEMA, BASELINE_SCHEMA)
 
     # read in datasets
     data_models = import_dm_tm(DATASETS_JSON)

@@ -10,280 +10,307 @@
     "abstract",
     "publisher",
     "contactPoint",
+    "description",
+    "geographicCoverage",
+    "ageBand",
+    "physicalSampleAvailability",
+    "periodicity",
+    "startDate",
+    "usageRestrictions",
+    "license",
+    "creator",
     "accessRights",
+    "accessRequestCost",
     "dataController",
     "jurisdiction",
-    "keywords"
+    "keywords",
+    "conformsTo",
+    "language",
+    "format",
+    "populationType",
+    "statisticalPopulation"
   ],
   "additionalProperties": true,
   "properties": {
     "id": {
-      "$id": "#/properties/id",
-      "type": "string",
-      "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",
-      "minLength": 36,
-      "maxLength": 36,
-      "title": "Dataset identifier",
-      "description": "Dataset identifier"
-    },
-    "identifier": {
       "$id": "#/properties/identifier",
-      "$comment": "FIX SPEC: Conforms to spec, but this MAY be an array of strings. FIXME: Rename to local identifier",
+      "title": "Dataset identifier",
+      "$comment": "http://purl.org/dc/terms/identifier",
+      "examples": [
+        [
+          "226fb3f1-4471-400a-8c39-2b66d46a39b6"
+        ]
+      ],
+      "description": "System dataset identifier",
       "anyOf": [
         {
-          "type": "string"
+          "$ref": "#/definitions/uuidv4"
         },
         {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "$ref": "#/definitions/url"
         }
-      ],
-      "title": "Local dataset identifier",
-      "description": "Local dataset identifier"
+      ]
     },
     "title": {
       "$id": "#/properties/title",
-      "type": "string",
-      "minLength": 2,
-      "maxLength": 80,
-      "title": "Dataset title",
-      "description": "Name of the dataset limited to 80 characters. It should provide a short description of the dataset and be unique across the gateway. If your title is not unique, please add a prefix with your organisation name or identifier to differentiate it from other datasets within the Gateway. Please avoid acronyms wherever possible. Good titles should summarise the content of the dataset and if relevant, the region the dataset covers."
+      "$comment": "dct:title. title is reserved word in json schema",
+      "title": "Title",
+      "description": "Title of the dataset limited to 80 characters. It should provide a short description of the dataset and be unique across the gateway. If your title is not unique, please add a prefix with your organisation name or identifier to differentiate it from other datasets within the Gateway. Please avoid acronyms wherever possible. Good titles should summarise the content of the dataset and if relevant, the region the dataset covers.",
+      "examples": [
+        [
+          "North West London COVID-19 Patient Level Situation Report"
+        ]
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/eightyCharacters"
+        }
+      ]
     },
     "abstract": {
       "$id": "#/properties/abstract",
-      "type": "string",
-      "minLength": 5,
-      "maxLength": 255,
-      "title": "Dataset abstract",
-      "description": "Provide a clear and brief descriptive signpost for researchers who are searching for data that may be relevant to their research. The abstract should allow the reader to determine the scope of the data collection and accurately summarise its content. The optimal length is one paragraph (limited to 255 characters) and effective abstracts should avoid long sentences and abbreviations where possible"
+      "title": "Dataset Abstract",
+      "description": "Provide a clear and brief descriptive signpost for researchers who are searching for data that may be relevant to their research. The abstract should allow the reader to determine the scope of the data collection and accurately summarise its content. The optimal length is one paragraph (limited to 255 characters) and effective abstracts should avoid long sentences and abbreviations where possible",
+      "$comment": "dct:abstract",
+      "examples": [
+        "CPRD Aurum contains primary care data contributed by General Practitioner (GP) practices using EMIS Web® including patient registration information and all care events that GPs have chosen to record as part of their usual medical practice."
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/abstractText"
+        }
+      ]
     },
     "publisher": {
       "$id": "#/properties/publisher",
-      "$comment": "Conforms to spec, but this MAY be an an object of organisation",
-      "type": "string",
-      "minLength": 2,
-      "maxLength": 80,
-      "title": "Dataset publisher",
-      "description": "This is the organisation responsible for running or supporting the data access request process, as well as publishing and maintaining the metadata. In most this will be the same as the HDR UK Organisation (Hub or Alliance Member). However, in some cases this will be different i.e. Tissue Directory are an HDR UK Gateway organisation but coordinate activities across a number of data publishers i.e. Cambridge Blood and Stem Cell Biobank."
+      "title": "Organisation Name",
+      "description": "Name of the organisation",
+      "$comment": "https://schema.org/name",
+      "allOf": [
+        {
+          "$ref": "#/definitions/eightyCharacters"
+        }
+      ]
     },
     "contactPoint": {
       "$id": "#/properties/contactPoint",
-      "type": "string",
-      "format": "email",
-      "title": "The contactPoint schema",
-      "description": "An explanation about the purpose of this instance."
+      "title": "Contact Point",
+      "$comment": "dcat:contactPoint",
+      "default": "Defaulted to the contact point of the primary organisation of the user however, can be overridden for specific datasets",
+      "examples": [
+        "SAILDatabank@swansea.ac.uk"
+      ],
+      "description": "Please provide a valid email address that can be used to coordinate data access requests with the publisher. Organisations are expected to provide a dedicated email address associated with the data access request process. Notes: An employee’s email address can only be provided on a temporary basis and if one is provided an explicit consent must be obtained for this purpose.",
+      "allOf": [
+        {
+          "$ref": "#/definitions/emailAddress"
+        }
+      ]
     },
     "accessRights": {
       "$id": "#/properties/accessRights",
-      "$comment": "FIXME: Conforms to spec, but this SHOULD be an array or URIs as cardinality is 1:*",
+      "title": "Organisation Default Access Rights",
+      "$comment": "dct:access_rights",
+      "description": "The URL of a webpage where the data access request process and/or guidance is provided. If there is more than one access process i.e. industry vs academic please provide both.",
       "anyOf": [
         {
-          "type": "string",
-          "pattern": "^In Progress$"
-        },
-        {
-          "type": "string",
-          "format": "uri"
+          "$ref": "#/definitions/url"
         },
         {
           "type": "array",
           "items": {
-            "type": "string",
-            "format": "uri"
+            "$ref": "#/definitions/url"
           }
         }
-      ],
-      "title": "The accessRights schema",
-      "description": "The URL of a webpage where the data access request process and/or guidance is provided. If there is more than one access process i.e. industry vs academic please provide both. If such a resource or the underlying process doesn’t exist, please provide “In Progress”, until both the process and the documentation are ready."
+      ]
     },
     "group": {
       "$id": "#/properties/group",
-      "$comment": "Conforms to spec, but this MAY be an array of groups",
-      "type": "string",
-      "title": "The group schema",
-      "description": "An explanation about the purpose of this instance."
+      "title": "Group",
+      "$comment": "https://schema.org/isPartOf NOTE: we may make Groups first class citizens so the are navigable",
+      "default": "NOT APPLICABLE",
+      "examples": [
+        "Hospital Episodes Statistics datasets (A&E, APC, OP, AC MSDS)."
+      ],
+      "description": "Please complete only if the dataset is part of a group or family",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/commaSeparatedValues"
+        },
+        {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/url"
+              },
+              {
+                "$ref": "#/definitions/eightyCharacters"
+              },
+              {
+                "type": "string",
+                "enum": [
+                  "NOT APPLICABLE"
+                ]
+              }
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      ]
     },
     "description": {
       "$id": "#/properties/description",
-      "anyOf": [
+      "title": "Description",
+      "$comment": "dc:description, https://schema.org/description",
+      "description": "A free-text description of the record.",
+      "allOf": [
         {
-          "type": "string",
-          "minLength": 5,
-          "maxLength": 50000
-        },
-        {
-          "type": "string",
-          "format": "uri"
+          "$ref": "#/definitions/description"
         }
-      ],
-      "title": "The description schema",
-      "description": "A free-text account of the record. An html account of the data that provides context and scope of the data (limited to 50,000 characters) and/or a resolvable URL that describes the dataset."
+      ]
     },
     "media": {
       "$id": "#/properties/media",
-      "$comment": "FIXME: Conforms to spec, but this SHOULD to be an array of URIs as cardinality 0:*",
+      "title": "Associated Media",
+      "$comment": "https://schema.org/associatedMedia",
+      "examples": [
+        "PDF Document that describes study protocol"
+      ],
+      "description": "Please provide any media associated with the Gateway Organisation using a valid URI for the content. This is an opportunity to provide additional context that could be useful for researchers wanting to understand more about the dataset and its relevance to their research question. The following formats will be accepted .jpg, .png or .svg, .pdf, .xslx or .docx. Note: media asset can be hosted by the organisation or uploaded using the onboarding portal.",
       "anyOf": [
         {
-          "type": "string",
-          "format": "uri"
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
           "items": {
-            "type": "string",
-            "format": "uri"
-          }
+            "allOf": [
+              {
+                "$ref": "#/definitions/url"
+              }
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
         }
-      ],
-      "title": "The media schema",
-      "description": "Please provide any media associated with the Gateway Organisation using a valid URI. This is an opportunity to provide additional context that could be useful for researchers wanting to undestand more about the dataset and its relevance to their research question. The following formats will be accepted .jpg, .png or .svg, .pdf, .xslx or .docx."
+      ]
     },
     "purpose": {
       "$id": "#/properties/purpose",
-      "$comment": "FIXME: Mandatory, but cardinality 0:* Possibly deprecate.",
+      "title": "Purpose",
+      "$comment": "https://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema/FieldLevelDocumentation/",
+      "description": "Pleases indicate the purpose(s) that the dataset was collected.",
       "anyOf": [
         {
-          "type": "string",
-          "enum": [
-            "Study",
-            "Disease Registry",
-            "Trial",
-            "Care",
-            "Audit",
-            "Administrative",
-            "Financial"
-          ]
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "Study",
-              "Disease Registry",
-              "Trial",
-              "Care",
-              "Audit",
-              "Administrative",
-              "Financial"
-            ]
-          }
+          "items": [
+            {
+              "$ref": "#/definitions/purpose"
+            }
+          ],
+          "uniqueItems": true,
+          "minItems": 1
         }
-      ],
-      "title": "The purpose schema",
-      "description": "Pleases indicate the purpose(s) that the dataset was collected. Multiple purposes may be provided"
+      ]
     },
     "source": {
       "$id": "#/properties/source",
-      "$comment": "FIXME: Mandatory, but cardinality 0:* Possibly deprecate.",
+      "title": "Source",
+      "$comment": "https://dublincore.org/specifications/dublin-core/dcmi-terms/#source",
+      "description": "Pleases indicate the source of the data extraction",
       "anyOf": [
         {
-          "type": "string",
-          "enum": [
-            "Epr",
-            "Electronic Survey",
-            "Lims",
-            "Paper Based",
-            "Freetext Nlp",
-            "Machine Generated"
-          ]
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "Epr",
-              "Electronic Survey",
-              "Lims",
-              "Paper Based",
-              "Freetext Nlp",
-              "Machine Generated"
-            ]
-          }
+          "items": [
+            {
+              "$ref": "#/definitions/source"
+            }
+          ],
+          "uniqueItems": true,
+          "minItems": 1
         }
-      ],
-      "title": "The source schema",
-      "description": "Pleases indicate the source(s) that the dataset was collected. Multiple source(s) may be provided"
+      ]
     },
     "setting": {
       "$id": "#/properties/setting",
-      "$comment": "FIXME: Mandatory, but cardinality 0:*. Possibly deprecate.",
+      "title": "Setting",
+      "$comment": "https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/",
+      "description": "Pleases indicate the setting(s) where data was collected. Multiple settings may be provided",
       "anyOf": [
         {
-          "type": "string",
-          "enum": [
-            "Clinic",
-            "Primary Care",
-            "Accident and Emergency",
-            "Outpatients",
-            "In-Patients",
-            "Services",
-            "Community",
-            "Home",
-            "Private",
-            "Pharmacy"
-          ]
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "Clinic",
-              "Primary Care",
-              "Accident and Emergency",
-              "Outpatients",
-              "In-Patients",
-              "Services",
-              "Community",
-              "Home",
-              "Private",
-              "Pharmacy"
-            ]
-          }
+          "items": [
+            {
+              "$ref": "#/definitions/setting"
+            }
+          ],
+          "uniqueItems": true,
+          "minItems": 1
         }
-      ],
-      "title": "The setting schema",
-      "description": "Pleases indicate the setting(s) where data was collected. Multiple settings may be provided."
+      ]
     },
     "releaseDate": {
       "$id": "#/properties/releaseDate",
-      "type": "string",
-      "format": "date-time",
-      "title": "The releaseDate schema",
-      "description": "An explanation about the purpose of this instance."
+      "title": "Release Date",
+      "$comment": "dcat:distribution_release_date",
+      "description": "Date of the latest release of the dataset. If this is a regular release i.e. quarterly, or this is a static dataset please complete this alongside Periodicity. If this is Irregular or Continuously released please leave this blank. Notes: Periodicity and release date will be used to determine when the next release is expected. E.g. if the release date is documented as 01/01/2020 and it is now 20/04/2020 and there is a quarterly release schedule, the latest release will be calculated as 01/04/2020.",
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "string",
+          "format": "date-time"
+        }
+      ]
     },
     "accessRequestCost": {
       "$id": "#/properties/accessRequestCost",
-      "type": "string",
-      "title": "The accessRequestCost schema",
-      "description": "An explanation about the purpose of this instance."
+      "title": "Organisation Access Request Cost",
+      "$comment": "No standard identified",
+      "description": "Please provide link(s) to a webpage detailing the commercial model for processing data access requests for the organisation (if available) Definition: Indication of commercial model or cost (in GBP) for processing each data access request by the data custodian.",
+      "allOf": [
+        {
+          "$ref": "#/definitions/longDescription"
+        }
+      ]
     },
     "accessRequestDuration": {
       "$id": "#/properties/accessRequestDuration",
-      "type": "string",
-      "enum": [
-        "<1 Week",
-        "1-2 Weeks",
-        "2-4 Weeks",
-        "1-2 Months",
-        "2-6 Months",
-        ">6 Months",
-        "Other"
-      ],
-      "title": "The accessRequestDuration schema",
-      "description": "Please provide an indication of the typical processing times based on the types of requests typically received."
+      "title": "Access Request Duration",
+      "$comment": "https://schema.org/deliveryLeadTime",
+      "description": "Please provide an indication of the typical processing times based on the types of requests typically received.",
+      "allOf": [
+        {
+          "$ref": "#/definitions/deliveryLeadTime"
+        }
+      ]
     },
     "accessEnvironment": {
       "$id": "#/properties/accessEnvironment",
-      "type": "string",
-      "minLength": 5,
-      "maxLength": 5000,
-      "title": "The accessEnvironment schema",
-      "description": "Please provide a brief description of the data access environment that is currently available to researchers."
+      "title": "Organisation Access Service",
+      "$comment": "dcat:accessService",
+      "examples": [
+        "https://cnfl.extge.co.uk/display/GERE/Research+Environment+User+Guide"
+      ],
+      "description": "Please provide a brief description of the data access services that are available including: environment that is currently available to researchers;additional consultancy and services;any indication of costs associated. If no environment is currently available, please indicate the current plans and timelines when and how data will be made available to researchers Note: This value will be used as default access environment for all datasets submitted by the organisation. However, there will be the opportunity to overwrite this value for each dataset.",
+      "allOf": [
+        {
+          "$ref": "#/definitions/longDescription"
+        }
+      ]
     },
     "usageRestrictions": {
       "$id": "#/properties/usageRestrictions",
@@ -306,29 +333,25 @@
     },
     "dataController": {
       "$id": "#/properties/dataController",
-      "type": "string",
-      "minLength": 5,
-      "maxLength": 5000,
-      "title": "The dataController schema",
-      "description": "Data Controller means a person/entity who (either alone or jointly or in common with other persons/entities) determines the purposes for which and the way any Data Subject data, specifically personal data or are to be processed."
+      "title": "Data Controller",
+      "$comment": " dpv:DataController",
+      "description": "Data Controller means a person/entity who (either alone or jointly or in common with other persons/entities) determines the purposes for which and the way any Data Subject data, specifically personal data or are to be processed.",
+      "allOf": [
+        {
+          "$ref": "#/definitions/longDescription"
+        }
+      ]
     },
     "dataProcessor": {
       "$id": "#/properties/dataProcessor",
-      "anyOf": [
+      "title": "Data Processor",
+      "$comment": "dpv:DataProcessor",
+      "description": "A Data Processor, in relation to any Data Subject data, specifically personal data, means any person/entity (other than an employee of the data controller) who processes the data on behalf of the data controller.",
+      "allOf": [
         {
-          "type": "string",
-          "minLength": 5,
-          "maxLength": 5000
-        },
-        {
-          "type": "string",
-          "enum": [
-            "Not Applicable"
-          ]
+          "$ref": "#/definitions/longDescription"
         }
-      ],
-      "title": "The dataProcessor schema",
-      "description": "A Data Processor, in relation to any Data Subject data, specifically personal data, means any person/entity (other than an employee of the data controller) who processes the data on behalf of the data controller."
+      ]
     },
     "license": {
       "$id": "#/properties/license",
@@ -338,55 +361,44 @@
     },
     "derivedDatasets": {
       "$id": "#/properties/derivedDatasets",
-      "$comment": "FIXME: Conforms to spec, but this SHOULD to be an array of datasets as cardinality 0:*",
+      "$comment": "prov:Derivation",
+      "description": "Indicate if derived datasets or predefined extracts are available and the type of derivation available. Notes. Single or multiple dimensions can be provided as a derived extract alongside the dataset.",
       "anyOf": [
         {
-          "type": "string",
-          "format": "uri"
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
           "items": {
-            "type": "string",
-            "format": "uri"
+            "allOf": [
+              {
+                "$ref": "#/definitions/abstractText"
+              }
+            ]
           }
-        },
-        {
-          "type": "string",
-          "enum": [
-            "Not Known",
-            "Not Available"
-          ]
         }
-      ],
-      "title": "The derivedDatasets schema",
-      "description": "Indicate if derived datasets or predefined extracts are available and the type of derivation available."
+      ]
     },
     "linkedDataset": {
       "$id": "#/properties/linkedDataset",
-      "$comment": "FIXME: If linked $title must start with 'Linked'. FIXME: Conforms to spec, but this SHOULD to be an array of datasets as cardinality 0:*",
+      "title": "Linked Datasets",
+      "$comment": "dcat:qualifiedRelation",
+      "description": "If applicable, please provide the DOI of other datasets that have previously been linked to this dataset and their availability. If no DOI is available, please provide the title of the datasets that can be linked, where possible using the same title of a dataset previously onboarded to the HOP. Note: If all the datasets from Gateway organisation can be linked please indicate “ALL” and the onboarding portal will automate linkage across the datasets submitted.",
       "anyOf": [
         {
-          "type": "string",
-          "format": "uri"
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
           "items": {
-            "type": "string",
-            "format": "uri"
+            "allOf": [
+              {
+                "$ref": "#/definitions/url"
+              }
+            ]
           }
-        },
-        {
-          "type": "string",
-          "enum": [
-            "Not Known",
-            "Not Available"
-          ]
         }
-      ],
-      "title": "The linkedDataset schema",
-      "description": "If applicable, please provide the DOI of other datasets that have previously been linked to this dataset and their availability. If no DOI is available, please provide the title of the datasets that can be linked, where possible using the same title of a dataset previously onboarded."
+      ]
     },
     "linkageOpportunity": {
       "$id": "#/properties/linkageOpportunity",
@@ -408,55 +420,89 @@
     },
     "geographicCoverage": {
       "$id": "#/properties/geographicCoverage",
-      "$comment": "FIXME: Update to geoname pattern",
-      "type": "string",
-      "format": "uri",
-      "title": "The geographicCoverage schema",
-      "description": "The geographical area covered by the dataset.",
-      "default": "",
+      "title": "Geographic Coverage",
+      "$comment": "dct:spatial",
+      "description": "The geographical area covered by the dataset. It is recommended that links are to entries in a well-maintained gazetteer such as https://www.geonames.org/ or https://what3words.com/daring.lion.race.",
       "examples": [
-        "GB"
+        "https://www.geonames.org/2635167/united-kingdom-of-great-britain-and-northern-ireland.html"
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/url"
+        }
       ]
     },
     "periodicity": {
       "$id": "#/properties/periodicity",
-      "type": "string",
-      "enum": [
-        "Static",
-        "Annual",
-        "Biennial",
-        "Quaterly",
-        "Bimonthly",
-        "Monthly",
-        "Biweekly",
-        "Daily",
-        "Irregular",
-        "Continious"
-      ],
-      "title": "The periodicity schema",
-      "description": "The frequency at which dataset is published."
+      "title": "Periodicity",
+      "$comment": "dct:accrualPeriodicity",
+      "default": "",
+      "description": "Please indicate the frequency of publishing. If a dataset is published regularly please choose a publishing periodicity from the constrained list and indicate the next release date. When the release date becomes historical, a new release date will be calculated based on the publishing periodicity. If a dataset has been published and will remain static please indicate that it is static and indicated when it was released. If a dataset is released on an irregular basis or “on-demand” please indicate that it is Irregular and leave release date as null. If a dataset can be published in real-time or near-real-time please indicate that it is continuous and leave release date as null. Notes: see https://www.dublincore.org/specifications/dublin-core/collection-description/frequency/",
+      "allOf": [
+        {
+          "$ref": "#/definitions/periodicity"
+        }
+      ]
     },
     "datasetEndDate": {
       "$id": "#/properties/datasetEndDate",
-      "type": "string",
-      "format": "date",
-      "title": "The datasetEndDate schema",
-      "description": "The end of the time period that the dataset provides coverage for."
+      "title": "End Date",
+      "$comment": "dcat:endDate",
+      "description": "The end of the time period that the dataset provides coverage for. If the dataset is “Continuous” and has no known end date, please leave blank. If there are multiple cohorts in the dataset with varying end dates, please provide the latest date and use the description or the media attribute to provide more information.",
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "string",
+          "enum": [
+            "NOT APPLICABLE"
+          ]
+        }
+      ]
     },
     "datasetStartDate": {
       "$id": "#/properties/datasetStartDate",
-      "type": "string",
-      "format": "date",
-      "title": "The datasetStartDate schema",
-      "description": "The start of the time period that the dataset provides coverage for."
+      "title": "Start Date",
+      "$comment": "dcat:startDate",
+      "description": "The start of the time period that the dataset provides coverage for. If there are multiple cohorts in the dataset with varying start dates, please provide the earliest date and use the description or the media attribute to provide more information.",
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "string",
+          "format": "date-time"
+        }
+      ]
     },
     "jurisdiction": {
       "$id": "#/properties/jurisdiction",
-      "$comment": "FIXME: Add ISO 3166-2 Subdivision code pattern",
-      "type": "string",
-      "pattern": "^[A-Z]{2}(-[A-Z]{2,3})?$",
-      "title": "The jurisdiction schema",
-      "description": "Please use country code from ISO 3166-1 country codes and the associated ISO 3166-2 for regions, cities, states etc. for the country/state under whose laws the data subjects’ data is collected, processed and stored."
+      "title": "Jurisdiction",
+      "default": "GB-ENG",
+      "$comment": "http://purl.org/dc/terms/Jurisdiction FIXME: Add ISO 3166-2 Subdivision code pattern",
+      "description": "Please use country code from ISO 3166-1 country codes and the associated ISO 3166-2 for regions, cities, states etc. for the country/state under whose laws the data subjects’ data is collected, processed and stored.",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/commaSeparatedValues"
+        },
+        {
+          "type": "array",
+          "items": {
+            "allOf": [
+              {
+                "$ref": "#/definitions/isocountrycode"
+              }
+            ]
+          }
+        }
+      ]
     },
     "populationType": {
       "$id": "#/properties/populationType",
@@ -502,216 +548,147 @@
     },
     "ageBand": {
       "$id": "#/properties/ageBand",
-      "$comment": "FIXME: Rename MDC response to ageRange according to spec",
-      "type": "string",
-      "pattern": "\\d{1,3}-\\d{1,3}",
-      "title": "The ageBand schema",
-      "description": "Please indicate the age range in whole years of participants in the dataset. Please provide range in the following format ‘[min age] – [max age]’ where both the minimum and maximum are whole numbers (integers)."
+      "title": "Age Range",
+      "$comment": "https://schema.org/typicalAgeRange",
+      "description": "Please indicate the age range in whole years of participants in the dataset. Please provide range in the following format ‘[min age] – [max age]’ where both the minimum and maximum are whole numbers (integers).",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ageRange"
+        }
+      ]
     },
     "physicalSampleAvailability": {
       "$id": "#/properties/physicalSampleAvailability",
-      "type": "string",
-      "enum": [
-        "Not Available",
-        "Bone Marrow",
-        "Cancer Cell Lines",
-        "Core Biopsy",
-        "CDNA/MRNA",
-        "DNA",
-        "Faeces",
-        "Immortalized Cel Lines",
-        "MicroRNA",
-        "Peripheral Blood Cells",
-        "Plasma",
-        "PM Tissue",
-        "Primary Cells",
-        "RNA",
-        "Saliva",
-        "Serum",
-        "Swabs",
-        "Tissue",
-        "Urine",
-        "Whole Blood",
-        "Availability To Be Confirmed"
-      ],
-      "title": "The physicalSampleAvailability schema",
-      "description": "Availability of physical samples associated with the dataset. If samples are available, please indicate the types of samples that are available.",
-      "default": "",
+      "title": "Physical Sample Availability",
+      "$comment": "No standard identified. Used enumeration from the UK Tissue Directory.",
       "examples": [
-        "Not Available"
+        "BONE MARROW"
+      ],
+      "description": "Availability of physical samples associated with the dataset. If samples are available, please indicate the types of samples that are available. More than one type may be provided. If sample are not yet available, please provide “AVAILABILITY TO BE CONFIRMED”. If samples are not available, then please provide “NOT AVAILABLE”.",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/commaSeparatedValues"
+        },
+        {
+          "type": "array",
+          "contains": {
+            "$ref": "#/definitions/physicalSampleAvailability"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
       ]
     },
     "keywords": {
       "$id": "#/properties/keywords",
-      "$comment": "Conforms to spec, but this MAY be an array of strings",
+      "$comment": "dcat:keyword. May be an array of strings or comma seperated list.",
+      "title": "Keywords",
+      "description": "Please provide relevant and specific keywords that can improve the SEO of your dataset as a comma separated list. Notes: Onboarding portal will suggest keywords based on title, abstract and description. We are compiling a standardised list of keywords and synonyms across datasets to make filtering easier for users.",
       "anyOf": [
         {
-          "type": "string",
-          "pattern": "[0-9a-zA-Z._\\-]+(,[0-9a-zA-Z.\\-_]+)*"
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
           "items": {
-            "type": "string",
-            "pattern": "[0-9a-zA-Z._\\-]+(,[0-9a-zA-Z.\\-_]+)*"
-          }
+            "allOf": [
+              {
+                "$ref": "#/definitions/eightyCharacters"
+              }
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
         }
-      ],
-      "type": "string",
-      "pattern": "[0-9a-zA-Z._\\-]+(,[0-9a-zA-Z.\\-_]+)*",
-      "title": "The keywords schema",
-      "description": "An explanation about the purpose of this instance."
+      ]
     },
     "conformsTo": {
       "$id": "#/properties/conformsTo",
-      "type": "string",
-      "enum": [
-        "HL7 FHIR",
-        "HL7 V2",
-        "HL7 CDA",
-        "HL7 CCOW",
-        "LOINC",
-        "DICOM",
-        "I2B2",
-        "IHE",
-        "OMOP",
-        "OPENEHR",
-        "SENTINEL",
-        "PCORNET",
-        "LOCAL",
-        "OTHER"
-      ],
-      "title": "The conformsTo schema",
-      "description": "An explanation about the purpose of this instance."
+      "title": "Conforms To",
+      "$comment": "dct:conformsTo",
+      "default": "LOCAL",
+      "description": "List standardised data models that the dataset has been stored in or transformed to, such as OMOP or FHIR. If the data is only available in a local format, please make that explicit. If you are using a standard that has not been included in the list, please use “other” and contact support desk to ask for an addition.",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/commaSeparatedValues"
+        },
+        {
+          "type": "array",
+          "items": [
+            {
+              "$ref": "#/definitions/standardisedDataModels"
+            }
+          ]
+        }
+      ]
     },
     "controlledVocabulary": {
       "$id": "#/properties/controlledVocabulary",
-      "$comment": "FIXME: Confroms to spec, but MAY be a list of strings",
+      "title": "Controlled Vocabulary",
+      "$comment": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcam/VocabularyEncodingScheme",
+      "default": "LOCAL",
+      "description": "List any relevant terminologies / ontologies / controlled vocabularies, such as ICD 10 Codes, NHS Data Dictionary National Codes or SNOMED CT International, that are being used by the dataset. If the controlled vocabularies are local standards, please make that explicit. If you are using a standard that has not been included in the list, please use “other” and contact support desk to ask for an addition. Notes: More than one vocabulary may be provided.",
       "anyOf": [
         {
-          "type": "string",
-          "enum": [
-            "LOCAL",
-            "OPCS4",
-            "READ",
-            "SNOMED CT",
-            "SNOMED RT",
-            "DM+D",
-            "NHS NATIONAL CODES",
-            "ODS",
-            "LOINC",
-            "ICD10",
-            "ICD10CM",
-            "ICD10PCS",
-            "ICD9CM",
-            "ICD9",
-            "ICDO3",
-            "AMT",
-            "APC",
-            "ATC",
-            "CIEL",
-            "HPO",
-            "CPT4",
-            "DPD",
-            "DRG",
-            "HEMONIC",
-            "JMDC",
-            "KCD7",
-            "MULTUM",
-            "NAACCR",
-            "NDC",
-            "NDFRT",
-            "OXMIS",
-            "RXNORM",
-            "RXNORM EXTENSION",
-            "SPL",
-            "OTHER"
-          ]
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
           "items": {
-            "type": "string",
-            "enum": [
-              "LOCAL",
-              "OPCS4",
-              "READ",
-              "SNOMED CT",
-              "SNOMED RT",
-              "DM+D",
-              "NHS NATIONAL CODES",
-              "ODS",
-              "LOINC",
-              "ICD10",
-              "ICD10CM",
-              "ICD10PCS",
-              "ICD9CM",
-              "ICD9",
-              "ICDO3",
-              "AMT",
-              "APC",
-              "ATC",
-              "CIEL",
-              "HPO",
-              "CPT4",
-              "DPD",
-              "DRG",
-              "HEMONIC",
-              "JMDC",
-              "KCD7",
-              "MULTUM",
-              "NAACCR",
-              "NDC",
-              "NDFRT",
-              "OXMIS",
-              "RXNORM",
-              "RXNORM EXTENSION",
-              "SPL",
-              "OTHER"
+            "allOf": [
+              {
+                "$ref": "#/definitions/controlledVocabulary"
+              }
             ]
-          }
+          },
+          "minItems": 0
         }
-      ],
-      "title": "The controlledVocabulary schema",
-      "description": "List any relevant terminologies / ontologies / controlled vocabularies, such as ICD 10 Codes, NHS Data Dictionary National Codes or SNOMED CT International, that are being used by the dataset.",
-      "default": "",
-      "examples": [
-        "See ConformsTo"
       ]
     },
     "language": {
       "$id": "#/properties/language",
-      "$comment": "FIXME: Conforms to spec, but may be a list of strings given cardinality 1:*. Validate against external list of languages. Resources defined by the Library of Congress (ISO 639-1, ISO 639-2) SHOULD be used.",
+      "title": "Language",
+      "description": "This should list all the languages in which the dataset metadata and underlying data is made available.",
+      "default": "en",
+      "$comment": "dct:language. FIXME: Conforms to spec, but may be a list of strings given cardinality 1:*. Validate against external list of languages. Resources defined by the Library of Congress (ISO 639-1, ISO 639-2) SHOULD be used.",
       "anyOf": [
         {
-          "type": "string"
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
           "items": {
-            "type": "string"
-          }
+            "allOf": [
+              {
+                "$ref": "#/definitions/language"
+              }
+            ]
+          },
+          "minItems": 1
         }
-      ],
-      "title": "The language schema",
-      "description": "This should list all the languages in which the dataset metadata and underlying data is made available."
+      ]
     },
     "format": {
       "$id": "#/properties/format",
-      "$comment": "FIXME: Conforms to spec, but may be a list of strings given cardinality 1:*. Validate against external list of formats, e.g. https://www.iana.org/assignments/media-types/media-types.xhtml",
+      "title": "Format",
+      "description": "If multiple formats are available please specify. See application, audio, image, message, model, multipart, text, video, https://www.iana.org/assignments/media-types/media-types.xhtml Note: If your file format is not included in the current list of formats, please indicate other. If you are using the HOP you will be directed to a service desk page where you can request your additional format. If not please go to: https://metadata.atlassian.net/servicedesk/customer/portal/4 to request your format.",
+      "$comment": "http://purl.org/dc/terms/format",
       "anyOf": [
         {
-          "type": "string"
+          "$ref": "#/definitions/commaSeparatedValues"
         },
         {
           "type": "array",
           "items": {
-            "type": "string"
-          }
+            "allOf": [
+              {
+                "$ref": "#/definitions/format"
+              }
+            ]
+          },
+          "minItems": 1
         }
-      ],
-      "title": "The format schema",
-      "description": "If multiple formats are available please specify."
+      ]
     },
     "fileSize": {
       "$id": "#/properties/fileSize",
@@ -725,49 +702,68 @@
     },
     "creator": {
       "$id": "#/properties/creator",
-      "type": "string",
-      "title": "The creator schema",
-      "description": "Please provide the text that you would like included as part of any citation that credits this dataset. This is typically just the name of the publisher. No employee details should be provided."
+      "title": "Citation Requirements",
+      "$comment": "dct:creator",
+      "description": "Please provide the text that you would like included as part of any citation that credits this dataset. This is typically just the name of the publisher.   No employee details should be provided.",
+      "allOf": [
+        {
+          "$ref": "#/definitions/shortDescription"
+        }
+      ]
     },
     "citations": {
       "$id": "#/properties/citations",
-      "$comment": "FIXME: Conforms to spec, but may be a list of citation strings",
+      "title": "Citations",
+      "$comment": "dct:isReferencedBy ",
+      "description": "Please provide the keystone paper associated with the dataset. Also include a list of known citations, if available and should be links to existing resources where the dataset has been used or referenced. Please provide multiple entries, or if you are using a csv upload please provide them as a tab separated list. [Author] ([Year]) [Title] . [DOI] . [Source]",
       "anyOf": [
         {
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "Not Available"
+          ]
+        },
+        {
+          "$ref": "#/definitions/url"
+        },
+        {
+          "$ref": "#/definitions/doi"
         },
         {
           "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "items": [
+            {
+              "$ref": "#/definitions/doi"
+            }
+          ]
         }
-      ],
-      "title": "The citations schema",
-      "description": "Please provide the keystone paper associated with the dataset. Also include a list of known citations, if available and should be links to existing resources where the dataset has been used or referenced."
+      ]
     },
     "doi": {
       "$id": "#/properties/doi",
+      "title": "Digital Object Identifier",
+      "description": "All HDR UK registered datasets should either have a Digital Object Identifier (DOI) or be working towards obtaining one. If a DOI is available, please provide the DOI.",
       "anyOf": [
+        {
+          "$ref": "#/definitions/doi"
+        },
         {
           "type": "string",
           "enum": [
             "In Progress"
           ]
-        },
-        {
-          "type": "string",
-          "pattern": "^10.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$"
         }
       ],
-      "title": "Digital Object Identifier",
-      "description": "All HDR UK registered datasets should either have a Digital Object Identifier (DOI) or be working towards obtaining one. If a DOI is available, please provide the DOI."
+      "$comment": "Vocabulary: DOI Data Dictionary ",
+      "examples": [
+        "10.3399/bjgp17X692645"
+      ]
     },
     "dataUseLimitation": {
-      "$id": "#/member/dataUseLimitation",
+      "$id": "#/properties/accessibility/usage/dataUseLimitation",
       "title": "Data Use Limitation",
       "$comment": "https://www.ebi.ac.uk/ols/ontologies/duo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDUO_0000001",
-      "description": "Please provide an indication of consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used. Notes: where there are existing data-sharing arrangements such as the HDR UK HUB data sharing agreement or the NIHR HIC data sharing agreement this should be indicated within access rights. This value will be used as terms for all datasets submitted by the organisation. However, there will be the opportunity to overwrite this value for each dataset.",
+      "description": "Please provide an indication of consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used. NOTE: we have extended the DUO to include a value for NO LINKAGE",
       "anyOf": [
         {
           "$ref": "#/definitions/commaSeparatedValues"
@@ -787,7 +783,7 @@
       ]
     },
     "dataUseRequirements": {
-      "$id": "#/member/dataUseRequirements",
+      "$id": "#/properties/accessibility/usage/dataUseRequirements",
       "title": "Data Use Requirements",
       "description": "Please indicate fit here are any additional conditions set for use if any, multiple requirements may be provided. Please ensure that these restrictions are documented in access rights information.",
       "$comment": "https://www.ebi.ac.uk/ols/ontologies/duo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDUO_0000001",
@@ -809,25 +805,187 @@
         }
       ]
     },
-    "accessService": {
-      "$id": "#/member/accessService",
-      "title": "Organisation Access Service",
-      "$comment": "dcat:accessService",
-      "examples": [
-        "https://cnfl.extge.co.uk/display/GERE/Research+Environment+User+Guide"
-      ],
-      "description": "Please provide a brief description of the data access services that are available including: environment that is currently available to researchers;additional consultancy and services;any indication of costs associated. If no environment is currently available, please indicate the current plans and timelines when and how data will be made available to researchers Note: This value will be used as default access environment for all datasets submitted by the organisation. However, there will be the opportunity to overwrite this value for each dataset.",
+    "timeLag": {
+      "$id": "#/properties/provenance/temporal/timeLag",
+      "title": "Time Lag",
+      "$comment": "No standard identified",
+      "description": "Please indicate the typical time-lag between an event and the data for that event appearing in the dataset",
       "allOf": [
         {
-          "$ref": "#/definitions/longDescription"
+          "$ref": "#/definitions/timeLag"
         }
       ]
+    }
+  },
+  "definitions": {
+    "uuidv4": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$",
+      "minLength": 36,
+      "maxLength": 36
+    },
+    "semver": {
+      "type": "string",
+      "pattern": "^([0-9]+)\\.([0-9]+)\\.([0-9]+)$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "eightyCharacters": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "abstractText": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 255
+    },
+    "emailAddress": {
+      "type": "string",
+      "format": "email"
+    },
+    "shortDescription": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 1000
+    },
+    "description": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 3000
+    },
+    "longDescription": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 5000
+    },
+    "commaSeparatedValues": {
+      "type": "string",
+      "pattern": "([^,]+)"
+    },
+    "doi": {
+      "type": "string",
+      "pattern": "^10.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$"
+    },
+    "ageRange": {
+      "type": "string",
+      "pattern": "^\\d{0,3}\\s?-\\s?\\d{0,3}\\+?$"
+    },
+    "format": {
+      "$comment": "FIXME: Conforms to spec, but may be a list of strings given cardinality 1:*. Validate against external list of formats, e.g. https://www.iana.org/assignments/media-types/media-types.xhtml",
+      "type": "string",
+      "minLength": 1
+    },
+    "isocountrycode": {
+      "$comment": "FIXME: Add ISO 3166-2 Subdivision code pattern",
+      "type": "string",
+      "pattern": "^[A-Z]{2}(-[A-Z]{2,3})?$"
     },
     "memberOf": {
       "type": "string",
       "enum": [
         "HUB",
         "ALLIANCE",
+        "OTHER"
+      ]
+    },
+    "physicalSampleAvailability": {
+      "type": "string",
+      "enum": [
+        "NOT AVAILABLE",
+        "BONE MARROW",
+        "CANCER CELL LINES",
+        "CORE BIOPSY",
+        "CDNA OR MRNA",
+        "DNA",
+        "FAECES",
+        "IMMORTALIZED CELL LINES",
+        "MICRORNA",
+        "PERIPHERAL BLOOD CELLS",
+        "PLASMA",
+        "PM TISSUE",
+        "PRIMARY CELLS",
+        "RNA",
+        "SALIVA",
+        "SERUM",
+        "SWABS",
+        "TISSUE",
+        "URINE",
+        "WHOLE BLOOD",
+        "AVAILABILITY TO BE CONFIRMED",
+        "OTHER"
+      ]
+    },
+    "followup": {
+      "type": "string",
+      "enum": [
+        "0-6 MONTHS",
+        "6-12 MONTHS",
+        "1-10 YEARS",
+        "MORE 10 YEARS",
+        "UNKNOWN",
+        "OTHER"
+      ]
+    },
+    "periodicity": {
+      "type": "string",
+      "enum": [
+        "STATIC",
+        "IRREGULAR",
+        "CONTINUOUS",
+        "BIENNIAL",
+        "ANNUAL",
+        "BIANNUAL",
+        "QUARTERLY",
+        "BIMONTHLY",
+        "MONTHLY",
+        "BIWEEKLY",
+        "WEEKLY",
+        "SEMIWEEKLY",
+        "DAILY",
+        "OTHER"
+      ]
+    },
+    "purpose": {
+      "type": "string",
+      "enum": [
+        "STUDY",
+        "DISEASE REGISTRY",
+        "TRIAL",
+        "CARE",
+        "AUDIT",
+        "ADMINISTRATIVE",
+        "FINANCIAL",
+        "OTHER"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "EPR",
+        "ELECTRONIC SURVEY",
+        "LIMS",
+        "PAPER BASED",
+        "FREETEXT NLP",
+        "MACHINE GENERATED",
+        "OTHER"
+      ]
+    },
+    "setting": {
+      "type": "string",
+      "enum": [
+        "CLINIC",
+        "PRIMARY CARE",
+        "ACCIDENT AN EMERGENCY",
+        "OUTPATIENTS",
+        "IN-PATIENTS",
+        "SERVICES",
+        "COMMUNITY",
+        "HOME",
+        "PRIVATE",
+        "PHARMACY",
         "OTHER"
       ]
     },
@@ -845,14 +1003,309 @@
         "OTHER"
       ]
     },
-    "longDescription": {
+    "dataUseLimitation": {
       "type": "string",
-      "minLength": 2,
-      "maxLength": 5000
+      "enum": [
+        "GENERAL RESEARCH USE",
+        "GENETIC STUDIES ONLY",
+        "NO GENERAL METHODS RESEARCH",
+        "NO RESTRICTION",
+        "RESEARCH SPECIFIC RESTRICTIONS",
+        "RESEARCH USE ONLY",
+        "NO LINKAGE"
+      ]
     },
-    "commaSeparatedValues": {
+    "dataUseRequirements": {
       "type": "string",
-      "pattern": "([^,]+)"
+      "enum": [
+        "COLLABORATION REQUIRED",
+        "ETHICS APPROVAL REQUIRED",
+        "GEOGRAPHICAL RESTRICTIONS",
+        "INSTITUTION SPECIFIC RESTRICTIONS",
+        "NOT FOR PROFIT USE",
+        "PROJECT SPECIFIC RESTRICTIONS",
+        "PUBLICATION MORATORIUM",
+        "PUBLICATION REQUIRED",
+        "RETURN TO DATABASE OR RESOURCE",
+        "TIME LIMIT ON USE",
+        "USER SPECIFIC RESTRICTION"
+      ]
+    },
+    "deliveryLeadTime": {
+      "type": "string",
+      "enum": [
+        "LESS 1 WEEK",
+        "1-2 WEEKS",
+        "2-4 WEEKS",
+        "1-2 MONTHS",
+        "2-6 MONTHS",
+        "MORE 6 MONTHS",
+        "VARIABLE",
+        "NOT APPLICABLE",
+        "OTHER"
+      ]
+    },
+    "standardisedDataModels": {
+      "type": "string",
+      "enum": [
+        "HL7 FHIR",
+        "HL7 V2",
+        "HL7 CDA",
+        "HL7 CCOW",
+        "LOINC",
+        "DICOM",
+        "I2B2",
+        "IHE",
+        "OMOP",
+        "OPENEHR",
+        "SENTINEL",
+        "PCORNET",
+        "CDISC",
+        "NHS DATA DICTIONARY",
+        "NHS SCOTLAND DATA DICTIONARY",
+        "NHS WALES DATA DICTIONARY",
+        "LOCAL",
+        "OTHER"
+      ]
+    },
+    "controlledVocabulary": {
+      "type": "string",
+      "enum": [
+        "LOCAL",
+        "OPCS4",
+        "READ",
+        "SNOMED CT",
+        "SNOMED RT",
+        "DM PLUS D",
+        "NHS NATIONAL CODES",
+        "NHS SCOTLAND NATIONAL CODES",
+        "NHS WALES NATIONAL CODES",
+        "ODS",
+        "LOINC",
+        "ICD10",
+        "ICD10CM",
+        "ICD10PCS",
+        "ICD9CM",
+        "ICD9",
+        "ICDO3",
+        "AMT",
+        "APC",
+        "ATC",
+        "CIEL",
+        "HPO",
+        "CPT4",
+        "DPD",
+        "DRG",
+        "HEMONC",
+        "JMDC",
+        "KCD7",
+        "MULTUM",
+        "NAACCR",
+        "NDC",
+        "NDFRT",
+        "OXMIS",
+        "RXNORM",
+        "RXNORM EXTENSION",
+        "SPL",
+        "OTHER"
+      ]
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "aa",
+        "ab",
+        "ae",
+        "af",
+        "ak",
+        "am",
+        "an",
+        "ar",
+        "as",
+        "av",
+        "ay",
+        "az",
+        "ba",
+        "be",
+        "bg",
+        "bh",
+        "bi",
+        "bm",
+        "bn",
+        "bo",
+        "br",
+        "bs",
+        "ca",
+        "ce",
+        "ch",
+        "co",
+        "cr",
+        "cs",
+        "cu",
+        "cv",
+        "cy",
+        "da",
+        "de",
+        "dv",
+        "dz",
+        "ee",
+        "el",
+        "en",
+        "eo",
+        "es",
+        "et",
+        "eu",
+        "fa",
+        "ff",
+        "fi",
+        "fj",
+        "fo",
+        "fr",
+        "fy",
+        "ga",
+        "gd",
+        "gl",
+        "gn",
+        "gu",
+        "gv",
+        "ha",
+        "he",
+        "hi",
+        "ho",
+        "hr",
+        "ht",
+        "hu",
+        "hy",
+        "hz",
+        "ia",
+        "id",
+        "ie",
+        "ig",
+        "ii",
+        "ik",
+        "io",
+        "is",
+        "it",
+        "iu",
+        "ja",
+        "jv",
+        "ka",
+        "kg",
+        "ki",
+        "kj",
+        "kk",
+        "kl",
+        "km",
+        "kn",
+        "ko",
+        "kr",
+        "ks",
+        "ku",
+        "kv",
+        "kw",
+        "ky",
+        "la",
+        "lb",
+        "lg",
+        "li",
+        "ln",
+        "lo",
+        "lt",
+        "lu",
+        "lv",
+        "mg",
+        "mh",
+        "mi",
+        "mk",
+        "ml",
+        "mn",
+        "mr",
+        "ms",
+        "mt",
+        "my",
+        "na",
+        "nb",
+        "nd",
+        "ne",
+        "ng",
+        "nl",
+        "nn",
+        "no",
+        "nr",
+        "nv",
+        "ny",
+        "oc",
+        "oj",
+        "om",
+        "or",
+        "os",
+        "pa",
+        "pi",
+        "pl",
+        "ps",
+        "pt",
+        "qu",
+        "rm",
+        "rn",
+        "ro",
+        "ru",
+        "rw",
+        "sa",
+        "sc",
+        "sd",
+        "se",
+        "sg",
+        "si",
+        "sk",
+        "sl",
+        "sm",
+        "sn",
+        "so",
+        "sq",
+        "sr",
+        "ss",
+        "st",
+        "su",
+        "sv",
+        "sw",
+        "ta",
+        "te",
+        "tg",
+        "th",
+        "ti",
+        "tk",
+        "tl",
+        "tn",
+        "to",
+        "tr",
+        "ts",
+        "tt",
+        "tw",
+        "ty",
+        "ug",
+        "uk",
+        "ur",
+        "uz",
+        "ve",
+        "vi",
+        "vo",
+        "wa",
+        "wo",
+        "xh",
+        "yi",
+        "yo",
+        "za",
+        "zh",
+        "zu"
+      ]
+    },
+    "statisticalPopulationConstrained": {
+      "type": "string",
+      "enum": [
+        "PERSONS",
+        "EVENTS",
+        "FINDINGS"
+      ]
     }
   }
 }

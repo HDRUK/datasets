@@ -14,23 +14,21 @@ from jsonschema import validate, Draft7Validator, FormatChecker, draft7_format_c
 
 DATASET_SCHEMA = 'dataset.schema.v1.5.json'
 DATASETS_JSON = 'datasets.json'
+WEIGHTS = "config/weights/weights.v1.5.json"
 
-REPORTING_ATTRIBUTES = {
-    "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
-    "B: Business": ["description", "releaseDate", "accessRequestCost", "accessRequestDuration", "dataController",
-                    "dataProcessor", "license", "derivedDatasets", "linkedDataset"],
-    "C: Coverage & Detail": ["geographicCoverage", "periodicity", "datasetEndDate", "datasetStartDate",
-                             "jurisdiction", "populationType", "statisticalPopulation", "ageBand",
-                             "physicalSampleAvailability", "keywords"],
-    "D: Format & Structure": ["conformsTo", "controlledVocabulary", "language", "format", "fileSize"],
-    "E: Attribution": ["creator", "citations", "doi"],
-    "F: Technical Metadata": ["dataClassesCount", "tableName", "tableDescription", "columnName", "columnDescription",
-                              "dataType", "sensitive"],
-    "G: V2 Spec Additional Fields": ["dataUseLimitation", "datauseRequirements", "accessService", "memberOf", "timeLag"]
-}
+def generate_metadata_sections_and_levels(weights_json):
+    METADATA_SECTIONS = {}
+    with open(weights_json, 'r') as json_file:
+        weights = json.load(json_file)
+    REPORTING_LEVELS = list(weights.keys())
+    for section, attributes in weights.items():
+        if section not in METADATA_SECTIONS:
+            METADATA_SECTIONS[section] = []
+        for k,v in attributes.items():
+            METADATA_SECTIONS[section].append(k)
+    return METADATA_SECTIONS, REPORTING_LEVELS
 
-REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
-                    "D: Format & Structure", "E: Attribution", "F: Technical Metadata", "G: V2 Spec Additional Fields"]
+REPORTING_ATTRIBUTES, REPORTING_LEVELS = generate_metadata_sections_and_levels(WEIGHTS)
 
 TM_NAME_LEN = 2
 TM_DESC_LEN = 6
@@ -158,6 +156,8 @@ def import_dm_tm(datamodel_uri):
 
     models_with_metadata = 0
     for dm in data_models['dataModels']:
+        if dm.get("periodicity", None) is not None:
+            dm['periodicity'] = dm['periodicity'].upper()
         if dm.get('dataClassesCount', 0) > 0:
             #dm['technicalMetaDataValidation'] = process_technical_metadata(dm.get('dataClasses', []))
             technicalMetaDataValidation = process_technical_metadata(dm.get('dataClasses', []))
@@ -460,4 +460,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    print(REPORTING_ATTRIBUTES)
+    print(REPORTING_LEVELS)

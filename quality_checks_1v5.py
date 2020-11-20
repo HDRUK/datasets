@@ -15,30 +15,13 @@ import requests
 from pprint import pprint
 from validate_schema_1v5 import get_json, validate_schema, \
                             generate_baseline_from_sections, generate_attribute_list, \
-                            import_dm_tm, check_dm_completeness, check_attribute_validation, flatten_reporting_dict
+                            import_dm_tm, check_dm_completeness, check_attribute_validation, flatten_reporting_dict, \
+                            WEIGHTS, REPORTING_ATTRIBUTES as METADATA_SECTIONS, REPORTING_LEVELS
+
 from datasets import export_csv, export_json
 
 DATASET_SCHEMA = 'dataset.schema.v1.5.json'
-BASELINE_SAMPLE = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
 DATASETS_JSON = 'datasets.json'
-WEIGHTS = "config/weights/weights.v1.5.json"
-
-METADATA_SECTIONS = {
-    "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
-    "B: Business": ["description", "releaseDate", "accessRequestCost", "accessRequestDuration", "dataController",
-                    "dataProcessor", "license", "derivedDatasets", "linkedDataset"],
-    "C: Coverage & Detail": ["geographicCoverage", "periodicity", "datasetEndDate", "datasetStartDate",
-                             "jurisdiction", "populationType", "statisticalPopulation", "ageBand",
-                             "physicalSampleAvailability", "keywords"],
-    "D: Format & Structure": ["conformsTo", "controlledVocabulary", "language", "format", "fileSize"],
-    "E: Attribution": ["creator", "citations", "doi"],
-    "F: Technical Metadata": ["dataClassesCount", "tableName", "tableDescription", "columnName", "columnDescription",
-                              "dataType", "sensitive"],
-    "G: V2 Spec Additional Fields": ["dataUseLimitation", "datauseRequirements", "accessService", "memberOf", "timeLag"]
-}
-
-REPORTING_LEVELS = ["A: Summary", "B: Business", "C: Coverage & Detail",
-                    "D: Format & Structure", "E: Attribution", "F: Technical Metadata", "G: V2 Spec Additional Fields"]
 
 def nullScore(d):
     ''' CHECK WITH HEIKO: Do we need this anymore? '''
@@ -69,7 +52,6 @@ def nullScore(d):
     return data
 
 def completeness_check():
-    # schema = get_json(BASELINE_SAMPLE)
     schema = generate_baseline_from_sections(METADATA_SECTIONS, REPORTING_LEVELS)
     data_models = get_json(DATASETS_JSON)
     data = []
@@ -120,7 +102,7 @@ def generate_quality_score():
     '''
 
     # Generate completeness percent & weighted completeness percent
-    scores = get_json('reports/attribute_completeness.json')
+    scores = get_json('reports/v1.5/attribute_completeness.json')
     completion_weightings = get_json(WEIGHTS)
     data = {}
     for s in scores:
@@ -137,7 +119,7 @@ def generate_quality_score():
     # Generate error percent and weighted error percent
     schema = get_json(DATASET_SCHEMA)
     total_attributes = len(list(schema['properties'].keys()))
-    errors = get_json('reports/attribute_errors.json')
+    errors = get_json('reports/v1.5/attribute_errors.json')
     error_weightings = get_json(WEIGHTS)
     for e in errors:
         e_score = round((e['attributes_with_errors'] / total_attributes) * 100, 2)
