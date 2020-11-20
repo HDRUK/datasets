@@ -115,6 +115,7 @@ def generate_quality_score():
         wc_score = round(attribute_weighted_score(s, completion_weightings) *100, 2) # weighted completion score
         data[s['id']]['completeness_percent'] = c_score
         data[s['id']]['weighted_completeness_percent'] = wc_score
+        data[s['id']]['completeness'] = s
     
     # Generate error percent and weighted error percent
     schema = get_json(DATASET_SCHEMA)
@@ -126,6 +127,7 @@ def generate_quality_score():
         we_score = round(attribute_weighted_score(e, error_weightings) * 100, 2)
         data[e['id']]['error_percent'] = e_score
         data[e['id']]['weighted_error_percent'] = we_score
+        data[e['id']]['errors'] = e
 
     # Generate quality score, weighted quality score, quality score rating, and weighted quality score rating
     summary_data = []
@@ -139,10 +141,12 @@ def generate_quality_score():
         d['weighted_quality_score'] = weighted_avg_score
         d['weighted_quality_rating'] = quality_ratings(d['weighted_quality_score'])
 
-        headers.extend(d.keys())
         summary_data.append(d)
-
-    return summary_data, list(set(headers))
+    headers = ['id', 'publisher', 'title', 
+               'completeness_percent', 'error_percent', 'quality_score', 'quality_rating',
+               'weighted_completeness_percent', 'weighted_error_percent', 'weighted_quality_score', 'weighted_quality_rating',
+               'completeness', 'errors']
+    return summary_data, headers
 
 def quality_ratings(s):
     '''Takes in a score and returns the resulting quality rating
@@ -151,14 +155,16 @@ def quality_ratings(s):
     s -- score: a single score from the dictionary of metadata scores
 
     '''
-    if s <= 66:
+    if s <= 60:
         return "Not Rated"
-    elif s > 66 and s <= 76:
+    elif s > 60 and s <= 70:
         return "Bronze"
-    elif s > 76 and s <= 86:
+    elif s > 70 and s <= 80:
         return "Silver"
-    elif s > 86:
+    elif s > 80 and s <= 90:
         return "Gold"
+    elif s > 90:
+        return "Platinum"
 
 def attribute_weighted_score(s, w):
     '''Applies the provided attribute weightings to the completeness and error score.
