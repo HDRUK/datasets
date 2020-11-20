@@ -277,8 +277,8 @@ def main():
   export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
 
   # Dataset v1 to v2 migration
-  new_data = migrate_v1_to_v2(data)
-  export_json(new_data, 'datasets.v2.json')
+  # new_data = migrate_v1_to_v2(data)
+  # export_json(new_data, 'datasets.v2.json')
 
 
 if __name__ == "__main__":
