@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (531)
+## HDR UK Datasets (533)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -301,7 +301,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [UHB Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/94351432-da7e-4d44-97eb-4359d45e0240)
 
 ### ISARIC 4C (1)
-- [COVID-19 Clinical Information Network (CO-CIN)](https://web.www.healthdatagateway.org/dataset/9a150924-8ade-40fa-8b36-44077fe0ac64)
+- [COVID-19 Clinical Information Network (CO-CIN)](https://web.www.healthdatagateway.org/dataset/9a85b69e-fd3e-4522-bc68-48024df0ea3e)
 
 ### LEICESTER (3)
 - [The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease](https://web.www.healthdatagateway.org/dataset/05ade19c-75f5-4623-ade6-99fb21c2d4e3)
@@ -415,18 +415,16 @@ This repo automatically collects the datasets published on the Gateway including
 - [Sunquest](https://web.www.healthdatagateway.org/dataset/eaca9ed1-30b6-4157-8894-8e53efc84849)
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
-### Office of National Statistics (8)
-- [Labour Force Survey (Household)](https://web.www.healthdatagateway.org/dataset/07188ee0-5d2d-492d-a1cc-32cbbbfbe63b)
-- [Census 2011 E&W - Household structure for COVID-19 models](https://web.www.healthdatagateway.org/dataset/1e8d84b7-e9e2-4e03-8c53-025719f53746)
-- [Labour Force Survey (Longitudinal)](https://web.www.healthdatagateway.org/dataset/212d5331-3681-4477-97f6-0e1cee562cd6)
-- [Linked Census and death occurrences](https://web.www.healthdatagateway.org/dataset/28393252-4287-4be6-8b2a-591622ad6c29)
-- [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/5a2b59f8-e20d-4ff4-b209-4710f7aca970)
-- [Business Impact of COVID-19 Survey (BICS)](https://web.www.healthdatagateway.org/dataset/617aca9b-0fb9-45ec-8314-e16c3e074b01)
-- [Labour Force Survey (Person)](https://web.www.healthdatagateway.org/dataset/89f37cc8-8519-4fd8-a49c-fe591a530a8b)
-- [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/c0f5fde3-4e8a-4956-998b-1fb955f58a22)
-
-### Office of National Statistics > Office of National Statistics (1)
-- [Coronavirus and the social impacts on Great Britain](https://web.www.healthdatagateway.org/dataset/2e7fe631-6d25-44b5-bfd4-92d34bfb8145)
+### Office for National Statistics (9)
+- [Labour Force Survey (Household)](https://web.www.healthdatagateway.org/dataset/08fd6103-be40-4380-9399-aecaeb216d33)
+- [Linked Census and death occurrences](https://web.www.healthdatagateway.org/dataset/1bfdab55-3e6a-4b26-bff1-0105ad416cea)
+- [Business Impact of COVID-19 Survey (BICS)](https://web.www.healthdatagateway.org/dataset/39537838-164a-4aee-8859-957f0a347390)
+- [Coronavirus and the social impacts on Great Britain](https://web.www.healthdatagateway.org/dataset/5aa849d6-cff2-4515-8510-f5472b07955d)
+- [Census 2011 E&W - Household structure for COVID-19 models](https://web.www.healthdatagateway.org/dataset/62087504-c04e-4382-9c71-e1c9b83d2d5e)
+- [Labour Force Survey (Longitudinal)](https://web.www.healthdatagateway.org/dataset/697040c3-b26e-406d-b675-441b32cc1a53)
+- [Labour Force Survey (Person)](https://web.www.healthdatagateway.org/dataset/73ba9de7-67fe-4728-b397-bc5fb1d67df1)
+- [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/90ad6023-6c7f-4605-9323-b478a27c3c9a)
+- [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/9f34263d-ea74-4ddf-84df-b8dedd4baf6d)
 
 ### PIONEER (4)
 - [University Hospitals Birmingham PICS data](https://web.www.healthdatagateway.org/dataset/1d1244b6-aeeb-4655-b5a2-2357ed28227a)
@@ -437,6 +435,10 @@ This repo automatically collects the datasets published on the Gateway including
 ### PUBLIC HEALTH ENGLAND (2)
 - [National Cancer Registration Dataset 2018](https://web.www.healthdatagateway.org/dataset/8045cbe5-738d-4d30-a360-06acbbace5a9)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/825fefd4-7529-47be-9d63-4ef0307d681f)
+
+### Public Health Scotland (2)
+- [SICSAG Episodes (Scottish Intensive Care Audit Group)](https://web.www.healthdatagateway.org/dataset/7c019a0f-3cb1-4c75-888c-780b1c45eae2)
+- [SICSAG Daily (Scottish Intensive Care Audit Group)](https://web.www.healthdatagateway.org/dataset/9e3c804f-ecf8-425d-a0c3-6f9fa221bda7)
 
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
