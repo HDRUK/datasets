@@ -520,55 +520,6 @@
     ]
   },
   {
-    "id": "02961e24-4cb3-4cd3-90bd-4248a00391ce",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Hospital Episode Statistics Admitted Patient Care",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "0477b06f-cbed-4949-982e-ce248a47ed1a",
     "publisher": "Oxford University Hospitals NHS Foundation Trust",
     "title": "SOLUS",
@@ -9261,6 +9212,60 @@
     ]
   },
   {
+    "id": "4a813fda-a3c4-422e-9d11-c031ebc1f74f",
+    "publisher": "HUB > NHS DIGITRIALS",
+    "title": "Hospital Episode Statistics Admitted Patient Care",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'OPCS4,NHS NATIONAL CODES,ICD10,OTHER' is not valid under any of the given schemas",
+        "suberrors": "    type: 'OPCS4,NHS NATIONAL CODES,ICD10,OTHER' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'HES A&E to HES APC: Links the HES A&E Attendance to a subsequent APC admission so that information about the A&E attendance can be seen along with the APC record. ,HES APC to Civil Registrations (Deaths): The HES-ONS linked mortality dataset is created by linking mortality data from the Office for National Statistics (ONS) to patient information in HES.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'HES A&E to HES APC: Links the HES A&E Attendance to a subsequent APC admission so that information about the A&E attendance can be seen along with the APC record. ,HES APC to Civil Registrations (Deaths): The HES-ONS linked mortality dataset is created by linking mortality data from the Office for National Statistics (ONS) to patient information in HES.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "4b71fca4-8b2c-4e37-8996-b64a9c1450f0",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Paediatric Diabetes Audit - Spotlight survey of diabetes-related technologies",
@@ -9865,6 +9870,60 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "512ab154-41e9-4231-9091-67814123e964",
+    "publisher": "HUB > NHS DIGITRIALS",
+    "title": "Hospital Episode Statistics Accident and Emergency",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'HES A&E to HES APC: Links the HES A&E Attendance to a subsequent APC admission so that information about the A&E attendance can be seen along with the APC record.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'HES A&E to HES APC: Links the HES A&E Attendance to a subsequent APC admission so that information about the A&E attendance can be seen along with the APC record.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -11032,84 +11091,6 @@
     ]
   },
   {
-    "id": "5e37caad-4777-4d7e-be17-32220d8fed05",
-    "publisher": "NHS Digital",
-    "title": "Mental Health Services Data Set",
-    "schema_error_count": 17,
-    "errors": [
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "abstract",
-        "message": "abstract: 'The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. It defines data items, definitions and information extracted or derived from local information systems.' is too long"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "datasetEndDate",
-        "message": "datasetEndDate: 'Ongoing' is not a 'date'"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "datasetStartDate: '1/1/16' is not a 'date'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'No' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'No' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: '1 Month Cycle' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "5ea9c568-b850-4589-bcbb-6ee0cfd322cd",
     "publisher": "ALLIANCE > HQIP",
     "title": "National Paediatric Diabetes Audit - core clinical dataset (care processes and outcomes)",
@@ -11221,6 +11202,65 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'Peripheral blood cells, Plasma, Saliva, Serum, Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "5fffe53e-10bb-4d90-a5f6-fbac20c5ab9a",
+    "publisher": "HUB > NHS DIGITRIALS",
+    "title": "Hospital Episode Statistics Outpatients",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'OPCS4,NHS NATIONAL CODES,ICD10,OTHER' is not valid under any of the given schemas",
+        "suberrors": "    type: 'OPCS4,NHS NATIONAL CODES,ICD10,OTHER' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -16472,59 +16512,6 @@
     ]
   },
   {
-    "id": "88aef872-87fc-471b-a4ed-276349ef575a",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Hospital Episode Statistics Critical Care",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "895e5c2f-e484-4d08-91c6-35ac2f85c231",
     "publisher": "NHS Digital",
     "title": "Mental Health Minimum Dataset v2.6 (Non-Sensitive)",
@@ -19894,59 +19881,6 @@
       {
         "attribute": "releaseDate",
         "message": "releaseDate: 'Released as required' is not a 'date-time'"
-      }
-    ]
-  },
-  {
-    "id": "a104ba06-be82-4f2d-b177-f13948643f84",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Hospital Episode Statistics Accident and Emergency",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -24215,59 +24149,6 @@
     ]
   },
   {
-    "id": "c720c89a-b2c6-4cd6-b606-df34ff22b1c8",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Hospital Episode Statistics Outpatients",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "c7c7d692-99a2-4ef4-b295-35c3e6e243a1",
     "publisher": "ALLIANCE > SAIL",
     "title": "Annual District Death Daily",
@@ -25821,11 +25702,15 @@
     ]
   },
   {
-    "id": "d796a1b6-8769-433c-a2cf-6a7b161db1fb",
+    "id": "d612e29a-c26a-4512-99d4-548514b60c76",
     "publisher": "HUB > NHS DIGITRIALS",
-    "title": "Civil Registration - Deaths",
-    "schema_error_count": 12,
+    "title": "Mental Health Services Data Set",
+    "schema_error_count": 13,
     "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
       {
         "attribute": "populationType",
         "message": "'populationType' is a required property"
@@ -25848,30 +25733,30 @@
       },
       {
         "attribute": "conformsTo",
-        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+        "message": "conformsTo: 'NHS DATA DICTIONARY,OTHER' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
       },
       {
         "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10,ICD9,OTHER' is not valid under any of the given schemas",
-        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10,ICD9,OTHER' is not of type 'array'"
+        "message": "controlledVocabulary: 'OPCS4,READ,SNOMED CT,NHS NATIONAL CODES,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'OPCS4,READ,SNOMED CT,NHS NATIONAL CODES,ICD10' is not of type 'array'"
       },
       {
         "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Deaths (Parent)            ,HES-ONS/Civil Reg Deaths Secondary Care Cut (Child),SHMI (Grandchild),Primary Care Mortality Data (Child)' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Deaths (Parent)            ,HES-ONS/Civil Reg Deaths Secondary Care Cut (Child),SHMI (Grandchild),Primary Care Mortality Data (Child)' is not one of ['Not Known', 'Not Available']"
+        "message": "derivedDatasets: 'MHSDS full and bespoke extracts available through DARS.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'MHSDS full and bespoke extracts available through DARS.' is not one of ['Not Known', 'Not Available']"
       },
       {
         "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
+        "message": "geographicCoverage: 'England' is not a 'uri'"
       },
       {
         "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Dataset linkable to other person level datasets via master data service,Linked data minimum example: NHS NUMBER + (DOB, GENDER, NAMES, POSTCODE, ADDRESS),Linked data minimum example 2: DOB + NAMES + (GENDER, POSTCODE, ADDRESS),MPS link https://digital.nhs.uk/services/master-person-service#:~:text=The%20Master%20Person%20Service%20(MPS)%20helps%20us%20increase%20the%20amount,various%20systems%20around%20the%20country.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Dataset linkable to other person level datasets via master data service,Linked data minimum example: NHS NUMBER + (DOB, GENDER, NAMES, POSTCODE, ADDRESS),Linked data minimum example 2: DOB + NAMES + (GENDER, POSTCODE, ADDRESS),MPS link https://digital.nhs.uk/services/master-person-service#:~:text=The%20Master%20Person%20Service%20(MPS)%20helps%20us%20increase%20the%20amount,various%20systems%20around%20the%20country.' is not one of ['Not Known', 'Not Available']"
+        "message": "linkedDataset: 'Community Services Data Set (CSDS),Improving Access To Psychological Therapies (IAPT) data set,Maternity Services Data Set (MSDS)' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Community Services Data Set (CSDS),Improving Access To Psychological Therapies (IAPT) data set,Maternity Services Data Set (MSDS)' is not one of ['Not Known', 'Not Available']"
       },
       {
         "attribute": "periodicity",
-        "message": "periodicity: 'CONTINUOUS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -26627,6 +26512,65 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "id": "e09ddabc-b0b9-4f9d-af32-97293e0e6cb7",
+    "publisher": "HUB > NHS DIGITRIALS",
+    "title": "Civil Registration - Deaths",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10,ICD9,OTHER' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10,ICD9,OTHER' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Deaths (Parent)            ,HES-ONS/Civil Reg Deaths Secondary Care Cut (Child),SHMI (Grandchild),Primary Care Mortality Data (Child)' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Deaths (Parent)            ,HES-ONS/Civil Reg Deaths Secondary Care Cut (Child),SHMI (Grandchild),Primary Care Mortality Data (Child)' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Dataset linkable to other person level datasets via master data service,Linked data minimum example: NHS NUMBER + (DOB, GENDER, NAMES, POSTCODE, ADDRESS),Linked data minimum example 2: DOB + NAMES + (GENDER, POSTCODE, ADDRESS),MPS link https://digital.nhs.uk/services/master-person-service#:~:text=The%20Master%20Person%20Service%20(MPS)%20helps%20us%20increase%20the%20amount,various%20systems%20around%20the%20country.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Dataset linkable to other person level datasets via master data service,Linked data minimum example: NHS NUMBER + (DOB, GENDER, NAMES, POSTCODE, ADDRESS),Linked data minimum example 2: DOB + NAMES + (GENDER, POSTCODE, ADDRESS),MPS link https://digital.nhs.uk/services/master-person-service#:~:text=The%20Master%20Person%20Service%20(MPS)%20helps%20us%20increase%20the%20amount,various%20systems%20around%20the%20country.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'CONTINUOUS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -28056,6 +28000,60 @@
       {
         "attribute": "geographicCoverage",
         "message": "geographicCoverage: 'Malaysia' is not a 'uri'"
+      }
+    ]
+  },
+  {
+    "id": "f0392b68-5075-4557-adaa-2fb24b5dec4d",
+    "publisher": "HUB > NHS DIGITRIALS",
+    "title": "Hospital Episode Statistics Critical Care",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'OPCS4,NHS NATIONAL CODES,ICD10,OTHER' is not valid under any of the given schemas",
+        "suberrors": "    type: 'OPCS4,NHS NATIONAL CODES,ICD10,OTHER' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'HES APC/CC to Civil Registrations (Deaths): The HES-ONS linked mortality dataset is created by linking mortality data from the Office for National Statistics (ONS) to patient information in HES.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'HES APC/CC to Civil Registrations (Deaths): The HES-ONS linked mortality dataset is created by linking mortality data from the Office for National Statistics (ONS) to patient information in HES.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
