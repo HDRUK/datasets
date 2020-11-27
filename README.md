@@ -319,7 +319,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Mental Health Minimum Dataset v4 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/0e6e6ed5-ab81-4d7f-b06a-768bf33357ca)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/0fc61ace-397d-4489-9e62-77f88082e775)
-- [Secondary Uses Services](https://web.www.healthdatagateway.org/dataset/14190e64-8e48-41e7-94b1-fc7b2e42c599)
 - [Mental Health Services Data Set - Service Users](https://web.www.healthdatagateway.org/dataset/1d5e3b05-8ce3-4f80-ae3a-f6031ad8cf69)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/263ad0a8-ae90-4c1d-85d6-c3d2470eb2b7)
 - [Mental Health Minimum Dataset v2.6 (Sensitive)](https://web.www.healthdatagateway.org/dataset/263f28a4-9835-4856-b1c3-0a0d4085f207)
@@ -354,6 +353,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/cef00323-8756-4ea5-99e4-f12dcb2c6297)
 - [Patient Reported Outcome Measures](https://web.www.healthdatagateway.org/dataset/d2af6a29-291b-4444-a17c-40f4208f1e1b)
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/db113fcd-69a0-4357-9c6d-250085deb3f5)
+- [Secondary Uses Services Payment By Results](https://web.www.healthdatagateway.org/dataset/e72825e0-d982-49cd-b361-e15cf63c6c33)
 - [Pillar 2 - Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/f3b4817a-7924-460c-a1c5-0b24acd81a7d)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/ff2c6982-00f3-4483-9fc2-19b3a7211d8d)
 
