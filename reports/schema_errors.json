@@ -12537,59 +12537,6 @@
     ]
   },
   {
-    "id": "6a6b33a3-afd6-4f22-ba41-a87beccc3eb1",
-    "publisher": "HUBS > NHS DIGITRIALS",
-    "title": "Personal Demographic Service",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Once we have accepted your application after its initial review, the application is subject to our service levels. We only pause the elapsed time when we require further detail, such as a more explicit articulation of the purpose, or when approvals are required from an external body (such as Approved Researcher status from ONS).  Our service response times, from the date that the application is accepted to the date that you sign the Agreement' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "id": "6a8066c7-a8f4-44a6-9efd-871b19a3689f",
     "publisher": "ALLIANCE > CPRD",
     "title": "Systemic Anti-Cancer Treatment (SACT) data for CPRD GOLD",
@@ -24477,6 +24424,51 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "id": "caf619c9-3e9c-4873-a7ba-c0df8f4a62c2",
+    "publisher": "HUB > NHS DIGITRIALS",
+    "title": "Personal Demographic Service",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England, Wales and Isle of Man' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Dataset linkable to other person level datasets via master data service,Linked data minimum example: NHS NUMBER + (DOB, GENDER, NAMES, POSTCODE, ADDRESS),Linked data minimum example 2: DOB + NAMES + (GENDER, POSTCODE, ADDRESS),MPS link https://digital.nhs.uk/services/master-person-service#:~:text=The%20Master%20Person%20Service%20(MPS)%20helps%20us%20increase%20the%20amount,various%20systems%20around%20the%20country' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Dataset linkable to other person level datasets via master data service,Linked data minimum example: NHS NUMBER + (DOB, GENDER, NAMES, POSTCODE, ADDRESS),Linked data minimum example 2: DOB + NAMES + (GENDER, POSTCODE, ADDRESS),MPS link https://digital.nhs.uk/services/master-person-service#:~:text=The%20Master%20Person%20Service%20(MPS)%20helps%20us%20increase%20the%20amount,various%20systems%20around%20the%20country' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
