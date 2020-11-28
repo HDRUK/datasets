@@ -194,8 +194,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/8799e97b-bf13-407b-93bd-e96c8c4eb75f)
 
-### HDR UK (1)
-- [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/9e798632-442a-427b-8d0e-456f754d28dc)
+### HEALTH DATA RESEARCH UK (1)
+- [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/d5faf9c6-6c34-46d7-93c4-7706a5436ed9)
 
 ### HQIP (80)
 - [National Joint Registry - Primary Elbow Replacement dataset](https://web.www.healthdatagateway.org/dataset/0092dc60-a0af-4d45-801c-b888210d6609)
@@ -286,11 +286,12 @@ This repo automatically collects the datasets published on the Gateway including
 ### HUB > HUBS > PIONEER (1)
 - [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
 
-### HUB > NHS DIGITRIALS (8)
+### HUB > NHS DIGITRIALS (9)
 - [Hospital Episode Statistics Admitted Patient Care](https://web.www.healthdatagateway.org/dataset/4a813fda-a3c4-422e-9d11-c031ebc1f74f)
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/512ab154-41e9-4231-9091-67814123e964)
 - [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/54b52301-d0be-4441-8b84-8c521fe8946d)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/5fffe53e-10bb-4d90-a5f6-fbac20c5ab9a)
+- [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/c2f15f59-8e0d-4e90-9277-342497a6d961)
 - [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/caf619c9-3e9c-4873-a7ba-c0df8f4a62c2)
 - [Mental Health Services Data Set](https://web.www.healthdatagateway.org/dataset/d612e29a-c26a-4512-99d4-548514b60c76)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/e09ddabc-b0b9-4f9d-af32-97293e0e6cb7)
@@ -329,7 +330,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health and Learning Disabilities Data Set](https://web.www.healthdatagateway.org/dataset/4262e057-6978-4e4c-a05d-c4f328422090)
 - [Mental Health Minimum Dataset v4 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/46493a09-b3bb-4c0e-b944-82665ee21508)
 - [Emergency Care Data Set (ECDS)](https://web.www.healthdatagateway.org/dataset/4bb4bf38-870b-47e5-b5d1-dc75b3d4ea6a)
-- [GPES Data for Pandemic Planning and Research (COVID-19)](https://web.www.healthdatagateway.org/dataset/6cc463b4-5524-40cc-8190-b484458ad48c)
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/78fe2e13-7f40-406f-a584-04909d0ce060)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/7aa02796-787a-42c2-b97e-d008fa77e4b8)
 - [Medicines dispensed in Primary Care (NHSBSA data)](https://web.www.healthdatagateway.org/dataset/7b002523-ab79-42de-bc93-6c73e3cc2921)
@@ -339,6 +339,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Bridge file: Hospital Episode Statistics to Mental Health Minimum Data Set](https://web.www.healthdatagateway.org/dataset/8d3f80d4-aeae-46f0-809b-cd6c51e24f75)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/8e66e623-2859-4a65-93d7-abd41e139976)
 - [Mental Health Services Data Set - Inpatients](https://web.www.healthdatagateway.org/dataset/8eace3c2-1dc8-4708-9350-ad129b7d2bc9)
+- [GPES Data for Pandemic Planning and Research (COVID-19)](https://web.www.healthdatagateway.org/dataset/964ee922-2862-48ac-b77c-be68837ba88c)
 - [Mental Health Minimum Dataset v4 (Sensitive) Records](https://web.www.healthdatagateway.org/dataset/97fa09e6-5ea5-41cd-baf8-20366db13a3f)
 - [Mental Health Services Data Set - Currencies](https://web.www.healthdatagateway.org/dataset/9b7f7994-0b9c-4809-b67d-45ae1f04ec5c)
 - [Mental Health Minimum Dataset v4.1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/a1a67182-e81b-4144-ac51-92a86f277eb2)
@@ -358,9 +359,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [Pillar 2 - Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/f3b4817a-7924-460c-a1c5-0b24acd81a7d)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/ff2c6982-00f3-4483-9fc2-19b3a7211d8d)
 
-### NHS DIGITRIALS (2)
+### NHS DIGITRIALS (1)
 - [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/19f21b8f-6ae0-4cbd-a175-596b8476f69a)
-- [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/7f841dc4-87ed-4048-b06b-1a1e9198b8c1)
 
 ### NHS Scotland (2)
 - [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/380cbddb-e64e-42b9-a364-47c550262b6a)
