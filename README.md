@@ -286,9 +286,10 @@ This repo automatically collects the datasets published on the Gateway including
 ### HUB > HUBS > PIONEER (1)
 - [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
 
-### HUB > NHS DIGITRIALS (7)
+### HUB > NHS DIGITRIALS (8)
 - [Hospital Episode Statistics Admitted Patient Care](https://web.www.healthdatagateway.org/dataset/4a813fda-a3c4-422e-9d11-c031ebc1f74f)
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/512ab154-41e9-4231-9091-67814123e964)
+- [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/54b52301-d0be-4441-8b84-8c521fe8946d)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/5fffe53e-10bb-4d90-a5f6-fbac20c5ab9a)
 - [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/caf619c9-3e9c-4873-a7ba-c0df8f4a62c2)
 - [Mental Health Services Data Set](https://web.www.healthdatagateway.org/dataset/d612e29a-c26a-4512-99d4-548514b60c76)
@@ -357,9 +358,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [Pillar 2 - Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/f3b4817a-7924-460c-a1c5-0b24acd81a7d)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/ff2c6982-00f3-4483-9fc2-19b3a7211d8d)
 
-### NHS DIGITRIALS (3)
+### NHS DIGITRIALS (2)
 - [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/19f21b8f-6ae0-4cbd-a175-596b8476f69a)
-- [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/63aa23c0-80cf-48b1-89f2-909d5d5f70d8)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/7f841dc4-87ed-4048-b06b-1a1e9198b8c1)
 
 ### NHS Scotland (2)
