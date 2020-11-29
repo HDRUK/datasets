@@ -22,7 +22,7 @@ DATA_MODEL_ID = API_BASE_URL + "/facets/{MODEL_ID}/profile/uk.ac.hdrukgateway/Hd
 DATA_MODEL_METADATA = API_BASE_URL + "/facets/{MODEL_ID}/metadata?all=true"
 DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses?all=true"
 DATA_MODEL_CLASSES_ELEMENTS = DATA_MODEL_CLASSES + "/{CLASS_ID}/dataElements?all=true"
-DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticLinks"
+DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticLinks?all=true"
 DATA_MODEL_PIDS = "https://api.uatbeta.healthdatagateway.org/api/v1/datasets/pidList"
 
 def request_url(URL):
