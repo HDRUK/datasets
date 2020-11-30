@@ -188,12 +188,6 @@ This repo automatically collects the datasets published on the Gateway including
 ### GUT REACTION (1)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/97ddd990-f47a-40f5-9178-cbf742e4c613)
 
-### HBS (4)
-- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/1f9d9f96-df18-4660-9c96-d5318cd0d68e)
-- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/3e8de4f3-ee1e-4898-a945-0487586c6767)
-- [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
-- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/8799e97b-bf13-407b-93bd-e96c8c4eb75f)
-
 ### HEALTH DATA RESEARCH UK (1)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/d5faf9c6-6c34-46d7-93c4-7706a5436ed9)
 
@@ -279,14 +273,21 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Joint Registry - Primary Shoulder Replacement dataset](https://web.www.healthdatagateway.org/dataset/fe4662ad-9080-4bd8-8de4-51195d275d5b)
 - [National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures](https://web.www.healthdatagateway.org/dataset/fe872375-2401-4de1-9650-d4139cf5793a)
 
+### HSCNI (4)
+- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/1f9d9f96-df18-4660-9c96-d5318cd0d68e)
+- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/3e8de4f3-ee1e-4898-a945-0487586c6767)
+- [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
+- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/8799e97b-bf13-407b-93bd-e96c8c4eb75f)
+
 ### HUB > BREATHE (2)
 - [Estimating Chronic Respiratory Disease burden in adults in Asian LMICs](https://web.www.healthdatagateway.org/dataset/0150353c-d33d-4af0-b177-8ef0adf867f4)
 - [Developing and evaluating interventions to improve asthma care: HEAL ASTHMA](https://web.www.healthdatagateway.org/dataset/f73627e3-bd7c-4be2-81b4-3baf846ab787)
 
-### HUB > HUBS > PIONEER (1)
-- [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
+### HUB > INSIGHT (2)
+- [Moorfields Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/6959639d-5bd2-4b53-918e-8f56784b2870)
+- [UHB Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/94351432-da7e-4d44-97eb-4359d45e0240)
 
-### HUB > NHS DIGITRIALS (9)
+### HUB > NHS DIGITRIALS (8)
 - [Hospital Episode Statistics Admitted Patient Care](https://web.www.healthdatagateway.org/dataset/4a813fda-a3c4-422e-9d11-c031ebc1f74f)
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/512ab154-41e9-4231-9091-67814123e964)
 - [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/54b52301-d0be-4441-8b84-8c521fe8946d)
@@ -294,19 +295,15 @@ This repo automatically collects the datasets published on the Gateway including
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/c2f15f59-8e0d-4e90-9277-342497a6d961)
 - [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/caf619c9-3e9c-4873-a7ba-c0df8f4a62c2)
 - [Mental Health Services Data Set](https://web.www.healthdatagateway.org/dataset/d612e29a-c26a-4512-99d4-548514b60c76)
-- [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/e09ddabc-b0b9-4f9d-af32-97293e0e6cb7)
 - [Hospital Episode Statistics Critical Care](https://web.www.healthdatagateway.org/dataset/f0392b68-5075-4557-adaa-2fb24b5dec4d)
 
-### HUB > PIONEER (2)
+### HUB > PIONEER (3)
 - [Acute care patients within the 100K Genome project](https://web.www.healthdatagateway.org/dataset/0048a401-e54c-49d7-8afc-6c5390fb66b9)
+- [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
 - [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/d3d1cdf1-3a36-49d1-ba73-b02ebeceab9b)
 
 ### IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/f89af2f4-e3cd-4eaa-835d-94aa347d8a92)
-
-### INSIGHT (2)
-- [Moorfields Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/6959639d-5bd2-4b53-918e-8f56784b2870)
-- [UHB Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/94351432-da7e-4d44-97eb-4359d45e0240)
 
 ### ISARIC 4C (1)
 - [COVID-19 Clinical Information Network (CO-CIN)](https://web.www.healthdatagateway.org/dataset/9a85b69e-fd3e-4522-bc68-48024df0ea3e)
@@ -316,7 +313,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
 
-### NHS DIGITAL (41)
+### NHS DIGITAL (42)
 - [Pillar 1 - England (Second Generation Surveillance Systems)](https://web.www.healthdatagateway.org/dataset/0756c167-e778-486f-9b96-94bd12af89cf)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Mental Health Minimum Dataset v4 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/0e6e6ed5-ab81-4d7f-b06a-768bf33357ca)
@@ -355,6 +352,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/cef00323-8756-4ea5-99e4-f12dcb2c6297)
 - [Patient Reported Outcome Measures](https://web.www.healthdatagateway.org/dataset/d2af6a29-291b-4444-a17c-40f4208f1e1b)
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/db113fcd-69a0-4357-9c6d-250085deb3f5)
+- [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/e09ddabc-b0b9-4f9d-af32-97293e0e6cb7)
 - [Secondary Uses Services Payment By Results](https://web.www.healthdatagateway.org/dataset/e72825e0-d982-49cd-b361-e15cf63c6c33)
 - [Pillar 2 - Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/f3b4817a-7924-460c-a1c5-0b24acd81a7d)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/ff2c6982-00f3-4483-9fc2-19b3a7211d8d)
@@ -362,7 +360,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NHS DIGITRIALS (1)
 - [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/19f21b8f-6ae0-4cbd-a175-596b8476f69a)
 
-### NHS Scotland (2)
+### NHS SCOTLAND (2)
 - [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/380cbddb-e64e-42b9-a364-47c550262b6a)
 - [NHS Scotland General Practice (GP) Contact Data - Subset](https://web.www.healthdatagateway.org/dataset/a021f150-41e6-48c3-807c-a0cefa4cb2c2)
 
@@ -397,7 +395,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR HIC VIRAL HEPATITIS THEME (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### OUH NHS (16)
+### OUH (16)
 - [SOLUS](https://web.www.healthdatagateway.org/dataset/0477b06f-cbed-4949-982e-ce248a47ed1a)
 - [Millennium Clinical Events](https://web.www.healthdatagateway.org/dataset/0711cc7e-80d5-4781-a1ab-2637ea176ceb)
 - [ARIA Medonc](https://web.www.healthdatagateway.org/dataset/172242ce-a1c5-4915-9c71-686f6e7d5789)
@@ -436,9 +434,11 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Cancer Registration Dataset 2018](https://web.www.healthdatagateway.org/dataset/8045cbe5-738d-4d30-a360-06acbbace5a9)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/825fefd4-7529-47be-9d63-4ef0307d681f)
 
-### Public Health Scotland (2)
+### PUBLIC HEALTH SCOTLAND (4)
+- [General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)](https://web.www.healthdatagateway.org/dataset/2537007c-9e9e-4441-a0d1-59fa400566c5)
 - [SICSAG Episodes (Scottish Intensive Care Audit Group)](https://web.www.healthdatagateway.org/dataset/7c019a0f-3cb1-4c75-888c-780b1c45eae2)
 - [SICSAG Daily (Scottish Intensive Care Audit Group)](https://web.www.healthdatagateway.org/dataset/9e3c804f-ecf8-425d-a0c3-6f9fa221bda7)
+- [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/e61fce14-617d-4f7b-80aa-468d94c6d897)
 
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
@@ -493,11 +493,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [Welsh Dispensing Dataset](https://web.www.healthdatagateway.org/dataset/fea0b4be-4097-4c2e-86f2-03dc1ee2877b)
 - [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/ff88d11a-d29b-4d94-92f2-2bbf7dd7d03a)
 
-### SCOTLAND (22)
+### SCOTLAND (20)
 - [Prescribing Information System (PIS)](https://web.www.healthdatagateway.org/dataset/0b794715-53f3-422f-817a-92be3392c735)
 - [Unscheduled Care Datamart](https://web.www.healthdatagateway.org/dataset/117aa9f5-db76-48f9-9dd2-19e2d00a1b45)
 - [Child Health Systems Programme - First Visit](https://web.www.healthdatagateway.org/dataset/12d23c2c-5f35-4f59-80e3-584636c7cacb)
-- [General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)](https://web.www.healthdatagateway.org/dataset/2537007c-9e9e-4441-a0d1-59fa400566c5)
 - [Scottish Stillbirth and Infant Death Survey](https://web.www.healthdatagateway.org/dataset/2b06afa3-dfc7-424b-8b9a-9325df6cfc19)
 - [Scottish Cancer Registry (SMR06)](https://web.www.healthdatagateway.org/dataset/4481aab8-9b4f-43dd-9cd4-1e427561a2a5)
 - [Child Health Systems Programme - School](https://web.www.healthdatagateway.org/dataset/4660884b-e40a-4251-ad19-40872641fa8c)
@@ -514,7 +513,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [ECOSS (-/+VE tested patients only)](https://web.www.healthdatagateway.org/dataset/a3b9cfd3-abd1-4d18-99cc-360cd9d543c2)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/bfc6e7c5-a81b-4fe2-95b5-d108a48d7d67)
 - [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/d8043751-28d6-4cfe-b860-757e592ab3cb)
-- [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/e61fce14-617d-4f7b-80aa-468d94c6d897)
 - [Scottish Immunisation Recall System (SIRS)](https://web.www.healthdatagateway.org/dataset/e9d504fc-4b61-4419-a400-ffda998fc377)
 
 ### South London and Maudsley NHS Trust (1)
