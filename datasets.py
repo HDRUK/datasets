@@ -266,17 +266,16 @@ def main():
   data, headers = process_data_models(data_models_list)
   export_json(data, 'datasets.json')
 
-  data = read_json('datasets.json')
   pid_data = lookup_pids(data)
   export_json(pid_data, 'datasets.pid.json')
 
   # generate sitemap
   generate_sitemap(data, 'sitemap.txt')
   
-  tables = format_csv_tables(data)
-  export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
-  export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
-  export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
+  # tables = format_csv_tables(data)
+  # export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
+  # export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
+  # export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
 
   # Dataset v1 to v2 migration
   # new_data = migrate_v1_to_v2(data)
