@@ -21,7 +21,8 @@ DATA_MODELS = API_BASE_URL + "/dataModels"
 DATA_MODEL_ID = API_BASE_URL + "/facets/{MODEL_ID}/profile/uk.ac.hdrukgateway/HdrUkProfilePluginService"
 DATA_MODEL_METADATA = API_BASE_URL + "/facets/{MODEL_ID}/metadata?all=true"
 DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses?all=true"
-DATA_MODEL_CLASSES_ELEMENTS = DATA_MODEL_CLASSES + "/{CLASS_ID}/dataElements?all=true"
+DATA_MODEL_CLASS = DATA_MODELS + "/{MODEL_ID}/dataClasses/{CLASS_ID}?all=true"
+DATA_MODEL_CLASSES_ELEMENTS = DATA_MODELS + "/{MODEL_ID}/dataClasses/{CLASS_ID}/dataElements?all=true"
 DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticLinks?all=true"
 DATA_MODEL_PIDS = "https://api.uatbeta.healthdatagateway.org/api/v1/datasets/pidList"
 
@@ -61,11 +62,12 @@ def get_data_elements(data_model_id, data_class_id):
   if data_element_count > 0:
     for d in de_row['items']:
       print("Processing Data Element: ", d['id'], " : ", d['label'])
-      del d['breadcrumbs']
-      del d['dataModel']
-      del d['dataClass']
-      del d['dataType']['dataModel']
-      del d['dataType']['breadcrumbs']
+      d.pop('breadcrumbs', None)
+      d.pop('dataModel', None)
+      d.pop('dataClass', None)
+      if d.get('dataType', None) is not None:
+        d['dataType'].pop('dataModel', None)
+        d['dataType'].pop('breadcrumbs', None)
       data.append(d)
   return data
 
@@ -80,11 +82,11 @@ def get_data_classes(data_model_id):
   if data_model_count > 0:
     for d in dm_row['items']:
       print("Processing Data Class: ", d['id'], " : ", d['label'])
-      URL = DATA_MODEL_CLASSES.format(MODEL_ID=data_model_id) + "/{CLASS_ID}".format(CLASS_ID=d['id'])
+      URL = DATA_MODEL_CLASS.format(MODEL_ID=data_model_id, CLASS_ID=d['id'])
       dc_row = request_url(URL)
-      del dc_row['breadcrumbs']
-      del dc_row['dataModel']
-      del dc_row['editable']
+      dc_row.pop('breadcrumbs', None)
+      dc_row.pop('dataModel', None)
+      dc_row.pop('editable', None)
       # Collecting DataElements
       data_elements = get_data_elements(data_model_id, d['id'])
       dc_row['dataElementsCount'] = len(data_elements)
