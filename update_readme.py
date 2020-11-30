@@ -35,7 +35,10 @@ def cleanup_dataset_publishers(d):
             dp['type'] = "ALLIANCE"
         elif p.startswith('HUBS > '):
             dp['name'] = p.split('HUBS > ')[1]
-            dp['type'] = "HUBS"
+            dp['type'] = "HUB"
+        elif p.startswith('HUB > '):
+            dp['name'] = p.split('HUB > ')[1]
+            dp['type'] = "HUB"
         elif p.startswith('OTHER > '):
             dp['name'] = p.split('OTHER > ')[1]
             dp['type'] = "OTHER"
@@ -43,23 +46,23 @@ def cleanup_dataset_publishers(d):
             dp['name'] = p
             dp['type'] = "OTHER"
         
-        if dp['name'] == "CYSTIC FIBROSIS":
-            dp['name'] = "CYSTIC FIBROSIS TRUST"
-        if dp['name'] == "NHS Digital":
-            dp['name'] = "NHS DIGITAL"
-        elif dp['name'] == "Oxford University Hospitals NHS Foundation Trust":
-            dp['name'] = "OUH NHS"
-        elif dp['name'] == "Barts Health NHS Trust":
-            dp['name'] = "BARTS HEALTH NHS TRUST"
-        elif dp['name'] == "BARTS":
-            dp['name'] = "BARTS HEALTH NHS TRUST"
-        elif dp['name'] == "University of Bristol":
-            dp['name'] = "UNIVERSITY OF BRISTOL"
-        elif dp['name'] == "SLaM":
-            dp['name'] = "South London and Maudsley NHS Trust"
-        elif dp['name'].startswith("NIHR Health Informatics Collaborative"):
-            dp['name'] = "NIHR HIC " + dp['name'].split("NIHR Health Informatics Collaborative ")[1]
-            dp['name'] = dp['name'].upper()
+        # if dp['name'] == "CYSTIC FIBROSIS":
+        #     dp['name'] = "CYSTIC FIBROSIS TRUST"
+        # if dp['name'] == "NHS Digital":
+        #     dp['name'] = "NHS DIGITAL"
+        # elif dp['name'] == "Oxford University Hospitals NHS Foundation Trust":
+        #     dp['name'] = "OUH NHS"
+        # elif dp['name'] == "Barts Health NHS Trust":
+        #     dp['name'] = "BARTS HEALTH NHS TRUST"
+        # elif dp['name'] == "BARTS":
+        #     dp['name'] = "BARTS HEALTH NHS TRUST"
+        # elif dp['name'] == "University of Bristol":
+        #     dp['name'] = "UNIVERSITY OF BRISTOL"
+        # elif dp['name'] == "SLaM":
+        #     dp['name'] = "South London and Maudsley NHS Trust"
+        # elif dp['name'].startswith("NIHR Health Informatics Collaborative"):
+        #     dp['name'] = "NIHR HIC " + dp['name'].split("NIHR Health Informatics Collaborative ")[1]
+        #     dp['name'] = dp['name'].upper()
     d['publisher'] = dp
     return d
 

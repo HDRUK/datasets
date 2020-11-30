@@ -20,8 +20,8 @@ API_BASE_URL="https://metadata-catalogue.org/hdruk/api"
 DATA_MODELS = API_BASE_URL + "/dataModels"
 DATA_MODEL_ID = API_BASE_URL + "/facets/{MODEL_ID}/profile/uk.ac.hdrukgateway/HdrUkProfilePluginService"
 DATA_MODEL_METADATA = API_BASE_URL + "/facets/{MODEL_ID}/metadata?all=true"
-DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses?all=true"
-DATA_MODEL_CLASS = DATA_MODELS + "/{MODEL_ID}/dataClasses/{CLASS_ID}?all=true"
+DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses"
+DATA_MODEL_CLASS = DATA_MODELS + "/{MODEL_ID}/dataClasses/{CLASS_ID}"
 DATA_MODEL_CLASSES_ELEMENTS = DATA_MODELS + "/{MODEL_ID}/dataClasses/{CLASS_ID}/dataElements?all=true"
 DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticLinks?all=true"
 DATA_MODEL_PIDS = "https://api.uatbeta.healthdatagateway.org/api/v1/datasets/pidList"
@@ -272,10 +272,11 @@ def main():
   # generate sitemap
   generate_sitemap(data, 'sitemap.txt')
   
-  # tables = format_csv_tables(data)
-  # export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
-  # export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
-  # export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
+  # generate CSV tables
+  tables = format_csv_tables(data)
+  export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
+  export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
+  export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
 
   # Dataset v1 to v2 migration
   # new_data = migrate_v1_to_v2(data)

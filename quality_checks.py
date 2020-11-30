@@ -19,8 +19,7 @@ from validate_schema import get_json, validate_schema, \
 from datasets import export_csv, export_json
 
 DATASET_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/dataset.schema.json'
-BASELINE_SAMPLE = 'https://raw.githubusercontent.com/HDRUK/schemata/master/examples/dataset.sample.json'
-DATASETS_JSON = 'https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json'
+DATASETS_JSON = 'datasets.json'
 WEIGHTS = "config/weights/weights.v1.json"
 
 METADATA_SECTIONS = {
@@ -70,7 +69,6 @@ def nullScore(d):
     return data
 
 def completeness_check():
-    # schema = get_json(BASELINE_SAMPLE)
     schema = generate_baseline_from_sections(METADATA_SECTIONS, REPORTING_LEVELS)
     data_models = get_json(DATASETS_JSON)
     data = []
