@@ -276,10 +276,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures](https://web.www.healthdatagateway.org/dataset/fe872375-2401-4de1-9650-d4139cf5793a)
 
 ### HSCNI (4)
-- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/1f9d9f96-df18-4660-9c96-d5318cd0d68e)
-- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/3e8de4f3-ee1e-4898-a945-0487586c6767)
+- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/022cedb4-650d-4566-be41-8d7ed07a5112)
+- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/2aabcea9-d0dd-4780-b162-3c7ed3ee9888)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
-- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/8799e97b-bf13-407b-93bd-e96c8c4eb75f)
+- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/7389dc03-1fc7-4af7-b12c-bbab448290f9)
 
 ### IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/f89af2f4-e3cd-4eaa-835d-94aa347d8a92)
@@ -308,11 +308,11 @@ This repo automatically collects the datasets published on the Gateway including
 - [Pillar 2 - Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/f3b4817a-7924-460c-a1c5-0b24acd81a7d)
 
 ### NHS DIGITRIALS (9)
-- [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/19f21b8f-6ae0-4cbd-a175-596b8476f69a)
 - [Hospital Episode Statistics Admitted Patient Care](https://web.www.healthdatagateway.org/dataset/4a813fda-a3c4-422e-9d11-c031ebc1f74f)
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/512ab154-41e9-4231-9091-67814123e964)
 - [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/54b52301-d0be-4441-8b84-8c521fe8946d)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/5fffe53e-10bb-4d90-a5f6-fbac20c5ab9a)
+- [National Diabetes Audit](https://web.www.healthdatagateway.org/dataset/aafe3a2f-c0f3-44f2-b50e-d1120d5f2e93)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/c2f15f59-8e0d-4e90-9277-342497a6d961)
 - [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/caf619c9-3e9c-4873-a7ba-c0df8f4a62c2)
 - [Mental Health Services Data Set](https://web.www.healthdatagateway.org/dataset/d612e29a-c26a-4512-99d4-548514b60c76)
