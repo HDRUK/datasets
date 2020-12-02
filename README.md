@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (533)
+## HDR UK Datasets (535)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -296,8 +296,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
 
-### NHS DIGITAL (9)
+### NHS DIGITAL (11)
 - [Pillar 1 - England (Second Generation Surveillance Systems)](https://web.www.healthdatagateway.org/dataset/0756c167-e778-486f-9b96-94bd12af89cf)
+- [Covid-19 Second Generation Surveillance System](https://web.www.healthdatagateway.org/dataset/31fd27d5-c08d-49c3-b7f1-0af71ad219aa)
+- [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/744ab66e-8430-475a-a385-451347d9fc8a)
 - [Medicines dispensed in Primary Care (NHSBSA data)](https://web.www.healthdatagateway.org/dataset/7b002523-ab79-42de-bc93-6c73e3cc2921)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/8e66e623-2859-4a65-93d7-abd41e139976)
 - [GPES Data for Pandemic Planning and Research (COVID-19)](https://web.www.healthdatagateway.org/dataset/964ee922-2862-48ac-b77c-be68837ba88c)
