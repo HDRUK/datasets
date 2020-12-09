@@ -95,9 +95,8 @@ def get_data_classes(data_model_id):
   data['dataClasses'] = data_classes
   return data
 
-def get_semantic_links(data_model_id):
-  print("Processing Semantic Links...")
-  data = {}
+def get_semantic_links(data_model_id, data={}, seen_ids=[]):
+  print("Processing Semantic Links...", data_model_id)
   URL = DATA_MODEL_SEMANTIC_LINKS.format(MODEL_ID=data_model_id)
   ret = request_url(URL)
   if ret['count'] > 0:
@@ -109,6 +108,11 @@ def get_semantic_links(data_model_id):
       tar_ver = links['target']['documentationVersion']
       tar_id = links['target']['id']
       data[tar_ver] = tar_id
+  seen_ids.append(data_model_id)
+  revision_ids = list(set(list(data.values())) - set(seen_ids))
+  for id in revision_ids:
+    new_data = get_semantic_links(id, data, seen_ids)
+    data.update(new_data['revisions'])
   data['latest'] = data_model_id
   return { 'revisions': data }
 
