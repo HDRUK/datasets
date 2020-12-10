@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (539)
+## HDR UK Datasets (542)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -419,10 +419,13 @@ This repo automatically collects the datasets published on the Gateway including
 - [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/90ad6023-6c7f-4605-9323-b478a27c3c9a)
 - [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/9f34263d-ea74-4ddf-84df-b8dedd4baf6d)
 
-### PIONEER (7)
+### PIONEER (10)
 - [Acute care patients within the 100K Genome project](https://web.www.healthdatagateway.org/dataset/0048a401-e54c-49d7-8afc-6c5390fb66b9)
 - [University Hospitals Birmingham PICS data](https://web.www.healthdatagateway.org/dataset/1d1244b6-aeeb-4655-b5a2-2357ed28227a)
+- [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/80165908-dcab-49a6-8e1c-31a10d4b4d2b)
+- [Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/b095d7ad-5fac-4279-94b0-3c0b0c260acf)
 - [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
+- [OMOP dataset: Hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/bf607b38-bedf-4bda-a3ce-e6b1bb68d1df)
 - [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/d3d1cdf1-3a36-49d1-ba73-b02ebeceab9b)
 - [Birmingham Out of Hours Research Database](https://web.www.healthdatagateway.org/dataset/d546521a-79be-4a53-83bd-ff008bda6171)
 - [Society for Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/f075ceb7-5bed-4e6b-8e83-211aee945356)
@@ -458,7 +461,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Congenital Anomaly Register and Information Service](https://web.www.healthdatagateway.org/dataset/38468759-3351-4722-9eeb-4c6dc9fa44ce)
 - [Annual District Birth Extract](https://web.www.healthdatagateway.org/dataset/3ab70331-aa54-4f0d-aa95-ea2b95bed9d5)
 - [Cafcass Wales](https://web.www.healthdatagateway.org/dataset/3fceb952-0b21-40f4-bd69-fa5cd7ad7df9)
-- [Welsh Demographic Service (WDS)](https://web.www.healthdatagateway.org/dataset/46568011-ae01-4e3a-9ef7-187606316668)
 - [Intensive Care National Audit and Research Centre - Covid19](https://web.www.healthdatagateway.org/dataset/4af903f0-78c1-4b26-a5e1-2b2834d01cc1)
 - [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/4b6d3344-e73a-4f46-8e9d-fabb85827772)
 - [Patient Episode Dataset for Wales](https://web.www.healthdatagateway.org/dataset/4fdc745e-2c55-4c10-8742-58ced774b52c)
@@ -476,10 +478,12 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Exercise Referral Scheme](https://web.www.healthdatagateway.org/dataset/8270e26b-65ea-479c-8462-f5315b2657eb)
 - [Cafcass England](https://web.www.healthdatagateway.org/dataset/8a5047c0-bbe5-4b81-a56e-f6e7c1f3a5d9)
 - [Outpatient Dataset](https://web.www.healthdatagateway.org/dataset/8e6d7fcc-a4ad-4a32-bbc2-fe8631a38b43)
+- [National Survey for Wales](https://web.www.healthdatagateway.org/dataset/9360bc6c-2a7d-4415-869d-3e853c558f4d)
 - [Brecon dataset](https://web.www.healthdatagateway.org/dataset/a1e1ec62-d78c-40ac-9f90-66ef1dd865b2)
 - [Care Home Dataset](https://web.www.healthdatagateway.org/dataset/a45acd02-82d7-4bfe-9845-6b4df683bba8)
 - [GP dataset - Welsh Primary Care](https://web.www.healthdatagateway.org/dataset/a79dbdef-eac1-49d7-9fdb-150ed5340481)
 - [UK Cystic Fibrosis Registry (CYFI)](https://web.www.healthdatagateway.org/dataset/b43309eb-7860-49b7-9f11-1a7a0fd5532e)
+- [Welsh Demographic Service (WDS)](https://web.www.healthdatagateway.org/dataset/b724a905-e8ae-4ab5-b543-91435f8d3514)
 - [Welsh Ambulance Services NHS Trust](https://web.www.healthdatagateway.org/dataset/b8e0b4a8-aab6-47fc-ac6f-76cd5cdc933d)
 - [Emergency Department Data Set](https://web.www.healthdatagateway.org/dataset/bd2d56db-f24b-4ac6-9201-3d68c65472b5)
 - [Outpatient Referral](https://web.www.healthdatagateway.org/dataset/c2ddca9f-f144-437b-ac7a-0a628a50ba1a)
@@ -493,7 +497,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Healthcare Workers Risk Assessment](https://web.www.healthdatagateway.org/dataset/e2f05904-723a-4d5c-8746-7ab3d1d94eef)
 - [Lifelong Learning Wales Record (LLWR)](https://web.www.healthdatagateway.org/dataset/e7fc3bb6-446b-4267-b563-bf6f94e8dee2)
 - [Children Receiving Care and Support Census](https://web.www.healthdatagateway.org/dataset/ea9fa5fb-928d-4736-8fbf-e3b58a49c6d6)
-- [National Survey for Wales](https://web.www.healthdatagateway.org/dataset/ee78ce42-7f1f-4c97-80cc-ea6ad628e5da)
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/f6aa8836-b437-40b6-bd1e-ae20010048dd)
 - [Breast Test Wales](https://web.www.healthdatagateway.org/dataset/fb4a069b-fd74-47b2-bbb1-9cde6b590d66)
 
