@@ -23,7 +23,7 @@ DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses"
 DATA_MODEL_CLASS = DATA_MODELS + "/{MODEL_ID}/dataClasses/{CLASS_ID}"
 DATA_MODEL_CLASSES_ELEMENTS = DATA_MODELS + "/{MODEL_ID}/dataClasses/{CLASS_ID}/dataElements?all=true"
 DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticLinks?all=true"
-DATA_MODEL_PIDS = "https://api.uatbeta.healthdatagateway.org/api/v1/datasets/pidList"
+DATA_MODEL_PIDS = "https://api.www.healthdatagateway.org/api/v1/datasets/pidList"
 
 def request_url(URL):
   """HTTP GET request and load into data_model"""
