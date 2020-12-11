@@ -95,11 +95,14 @@ def get_data_classes(data_model_id):
   data['dataClasses'] = data_classes
   return data
 
-def get_semantic_links(data_model_id):
-  print("Processing Semantic Links...")
-  data = {}
+def get_semantic_links(data_model_id, data=None, seen_ids=[], latest=None):
+  print("Processing Semantic Links...", data_model_id)
+  if data is None:
+    data = {}
   URL = DATA_MODEL_SEMANTIC_LINKS.format(MODEL_ID=data_model_id)
   ret = request_url(URL)
+  if ret.get('count', None) is None:
+    return { 'revisions': data }
   if ret['count'] > 0:
     for links in ret['items']:
       src_ver = links['source']['documentationVersion']
@@ -109,7 +112,12 @@ def get_semantic_links(data_model_id):
       tar_ver = links['target']['documentationVersion']
       tar_id = links['target']['id']
       data[tar_ver] = tar_id
-  data['latest'] = data_model_id
+  seen_ids.append(data_model_id)
+  revision_ids = list(set(list(data.values())) - set(seen_ids))
+  for id in revision_ids:
+    new_data = get_semantic_links(id, data, seen_ids, latest)
+    data.update(new_data['revisions'])
+  data['latest'] = latest
   return { 'revisions': data }
 
 def fix_dates(revisions):
@@ -153,8 +161,10 @@ def process_data_models(data_models_list):
   data = {}
   data['count'] = data_models_list['count']
   data_models = []
+  i = 0
   for d in data_models_list['items']:
-    print("Processing Data Model: ", d['id'])
+    i += 1
+    print("{}/{}: Processing Data Model: {}".format(i, data['count'], d['id']))
     URL = DATA_MODELS + "/{ID}".format(ID=d['id'])
     row = request_url(URL)
     # Collect HDR UK Profile information
@@ -167,7 +177,7 @@ def process_data_models(data_models_list):
     row.update(data_classes)
 
     # Collect SemanticLinks
-    semantic_links = get_semantic_links(d['id'])
+    semantic_links = get_semantic_links(d['id'], latest=d['id'])
     row.update(semantic_links)
 
     # Fix Dates
@@ -264,10 +274,8 @@ def generate_sitemap(data, filename):
 def main():
   data_models_list = request_url(DATA_MODELS)
   data, headers = process_data_models(data_models_list)
+  data = lookup_pids(data)
   export_json(data, 'datasets.json')
-
-  pid_data = lookup_pids(data)
-  export_json(pid_data, 'datasets.pid.json')
 
   # generate sitemap
   generate_sitemap(data, 'sitemap.txt')
@@ -277,10 +285,6 @@ def main():
   export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
   export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
   export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
-
-  # Dataset v1 to v2 migration
-  # new_data = migrate_v1_to_v2(data)
-  # export_json(new_data, 'datasets.v2.json')
 
 
 if __name__ == "__main__":
