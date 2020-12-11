@@ -224,19 +224,6 @@ def format_csv_tables(data):
   print("Count: DE ", len(tables['dataElements']['data']))
   return tables
 
-def migrate_v1_to_v2(data):
-  new_data = []
-  count = data['count']
-  data = data['dataModels']
-  for d in data:
-    new_d = {}
-    map_data(d, new_d)
-    new_data.append(new_d)
-  return {
-    'count': len(new_data),
-    'dataModels': new_data
-  }
-
 def lookup_pids(data):
   pid_list = request_url(DATA_MODEL_PIDS)
   for d in data['dataModels']:
