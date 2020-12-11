@@ -14,7 +14,6 @@ import uuid
 import itertools
 import requests
 from pprint import pprint
-from migrate_v1_to_v2 import map_data
 
 API_BASE_URL="https://metadata-catalogue.org/hdruk/api"
 DATA_MODELS = API_BASE_URL + "/dataModels"
