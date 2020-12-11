@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (542)
+## HDR UK Datasets (543)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -419,9 +419,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/90ad6023-6c7f-4605-9323-b478a27c3c9a)
 - [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/9f34263d-ea74-4ddf-84df-b8dedd4baf6d)
 
-### PIONEER (10)
+### PIONEER (11)
 - [Acute care patients within the 100K Genome project](https://web.www.healthdatagateway.org/dataset/0048a401-e54c-49d7-8afc-6c5390fb66b9)
 - [University Hospitals Birmingham PICS data](https://web.www.healthdatagateway.org/dataset/1d1244b6-aeeb-4655-b5a2-2357ed28227a)
+- [PIONEER 100K Genomics patient clinical data including their acute care contacts](https://web.www.healthdatagateway.org/dataset/546e8f9d-80b4-488c-8750-5116555ee3e3)
 - [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/80165908-dcab-49a6-8e1c-31a10d4b4d2b)
 - [Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/b095d7ad-5fac-4279-94b0-3c0b0c260acf)
 - [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
@@ -461,7 +462,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Congenital Anomaly Register and Information Service](https://web.www.healthdatagateway.org/dataset/38468759-3351-4722-9eeb-4c6dc9fa44ce)
 - [Annual District Birth Extract](https://web.www.healthdatagateway.org/dataset/3ab70331-aa54-4f0d-aa95-ea2b95bed9d5)
 - [Cafcass Wales](https://web.www.healthdatagateway.org/dataset/3fceb952-0b21-40f4-bd69-fa5cd7ad7df9)
-- [Intensive Care National Audit and Research Centre - Covid19](https://web.www.healthdatagateway.org/dataset/4af903f0-78c1-4b26-a5e1-2b2834d01cc1)
 - [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/4b6d3344-e73a-4f46-8e9d-fabb85827772)
 - [Patient Episode Dataset for Wales](https://web.www.healthdatagateway.org/dataset/4fdc745e-2c55-4c10-8742-58ced774b52c)
 - [National Community Child Health Database (NCCHD)](https://web.www.healthdatagateway.org/dataset/553a0fcb-6bed-493c-a185-fa97dc5f370d)
@@ -474,6 +474,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [COVID-19 Test results](https://web.www.healthdatagateway.org/dataset/6f24a4b8-66ab-4ea7-aa8c-3be3d0b4abf1)
 - [Intensive Care National Audit and Research Centre](https://web.www.healthdatagateway.org/dataset/6f348bdc-21e4-459b-b658-dc839a1e2133)
 - [Annual District Death Daily](https://web.www.healthdatagateway.org/dataset/73867034-fe12-4d23-8d11-66da716dcb3d)
+- [Intensive Care National Audit and Research Centre - Covid19](https://web.www.healthdatagateway.org/dataset/7639cdc3-f368-4a43-80bd-58a67e70d407)
 - [Cervical Screening Wales](https://web.www.healthdatagateway.org/dataset/80e9c439-4909-4534-8bfe-6f01fdec7de7)
 - [National Exercise Referral Scheme](https://web.www.healthdatagateway.org/dataset/8270e26b-65ea-479c-8462-f5315b2657eb)
 - [Cafcass England](https://web.www.healthdatagateway.org/dataset/8a5047c0-bbe5-4b81-a56e-f6e7c1f3a5d9)
