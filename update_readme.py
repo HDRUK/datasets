@@ -9,7 +9,7 @@ import os
 import json
 import requests
 
-DATASETS_JSON = 'https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json'
+DATASETS_JSON = 'datasets.json'
 
 def get_json(json_uri):
     if isinstance(json_uri,dict):
