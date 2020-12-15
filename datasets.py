@@ -27,6 +27,7 @@ DATA_MODEL_PIDS = "https://api.www.healthdatagateway.org/api/v1/datasets/pidList
 
 def request_url(URL):
   """HTTP GET request and load into data_model"""
+  print(URL)
   r = requests.get(URL)
   if r.status_code == requests.codes.unauthorized:
     return {}
@@ -61,12 +62,12 @@ def get_data_elements(data_model_id, data_class_id):
   if data_element_count > 0:
     for d in de_row['items']:
       print("Processing Data Element: ", d['id'], " : ", d['label'])
+      d.pop('domainType', None)
+      d['name'] = d.pop('label', None)
       d.pop('breadcrumbs', None)
       d.pop('dataModel', None)
       d.pop('dataClass', None)
-      if d.get('dataType', None) is not None:
-        d['dataType'].pop('dataModel', None)
-        d['dataType'].pop('breadcrumbs', None)
+      d['dataType'] = d['dataType']['label']
       data.append(d)
   return data
 
@@ -83,9 +84,14 @@ def get_data_classes(data_model_id):
       print("Processing Data Class: ", d['id'], " : ", d['label'])
       URL = DATA_MODEL_CLASS.format(MODEL_ID=data_model_id, CLASS_ID=d['id'])
       dc_row = request_url(URL)
+      # del dc_row['id']
+      dc_row.pop('domainType', None)
+      dc_row['name'] = dc_row.pop('label', None)
       dc_row.pop('breadcrumbs', None)
       dc_row.pop('dataModel', None)
       dc_row.pop('editable', None)
+      dc_row.pop('lastUpdated', None)
+      
       # Collecting DataElements
       data_elements = get_data_elements(data_model_id, d['id'])
       dc_row['dataElementsCount'] = len(data_elements)
@@ -160,34 +166,92 @@ def process_data_models(data_models_list):
   data = {}
   data['count'] = data_models_list['count']
   data_models = []
+  data_models_v2 = []
+  
+  # Collect PIDs for Datasets
+  pid_list = request_url(DATA_MODEL_PIDS)
+  # pid_list = read_json("pids.json")
   i = 0
   for d in data_models_list['items']:
     i += 1
     print("{}/{}: Processing Data Model: {}".format(i, data['count'], d['id']))
+    row = {
+      "@schema": {
+        "type": "Dataset",
+        "version": "1.1.7",
+        "url": "https://raw.githubusercontent.com/HDRUK/schemata/develop/schema/dataset/1.1.7/dataset.schema.json"
+      }
+    }
+
+    # Get PID for Dataset
+    for p in pid_list['data']:
+      if d['id'] in p['datasetIds']:
+        row['pid'] = p['pid']
+    
+    # Collect Data Model
     URL = DATA_MODELS + "/{ID}".format(ID=d['id'])
-    row = request_url(URL)
+    dm = request_url(URL)
+    row.update(dm)
+    row['version'] = row.pop('documentationVersion', None)
+    
     # Collect HDR UK Profile information
     URL = DATA_MODEL_ID.format(MODEL_ID=d['id'])
     dm = request_url(URL)
     row.update(dm)
 
-    # Collecting Data Classes
-    data_classes = get_data_classes(d['id'])
-    row.update(data_classes)
+    row_v2 = {
+      "@schema": {
+        "type": "Dataset",
+        "version": "2.0.0",
+        "url": "https://raw.githubusercontent.com/HDRUK/schemata/develop/schema/dataset/latest/dataset.schema.json"
+      },
+      "pid": row.get('pid', None),
+      "id": row['id'],
+      "identifier": "https://web.www.healthdatagateway.org/dataset/" + dm['id'],
+      "version": row.get("version", None),
+      "lastUpdated": row.get('lastUpdated', None),
+      "dateFinalised": row.get('dateFinalised', None),
+      "summary": {
+        "title": row.get('label', None)
+      },
+      "documentation": {
+        "description": row.get('description', None)
+      }
+    }
 
     # Collect SemanticLinks
     semantic_links = get_semantic_links(d['id'], latest=d['id'])
     row.update(semantic_links)
+    row_v2.update(semantic_links)
 
     # Fix Dates
     dates = fix_dates(row['revisions'])
     row.update(dates)
+    row_v2.update(dates)
+    row.pop('lastUpdated', None)
+    row.pop('dateFinalised', None)
+    row_v2.pop('lastUpdated', None)
+    row_v2.pop('dateFinalised', None)
 
-    headers.extend(list(row.keys()))
+    # Collect HDR UK V2 Metadata Profile information
+    metadata_v2 = get_v2_metadata(row['id'])
+    row_v2 = generate_nested_dict(row_v2, metadata_v2)
+
+    # Collecting Data Classes
+    data_classes = get_data_classes(d['id'])
+    row.update(data_classes)
+    row_v2.update({ "structuralMetadata": data_classes})
+
     data_models.append(row)
+    if len(metadata_v2) > 0:
+      data_models_v2.append(row_v2)
+    
   data['dataModels'] = data_models
-  print("Retrieved ", data['count'], " records.")
-  return data, list(set(headers))
+  data['dataModelsV2'] = data_models_v2
+  data['count_v1'] = len(data_models)
+  data['count_v2'] = len(data_models_v2)
+  print("Retrieved ", data['count_v1'], "V1 records & ", data['count_v2'], " V2 records.")
+  return data
 
 def format_csv_tables(data):
   tables = {
@@ -198,8 +262,8 @@ def format_csv_tables(data):
   for dm in data['dataModels']:
     for dc in dm['dataClasses']:
       for de in dc['dataElements']:
-        de['dataTypeLabel'] = de['dataType']['label']
-        de['dataType'] = de['dataType']['domainType']
+        # de['dataTypeLabel'] = de['dataType']['label']
+        de['dataType'] = de['dataType']
         de['dataModel'] = dm['id']
         de['dataClass'] = dc['id']
         # Append dataElement to tables
@@ -257,17 +321,60 @@ def generate_sitemap(data, filename):
     f.write(BASE_URL + '\n')
     f.writelines('\n'.join(PAGES))
 
+def nested_set(dic, keys, value):
+  for key in keys[:-1]:
+    dic = dic.setdefault(key, {})
+  dic[keys[-1]] = value
+
+def generate_nested_dict(metadata, data):
+  for d in data:
+    nested_set(metadata, d[0], d[1])
+  return metadata
+
+def get_v2_metadata(id):
+  import ast
+  print("Downloading V2 metadata...")
+  URL = DATA_MODEL_METADATA.format(MODEL_ID=id)
+  data = request_url(URL)
+  metadata = []
+  for md in data['items']:
+    # TODO: FIX MDW Bug
+    if md['key'] == "properties/observations/observations":
+      md['key'] = "properties/observations"
+    if md['value'].startswith("[") and md['value'].endswith("]"):
+      md['value'] = ast.literal_eval(md['value'])
+    if md['namespace'] == 'org.healthdatagateway':
+      if md['key'] == "structuralMetadata":
+        metadata.append(([md['key']], md['value']))
+      else:
+        key = str(md['key'].split('properties/')[1])
+        keys = key.split("/")
+        metadata.append((keys, md['value']))
+  return metadata
+
+
 def main():
   data_models_list = request_url(DATA_MODELS)
-  data, headers = process_data_models(data_models_list)
-  data = lookup_pids(data)
-  export_json(data, 'datasets.json')
+
+  data = process_data_models(data_models_list)
+  data_v1 = {
+    'count': data['count_v1'],
+    'dataModels': data['dataModels']
+  }
+  data_v2 = {
+    'count': data['count_v2'],
+    'dataModels': data['dataModelsV2']
+  }
+
+  export_json(data_v1, 'datasets.json')
+  export_json(data_v2, 'datasets.v2.json')
 
   # generate sitemap
-  generate_sitemap(data, 'sitemap.txt')
+  generate_sitemap(data_v1, 'sitemap.txt')
   
   # generate CSV tables
-  tables = format_csv_tables(data)
+  # data_v1 = read_json('datasets.json')
+  tables = format_csv_tables(data_v1)
   export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
   export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
   export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])
