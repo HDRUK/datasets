@@ -14,7 +14,6 @@ import uuid
 import itertools
 import requests
 from pprint import pprint
-from migrate_v1_to_v2 import map_data
 
 API_BASE_URL="https://metadata-catalogue.org/hdruk/api"
 DATA_MODELS = API_BASE_URL + "/dataModels"
@@ -24,7 +23,7 @@ DATA_MODEL_CLASSES = DATA_MODELS + "/{MODEL_ID}/dataClasses"
 DATA_MODEL_CLASS = DATA_MODELS + "/{MODEL_ID}/dataClasses/{CLASS_ID}"
 DATA_MODEL_CLASSES_ELEMENTS = DATA_MODELS + "/{MODEL_ID}/dataClasses/{CLASS_ID}/dataElements?all=true"
 DATA_MODEL_SEMANTIC_LINKS = API_BASE_URL + "/catalogueItems/{MODEL_ID}/semanticLinks?all=true"
-DATA_MODEL_PIDS = "https://api.uatbeta.healthdatagateway.org/api/v1/datasets/pidList"
+DATA_MODEL_PIDS = "https://api.www.healthdatagateway.org/api/v1/datasets/pidList"
 
 def request_url(URL):
   """HTTP GET request and load into data_model"""
@@ -224,19 +223,6 @@ def format_csv_tables(data):
   print("Count: DC ", len(tables['dataClasses']['data']))
   print("Count: DE ", len(tables['dataElements']['data']))
   return tables
-
-def migrate_v1_to_v2(data):
-  new_data = []
-  count = data['count']
-  data = data['dataModels']
-  for d in data:
-    new_d = {}
-    map_data(d, new_d)
-    new_data.append(new_d)
-  return {
-    'count': len(new_data),
-    'dataModels': new_data
-  }
 
 def lookup_pids(data):
   pid_list = request_url(DATA_MODEL_PIDS)
