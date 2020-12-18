@@ -4200,6 +4200,44 @@
     ]
   },
   {
+    "id": "2057a9e3-b491-4d8f-874c-9857d00116b0",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Patient Episode Dataset for Wales",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,OPCS4,NHS NATIONAL CODES,NHS WALES NATIONAL CODES,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,OPCS4,NHS NATIONAL CODES,NHS WALES NATIONAL CODES,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "209f42a8-4581-49e1-a0c2-25069a37f230",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "RIO",
@@ -4386,6 +4424,69 @@
       {
         "attribute": "title",
         "message": "title: 'South London and Maudsley NHS Foundation Trust (SLaM) Clinical Record Interactive Search (CRIS) platform' is too long"
+      }
+    ]
+  },
+  {
+    "id": "2259bbdf-86e0-4107-801b-69dcb25b45b5",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "Secondary Uses Services Payment By Results",
+    "schema_error_count": 13,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'OPCS4,NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'OPCS4,NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Data will be minimised as appropriate relative to the data access application' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Data will be minimised as appropriate relative to the data access application' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'NOT APPLICABLE' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'NOT APPLICABLE' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -6204,6 +6305,44 @@
     "publisher": "HUB > DISCOVER NOW",
     "title": "North West London Patient Index (NWL PI)",
     "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith & Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "2f57c592-c65c-4d1c-b92d-d19d2a11c02e",
+    "publisher": "ALLIANCE > TISSUE DIRECTORY",
+    "title": "BioDock",
+    "schema_error_count": 9,
     "errors": [
       {
         "attribute": "usageRestrictions",
@@ -9529,44 +9668,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'Not avaliable' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "id": "4fdc745e-2c55-4c10-8742-58ced774b52c",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Patient Episode Dataset for Wales",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL,OPCS4,NHS NATIONAL CODES,NHS WALES NATIONAL CODES,ICD10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL,OPCS4,NHS NATIONAL CODES,NHS WALES NATIONAL CODES,ICD10' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -18037,65 +18138,6 @@
     ]
   },
   {
-    "id": "964ee922-2862-48ac-b77c-be68837ba88c",
-    "publisher": "ALLIANCE > NHS DIGITAL",
-    "title": "GPES Data for Pandemic Planning and Research (COVID-19)",
-    "schema_error_count": 12,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'SNOMED CT,DM+D,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
-        "suberrors": "    type: 'SNOMED CT,DM+D,NHS NATIONAL CODES,ODS' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Data will be minimised as appropriate relative to the data access application' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Data will be minimised as appropriate relative to the data access application' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'NOT APPLICABLE' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'NOT APPLICABLE' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'WEEKLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "96d29a1d-9566-4793-8dbb-351fbe2eb790",
     "publisher": "ALLIANCE > CPRD",
     "title": "Pregnancy Register for CPRD GOLD",
@@ -21617,68 +21659,34 @@
     "schema_error_count": 16,
     "errors": [
       {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
       },
       {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
       },
       {
-        "attribute": "license",
-        "message": "'license' is a required property"
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
       },
       {
         "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -22566,6 +22574,49 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "b9a2cd90-2724-4c7b-a26f-6f5b30a36a00",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Accident and Emergency Data (NWL A&E)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -27647,69 +27698,6 @@
     ]
   },
   {
-    "id": "e72825e0-d982-49cd-b361-e15cf63c6c33",
-    "publisher": "ALLIANCE > NHS DIGITAL",
-    "title": "Secondary Uses Services Payment By Results",
-    "schema_error_count": 13,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'OPCS4,NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'OPCS4,NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Data will be minimised as appropriate relative to the data access application' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Data will be minimised as appropriate relative to the data access application' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'NOT APPLICABLE' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'NOT APPLICABLE' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "e7fc3bb6-446b-4267-b563-bf6f94e8dee2",
     "publisher": "ALLIANCE > SAIL",
     "title": "Lifelong Learning Wales Record (LLWR)",
@@ -29271,6 +29259,65 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "id": "f56d5407-4a7e-420e-8479-87b075da2b39",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "GPES Data for Pandemic Planning and Research (COVID-19)",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'SNOMED CT,DM+D,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
+        "suberrors": "    type: 'SNOMED CT,DM+D,NHS NATIONAL CODES,ODS' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Data will be minimised as appropriate relative to the data access application' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Data will be minimised as appropriate relative to the data access application' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'NOT APPLICABLE' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'NOT APPLICABLE' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'WEEKLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
