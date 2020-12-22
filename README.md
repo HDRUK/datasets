@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (545)
+## HDR UK Datasets (540)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -287,7 +287,8 @@ This repo automatically collects the datasets published on the Gateway including
 ### IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/f89af2f4-e3cd-4eaa-835d-94aa347d8a92)
 
-### INSIGHT (2)
+### INSIGHT (3)
+- [PIONEER - Genomics Patients and related data](https://web.www.healthdatagateway.org/dataset/11f79fa7-82ee-49b1-b90a-3d7ec6746f95)
 - [Moorfields Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/6959639d-5bd2-4b53-918e-8f56784b2870)
 - [UHB Eye Image Dataset Release 001](https://web.www.healthdatagateway.org/dataset/94351432-da7e-4d44-97eb-4359d45e0240)
 
@@ -423,18 +424,12 @@ This repo automatically collects the datasets published on the Gateway including
 - [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/90ad6023-6c7f-4605-9323-b478a27c3c9a)
 - [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/9f34263d-ea74-4ddf-84df-b8dedd4baf6d)
 
-### PIONEER (11)
-- [Acute care patients within the 100K Genome project](https://web.www.healthdatagateway.org/dataset/0048a401-e54c-49d7-8afc-6c5390fb66b9)
-- [University Hospitals Birmingham PICS data](https://web.www.healthdatagateway.org/dataset/1d1244b6-aeeb-4655-b5a2-2357ed28227a)
-- [PIONEER 100K Genomics patient clinical data including their acute care contacts](https://web.www.healthdatagateway.org/dataset/546e8f9d-80b4-488c-8750-5116555ee3e3)
+### PIONEER (5)
 - [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/80165908-dcab-49a6-8e1c-31a10d4b4d2b)
 - [Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/b095d7ad-5fac-4279-94b0-3c0b0c260acf)
 - [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
 - [OMOP dataset: Hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/bf607b38-bedf-4bda-a3ce-e6b1bb68d1df)
 - [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/d3d1cdf1-3a36-49d1-ba73-b02ebeceab9b)
-- [Birmingham Out of Hours Research Database](https://web.www.healthdatagateway.org/dataset/d546521a-79be-4a53-83bd-ff008bda6171)
-- [Society for Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/f075ceb7-5bed-4e6b-8e83-211aee945356)
-- [PIONEER - Genomics Patients and related data](https://web.www.healthdatagateway.org/dataset/f202a9da-f036-4e8c-a069-a20ff6c8a9e1)
 
 ### PIONEER - HDR-UK Health data Hub in Acute Care (2)
 - [Deeply phenotyped sepsis patients within hospital: onset, treatments & outcomes](https://web.www.healthdatagateway.org/dataset/a4109f11-4ece-4173-bd12-689616c24b88)
