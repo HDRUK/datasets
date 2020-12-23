@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (539)
+## HDR UK Datasets (542)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -629,4 +629,13 @@ This repo automatically collects the datasets published on the Gateway including
 - [UCL / UCLH Biobank for Studying Health and Disease](https://web.www.healthdatagateway.org/dataset/f9a712ae-9d41-41a6-b2ca-3127441b03ac)
 - [St Thomas' Hospitals Plasma, serum & DNA Bio bank from patients with antiphospholipid antibodies](https://web.www.healthdatagateway.org/dataset/f9f3af0d-ca1c-4e8f-b5e8-20962e1e7b4e)
 - [eLIXIR - Early Life Data Cross-Linkage in Research](https://web.www.healthdatagateway.org/dataset/fcee6c99-a4bd-44b8-a28e-dc63337ce216)
+
+### The Univeristy of Cambridge (1)
+- [COMPARE](https://web.www.healthdatagateway.org/dataset/84b6d047-2a05-4fc0-8537-809dbb3d18ed)
+
+### The University of Cambridge (1)
+- [INTERVAL](https://web.www.healthdatagateway.org/dataset/d58d02f1-47c2-44fc-b16e-4f6cbbb46e62)
+
+### University of Nottingham (1)
+- [PANTHER study](https://web.www.healthdatagateway.org/dataset/0600a271-4a24-414f-a2d0-4b12e5c47d72)
 
