@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (542)
+## HDR UK Datasets (544)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -423,8 +423,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/90ad6023-6c7f-4605-9323-b478a27c3c9a)
 - [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/9f34263d-ea74-4ddf-84df-b8dedd4baf6d)
 
-### PIONEER (5)
+### PIONEER (7)
+- [Ventilatory strategies and outcomes for patients with COVID: a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/7c738c20-953f-4003-b972-4abc6e163efb)
 - [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/80165908-dcab-49a6-8e1c-31a10d4b4d2b)
+- [The impact of COVID on hospitalised patients with COPD; a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/9e965a9f-4213-43f3-9033-c7df1610ceb5)
 - [Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/b095d7ad-5fac-4279-94b0-3c0b0c260acf)
 - [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
 - [OMOP dataset: Hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/bf607b38-bedf-4bda-a3ce-e6b1bb68d1df)
