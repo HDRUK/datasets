@@ -424,8 +424,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/9f34263d-ea74-4ddf-84df-b8dedd4baf6d)
 
 ### PIONEER (7)
+- [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/22e14c8d-9d92-4437-b39b-f69f7b033d13)
 - [Ventilatory strategies and outcomes for patients with COVID: a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/7c738c20-953f-4003-b972-4abc6e163efb)
-- [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/80165908-dcab-49a6-8e1c-31a10d4b4d2b)
 - [The impact of COVID on hospitalised patients with COPD; a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/9e965a9f-4213-43f3-9033-c7df1610ceb5)
 - [Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/b095d7ad-5fac-4279-94b0-3c0b0c260acf)
 - [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
