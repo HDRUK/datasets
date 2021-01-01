@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (544)
+## HDR UK Datasets (543)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -436,8 +436,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Deeply phenotyped sepsis patients within hospital: onset, treatments & outcomes](https://web.www.healthdatagateway.org/dataset/a4109f11-4ece-4173-bd12-689616c24b88)
 - [Clinical response thresholds (acuity) in acutely unwell patients: onset-outcome](https://web.www.healthdatagateway.org/dataset/cce4a8d0-4110-4490-8ffa-485d059b7dcf)
 
-### PUBLIC HEALTH ENGLAND (2)
-- [National Cancer Registration Dataset 2018](https://web.www.healthdatagateway.org/dataset/8045cbe5-738d-4d30-a360-06acbbace5a9)
+### PUBLIC HEALTH ENGLAND (1)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/825fefd4-7529-47be-9d63-4ef0307d681f)
 
 ### PUBLIC HEALTH SCOTLAND (4)
