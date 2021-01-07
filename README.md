@@ -182,7 +182,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### GENOMICS ENGLAND (6)
 - [GENOMICS ENGLAND 100K NHSD LINKED DATA](https://web.www.healthdatagateway.org/dataset/15a7c12f-145c-46fc-acc9-c27e83ed2c4d)
-- [GENOMICS ENGLAND 100K BIOINFORMATICS DATA](https://web.www.healthdatagateway.org/dataset/7c9f9620-8f18-4e2d-bda0-a3a6f46756b6)
+- [GENOMICS ENGLAND 100K BIOINFORMATICS DATA](https://web.www.healthdatagateway.org/dataset/1900af1a-bd21-4157-ac48-203eec682073)
 - [GENOMICS ENGLAND 100K CANCER & COMMON](https://web.www.healthdatagateway.org/dataset/93ffc937-dc5f-4fae-bb75-a8ad19ac3d3e)
 - [GENOMICS ENGLAND 100K RARE DISEASE & COMMON](https://web.www.healthdatagateway.org/dataset/b0a8085e-8cf0-45ee-b4a6-12a4a545ca70)
 - [GENOMICS ENGLAND 100K PHE LINKED DATA](https://web.www.healthdatagateway.org/dataset/e0c871f9-b63c-43a5-9fd6-e5731dae2343)

@@ -3411,6 +3411,45 @@
     ]
   },
   {
+    "id": "1900af1a-bd21-4157-ac48-203eec682073",
+    "publisher": "ALLIANCE > GENOMICS ENGLAND",
+    "title": "GENOMICS ENGLAND 100K BIOINFORMATICS DATA",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Multiple' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Multiple' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: 'Not Available' is not valid under any of the given schemas",
+        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England, UK' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'HES Accident and Emergency,HES Admitted Patient Care, HES Outpatient Care,Diagnostic Imaging Dataset (DID),Patient Reported Outcome Measures (PROMs),Mental Health Minimum Data Set (MHMDS),Office for National Statistics - Death details data (ONS),Systemic Anti-Cancer Therapy Data Set (SACT),National Radiotherapy Dataset (RTDS),Cancer Registration (AV) tables,Cancer waiting times (CWT),Lung Cancer Data Audit (LUCADA),PHE Diagnostic Imaging Dataset (NCRAS_DID)' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'HES Accident and Emergency,HES Admitted Patient Care, HES Outpatient Care,Diagnostic Imaging Dataset (DID),Patient Reported Outcome Measures (PROMs),Mental Health Minimum Data Set (MHMDS),Office for National Statistics - Death details data (ONS),Systemic Anti-Cancer Therapy Data Set (SACT),National Radiotherapy Dataset (RTDS),Cancer Registration (AV) tables,Cancer waiting times (CWT),Lung Cancer Data Audit (LUCADA),PHE Diagnostic Imaging Dataset (NCRAS_DID)' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "id": "191c1e3f-4eff-41b9-bff1-c6510f7c6c3d",
     "publisher": "HUBS > BREATHE",
     "title": "Early Pandemic Evaluation and Enhanced Surveillance of COVID-19 (EAVE II)",
@@ -14425,58 +14464,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "id": "7c9f9620-8f18-4e2d-bda0-a3a6f46756b6",
-    "publisher": "ALLIANCE > GENOMICS ENGLAND",
-    "title": "GENOMICS ENGLAND 100K BIOINFORMATICS DATA",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '3-6 months' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'International standards. OMOP is being trialled.' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD-10; OPCs4.x; SNOMED CT; HPO' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD-10; OPCs4.x; SNOMED CT; HPO' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Multiple' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Multiple' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not Available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England, UK' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Hospital Episode Statistics (HES), including HES Accident and Emergency, HES Admitted Patient Care, and HES Outpatient Care.\\nDiagnostic Imaging Dataset (DID).\\nPatient Reported Outcome Measures (PROMs).\\nMental Health Minimum Data Set (MHMDS).\\nOffice for National Statistics - Death details data (ONS).\\nSystemic Anti-Cancer Therapy Data Set (SACT).\\nNational Radiotherapy Dataset (RTDS).\\nCancer Registration (AV) tables.\\nCancer waiting times (CWT).\\nLung Cancer Data Audit (LUCADA).\\nPHE Diagnostic Imaging Dataset (NCRAS_DID).' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Hospital Episode Statistics (HES), including HES Accident and Emergency, HES Admitted Patient Care, and HES Outpatient Care.\\nDiagnostic Imaging Dataset (DID).\\nPatient Reported Outcome Measures (PROMs).\\nMental Health Minimum Data Set (MHMDS).\\nOffice for National Statistics - Death details data (ONS).\\nSystemic Anti-Cancer Therapy Data Set (SACT).\\nNational Radiotherapy Dataset (RTDS).\\nCancer Registration (AV) tables.\\nCancer waiting times (CWT).\\nLung Cancer Data Audit (LUCADA).\\nPHE Diagnostic Imaging Dataset (NCRAS_DID).' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Genomics England Dataset are updated on a quarterly basis' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
