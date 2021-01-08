@@ -438,7 +438,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Clinical response thresholds (acuity) in acutely unwell patients: onset-outcome](https://web.www.healthdatagateway.org/dataset/cce4a8d0-4110-4490-8ffa-485d059b7dcf)
 
 ### PUBLIC HEALTH ENGLAND (1)
-- [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/825fefd4-7529-47be-9d63-4ef0307d681f)
+- [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/79a7ad18-6941-4543-924a-787f2381f5e0)
 
 ### PUBLIC HEALTH SCOTLAND (4)
 - [General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)](https://web.www.healthdatagateway.org/dataset/2537007c-9e9e-4441-a0d1-59fa400566c5)
@@ -453,7 +453,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/03db4df3-f482-4bdd-a335-546ffffbeaab)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/05716e41-9842-4c07-8ddd-af9f9231e056)
 - [Careers Wales dataset](https://web.www.healthdatagateway.org/dataset/08846261-45f0-4bcf-9801-fe785dcef1c9)
-- [Welsh Dispensing Dataset](https://web.www.healthdatagateway.org/dataset/0e24f325-fdd3-4cb3-9374-8852c77cef98)
 - [Active Adult Survey](https://web.www.healthdatagateway.org/dataset/15805559-2115-4822-b91f-635de36fb289)
 - [Patient Episode Dataset for Wales](https://web.www.healthdatagateway.org/dataset/2057a9e3-b491-4d8f-874c-9857d00116b0)
 - [Welsh Cancer Intelligence and Surveillance Unit (WCISU)](https://web.www.healthdatagateway.org/dataset/24095736-dbea-4c37-86fe-ddf3a6933a6b)
@@ -471,6 +470,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Diagnostic and Therapy Services Waiting Times](https://web.www.healthdatagateway.org/dataset/65c8a30c-de2c-47bf-87e4-18c86e75e54a)
 - [Critical Care Dataset](https://web.www.healthdatagateway.org/dataset/67ae329c-f51e-4a28-9a1c-e35d2819a6c3)
 - [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/67ef8ade-51e6-4737-acee-be871751a698)
+- [Welsh Dispensing Dataset](https://web.www.healthdatagateway.org/dataset/6b7893b5-74bc-49e2-ab4d-50e7695f54a5)
 - [COVID-19 Test results](https://web.www.healthdatagateway.org/dataset/6f24a4b8-66ab-4ea7-aa8c-3be3d0b4abf1)
 - [Intensive Care National Audit and Research Centre](https://web.www.healthdatagateway.org/dataset/6f348bdc-21e4-459b-b658-dc839a1e2133)
 - [Annual District Death Daily](https://web.www.healthdatagateway.org/dataset/73867034-fe12-4d23-8d11-66da716dcb3d)
