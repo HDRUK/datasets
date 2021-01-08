@@ -2,7 +2,9 @@
 
 # HDR UK Gateway Datasets (Daily Extract)
 
-This repo automatically collects the datasets published on the Gateway including all high-level metadata based the latest [specification](https://www.hdruk.ac.uk/wp-content/uploads/2019/12/MVP-Metadata-Specification_Final-v1.1.7.pdf).
+This repository automatically collects the datasets published on the Gateway including all high-level metadata based the latest V2 [specification](https://github.com/HDRUK/schemata/blob/develop/docs/dataset/latest/dataset.md). This specification can be viewed as a [JSON Schema](https://github.com/HDRUK/schemata/blob/develop/schema/dataset/latest/dataset.schema.json) or in a more human-readable [YAML Schema](https://github.com/HDRUK/schemata/blob/develop/schema/dataset/latest/dataset.schema.yaml).
+
+You can also find in [reports](https://github.com/HDRUK/datasets/tree/dataset-v2-scores/reports) the latest documentation on how the quality score is calculated.
 
 ### RAW Daily Extracts - [CSV](https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.csv) | [JSON](https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json)
 
