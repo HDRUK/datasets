@@ -6,6 +6,8 @@ This repository automatically collects the datasets published on the Gateway inc
 
 You can also find in [reports](https://github.com/HDRUK/datasets/tree/dataset-v2-scores/reports) the latest documentation on how the quality score is calculated.
 
+The final metadata quality outputs of the listed datasets can be found here ([CSV, JSON])
+
 ### RAW Daily Extracts - [CSV](https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.csv) | [JSON](https://raw.githubusercontent.com/HDRUK/datasets/master/datasets.json)
 
 ---
