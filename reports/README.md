@@ -30,25 +30,20 @@ Lists each dataset, and the resulting scores.
 
 ## How scores are calculated
 
-**Completeness Percent** = # filled fields / # total fields  
-**Weighted Completeness Percent** = sum(weights of filled fields)
-
-**Error Percent** = # fields with errors/ # total fields  
-**Weighted Error Percent** = sum(weights of fields with errors)
-
-**Quality score** = (completeness percent + (1-error percent))/2  
-**Weighted Quality Score**** = (weighted completeness percent + (1-weight error percent))/2
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\\&space;\textbf{Completeness&space;%}&space;=&space;\frac{\text{\&hash;&space;filled&space;fields}}{\text{\&hash;&space;total&space;fields}}&space;\\&space;\textbf{Weighted&space;Completeness&space;%}&space;=&space;\sum{\text{(weights&space;of&space;filled&space;fields)}}&space;\\&space;\\&space;\\&space;\textbf{Error&space;%}&space;=&space;\frac{\text{\&hash;&space;fields&space;with&space;errors}}{\text{\&hash;&space;total&space;fields}}&space;\\&space;\textbf{Weighted&space;Error&space;%}&space;=&space;\sum{\text{(weights&space;of&space;fields&space;with&space;errors)}}&space;\\&space;\\&space;\\&space;\textbf{Quality&space;Score}&space;=&space;\frac{\text{(Completeness&space;%&space;&plus;&space;(1&space;-&space;Error&space;%)}}{2}&space;\\&space;\textbf{Weighted&space;Quality&space;Score}&space;=&space;\frac{\text{(Weighted&space;Completeness&space;%&space;&plus;&space;(1&space;-&space;Weighted&space;Error&space;%)}}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;\\&space;\textbf{Completeness&space;%}&space;=&space;\frac{\text{\&hash;&space;filled&space;fields}}{\text{\&hash;&space;total&space;fields}}&space;\\&space;\textbf{Weighted&space;Completeness&space;%}&space;=&space;\sum{\text{(weights&space;of&space;filled&space;fields)}}&space;\\&space;\\&space;\\&space;\textbf{Error&space;%}&space;=&space;\frac{\text{\&hash;&space;fields&space;with&space;errors}}{\text{\&hash;&space;total&space;fields}}&space;\\&space;\textbf{Weighted&space;Error&space;%}&space;=&space;\sum{\text{(weights&space;of&space;fields&space;with&space;errors)}}&space;\\&space;\\&space;\\&space;\textbf{Quality&space;Score}&space;=&space;\frac{\text{(Completeness&space;%&space;&plus;&space;(1&space;-&space;Error&space;%)}}{2}&space;\\&space;\textbf{Weighted&space;Quality&space;Score}&space;=&space;\frac{\text{(Weighted&space;Completeness&space;%&space;&plus;&space;(1&space;-&space;Weighted&space;Error&space;%)}}{2}" title="\\ \textbf{Completeness %} = \frac{\text{\# filled fields}}{\text{\# total fields}} \\ \textbf{Weighted Completeness %} = \sum{\text{(weights of filled fields)}} \\ \\ \\ \textbf{Error %} = \frac{\text{\# fields with errors}}{\text{\# total fields}} \\ \textbf{Weighted Error %} = \sum{\text{(weights of fields with errors)}} \\ \\ \\ \textbf{Quality Score} = \frac{\text{(Completeness % + (1 - Error %)}}{2} \\ \textbf{Weighted Quality Score} = \frac{\text{(Weighted Completeness % + (1 - Weighted Error %)}}{2}" /></a>
 
 **Quality Rating / Weighted Quality Rating:**  
 Based on (weighted)/quality score 
 
+
+
 | (Weighted)/Quality Score | Rating |
 | --- | --- |
-| < 50 | Not rated |
-| >50 & <= 70 | Bronze |
-| - >70 & <=80|  Silver |
-| >80 & <=90 | Gold |
-| >90 | Platinum |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\leq50" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;\leq50" title="\leq50" /></a> | Not rated |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;>50&space;\text{&space;\&&space;}&space;\leq70" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;>50&space;\text{&space;\&&space;}&space;\leq70" title=">50 \text{ \& } \leq70" /></a> | Bronze |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;>70&space;\text{&space;\&&space;}&space;\leq80" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;>70&space;\text{&space;\&&space;}&space;\leq80" title=">70 \text{ \& } \leq80" /></a>|  Silver |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;>80&space;\text{&space;\&&space;}&space;\leq90" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;>80&space;\text{&space;\&&space;}&space;\leq90" title=">80 \text{ \& } \leq90" /></a> | Gold |
+| <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;>90" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;>90" title=">90" /></a> | Platinum |
 
 ## How to modify weights
 
