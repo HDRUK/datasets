@@ -360,9 +360,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/db113fcd-69a0-4357-9c6d-250085deb3f5)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/ff2c6982-00f3-4483-9fc2-19b3a7211d8d)
 
-### NHS SCOTLAND (2)
+### NHS SCOTLAND (1)
 - [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/380cbddb-e64e-42b9-a364-47c550262b6a)
-- [NHS Scotland General Practice (GP) Contact Data - Subset](https://web.www.healthdatagateway.org/dataset/a021f150-41e6-48c3-807c-a0cefa4cb2c2)
 
 ### NHSX (1)
 - [The National COVID-19 Chest Imaging Database](https://web.www.healthdatagateway.org/dataset/8c13e03e-b9d2-4b04-8b98-097643a6beaf)
@@ -440,10 +439,11 @@ This repo automatically collects the datasets published on the Gateway including
 ### PUBLIC HEALTH ENGLAND (1)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/79a7ad18-6941-4543-924a-787f2381f5e0)
 
-### PUBLIC HEALTH SCOTLAND (4)
+### PUBLIC HEALTH SCOTLAND (5)
 - [General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)](https://web.www.healthdatagateway.org/dataset/2537007c-9e9e-4441-a0d1-59fa400566c5)
 - [SICSAG Episodes (Scottish Intensive Care Audit Group)](https://web.www.healthdatagateway.org/dataset/3c9e8226-f12c-4824-9996-29a667b9609c)
 - [SICSAG Daily (Scottish Intensive Care Audit Group)](https://web.www.healthdatagateway.org/dataset/63f9444f-d23b-425c-9ee5-aa09968afa08)
+- [NHS Scotland General Practice (GP) Contact Data - Subset](https://web.www.healthdatagateway.org/dataset/80b54fc9-8dc0-4134-880d-ffa8d4473204)
 - [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/e61fce14-617d-4f7b-80aa-468d94c6d897)
 
 ### RCGP (1)
