@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (544)
+## HDR UK Datasets (545)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -300,7 +300,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
 
-### NHS DIGITAL (12)
+### NHS DIGITAL (13)
 - [Pillar 1 - England (Second Generation Surveillance Systems)](https://web.www.healthdatagateway.org/dataset/0756c167-e778-486f-9b96-94bd12af89cf)
 - [Secondary Uses Services Payment By Results](https://web.www.healthdatagateway.org/dataset/2259bbdf-86e0-4107-801b-69dcb25b45b5)
 - [Covid-19 Second Generation Surveillance System](https://web.www.healthdatagateway.org/dataset/31fd27d5-c08d-49c3-b7f1-0af71ad219aa)
@@ -309,6 +309,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Medicines dispensed in Primary Care (NHSBSA data)](https://web.www.healthdatagateway.org/dataset/7b002523-ab79-42de-bc93-6c73e3cc2921)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/8e66e623-2859-4a65-93d7-abd41e139976)
 - [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/bc30732b-32cb-4f66-8794-e6e6691c79e7)
+- [Covid-19 UK Non-hospital Antibody Testing Results](https://web.www.healthdatagateway.org/dataset/c28e4dc6-3956-4bbe-bb10-50bcfc3bba28)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/cef00323-8756-4ea5-99e4-f12dcb2c6297)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/e09ddabc-b0b9-4f9d-af32-97293e0e6cb7)
 - [Pillar 2 - Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/f3b4817a-7924-460c-a1c5-0b24acd81a7d)

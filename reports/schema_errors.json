@@ -23803,6 +23803,60 @@
     ]
   },
   {
+    "id": "c28e4dc6-3956-4bbe-bb10-50bcfc3bba28",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "Covid-19 UK Non-hospital Antibody Testing Results",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'SNOMED CT,ODS' is not valid under any of the given schemas",
+        "suberrors": "    type: 'SNOMED CT,ODS' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Data will be minimised as appropriate relative to the data access application' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Data will be minimised as appropriate relative to the data access application' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "jurisdiction: 'GB-ENG,GB-NIR,GB-SCT,GB-WLS' does not match '^[A-Z]{2}(-[A-Z]{2,3})?$'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "c29c3fbe-700e-4f85-8943-5557c30c1dfa",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
     "title": "Arden Tissue Bank",
