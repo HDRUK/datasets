@@ -5,9 +5,9 @@ on:
   # Run at 0 minute past every 12th hour
     - cron:  '0 */12 * * *'
   push:
-    branches: [ master ]
+    branches: [ dataset-v2-scores ]
   pull_request:
-    branches: [ master ]
+    branches: [ dataset-v2-scores ]
   workflow_dispatch:
 
 jobs:
