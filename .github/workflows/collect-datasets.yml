@@ -41,7 +41,7 @@ jobs:
     
     - name: Perform completeness and schema validation checks
       run: |
-        python quality_checks.py
+        python quality_checks_v2.py
     
     - name: Auto-generate README
       run: |
