@@ -14,7 +14,7 @@ import platform
 
 CWD = os.getcwd()
 # DM_JSON_PATH = os.path.join(CWD, 'datasets', '2.0.1', 'datasets_v2.json')
-DM_JSON_PATH = os.path.join(CWD, 'datasets_v2.json')
+DM_JSON_PATH = os.path.join(CWD, 'datasets.v2.json')
 # VALIDATION_SCHEMA_PATH = os.path.join(CWD, 'schema', 'dataset', 'latest', 'dataset.schema.json')
 VALIDATION_SCHEMA_PATH = os.path.join(CWD, 'dataset.schema.v2.json')
 # VALIDATION_WEIGHTS_PATH = os.path.join(CWD, 'schema', 'dataset', 'latest', 'weights.v2.json')
@@ -398,7 +398,7 @@ def score_data_models(val_schema_path, val_weights_path, m_path, data_models, de
     dm_scores = []
     all_scores = {'Organisation': [],
                   'Title': [],
-                  'uuid': [],
+                  'id': [],
                   'Completeness': [],
                   'Errors': [],
                   'Score': [],
@@ -406,21 +406,21 @@ def score_data_models(val_schema_path, val_weights_path, m_path, data_models, de
     excel_score = {'Datasets': None}
     reference_counter = len(data_models)
     for data_model in data_models:
-        if not data_model.get('uuid', None):
+        if not data_model.get('id', None):
             write_timestamp(
-                f"  ERR: no uuid for {data_model['summary']['publisher']['name']}>'{data_model['summary']['title']}'")
+                f"  ERR: no id for {data_model['summary']['publisher']['name']}>'{data_model['summary']['title']}'")
             continue
         # if 'NHS DIGITAL'!=data_model['summary']['publisher']['name'].upper():
         #     continue
         dm_score = copy.deepcopy(score_json)
-        dm_score['id'] = data_model['uuid']
+        dm_score['id'] = data_model['id']
         dm_score['publisher'] = f"{data_model['summary']['publisher']['memberOf']} > {data_model['summary']['publisher']['name']}"
         dm_score['title'] = data_model['summary']['title']
         dm_completeness = assess_completeness(completeness, data_model)
         dm_errors = assess_errors(dm_validator, validation_errors, data_model)
         all_scores['Organisation'].append(data_model['summary']['publisher'].get('name', 'no org'))
         all_scores['Title'].append(data_model['summary'].get('title', 'no title'))
-        all_scores['uuid'].append(data_model['uuid'])
+        all_scores['id'].append(data_model['id'])
         cmpl_sc = (100 * dm_completeness['weight'])
         dm_score['weighted_completeness_percent'] = round(cmpl_sc, 2)
         all_scores['Completeness'].append(f"{cmpl_sc:.2f}%")
