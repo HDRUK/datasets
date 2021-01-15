@@ -15,6 +15,7 @@ from jsonschema import validate, Draft7Validator, FormatChecker, draft7_format_c
 DATASET_SCHEMA = 'dataset.schema.v1.5.json'
 DATASETS_JSON = 'datasets.json'
 WEIGHTS = "config/weights/weights.v1.5.json"
+BASELINE_SCHEMA = ""
 
 def generate_metadata_sections_and_levels(weights_json):
     METADATA_SECTIONS = {}
