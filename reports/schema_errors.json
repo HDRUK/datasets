@@ -19274,6 +19274,61 @@
     ]
   },
   {
+    "id": "9aca57a9-df02-4a93-b0ba-2f590e4ca818",
+    "publisher": "BREATHE",
+    "title": "Salford Lung Study",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'www.clinicalstudydatarequest.com,https://vivli.org' is not valid under any of the given schemas",
+        "suberrors": "    type: 'www.clinicalstudydatarequest.com,https://vivli.org' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Yes' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: '10.1016/S0140-6736(17)32397-8 - SLS asthma primary mansucriptdoi: 10.1056/NEJMoa1608033 - SLS COPD primary manuscript' is not valid under any of the given schemas",
+        "suberrors": "    pattern: '10.1016/S0140-6736(17)32397-8 - SLS asthma primary mansucriptdoi: 10.1056/NEJMoa1608033 - SLS COPD primary manuscript' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Salford and South Manchester' is not a 'uri'"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "id": "9b7f7994-0b9c-4809-b67d-45ae1f04ec5c",
     "publisher": "NHS Digital",
     "title": "Mental Health Services Data Set - Currencies",

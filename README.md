@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (556)
+## HDR UK Datasets (557)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -25,7 +25,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/b41bb360-f2ed-49f0-a45b-b2fb05321975)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/f8bab14a-bc9b-4dd1-a6c6-c57588605849)
 
-### BREATHE (49)
+### BREATHE (50)
 - [Estimating Chronic Respiratory Disease burden in adults in Asian LMICs](https://web.www.healthdatagateway.org/dataset/0150353c-d33d-4af0-b177-8ef0adf867f4)
 - [CuT-AsthMa: Culturally tailored school-based intervention for asthma in Malaysia](https://web.www.healthdatagateway.org/dataset/0692d86c-1f24-43a4-9508-005d00bd7259)
 - [Development of spirometry predictive values for Indian population](https://web.www.healthdatagateway.org/dataset/0985f58b-87e0-42d2-9ee7-efd618abcd51)
@@ -58,6 +58,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Children's Health in London and Luton (CHILL)](https://web.www.healthdatagateway.org/dataset/868613e0-23cc-4f8a-82da-18984589afd7)
 - [Pneumonia case management practices in selected communities in Pakistan](https://web.www.healthdatagateway.org/dataset/8fc0a2cc-a8ce-4558-a98a-c514255833d8)
 - [Genetics of Asthma Severity & Phenotypes](https://web.www.healthdatagateway.org/dataset/94c082e5-b45f-43fe-9340-f4855f392fd4)
+- [Salford Lung Study](https://web.www.healthdatagateway.org/dataset/9aca57a9-df02-4a93-b0ba-2f590e4ca818)
 - [Optimum Patient Care Research Database](https://web.www.healthdatagateway.org/dataset/ae4b8371-d037-46e8-bdcd-bf3de08ef38e)
 - [Community perception on public health measures for COVID-19 prevention/control](https://web.www.healthdatagateway.org/dataset/af238430-c257-4d60-9ff0-1de6b825f09e)
 - [Assessment of ASHA’s workload and its determinants](https://web.www.healthdatagateway.org/dataset/bab944af-e345-4893-8640-a88aaff97c72)
