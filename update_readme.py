@@ -102,7 +102,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 def main():
     datasets = get_json(DATASETS_JSON)
-    datasets = cleanup(datasets)
+    // datasets = cleanup(datasets)
     publishers = get_publishers(datasets)
     generate_readme(datasets, publishers)
 
