@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (557)
+## HDR UK Datasets (558)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -413,7 +413,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Sunquest](https://web.www.healthdatagateway.org/dataset/eaca9ed1-30b6-4157-8894-8e53efc84849)
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
-### PIONEER (10)
+### PIONEER (11)
 - [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/22e14c8d-9d92-4437-b39b-f69f7b033d13)
 - [Ventilatory strategies and outcomes for patients with COVID: a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/7c738c20-953f-4003-b972-4abc6e163efb)
 - [The impact of COVID on hospitalised patients with COPD; a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/9e965a9f-4213-43f3-9033-c7df1610ceb5)
@@ -421,6 +421,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/b095d7ad-5fac-4279-94b0-3c0b0c260acf)
 - [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
 - [OMOP dataset: Hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/bf607b38-bedf-4bda-a3ce-e6b1bb68d1df)
+- [UHB 2019 Summer Society of Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/c89d31bb-adc9-499d-b94a-6d5b2c85d126)
 - [Clinical response thresholds (acuity) in acutely unwell patients: onset-outcome](https://web.www.healthdatagateway.org/dataset/cce4a8d0-4110-4490-8ffa-485d059b7dcf)
 - [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/d3d1cdf1-3a36-49d1-ba73-b02ebeceab9b)
 - [UHB 2020 Winter Society of Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/dc4d5fc6-b39a-4199-b1f2-1b428fc32cd9)
