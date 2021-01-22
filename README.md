@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (558)
+## HDR UK Datasets (560)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -167,7 +167,11 @@ This repo automatically collects the datasets published on the Gateway including
 ### GUT REACTION (1)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/97ddd990-f47a-40f5-9178-cbf742e4c613)
 
-### HEALTH AND SOCIAL CARE NORTHERN IRELAND (1)
+### HEALTH AND SOCIAL CARE NORTHERN IRELAND (5)
+- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/022cedb4-650d-4566-be41-8d7ed07a5112)
+- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/2aabcea9-d0dd-4780-b162-3c7ed3ee9888)
+- [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
+- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/7389dc03-1fc7-4af7-b12c-bbab448290f9)
 - [Mortality (Death registration)](https://web.www.healthdatagateway.org/dataset/9450f059-807e-4cc3-9e2d-79a3589d9106)
 
 ### HEALTH DATA RESEARCH UK (1)
@@ -279,12 +283,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Cardiac Audit Programme - National Adult Cardiac Surgery Audit (NACSA)](https://web.www.healthdatagateway.org/dataset/faf7ec31-999a-4d87-9d6d-8837ff2fa486)
 - [National Joint Registry - Primary Shoulder Replacement dataset](https://web.www.healthdatagateway.org/dataset/fe4662ad-9080-4bd8-8de4-51195d275d5b)
 - [National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures](https://web.www.healthdatagateway.org/dataset/fe872375-2401-4de1-9650-d4139cf5793a)
-
-### HSCNI (4)
-- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/022cedb4-650d-4566-be41-8d7ed07a5112)
-- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/2aabcea9-d0dd-4780-b162-3c7ed3ee9888)
-- [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
-- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/7389dc03-1fc7-4af7-b12c-bbab448290f9)
 
 ### IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/f89af2f4-e3cd-4eaa-835d-94aa347d8a92)
@@ -460,7 +458,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
 
-### SAIL (50)
+### SAIL (52)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/03db4df3-f482-4bdd-a335-546ffffbeaab)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/05716e41-9842-4c07-8ddd-af9f9231e056)
 - [Careers Wales dataset](https://web.www.healthdatagateway.org/dataset/08846261-45f0-4bcf-9801-fe785dcef1c9)
@@ -470,9 +468,11 @@ This repo automatically collects the datasets published on the Gateway including
 - [Maternity Indicators Dataset](https://web.www.healthdatagateway.org/dataset/258c9577-76cd-45c7-a6b5-8e7eed07ce9e)
 - [Pathology Data from WRRS](https://web.www.healthdatagateway.org/dataset/26da4493-a78b-4090-ba18-e6c600d2c375)
 - [Millennium Cohort Study](https://web.www.healthdatagateway.org/dataset/2b09ea87-5b22-4049-b7dd-de0889699115)
+- [Systemic Anti-Cancer Therapy Dataset [SACT]](https://web.www.healthdatagateway.org/dataset/3141f405-9653-4189-9a1f-443a463d4b1b)
 - [Congenital Anomaly Register and Information Service](https://web.www.healthdatagateway.org/dataset/38468759-3351-4722-9eeb-4c6dc9fa44ce)
 - [Annual District Birth Extract](https://web.www.healthdatagateway.org/dataset/3ab70331-aa54-4f0d-aa95-ea2b95bed9d5)
 - [Cafcass Wales](https://web.www.healthdatagateway.org/dataset/3fceb952-0b21-40f4-bd69-fa5cd7ad7df9)
+- [Domiciliary Social Care Worker [DSCW]](https://web.www.healthdatagateway.org/dataset/41a667eb-1c84-4665-b0d4-d26405d277c5)
 - [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/4b6d3344-e73a-4f46-8e9d-fabb85827772)
 - [National Community Child Health Database (NCCHD)](https://web.www.healthdatagateway.org/dataset/553a0fcb-6bed-493c-a185-fa97dc5f370d)
 - [Emergency Department Dataset Daily](https://web.www.healthdatagateway.org/dataset/5e2a7277-dc64-499a-b16d-51850d9ad00b)

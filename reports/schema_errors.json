@@ -312,7 +312,7 @@
   },
   {
     "id": "022cedb4-650d-4566-be41-8d7ed07a5112",
-    "publisher": "ALLIANCE > HSCNI",
+    "publisher": "ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND",
     "title": "COVID antigen  testing - Pillar 2",
     "schema_error_count": 13,
     "errors": [
@@ -5562,7 +5562,7 @@
   },
   {
     "id": "2aabcea9-d0dd-4780-b162-3c7ed3ee9888",
-    "publisher": "ALLIANCE > HSCNI",
+    "publisher": "ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND",
     "title": "Admissions & Discharges",
     "schema_error_count": 12,
     "errors": [
@@ -6618,6 +6618,55 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "id": "3141f405-9653-4189-9a1f-443a463d4b1b",
+    "publisher": "SAIL",
+    "title": "Systemic Anti-Cancer Therapy Dataset [SACT]",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'OTHER' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -8543,6 +8592,59 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "id": "41a667eb-1c84-4665-b0d4-d26405d277c5",
+    "publisher": "SAIL",
+    "title": "Domiciliary Social Care Worker [DSCW]",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -10990,7 +11092,7 @@
   },
   {
     "id": "5ae869f8-b6af-41c0-bca0-1fffef112375",
-    "publisher": "ALLIANCE > HSCNI",
+    "publisher": "ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND",
     "title": "Enhanced Prescribing Database",
     "schema_error_count": 12,
     "errors": [
@@ -13882,7 +13984,7 @@
   },
   {
     "id": "7389dc03-1fc7-4af7-b12c-bbab448290f9",
-    "publisher": "ALLIANCE > HSCNI",
+    "publisher": "ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND",
     "title": "COVID antigen testing - Pillar 1",
     "schema_error_count": 12,
     "errors": [
