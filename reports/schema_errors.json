@@ -7186,55 +7186,6 @@
     ]
   },
   {
-    "id": "380cbddb-e64e-42b9-a364-47c550262b6a",
-    "publisher": "ALLIANCE > PUBLIC HEALTH SCOTLAND",
-    "title": "RAPID (Hospital Stay Level Data)",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: '\"https://www.isdscotland.org/Products-and-Services/eDRIS/COVID-19/\"' is not valid under any of the given schemas",
-        "suberrors": "    type: '\"https://www.isdscotland.org/Products-and-Services/eDRIS/COVID-19/\"' is not of type 'array'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'NHS SCOTLAND DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Weekly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "id": "38468759-3351-4722-9eeb-4c6dc9fa44ce",
     "publisher": "ALLIANCE > SAIL",
     "title": "Congenital Anomaly Register and Information Service",
@@ -10033,6 +9984,55 @@
       {
         "attribute": "title",
         "message": "title: 'National Audit of Psychosis - Audit on Early Intervention in Psychosis services -  patient experience survey' is too long"
+      }
+    ]
+  },
+  {
+    "id": "50e341b3-11cb-4ea3-afd0-be193c0df91f",
+    "publisher": "PUBLIC HEALTH SCOTLAND",
+    "title": "RAPID (Hospital Stay Level Data)",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: '\"https://www.isdscotland.org/Products-and-Services/eDRIS/COVID-19/\"' is not valid under any of the given schemas",
+        "suberrors": "    type: '\"https://www.isdscotland.org/Products-and-Services/eDRIS/COVID-19/\"' is not of type 'array'"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS SCOTLAND DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'Weekly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
