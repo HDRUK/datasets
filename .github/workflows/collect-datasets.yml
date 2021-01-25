@@ -35,13 +35,17 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     
-    - name: Collect datasets from Metadata Catalogue
+    - name: Collect v1 and v2 datasets from Metadata Catalogue
       run: |
         python datasets.py
     
-    - name: Perform completeness and schema validation checks
+    - name: Perform v1 completeness and schema validation checks
       run: |
         python quality_checks.py
+    
+    - name: Perform V2 completeness and schema validation checks
+      run: |
+        python quality_checks_v2.py
     
     - name: Auto-generate README
       run: |
