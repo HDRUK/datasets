@@ -14,13 +14,13 @@ import platform
 
 CWD = os.getcwd()
 # DM_JSON_PATH = os.path.join(CWD, 'datasets', '2.0.1', 'datasets_v2.json')
-DM_JSON_PATH = os.path.join(CWD, 'datasets.v2.json')
+DM_JSON_PATH = 'https://raw.githubusercontent.com/HDRUK/datasets/dataset-v2-scores/datasets.v2.json'
 # VALIDATION_SCHEMA_PATH = os.path.join(CWD, 'schema', 'dataset', 'latest', 'dataset.schema.json')
-VALIDATION_SCHEMA_PATH = os.path.join(CWD, 'dataset.schema.v2.json')
+VALIDATION_SCHEMA_PATH = 'https://raw.githubusercontent.com/HDRUK/datasets/dataset-v2-scores/dataset.schema.v2.json'
 # VALIDATION_WEIGHTS_PATH = os.path.join(CWD, 'schema', 'dataset', 'latest', 'weights.v2.json')
-VALIDATION_WEIGHTS_PATH = os.path.join(CWD, 'config', 'weights', 'weights.v2.json')
+VALIDATION_WEIGHTS_PATH = 'https://raw.githubusercontent.com/HDRUK/datasets/dataset-v2-scores/config/weights/weights.v2.json'
 # MEDALLIONS = os.path.join(CWD, 'schema', 'dataset', 'latest', 'medallions.v2.json')
-MEDALLIONS = os.path.join(CWD, 'config', 'medallions', 'medallions.v2.json')
+MEDALLIONS = 'https://raw.githubusercontent.com/HDRUK/datasets/dataset-v2-scores/config/medallions/medallions.v2.json'
 
 def strip_string_to_alphanum(text_in):
     if not isinstance(text_in, str):
@@ -486,4 +486,3 @@ def main():
 
 if '__main__' == __name__:
     main()
-    print(f" bye ...")
