@@ -160,6 +160,25 @@ def fix_dates(revisions):
     data['issued'] = None
   return data
 
+def get_structural_metadata_counts(data_classes):
+  DATA = {
+    'structuralMetadata.dataClassesCount': len(data_classes),
+    'structuralMetadata.tableName': len([dc['name'] for dc in data_classes if dc.get('name', None) is not None]),
+    'structuralMetadata.tableDescription': len([dc['description'] for dc in data_classes if dc.get('description', None) is not None]),
+    'structuralMetadata.dataElementsCount': sum([int(dc['dataElementsCount']) for dc in data_classes if dc.get('dataElementsCount', None) is not None]),
+    'structuralMetadata.columnName': 0,
+    'structuralMetadata.columnDescription': 0,
+    'structuralMetadata.dataType': 0,
+    'structuralMetadata.sensitive': 0
+  }
+  for dc in data_classes:
+    DATA['structuralMetadata.columnName'] += len([de['name'] for de in dc.get('dataElements') if de.get('name', None) is not None])
+    DATA['structuralMetadata.columnDescription'] += len([de['description'] for de in dc.get('dataElements') if de.get('description', None) is not None])
+    DATA['structuralMetadata.dataType'] += len([de['dataType'] for de in dc.get('dataElements') if de.get('dataType', None) is not None])
+    # DATA['structuralMetadata.sensitive'] += len([de['sensitive'] for de in dc.get('dataElements') if de.get('sensitive', None) is not None])
+  return DATA
+
+
 def process_data_models(data_models_list):
   print("Processing Data Models...")
   headers = []
@@ -240,7 +259,14 @@ def process_data_models(data_models_list):
     # Collecting Data Classes
     data_classes = get_data_classes(d['id'])
     row.update(data_classes)
-    row_v2.update({ "structuralMetadata": data_classes})
+    data_classes = data_classes['dataClasses']
+    structuralMetadataCount = get_structural_metadata_counts(data_classes)
+    row_v2.update({
+      "structuralMetadata": {
+        "structuralMetadataCount": structuralMetadataCount,
+        "dataClasses": data_classes
+      }
+    })
 
     data_models.append(row)
     if len(metadata_v2) > 0:
