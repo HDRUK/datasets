@@ -20,7 +20,7 @@ from datasets import export_csv, export_json
 
 DATASET_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/dataset.schema.json'
 DATASETS_JSON = 'datasets.json'
-WEIGHTS = "config/weights/weights.v1.json"
+WEIGHTS = "config/weights/v1.1.7/weights.v1.json"
 
 METADATA_SECTIONS = {
     "A: Summary": ['identifier', 'title', 'abstract', 'publisher', 'contactPoint', 'accessRights', 'group'],
