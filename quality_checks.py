@@ -148,6 +148,7 @@ def generate_quality_score():
     summary_data = []
     headers = []
     for id, d in data.items():
+        d['@schema.version'] = "1.1.7"
         avg_score = round(mean([data[id]['completeness_percent'], 100-data[id]['error_percent']]), 2)
         d['quality_score'] = avg_score
         d['quality_rating'] = quality_ratings(d['quality_score'])
@@ -220,13 +221,13 @@ def update_utility_scores(summary_scores, utility_scores, headers=None):
 def main():
     # Compile Metadata Completeness Score
     completeness_score, headers = completeness_check()
-    export_json(completeness_score,'reports/completeness.json')
-    export_csv(completeness_score, 'reports/completeness.csv', headers)
+    export_json(completeness_score,'reports/v1.1.7/completeness.json')
+    export_csv(completeness_score, 'reports/v1.1.7/completeness.csv', headers)
 
     # Compile Schema Validation Error Score
     schema_errors, headers = schema_validation_check()
-    export_json(schema_errors,'reports/schema_errors.json')
-    export_csv(schema_errors, 'reports/schema_errors.csv', headers)
+    export_json(schema_errors,'reports/v1.1.7/schema_errors.json')
+    export_csv(schema_errors, 'reports/v1.1.7/schema_errors.csv', headers)
 
     # Attribute level checks
     # read in datasets
@@ -234,20 +235,20 @@ def main():
 
     # Compile Attribute Completeness Score
     attribute_completeness_score = check_dm_completeness(data_models)
-    export_json(attribute_completeness_score,'reports/attribute_completeness.json')
+    export_json(attribute_completeness_score,'reports/v1.1.7/attribute_completeness.json')
     csv_data, headers = flatten_reporting_dict(attribute_completeness_score)
-    export_csv(csv_data, 'reports/attribute_completeness.csv', headers)
+    export_csv(csv_data, 'reports/v1.1.7/attribute_completeness.csv', headers)
 
     # Compile Attribute Schema Validation Error Score
     attribute_schema_errors = check_attribute_validation(data_models)
-    export_json(attribute_schema_errors,'reports/attribute_errors.json')
+    export_json(attribute_schema_errors,'reports/v1.1.7/attribute_errors.json')
     csv_data, headers = flatten_reporting_dict(attribute_schema_errors)
-    export_csv(csv_data, 'reports/attribute_errors.csv', headers)
+    export_csv(csv_data, 'reports/v1.1.7/attribute_errors.csv', headers)
 
     # Summarise Average Quality Score
     summary_score, headers = generate_quality_score()
-    export_json(summary_score,'reports/metadata_quality.json')
-    export_csv(summary_score, 'reports/metadata_quality.csv', headers)
+    export_json(summary_score,'reports/v1.1.7/metadata_quality.json')
+    export_csv(summary_score, 'reports/v1.1.7/metadata_quality.csv', headers)
 
     # # Generate Data Utility Framework scores
     utility_scores, headers = read_csv('reports/data_utility.csv')
