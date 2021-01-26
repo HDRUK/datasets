@@ -47,6 +47,10 @@ jobs:
       run: |
         python quality_checks_v2.py
     
+    - name: Merge V1 and V2 quality scores
+      run: |
+        python merge_quality_scores.py
+    
     - name: Auto-generate README
       run: |
         python update_readme.py
