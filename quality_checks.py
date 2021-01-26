@@ -205,21 +205,21 @@ def read_csv(filename):
       data.append(row)
   return data, header
 
-def update_utility_scores(summary_scores, utility_scores, headers=None):
-    pass
-    DATA = []
-    for score in summary_scores:
-        id = score['id']
-        d  = dict.fromkeys(headers, "")
-        us = [us for us in utility_scores if us['id'] == id]
-        if len(us):
-            d.update(us[0])
-        d['id'] = score['id']
-        d['publisher'] = score['publisher']
-        d['title'] = score['title']
-        d['metadata_richness'] = score['weighted_quality_rating']
-        DATA.append(d)
-    return DATA
+# def update_utility_scores(summary_scores, utility_scores, headers=None):
+#     pass
+#     DATA = []
+#     for score in summary_scores:
+#         id = score['id']
+#         d  = dict.fromkeys(headers, "")
+#         us = [us for us in utility_scores if us['id'] == id]
+#         if len(us):
+#             d.update(us[0])
+#         d['id'] = score['id']
+#         d['publisher'] = score['publisher']
+#         d['title'] = score['title']
+#         d['metadata_richness'] = score['weighted_quality_rating']
+#         DATA.append(d)
+#     return DATA
 
 def main():
     # Compile Metadata Completeness Score
@@ -253,12 +253,12 @@ def main():
     export_json(summary_score,'reports/v1.1.7/metadata_quality.json')
     export_csv(summary_score, 'reports/v1.1.7/metadata_quality.csv', headers)
 
-    # # Generate Data Utility Framework scores
-    utility_scores, headers = read_csv('reports/data_utility.csv')
+    # # # Generate Data Utility Framework scores
+    # utility_scores, headers = read_csv('reports/data_utility.csv')
+    # # utility_scores = update_utility_scores(summary_score, utility_scores, headers)
     # utility_scores = update_utility_scores(summary_score, utility_scores, headers)
-    utility_scores = update_utility_scores(summary_score, utility_scores, headers)
-    export_json(utility_scores,'reports/data_utility.json')
-    export_csv(utility_scores, 'reports/data_utility.csv', headers)
+    # export_json(utility_scores,'reports/data_utility.json')
+    # export_csv(utility_scores, 'reports/data_utility.csv', headers)
 
 
 if __name__ == "__main__":

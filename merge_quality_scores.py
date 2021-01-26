@@ -41,6 +41,31 @@ def export_csv(data, filename, header):
     writer.writeheader()
     writer.writerows(data)
 
+def read_csv(filename):
+  header = []
+  data = []
+  with open(filename, mode='r', encoding='utf-8-sig', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    header = reader.fieldnames
+    for row in reader:
+      data.append(row)
+  return data, header
+
+def update_utility_scores(quality_scores, utility_scores, headers=None):
+    DATA = []
+    for score in quality_scores:
+        id = score['id']
+        d  = dict.fromkeys(headers, "")
+        us = [us for us in utility_scores if us['id'] == id]
+        if len(us):
+            d.update(us[0])
+        d['id'] = score['id']
+        d['publisher'] = score['publisher']
+        d['title'] = score['title']
+        d['metadata_richness'] = score['weighted_quality_rating']
+        DATA.append(d)
+    return DATA
+
 def main():
     headers = []
     for score in metadata_quality_v1:
@@ -58,7 +83,12 @@ def main():
 
     export_json(metadata_quality_v1, MERGED_METADATA_QUALITY_JSON)
     export_csv(metadata_quality_v1, MERGED_METADATA_QUALITY_CSV, headers)
-    
+
+    # Generate Data Utility Framework scores
+    utility_scores, headers = read_csv('reports/data_utility.csv')
+    utility_scores = update_utility_scores(metadata_quality_v1, utility_scores, headers)
+    export_json(utility_scores,'reports/data_utility.json')
+    export_csv(utility_scores, 'reports/data_utility.csv', headers)
 
 if __name__ == "__main__":
     main()
