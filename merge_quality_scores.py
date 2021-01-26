@@ -71,15 +71,20 @@ def main():
     for score in metadata_quality_v1:
         v2_score = get_v2_quality_score(score['id'])
         if v2_score is not None:
-            score['@schema.version'] = v2_score['@schema.version']
+            score['schema_version'] = v2_score['schema_version']
             score['weighted_quality_rating'] = v2_score['weighted_quality_rating']
             score['weighted_quality_score'] = v2_score['weighted_quality_score']
             score['weighted_completeness_percent'] = v2_score['weighted_completeness_percent']
             score['weighted_error_percent'] = v2_score['weighted_error_percent']
         headers = list(score.keys())
     
-    print("Merged Metadata V1 Scores:", len([score for score in metadata_quality_v1 if score['@schema.version'] == "1.1.7"]))
-    print("Merged Metadata V2 Scores:", len([score for score in metadata_quality_v1 if score['@schema.version'] == "2.0.1"]))
+    print("Merged Metadata V1 Scores:", len([score for score in metadata_quality_v1 if score['schema_version'] == "1.1.7"]))
+    print("Merged Metadata V2 Scores:", len([score for score in metadata_quality_v1 if score['schema_version'] == "2.0.1"]))
+    print("Not Rated:", len([score for score in metadata_quality_v1 if score['weighted_quality_rating'] == "Bronze"]))
+    print("Bronze:", len([score for score in metadata_quality_v1 if score['weighted_quality_rating'] == "Not Rated"]))
+    print("Silver:", len([score for score in metadata_quality_v1 if score['weighted_quality_rating'] == "Silver"]))
+    print("Gold:", len([score for score in metadata_quality_v1 if score['weighted_quality_rating'] == "Gold"]))
+    print("Platinum:", len([score for score in metadata_quality_v1 if score['weighted_quality_rating'] == "Platinum"]))
 
     export_json(metadata_quality_v1, MERGED_METADATA_QUALITY_JSON)
     export_csv(metadata_quality_v1, MERGED_METADATA_QUALITY_CSV, headers)

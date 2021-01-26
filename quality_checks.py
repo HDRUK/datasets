@@ -126,7 +126,7 @@ def generate_quality_score():
     data = {}
     for s in scores:
         data[s['id']] = {
-            '@schema.version': "1.1.7",
+            'schema_version': "1.1.7",
             'pid': s['pid'],
             'id': s['id'],
             'publisher': s['publisher'],
