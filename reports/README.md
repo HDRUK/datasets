@@ -5,7 +5,7 @@ Scripts are available to score the metadata completeness and errors, and calcula
 ## How to run these scripts
 
 1. Run `quality_checks.py` to generate v1 metadata quality scores - This script takes the output of the daily extract and produces the outputs in the `reports/v1.1.7` folder
-2. Run `quality_checks_v2.py` to generate v1 metadata quality scores - This script takes the output of the daily extract and produces the outputs in the `reports/latest` folder
+2. Run `quality_checks_v2.py` to generate v2 metadata quality scores - This script takes the output of the daily extract and produces the outputs in the `reports/latest` folder
 3. Run `merge_quality_scores.py` to merge the v1 and v2 metadata quality scores - This script takes the output of v1 and v2 quality scores and produces the outputs in the `reports/` folder. It also updates the data_utility scores
 
 ## About the reports
