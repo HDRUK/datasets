@@ -384,7 +384,8 @@ def score_data_models(val_schema_path, val_weights_path, m_path, data_models, de
     validation_errors = get_validation_weights(val_weights_path)
     medallions = get_json(m_path)
 
-    score_json = { 'pid': '',
+    score_json = {'@schema.version': '2.0.1',
+                'pid': '',
                 'id': '',
                 'publisher': '',
                 'title': '',
