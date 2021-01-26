@@ -279,6 +279,7 @@ def check_dm_completeness(data_models):
         dm = copy.deepcopy(data_model)
         print("Processing:", dm['id'])
         d = {
+            'pid': dm.get('pid',None), 
             'id': dm.get('id',None),
             'publisher': dm.get('publisher',None),
             'title': dm.get('title',None)
@@ -313,6 +314,7 @@ def check_attribute_validation(data_models, metadata_sections=REPORTING_ATTRIBUT
             dm_validate.pop(attribute, None)
         errors = validate_attribute_schema(schema, dm_validate)
         d = {
+            'pid': dm.get('pid', None),
             'id': dm.get('id',None),
             'publisher': dm.get('publisher',None),
             'title': dm.get('title',None)

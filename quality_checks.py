@@ -76,6 +76,7 @@ def completeness_check():
     for dm in data_models['dataModels']:
         print("Processing:", dm['id'])
         d = {
+            'pid': dm.get('pid', None),
             'id': dm.get('id',None),
             'publisher': dm.get('publisher',None),
             'title': dm.get('title',None)
@@ -102,6 +103,7 @@ def schema_validation_check():
             dm_validate.pop(attribute, None)
         errors = validate_schema(schema, dm_validate)
         d = {
+            'pid': dm.get('pid', None),
             'id': dm.get('id',None),
             'publisher': dm.get('publisher',None),
             'title': dm.get('title',None),
@@ -119,11 +121,13 @@ def generate_quality_score():
     '''
 
     # Generate completeness percent & weighted completeness percent
-    scores = get_json('reports/attribute_completeness.json')
+    scores = get_json('reports/v1.1.7/attribute_completeness.json')
     completion_weightings = get_json(WEIGHTS)
     data = {}
     for s in scores:
         data[s['id']] = {
+            '@schema.version': "1.1.7",
+            'pid': s['pid'],
             'id': s['id'],
             'publisher': s['publisher'],
             'title': s['title']
@@ -136,7 +140,7 @@ def generate_quality_score():
     # Generate error percent and weighted error percent
     schema = get_json(DATASET_SCHEMA)
     total_attributes = len(list(schema['properties'].keys()))
-    errors = get_json('reports/attribute_errors.json')
+    errors = get_json('reports/v1.1.7/attribute_errors.json')
     error_weightings = get_json(WEIGHTS)
     for e in errors:
         e_score = round((e['attributes_with_errors'] / total_attributes) * 100, 2)
@@ -148,7 +152,6 @@ def generate_quality_score():
     summary_data = []
     headers = []
     for id, d in data.items():
-        d['@schema.version'] = "1.1.7"
         avg_score = round(mean([data[id]['completeness_percent'], 100-data[id]['error_percent']]), 2)
         d['quality_score'] = avg_score
         d['quality_rating'] = quality_ratings(d['quality_score'])
