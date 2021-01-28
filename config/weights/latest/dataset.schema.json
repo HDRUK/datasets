@@ -779,7 +779,6 @@
               "type": "string",
               "enum": [
                 "CONTINUOUS"
-              ]
             }
           ]
         },
@@ -1335,7 +1334,7 @@
     },
     "doi": {
       "type": "string",
-      "pattern": "^10.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$"
+      "pattern": "^10.\\d{4,9}\/[-._;()\/:a-zA-Z0-9]+$"
     },
     "ageRange": {
       "type": "string",
