@@ -21986,6 +21986,36 @@
     ]
   },
   {
+    "pid": null,
+    "id": "a7ddefbd-31d9-4703-a738-256e4689f76a",
+    "publisher": "HEALTH DATA RESEARCH UK",
+    "title": "HDR UK Papers & Preprints",
+    "schema_error_count": 5,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Open Access' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Open Access' is not of type 'array'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "8a3ec96a-0600-4c6d-8761-9d277f07b9da",
     "id": "a895be78-f41c-40b8-b2fa-678a071a6427",
     "publisher": "ALLIANCE > HQIP",
@@ -27696,19 +27726,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'Tissue, Whole blood' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "fd8d0743-344a-4758-bb97-f8ad84a37357",
-    "id": "d5faf9c6-6c34-46d7-93c4-7706a5436ed9",
-    "publisher": "OTHER > HEALTH DATA RESEARCH UK",
-    "title": "HDR UK Papers & Preprints",
-    "schema_error_count": 1,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
       }
     ]
   },

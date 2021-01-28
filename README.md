@@ -174,7 +174,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/7389dc03-1fc7-4af7-b12c-bbab448290f9)
 
 ### HEALTH DATA RESEARCH UK (1)
-- [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/d5faf9c6-6c34-46d7-93c4-7706a5436ed9)
+- [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/a7ddefbd-31d9-4703-a738-256e4689f76a)
 
 ### HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE (23)
 - [Tayside Pathology](https://web.www.healthdatagateway.org/dataset/014bc853-1b27-4d97-9e5e-97fe28b84769)
