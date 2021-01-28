@@ -408,8 +408,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Sunquest](https://web.www.healthdatagateway.org/dataset/eaca9ed1-30b6-4157-8894-8e53efc84849)
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
-### PIONEER (11)
+### PIONEER (12)
 - [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/22e14c8d-9d92-4437-b39b-f69f7b033d13)
+- [Coagulopathies & arterial/venous thrombosis in COVID patients: an OMOP dataset](https://web.www.healthdatagateway.org/dataset/2f8f1d52-3999-40af-9dc8-9fefa0ab348f)
 - [Ventilatory strategies and outcomes for patients with COVID: a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/7c738c20-953f-4003-b972-4abc6e163efb)
 - [The impact of COVID on hospitalised patients with COPD; a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/9e965a9f-4213-43f3-9033-c7df1610ceb5)
 - [Deeply phenotyped sepsis patients within hospital: onset, treatments & outcomes](https://web.www.healthdatagateway.org/dataset/a4109f11-4ece-4173-bd12-689616c24b88)
@@ -420,9 +421,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Clinical response thresholds (acuity) in acutely unwell patients: onset-outcome](https://web.www.healthdatagateway.org/dataset/cce4a8d0-4110-4490-8ffa-485d059b7dcf)
 - [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/d3d1cdf1-3a36-49d1-ba73-b02ebeceab9b)
 - [UHB 2020 Winter Society of Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/dc4d5fc6-b39a-4199-b1f2-1b428fc32cd9)
-
-### PIONEER - HDR-UK Health data Hub in Acute Care (1)
-- [Coagulopathies & arterial/venous thrombosis in COVID patients: an OMOP dataset](https://web.www.healthdatagateway.org/dataset/2f8f1d52-3999-40af-9dc8-9fefa0ab348f)
 
 ### PUBLIC HEALTH ENGLAND (1)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/79a7ad18-6941-4543-924a-787f2381f5e0)
