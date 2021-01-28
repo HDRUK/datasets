@@ -443,7 +443,7 @@ def score_data_models(val_schema_path, val_weights_path, m_path, data_models, de
     if debug_out:
         excel_score['Datasets'] = pd.DataFrame(all_scores)
         print()
-        fname = os.path.join(CWD, 'reports', 'latest', 'Debug and Test v2.xlsx')
+        fname = os.path.join(CWD, 'reports', 'metadata_score_breakdown_v2.xlsx')
         write_timestamp(f"{fname}")
         write_excel(fname, excel_score)
 
