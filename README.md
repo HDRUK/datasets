@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (561)
+## HDR UK Datasets (562)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -167,12 +167,11 @@ This repo automatically collects the datasets published on the Gateway including
 ### GUT REACTION (1)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/97ddd990-f47a-40f5-9178-cbf742e4c613)
 
-### HEALTH AND SOCIAL CARE NORTHERN IRELAND (5)
+### HEALTH AND SOCIAL CARE NORTHERN IRELAND (4)
 - [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/022cedb4-650d-4566-be41-8d7ed07a5112)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/2aabcea9-d0dd-4780-b162-3c7ed3ee9888)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
 - [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/7389dc03-1fc7-4af7-b12c-bbab448290f9)
-- [Mortality (Death registration)](https://web.www.healthdatagateway.org/dataset/9450f059-807e-4cc3-9e2d-79a3589d9106)
 
 ### HEALTH DATA RESEARCH UK (1)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/d5faf9c6-6c34-46d7-93c4-7706a5436ed9)
@@ -422,6 +421,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/d3d1cdf1-3a36-49d1-ba73-b02ebeceab9b)
 - [UHB 2020 Winter Society of Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/dc4d5fc6-b39a-4199-b1f2-1b428fc32cd9)
 
+### PIONEER - HDR-UK Health data Hub in Acute Care (1)
+- [Coagulopathies & arterial/venous thrombosis in COVID patients: an OMOP dataset](https://web.www.healthdatagateway.org/dataset/2f8f1d52-3999-40af-9dc8-9fefa0ab348f)
+
 ### PUBLIC HEALTH ENGLAND (1)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/79a7ad18-6941-4543-924a-787f2381f5e0)
 
@@ -456,7 +458,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
 
-### SAIL (53)
+### SAIL (54)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/03db4df3-f482-4bdd-a335-546ffffbeaab)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/05716e41-9842-4c07-8ddd-af9f9231e056)
 - [Careers Wales dataset](https://web.www.healthdatagateway.org/dataset/08846261-45f0-4bcf-9801-fe785dcef1c9)
@@ -466,6 +468,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Welsh Cancer Intelligence and Surveillance Unit (WCISU)](https://web.www.healthdatagateway.org/dataset/24095736-dbea-4c37-86fe-ddf3a6933a6b)
 - [Maternity Indicators Dataset](https://web.www.healthdatagateway.org/dataset/258c9577-76cd-45c7-a6b5-8e7eed07ce9e)
 - [Pathology Data from WRRS](https://web.www.healthdatagateway.org/dataset/26da4493-a78b-4090-ba18-e6c600d2c375)
+- [COVID-19 Test Trace and Protect [CTTP]](https://web.www.healthdatagateway.org/dataset/28868e22-c162-4374-a408-690933dc318d)
 - [Millennium Cohort Study](https://web.www.healthdatagateway.org/dataset/2b09ea87-5b22-4049-b7dd-de0889699115)
 - [Systemic Anti-Cancer Therapy Dataset [SACT]](https://web.www.healthdatagateway.org/dataset/3141f405-9653-4189-9a1f-443a463d4b1b)
 - [Congenital Anomaly Register and Information Service](https://web.www.healthdatagateway.org/dataset/38468759-3351-4722-9eeb-4c6dc9fa44ce)
@@ -624,7 +627,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [COMPARE](https://web.www.healthdatagateway.org/dataset/84b6d047-2a05-4fc0-8537-809dbb3d18ed)
 - [INTERVAL](https://web.www.healthdatagateway.org/dataset/d58d02f1-47c2-44fc-b16e-4f6cbbb46e62)
 
-### UK Biobank (12)
+### UK Biobank (11)
 - [Exome sequencing](https://web.www.healthdatagateway.org/dataset/07b82dd5-adc3-42c5-8a60-914042b5bc40)
 - [Death register](https://web.www.healthdatagateway.org/dataset/3a56c317-bf1b-448d-89ab-3421eae3aa18)
 - [Genotype](https://web.www.healthdatagateway.org/dataset/480ccd8a-309e-417a-ac23-5b2d9cd281b1)
@@ -635,13 +638,15 @@ This repo automatically collects the datasets published on the Gateway including
 - [Primary-care data](https://web.www.healthdatagateway.org/dataset/b27afede-a51d-4aae-8bf7-ce94888fe898)
 - [UK Biobank Assessment Centre](https://web.www.healthdatagateway.org/dataset/bcb224fe-592f-4aaf-abd1-ad3e3caa61ff)
 - [Online questionnaires](https://web.www.healthdatagateway.org/dataset/bf625cfe-c4b2-4ea8-bbe8-1a8873ca4cb9)
-- [Accelerometer](https://web.www.healthdatagateway.org/dataset/d5649a81-5e75-45c2-ab89-3ce91f6d288b)
 - [Hospital Inpatient data](https://web.www.healthdatagateway.org/dataset/fb2a851b-3f1c-4665-bbdb-5461f1f36bca)
 
 ### UNIVERSITY HOSPITALS OF LEICESTER NHS TRUST (3)
 - [The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease](https://web.www.healthdatagateway.org/dataset/05ade19c-75f5-4623-ade6-99fb21c2d4e3)
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
+
+### Uk Biobank (1)
+- [Accelerometer](https://web.www.healthdatagateway.org/dataset/d5649a81-5e75-45c2-ab89-3ce91f6d288b)
 
 ### University of Nottingham (1)
 - [PANTHER study](https://web.www.healthdatagateway.org/dataset/0600a271-4a24-414f-a2d0-4b12e5c47d72)
