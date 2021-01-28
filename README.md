@@ -627,7 +627,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [COMPARE](https://web.www.healthdatagateway.org/dataset/84b6d047-2a05-4fc0-8537-809dbb3d18ed)
 - [INTERVAL](https://web.www.healthdatagateway.org/dataset/d58d02f1-47c2-44fc-b16e-4f6cbbb46e62)
 
-### UK Biobank (11)
+### UK Biobank (12)
 - [Exome sequencing](https://web.www.healthdatagateway.org/dataset/07b82dd5-adc3-42c5-8a60-914042b5bc40)
 - [Death register](https://web.www.healthdatagateway.org/dataset/3a56c317-bf1b-448d-89ab-3421eae3aa18)
 - [Genotype](https://web.www.healthdatagateway.org/dataset/480ccd8a-309e-417a-ac23-5b2d9cd281b1)
@@ -638,15 +638,13 @@ This repo automatically collects the datasets published on the Gateway including
 - [Primary-care data](https://web.www.healthdatagateway.org/dataset/b27afede-a51d-4aae-8bf7-ce94888fe898)
 - [UK Biobank Assessment Centre](https://web.www.healthdatagateway.org/dataset/bcb224fe-592f-4aaf-abd1-ad3e3caa61ff)
 - [Online questionnaires](https://web.www.healthdatagateway.org/dataset/bf625cfe-c4b2-4ea8-bbe8-1a8873ca4cb9)
+- [Accelerometer](https://web.www.healthdatagateway.org/dataset/d5649a81-5e75-45c2-ab89-3ce91f6d288b)
 - [Hospital Inpatient data](https://web.www.healthdatagateway.org/dataset/fb2a851b-3f1c-4665-bbdb-5461f1f36bca)
 
 ### UNIVERSITY HOSPITALS OF LEICESTER NHS TRUST (3)
 - [The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease](https://web.www.healthdatagateway.org/dataset/05ade19c-75f5-4623-ade6-99fb21c2d4e3)
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/c324246a-22d9-45d8-9a7a-a513078be2d1)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/f3ade619-292e-4631-916a-9cd9d7938e48)
-
-### Uk Biobank (1)
-- [Accelerometer](https://web.www.healthdatagateway.org/dataset/d5649a81-5e75-45c2-ab89-3ce91f6d288b)
 
 ### University of Nottingham (1)
 - [PANTHER study](https://web.www.healthdatagateway.org/dataset/0600a271-4a24-414f-a2d0-4b12e5c47d72)
