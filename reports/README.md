@@ -29,6 +29,9 @@ Calculates the total number of attributes with errors and total attributes by da
 **`metadata_quality.{json,csv}`**  
 Lists each dataset, and the resulting scores.
 
+**[`metadata_score_breakdown_v2.xlsx`](https://github.com/HDRUK/datasets/blob/master/reports/metadata_score_breakdown_v2.xlsx)**    
+Lists the completeness and error percentages of all v2 datasets showing how their percentage scores are derived. Details of field errors can be found for a particular dataset can be located using the value ref column. For example, details of the dataset with ref value "data-model-0001" can be found by clicking the cell, directing you to the corresponding worksheet.
+
 ## How scores are calculated
 
 **Completeness Percent** = # filled fields / # total fields  

@@ -11,6 +11,7 @@ import os
 import pandas as pd
 import requests
 import platform
+from openpyxl import load_workbook
 
 CWD = os.getcwd()
 DM_JSON_PATH = os.path.join(CWD,'datasets.v2.json')
@@ -111,9 +112,21 @@ def write_excel(fname, worksheets, idx=False):
     :param idx: Boolean, save DataFrame indes to Excel, default False
     :return: None yet
     '''
+    
     with pd.ExcelWriter(fname) as writer:
         for sheetname, df_worksheet in worksheets.items():
             df_worksheet.to_excel(writer, sheet_name=sheetname, index=idx)
+
+    fname = os.path.join(CWD, 'reports', 'metadata_score_breakdown_v2.xlsx')
+    wb = load_workbook(filename = fname)
+    datasets_sheet = wb['Datasets']
+    num_dm = len(datasets_sheet['G']) - 1
+    
+    links = []
+    for i in range(num_dm):
+        datasets_sheet.cell(row=i+2, column=7).hyperlink = "#'{}'!A1".format(datasets_sheet['G{}'.format(i+2)].value)
+
+    wb.save(filename = fname)
 
 
 def get_datamodels(jason_uri):
@@ -431,7 +444,7 @@ def score_data_models(val_schema_path, val_weights_path, m_path, data_models, de
         dm_score['weighted_quality_score'] = round(total_sc, 2)
         determine_medallion(medallions, dm_score)
         all_scores['Score'].append(f"{total_sc:.2f}%")
-        reference_key = f"data-model {reference_counter:04d}"
+        reference_key = f"data-model-{reference_counter:04d}"
         reference_counter -= 1
         all_scores['ref'].append(reference_key)
         write_timestamp(
