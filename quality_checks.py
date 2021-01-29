@@ -18,7 +18,7 @@ from validate_schema import get_json, validate_schema, \
                             import_dm_tm, check_dm_completeness, check_attribute_validation, flatten_reporting_dict
 from datasets import export_csv, export_json
 
-DATASET_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/dataset.schema.json'
+DATASET_SCHEMA = 'https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/1.1.7/dataset.schema.json'
 DATASETS_JSON = 'datasets.json'
 WEIGHTS = "config/weights/v1.1.7/weights.v1.json"
 

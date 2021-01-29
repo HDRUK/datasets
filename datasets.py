@@ -198,7 +198,7 @@ def process_data_models(data_models_list):
       "@schema": {
         "type": "Dataset",
         "version": "1.1.7",
-        "url": "https://raw.githubusercontent.com/HDRUK/schemata/develop/schema/dataset/1.1.7/dataset.schema.json"
+        "url": "https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/1.1.7/dataset.schema.json"
       }
     }
 
@@ -222,7 +222,7 @@ def process_data_models(data_models_list):
       "@schema": {
         "type": "Dataset",
         "version": "2.0.0",
-        "url": "https://raw.githubusercontent.com/HDRUK/schemata/develop/schema/dataset/latest/dataset.schema.json"
+        "url": "https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/latest/dataset.schema.json"
       },
       "pid": row.get('pid', None),
       "id": row['id'],
