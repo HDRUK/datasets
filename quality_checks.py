@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# usage: completeness_check.py
+# usage: quality_checks.py
 __author__ = "Susheel Varma"
 __copyright__ = "Copyright (c) 2019-2020 Susheel Varma All Rights Reserved."
 __email__ = "susheel.varma@hdruk.ac.uk"
