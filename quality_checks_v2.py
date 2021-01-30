@@ -15,7 +15,7 @@ from openpyxl import load_workbook
 
 CWD = os.getcwd()
 DM_JSON_PATH = os.path.join(CWD,'datasets.v2.json')
-VALIDATION_SCHEMA_PATH = os.path.join(CWD, 'config', 'weights', 'latest', 'dataset.schema.json')
+VALIDATION_SCHEMA_PATH = "https://hdruk.github.io/schemata/schema/dataset/latest/dataset.schema.json"
 VALIDATION_WEIGHTS_PATH = os.path.join(CWD, 'config', 'weights', 'latest', 'weights.v2.json')
 MEDALLIONS = os.path.join(CWD, 'config', 'weights', 'latest', 'medallions.v2.json')
 
