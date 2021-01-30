@@ -1,6 +1,9 @@
-# Heiko Maerz MetadataWorks
-# heiko@metadataworks.co.uk
-# daily quality extract from HOP
+#!/usr/bin/env python
+# usage: quality_checks_v2.py
+__author__ = "Heiko Maerz"
+__copyright__ = "Copyright (c) 2019-2020 Health Data Research UK. All Rights Reserved."
+__email__ = "heiko@metadataworks.co.uk"
+__license__ = "Apache 2"
 
 # load packages
 import copy
