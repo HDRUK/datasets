@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (562)
+## HDR UK Datasets (563)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -425,7 +425,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### PUBLIC HEALTH ENGLAND (1)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/79a7ad18-6941-4543-924a-787f2381f5e0)
 
-### PUBLIC HEALTH SCOTLAND (26)
+### PUBLIC HEALTH SCOTLAND (27)
 - [Unscheduled Care Datamart](https://web.www.healthdatagateway.org/dataset/02dceba1-65c7-49e8-a3e2-05e71c1a3033)
 - [Prescribing Information System (PIS)](https://web.www.healthdatagateway.org/dataset/0cb92a4a-cc82-4c33-98f7-06ba93818c50)
 - [Child Health Systems Programme - First Visit](https://web.www.healthdatagateway.org/dataset/12d23c2c-5f35-4f59-80e3-584636c7cacb)
@@ -448,6 +448,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [GP Out of Hours](https://web.www.healthdatagateway.org/dataset/98babf8f-a557-410a-9075-640db283c9a3)
 - [Child Health Systems Programme - 4-5 year review](https://web.www.healthdatagateway.org/dataset/995c0f8d-f5ef-470a-8ffe-6bdb956bdbc0)
 - [ECOSS (-/+VE tested patients only)](https://web.www.healthdatagateway.org/dataset/a3b9cfd3-abd1-4d18-99cc-360cd9d543c2)
+- [2011 Census variables (and variable breakdowns)](https://web.www.healthdatagateway.org/dataset/af20ebb2-018a-4557-8ced-0bec75dba150)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/d0137466-d07e-4bfd-817b-198086b9fa13)
 - [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/d8043751-28d6-4cfe-b860-757e592ab3cb)
 - [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/e61fce14-617d-4f7b-80aa-468d94c6d897)
