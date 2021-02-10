@@ -48,11 +48,11 @@ Based on (weighted)/quality score - see `config/weights/medallions.v2.json`
 
 | (Weighted)/Quality Score | Rating |
 | --- | --- |
-| < 60 | Not rated |
-| >60 & <= 70 | Bronze |
-| >70 & <=80|  Silver |
-| >80 & <>=90 | Gold |
-| >90 | Platinum |
+| <img src="https://render.githubusercontent.com/render/math?math=\leq 60"> | Not rated |
+| <img src="https://render.githubusercontent.com/render/math?math=> 60"> & <img src="https://render.githubusercontent.com/render/math?math=\leq 70"> | Bronze |
+| <img src="https://render.githubusercontent.com/render/math?math=> 70"> & <img src="https://render.githubusercontent.com/render/math?math=\leq 80">|  Silver |
+| <img src="https://render.githubusercontent.com/render/math?math=> 80"> & <img src="https://render.githubusercontent.com/render/math?math=\leq 90"> | Gold |
+| <img src="https://render.githubusercontent.com/render/math?math=> 90"> | Platinum |
 
 ## How to modify weights
 
