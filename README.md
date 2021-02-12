@@ -327,7 +327,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health and Learning Disabilities Data Set](https://web.www.healthdatagateway.org/dataset/4262e057-6978-4e4c-a05d-c4f328422090)
 - [Mental Health Minimum Dataset v4 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/46493a09-b3bb-4c0e-b944-82665ee21508)
 - [COVID-19 SARI-Watch (formerly CHESS)](https://web.www.healthdatagateway.org/dataset/511f73b6-5181-408d-ae40-69b0ef70e732)
-- [Covid-19 UK Non-hospital Antibody Testing Results](https://web.www.healthdatagateway.org/dataset/5976dcec-607f-4a42-b7dd-3cfb3904c2af)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/5d76d094-446d-4dcc-baa1-076095f30c23)
 - [Emergency Care Data Set (ECDS)](https://web.www.healthdatagateway.org/dataset/621008c7-67ac-4e3d-9c54-af87cc2f9579)
 - [Covid-19 Second Generation Surveillance System](https://web.www.healthdatagateway.org/dataset/6c878d69-2662-42db-85da-15e087606442)
@@ -359,6 +358,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Patient Reported Outcome Measures](https://web.www.healthdatagateway.org/dataset/d2af6a29-291b-4444-a17c-40f4208f1e1b)
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/db113fcd-69a0-4357-9c6d-250085deb3f5)
 - [Medicines dispensed in Primary Care (NHSBSA data)](https://web.www.healthdatagateway.org/dataset/de28157e-5319-4972-83ae-4d0c73cdfca9)
+- [Covid-19 UK Non-hospital Antibody Testing Results](https://web.www.healthdatagateway.org/dataset/eb403f86-e169-4b40-b1e5-34658b90a4a9)
 - [GPES Data for Pandemic Planning and Research (COVID-19)](https://web.www.healthdatagateway.org/dataset/f56d5407-4a7e-420e-8479-87b075da2b39)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/ff2c6982-00f3-4483-9fc2-19b3a7211d8d)
 
