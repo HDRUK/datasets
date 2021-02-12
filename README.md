@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (568)
+## HDR UK Datasets (569)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -295,7 +295,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ISARIC 4C (1)
 - [COVID-19 Clinical Information Network (CO-CIN)](https://web.www.healthdatagateway.org/dataset/9a85b69e-fd3e-4522-bc68-48024df0ea3e)
 
-### NCS > OFFICE FOR NATIONAL STATISTICS (9)
+### NCS > OFFICE FOR NATIONAL STATISTICS (10)
 - [Labour Force Survey (Household)](https://web.www.healthdatagateway.org/dataset/08fd6103-be40-4380-9399-aecaeb216d33)
 - [Linked Census and death occurrences](https://web.www.healthdatagateway.org/dataset/1bfdab55-3e6a-4b26-bff1-0105ad416cea)
 - [Business Impact of COVID-19 Survey (BICS)](https://web.www.healthdatagateway.org/dataset/39537838-164a-4aee-8859-957f0a347390)
@@ -305,6 +305,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Labour Force Survey (Person)](https://web.www.healthdatagateway.org/dataset/73ba9de7-67fe-4728-b397-bc5fb1d67df1)
 - [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/90ad6023-6c7f-4605-9323-b478a27c3c9a)
 - [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/9f34263d-ea74-4ddf-84df-b8dedd4baf6d)
+- [Covid Immunisation](https://web.www.healthdatagateway.org/dataset/acd433ab-51a7-445b-8700-fbce57d82a29)
 
 ### NHS DIGITAL (53)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
