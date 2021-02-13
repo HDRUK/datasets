@@ -12613,62 +12613,6 @@
     ]
   },
   {
-    "pid": "86838cad-d5d3-4b65-9c37-29b0c8c36309",
-    "id": "6413c50a-21a4-49ac-8865-b4e59cf42cd6",
-    "publisher": "HUB > BREATHE",
-    "title": "Salford Lung Study",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'www.clinicalstudydatarequest.com,https://vivli.org' is not valid under any of the given schemas",
-        "suberrors": "    type: 'www.clinicalstudydatarequest.com,https://vivli.org' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Yes' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: '10.1016/S0140-6736(17)32397-8 - SLS asthma primary mansucriptdoi: 10.1056/NEJMoa1608033 - SLS COPD primary manuscript' is not valid under any of the given schemas",
-        "suberrors": "    pattern: '10.1016/S0140-6736(17)32397-8 - SLS asthma primary mansucriptdoi: 10.1056/NEJMoa1608033 - SLS COPD primary manuscript' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Salford and South Manchester' is not a 'uri'"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "8604bcdc-235a-4c70-b29b-1617396815e6",
     "id": "6439bf82-d0b4-4d7f-b7d9-f1e716b12df5",
     "publisher": "HUB > BREATHE",
@@ -22101,6 +22045,61 @@
       {
         "attribute": "title",
         "message": "title: 'National Asthma and COPD Audit Programme (NACAP): primary care workstream resources' is too long"
+      }
+    ]
+  },
+  {
+    "pid": null,
+    "id": "a8f5117e-7523-452f-abf3-ced72f03cb2e",
+    "publisher": "HUB > BREATHE",
+    "title": "Salford Lung Study",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'www.clinicalstudydatarequest.com,https://vivli.org' is not valid under any of the given schemas",
+        "suberrors": "    type: 'www.clinicalstudydatarequest.com,https://vivli.org' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Yes' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Salford and South Manchester' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
