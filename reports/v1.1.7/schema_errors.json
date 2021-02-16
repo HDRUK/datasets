@@ -4106,6 +4106,52 @@
     ]
   },
   {
+    "pid": "c0fc84af-aeab-4c7e-aa0b-8264baff55d9",
+    "id": "1c1ada6a-d6e4-4415-a291-81f21acf8f81",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "COVID-19 Test Trace and Protect [CTTP]",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "pid": "ebe6c9dd-fb95-4301-a929-c21b8077753a",
     "id": "1cb31e11-505b-4ff6-ae20-5c468c9ad296",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -5778,56 +5824,6 @@
     ]
   },
   {
-    "pid": "c0fc84af-aeab-4c7e-aa0b-8264baff55d9",
-    "id": "28868e22-c162-4374-a408-690933dc318d",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "COVID-19 Test Trace and Protect [CTTP]",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "pid": "e10a660d-b84c-475f-abd4-024dd1af7a5d",
     "id": "2a5d2a42-803c-4c96-bcd6-a4289d2b664a",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -6137,48 +6133,6 @@
       {
         "attribute": "accessRequestDuration",
         "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      }
-    ]
-  },
-  {
-    "pid": "e54d35a6-2e7c-422d-a4a5-a7da930b08f2",
-    "id": "2b06afa3-dfc7-424b-8b9a-9325df6cfc19",
-    "publisher": "ALLIANCE > PUBLIC HEALTH SCOTLAND",
-    "title": "Scottish Stillbirth and Infant Death Survey",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'https://www.isdscotland.org/Products-and-Services/eDRIS/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not valid under any of the given schemas",
-        "suberrors": "    type: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not of type 'array'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Other' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Scotland' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Provisional data: Monthly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'Not avaliable' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -9492,6 +9446,45 @@
         "attribute": "linkedDataset",
         "message": "linkedDataset: 'Listed as bridging files as appropriate' is not valid under any of the given schemas",
         "suberrors": "    enum: 'Listed as bridging files as appropriate' is not one of ['Not Known', 'Not Available']"
+      }
+    ]
+  },
+  {
+    "pid": "e54d35a6-2e7c-422d-a4a5-a7da930b08f2",
+    "id": "426c2cfb-3af8-444c-bfae-1b1f78c050ba",
+    "publisher": "ALLIANCE > PUBLIC HEALTH SCOTLAND",
+    "title": "Scottish Stillbirth and Infant Death Survey",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD10,ICD9' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD10,ICD9' is not of type 'array'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Data has previously been frequently linked to other maternity & neonatal data and studies.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Data has previously been frequently linked to other maternity & neonatal data and studies.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15248,6 +15241,56 @@
     ]
   },
   {
+    "pid": "471f101c-a45e-4620-8710-be3036a46fba",
+    "id": "7abfb023-50f3-4851-8bae-4abe41d25c1d",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Covid Vaccination Dataset (CVVD)",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'WEEKLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "19fa25a7-c15d-441c-b635-ad49043e7a96",
     "id": "7c1fa7b2-2b76-4952-884e-8ef6f845c488",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -18445,6 +18488,45 @@
     ]
   },
   {
+    "pid": "dca0c95b-ae7d-4163-8c3b-a881f779df02",
+    "id": "92490df7-466b-4cd8-af4f-4528ed21d203",
+    "publisher": "ALLIANCE > PUBLIC HEALTH SCOTLAND",
+    "title": "National Records of Scotland (NRS) - Stillbirth Data",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'ICD10,ICD9' is not valid under any of the given schemas",
+        "suberrors": "    type: 'ICD10,ICD9' is not of type 'array'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Scottish Longitudinal Study' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Scottish Longitudinal Study' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "f4c8900b-5db5-4426-95e9-2f1617c92a76",
     "id": "92d95f82-50a5-4df9-914a-ca26b14cf84c",
     "publisher": "ALLIANCE > HQIP",
@@ -18506,7 +18588,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "5429fc2a-3d72-414d-9393-4079c4c6c0fa",
     "id": "92f668ee-5ae8-4fb4-8755-4639fe100fde",
     "publisher": "ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE",
     "title": "MATCH",
@@ -18630,53 +18712,6 @@
         "attribute": "accessRights",
         "message": "accessRights: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not valid under any of the given schemas",
         "suberrors": "    type: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not of type 'array'"
-      }
-    ]
-  },
-  {
-    "pid": "dca0c95b-ae7d-4163-8c3b-a881f779df02",
-    "id": "9328f206-db9a-4feb-9012-deab80cafd2e",
-    "publisher": "ALLIANCE > PUBLIC HEALTH SCOTLAND",
-    "title": "National Records of Scotland (NRS) - Stillbirth Data",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'https://www.isdscotland.org/Products-and-Services/eDRIS/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not valid under any of the given schemas",
-        "suberrors": "    type: 'https://www.informationgovernance.scot.nhs.uk/pbpphsc/\\nhttps://www.isdscotland.org/About-ISD/Information-Requests/\\nhttps://www.isdscotland.org/Products-and-Services/eDRIS/' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Scotland' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Scottish Longitudinal Study,' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Scottish Longitudinal Study,' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Provisional data: Monthly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'Not avaliable' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -20604,60 +20639,6 @@
     ]
   },
   {
-    "pid": "487222b7-5c13-4a92-8b41-044796048720",
-    "id": "9f34263d-ea74-4ddf-84df-b8dedd4baf6d",
-    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
-    "title": "Death registration data - Provisional Monthly Extracts",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'NOT APPLICABLE' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'NOT APPLICABLE' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "13c71637-144e-4742-8aea-aefb778a360e",
     "id": "9f45db59-b3c9-4c33-85bf-25c1b5242903",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -21186,6 +21167,60 @@
         "attribute": "linkedDataset",
         "message": "linkedDataset: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Accident and Emergency' is not valid under any of the given schemas",
         "suberrors": "    enum: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Accident and Emergency' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "487222b7-5c13-4a92-8b41-044796048720",
+    "id": "a28cf3ca-8bad-45bb-bca0-78b4d22fed69",
+    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
+    "title": "Death registration data - Provisional Monthly Extracts",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'NOT APPLICABLE' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'NOT APPLICABLE' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
       },
       {
         "attribute": "periodicity",
@@ -22049,7 +22084,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "86838cad-d5d3-4b65-9c37-29b0c8c36309",
     "id": "a8f5117e-7523-452f-abf3-ced72f03cb2e",
     "publisher": "HUB > BREATHE",
     "title": "Salford Lung Study",
