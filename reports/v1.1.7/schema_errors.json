@@ -11630,6 +11630,55 @@
     ]
   },
   {
+    "pid": null,
+    "id": "5b99795a-3db4-4020-a8f9-aa64bcc2c5f0",
+    "publisher": "ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE",
+    "title": "MATCH",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "pid": "fb6d98c5-e41d-4804-bb28-839556e0f657",
     "id": "5d2758c6-b315-421f-9971-9df8ba83a2d4",
     "publisher": "HUB > BREATHE",
@@ -18537,56 +18586,6 @@
     ]
   },
   {
-    "pid": "5429fc2a-3d72-414d-9393-4079c4c6c0fa",
-    "id": "92f668ee-5ae8-4fb4-8755-4639fe100fde",
-    "publisher": "ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE",
-    "title": "MATCH",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    type: 'N/A' is not of type 'array'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "pid": "57fa56f2-78d1-49af-ab8d-e8146d711868",
     "id": "93105053-ddf3-4339-9e4a-baf91c310370",
     "publisher": "ALLIANCE > OXFORD UNIVERSITY HOSPITALS NHS TRUST",
@@ -19272,7 +19271,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "f48b7c05-6a44-480c-84c6-4f7a684f29f8",
     "id": "9709ee81-c5f1-4c01-a1ac-51ae2a0a60f3",
     "publisher": "ALLIANCE > SAIL",
     "title": "SAIL Dementia e-Cohort",
