@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (570)
+## HDR UK Datasets (572)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -24,6 +24,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Community Services Dataset](https://web.www.healthdatagateway.org/dataset/a675ac5e-ecc2-4899-9c3c-65c2f36432c5)
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/b41bb360-f2ed-49f0-a45b-b2fb05321975)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/f8bab14a-bc9b-4dd1-a6c6-c57588605849)
+
+### BHF Data Science Centre (1)
+- [Trusted Research Environments for CVD-COVID-UK in England, Scotland and Wales](https://web.www.healthdatagateway.org/dataset/6ec3a47b-447a-4b22-9b7a-43acae5d408f)
 
 ### BREATHE (50)
 - [Estimating Chronic Respiratory Disease burden in adults in Asian LMICs](https://web.www.healthdatagateway.org/dataset/0150353c-d33d-4af0-b177-8ef0adf867f4)
@@ -131,10 +134,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cystic Fibrosis Patient Sweat Tests](https://web.www.healthdatagateway.org/dataset/e66b726f-8e58-4411-be32-1d00ba1df13f)
 
 ### DATA-CAN (4)
+- [Real Time Data Network (RTDN)](https://web.www.healthdatagateway.org/dataset/0ddcb454-2372-4180-9ba0-a7e1896d4fe2)
 - [Children’s Kidney Cancers - Great Ormond Street Hospital](https://web.www.healthdatagateway.org/dataset/395d4311-da00-49a4-b78e-5387c961d803)
-- [Comprehensive Patient Records for Cancer Outcomes](https://web.www.healthdatagateway.org/dataset/49dc6bfb-37f7-4f18-92e7-1a06ab80633e)
-- [Real Time Data Network (RTDN)](https://web.www.healthdatagateway.org/dataset/960c4d6c-11dc-42c0-ab30-82606fd2974e)
-- [Yorkshire Specialist Register of Cancer in Children and Young People](https://web.www.healthdatagateway.org/dataset/b765d514-1642-4762-a521-73463c977094)
+- [Yorkshire Specialist Register of Cancer in Children and Young People](https://web.www.healthdatagateway.org/dataset/931efe47-04eb-4ff3-aa62-97e2e4007aed)
+- [Comprehensive Patient Records for Cancer Outcomes](https://web.www.healthdatagateway.org/dataset/b7d50217-a93a-4adf-9c84-bfa7f582c720)
 
 ### DISCOVER NOW (15)
 - [North West London Mental Health Data (NWL MH)](https://web.www.healthdatagateway.org/dataset/07169a48-2e59-4ef6-ad77-f272d60b5a83)
@@ -412,18 +415,18 @@ This repo automatically collects the datasets published on the Gateway including
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
 ### PIONEER (12)
+- [The impact of COVID on hospitalised patients with COPD; a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/07e3ac82-a38d-45f3-9933-07439f6a761d)
+- [UHB 2019 Summer Society of Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/1785cc1a-ace0-4980-8352-5977b2b72969)
 - [UHB 2020 Winter Society of Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/19f9399a-2794-47af-aca1-357014a1ee31)
 - [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/22e14c8d-9d92-4437-b39b-f69f7b033d13)
-- [Coagulopathies & arterial/venous thrombosis in COVID patients: an OMOP dataset](https://web.www.healthdatagateway.org/dataset/2f8f1d52-3999-40af-9dc8-9fefa0ab348f)
-- [Ventilatory strategies and outcomes for patients with COVID: a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/7c738c20-953f-4003-b972-4abc6e163efb)
-- [The impact of COVID on hospitalised patients with COPD; a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/9e965a9f-4213-43f3-9033-c7df1610ceb5)
+- [Ventilatory strategies and outcomes for patients with COVID: a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/53b7c446-667b-409e-920e-67cb516de3ae)
 - [Deeply phenotyped sepsis patients within hospital: onset, treatments & outcomes](https://web.www.healthdatagateway.org/dataset/a4109f11-4ece-4173-bd12-689616c24b88)
 - [Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/b095d7ad-5fac-4279-94b0-3c0b0c260acf)
 - [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
 - [OMOP dataset: Hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/bf607b38-bedf-4bda-a3ce-e6b1bb68d1df)
 - [Clinical response thresholds (acuity) in acutely unwell patients: onset-outcome](https://web.www.healthdatagateway.org/dataset/cce4a8d0-4110-4490-8ffa-485d059b7dcf)
-- [UHB 2019 Summer Society of Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/d1a62af8-e56f-4bd8-b4a0-1a11a5bf23ae)
 - [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/d3d1cdf1-3a36-49d1-ba73-b02ebeceab9b)
+- [Coagulopathies & arterial/venous thrombosis in COVID patients: an OMOP dataset](https://web.www.healthdatagateway.org/dataset/e22f93fb-bc08-44eb-b292-dc2baf0ad343)
 
 ### PUBLIC HEALTH ENGLAND (1)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/79a7ad18-6941-4543-924a-787f2381f5e0)
@@ -460,7 +463,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### RCGP (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/6b41863d-690e-492e-8034-303d56f12f22)
 
-### SAIL (58)
+### SAIL (59)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/03db4df3-f482-4bdd-a335-546ffffbeaab)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/05716e41-9842-4c07-8ddd-af9f9231e056)
 - [Careers Wales dataset](https://web.www.healthdatagateway.org/dataset/08846261-45f0-4bcf-9801-fe785dcef1c9)
@@ -516,6 +519,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Healthcare Workers Risk Assessment](https://web.www.healthdatagateway.org/dataset/e2f05904-723a-4d5c-8746-7ab3d1d94eef)
 - [Lifelong Learning Wales Record (LLWR)](https://web.www.healthdatagateway.org/dataset/e7fc3bb6-446b-4267-b563-bf6f94e8dee2)
 - [Children Receiving Care and Support Census](https://web.www.healthdatagateway.org/dataset/ea9fa5fb-928d-4736-8fbf-e3b58a49c6d6)
+- [Radiotherapy Dataset](https://web.www.healthdatagateway.org/dataset/eed9c403-7858-41ca-aa41-38b6293b58a6)
 - [Welsh Health Survey Dataset](https://web.www.healthdatagateway.org/dataset/f0fc13b4-f801-4647-82f3-07ed07f26ea0)
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/f6aa8836-b437-40b6-bd1e-ae20010048dd)
 - [Breast Test Wales](https://web.www.healthdatagateway.org/dataset/fb4a069b-fd74-47b2-bbb1-9cde6b590d66)
