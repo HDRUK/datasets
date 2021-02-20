@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (572)
+## HDR UK Datasets (575)
 ### ALSPAC (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/9c07be99-54a1-4a23-8de2-492e8dfea55a)
 
@@ -298,6 +298,9 @@ This repo automatically collects the datasets published on the Gateway including
 ### ISARIC 4C (1)
 - [COVID-19 Clinical Information Network (CO-CIN)](https://web.www.healthdatagateway.org/dataset/9a85b69e-fd3e-4522-bc68-48024df0ea3e)
 
+### Imperial College London (1)
+- [REal-time Assessment of Community Transmission (REACT-2)](https://web.www.healthdatagateway.org/dataset/51094348-d8b0-43bb-a743-40fa4d22da30)
+
 ### NCS > OFFICE FOR NATIONAL STATISTICS (10)
 - [Labour Force Survey (Household)](https://web.www.healthdatagateway.org/dataset/08fd6103-be40-4380-9399-aecaeb216d33)
 - [Linked Census and death occurrences](https://web.www.healthdatagateway.org/dataset/1bfdab55-3e6a-4b26-bff1-0105ad416cea)
@@ -368,7 +371,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NHSX (1)
 - [The National COVID-19 Chest Imaging Database](https://web.www.healthdatagateway.org/dataset/77824298-ef3b-40f7-a0a4-b6dedb2e7a02)
 
-### NIHR BIORESOURCE (14)
+### NIHR BIORESOURCE (13)
 - [Metabolite data](https://web.www.healthdatagateway.org/dataset/004d1932-f06e-49d2-b87a-e5e4140ffbb3)
 - [Returned datasets](https://web.www.healthdatagateway.org/dataset/07abf678-a2c0-4d8b-8d25-8b9f180f9ff2)
 - [Contact detail](https://web.www.healthdatagateway.org/dataset/62fc43ed-1198-4769-ad39-a0bc2c05fd47)
@@ -379,7 +382,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Sample holding](https://web.www.healthdatagateway.org/dataset/9bfcf24b-5b13-4997-9062-6c58583e69cd)
 - [Full Blood Counts](https://web.www.healthdatagateway.org/dataset/9ccfde56-dd13-4606-a6c1-1e797d3b8d82)
 - [Health and Lifestyle Questionnaire](https://web.www.healthdatagateway.org/dataset/d7ec9584-cba3-46f9-9ef4-b1cb9eef2e7c)
-- [NHS Digital data](https://web.www.healthdatagateway.org/dataset/de1179eb-89fe-45a3-9e3c-e54a2a36ebf0)
 - [SNP imputation data](https://web.www.healthdatagateway.org/dataset/f1a85970-bddc-499b-92e9-783706c60995)
 - [Case report form](https://web.www.healthdatagateway.org/dataset/f1d3b068-7dd0-4a28-bd64-3519dd104eb6)
 - [SNP chip data](https://web.www.healthdatagateway.org/dataset/f7c563c0-9625-47be-a070-c121fe734f3c)
@@ -414,19 +416,21 @@ This repo automatically collects the datasets published on the Gateway including
 - [Sunquest](https://web.www.healthdatagateway.org/dataset/eaca9ed1-30b6-4157-8894-8e53efc84849)
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
-### PIONEER (12)
+### PIONEER (14)
 - [The impact of COVID on hospitalised patients with COPD; a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/07e3ac82-a38d-45f3-9933-07439f6a761d)
+- [OMOP dataset: Hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/1507fc77-2694-4345-9b70-2fe3c4d9bdb2)
 - [UHB 2019 Summer Society of Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/1785cc1a-ace0-4980-8352-5977b2b72969)
 - [UHB 2020 Winter Society of Acute Medicine Benchmarking Audit](https://web.www.healthdatagateway.org/dataset/19f9399a-2794-47af-aca1-357014a1ee31)
-- [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/22e14c8d-9d92-4437-b39b-f69f7b033d13)
+- [Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/2c2d8f8c-05c4-4af3-8304-9702b52f2cc9)
+- [Clinical response thresholds (acuity) in acutely unwell patients: onset-outcome](https://web.www.healthdatagateway.org/dataset/4437ddd4-71fc-4c06-b53e-c2df50af01d9)
+- [The impact of ethnicity and multi-morbidity on C19 hospitalised outcomes](https://web.www.healthdatagateway.org/dataset/527abefc-515f-491e-b01a-fe9485511647)
 - [Ventilatory strategies and outcomes for patients with COVID: a dataset in OMOP](https://web.www.healthdatagateway.org/dataset/53b7c446-667b-409e-920e-67cb516de3ae)
-- [Deeply phenotyped sepsis patients within hospital: onset, treatments & outcomes](https://web.www.healthdatagateway.org/dataset/a4109f11-4ece-4173-bd12-689616c24b88)
-- [Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/b095d7ad-5fac-4279-94b0-3c0b0c260acf)
-- [PIONEER - COVID ACUITY](https://web.www.healthdatagateway.org/dataset/b7d5bae7-f047-454c-91c3-81fa5e5543eb)
-- [OMOP dataset: Hospital COVID patients: severity, acuity, therapies, outcomes](https://web.www.healthdatagateway.org/dataset/bf607b38-bedf-4bda-a3ce-e6b1bb68d1df)
-- [Clinical response thresholds (acuity) in acutely unwell patients: onset-outcome](https://web.www.healthdatagateway.org/dataset/cce4a8d0-4110-4490-8ffa-485d059b7dcf)
-- [PIONEER - COVID](https://web.www.healthdatagateway.org/dataset/d3d1cdf1-3a36-49d1-ba73-b02ebeceab9b)
+- [Ventilation strategies for patients on intensive care](https://web.www.healthdatagateway.org/dataset/7ad3855f-7c2b-42d2-8ca1-6bc92dc9ce5e)
+- [The impact of hospitalised patients with COPD: from admission to outcome](https://web.www.healthdatagateway.org/dataset/8a4a4d14-8763-42c9-bad9-5a2def63638e)
+- [Deeply phenotyped sepsis patients within hospital: onset, treatments & outcomes](https://web.www.healthdatagateway.org/dataset/d56a67e4-b1cf-44ec-814a-86f07520403b)
+- [Risk and outcomes of coagulopathies in acutely unwell adults](https://web.www.healthdatagateway.org/dataset/e150d608-3b34-44a6-a56b-31463a1ba41c)
 - [Coagulopathies & arterial/venous thrombosis in COVID patients: an OMOP dataset](https://web.www.healthdatagateway.org/dataset/e22f93fb-bc08-44eb-b292-dc2baf0ad343)
+- [UHB 100K Genomics patient clinical data including their acute care contacts](https://web.www.healthdatagateway.org/dataset/fed0d62b-f7f7-475c-89c9-67caa374f970)
 
 ### PUBLIC HEALTH ENGLAND (1)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/79a7ad18-6941-4543-924a-787f2381f5e0)
@@ -505,6 +509,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Care Home Dataset](https://web.www.healthdatagateway.org/dataset/a45acd02-82d7-4bfe-9845-6b4df683bba8)
 - [GP dataset - Welsh Primary Care](https://web.www.healthdatagateway.org/dataset/a79dbdef-eac1-49d7-9fdb-150ed5340481)
 - [UK Cystic Fibrosis Registry (CYFI)](https://web.www.healthdatagateway.org/dataset/b43309eb-7860-49b7-9f11-1a7a0fd5532e)
+- [Radiotherapy Dataset](https://web.www.healthdatagateway.org/dataset/b589b19b-b43f-4344-affb-5d7ea328c909)
 - [Welsh Demographic Service (WDS)](https://web.www.healthdatagateway.org/dataset/b724a905-e8ae-4ab5-b543-91435f8d3514)
 - [Welsh Ambulance Services NHS Trust](https://web.www.healthdatagateway.org/dataset/b8e0b4a8-aab6-47fc-ac6f-76cd5cdc933d)
 - [Emergency Department Data Set](https://web.www.healthdatagateway.org/dataset/bd2d56db-f24b-4ac6-9201-3d68c65472b5)
@@ -519,7 +524,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Healthcare Workers Risk Assessment](https://web.www.healthdatagateway.org/dataset/e2f05904-723a-4d5c-8746-7ab3d1d94eef)
 - [Lifelong Learning Wales Record (LLWR)](https://web.www.healthdatagateway.org/dataset/e7fc3bb6-446b-4267-b563-bf6f94e8dee2)
 - [Children Receiving Care and Support Census](https://web.www.healthdatagateway.org/dataset/ea9fa5fb-928d-4736-8fbf-e3b58a49c6d6)
-- [Radiotherapy Dataset](https://web.www.healthdatagateway.org/dataset/eed9c403-7858-41ca-aa41-38b6293b58a6)
 - [Welsh Health Survey Dataset](https://web.www.healthdatagateway.org/dataset/f0fc13b4-f801-4647-82f3-07ed07f26ea0)
 - [Substance Misuse Dataset](https://web.www.healthdatagateway.org/dataset/f6aa8836-b437-40b6-bd1e-ae20010048dd)
 - [Breast Test Wales](https://web.www.healthdatagateway.org/dataset/fb4a069b-fd74-47b2-bbb1-9cde6b590d66)
@@ -650,6 +654,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Online questionnaires](https://web.www.healthdatagateway.org/dataset/bf625cfe-c4b2-4ea8-bbe8-1a8873ca4cb9)
 - [Accelerometer](https://web.www.healthdatagateway.org/dataset/d5649a81-5e75-45c2-ab89-3ce91f6d288b)
 - [Hospital Inpatient data](https://web.www.healthdatagateway.org/dataset/fb2a851b-3f1c-4665-bbdb-5461f1f36bca)
+
+### UNIVERSITY COLLEGE LONDON (1)
+- [VIVALDI 2](https://web.www.healthdatagateway.org/dataset/5392adf9-8c7a-41dc-97a3-2b25ba5e4566)
 
 ### UNIVERSITY HOSPITALS OF LEICESTER NHS TRUST (3)
 - [The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease](https://web.www.healthdatagateway.org/dataset/05ade19c-75f5-4623-ade6-99fb21c2d4e3)
