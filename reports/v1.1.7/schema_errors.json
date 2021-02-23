@@ -8479,64 +8479,6 @@
     ]
   },
   {
-    "pid": "3f71bef5-c5a2-400c-a482-2ad30b29a240",
-    "id": "395d4311-da00-49a4-b78e-5387c961d803",
-    "publisher": "HUB > DATA-CAN",
-    "title": "Children\u2019s Kidney Cancers - Great Ormond Street Hospital",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '3-6 months' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Held within UCL Data Safe Haven - Access process has been detailed' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Held within UCL Data Safe Haven - Access process has been detailed' is not of type 'array'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'Other' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD-10; OPCS4.8; SNOMED CT' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD-10; OPCS4.8; SNOMED CT' is not of type 'array'"
-      },
-      {
-        "attribute": "dataController",
-        "message": "dataController: 'GOSH' is too short"
-      },
-      {
-        "attribute": "dataProcessor",
-        "message": "dataProcessor: 'UCL' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'UCL' is not one of ['Not Applicable']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Multiple derivations' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Multiple derivations' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Currently comprising data on 670 children with kidney tumours who are resident across the UK and Republic of Ireland. This represents >90% of all incident cases diagnosed in the population' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'N = 3,170 patients: Full patient and tumour demographics, imaging archive of CT and MRI scans. There is also partial tumour genomic copy number data available. Further development underway to link to UK registry data - Scotland, Northern Ireland, Wales and England.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'N = 3,170 patients: Full patient and tumour demographics, imaging archive of CT and MRI scans. There is also partial tumour genomic copy number data available. Further development underway to link to UK registry data - Scotland, Northern Ireland, Wales and England.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'In Progress' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "1fcaf429-8762-454c-b999-c5fdd757b880",
     "id": "3a51b861-026d-45ed-abe6-30d9cc07b516",
     "publisher": "ALLIANCE > HQIP",
@@ -28813,6 +28755,54 @@
     ]
   },
   {
+    "pid": "3f71bef5-c5a2-400c-a482-2ad30b29a240",
+    "id": "df23aabd-3e5f-4fc2-aad6-af990cff6f19",
+    "publisher": "HUB > DATA-CAN",
+    "title": "Children\u2019s Kidney Cancers - Great Ormond Street Hospital",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "dataController",
+        "message": "dataController: 'GOSH' is too short"
+      },
+      {
+        "attribute": "dataProcessor",
+        "message": "dataProcessor: 'UCL' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'UCL' is not one of ['Not Applicable']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Multiple derivations' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Multiple derivations' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Further development underway to link to UK registry data.\\nThe clinical trial datasets will be linked into the national cancer registration services during 2021.  The purpose is for further linkage to then be possible into routine healthcare data that reflects the childhood cancer survivor\u2019s health usage and status in adult life.  However this secondary linkage is dependent on further research funding that is not yet in place.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Further development underway to link to UK registry data.\\nThe clinical trial datasets will be linked into the national cancer registration services during 2021.  The purpose is for further linkage to then be possible into routine healthcare data that reflects the childhood cancer survivor\u2019s health usage and status in adult life.  However this secondary linkage is dependent on further research funding that is not yet in place.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "3c749cfc-4008-4916-b64f-969d6a754c0f",
     "id": "df3cc57d-08ae-4e81-ae79-283d71cf8d95",
     "publisher": "HUB > GUT REACTION",
@@ -30831,7 +30821,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "9e89af6b-bfa8-43dc-a2d4-5540c899a670",
     "id": "f565f040-2201-4fea-8e03-705d2137a179",
     "publisher": "ALLIANCE > UNIVERSITY OF CAMBRIDGE",
     "title": "TRACK-COVID",

@@ -135,9 +135,9 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### DATA-CAN (4)
 - [Real Time Data Network (RTDN)](https://web.www.healthdatagateway.org/dataset/0ddcb454-2372-4180-9ba0-a7e1896d4fe2)
-- [Children’s Kidney Cancers - Great Ormond Street Hospital](https://web.www.healthdatagateway.org/dataset/395d4311-da00-49a4-b78e-5387c961d803)
 - [Yorkshire Specialist Register of Cancer in Children and Young People](https://web.www.healthdatagateway.org/dataset/931efe47-04eb-4ff3-aa62-97e2e4007aed)
 - [Comprehensive Patient Records for Cancer Outcomes](https://web.www.healthdatagateway.org/dataset/b7d50217-a93a-4adf-9c84-bfa7f582c720)
+- [Children’s Kidney Cancers - Great Ormond Street Hospital](https://web.www.healthdatagateway.org/dataset/df23aabd-3e5f-4fc2-aad6-af990cff6f19)
 
 ### DISCOVER NOW (15)
 - [North West London Mental Health Data (NWL MH)](https://web.www.healthdatagateway.org/dataset/07169a48-2e59-4ef6-ad77-f272d60b5a83)
