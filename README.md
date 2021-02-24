@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (586)
+## HDR UK Datasets (589)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/c419b9f6-e67c-4666-ba04-5f4a0e745a91)
 
@@ -167,6 +167,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [GENOMICS ENGLAND 100K PHE LINKED DATA](https://web.www.healthdatagateway.org/dataset/62c01293-83a5-4d4d-9d36-9d7aa2bf120f)
 - [GENOMICS ENGLAND 100K CANCER & COMMON](https://web.www.healthdatagateway.org/dataset/7fdb684d-bb7a-4d0b-8666-9f10510f071f)
 
+### GREAT ORMOND STREET HOSPITAL (1)
+- [COVID-19 Staff Testing of Antibody Responses Study (Co-STARS)](https://web.www.healthdatagateway.org/dataset/e79c5f26-deb0-4531-834d-58912c9fe663)
+
 ### GUT REACTION (11)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/05eadf79-02a7-4c1f-b1be-93694172a9b3)
 - [IBD NIHR BioResource: Health and Lifestyle Questionnaire](https://web.www.healthdatagateway.org/dataset/1046b837-c4d9-4688-a06e-d7b32d37a161)
@@ -180,11 +183,12 @@ This repo automatically collects the datasets published on the Gateway including
 - [IBD NIHR BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/f88440b9-53fc-49df-82dd-9cdd3309bd36)
 - [Wellcome Sanger Institute: Whole Exome Sequencing](https://web.www.healthdatagateway.org/dataset/f88fa262-525a-4d8a-94bd-cb6f5e7efbf7)
 
-### HEALTH AND SOCIAL CARE NORTHERN IRELAND (4)
+### HEALTH AND SOCIAL CARE NORTHERN IRELAND (5)
 - [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/022cedb4-650d-4566-be41-8d7ed07a5112)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/2aabcea9-d0dd-4780-b162-3c7ed3ee9888)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
 - [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/7389dc03-1fc7-4af7-b12c-bbab448290f9)
+- [Patient Medical Card Registration (NI)](https://web.www.healthdatagateway.org/dataset/ed02be36-22ff-4796-9394-5dd4524fea12)
 
 ### HEALTH DATA RESEARCH UK (1)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/a7ddefbd-31d9-4703-a738-256e4689f76a)
@@ -667,7 +671,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [Accelerometer](https://web.www.healthdatagateway.org/dataset/d5649a81-5e75-45c2-ab89-3ce91f6d288b)
 - [Hospital Inpatient data](https://web.www.healthdatagateway.org/dataset/fb2a851b-3f1c-4665-bbdb-5461f1f36bca)
 
-### UNIVERSITY COLLEGE LONDON (1)
+### UNIVERSITY COLLEGE LONDON (2)
+- [COVIDsortium](https://web.www.healthdatagateway.org/dataset/01e41d12-b3dc-4ffc-b30d-4c6dacdb9577)
 - [VIVALDI 2](https://web.www.healthdatagateway.org/dataset/5392adf9-8c7a-41dc-97a3-2b25ba5e4566)
 
 ### UNIVERSITY HOSPITALS OF LEICESTER (3)
@@ -676,7 +681,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/fa179e24-2068-4c34-b73c-230003010e9f)
 
 ### UNIVERSITY OF CAMBRIDGE (1)
-- [TRACK-COVID](https://web.www.healthdatagateway.org/dataset/f565f040-2201-4fea-8e03-705d2137a179)
+- [TRACK-COVID](https://web.www.healthdatagateway.org/dataset/cb28b345-b479-4e45-9091-83e0d33fb233)
 
 ### University of Nottingham (1)
 - [PANTHER study](https://web.www.healthdatagateway.org/dataset/0600a271-4a24-414f-a2d0-4b12e5c47d72)
