@@ -335,6 +335,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NHS DIGITAL (53)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Mental Health Services Data Set](https://web.www.healthdatagateway.org/dataset/0d5bb5b4-ad38-4313-8b19-cd37491c0b41)
+- [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/0e07413c-892c-4f06-bd22-2a917eb5c905)
 - [Mental Health Minimum Dataset v4 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/0e6e6ed5-ab81-4d7f-b06a-768bf33357ca)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/0fc61ace-397d-4489-9e62-77f88082e775)
 - [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/15123705-7d80-4803-a3b4-d145bf2902c5)
@@ -361,7 +362,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [HES:Civil Registration (Deaths) bridge](https://web.www.healthdatagateway.org/dataset/86d7088b-7a15-4e9a-b2b0-857a67e04650)
 - [Mental Health Minimum Dataset v2.6 (Non-Sensitive)](https://web.www.healthdatagateway.org/dataset/895e5c2f-e484-4d08-91c6-35ac2f85c231)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/8a05b76d-b0ec-4c28-96b5-11601e26933a)
-- [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/8bfbda65-a4bb-4683-ac43-05a2c134b30c)
 - [Bridge file: Hospital Episode Statistics to Mental Health Minimum Data Set](https://web.www.healthdatagateway.org/dataset/8d3f80d4-aeae-46f0-809b-cd6c51e24f75)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/8e66e623-2859-4a65-93d7-abd41e139976)
 - [Mental Health Services Data Set - Inpatients](https://web.www.healthdatagateway.org/dataset/8eace3c2-1dc8-4708-9350-ad129b7d2bc9)
@@ -688,7 +688,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Genvasc Primary Care Data](https://web.www.healthdatagateway.org/dataset/fa179e24-2068-4c34-b73c-230003010e9f)
 
 ### UNIVERSITY OF CAMBRIDGE (1)
-- [TRACK-COVID](https://web.www.healthdatagateway.org/dataset/cb28b345-b479-4e45-9091-83e0d33fb233)
+- [TRACK-COVID](https://web.www.healthdatagateway.org/dataset/d614f4fc-fae9-4775-86d9-4d4710017cf4)
 
 ### University of Nottingham (1)
 - [PANTHER study](https://web.www.healthdatagateway.org/dataset/0600a271-4a24-414f-a2d0-4b12e5c47d72)
