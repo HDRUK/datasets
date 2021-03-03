@@ -1226,7 +1226,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "bb8de9d2-cc38-4c40-b104-ffd167f64f76",
     "id": "0715a950-3999-46d8-a646-6496866638a1",
     "publisher": "HUB > BREATHE",
     "title": "Prospective Observation of Fibrosis in the Lung Clinical Endpoints",
@@ -7744,7 +7744,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "8604bcdc-235a-4c70-b29b-1617396815e6",
     "id": "333d92ca-3a32-41bd-8b16-96aee2dc85b1",
     "publisher": "HUB > BREATHE",
     "title": "Wales Asthma Observatory",
@@ -13931,6 +13931,45 @@
     ]
   },
   {
+    "pid": null,
+    "id": "67cd0c2b-3944-4bc4-a03a-4081ee67847f",
+    "publisher": "HUB > BREATHE",
+    "title": "Genetics of Asthma Severity & Phenotypes",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Available upon request' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'In Progress' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'In Progress' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'UK' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "dc22db56-8791-4e96-9ce6-6b6a58b1241f",
     "id": "67ef8ade-51e6-4737-acee-be871751a698",
     "publisher": "ALLIANCE > SAIL",
@@ -15294,6 +15333,45 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": null,
+    "id": "73462506-32c5-43a0-963e-06d67e967b97",
+    "publisher": "HUB > BREATHE",
+    "title": "UK BiLEVE Consortium Dataset",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'LESS 1 WEEK' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Derived lung function variables deposited with UK Biobank' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Derived lung function variables deposited with UK Biobank' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -18084,35 +18162,6 @@
     ]
   },
   {
-    "pid": "722be723-04bd-48b4-923b-e7d393f0c22b",
-    "id": "868613e0-23cc-4f8a-82da-18984589afd7",
-    "publisher": "HUB > BREATHE",
-    "title": "Children's Health in London and Luton (CHILL)",
-    "schema_error_count": 5,
-    "errors": [
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'https://www.qmul.ac.uk/chill/contacts/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'London and Luton' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "pid": "21aec912-444f-447d-b3c4-6791a6c82667",
     "id": "86d7088b-7a15-4e9a-b2b0-857a67e04650",
     "publisher": "ALLIANCE > NHS DIGITAL",
@@ -19801,59 +19850,6 @@
     ]
   },
   {
-    "pid": "6277abc6-c039-4886-8489-d4a2cdb8190c",
-    "id": "94c082e5-b45f-43fe-9340-f4855f392fd4",
-    "publisher": "HUB > BREATHE",
-    "title": "Genetics of Asthma Severity & Phenotypes",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Available upon request' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    type: 'N/A' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'More detailed Phenotype data sets will potentially be available later in 2020' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'More detailed Phenotype data sets will potentially be available later in 2020' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'DOI: 10.1016/S2213-2600(18)30389-8' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'DOI: 10.1016/S2213-2600(18)30389-8' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'UK' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'N/A' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "pid": "ecb82441-286f-408d-880c-9239a25fb5cd",
     "id": "94e28efd-a976-4748-81fd-956a598c26cb",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -20880,6 +20876,67 @@
       {
         "attribute": "title",
         "message": "title: 'National Asthma and COPD Audit Programme (NACAP):COPD and adult asthma secondary care organisational dataset' is too long"
+      }
+    ]
+  },
+  {
+    "pid": null,
+    "id": "9bfba8a4-43c3-4356-93a5-3eb3b7bc247a",
+    "publisher": "HUB > DATA-CAN",
+    "title": "PHM and Cancer Outcomes in the WYH Cancer Alliance",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'OPCS4,SNOMED CT,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'OPCS4,SNOMED CT,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Individual trust submissions are linked to provide ICS level data' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Individual trust submissions are linked to provide ICS level data' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: 'In progress' is not valid under any of the given schemas",
+        "suberrors": "    pattern: 'In progress' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'West Yorkshire and Harrogate ICS' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Cancer waiting times data (CWT), cancer outcomes and services dataset (COSD) and the Systemic Anticancer Treatment dataset (SACT) submissions and Radio Therapy (RT) Care by provider' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Cancer waiting times data (CWT), cancer outcomes and services dataset (COSD) and the Systemic Anticancer Treatment dataset (SACT) submissions and Radio Therapy (RT) Care by provider' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'CONTINUOUS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -25608,41 +25665,6 @@
     ]
   },
   {
-    "pid": "b8bcda0b-3c90-4382-aeb7-b01fc27e58fa",
-    "id": "c43363e5-a2cd-4990-a425-733dfe559a4f",
-    "publisher": "HUB > BREATHE",
-    "title": "UK BiLEVE Consortium Dataset",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Instant access to full GWAS Summary statistics: https://www.ebi.ac.uk/gwas/publications/30804560' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Derived lung function variables deposited with UK Biobank' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Derived lung function variables deposited with UK Biobank' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "pid": "80564a6b-1458-41de-a131-772eb93c0509",
     "id": "c476d414-8397-48a3-a0b3-95236b0c3515",
     "publisher": "ALLIANCE > NHS DIGITAL",
@@ -29155,6 +29177,44 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": null,
+    "id": "de4b46f5-1591-442d-a896-6e0d91657c01",
+    "publisher": "HUB > BREATHE",
+    "title": "Children's Health in London and Luton (CHILL)",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'https://www.qmul.ac.uk/chill/contacts/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'London and Luton' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",

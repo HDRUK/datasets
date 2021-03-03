@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (599)
+## HDR UK Datasets (600)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -53,14 +53,14 @@ This repo automatically collects the datasets published on the Gateway including
 - [International Severe Asthma Registry](https://web.www.healthdatagateway.org/dataset/5c7ae78d-53e6-427d-a3a9-52538f8342dc)
 - [SpiroMeta Consortium Dataset](https://web.www.healthdatagateway.org/dataset/5d2758c6-b315-421f-9971-9df8ba83a2d4)
 - [ICT-based intervention for adult asthma with limited health literacy](https://web.www.healthdatagateway.org/dataset/62824365-480a-4d20-9ab2-7e7739e7e2ec)
+- [Genetics of Asthma Severity & Phenotypes](https://web.www.healthdatagateway.org/dataset/67cd0c2b-3944-4bc4-a03a-4081ee67847f)
 - [Exploring the provision of supportive care for patients with COPD in Malaysia](https://web.www.healthdatagateway.org/dataset/68eca6a2-7c32-4bea-bcd1-c07dc50ee018)
+- [UK BiLEVE Consortium Dataset](https://web.www.healthdatagateway.org/dataset/73462506-32c5-43a0-963e-06d67e967b97)
 - [Prevention, detection, treatment: adult lung disease/cancer in rural Tamil Nadu](https://web.www.healthdatagateway.org/dataset/736a9d09-83c7-4cfa-ae82-a10b2a69efc8)
 - [Effects of second-hand smoke on pregnant women: a phenomenological study](https://web.www.healthdatagateway.org/dataset/7480abe4-e073-40ef-882d-217542b5e08e)
 - [EMEP4UK Pollution](https://web.www.healthdatagateway.org/dataset/79116473-bda2-413c-82ad-ba2b86e5076f)
 - [Developing Patient and Public Involvement in Research in Malaysia](https://web.www.healthdatagateway.org/dataset/7fe20f78-758d-4449-beb4-ccf98e2d8247)
-- [Children's Health in London and Luton (CHILL)](https://web.www.healthdatagateway.org/dataset/868613e0-23cc-4f8a-82da-18984589afd7)
 - [Pneumonia case management practices in selected communities in Pakistan](https://web.www.healthdatagateway.org/dataset/8fc0a2cc-a8ce-4558-a98a-c514255833d8)
-- [Genetics of Asthma Severity & Phenotypes](https://web.www.healthdatagateway.org/dataset/94c082e5-b45f-43fe-9340-f4855f392fd4)
 - [Salford Lung Study](https://web.www.healthdatagateway.org/dataset/a8f5117e-7523-452f-abf3-ced72f03cb2e)
 - [Optimum Patient Care Research Database](https://web.www.healthdatagateway.org/dataset/ae4b8371-d037-46e8-bdcd-bf3de08ef38e)
 - [Community perception on public health measures for COVID-19 prevention/control](https://web.www.healthdatagateway.org/dataset/af238430-c257-4d60-9ff0-1de6b825f09e)
@@ -68,9 +68,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [4 LMIC Asian Country ChrOnic: estimating respiratory disease burden in adults](https://web.www.healthdatagateway.org/dataset/be9bf427-d96d-4b1a-b1d1-83bdc3e8790b)
 - [Vitamin D supplementation meta-analyses](https://web.www.healthdatagateway.org/dataset/c16605d7-6e6e-4461-bfab-107660e31427)
 - [Assessing the eDPSEEA model in seasonal pollen induced asthma in Islamabad](https://web.www.healthdatagateway.org/dataset/c2548017-7913-40e1-bf98-aaa2e907b0ea)
-- [UK BiLEVE Consortium Dataset](https://web.www.healthdatagateway.org/dataset/c43363e5-a2cd-4990-a425-733dfe559a4f)
 - [Strategy introducing Pulmonary Rehabilitation for COPD management in rural India](https://web.www.healthdatagateway.org/dataset/d3e859ba-cfb0-4eda-a14c-34b08d113cd9)
 - [Exploration of Pneumonia Related Policy Formation and Implementation in Pakistan](https://web.www.healthdatagateway.org/dataset/d5446d68-2fb9-4f0f-962e-7b7ed484d534)
+- [Children's Health in London and Luton (CHILL)](https://web.www.healthdatagateway.org/dataset/de4b46f5-1591-442d-a896-6e0d91657c01)
 - [UK Lung Volume Reduction Surgery](https://web.www.healthdatagateway.org/dataset/def6669b-0fac-485c-84b2-2ea83ec31123)
 - [Klang Asthma Cohort](https://web.www.healthdatagateway.org/dataset/df63e893-f688-4bb4-956c-cc4354bb4001)
 - [Unified Cohorts Research Network](https://web.www.healthdatagateway.org/dataset/e516a359-74a8-4932-b4df-f2cf75eef89d)
@@ -133,11 +133,12 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cystic Fibrosis Patient Annual Review Encounters](https://web.www.healthdatagateway.org/dataset/ca2c6ec0-00ce-42fc-a077-88911259576c)
 - [Cystic Fibrosis Patient Liver Enzyme](https://web.www.healthdatagateway.org/dataset/caa644b6-a50d-455b-bee1-96232443e2b9)
 
-### DATA-CAN (6)
+### DATA-CAN (7)
 - [Real Time Data Network (RTDN)](https://web.www.healthdatagateway.org/dataset/0ddcb454-2372-4180-9ba0-a7e1896d4fe2)
 - [Leeds-IQVIA Collaboration](https://web.www.healthdatagateway.org/dataset/2b40a784-79ea-4403-a4bd-0950a7a36a6c)
 - [National Cancer TRE](https://web.www.healthdatagateway.org/dataset/34f9be53-2445-439b-8ca4-f151359d7e46)
 - [Yorkshire Specialist Register of Cancer in Children and Young People](https://web.www.healthdatagateway.org/dataset/931efe47-04eb-4ff3-aa62-97e2e4007aed)
+- [PHM and Cancer Outcomes in the WYH Cancer Alliance](https://web.www.healthdatagateway.org/dataset/9bfba8a4-43c3-4356-93a5-3eb3b7bc247a)
 - [Comprehensive Patient Records for Cancer Outcomes](https://web.www.healthdatagateway.org/dataset/a337845e-1dde-445b-90cf-91d8b825e3a5)
 - [Children’s Kidney Cancers - Great Ormond Street Hospital](https://web.www.healthdatagateway.org/dataset/df23aabd-3e5f-4fc2-aad6-af990cff6f19)
 
