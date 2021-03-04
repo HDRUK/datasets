@@ -126,6 +126,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,0e38bbf4-c788-4a1a-9af8-a24821250154,41a667eb-1c84-4665-b0d4-d26405d277c5,ALLIANCE > SAIL,Domiciliary Social Care Worker [DSCW],Gold,87.25,85.91,11.41
 2.0.1,e54d35a6-2e7c-422d-a4a5-a7da930b08f2,426c2cfb-3af8-444c-bfae-1b1f78c050ba,ALLIANCE > PUBLIC HEALTH SCOTLAND,Scottish Stillbirth and Infant Death Survey,Silver,76.85,70.47,16.78
 2.0.1,9c1727f6-2032-413f-bf60-470769b2616e,42ac7c27-a37b-4081-8a33-51ac077e6a4e,ALLIANCE > CYSTIC FIBROSIS TRUST,Cystic Fibrosis Patient Microbiology Cultures,Gold,81.54,75.17,12.08
+2.0.1,6064c3a9-e4f1-411b-8181-f1fdca2ab2b8,4661db47-82e6-4bc5-80a7-e7a1c3cc96b7,NCS > OFFICE FOR NATIONAL STATISTICS,Census-Mortality-Hospital Episodes Linked Data,Gold,86.24,80.54,8.05
 2.0.1,6ac9b356-00f1-49da-825a-6eb04d18e49d,47d22aea-cbe9-47d4-8f65-45861d9c5f6f,ALLIANCE > TISSUE DIRECTORY,Tayside Biorepository,Bronze,61.41,59.06,36.24
 2.0.1,425f4534-51c4-4f75-8ca0-d7c731dbd903,47f57de8-aa71-4df1-af4a-a81e37d4ae8c,ALLIANCE > TISSUE DIRECTORY,"St Thomas' Hospitals Plasma, serum & DNA Bio bank from patients with antiphospholipid antibodies",Not Rated,57.38,59.06,44.3
 2.0.1,93a7352f-fce4-42c9-9a8c-efc7fe23eda0,480ccd8a-309e-417a-ac23-5b2d9cd281b1,ALLIANCE > UK Biobank,Genotype,Not Rated,59.06,50.34,32.21
@@ -155,7 +156,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,86f46be3-bc29-4820-8363-de6530a94c6f,5d76d094-446d-4dcc-baa1-076095f30c23,ALLIANCE > NHS DIGITAL,Diagnostic Imaging Dataset,Gold,89.93,85.91,6.04
 2.0.1,2d3ec99a-a087-4355-8539-5a22cef58910,5e19a471-64e3-4aa4-ac56-6901d5e39e28,HUB > DISCOVER NOW,North West London Mental Health Data (NWL MH),Platinum,92.51,91.17,6.15
 2.0.1,fa257aa8-51fc-4eb7-a448-e473fa54686d,5e2a7277-dc64-499a-b16d-51850d9ad00b,ALLIANCE > SAIL,Emergency Department Dataset Daily,Platinum,92.62,91.28,6.04
-2.0.1,6064c3a9-e4f1-411b-8181-f1fdca2ab2b8,5f101c6b-ba06-4905-bf0d-457e0f0f5fef,NCS > OFFICE FOR NATIONAL STATISTICS,Census-Mortality-Hospital Episodes Linked Data,Gold,86.24,80.54,8.05
 2.0.1,1032850f-7631-4d9e-a760-b0532bffd21a,601f1504-2706-405b-94cb-8cd14231f434,HUB > DISCOVER NOW,North West London population data (NWL POP),Platinum,92.62,91.28,6.04
 2.0.1,71eb0192-1124-4b27-86e4-1139e0047a02,60b148f7-b48c-49c4-9286-b83691cfc7b2,ALLIANCE > TISSUE DIRECTORY,STAMPEDE,Bronze,61.41,59.06,36.24
 2.0.1,2f66bcf9-e626-4e8d-bc6e-2d3958e709d8,62087504-c04e-4382-9c71-e1c9b83d2d5e,NCS > NCS > OFFICE FOR NATIONAL STATISTICS,Census 2011 E&W - Household structure for COVID-19 models,Platinum,90.6,83.89,2.68
@@ -169,13 +169,13 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,5ef75d71-73ce-4451-9d7a-a39dd82b712f,6620b221-6909-4106-a49e-f1b5820be2f3,ALLIANCE > TISSUE DIRECTORY,interNational Anaplastic Thyroid Cancer Tissue Bank (iNATT),Bronze,61.41,59.06,36.24
 2.0.1,d5049af5-e351-4b22-8f75-6f3dfc96419b,664513d6-d766-461d-a69e-206a928cd14f,ALLIANCE > ROYAL COLLEGE OF GENERAL PRACTITIONERS,The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database,Silver,74.45,72.1,23.21
 2.0.1,1789286a-deaf-49df-88cd-660e92934af6,67ae329c-f51e-4a28-9a1c-e35d2819a6c3,ALLIANCE > SAIL,Critical Care Dataset,Platinum,91.61,91.95,8.72
-2.0.1,,67cd0c2b-3944-4bc4-a03a-4081ee67847f,HUB > BREATHE,Genetics of Asthma Severity & Phenotypes,Silver,72.48,67.11,22.15
+2.0.1,6277abc6-c039-4886-8489-d4a2cdb8190c,67cd0c2b-3944-4bc4-a03a-4081ee67847f,HUB > BREATHE,Genetics of Asthma Severity & Phenotypes,Silver,72.48,67.11,22.15
 2.0.1,dc22db56-8791-4e96-9ce6-6b6a58b1241f,67ef8ade-51e6-4737-acee-be871751a698,ALLIANCE > SAIL,COVID-19 Shielded People list,Platinum,91.61,91.95,8.72
 2.0.1,1fe1e7bb-ef6e-4d89-9824-bb560afc81f0,6a390359-1e26-470f-a4e5-bfb31a5ed643,HUB > DISCOVER NOW,North West London Patient Index (NWL PI),Platinum,92.62,91.28,6.04
 2.0.1,71e898d1-db8c-4887-a605-dd6336b92a34,6aebcd6d-10c6-44cd-80d6-b5a90791db4f,ALLIANCE > TISSUE DIRECTORY,York Tissue Bank,Bronze,61.41,59.06,36.24
 2.0.1,50ef6443-ed4b-40f9-97fb-1cfd53be6579,6b7893b5-74bc-49e2-ab4d-50e7695f54a5,ALLIANCE > SAIL,Welsh Dispensing Dataset,Platinum,92.95,91.95,6.04
 2.0.1,bdda7221-7c02-4ced-b7a8-3806a073d981,6bc36f07-d55a-4a97-afab-29d93dc65bde,ALLIANCE > TISSUE DIRECTORY,Sheffield Brain Tissue Bank (SBTB),Bronze,61.41,64.43,41.61
-2.0.1,,6bca5d27-5b98-45e7-b834-6980ba5db5c9,HUB > BREATHE,Leicester Respiratory Research Database,Silver,74.16,70.47,22.15
+2.0.1,01c3d08c-6948-4059-a027-3437e4f5d53b,6bca5d27-5b98-45e7-b834-6980ba5db5c9,HUB > BREATHE,Leicester Respiratory Research Database,Silver,74.16,70.47,22.15
 2.0.1,2dc1218d-df5f-4025-826c-cf5ca7d67882,6bde3902-5d69-4c24-9d10-f84a63efdb22,ALLIANCE > TISSUE DIRECTORY,Leeds Breast Research Tissue Bank,Bronze,61.41,59.06,36.24
 2.0.1,fede31c6-a9c5-4cfb-9866-9b58b2199cff,6c878d69-2662-42db-85da-15e087606442,ALLIANCE > NHS DIGITAL,Covid-19 Second Generation Surveillance System,Platinum,92.62,87.92,2.68
 2.0.1,7f9672fa-dad5-479d-a929-52719e8cc2fa,6ceec25d-2c8e-4dd7-8f99-2e56ec63c298,ALLIANCE > TISSUE DIRECTORY,DARWIN1 Trial,Not Rated,58.72,59.06,41.61
@@ -188,7 +188,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,7dcd5c0a-1922-4fe2-9b7e-090e4c39861b,70b4d407-288a-4945-a4d5-506d60715110,ALLIANCE > TISSUE DIRECTORY,CASPS: A Phase II trial of Cediranib in ASPS patients,Not Rated,58.72,59.06,41.61
 2.0.1,255d70c6-9a50-4b62-adc0-44216606a216,71b8569c-b582-499c-85aa-909b825f6ea6,ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN,Avon Longitudinal Study of Parents and Children,Silver,71.81,69.13,25.5
 2.0.1,16a09f1b-3654-4ec3-9913-fb70cb1e2364,730b3e54-1f59-4c07-b5d6-e6b63e4dda35,HUB > PIONEER,"Deeply-phenotyped hospital COVID patients: severity, acuity, therapies, outcomes",Platinum,90.6,89.26,8.05
-2.0.1,,73462506-32c5-43a0-963e-06d67e967b97,HUB > BREATHE,UK BiLEVE Consortium Dataset,Silver,75.5,73.15,22.15
+2.0.1,b8bcda0b-3c90-4382-aeb7-b01fc27e58fa,73462506-32c5-43a0-963e-06d67e967b97,HUB > BREATHE,UK BiLEVE Consortium Dataset,Silver,75.5,73.15,22.15
 2.0.1,584bf8c8-d58f-44c6-9b65-e1611144fd54,73867034-fe12-4d23-8d11-66da716dcb3d,ALLIANCE > SAIL,Annual District Death Daily,Gold,89.93,91.28,11.41
 2.0.1,3abc20ce-3dc6-4715-9de0-56aa97a6f5ec,7389dc03-1fc7-4af7-b12c-bbab448290f9,ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND,COVID antigen testing - Pillar 1,Gold,84.9,81.88,12.08
 2.0.1,8c60a308-1e47-4a0c-8b69-9259f05338cb,73ba9de7-67fe-4728-b397-bc5fb1d67df1,OTHER > Office for National Statistics,Labour Force Survey (Person),Not Rated,53.02,36.24,30.2
@@ -217,7 +217,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,c853b41b-fbd1-4896-b0fb-85303109fec4,850f99cb-f091-4f10-86ee-06a3eaa7df53,HUB > DISCOVER NOW,North West London Coordinate My Care (NWL CMC),Platinum,92.62,91.28,6.04
 2.0.1,4fcc8b11-2b9b-4f68-b51a-978749d89acc,8638e095-a609-463f-b36e-c4cac4519660,ALLIANCE > CYSTIC FIBROSIS TRUST,Cystic Fibrosis Patient Tendon Rupture,Gold,81.54,75.17,12.08
 2.0.1,ccd6e59d-3582-4f47-a4cd-f5845192d75c,865f0e79-f862-493b-b863-b39b777d60ca,ALLIANCE > TISSUE DIRECTORY,Oxford Musculoskeletal Biobank,Not Rated,58.72,59.06,41.61
-2.0.1,,8665b36e-f9a5-4062-ba56-d33fecfe3376,HUB > BREATHE,Its Not JUST Idiopathic pulmonary fibrosis Study (INJUSTIS),Silver,74.5,71.14,22.15
+2.0.1,cc6f926a-90cf-4083-84e7-131d1e63813b,8665b36e-f9a5-4062-ba56-d33fecfe3376,HUB > BREATHE,Its Not JUST Idiopathic pulmonary fibrosis Study (INJUSTIS),Silver,74.5,71.14,22.15
 2.0.1,786563e9-5377-4d18-8d32-65ff14d53987,88576066-fb5f-43e2-8af4-0904630b2f1b,ALLIANCE > TISSUE DIRECTORY,University of Southampton Faculty of Medicine Tissue Bank,Bronze,61.41,59.06,36.24
 2.0.1,2f085ac6-d33d-4b9b-8a99-624cc51c3f17,89aac17d-f8a1-4ddc-9495-4adc278234a9,ALLIANCE > TISSUE DIRECTORY,Human Biomaterials Resource Centre,Bronze,61.41,59.06,36.24
 2.0.1,d4362d41-0838-4f41-bba3-c3268312c444,8a05b76d-b0ec-4c28-96b5-11601e26933a,ALLIANCE > NHS DIGITAL,Hospital Episode Statistics Outpatients,Gold,88.26,85.23,8.72
@@ -244,8 +244,8 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,e5ec63dd-4da5-4119-99c8-5cc79045618c,99812cec-ea1c-4979-8e00-32df5bad000b,ALLIANCE > TISSUE DIRECTORY,RATHL Trial,Bronze,62.75,64.43,38.93
 2.0.1,84336be3-23bd-466e-b29b-df48db897665,9a85b69e-fd3e-4522-bc68-48024df0ea3e,ALLIANCE > ISARIC 4C,COVID-19 Clinical Information Network (CO-CIN),Gold,89.93,85.23,5.37
 2.0.1,e253257c-48c2-491b-b3b9-205161a16a7e,9ad4cc56-e86f-4d96-a515-05ee37edc1e9,NCS > OFFICE FOR NATIONAL STATISTICS,Coronavirus and the social impacts on Great Britain,Gold,89.26,83.89,5.37
-2.0.1,,9bfba8a4-43c3-4356-93a5-3eb3b7bc247a,HUB > DATA-CAN,PHM and Cancer Outcomes in the WYH Cancer Alliance,Platinum,92.28,90.6,6.04
-2.0.1,,9ca6e8d2-98d2-4757-84e1-287585400e55,HUB > BREATHE,"Extended Cohort for E-health, Environment and DNA (EXCEED)",Gold,89.93,88.59,8.72
+2.0.1,bc839e9c-e303-4c3c-9c2c-9975602376e2,9bfba8a4-43c3-4356-93a5-3eb3b7bc247a,HUB > DATA-CAN,PHM and Cancer Outcomes in the WYH Cancer Alliance,Platinum,92.28,90.6,6.04
+2.0.1,e22ddf52-7f9e-4072-ae61-cb722461b37d,9ca6e8d2-98d2-4757-84e1-287585400e55,HUB > BREATHE,"Extended Cohort for E-health, Environment and DNA (EXCEED)",Gold,89.93,88.59,8.72
 2.0.1,419e5a82-2d82-48a7-a8f3-a83e64a54e92,9ce35921-a1de-444b-a822-c0f6a8003797,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,Tayside Pathology,Not Rated,48.99,22.15,24.16
 2.0.1,f2af20f9-af84-40ce-8a07-7d095948653e,9d4f445e-f81e-45d7-bd83-7e9f68199b4f,HUB > GUT REACTION,IBD NIHR BioResource: Sample holding,Platinum,91.95,87.25,3.36
 2.0.1,636e216a-072b-4c8b-b867-23b7666d2cb2,a06afa88-caba-4354-ac70-d05c67b34dfc,ALLIANCE > TISSUE DIRECTORY,UK CLL Trials Biobank,Bronze,61.41,59.06,36.24
@@ -340,7 +340,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,b03835b7-7408-49a0-a9aa-ea405f9855c9,ddbc149a-db56-41de-bd2c-3624149f6e7e,ALLIANCE > TISSUE DIRECTORY,MesobanK,Bronze,61.41,59.06,36.24
 2.0.1,039b55f7-d416-49ab-9bdb-4ff7dbc733df,ddd49721-ff49-4f68-b3f5-e95a417fb0ac,ALLIANCE > TISSUE DIRECTORY,NIMRAD-TRANS,Bronze,61.41,59.06,36.24
 2.0.1,f201b68f-d995-4a70-a9ee-aa3510232777,de28157e-5319-4972-83ae-4d0c73cdfca9,ALLIANCE > NHS DIGITAL,Medicines dispensed in Primary Care (NHSBSA data),Platinum,91.28,88.59,6.04
-2.0.1,,de4b46f5-1591-442d-a896-6e0d91657c01,HUB > BREATHE,Children's Health in London and Luton (CHILL),Bronze,67.45,59.73,24.83
+2.0.1,722be723-04bd-48b4-923b-e7d393f0c22b,de4b46f5-1591-442d-a896-6e0d91657c01,HUB > BREATHE,Children's Health in London and Luton (CHILL),Bronze,67.45,59.73,24.83
 2.0.1,3f71bef5-c5a2-400c-a482-2ad30b29a240,df23aabd-3e5f-4fc2-aad6-af990cff6f19,HUB > DATA-CAN,Children’s Kidney Cancers - Great Ormond Street Hospital,Platinum,92.28,88.59,4.03
 2.0.1,3c749cfc-4008-4916-b64f-969d6a754c0f,df3cc57d-08ae-4e81-ae79-283d71cf8d95,HUB > GUT REACTION,IBD NIHR BioResource: SNP chip data,Platinum,91.95,87.25,3.36
 2.0.1,5692eade-5738-48ed-8527-39be9caaa7b5,df514642-bf9d-432f-bf15-4d870fe4ae08,ALLIANCE > SAIL,School Workforce Annual Census (SWAC),Platinum,90.6,90.6,9.4
