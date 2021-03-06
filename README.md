@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (600)
+## HDR UK Datasets (602)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -334,7 +334,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NEONATAL DATA ANALYSIS UNIT - IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/afc8af43-d6cd-4faa-b204-8fc471119b98)
 
-### NHS DIGITAL (53)
+### NHS DIGITAL (55)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Mental Health Services Data Set](https://web.www.healthdatagateway.org/dataset/0d5bb5b4-ad38-4313-8b19-cd37491c0b41)
 - [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/0e07413c-892c-4f06-bd22-2a917eb5c905)
@@ -355,9 +355,11 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health and Learning Disabilities Data Set](https://web.www.healthdatagateway.org/dataset/4262e057-6978-4e4c-a05d-c4f328422090)
 - [Mental Health Minimum Dataset v4 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/46493a09-b3bb-4c0e-b944-82665ee21508)
 - [COVID-19 SARI-Watch (formerly CHESS)](https://web.www.healthdatagateway.org/dataset/511f73b6-5181-408d-ae40-69b0ef70e732)
+- [COVID19 Vaccination Status](https://web.www.healthdatagateway.org/dataset/53daaea6-46e8-4665-b50d-5c86396b3bbf)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/5d76d094-446d-4dcc-baa1-076095f30c23)
 - [Emergency Care Data Set (ECDS)](https://web.www.healthdatagateway.org/dataset/621008c7-67ac-4e3d-9c54-af87cc2f9579)
 - [Covid-19 Second Generation Surveillance System](https://web.www.healthdatagateway.org/dataset/6c878d69-2662-42db-85da-15e087606442)
+- [COVID19 Vaccination Adverse Reaction](https://web.www.healthdatagateway.org/dataset/6e20e516-97d4-4cdc-b41b-107ed3fc02f5)
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/78fe2e13-7f40-406f-a584-04909d0ce060)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/7aa02796-787a-42c2-b97e-d008fa77e4b8)
 - [Mental Health & Learning Disabilities Dataset v 1 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/8226b6fa-d815-4f15-9064-b56beb0fddb1)
