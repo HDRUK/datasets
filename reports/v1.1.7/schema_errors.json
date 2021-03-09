@@ -782,6 +782,50 @@
     ]
   },
   {
+    "pid": "ed08c844-343e-44fa-a02d-3ad5ecf25184",
+    "id": "04f22c93-53df-440a-a71a-50d6827450bc",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London COVID-19 Patient Level Situation Report (NWL COVID19 SITREP)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Patients in this dataset will be identified by an unique patient key, this can be used to link to other datasets that we have as part of our catalogue as all our datasets has consistent patent keys for patients' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Patients in this dataset will be identified by an unique patient key, this can be used to link to other datasets that we have as part of our catalogue as all our datasets has consistent patent keys for patients' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "9f29d47e-4e9a-41b8-b7bc-5ef3570294ef",
     "id": "05716e41-9842-4c07-8ddd-af9f9231e056",
     "publisher": "ALLIANCE > SAIL",
@@ -1182,11 +1226,11 @@
     ]
   },
   {
-    "pid": "2d3ec99a-a087-4355-8539-5a22cef58910",
-    "id": "07169a48-2e59-4ef6-ad77-f272d60b5a83",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Mental Health Data (NWL MH)",
-    "schema_error_count": 6,
+    "pid": "bb8de9d2-cc38-4c40-b104-ffd167f64f76",
+    "id": "0715a950-3999-46d8-a646-6496866638a1",
+    "publisher": "HUB > BREATHE",
+    "title": "Prospective Observation of Fibrosis in the Lung Clinical Endpoints",
+    "schema_error_count": 7,
     "errors": [
       {
         "attribute": "usageRestrictions",
@@ -1194,24 +1238,29 @@
       },
       {
         "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+        "message": "accessRequestDuration: 'Please see: https://saildatabank.com/application-process/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,READ,NHS NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,READ,NHS NATIONAL CODES' is not of type 'array'"
       },
       {
         "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+        "message": "geographicCoverage: 'England' is not a 'uri'"
       },
       {
         "attribute": "linkedDataset",
-        "message": "linkedDataset: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Accident and Emergency Community' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Accident and Emergency Community' is not one of ['Not Known', 'Not Available']"
+        "message": "linkedDataset: 'At the moment there are no other linked datasets but there is the possibility to link to other datasets via NHS Digital etc.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'At the moment there are no other linked datasets but there is the possibility to link to other datasets via NHS Digital etc.' is not one of ['Not Known', 'Not Available']"
       },
       {
         "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+        "message": "physicalSampleAvailability: 'Available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -3162,50 +3211,6 @@
     ]
   },
   {
-    "pid": "2c5f3ef6-53f8-42e6-a077-8718261df026",
-    "id": "0fde8427-1072-4b77-9997-635157ef370a",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Pathology (NWL PATH)",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "18bfe765-5733-41f3-8114-0a1ec2524b5b",
     "id": "1046b837-c4d9-4688-a06e-d7b32d37a161",
     "publisher": "HUB > GUT REACTION",
@@ -3557,54 +3562,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'IN PROGRESS' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "1d7a0222-d5ae-41f7-afe9-8d3bd564b00e",
-    "id": "135ba51b-8a01-4624-b3c4-1d6f5b22b357",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London COVID-19 Patient Level Situation Report (NWL COVID19 PLD SITREP)",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Patients in this dataset will be identified by an unique patient key, this can be used to link to other datasets that we have as part of our catalogue as all our datasets has consistent patent keys for patients' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Patients in this dataset will be identified by an unique patient key, this can be used to link to other datasets that we have as part of our catalogue as all our datasets has consistent patent keys for patients' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      },
-      {
-        "attribute": "title",
-        "message": "title: 'North West London COVID-19 Patient Level Situation Report (NWL COVID19 PLD SITREP)' is too long"
       }
     ]
   },
@@ -6558,45 +6515,6 @@
     ]
   },
   {
-    "pid": "1032850f-7631-4d9e-a760-b0532bffd21a",
-    "id": "278b91aa-7ad1-4b89-86aa-10e9e013f0cf",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London population data (NWL POP)",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "33b36393-3760-40d8-bb98-61806fea5398",
     "id": "278c3fb2-6b1e-46db-a529-9fc7ddaf4461",
     "publisher": "ALLIANCE > HQIP",
@@ -7668,45 +7586,6 @@
     ]
   },
   {
-    "pid": "1fe1e7bb-ef6e-4d89-9824-bb560afc81f0",
-    "id": "2f19548c-99d7-4f48-a418-d7afb77aebec",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Patient Index (NWL PI)",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith & Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "587a94e6-48a4-4e5e-8230-4018897bc7c7",
     "id": "304430ff-0aff-4d36-91e5-94be251a409a",
     "publisher": "ALLIANCE > HQIP",
@@ -7857,6 +7736,45 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'OTHER' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "8604bcdc-235a-4c70-b29b-1617396815e6",
+    "id": "333d92ca-3a32-41bd-8b16-96aee2dc85b1",
+    "publisher": "HUB > BREATHE",
+    "title": "Wales Asthma Observatory",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'READ,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'READ,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'SAIL linked health records - WLGP, PEDW, EDDS, OPD, ADDE, WDS' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'SAIL linked health records - WLGP, PEDW, EDDS, OPD, ADDE, WDS' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -8385,6 +8303,50 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA,IMMORTALIZED CELL LINES' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "2c5f3ef6-53f8-42e6-a077-8718261df026",
+    "id": "38194ca7-57f5-40ff-b463-900e306cd40f",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Pathology (NWL PATH)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -9488,6 +9450,50 @@
     ]
   },
   {
+    "pid": "9f1df859-f1d0-4f1e-959e-affd05138a25",
+    "id": "3d51dc99-c44f-44ff-bdab-da205c5e394e",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Outpatient Care Data (NWL OP)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "fdf9ac68-fc89-4adf-9a73-3a94a9974aef",
     "id": "3db58c78-fc8b-49b2-a847-b43fd0184500",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -9669,55 +9675,6 @@
       {
         "attribute": "title",
         "message": "title: 'National Clinical Audit of Anxiety and Depression - spotlight audit on psychological therapies (patient experience survey)' is too long"
-      }
-    ]
-  },
-  {
-    "pid": "e22ddf52-7f9e-4072-ae61-cb722461b37d",
-    "id": "3ee52adc-b97e-4f7b-a251-a1c9841a380c",
-    "publisher": "HUB > BREATHE",
-    "title": "Extended Cohort for E-health, Environment and DNA (EXCEED)",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Please see: https://saildatabank.com/application-process/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Nominal vocabulary and READ version 3 diagnosis codes' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Nominal vocabulary and READ version 3 diagnosis codes' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'N/A' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: '10.1093/ije/dyz175 (for the research paper)' is not valid under any of the given schemas",
-        "suberrors": "    pattern: '10.1093/ije/dyz175 (for the research paper)' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Leicester, Leicestershire and Rutland' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'N/A' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -10704,6 +10661,60 @@
     ]
   },
   {
+    "pid": "6064c3a9-e4f1-411b-8181-f1fdca2ab2b8",
+    "id": "4661db47-82e6-4bc5-80a7-e7a1c3cc96b7",
+    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
+    "title": "Census-Mortality-Hospital Episodes Linked Data",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: \"https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/approvedresearcherscheme,ONS and NHS Digital jointly operate an approvals process for granting access to the Public Health Research Database, and applications by ARs will be reviewed by both entities with successful applications receiving each party's consent\" is not valid under any of the given schemas",
+        "suberrors": "    type: \"https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/approvedresearcherscheme,ONS and NHS Digital jointly operate an approvals process for granting access to the Public Health Research Database, and applications by ARs will be reviewed by both entities with successful applications receiving each party's consent\" is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "3c661240-e4d2-456c-a809-133c23f9c469",
     "id": "4678a81d-dfb6-478a-a373-d5510866b3d0",
     "publisher": "ALLIANCE > HQIP",
@@ -11097,10 +11108,10 @@
     ]
   },
   {
-    "pid": "de9cf0f5-b26a-4363-9df8-3628a4aa6b6e",
-    "id": "4b1202a7-aaf8-486d-86b0-d75a421a5e60",
+    "pid": "0fb33df6-ab36-4170-9fad-1eaf35a3a812",
+    "id": "48182af6-2ccd-44b2-92d5-69cc140e7d67",
     "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Adult Social Care Data (NWL ASC)",
+    "title": "North West London Primary Care Prescriptions Data (NWL PCP)",
     "schema_error_count": 8,
     "errors": [
       {
@@ -11113,13 +11124,13 @@
       },
       {
         "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
+        "message": "controlledVocabulary: 'READ,SNOMED CT' is not valid under any of the given schemas",
+        "suberrors": "    type: 'READ,SNOMED CT' is not of type 'array'"
       },
       {
         "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+        "message": "derivedDatasets: 'Predefined datasets are available for each long term conditions which brings activity and prescription data together. This dataset maps the patient pathway through the different care settings' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Predefined datasets are available for each long term conditions which brings activity and prescription data together. This dataset maps the patient pathway through the different care settings' is not one of ['Not Known', 'Not Available']"
       },
       {
         "attribute": "geographicCoverage",
@@ -11127,8 +11138,8 @@
       },
       {
         "attribute": "linkedDataset",
-        "message": "linkedDataset: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Accident and Emergency Mental Health  Community' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Accident and Emergency Mental Health  Community' is not one of ['Not Known', 'Not Available']"
+        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
       },
       {
         "attribute": "periodicity",
@@ -11503,59 +11514,6 @@
     ]
   },
   {
-    "pid": "bb8de9d2-cc38-4c40-b104-ffd167f64f76",
-    "id": "50feb9f3-3be8-4690-913b-bd462d27d3db",
-    "publisher": "HUB > BREATHE",
-    "title": "Prospective Observation of Fibrosis in the Lung Clinical Endpoints",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Please see: https://saildatabank.com/application-process/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'None' is not valid under any of the given schemas",
-        "suberrors": "    type: 'None' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'doi: 10.1016/S2213-2600(15)00048-X.' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'doi: 10.1016/S2213-2600(15)00048-X.' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'At the moment there are no other linked datasets but there is the possibility to link to other datasets via NHS Digital etc.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'At the moment there are no other linked datasets but there is the possibility to link to other datasets via NHS Digital etc.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'NA (single release)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'Available' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "1c27bfbf-c659-42ff-8afe-d58250b49c07",
     "id": "510e1782-1650-4342-9c20-185ca47f7b11",
     "publisher": "ALLIANCE > OXFORD UNIVERSITY HOSPITALS NHS TRUST",
@@ -11634,6 +11592,56 @@
     ]
   },
   {
+    "pid": null,
+    "id": "511b96dd-3808-4131-9755-252944784f52",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Covid Vaccination Dataset (CVVD)",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'WEEKLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "f61f116d-f732-450e-9d34-c6ae00e3fd1e",
     "id": "511f73b6-5181-408d-ae40-69b0ef70e732",
     "publisher": "ALLIANCE > NHS DIGITAL",
@@ -11680,51 +11688,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "01c3d08c-6948-4059-a027-3437e4f5d53b",
-    "id": "5138fa73-6695-413d-9d03-a40ecad98fb5",
-    "publisher": "HUB > BREATHE",
-    "title": "Leicester Respiratory Research Database",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
       }
     ]
   },
@@ -11861,76 +11824,46 @@
     ]
   },
   {
-    "pid": "9711e6cc-426c-4cef-afb3-64382f8d7ed4",
-    "id": "52a4c514-0414-43c7-a400-1498a70ed85a",
-    "publisher": "HUB > BREATHE",
-    "title": "International Severe Asthma Registry",
-    "schema_error_count": 16,
+    "pid": "de9cf0f5-b26a-4363-9df8-3628a4aa6b6e",
+    "id": "535a0983-6618-4211-a939-ae2edfe26f9a",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Adult Social Care Data (NWL ASC)",
+    "schema_error_count": 8,
     "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
       },
       {
-        "attribute": "abstract",
-        "message": "abstract: 'ISAR is the first global severe asthma registry; a joint initiative where national registries (both newly created and pre-existing) retain ownership of their own data but open their borders and share data with ISAR for ethically approved research purposes.' is too long"
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
       },
       {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Available upon request' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Available upon request' is not of type 'array'"
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
       },
       {
         "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Worldwide' is not a 'uri'"
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Accident and Emergency Mental Health  Community' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Accident and Emergency Mental Health  Community' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -12039,6 +11972,61 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "98372a87-f3e6-475d-be12-46c0f9587413",
+    "id": "53daaea6-46e8-4665-b50d-5c86396b3bbf",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "COVID19 Vaccination Status",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'SNOMED CT,DM+D,NHS NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'SNOMED CT,DM+D,NHS NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Data will be minimised as appropriate relative to the data access application' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Data will be minimised as appropriate relative to the data access application' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'WEEKLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -12716,6 +12704,50 @@
     ]
   },
   {
+    "pid": "721db252-8069-433d-bb6d-4b44b243d364",
+    "id": "5b9b7964-615b-438a-b151-d2f884a24aee",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Accident and Emergency Data (NWL A&E)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "e57dd7a2-3c5c-4285-8001-8e2589c395e9",
     "id": "5bb40472-fc5d-4b16-a0a6-d1d42fd1d3e8",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -12759,6 +12791,73 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'TISSUE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "9711e6cc-426c-4cef-afb3-64382f8d7ed4",
+    "id": "5c7ae78d-53e6-427d-a3a9-52538f8342dc",
+    "publisher": "HUB > BREATHE",
+    "title": "International Severe Asthma Registry",
+    "schema_error_count": 14,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,OTHER' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,OTHER' is not of type 'array'"
+      },
+      {
+        "attribute": "dataController",
+        "message": "dataController: 'ISAR' is too short"
+      },
+      {
+        "attribute": "dataProcessor",
+        "message": "dataProcessor: 'ISAR' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'ISAR' is not one of ['Not Applicable']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Worldwide' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'CONTINUOUS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -12922,6 +13021,40 @@
     ]
   },
   {
+    "pid": "2d3ec99a-a087-4355-8539-5a22cef58910",
+    "id": "5e19a471-64e3-4aa4-ac56-6901d5e39e28",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Mental Health Data (NWL MH)",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Accident and Emergency Community' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Accident and Emergency Community' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "fa257aa8-51fc-4eb7-a448-e473fa54686d",
     "id": "5e2a7277-dc64-499a-b16d-51850d9ad00b",
     "publisher": "ALLIANCE > SAIL",
@@ -13026,108 +13159,6 @@
     ]
   },
   {
-    "pid": "602d8093-6a1e-42cf-a89c-8bf0d47ecc8c",
-    "id": "5eaf28aa-dfd4-4bf6-b5e7-3d172a2c3cf7",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Integrated Care Record (NWL ICR)",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'LOCAL,NHS DATA DICTIONARY,OTHER' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL,OPCS4,READ,SNOMED CT,NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL,OPCS4,READ,SNOMED CT,NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith & Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "6064c3a9-e4f1-411b-8181-f1fdca2ab2b8",
-    "id": "5f101c6b-ba06-4905-bf0d-457e0f0f5fef",
-    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
-    "title": "Census-Mortality-Hospital Episodes Linked Data",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: \"https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/approvedresearcherscheme,ONS and NHS Digital jointly operate an approvals process for granting access to the Public Health Research Database, and applications by ARs will be reviewed by both entities with successful applications receiving each party's consent\" is not valid under any of the given schemas",
-        "suberrors": "    type: \"https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/approvedresearcherscheme,ONS and NHS Digital jointly operate an approvals process for granting access to the Public Health Research Database, and applications by ARs will be reviewed by both entities with successful applications receiving each party's consent\" is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "01ad25ed-8cde-43d7-bc77-d8cc3d165df4",
     "id": "600be397-211b-4f65-9f82-e85f4393fb8a",
     "publisher": "ALLIANCE > HQIP",
@@ -13185,6 +13216,45 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "pid": "1032850f-7631-4d9e-a760-b0532bffd21a",
+    "id": "601f1504-2706-405b-94cb-8cd14231f434",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London population data (NWL POP)",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -13601,40 +13671,6 @@
     ]
   },
   {
-    "pid": "8604bcdc-235a-4c70-b29b-1617396815e6",
-    "id": "6439bf82-d0b4-4d7f-b7d9-f1e716b12df5",
-    "publisher": "HUB > BREATHE",
-    "title": "Wales Asthma Observatory",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'Read V2, ICD-10, OPCS-4, EDDS diagnosis codes' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Read V2, ICD-10, OPCS-4, EDDS diagnosis codes' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually; or manually by users (using SQL/R script)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "pid": "0a305b29-cf23-4261-9299-5251e41ee9f0",
     "id": "64a0ba4d-776c-4979-a4b0-1f1fb6b61c85",
     "publisher": "ALLIANCE > HQIP",
@@ -13906,6 +13942,45 @@
     ]
   },
   {
+    "pid": "6277abc6-c039-4886-8489-d4a2cdb8190c",
+    "id": "67cd0c2b-3944-4bc4-a03a-4081ee67847f",
+    "publisher": "HUB > BREATHE",
+    "title": "Genetics of Asthma Severity & Phenotypes",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'Available upon request' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'In Progress' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'In Progress' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'UK' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "dc22db56-8791-4e96-9ce6-6b6a58b1241f",
     "id": "67ef8ade-51e6-4737-acee-be871751a698",
     "publisher": "ALLIANCE > SAIL",
@@ -13982,6 +14057,45 @@
       {
         "attribute": "geographicCoverage",
         "message": "geographicCoverage: 'Malaysia' is not a 'uri'"
+      }
+    ]
+  },
+  {
+    "pid": "1fe1e7bb-ef6e-4d89-9824-bb560afc81f0",
+    "id": "6a390359-1e26-470f-a4e5-bfb31a5ed643",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Patient Index (NWL PI)",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith & Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -14267,6 +14381,48 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'IN PROGRESS' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "01c3d08c-6948-4059-a027-3437e4f5d53b",
+    "id": "6bca5d27-5b98-45e7-b834-6980ba5db5c9",
+    "publisher": "HUB > BREATHE",
+    "title": "Leicester Respiratory Research Database",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -14672,6 +14828,61 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'Quarterly' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "pid": "080a90e4-4bc6-4153-a4c6-c120eef5ba94",
+    "id": "6e20e516-97d4-4cdc-b41b-107ed3fc02f5",
+    "publisher": "ALLIANCE > NHS DIGITAL",
+    "title": "COVID19 Vaccination Adverse Reaction",
+    "schema_error_count": 11,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'SNOMED CT,DM+D,NHS NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'SNOMED CT,DM+D,NHS NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Data will be minimised as appropriate relative to the data access application' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Data will be minimised as appropriate relative to the data access application' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'England' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'WEEKLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -15230,6 +15441,45 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "b8bcda0b-3c90-4382-aeb7-b01fc27e58fa",
+    "id": "73462506-32c5-43a0-963e-06d67e967b97",
+    "publisher": "HUB > BREATHE",
+    "title": "UK BiLEVE Consortium Dataset",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'LESS 1 WEEK' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Derived lung function variables deposited with UK Biobank' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Derived lung function variables deposited with UK Biobank' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -16572,56 +16822,6 @@
     ]
   },
   {
-    "pid": "471f101c-a45e-4620-8710-be3036a46fba",
-    "id": "7abfb023-50f3-4851-8bae-4abe41d25c1d",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Covid Vaccination Dataset (CVVD)",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'WEEKLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "becd2624-9a01-4f01-bcf8-56e94545a49a",
     "id": "7dc319da-a16f-4e63-a115-0cba3905a322",
     "publisher": "ALLIANCE > HQIP",
@@ -16688,55 +16888,6 @@
       {
         "attribute": "title",
         "message": "title: 'National Asthma and COPD Audit Programme (NACAP): Adult Asthma secondary care clinical dataset' is too long"
-      }
-    ]
-  },
-  {
-    "pid": "0f930154-0a0e-4bef-9464-59e657b904d6",
-    "id": "7e6c0a1f-c06f-4e5f-ae2f-93500569c4a5",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Primary Care Events Data (NWL PCE)",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: '[11:44 AM] SARAVANAKUMAR, Kavitha (NORTH WEST LONDON COLLABORATION OF CLINICAL COMMISSIONING GROUPS)     Access rights - https://imperialcollegehealthpartners.com/discover-now/nwl-covid-data-access/' is not valid under any of the given schemas",
-        "suberrors": "    type: '[11:44 AM] SARAVANAKUMAR, Kavitha (NORTH WEST LONDON COLLABORATION OF CLINICAL COMMISSIONING GROUPS)     Access rights - https://imperialcollegehealthpartners.com/discover-now/nwl-covid-data-access/' is not of type 'array'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'READ,SNOMED CT' is not valid under any of the given schemas",
-        "suberrors": "    type: 'READ,SNOMED CT' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -17724,6 +17875,49 @@
     ]
   },
   {
+    "pid": "c853b41b-fbd1-4896-b0fb-85303109fec4",
+    "id": "850f99cb-f091-4f10-86ee-06a3eaa7df53",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Coordinate My Care (NWL CMC)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'LOCAL,OTHER' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This dataset can be linked with all other datasets available in our metadata catalogue as every patient will be identified using a unique patient key that can be used to link' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This dataset can be linked with all other datasets available in our metadata catalogue as every patient will be identified using a unique patient key that can be used to link' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "3f3df3be-05a8-42b2-89d9-f731deb7ea66",
     "id": "851bb11b-fa75-44ee-afe9-948dc7652555",
     "publisher": "ALLIANCE > CPRD",
@@ -18026,31 +18220,36 @@
     ]
   },
   {
-    "pid": "722be723-04bd-48b4-923b-e7d393f0c22b",
-    "id": "868613e0-23cc-4f8a-82da-18984589afd7",
+    "pid": "cc6f926a-90cf-4083-84e7-131d1e63813b",
+    "id": "8665b36e-f9a5-4062-ba56-d33fecfe3376",
     "publisher": "HUB > BREATHE",
-    "title": "Children's Health in London and Luton (CHILL)",
-    "schema_error_count": 5,
+    "title": "Its Not JUST Idiopathic pulmonary fibrosis Study (INJUSTIS)",
+    "schema_error_count": 6,
     "errors": [
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
       },
       {
         "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'https://www.qmul.ac.uk/chill/contacts/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES' is not of type 'array'"
       },
       {
         "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'London and Luton' is not a 'uri'"
+        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
       },
       {
         "attribute": "periodicity",
-        "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -18790,50 +18989,6 @@
     ]
   },
   {
-    "pid": "9f1df859-f1d0-4f1e-959e-affd05138a25",
-    "id": "8cf1f0e9-10a6-4c59-824c-aca2f6dba670",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Outpatient Care Data (NWL OP)",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "f9cf4be7-fbc9-4601-8beb-5d3c3596bf04",
     "id": "8cfbaeec-98ce-4e09-b49c-d7c5968f1e85",
     "publisher": "ALLIANCE > PUBLIC HEALTH SCOTLAND",
@@ -19293,50 +19448,6 @@
       {
         "attribute": "geographicCoverage",
         "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "788857b5-6a5b-4ec2-825e-d965e291cf45",
-    "id": "90baf782-0f16-4a48-8ff9-5a0b2aed7cd0",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Admitted Patient Care Data (NWL APC)",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
       },
       {
         "attribute": "periodicity",
@@ -19827,59 +19938,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'IN PROGRESS' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "6277abc6-c039-4886-8489-d4a2cdb8190c",
-    "id": "94c082e5-b45f-43fe-9340-f4855f392fd4",
-    "publisher": "HUB > BREATHE",
-    "title": "Genetics of Asthma Severity & Phenotypes",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Available upon request' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'Any Age' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    type: 'N/A' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'More detailed Phenotype data sets will potentially be available later in 2020' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'More detailed Phenotype data sets will potentially be available later in 2020' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'DOI: 10.1016/S2213-2600(18)30389-8' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'DOI: 10.1016/S2213-2600(18)30389-8' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'UK' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'N/A' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'Annually' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -20914,6 +20972,67 @@
     ]
   },
   {
+    "pid": "bc839e9c-e303-4c3c-9c2c-9975602376e2",
+    "id": "9bfba8a4-43c3-4356-93a5-3eb3b7bc247a",
+    "publisher": "HUB > DATA-CAN",
+    "title": "PHM and Cancer Outcomes in the WYH Cancer Alliance",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'OPCS4,SNOMED CT,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'OPCS4,SNOMED CT,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Individual trust submissions are linked to provide ICS level data' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Individual trust submissions are linked to provide ICS level data' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: 'In progress' is not valid under any of the given schemas",
+        "suberrors": "    pattern: 'In progress' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'West Yorkshire and Harrogate ICS' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Cancer waiting times data (CWT), cancer outcomes and services dataset (COSD) and the Systemic Anticancer Treatment dataset (SACT) submissions and Radio Therapy (RT) Care by provider' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Cancer waiting times data (CWT), cancer outcomes and services dataset (COSD) and the Systemic Anticancer Treatment dataset (SACT) submissions and Radio Therapy (RT) Care by provider' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'CONTINUOUS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "e06b951b-e9d8-4a2c-a51f-1d819f669205",
     "id": "9c0f13ca-5831-4d9b-860a-7d856be7a9f1",
     "publisher": "ALLIANCE > HQIP",
@@ -20980,6 +21099,39 @@
       {
         "attribute": "title",
         "message": "title: 'Falls and Fragility Fracture Audit Programme National Hip Database clinical dataset' is too long"
+      }
+    ]
+  },
+  {
+    "pid": "e22ddf52-7f9e-4072-ae61-cb722461b37d",
+    "id": "9ca6e8d2-98d2-4757-84e1-287585400e55",
+    "publisher": "HUB > BREATHE",
+    "title": "Extended Cohort for E-health, Environment and DNA (EXCEED)",
+    "schema_error_count": 6,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-4 WEEKS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Midlands, UK' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'SALIVA,WHOLE BLOOD' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -21600,50 +21752,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "65dad445-ed81-4005-9f5a-4f8a7164043e",
-    "id": "a1ff2a5a-604a-45e8-98de-858afd9a8acb",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Community Data (NWL COM)",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long term condition, risk segmentation, patient segmentatation' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long term condition, risk segmentation, patient segmentatation' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Accident and Emergency' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Accident and Emergency' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -22522,6 +22630,50 @@
     ]
   },
   {
+    "pid": "0f930154-0a0e-4bef-9464-59e657b904d6",
+    "id": "a9f4a852-a1f2-4041-bb33-3a50e6c43f8d",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Primary Care Events Data (NWL PCE)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'READ,SNOMED CT' is not valid under any of the given schemas",
+        "suberrors": "    type: 'READ,SNOMED CT' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "348b12fb-7718-477e-a572-4fc3c716152d",
     "id": "aa019da2-0f2f-493c-95e8-7263ee735f46",
     "publisher": "ALLIANCE > NHS DIGITAL",
@@ -22955,6 +23107,50 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'TISSUE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "788857b5-6a5b-4ec2-825e-d965e291cf45",
+    "id": "adce90ad-d576-4c98-9de9-dca19f7f4d41",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Admitted Patient Care Data (NWL APC)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -23524,45 +23720,6 @@
     ]
   },
   {
-    "pid": "75638d2c-556a-46b6-afcc-7ab425b34679",
-    "id": "b14a19db-f3fd-4298-93e9-9732d99d8ee9",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London High Cost Drugs Data (NWL HCD)",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "af10ec29-1866-4726-b33f-3948afe182f2",
     "id": "b1dc1917-8522-4ecd-a829-c866c5cffe3b",
     "publisher": "HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE",
@@ -23984,50 +24141,6 @@
     ]
   },
   {
-    "pid": "0fb33df6-ab36-4170-9fad-1eaf35a3a812",
-    "id": "b51be1a2-3d25-43ad-9acb-58d291332367",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Primary Care Prescriptions Data (NWL PCP)",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'READ,SNOMED CT' is not valid under any of the given schemas",
-        "suberrors": "    type: 'READ,SNOMED CT' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Predefined datasets are available for each long term conditions which brings activity and prescription data together. This dataset maps the patient pathway through the different care settings' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Predefined datasets are available for each long term conditions which brings activity and prescription data together. This dataset maps the patient pathway through the different care settings' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "ef22c16c-c294-46e1-abf9-5204212e9053",
     "id": "b53f716d-a5c3-4ad8-a2aa-cae09c12ac18",
     "publisher": "ALLIANCE > NHS DIGITAL",
@@ -24358,50 +24471,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'IN PROGRESS' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "721db252-8069-433d-bb6d-4b44b243d364",
-    "id": "b9a2cd90-2724-4c7b-a26f-6f5b30a36a00",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Accident and Emergency Data (NWL A&E)",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Each patient will be identified by an unique patient key that can be used to link to all other datasets available within Discover-NOW hub' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -25717,41 +25786,6 @@
         "attribute": "accessRights",
         "message": "accessRights: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.strokeaudit.org/Research/Data-requests.aspx' is not valid under any of the given schemas",
         "suberrors": "    type: 'https://www.hqip.org.uk/national-programmes/accessing-ncapop-data\\nhttps://www.strokeaudit.org/Research/Data-requests.aspx' is not of type 'array'"
-      }
-    ]
-  },
-  {
-    "pid": "b8bcda0b-3c90-4382-aeb7-b01fc27e58fa",
-    "id": "c43363e5-a2cd-4990-a425-733dfe559a4f",
-    "publisher": "HUB > BREATHE",
-    "title": "UK BiLEVE Consortium Dataset",
-    "schema_error_count": 6,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Instant access to full GWAS Summary statistics: https://www.ebi.ac.uk/gwas/publications/30804560' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Derived lung function variables deposited with UK Biobank' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Derived lung function variables deposited with UK Biobank' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Linkage to other UK Biobank data feasible via an application to UK Biobank: https://www.ukbiobank.ac.uk/register-apply/' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -27168,6 +27202,50 @@
     ]
   },
   {
+    "pid": "65dad445-ed81-4005-9f5a-4f8a7164043e",
+    "id": "ce896b89-5f4a-407c-bb10-7eec51089458",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Community Data (NWL COM)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES,ODS' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES,ODS' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long term condition, risk segmentation, patient segmentatation' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long term condition, risk segmentation, patient segmentatation' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Accident and Emergency' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Admitted Patient Care Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Accident and Emergency' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "bcf6e5ce-986d-4b84-9c9c-69de966e8bbd",
     "id": "cef00323-8756-4ea5-99e4-f12dcb2c6297",
     "publisher": "ALLIANCE > NHS DIGITAL",
@@ -27741,49 +27819,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "c853b41b-fbd1-4896-b0fb-85303109fec4",
-    "id": "d30304ab-9f5d-478a-8bac-afcda09ef2e8",
-    "publisher": "HUB > DISCOVER NOW",
-    "title": "North West London Coordinate My Care (NWL CMC)",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'LOCAL,OTHER' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'This dataset can be linked with all other datasets available in our metadata catalogue as every patient will be identified using a unique patient key that can be used to link' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'This dataset can be linked with all other datasets available in our metadata catalogue as every patient will be identified using a unique patient key that can be used to link' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -29275,6 +29310,44 @@
     ]
   },
   {
+    "pid": "722be723-04bd-48b4-923b-e7d393f0c22b",
+    "id": "de4b46f5-1591-442d-a896-6e0d91657c01",
+    "publisher": "HUB > BREATHE",
+    "title": "Children's Health in London and Luton (CHILL)",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'https://www.qmul.ac.uk/chill/contacts/' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES' is not of type 'array'"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'London and Luton' is not a 'uri'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "9f98a674-12f6-42f4-b1a5-322b3b75eef1",
     "id": "def6669b-0fac-485c-84b2-2ea83ec31123",
     "publisher": "HUBS > BREATHE",
@@ -30750,55 +30823,6 @@
     ]
   },
   {
-    "pid": "cc6f926a-90cf-4083-84e7-131d1e63813b",
-    "id": "edc8f0c6-64f8-4f6d-a1dd-41e05033d54e",
-    "publisher": "HUB > BREATHE",
-    "title": "Its Not JUST Idiopathic pulmonary fibrosis Study (INJUSTIS)",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'Available upon request' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'None' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    type: 'N/A' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'N/A' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'N/A' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'United Kingdom' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'None' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'None' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'NA (single release)' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "pid": "33b1a989-5f61-412e-bdae-b551c92d1ed6",
     "id": "ee4a73ef-fb4e-4926-9fcc-db6b44b1447e",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -31178,6 +31202,57 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'ANNUAL' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "0d5a40e6-52c0-43c4-bd9f-f2a803cc8ff6",
+    "id": "f2268d4e-0149-4913-9832-0399960eecd4",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Acute Patient level Data (NWL Acute PLD)",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions\\nElectronic Frailty Index\\nQ-Admissions \\nPatient Segments\\nRisk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions\\nElectronic Frailty Index\\nQ-Admissions \\nPatient Segments\\nRisk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -31627,6 +31702,54 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "602d8093-6a1e-42cf-a89c-8bf0d47ecc8c",
+    "id": "f6e25ba4-4f7a-436e-a5f9-f0257d45a612",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London Integrated Care Record (NWL ICR)",
+    "schema_error_count": 9,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'LOCAL,NHS DATA DICTIONARY,OTHER' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,OPCS4,READ,SNOMED CT,NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,OPCS4,READ,SNOMED CT,NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Long Term Conditions Electronic Frailty Index Q-Admissions Patient Segments Risk Segments' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith & Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Outpatient Care High Cost drugs Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -32532,6 +32655,45 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA,PLASMA,SERUM' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "75638d2c-556a-46b6-afcc-7ab425b34679",
+    "id": "fc704af0-368b-4dd0-866f-753b6d1dccf8",
+    "publisher": "HUB > DISCOVER NOW",
+    "title": "North West London High Cost Drugs Data (NWL HCD)",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "derivedDatasets",
+        "message": "derivedDatasets: 'Not Applicable' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Not Applicable' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'NHS Brent CCG; NHS Central London CCG; NHS Ealing CCG; NHS Hammersmith &Fulham CCG; NHS Harrow CCG; NHS Hillingdon CCG; NHS Hounslow CCG; NHS West London CCG' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'This can be linked to: Accident and Emergency Admitted Patient Care Outpatient Care Patient level data Primary care events Primary care prescriptions  Adult social care  Mental Health  Community' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
