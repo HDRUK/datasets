@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (602)
+## HDR UK Datasets (603)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -420,6 +420,9 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
+
+### OXFORD UNIVERSITY HOSPITALS (1)
+- [Oxford Healthcare Workers](https://web.www.healthdatagateway.org/dataset/be1368c6-c97f-4ce0-8322-f97ccb28b9c3)
 
 ### OXFORD UNIVERSITY HOSPITALS NHS TRUST (15)
 - [SOLUS](https://web.www.healthdatagateway.org/dataset/0477b06f-cbed-4949-982e-ce248a47ed1a)
