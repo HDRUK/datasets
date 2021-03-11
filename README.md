@@ -8,12 +8,13 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (603)
+## HDR UK Datasets (604)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
-### BARTS HEALTH (11)
+### BARTS HEALTH (12)
 - [CDE Patient Demographics](https://web.www.healthdatagateway.org/dataset/10b10bc5-ce28-4cc0-b006-2a0e6d03a72d)
+- [COVID-19 research: Master Dataset](https://web.www.healthdatagateway.org/dataset/172287c8-05fd-4754-a405-3c18745b73ea)
 - [Somerset Cancer Registry](https://web.www.healthdatagateway.org/dataset/1e465797-5e54-4667-9120-d373e75be64f)
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/3b752633-8274-4418-b15b-4502bab03935)
 - [ARIA Dataset](https://web.www.healthdatagateway.org/dataset/5271131b-ba5b-452d-b230-077094a031c2)
