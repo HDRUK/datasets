@@ -17,9 +17,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Somerset Cancer Registry](https://web.www.healthdatagateway.org/dataset/1e465797-5e54-4667-9120-d373e75be64f)
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/3b752633-8274-4418-b15b-4502bab03935)
 - [ARIA Dataset](https://web.www.healthdatagateway.org/dataset/5271131b-ba5b-452d-b230-077094a031c2)
+- [Emergency Care Dataset (ECDS)](https://web.www.healthdatagateway.org/dataset/6d41700e-6dac-47c1-ba31-eb2f23539efe)
 - [Sectra PACS](https://web.www.healthdatagateway.org/dataset/8c7abca7-4292-4d1f-b311-c132a7adf109)
 - [Community Services Dataset](https://web.www.healthdatagateway.org/dataset/ae9e8a9f-533f-4823-8e00-84e39ad2c266)
-- [Emergency Care Dataset (ECDS)](https://web.www.healthdatagateway.org/dataset/b09b99dc-a9ba-4e39-8917-ba8c05655ad9)
 - [Critical Care Minimum Dataset](https://web.www.healthdatagateway.org/dataset/cb020c3c-f738-4741-bf6b-3df16611b02e)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/ce1bcddb-a6af-4511-84c6-2a252d3eb202)
 - [Freetext Dataset](https://web.www.healthdatagateway.org/dataset/ef727724-6c38-483b-b28d-8e94b5a9d7ac)
@@ -697,6 +697,6 @@ This repo automatically collects the datasets published on the Gateway including
 ### UNIVERSITY OF CAMBRIDGE (1)
 - [TRACK-COVID](https://web.www.healthdatagateway.org/dataset/d614f4fc-fae9-4775-86d9-4d4710017cf4)
 
-### University of Nottingham (1)
-- [PANTHER study](https://web.www.healthdatagateway.org/dataset/0600a271-4a24-414f-a2d0-4b12e5c47d72)
+### UNIVERSITY OF NOTTINGHAM (1)
+- [PANTHER study](https://web.www.healthdatagateway.org/dataset/c66f943f-4307-4486-817c-49f6d8b9fd6b)
 
