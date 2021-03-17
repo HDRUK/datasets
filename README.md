@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (604)
+## HDR UK Datasets (605)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -497,7 +497,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ROYAL COLLEGE OF GENERAL PRACTITIONERS (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/664513d6-d766-461d-a69e-206a928cd14f)
 
-### SAIL (59)
+### SAIL (60)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/03db4df3-f482-4bdd-a335-546ffffbeaab)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/05716e41-9842-4c07-8ddd-af9f9231e056)
 - [Careers Wales dataset](https://web.www.healthdatagateway.org/dataset/08846261-45f0-4bcf-9801-fe785dcef1c9)
@@ -546,6 +546,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Outpatient Referral](https://web.www.healthdatagateway.org/dataset/c2ddca9f-f144-437b-ac7a-0a628a50ba1a)
 - [COVID-19 Consolidated Deaths](https://web.www.healthdatagateway.org/dataset/c809126e-315b-4bcc-8fa3-741317bf9a4e)
 - [Postponed Admitted Procedures](https://web.www.healthdatagateway.org/dataset/ce192e2e-4f31-4bb0-9c1f-5c4173c03011)
+- [Education Daily Activity Dataset](https://web.www.healthdatagateway.org/dataset/ceb11ed4-c777-4058-b7fd-fa713619af7f)
 - [Referral to Treatment Times](https://web.www.healthdatagateway.org/dataset/cfdb9fbd-9f67-435c-b257-6b51430451bb)
 - [Education - Wales](https://web.www.healthdatagateway.org/dataset/d2da2750-7482-4ce9-ae5c-2ab393408a67)
 - [Looked After Children Wales](https://web.www.healthdatagateway.org/dataset/da5098df-414f-48e0-aaa7-7e2277f80eb7)
