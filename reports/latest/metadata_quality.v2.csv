@@ -11,7 +11,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,ed08c844-343e-44fa-a02d-3ad5ecf25184,04f22c93-53df-440a-a71a-50d6827450bc,HUB > DISCOVER NOW,North West London COVID-19 Patient Level Situation Report (NWL COVID19 SITREP),Platinum,92.62,91.28,6.04
 2.0.1,9f29d47e-4e9a-41b8-b7bc-5ef3570294ef,05716e41-9842-4c07-8ddd-af9f9231e056,ALLIANCE > SAIL,Bowel Screening Wales,Platinum,91.28,91.28,8.72
 2.0.1,a406d06b-350e-4392-ab4e-b1012e422a34,05eadf79-02a7-4c1f-b1be-93694172a9b3,HUB > GUT REACTION,IBD Registry,Silver,75.17,69.8,19.46
-2.0.1,596077a9-298b-44cc-aa7a-81f04cf5dcb3,0600a271-4a24-414f-a2d0-4b12e5c47d72,ALLIANCE > University of Nottingham,PANTHER study,Gold,82.55,70.47,5.37
 2.0.1,edd55990-a616-4a9c-a4a2-38af136a349b,0664f988-276e-4268-af43-1986a3101f38,ALLIANCE > TISSUE DIRECTORY,INCA Trial,Bronze,60.07,59.06,38.93
 2.0.1,01492322-9b33-41cc-9f51-484024e45878,069c213c-eb04-463e-a300-7614c03cf623,ALLIANCE > TISSUE DIRECTORY,HCV Research UK,Bronze,61.41,59.06,36.24
 2.0.1,0eb789bb-0047-46ac-83ff-631f31e98da0,06dee089-8c10-4a8b-aa94-7cb699dc3c80,HUB > PIONEER,"OMOP dataset: Hospital COVID patients: severity, acuity, therapies, outcomes",Platinum,90.27,90.6,10.07
@@ -50,6 +49,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,2c31cb1c-2b3d-40c5-b8d4-bf0b81f089b4,164bf6c1-79f2-4ada-98f6-85b7113d4d20,ALLIANCE > PUBLIC HEALTH SCOTLAND,Child Health Systems Programme - School,Bronze,66.44,55.03,22.15
 2.0.1,c51ab59a-33ce-4145-a642-7f3f96bca545,167cc04b-23b8-4a9e-9ff9-6c8e07d6a561,ALLIANCE > TISSUE DIRECTORY,Cambridge Blood and Stem Cell Biobank,Bronze,61.41,59.06,36.24
 2.0.1,3d6b69dc-cb3c-4b9a-bdea-a798e7d5b5cf,16e343ce-61f5-4f04-9fae-4fa6c9babf61,ALLIANCE > SAIL,NHS 111 Dataset,Gold,87.25,85.91,11.41
+2.0.1,ec4a0913-dffd-4fad-9889-656ca7f058d0,172287c8-05fd-4754-a405-3c18745b73ea,ALLIANCE > BARTS HEALTH,COVID-19 research: Master Dataset,Platinum,90.94,85.23,3.36
 2.0.1,5acfadf9-21a7-4517-a1b2-620d20469611,1785cc1a-ace0-4980-8352-5977b2b72969,HUB > PIONEER,UHB 2019 Summer Society of Acute Medicine Benchmarking Audit,Platinum,92.28,90.6,6.04
 2.0.1,e10a660d-b84c-475f-abd4-024dd1af7a5d,17cd75a2-e2b5-440c-89b1-22c9f3b03a03,ALLIANCE > TISSUE DIRECTORY,IoN Trial,Not Rated,58.72,59.06,41.61
 2.0.1,f4f0ef1a-46cf-4734-8516-3adb0b62ae6d,17ff9515-8296-435b-a50e-014168714689,ALLIANCE > GENERATION SCOTLAND,Generation Scotland: Scottish Family Health Study,Not Rated,57.05,47.65,33.56
@@ -135,7 +135,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,264a1987-a8cb-4a83-81e0-70b4c3893b7d,4cde083a-bf5a-4f57-97c6-38632e10050d,ALLIANCE > TISSUE DIRECTORY,Obesity Research Biobank Syndicate (ORBiS),Bronze,60.07,59.06,38.93
 2.0.1,c6e0e70e-7f23-4a44-a2cf-1d7d87be7808,4dd3f23c-44be-4126-aac5-ba655d07855c,ALLIANCE > TISSUE DIRECTORY,POUT-T,Bronze,61.41,59.06,36.24
 2.0.1,1fc57971-5af5-499e-a500-4ffbb087f0c4,50e341b3-11cb-4ea3-afd0-be193c0df91f,ALLIANCE > PUBLIC HEALTH SCOTLAND,RAPID (Hospital Stay Level Data),Gold,86.21,80.5,8.09
-2.0.1,,511b96dd-3808-4131-9755-252944784f52,ALLIANCE > SAIL,Covid Vaccination Dataset (CVVD),Gold,87.58,86.58,11.41
+2.0.1,471f101c-a45e-4620-8710-be3036a46fba,511b96dd-3808-4131-9755-252944784f52,ALLIANCE > SAIL,Covid Vaccination Dataset (CVVD),Gold,87.58,86.58,11.41
 2.0.1,f61f116d-f732-450e-9d34-c6ae00e3fd1e,511f73b6-5181-408d-ae40-69b0ef70e732,ALLIANCE > NHS DIGITAL,COVID-19 SARI-Watch (formerly CHESS),Platinum,91.28,87.92,5.37
 2.0.1,621dd611-adcf-4434-b538-eecdbe5f72cf,5271131b-ba5b-452d-b230-077094a031c2,ALLIANCE > BARTS HEALTH,ARIA Dataset,Not Rated,44.97,19.46,29.53
 2.0.1,c388676c-a5e5-419c-967c-239c1f0c3c5c,52a467b0-5401-4818-9c16-2e41d68704c1,ALLIANCE > NIHR BIORESOURCE,NIHR BioResource: SNP chip data,Platinum,91.95,87.25,3.36
@@ -181,6 +181,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,2dc1218d-df5f-4025-826c-cf5ca7d67882,6bde3902-5d69-4c24-9d10-f84a63efdb22,ALLIANCE > TISSUE DIRECTORY,Leeds Breast Research Tissue Bank,Bronze,61.41,59.06,36.24
 2.0.1,fede31c6-a9c5-4cfb-9866-9b58b2199cff,6c878d69-2662-42db-85da-15e087606442,ALLIANCE > NHS DIGITAL,Covid-19 Second Generation Surveillance System,Platinum,92.62,87.92,2.68
 2.0.1,7f9672fa-dad5-479d-a929-52719e8cc2fa,6ceec25d-2c8e-4dd7-8f99-2e56ec63c298,ALLIANCE > TISSUE DIRECTORY,DARWIN1 Trial,Not Rated,58.72,59.06,41.61
+2.0.1,57fa56f2-78d1-49af-ab8d-e8146d711868,6d41700e-6dac-47c1-ba31-eb2f23539efe,ALLIANCE > BARTS HEALTH,Emergency Care Dataset (ECDS),Not Rated,59.06,42.28,24.16
 2.0.1,855a84b2-9d58-4b2b-a450-b6c6d534e403,6dd0f10d-82fa-438f-ba74-9c880f60bf4c,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,NHS Tayside and Fife Virology,Not Rated,48.99,22.15,24.16
 2.0.1,37886fb5-d0ae-400f-89eb-78664897bcf2,6dd6c679-7c5f-4d8e-b1e4-8f1447425e96,ALLIANCE > TISSUE DIRECTORY,Wales Cancer Bank,Bronze,61.41,59.06,36.24
 2.0.1,080a90e4-4bc6-4153-a4c6-c120eef5ba94,6e20e516-97d4-4cdc-b41b-107ed3fc02f5,ALLIANCE > NHS DIGITAL,COVID19 Vaccination Adverse Reaction,Platinum,92.95,88.59,2.68
@@ -281,7 +282,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,097540aa-a0ed-492e-853b-9ebcfd061dea,af2ecff2-398c-437f-8c45-adef2406ce43,ALLIANCE > TISSUE DIRECTORY,Cardiff University Biobank,Bronze,61.41,59.06,36.24
 2.0.1,df9b7bb1-1b26-4e67-b885-df2dcb8e3450,af4af5cc-a9eb-4e0e-b50a-3cab4ac2daf9,ALLIANCE > TISSUE DIRECTORY,NIHR Exeter Clinical Research Facility,Bronze,61.41,59.06,36.24
 2.0.1,67020745-9def-4c6e-b5ac-bb273bd0a20e,afc8af43-d6cd-4faa-b204-8fc471119b98,ALLIANCE > NEONATAL DATA ANALYSIS UNIT - IMPERIAL COLLEGE LONDON,National Neonatal Research Database,Gold,84.23,77.85,9.4
-2.0.1,57fa56f2-78d1-49af-ab8d-e8146d711868,b09b99dc-a9ba-4e39-8917-ba8c05655ad9,ALLIANCE > BARTS HEALTH,Emergency Care Dataset (ECDS),Not Rated,59.06,42.28,24.16
 2.0.1,af10ec29-1866-4726-b33f-3948afe182f2,b1dc1917-8522-4ecd-a829-c866c5cffe3b,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,Tayside Radiology,Not Rated,46.31,22.15,29.53
 2.0.1,439e71c7-33b5-4e85-98ce-4b068f2523ad,b27afede-a51d-4aae-8bf7-ce94888fe898,ALLIANCE > UK Biobank,Primary-care data,Bronze,63.09,53.02,26.85
 2.0.1,bea354e8-c552-41ef-80c2-a76ca5767e4b,b2fb79c5-26db-484b-8e93-1c56d7654f57,ALLIANCE > CYSTIC FIBROSIS TRUST,Cystic Fibrosis Patient Transplants,Gold,81.54,75.17,12.08
@@ -295,6 +295,8 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,47f979bc-da9d-4e9e-9f2b-15e09366db04,b9642fb3-3bee-491b-8d83-22f9de0fd77f,ALLIANCE > TISSUE DIRECTORY,ESPAC-TPlus,Not Rated,58.72,59.06,41.61
 2.0.1,2775b97f-1606-490e-81ef-35bad050434a,bcb224fe-592f-4aaf-abd1-ad3e3caa61ff,ALLIANCE > UK Biobank,UK Biobank Assessment Centre,Bronze,65.77,55.7,24.16
 2.0.1,75c4dcb8-33bf-43f4-b2bb-db51b6621b2c,bd2d56db-f24b-4ac6-9201-3d68c65472b5,ALLIANCE > SAIL,Emergency Department Data Set,Platinum,91.28,91.28,8.72
+2.0.1,,bd87cdf4-ec39-41f6-bb07-c19f10372840,ALLIANCE > SAIL,Education Daily Attendance Dataset,Platinum,92.95,91.95,6.04
+2.0.1,9de2f365-4c5d-4252-acee-6270b113aa93,be1368c6-c97f-4ce0-8322-f97ccb28b9c3,ALLIANCE > OXFORD UNIVERSITY HOSPITALS,Oxford Healthcare Workers,Gold,82.89,71.14,5.37
 2.0.1,22aa219f-f3c8-4a25-822e-aa2504f6f29a,be77a483-2eff-4c05-8091-035fe79b3c8a,ALLIANCE > TISSUE DIRECTORY,Barts CTU,Bronze,61.41,59.06,36.24
 2.0.1,dec09f2e-a93f-41e2-8217-72431ea4a19e,bf083b35-da74-4b82-87d3-203ba60325c6,ALLIANCE > NIHR BIORESOURCE,NIHR BioResource: Metabolite data,Silver,72.82,67.79,22.15
 2.0.1,8ef26f38-d1b3-4b24-b80a-717f216c6aea,bf625cfe-c4b2-4ea8-bbe8-1a8873ca4cb9,ALLIANCE > UK Biobank,Online questionnaires,Bronze,61.74,53.02,29.53
@@ -307,6 +309,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,5844bde6-628d-4e76-bb56-3534e2728eb6,c2ebe992-e9e8-4316-a565-20d312aa9ef7,ALLIANCE > PUBLIC HEALTH SCOTLAND,Child Health Systems Programme - 4-5 year review,Gold,83.89,71.14,3.36
 2.0.1,85113a93-89ed-40e3-a479-33b461b91858,c3b4f4f2-953e-4470-bedd-9d09fd30a508,ALLIANCE > TISSUE DIRECTORY,TRICON8,Not Rated,58.72,59.06,41.61
 2.0.1,80564a6b-1458-41de-a131-772eb93c0509,c476d414-8397-48a3-a0b3-95236b0c3515,ALLIANCE > NHS DIGITAL,Hospital Episode Statistics Critical Care,Gold,89.6,85.23,6.04
+2.0.1,596077a9-298b-44cc-aa7a-81f04cf5dcb3,c66f943f-4307-4486-817c-49f6d8b9fd6b,ALLIANCE > UNIVERSITY OF NOTTINGHAM,PANTHER study,Gold,82.55,70.47,5.37
 2.0.1,b3b790a7-a455-4efb-9c68-60e7131cb836,c78122ae-8be1-40d7-8567-b83059941c16,ALLIANCE > TISSUE DIRECTORY,SCOT translational sample collection,Bronze,61.41,64.43,41.61
 2.0.1,70e37f44-5c3e-4c83-a42a-89b3476d1d45,c809126e-315b-4bcc-8fa3-741317bf9a4e,ALLIANCE > SAIL,COVID-19 Consolidated Deaths,Platinum,91.61,91.95,8.72
 2.0.1,826be5be-9977-49f9-b6d1-83ed9de08ebe,c8516bb0-e4c5-484f-a370-f49315e3a330,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,Tayside Microbiology: Tests,Not Rated,48.99,22.15,24.16

@@ -8,18 +8,19 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (602)
+## HDR UK Datasets (605)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
-### BARTS HEALTH (11)
+### BARTS HEALTH (12)
 - [CDE Patient Demographics](https://web.www.healthdatagateway.org/dataset/10b10bc5-ce28-4cc0-b006-2a0e6d03a72d)
+- [COVID-19 research: Master Dataset](https://web.www.healthdatagateway.org/dataset/172287c8-05fd-4754-a405-3c18745b73ea)
 - [Somerset Cancer Registry](https://web.www.healthdatagateway.org/dataset/1e465797-5e54-4667-9120-d373e75be64f)
 - [CDE Surginet Documentation](https://web.www.healthdatagateway.org/dataset/3b752633-8274-4418-b15b-4502bab03935)
 - [ARIA Dataset](https://web.www.healthdatagateway.org/dataset/5271131b-ba5b-452d-b230-077094a031c2)
+- [Emergency Care Dataset (ECDS)](https://web.www.healthdatagateway.org/dataset/6d41700e-6dac-47c1-ba31-eb2f23539efe)
 - [Sectra PACS](https://web.www.healthdatagateway.org/dataset/8c7abca7-4292-4d1f-b311-c132a7adf109)
 - [Community Services Dataset](https://web.www.healthdatagateway.org/dataset/ae9e8a9f-533f-4823-8e00-84e39ad2c266)
-- [Emergency Care Dataset (ECDS)](https://web.www.healthdatagateway.org/dataset/b09b99dc-a9ba-4e39-8917-ba8c05655ad9)
 - [Critical Care Minimum Dataset](https://web.www.healthdatagateway.org/dataset/cb020c3c-f738-4741-bf6b-3df16611b02e)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/ce1bcddb-a6af-4511-84c6-2a252d3eb202)
 - [Freetext Dataset](https://web.www.healthdatagateway.org/dataset/ef727724-6c38-483b-b28d-8e94b5a9d7ac)
@@ -421,6 +422,9 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
+### OXFORD UNIVERSITY HOSPITALS (1)
+- [Oxford Healthcare Workers](https://web.www.healthdatagateway.org/dataset/be1368c6-c97f-4ce0-8322-f97ccb28b9c3)
+
 ### OXFORD UNIVERSITY HOSPITALS NHS TRUST (15)
 - [SOLUS](https://web.www.healthdatagateway.org/dataset/0477b06f-cbed-4949-982e-ce248a47ed1a)
 - [Millennium Clinical Events](https://web.www.healthdatagateway.org/dataset/0711cc7e-80d5-4781-a1ab-2637ea176ceb)
@@ -493,7 +497,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ROYAL COLLEGE OF GENERAL PRACTITIONERS (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/664513d6-d766-461d-a69e-206a928cd14f)
 
-### SAIL (59)
+### SAIL (60)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/03db4df3-f482-4bdd-a335-546ffffbeaab)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/05716e41-9842-4c07-8ddd-af9f9231e056)
 - [Careers Wales dataset](https://web.www.healthdatagateway.org/dataset/08846261-45f0-4bcf-9801-fe785dcef1c9)
@@ -539,6 +543,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Welsh Demographic Service (WDS)](https://web.www.healthdatagateway.org/dataset/b724a905-e8ae-4ab5-b543-91435f8d3514)
 - [Welsh Ambulance Services NHS Trust](https://web.www.healthdatagateway.org/dataset/b8e0b4a8-aab6-47fc-ac6f-76cd5cdc933d)
 - [Emergency Department Data Set](https://web.www.healthdatagateway.org/dataset/bd2d56db-f24b-4ac6-9201-3d68c65472b5)
+- [Education Daily Attendance Dataset](https://web.www.healthdatagateway.org/dataset/bd87cdf4-ec39-41f6-bb07-c19f10372840)
 - [Outpatient Referral](https://web.www.healthdatagateway.org/dataset/c2ddca9f-f144-437b-ac7a-0a628a50ba1a)
 - [COVID-19 Consolidated Deaths](https://web.www.healthdatagateway.org/dataset/c809126e-315b-4bcc-8fa3-741317bf9a4e)
 - [Postponed Admitted Procedures](https://web.www.healthdatagateway.org/dataset/ce192e2e-4f31-4bb0-9c1f-5c4173c03011)
@@ -694,6 +699,6 @@ This repo automatically collects the datasets published on the Gateway including
 ### UNIVERSITY OF CAMBRIDGE (1)
 - [TRACK-COVID](https://web.www.healthdatagateway.org/dataset/d614f4fc-fae9-4775-86d9-4d4710017cf4)
 
-### University of Nottingham (1)
-- [PANTHER study](https://web.www.healthdatagateway.org/dataset/0600a271-4a24-414f-a2d0-4b12e5c47d72)
+### UNIVERSITY OF NOTTINGHAM (1)
+- [PANTHER study](https://web.www.healthdatagateway.org/dataset/c66f943f-4307-4486-817c-49f6d8b9fd6b)
 
