@@ -373,6 +373,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health Minimum Dataset v4 (Sensitive) Records](https://web.www.healthdatagateway.org/dataset/97fa09e6-5ea5-41cd-baf8-20366db13a3f)
 - [Mental Health Services Data Set - Currencies](https://web.www.healthdatagateway.org/dataset/9b7f7994-0b9c-4809-b67d-45ae1f04ec5c)
 - [Mental Health Minimum Dataset v4.1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/a1a67182-e81b-4144-ac51-92a86f277eb2)
+- [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/a7b56c3d-e55e-4e57-bdc2-490b537f87fb)
 - [Mental Health Minimum Dataset v3_3.5 (Non-Sensitive)](https://web.www.healthdatagateway.org/dataset/aa019da2-0f2f-493c-95e8-7263ee735f46)
 - [Mental Health Minimum Data Set](https://web.www.healthdatagateway.org/dataset/acafb160-b18a-436e-90f1-dc4530a90267)
 - [Mental Health Minimum Dataset v4.1 (Non-Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/b53f716d-a5c3-4ad8-a2aa-cae09c12ac18)
@@ -384,7 +385,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/c713773c-e961-400e-b44a-947002deb073)
 - [Mental Health Minimum Dataset v4.1 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/c97b8058-a6a4-4c8d-92e1-6e9f4cddd301)
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Records](https://web.www.healthdatagateway.org/dataset/cc383a3f-1c47-4b7d-99cf-be8ee0afe401)
-- [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/cef00323-8756-4ea5-99e4-f12dcb2c6297)
 - [Patient Reported Outcome Measures](https://web.www.healthdatagateway.org/dataset/d2af6a29-291b-4444-a17c-40f4208f1e1b)
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/db113fcd-69a0-4357-9c6d-250085deb3f5)
 - [Medicines dispensed in Primary Care (NHSBSA data)](https://web.www.healthdatagateway.org/dataset/de28157e-5319-4972-83ae-4d0c73cdfca9)
@@ -673,7 +673,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [COMPARE](https://web.www.healthdatagateway.org/dataset/84b6d047-2a05-4fc0-8537-809dbb3d18ed)
 - [INTERVAL](https://web.www.healthdatagateway.org/dataset/d58d02f1-47c2-44fc-b16e-4f6cbbb46e62)
 
-### UK Biobank (12)
+### UK BIOBANK (1)
+- [Accelerometer](https://web.www.healthdatagateway.org/dataset/aecc1328-3c30-4eff-9f56-ae1278846ef9)
+
+### UK Biobank (11)
 - [Exome sequencing](https://web.www.healthdatagateway.org/dataset/07b82dd5-adc3-42c5-8a60-914042b5bc40)
 - [Death register](https://web.www.healthdatagateway.org/dataset/3a56c317-bf1b-448d-89ab-3421eae3aa18)
 - [Genotype](https://web.www.healthdatagateway.org/dataset/480ccd8a-309e-417a-ac23-5b2d9cd281b1)
@@ -684,7 +687,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Primary-care data](https://web.www.healthdatagateway.org/dataset/b27afede-a51d-4aae-8bf7-ce94888fe898)
 - [UK Biobank Assessment Centre](https://web.www.healthdatagateway.org/dataset/bcb224fe-592f-4aaf-abd1-ad3e3caa61ff)
 - [Online questionnaires](https://web.www.healthdatagateway.org/dataset/bf625cfe-c4b2-4ea8-bbe8-1a8873ca4cb9)
-- [Accelerometer](https://web.www.healthdatagateway.org/dataset/d5649a81-5e75-45c2-ab89-3ce91f6d288b)
 - [Hospital Inpatient data](https://web.www.healthdatagateway.org/dataset/fb2a851b-3f1c-4665-bbdb-5461f1f36bca)
 
 ### UNIVERSITY COLLEGE LONDON (2)
