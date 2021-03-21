@@ -45,7 +45,7 @@ def export_csv(data, filename, header=None):
   if header is None:
     header = ['id', 'name', 'publisher', 'description', 'author', 'metadata_version']
   with open(filename, 'w') as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=header)
+    writer = csv.DictWriter(csvfile, fieldnames=header, delimiter=',', quotechar='\"')
     writer.writeheader()
     writer.writerows(data)
 
@@ -279,6 +279,33 @@ def process_data_models(data_models_list):
   print("Retrieved ", data['count_v1'], "V1 records & ", data['count_v2'], " V2 records.")
   return data
 
+def get_leaves(item, key=None):
+  if isinstance(item, dict):
+    leaves = {}
+    for i in item.keys():
+      leaves.update(get_leaves(item[i], i))
+    return leaves
+  elif isinstance(item, list):
+    leaves = {}
+    for i in item:
+      leaves.update(get_leaves(i, key))
+    return leaves
+  else:
+    return {key : item}
+
+
+def export_csv_tables(data, filename):
+  # First parse all entries to get the complete fieldname list
+  fieldnames = set()
+
+  for entry in data['dataModels']:
+    fieldnames.update(get_leaves(entry).keys())
+  
+  with open(filename, 'w', newline='') as csv_file:
+    csv_output = csv.DictWriter(csv_file, fieldnames=sorted(fieldnames), delimiter=',', quotechar='\"')
+    csv_output.writeheader()
+    csv_output.writerows(get_leaves(entry) for entry in data['dataModels'])
+
 def format_csv_tables(data):
   tables = {
     'dataModels': {'data': [], 'headers': []},
@@ -286,8 +313,8 @@ def format_csv_tables(data):
     'dataElements': {'data': [], 'headers': []},
   }
   for dm in data['dataModels']:
-    for dc in dm['dataClasses']:
-      for de in dc['dataElements']:
+    for dc in dm['structuralMetadata'].get('dataClasses', []):
+      for de in dc.get('dataElements', []):
         # de['dataTypeLabel'] = de['dataType']['label']
         de['dataType'] = de['dataType']
         de['dataModel'] = dm['id']
@@ -302,7 +329,7 @@ def format_csv_tables(data):
       tables['dataClasses']['data'].append(dc)
       tables['dataClasses']['headers'].extend(dc.keys())
     # Add dataClasses to dataModel
-    data_classes = [dc['id'] for dc in dm['dataClasses']]
+    data_classes = [dc['id'] for dc in dm['structuralMetadata'].get('dataClasses', [])]
     data['dataClasses'] = ", ".join(data_classes)
     tables['dataModels']['data'].append(dm)
     tables['dataModels']['headers'].extend(dm.keys())
@@ -399,8 +426,8 @@ def main():
   generate_sitemap(data_v1, 'sitemap.txt')
   
   # generate CSV tables
-  # data_v1 = read_json('datasets.json')
-  tables = format_csv_tables(data_v1)
+  # data = read_json('datasets.v2.json')
+  tables = format_csv_tables(data_v2)
   export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
   export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
   export_csv(tables['dataElements']['data'], 'dataelements.csv', tables['dataElements']['headers'])

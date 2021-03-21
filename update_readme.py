@@ -9,6 +9,7 @@ import os
 import json
 import requests
 
+README_FILE = 'README.md'
 DATASETS_JSON = 'datasets.json'
 
 def get_json(json_uri):
@@ -89,7 +90,7 @@ This repo automatically collects the datasets published on the Gateway including
 ---
 
 """
-    with open('README.md', 'w') as readme:
+    with open(README_FILE, 'w') as readme:
         readme.write(README_PREAMBLE)
         readme.write("## HDR UK Datasets (%s)\n" % len(datasets))
         for p in publishers:
