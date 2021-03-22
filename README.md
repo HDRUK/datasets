@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (605)
+## HDR UK Datasets (607)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -497,7 +497,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ROYAL COLLEGE OF GENERAL PRACTITIONERS (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/664513d6-d766-461d-a69e-206a928cd14f)
 
-### SAIL (60)
+### SAIL (61)
 - [Annual District Death Extract](https://web.www.healthdatagateway.org/dataset/03db4df3-f482-4bdd-a335-546ffffbeaab)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/05716e41-9842-4c07-8ddd-af9f9231e056)
 - [Careers Wales dataset](https://web.www.healthdatagateway.org/dataset/08846261-45f0-4bcf-9801-fe785dcef1c9)
@@ -536,6 +536,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [SAIL Dementia e-Cohort](https://web.www.healthdatagateway.org/dataset/9709ee81-c5f1-4c01-a1ac-51ae2a0a60f3)
 - [Brecon dataset](https://web.www.healthdatagateway.org/dataset/a1e1ec62-d78c-40ac-9f90-66ef1dd865b2)
 - [Care Home Dataset](https://web.www.healthdatagateway.org/dataset/a45acd02-82d7-4bfe-9845-6b4df683bba8)
+- [Health & Attainment of Pupils in a Primary Education Network [HAPN]](https://web.www.healthdatagateway.org/dataset/a4eb97a6-6a61-415b-9dfb-65503675ed00)
 - [GP dataset - Welsh Primary Care](https://web.www.healthdatagateway.org/dataset/a79dbdef-eac1-49d7-9fdb-150ed5340481)
 - [UK Cystic Fibrosis Registry (CYFI)](https://web.www.healthdatagateway.org/dataset/b43309eb-7860-49b7-9f11-1a7a0fd5532e)
 - [Radiotherapy Dataset](https://web.www.healthdatagateway.org/dataset/b589b19b-b43f-4344-affb-5d7ea328c909)
@@ -688,6 +689,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [UK Biobank Assessment Centre](https://web.www.healthdatagateway.org/dataset/bcb224fe-592f-4aaf-abd1-ad3e3caa61ff)
 - [Online questionnaires](https://web.www.healthdatagateway.org/dataset/bf625cfe-c4b2-4ea8-bbe8-1a8873ca4cb9)
 - [Hospital Inpatient data](https://web.www.healthdatagateway.org/dataset/fb2a851b-3f1c-4665-bbdb-5461f1f36bca)
+
+### UK Longitudinal Linkage Collaboration (UK LLC) (1)
+- [UK Longitudinal Linkage Collaboration (UK LLC)](https://web.www.healthdatagateway.org/dataset/f93aea28-7592-42c0-a5e7-5802f0d6051f)
 
 ### UNIVERSITY COLLEGE LONDON (2)
 - [COVIDsortium](https://web.www.healthdatagateway.org/dataset/03fb3b18-4419-44f7-a035-9ddfecfcadfc)
