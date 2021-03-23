@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (607)
+## HDR UK Datasets (608)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -188,12 +188,13 @@ This repo automatically collects the datasets published on the Gateway including
 - [IBD NIHR BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/f88440b9-53fc-49df-82dd-9cdd3309bd36)
 - [Wellcome Sanger Institute: Whole Exome Sequencing](https://web.www.healthdatagateway.org/dataset/f88fa262-525a-4d8a-94bd-cb6f5e7efbf7)
 
-### HEALTH AND SOCIAL CARE NORTHERN IRELAND (5)
+### HEALTH AND SOCIAL CARE NORTHERN IRELAND (6)
 - [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/022cedb4-650d-4566-be41-8d7ed07a5112)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/2aabcea9-d0dd-4780-b162-3c7ed3ee9888)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
 - [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/7389dc03-1fc7-4af7-b12c-bbab448290f9)
 - [Patient Medical Card Registration (NI)](https://web.www.healthdatagateway.org/dataset/ed02be36-22ff-4796-9394-5dd4524fea12)
+- [Northern Ireland Regional Maternity system (NIMATS)](https://web.www.healthdatagateway.org/dataset/fbcaeeb4-10d4-4608-8c21-1c3edc873d8c)
 
 ### HEALTH DATA RESEARCH UK (1)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/a7ddefbd-31d9-4703-a738-256e4689f76a)
@@ -516,7 +517,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cafcass Wales](https://web.www.healthdatagateway.org/dataset/3fceb952-0b21-40f4-bd69-fa5cd7ad7df9)
 - [Domiciliary Social Care Worker [DSCW]](https://web.www.healthdatagateway.org/dataset/41a667eb-1c84-4665-b0d4-d26405d277c5)
 - [Daily Situation Report Data](https://web.www.healthdatagateway.org/dataset/4b6d3344-e73a-4f46-8e9d-fabb85827772)
-- [Covid Vaccination Dataset (CVVD)](https://web.www.healthdatagateway.org/dataset/511b96dd-3808-4131-9755-252944784f52)
 - [National Community Child Health Database (NCCHD)](https://web.www.healthdatagateway.org/dataset/553a0fcb-6bed-493c-a185-fa97dc5f370d)
 - [Emergency Department Dataset Daily](https://web.www.healthdatagateway.org/dataset/5e2a7277-dc64-499a-b16d-51850d9ad00b)
 - [COVID-19 Symptom Tracker Dataset](https://web.www.healthdatagateway.org/dataset/6325125b-6157-4c20-8bc0-54e2c45cf19b)
@@ -524,6 +524,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Diagnostic and Therapy Services Waiting Times](https://web.www.healthdatagateway.org/dataset/65c8a30c-de2c-47bf-87e4-18c86e75e54a)
 - [Critical Care Dataset](https://web.www.healthdatagateway.org/dataset/67ae329c-f51e-4a28-9a1c-e35d2819a6c3)
 - [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/67ef8ade-51e6-4737-acee-be871751a698)
+- [Covid Vaccination Dataset (CVVD)](https://web.www.healthdatagateway.org/dataset/69010d13-7242-45ca-b549-47b918d36f27)
 - [Welsh Dispensing Dataset](https://web.www.healthdatagateway.org/dataset/6b7893b5-74bc-49e2-ab4d-50e7695f54a5)
 - [COVID-19 Test results](https://web.www.healthdatagateway.org/dataset/6f24a4b8-66ab-4ea7-aa8c-3be3d0b4abf1)
 - [Intensive Care National Audit and Research Centre](https://web.www.healthdatagateway.org/dataset/6f348bdc-21e4-459b-b658-dc839a1e2133)
