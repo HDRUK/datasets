@@ -189,12 +189,12 @@ This repo automatically collects the datasets published on the Gateway including
 - [Wellcome Sanger Institute: Whole Exome Sequencing](https://web.www.healthdatagateway.org/dataset/f88fa262-525a-4d8a-94bd-cb6f5e7efbf7)
 
 ### HEALTH AND SOCIAL CARE NORTHERN IRELAND (6)
-- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/022cedb4-650d-4566-be41-8d7ed07a5112)
-- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/2aabcea9-d0dd-4780-b162-3c7ed3ee9888)
-- [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/5ae869f8-b6af-41c0-bca0-1fffef112375)
-- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/7389dc03-1fc7-4af7-b12c-bbab448290f9)
-- [Patient Medical Card Registration (NI)](https://web.www.healthdatagateway.org/dataset/ed02be36-22ff-4796-9394-5dd4524fea12)
-- [Northern Ireland Regional Maternity system (NIMATS)](https://web.www.healthdatagateway.org/dataset/fbcaeeb4-10d4-4608-8c21-1c3edc873d8c)
+- [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/34b788e3-37c9-4cea-ac12-f210c499eafd)
+- [Patient Medical Card Registration (NI)](https://web.www.healthdatagateway.org/dataset/6a520e77-6607-402c-8272-5c3a20271f13)
+- [Northern Ireland Regional Maternity system (NIMATS)](https://web.www.healthdatagateway.org/dataset/89d76819-32cb-48ad-9337-880f324a6ec0)
+- [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/9353805b-753d-486d-a2ff-3aa23d4ab197)
+- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/b6eececf-6ae4-451e-b41c-4bd245646b47)
+- [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/d0d70526-bcfd-4782-a36b-e81d9d693dd4)
 
 ### HEALTH DATA RESEARCH UK (1)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/a7ddefbd-31d9-4703-a738-256e4689f76a)
