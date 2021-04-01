@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (612)
+## HDR UK Datasets (613)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -190,7 +190,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [IBD NIHR BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/f88440b9-53fc-49df-82dd-9cdd3309bd36)
 - [Wellcome Sanger Institute: Whole Exome Sequencing](https://web.www.healthdatagateway.org/dataset/f88fa262-525a-4d8a-94bd-cb6f5e7efbf7)
 
-### HEALTH AND SOCIAL CARE NORTHERN IRELAND (8)
+### HEALTH AND SOCIAL CARE NORTHERN IRELAND (9)
 - [Emergency Department (eEMS)](https://web.www.healthdatagateway.org/dataset/1b863415-be4e-4229-98c8-8591a802ae72)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/34b788e3-37c9-4cea-ac12-f210c499eafd)
 - [Patient Medical Card Registration (NI)](https://web.www.healthdatagateway.org/dataset/6a520e77-6607-402c-8272-5c3a20271f13)
@@ -199,6 +199,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Emergency Department (Symphony)](https://web.www.healthdatagateway.org/dataset/9abe7041-2502-4fc0-b407-7603caecaf67)
 - [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/b6eececf-6ae4-451e-b41c-4bd245646b47)
 - [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/d0d70526-bcfd-4782-a36b-e81d9d693dd4)
+- [Mortality (Death registration)](https://web.www.healthdatagateway.org/dataset/e1fea1a6-976b-4460-babd-a53d1c49f282)
 
 ### HEALTH DATA RESEARCH UK (1)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/a7ddefbd-31d9-4703-a738-256e4689f76a)
