@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (613)
+## HDR UK Datasets (614)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -713,4 +713,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### UNIVERSITY OF NOTTINGHAM (1)
 - [PANTHER study](https://web.www.healthdatagateway.org/dataset/c66f943f-4307-4486-817c-49f6d8b9fd6b)
+
+### VIKING GENES (1)
+- [VIKING GENES](https://web.www.healthdatagateway.org/dataset/de794427-edf8-4c9e-b089-9d7b56d01373)
 
