@@ -2923,6 +2923,92 @@
     ]
   },
   {
+    "pid": null,
+    "id": "1092c90a-d3d5-4904-97ba-1861cfaddb65",
+    "publisher": "ALLIANCE > BARTS HEALTH",
+    "title": "CDE Clinical Events",
+    "schema_error_count": 19,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "abstract",
+        "message": "abstract: \"Locally defined dataset containing details of all patient data points recorded within the Trust's EHR system. The data points are referred to as DTAs and the list is too long to note here but include every clinical value from data entered against the patients record and pathology results from orders. With recent system upgrade, these also now include Nursing information. Note that this is a very clincially-rich dataset. Items are coded using local Millennium internal codes.\" is too long"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.Dataset is also available within Discovery.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.Dataset is also available within Discovery.' is not of type 'array'"
+      }
+    ]
+  },
+  {
     "pid": "209d7fae-0521-4d07-8a4d-e0843a46a107",
     "id": "10b10bc5-ce28-4cc0-b006-2a0e6d03a72d",
     "publisher": "ALLIANCE > BARTS HEALTH",
@@ -5639,6 +5725,88 @@
     ]
   },
   {
+    "pid": null,
+    "id": "22aecb42-9ea3-4d60-b392-d3cdd0a806f8",
+    "publisher": "ALLIANCE > BARTS HEALTH",
+    "title": "CDE Encounters",
+    "schema_error_count": 18,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available within Discovery.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available within Discovery.' is not of type 'array'"
+      }
+    ]
+  },
+  {
     "pid": "1fe02b65-7b77-43bf-93c8-4f0743fee672",
     "id": "22e67d6b-3c86-46bc-8472-97ebe70773fa",
     "publisher": "ALLIANCE > COVID-19 GENOMICS UK",
@@ -6654,6 +6822,92 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": null,
+    "id": "29de7178-dcf3-4859-bd96-ca6d944db5f8",
+    "publisher": "ALLIANCE > BARTS HEALTH",
+    "title": "DENDRITE Dataset",
+    "schema_error_count": 19,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "abstract",
+        "message": "abstract: 'Clinical system used on St. Barts site for multiple dataset collection. The system is designed to be highly configurable by end users themselves allowing the ability for the system to be used in a number of care settings including Catheter labs & theatres. The system is used as a clinical recording systems as well as an auditing system.' is too long"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.' is not of type 'array'"
       }
     ]
   },
@@ -11649,84 +11903,6 @@
     ]
   },
   {
-    "pid": "1c27bfbf-c659-42ff-8afe-d58250b49c07",
-    "id": "510e1782-1650-4342-9c20-185ca47f7b11",
-    "publisher": "ALLIANCE > OXFORD UNIVERSITY HOSPITALS NHS TRUST",
-    "title": "Outpatient Appointment Dataset",
-    "schema_error_count": 17,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not of type 'array'"
-      }
-    ]
-  },
-  {
     "pid": "f61f116d-f732-450e-9d34-c6ae00e3fd1e",
     "id": "511f73b6-5181-408d-ae40-69b0ef70e732",
     "publisher": "ALLIANCE > NHS DIGITAL",
@@ -14405,56 +14581,6 @@
     ]
   },
   {
-    "pid": "471f101c-a45e-4620-8710-be3036a46fba",
-    "id": "69010d13-7242-45ca-b549-47b918d36f27",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "Covid Vaccination Dataset (CVVD)",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'WEEKLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "1fe1e7bb-ef6e-4d89-9824-bb560afc81f0",
     "id": "6a390359-1e26-470f-a4e5-bfb31a5ed643",
     "publisher": "HUB > DISCOVER NOW",
@@ -14831,6 +14957,56 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'PERIPHERAL BLOOD CELLS,PLASMA,SERUM,TISSUE,WHOLE BLOOD' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": null,
+    "id": "6c220417-f85b-4538-b1c8-ec9d0582aa8f",
+    "publisher": "ALLIANCE > SAIL",
+    "title": "Covid Vaccination Dataset (CVVD)",
+    "schema_error_count": 10,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "geographicCoverage",
+        "message": "geographicCoverage: 'Wales' is not a 'uri'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'DAILY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -19023,6 +19199,92 @@
     ]
   },
   {
+    "pid": null,
+    "id": "8a91286f-3d29-40fc-ae5b-196c46a50426",
+    "publisher": "ALLIANCE > BARTS HEALTH",
+    "title": "CDE Documentation",
+    "schema_error_count": 19,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "abstract",
+        "message": "abstract: \"Locally defined dataset containing details of all patient data recorded within PowerForms within the Trust's EHR system. The forms list is too long to note here but includes everything from admission assessments, clinical assessments, referral information and discharge information. With recent system upgrade, these also now include Nursing information.\" is too long"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.Dataset is also available within Discovery.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.Dataset is also available within Discovery.' is not of type 'array'"
+      }
+    ]
+  },
+  {
     "pid": "d2c486bb-b95b-4093-bb58-b196cfc08c7b",
     "id": "8c573599-30cf-4708-bcbd-e2e37c795664",
     "publisher": "ALLIANCE > NIHR BIORESOURCE",
@@ -20590,6 +20852,65 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: '1 Month Cycle' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
+    "pid": null,
+    "id": "980580bb-9711-4c87-97f6-2c43c94e2728",
+    "publisher": "ALLIANCE > BARTS HEALTH",
+    "title": "Barts Health NHS Trust COVID-19 EHR Extracted Dataset",
+    "schema_error_count": 12,
+    "errors": [
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'VARIABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "conformsTo: 'NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
+      },
+      {
+        "attribute": "controlledVocabulary",
+        "message": "controlledVocabulary: 'LOCAL,OPCS4,SNOMED CT' is not valid under any of the given schemas",
+        "suberrors": "    type: 'LOCAL,OPCS4,SNOMED CT' is not of type 'array'"
+      },
+      {
+        "attribute": "linkedDataset",
+        "message": "linkedDataset: 'Could be linked to other Barts Health Gateway Datasets Internally' is not valid under any of the given schemas",
+        "suberrors": "    enum: 'Could be linked to other Barts Health Gateway Datasets Internally' is not one of ['Not Known', 'Not Available']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'MONTHLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -25120,6 +25441,88 @@
     ]
   },
   {
+    "pid": null,
+    "id": "be0e737d-37a2-4af0-ac28-0bb7d3b49a52",
+    "publisher": "ALLIANCE > BARTS HEALTH",
+    "title": "Outpatient Appointment Dataset",
+    "schema_error_count": 18,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.Dataset is also available via SUS/HES for government statistical purposes.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.Dataset is also available via SUS/HES for government statistical purposes.' is not of type 'array'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'CONTINUOUS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      }
+    ]
+  },
+  {
     "pid": "9de2f365-4c5d-4252-acee-6270b113aa93",
     "id": "be1368c6-c97f-4ce0-8322-f97ccb28b9c3",
     "publisher": "ALLIANCE > OXFORD UNIVERSITY HOSPITALS",
@@ -29611,84 +30014,6 @@
     ]
   },
   {
-    "pid": "b67f0edd-fed2-4d68-a25f-d225759aa3b0",
-    "id": "dfb21b3b-7fd9-40c4-892e-810edd6dfc25",
-    "publisher": "ALLIANCE > OXFORD UNIVERSITY HOSPITALS NHS TRUST",
-    "title": "Admitted Patient Care Dataset",
-    "schema_error_count": 17,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not valid under any of the given schemas",
-        "suberrors": "    type: 'Available locally within Trust Clinical Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not of type 'array'"
-      }
-    ]
-  },
-  {
     "pid": "019fad36-65ea-4d47-8d6d-a47240eeb801",
     "id": "dfc3205c-3079-4e95-93e2-8a3a3beeea5a",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -31261,6 +31586,88 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": null,
+    "id": "f29c2012-132d-4994-b5f4-7992d79a0a08",
+    "publisher": "ALLIANCE > BARTS HEALTH",
+    "title": "Admitted Patient Care Dataset",
+    "schema_error_count": 18,
+    "errors": [
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "accessRights: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not valid under any of the given schemas",
+        "suberrors": "    type: 'Available locally within Trust corporate Data Warehouse System and authorised access by Trust staff only.\\nDataset is also available via SUS/HES for government statistical purposes.' is not of type 'array'"
       }
     ]
   },
