@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (619)
+## HDR UK Datasets (618)
 ### AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -333,17 +333,17 @@ This repo automatically collects the datasets published on the Gateway including
 - [COVID-19 Clinical Information Network (CO-CIN)](https://web.www.healthdatagateway.org/dataset/1638cce2-12f5-410b-9624-86d2f407c502)
 
 ### NCS > OFFICE FOR NATIONAL STATISTICS (11)
-- [Labour Force Survey (Household)](https://web.www.healthdatagateway.org/dataset/08fd6103-be40-4380-9399-aecaeb216d33)
+- [Labour Force Survey (Longitudinal)](https://web.www.healthdatagateway.org/dataset/28bb6308-013f-47d3-8c4b-74720ad3901d)
 - [Business Impact of COVID-19 Survey (BICS)](https://web.www.healthdatagateway.org/dataset/542baa13-5d19-424e-b747-b2e57922df01)
-- [Labour Force Survey (Longitudinal)](https://web.www.healthdatagateway.org/dataset/598989e4-17b7-4730-87af-b7e6b1519301)
 - [Census 2011 E&W - Household structure for COVID-19 models](https://web.www.healthdatagateway.org/dataset/62087504-c04e-4382-9c71-e1c9b83d2d5e)
 - [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/67fa61c8-7973-4eb4-999c-fbed084d4445)
-- [Labour Force Survey (Person)](https://web.www.healthdatagateway.org/dataset/73ba9de7-67fe-4728-b397-bc5fb1d67df1)
+- [Labour Force Survey (Person)](https://web.www.healthdatagateway.org/dataset/82b0be0d-3bd3-4a4e-a37d-be4c3b8a42f7)
 - [Coronavirus and the social impacts on Great Britain](https://web.www.healthdatagateway.org/dataset/9ad4cc56-e86f-4d96-a515-05ee37edc1e9)
 - [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/a28cf3ca-8bad-45bb-bca0-78b4d22fed69)
 - [Covid Immunisation](https://web.www.healthdatagateway.org/dataset/acd433ab-51a7-445b-8700-fbce57d82a29)
 - [Census-Mortality-Hospital Episodes Linked Data](https://web.www.healthdatagateway.org/dataset/b6e4172d-2efd-467c-b357-c90e4ccb5d9e)
 - [Linked Census and death occurrences](https://web.www.healthdatagateway.org/dataset/f1f17da0-0249-45a8-8491-ba52b43fbf33)
+- [Labour Force Survey (Household)](https://web.www.healthdatagateway.org/dataset/f25c8ba2-aa2f-4644-b017-b0a2aa76af65)
 
 ### NEONATAL DATA ANALYSIS UNIT - IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/afc8af43-d6cd-4faa-b204-8fc471119b98)
@@ -471,10 +471,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Ventilation strategies for patients on intensive care](https://web.www.healthdatagateway.org/dataset/f8a268c1-831c-4c80-b62c-e254a572b9a0)
 - [UHB 100K Genomics patient clinical data including their acute care contacts](https://web.www.healthdatagateway.org/dataset/fed0d62b-f7f7-475c-89c9-67caa374f970)
 
-### PUBLIC HEALTH ENGLAND (3)
+### PUBLIC HEALTH ENGLAND (2)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/79a7ad18-6941-4543-924a-787f2381f5e0)
 - [Sars-CoV-2 Immunity & REinfection EvaluatioN (SIREN)](https://web.www.healthdatagateway.org/dataset/a638f8a0-3527-49a8-a269-06db49f051c6)
-- [National Cancer Registration Dataset 2018](https://web.www.healthdatagateway.org/dataset/cd0cc1de-f0bc-4247-9e67-47e162e2cc6b)
 
 ### PUBLIC HEALTH SCOTLAND (27)
 - [Unscheduled Care Datamart](https://web.www.healthdatagateway.org/dataset/02dceba1-65c7-49e8-a3e2-05e71c1a3033)

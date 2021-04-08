@@ -1316,75 +1316,6 @@
     ]
   },
   {
-    "pid": "0b630200-1e7c-4b19-ad53-bcc8863f7ade",
-    "id": "08fd6103-be40-4380-9399-aecaeb216d33",
-    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
-    "title": "Labour Force Survey (Household)",
-    "schema_error_count": 15,
-    "errors": [
-      {
-        "attribute": "accessRights",
-        "message": "'accessRights' is a required property"
-      },
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      }
-    ]
-  },
-  {
     "pid": "86632207-1e57-4272-b178-ea069a13cae1",
     "id": "0942304f-8b91-4258-af9c-3a1801c7e79f",
     "publisher": "HUB > PIONEER",
@@ -2923,7 +2854,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "e3b36044-e1fb-418b-946a-b83626bf2e3f",
     "id": "1092c90a-d3d5-4904-97ba-1861cfaddb65",
     "publisher": "ALLIANCE > BARTS HEALTH",
     "title": "CDE Clinical Events",
@@ -5725,7 +5656,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "3598723f-62fb-4377-9a8b-b264ced1aabd",
     "id": "22aecb42-9ea3-4d60-b392-d3cdd0a806f8",
     "publisher": "ALLIANCE > BARTS HEALTH",
     "title": "CDE Encounters",
@@ -6762,6 +6693,47 @@
     ]
   },
   {
+    "pid": null,
+    "id": "28bb6308-013f-47d3-8c4b-74720ad3901d",
+    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
+    "title": "Labour Force Survey (Longitudinal)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "56a66de8-3470-4a36-ac71-4d5471e72654",
     "id": "2918676c-74b0-4a4e-8814-697e9aa6a81c",
     "publisher": "ALLIANCE > CPRD",
@@ -6826,7 +6798,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "31920b14-d114-410f-8255-522e6451c44e",
     "id": "29de7178-dcf3-4859-bd96-ca6d944db5f8",
     "publisher": "ALLIANCE > BARTS HEALTH",
     "title": "DENDRITE Dataset",
@@ -12865,47 +12837,6 @@
     ]
   },
   {
-    "pid": "4ac15572-fe9a-46d3-860d-a46b616181f7",
-    "id": "598989e4-17b7-4730-87af-b7e6b1519301",
-    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
-    "title": "Labour Force Survey (Longitudinal)",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "bf2d780d-936b-4f4c-88f9-a280b849b652",
     "id": "59bc96f9-69b7-4763-81a8-ec4695b6b55e",
     "publisher": "ALLIANCE > HQIP",
@@ -14961,7 +14892,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "471f101c-a45e-4620-8710-be3036a46fba",
     "id": "6c220417-f85b-4538-b1c8-ec9d0582aa8f",
     "publisher": "ALLIANCE > SAIL",
     "title": "Covid Vaccination Dataset (CVVD)",
@@ -16108,71 +16039,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "8c60a308-1e47-4a0c-8b69-9259f05338cb",
-    "id": "73ba9de7-67fe-4728-b397-bc5fb1d67df1",
-    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
-    "title": "Labour Force Survey (Person)",
-    "schema_error_count": 14,
-    "errors": [
-      {
-        "attribute": "accessRights",
-        "message": "'accessRights' is a required property"
-      },
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       }
     ]
   },
@@ -18046,6 +17912,47 @@
     ]
   },
   {
+    "pid": null,
+    "id": "82b0be0d-3bd3-4a4e-a37d-be4c3b8a42f7",
+    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
+    "title": "Labour Force Survey (Person)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "c6e1ea88-f5bf-4a57-953f-688f313fcb04",
     "id": "82f4cf19-9e6a-4c31-8cc3-085f3d44ba44",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -19199,7 +19106,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "f866b225-10b8-4df4-9c32-072411f816d8",
     "id": "8a91286f-3d29-40fc-ae5b-196c46a50426",
     "publisher": "ALLIANCE > BARTS HEALTH",
     "title": "CDE Documentation",
@@ -20856,7 +20763,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "d6e8163f-2ab8-4880-bbb6-a174b4a95632",
     "id": "980580bb-9711-4c87-97f6-2c43c94e2728",
     "publisher": "ALLIANCE > BARTS HEALTH",
     "title": "Barts Health NHS Trust COVID-19 EHR Extracted Dataset",
@@ -25441,7 +25348,7 @@
     ]
   },
   {
-    "pid": null,
+    "pid": "1c27bfbf-c659-42ff-8afe-d58250b49c07",
     "id": "be0e737d-37a2-4af0-ac28-0bb7d3b49a52",
     "publisher": "ALLIANCE > BARTS HEALTH",
     "title": "Outpatient Appointment Dataset",
@@ -27386,58 +27293,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "267e13c1-d857-4702-853a-71abc34e6287",
-    "id": "cd0cc1de-f0bc-4247-9e67-47e162e2cc6b",
-    "publisher": "ALLIANCE > PUBLIC HEALTH ENGLAND",
-    "title": "National Cancer Registration Dataset 2018",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-3 months from a valid application.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ODR is responsible for providing a common governance framework for responding to requests to access cancer registration data. Requests are review in line with the confidentiality and data protection provisions in:\\n\\nthe common law duty of confidentiality\\ndata protection legislation (including the General Data Protection Regulation)\\n7 Caldicott principles\\nthe Information Commissioner\u2019s statutory data sharing code of practice\\nthe national data opt-out programme\\n\\nhttps://www.gov.uk/government/publications/accessing-public-health-england-data' is not of type 'array'"
-      },
-      {
-        "attribute": "ageBand",
-        "message": "ageBand: 'All ages' does not match '\\\\d{1,3}-\\\\d{1,3}'"
-      },
-      {
-        "attribute": "contactPoint",
-        "message": "contactPoint: 'https://www.gov.uk/government/publications/accessing-public-health-england-data' is not a 'email'"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'ICD 10 Codes, NHS Data Dictionary, OPSC 4.8' is not valid under any of the given schemas",
-        "suberrors": "    type: 'ICD 10 Codes, NHS Data Dictionary, OPSC 4.8' is not of type 'array'"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands; or full dates truncated to month and year, or year alone). In addition, fields such as STAGE_BEST, ROUTE_CODE, FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'There are approximately 200 derived fields across the NCRAS data tables that support privacy conserving methods to be implemented (e.g. age at diagnosis in 5 year age bands; or full dates truncated to month and year, or year alone). In addition, fields such as STAGE_BEST, ROUTE_CODE, FINAL_ROUTE and Charlson Scores are derived based on published methodologies.' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
       }
     ]
   },
@@ -31591,6 +31446,47 @@
   },
   {
     "pid": null,
+    "id": "f25c8ba2-aa2f-4644-b017-b0a2aa76af65",
+    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
+    "title": "Labour Force Survey (Household)",
+    "schema_error_count": 8,
+    "errors": [
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "b67f0edd-fed2-4d68-a25f-d225759aa3b0",
     "id": "f29c2012-132d-4994-b5f4-7992d79a0a08",
     "publisher": "ALLIANCE > BARTS HEALTH",
     "title": "Admitted Patient Care Dataset",
