@@ -64,7 +64,7 @@ def cleanup_dataset_publishers(d):
         # elif dp['name'].startswith("NIHR Health Informatics Collaborative"):
         #     dp['name'] = "NIHR HIC " + dp['name'].split("NIHR Health Informatics Collaborative ")[1]
         #     dp['name'] = dp['name'].upper()
-    d['publisher'] = dp
+    d['publisher'] = {'name': d.get('publisher', "None")}
     return d
 
 def get_publishers(datasets):
