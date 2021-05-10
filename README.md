@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (649)
+## HDR UK Datasets (650)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -35,11 +35,10 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > COVID-19 GENOMICS UK (1)
 - [COG-UK Viral Genome Sequences](https://web.www.healthdatagateway.org/dataset/22e67d6b-3c86-46bc-8472-97ebe70773fa)
 
-### ALLIANCE > CPRD (38)
+### ALLIANCE > CPRD (37)
 - [Mother-Baby Link for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/1bc9ccd6-44d0-43db-843a-f9fa293c4090)
 - [HES Admitted Patient Care data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/1c942123-845d-4c31-9f04-8e044be00e58)
 - [CPRD Aurum](https://web.www.healthdatagateway.org/dataset/1e61d0a3-5867-4865-8056-f26afacb1f05)
-- [CPRD COVID-19 Symptoms and Risk Factors Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/21b6b27d-fe1b-4e7c-bae6-32d734d28a22)
 - [Patient postcode linked deprivation measures for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/262c28eb-151e-4ab2-a813-81841f5292eb)
 - [National Radiotherapy Dataset (RTDS) for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/2918676c-74b0-4a4e-8814-697e9aa6a81c)
 - [Mental Health Dataset (MHDS) for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/2d25b733-d95a-485b-9499-907a48b51919)
@@ -202,7 +201,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > NEONATAL DATA ANALYSIS UNIT - IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/afc8af43-d6cd-4faa-b204-8fc471119b98)
 
-### ALLIANCE > NHS DIGITAL (55)
+### ALLIANCE > NHS DIGITAL (51)
 - [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/0970a6b2-d142-4c18-ae6e-23e21779e22c)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/0e07413c-892c-4f06-bd22-2a917eb5c905)
@@ -210,19 +209,16 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/0fc61ace-397d-4489-9e62-77f88082e775)
 - [Covid-19 UK Non-hospital Antibody Testing Results](https://web.www.healthdatagateway.org/dataset/1c84d938-f560-43bf-8df7-5f1ca3a18180)
 - [Mental Health Services Data Set - Service Users](https://web.www.healthdatagateway.org/dataset/1d5e3b05-8ce3-4f80-ae3a-f6031ad8cf69)
-- [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/1e5aa7d9-9b77-4795-a5bf-effdcd4ae992)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/263ad0a8-ae90-4c1d-85d6-c3d2470eb2b7)
 - [Mental Health Minimum Dataset v2.6 (Sensitive)](https://web.www.healthdatagateway.org/dataset/263f28a4-9835-4856-b1c3-0a0d4085f207)
 - [Mental Health & Learning Disabilities Dataset v 1 (Sensitive) Records](https://web.www.healthdatagateway.org/dataset/2a725f9d-c4a9-4c89-aa37-b3c25cc83389)
 - [Hospital Episode Statistics Critical Care](https://web.www.healthdatagateway.org/dataset/34d2310f-c5f2-42c4-be1a-31c1ad579013)
 - [Mental Health Minimum Dataset v3_3.5 (Sensitive)](https://web.www.healthdatagateway.org/dataset/36047c5f-7d57-4d25-a114-2bcc6c11708f)
 - [Bridge file: Hospital Episode Statistics to Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3935e2fd-0c30-4f56-8388-45a02e0499b4)
-- [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/3fb045f9-6295-4406-b782-3c4133c278a7)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/41f84b0f-0621-4e21-937b-cc05c183166b)
 - [Mental Health and Learning Disabilities Data Set](https://web.www.healthdatagateway.org/dataset/4262e057-6978-4e4c-a05d-c4f328422090)
 - [Mental Health Minimum Dataset v4 (Sensitive) Events](https://web.www.healthdatagateway.org/dataset/46493a09-b3bb-4c0e-b944-82665ee21508)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/4a0668a8-391e-4cfa-aa99-0ab9ba9321ea)
-- [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/5d76d094-446d-4dcc-baa1-076095f30c23)
 - [Mental Health Services Data Set](https://web.www.healthdatagateway.org/dataset/6a63513f-92cb-43ce-b0dd-fdb1113150c9)
 - [Mental Health Minimum Dataset v4.1 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/78fe2e13-7f40-406f-a584-04909d0ce060)
 - [Mental Health & Learning Disabilities Dataset v 1 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/7aa02796-787a-42c2-b97e-d008fa77e4b8)
@@ -237,7 +233,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health Services Data Set - Currencies](https://web.www.healthdatagateway.org/dataset/9b7f7994-0b9c-4809-b67d-45ae1f04ec5c)
 - [COVID19 Vaccination Status](https://web.www.healthdatagateway.org/dataset/a10eeef3-8338-4ec1-b146-8f72a369b841)
 - [Mental Health Minimum Dataset v4.1 (Non-Sensitive) Events](https://web.www.healthdatagateway.org/dataset/a1a67182-e81b-4144-ac51-92a86f277eb2)
-- [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/a7b56c3d-e55e-4e57-bdc2-490b537f87fb)
 - [COVID19 Vaccination Adverse Reaction](https://web.www.healthdatagateway.org/dataset/a9317016-d985-4957-ac3a-2427722544a4)
 - [Mental Health Minimum Dataset v3_3.5 (Non-Sensitive)](https://web.www.healthdatagateway.org/dataset/aa019da2-0f2f-493c-95e8-7263ee735f46)
 - [Mental Health Minimum Data Set](https://web.www.healthdatagateway.org/dataset/acafb160-b18a-436e-90f1-dc4530a90267)
@@ -719,15 +714,19 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (2)
+### None (9)
+- [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
+- [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
+- [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3e4d27e2-baa8-4bb5-a711-d0b36f1f278c)
+- [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/41be1523-e9be-49fd-9c40-b31e84c2b795)
 - [Improving Access To Psychological Therapies](https://web.www.healthdatagateway.org/dataset/4bd26cc1-1ba3-4f7f-8d2b-6c6b486bed88)
+- [CPRD COVID-19 Symptoms and Risk Factors Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/977ca75e-32da-4e60-a2e5-2bdf534a5986)
 - [ONS: Mortality dataset](https://web.www.healthdatagateway.org/dataset/decfdaa4-2e15-4d61-a5b3-d157d9d1d5d0)
+- [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/e06a31dd-b139-49db-851a-256a964c95f0)
+- [Asymptomatic COVID-19 in Education (ACE) Cohort](https://web.www.healthdatagateway.org/dataset/fba3b66d-8d3a-473f-bb3d-537a6ab1fa7a)
 
 ### OTHER > BHF Data Science Centre (1)
 - [Trusted Research Environments for CVD-COVID-UK in England, Scotland and Wales](https://web.www.healthdatagateway.org/dataset/6ec3a47b-447a-4b22-9b7a-43acae5d408f)
-
-### OTHER > HEALTH DATA RESEARCH UK (1)
-- [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/a7ddefbd-31d9-4703-a738-256e4689f76a)
 
 ### OTHER > The University of Cambridge (2)
 - [COMPARE](https://web.www.healthdatagateway.org/dataset/84b6d047-2a05-4fc0-8537-809dbb3d18ed)
