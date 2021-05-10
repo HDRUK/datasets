@@ -399,9 +399,13 @@ def get_v2_metadata(id):
     if md['namespace'] == 'org.healthdatagateway':
       if md['key'] == "structuralMetadata":
         metadata.append(([md['key']], md['value']))
-      else:
+      elif md['key'].startswith('properties/'):
         key = str(md['key'].split('properties/')[1])
         keys = key.split("/")
+        metadata.append((keys, md['value']))
+      # FIXME: Gateway dataModel attributes without properties/ prefix :(
+      else:
+        keys = md['key'].split("/")
         metadata.append((keys, md['value']))
   return metadata
 
