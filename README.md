@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (650)
+## HDR UK Datasets (651)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -35,7 +35,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > COVID-19 GENOMICS UK (1)
 - [COG-UK Viral Genome Sequences](https://web.www.healthdatagateway.org/dataset/22e67d6b-3c86-46bc-8472-97ebe70773fa)
 
-### ALLIANCE > CPRD (37)
+### ALLIANCE > CPRD (36)
 - [Mother-Baby Link for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/1bc9ccd6-44d0-43db-843a-f9fa293c4090)
 - [HES Admitted Patient Care data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/1c942123-845d-4c31-9f04-8e044be00e58)
 - [CPRD Aurum](https://web.www.healthdatagateway.org/dataset/1e61d0a3-5867-4865-8056-f26afacb1f05)
@@ -49,7 +49,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Quality of Life of Colorectal Cancer Survivors: Patient Reported Outcomes (Aurum](https://web.www.healthdatagateway.org/dataset/41ce265a-c252-45c4-9b80-d764b0737f38)
 - [Systemic Anti-Cancer Treatment (SACT) data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/4353b5fa-b3aa-4786-9e7f-4fb2273f5d3e)
 - [Cancer registration data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/484bff65-c47e-47ce-9eb5-5d381f961160)
-- [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/4d0f0156-8109-4100-868c-06a17495a024)
 - [HES Outpatient data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/50925199-a35d-4327-87cd-7761d713a72b)
 - [CPRD Cardiovascular Disease Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/5158e513-2f13-40f3-8f8a-b96a3e179fc9)
 - [Mental Health Dataset (MHDS) for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/52c784f6-99c6-4407-b660-abaa1682c955)
@@ -109,7 +108,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE (1)
 - [MATCH](https://web.www.healthdatagateway.org/dataset/5b99795a-3db4-4020-a8f9-aa64bcc2c5f0)
 
-### ALLIANCE > HQIP (80)
+### ALLIANCE > HQIP (79)
 - [National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures](https://web.www.healthdatagateway.org/dataset/00ffee70-43d6-4a81-8568-32b0b6d9e39c)
 - [National Diabetes Audit - Core Clinical Audit Dataset](https://web.www.healthdatagateway.org/dataset/02a6e7b7-ccf8-4446-b899-74065c8b3dd9)
 - [National Asthma and COPD Audit Programme (NACAP):COPD and adult asthma secondary care organisational dataset](https://web.www.healthdatagateway.org/dataset/04fb4aac-415b-4493-986b-65bbef5214d3)
@@ -139,7 +138,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Maternal, Newborn and Infant Clinical Outcome Review Programme - perinatal surveillance dataset](https://web.www.healthdatagateway.org/dataset/501b0226-1cbf-4717-8dee-adf189dd0088)
 - [National Cardiac Audit Programme - Myocardial Ischaemia National Audit Project (MINAP)](https://web.www.healthdatagateway.org/dataset/50609a73-30a0-46ca-847d-4a9c1bfec5fc)
 - [National Audit of Care at the End of Life - organisational level audit](https://web.www.healthdatagateway.org/dataset/558ee6da-6bfc-49b0-8815-f4f1670adcd8)
-- [National Emergency Laparotomy Audit - Patient Audit Dataset](https://web.www.healthdatagateway.org/dataset/59937ec3-73e7-43d3-8205-bd05dcf9e734)
 - [National Vascular Registry Audit - Lower Limb Bypass clinical dataset](https://web.www.healthdatagateway.org/dataset/5bc2bdf4-4b80-437c-bd83-04acbac82b2d)
 - [National Cardiac Audit Programme - Cardiac Rhythm Management (CRM)](https://web.www.healthdatagateway.org/dataset/660d7cbd-3fcf-4139-9ef5-9b4bd03c4bee)
 - [National Asthma and COPD Audit Programme (NACAP): Adult Asthma secondary care clinical dataset](https://web.www.healthdatagateway.org/dataset/668eefeb-fb5c-46d8-a052-12fa8da4931b)
@@ -714,12 +712,15 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (9)
+### None (12)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
+- [National Emergency Laparotomy Audit - Patient Audit Dataset](https://web.www.healthdatagateway.org/dataset/3a986158-0593-43e9-bd8c-359e701dd0f2)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3e4d27e2-baa8-4bb5-a711-d0b36f1f278c)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/41be1523-e9be-49fd-9c40-b31e84c2b795)
 - [Improving Access To Psychological Therapies](https://web.www.healthdatagateway.org/dataset/4bd26cc1-1ba3-4f7f-8d2b-6c6b486bed88)
+- [Trusted Research Environments for CVD-COVID-UK in England, Scotland, and Wales](https://web.www.healthdatagateway.org/dataset/646d65df-fc4c-4680-b949-79ec8f40b406)
+- [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/947b9519-3432-4ced-91d7-a88cfb839838)
 - [CPRD COVID-19 Symptoms and Risk Factors Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/977ca75e-32da-4e60-a2e5-2bdf534a5986)
 - [ONS: Mortality dataset](https://web.www.healthdatagateway.org/dataset/decfdaa4-2e15-4d61-a5b3-d157d9d1d5d0)
 - [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/e06a31dd-b139-49db-851a-256a964c95f0)
