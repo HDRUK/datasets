@@ -35,7 +35,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > COVID-19 GENOMICS UK (1)
 - [COG-UK Viral Genome Sequences](https://web.www.healthdatagateway.org/dataset/22e67d6b-3c86-46bc-8472-97ebe70773fa)
 
-### ALLIANCE > CPRD (36)
+### ALLIANCE > CPRD (35)
 - [Mother-Baby Link for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/1bc9ccd6-44d0-43db-843a-f9fa293c4090)
 - [HES Admitted Patient Care data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/1c942123-845d-4c31-9f04-8e044be00e58)
 - [CPRD Aurum](https://web.www.healthdatagateway.org/dataset/1e61d0a3-5867-4865-8056-f26afacb1f05)
@@ -50,7 +50,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Systemic Anti-Cancer Treatment (SACT) data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/4353b5fa-b3aa-4786-9e7f-4fb2273f5d3e)
 - [Cancer registration data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/484bff65-c47e-47ce-9eb5-5d381f961160)
 - [HES Outpatient data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/50925199-a35d-4327-87cd-7761d713a72b)
-- [CPRD Cardiovascular Disease Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/5158e513-2f13-40f3-8f8a-b96a3e179fc9)
 - [Mental Health Dataset (MHDS) for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/52c784f6-99c6-4407-b660-abaa1682c955)
 - [HES Diagnostic Imaging Dataset for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/5e9d9633-c4f4-47cc-96d9-350191e18539)
 - [HES Accident and Emergency data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/65481fcf-cc98-44f0-bcfe-c21bcb8db0f5)
@@ -712,7 +711,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (12)
+### None (13)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [National Emergency Laparotomy Audit - Patient Audit Dataset](https://web.www.healthdatagateway.org/dataset/3a986158-0593-43e9-bd8c-359e701dd0f2)
@@ -722,6 +721,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Trusted Research Environments for CVD-COVID-UK in England, Scotland, and Wales](https://web.www.healthdatagateway.org/dataset/646d65df-fc4c-4680-b949-79ec8f40b406)
 - [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/947b9519-3432-4ced-91d7-a88cfb839838)
 - [CPRD COVID-19 Symptoms and Risk Factors Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/977ca75e-32da-4e60-a2e5-2bdf534a5986)
+- [CPRD Cardiovascular Disease Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/c8db5528-7ba5-40fe-8c5f-2c86a9637c73)
 - [ONS: Mortality dataset](https://web.www.healthdatagateway.org/dataset/decfdaa4-2e15-4d61-a5b3-d157d9d1d5d0)
 - [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/e06a31dd-b139-49db-851a-256a964c95f0)
 - [Asymptomatic COVID-19 in Education (ACE) Cohort](https://web.www.healthdatagateway.org/dataset/fba3b66d-8d3a-473f-bb3d-537a6ab1fa7a)
