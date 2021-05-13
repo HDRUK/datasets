@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (651)
+## HDR UK Datasets (650)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -107,7 +107,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE (1)
 - [MATCH](https://web.www.healthdatagateway.org/dataset/5b99795a-3db4-4020-a8f9-aa64bcc2c5f0)
 
-### ALLIANCE > HQIP (79)
+### ALLIANCE > HQIP (78)
 - [National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures](https://web.www.healthdatagateway.org/dataset/00ffee70-43d6-4a81-8568-32b0b6d9e39c)
 - [National Diabetes Audit - Core Clinical Audit Dataset](https://web.www.healthdatagateway.org/dataset/02a6e7b7-ccf8-4446-b899-74065c8b3dd9)
 - [National Asthma and COPD Audit Programme (NACAP):COPD and adult asthma secondary care organisational dataset](https://web.www.healthdatagateway.org/dataset/04fb4aac-415b-4493-986b-65bbef5214d3)
@@ -120,7 +120,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Joint Registry - Revision Hip Replacement dataset](https://web.www.healthdatagateway.org/dataset/21d2acc3-f943-4469-98a4-1d9a5045bed6)
 - [National Audit of Dementia Round 4 - organisational checklist](https://web.www.healthdatagateway.org/dataset/27f4b803-145d-4622-815a-3cc9ce71aab3)
 - [National Diabetes Audit - National Diabetes Foot Care Audit clinical dataset](https://web.www.healthdatagateway.org/dataset/2a4d55ba-3ea7-495e-9ffe-ab1b919c149d)
-- [Epilepsy 12 - Patient Reported Experience Measure](https://web.www.healthdatagateway.org/dataset/306678dc-44f2-4d57-b547-89809a7c4c5e)
 - [National Neonatal Audit Programme - clinical audit](https://web.www.healthdatagateway.org/dataset/355e388e-5e1e-48af-8146-7671f6478167)
 - [Epilepsy 12 - clinical audit](https://web.www.healthdatagateway.org/dataset/3814fc7e-02af-41ff-af00-4076ca325d5e)
 - [National Audit of Psychosis - Audit on Early Intervention in Psychosis services - case note audit](https://web.www.healthdatagateway.org/dataset/3b6d2dbe-0241-4c38-9038-2d6ce1e280de)
