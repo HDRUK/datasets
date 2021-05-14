@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (650)
+## HDR UK Datasets (651)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -710,7 +710,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (13)
+### None (14)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [National Emergency Laparotomy Audit - Patient Audit Dataset](https://web.www.healthdatagateway.org/dataset/3a986158-0593-43e9-bd8c-359e701dd0f2)
@@ -721,6 +721,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/947b9519-3432-4ced-91d7-a88cfb839838)
 - [CPRD COVID-19 Symptoms and Risk Factors Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/977ca75e-32da-4e60-a2e5-2bdf534a5986)
 - [CPRD Cardiovascular Disease Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/c8db5528-7ba5-40fe-8c5f-2c86a9637c73)
+- [Business Insights and Conditions Survey (BICS)](https://web.www.healthdatagateway.org/dataset/cc9b9e79-e4b0-421e-a59e-f62ee56918a3)
 - [ONS: Mortality dataset](https://web.www.healthdatagateway.org/dataset/decfdaa4-2e15-4d61-a5b3-d157d9d1d5d0)
 - [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/e06a31dd-b139-49db-851a-256a964c95f0)
 - [Asymptomatic COVID-19 in Education (ACE) Cohort](https://web.www.healthdatagateway.org/dataset/fba3b66d-8d3a-473f-bb3d-537a6ab1fa7a)
