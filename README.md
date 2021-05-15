@@ -673,7 +673,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Ventilation strategies for patients on intensive care](https://web.www.healthdatagateway.org/dataset/f8a268c1-831c-4c80-b62c-e254a572b9a0)
 - [UHB 100K Genomics patient clinical data including their acute care contacts](https://web.www.healthdatagateway.org/dataset/fed0d62b-f7f7-475c-89c9-67caa374f970)
 
-### NCS > OFFICE FOR NATIONAL STATISTICS (12)
+### NCS > OFFICE FOR NATIONAL STATISTICS (11)
 - [Census 2011 E&W - Household structure for COVID-19 models](https://web.www.healthdatagateway.org/dataset/0ac9438e-da8d-4488-bdc6-8285d1401b1d)
 - [Labour Force Survey (Longitudinal)](https://web.www.healthdatagateway.org/dataset/28bb6308-013f-47d3-8c4b-74720ad3901d)
 - [Death registration data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/291d5a75-8e40-46fa-8969-56b22a499ea7)
@@ -682,7 +682,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/67fa61c8-7973-4eb4-999c-fbed084d4445)
 - [Labour Force Survey (Person)](https://web.www.healthdatagateway.org/dataset/82b0be0d-3bd3-4a4e-a37d-be4c3b8a42f7)
 - [Census-Mortality-Hospital Episodes Linked Data](https://web.www.healthdatagateway.org/dataset/b6e4172d-2efd-467c-b357-c90e4ccb5d9e)
-- [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/c425c244-3406-4914-acf5-b471b4891ced)
 - [Covid Immunisation](https://web.www.healthdatagateway.org/dataset/eb2ecd0e-d48e-464c-a147-fd25e2543ffe)
 - [Linked Census and death occurrences](https://web.www.healthdatagateway.org/dataset/f1f17da0-0249-45a8-8491-ba52b43fbf33)
 - [Labour Force Survey (Household)](https://web.www.healthdatagateway.org/dataset/f25c8ba2-aa2f-4644-b017-b0a2aa76af65)
@@ -710,8 +709,9 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (14)
+### None (15)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
+- [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/11aa5ae7-fdde-440e-b9d9-833121d5f4c5)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [National Emergency Laparotomy Audit - Patient Audit Dataset](https://web.www.healthdatagateway.org/dataset/3a986158-0593-43e9-bd8c-359e701dd0f2)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3e4d27e2-baa8-4bb5-a711-d0b36f1f278c)
