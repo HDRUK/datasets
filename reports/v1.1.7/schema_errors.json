@@ -14904,56 +14904,6 @@
     ]
   },
   {
-    "pid": "4e5ba567-c452-4979-8e2e-865f7df20252",
-    "id": "6a520e77-6607-402c-8272-5c3a20271f13",
-    "publisher": "ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND",
-    "title": "Patient Medical Card Registration (NI)",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'unknown' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'unknown' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Northern Ireland' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "fa2ec63d-f76d-4555-8fc1-f4bd66e3c60d",
     "id": "6a63513f-92cb-43ce-b0dd-fdb1113150c9",
     "publisher": "ALLIANCE > NHS DIGITAL",
@@ -16665,6 +16615,95 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'BONE MARROW,PERIPHERAL BLOOD CELLS,SERUM,URINE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "2843087f-23a4-4cfe-8e72-53f2b9562cc3",
+    "id": "74a56192-5284-4c7d-b93e-0a8e0032bd35",
+    "publisher": null,
+    "title": "Enhanced Prescribing Database",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
       }
     ]
   },
@@ -20648,65 +20687,6 @@
     ]
   },
   {
-    "pid": "2843087f-23a4-4cfe-8e72-53f2b9562cc3",
-    "id": "9353805b-753d-486d-a2ff-3aa23d4ab197",
-    "publisher": "ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND",
-    "title": "Enhanced Prescribing Database",
-    "schema_error_count": 12,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "derivedDatasets",
-        "message": "derivedDatasets: 'Not known' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Not known' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Northern Ireland' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'This dataset can be linked to the NI Admissions and Discharges' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'This dataset can be linked to the NI Admissions and Discharges' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "bcca421a-9077-4c47-9daa-b1bc030d3dee",
     "id": "9360bc6c-2a7d-4415-869d-3e853c558f4d",
     "publisher": "ALLIANCE > SAIL",
@@ -21196,6 +21176,95 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA,WHOLE BLOOD' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "33fc3ffd-aa4c-4a16-a32f-0c900aaea3d2",
+    "id": "953f6cc1-bd69-4fbc-a91b-d33f6c7aa6ca",
+    "publisher": null,
+    "title": "GP dataset - Welsh Primary Care",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
       }
     ]
   },
@@ -23829,45 +23898,6 @@
     ]
   },
   {
-    "pid": "33fc3ffd-aa4c-4a16-a32f-0c900aaea3d2",
-    "id": "a806b304-1008-4fea-887a-15e49c42161d",
-    "publisher": "ALLIANCE > SAIL",
-    "title": "GP dataset - Welsh Primary Care",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not Available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'Wales, where patient GP Practice has agreed data sharing with SAIL' is not a 'uri'"
-      },
-      {
-        "attribute": "linkedDataset",
-        "message": "linkedDataset: 'Yes. To any SAIL dataset & reference data.,ALL' is not valid under any of the given schemas",
-        "suberrors": "    enum: 'Yes. To any SAIL dataset & reference data.,ALL' is not one of ['Not Known', 'Not Available']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "ed131fee-0635-4613-a453-a383d5dd7cec",
     "id": "a8bb670a-b45b-48a6-8e4d-9e8f61de4f5b",
     "publisher": "ALLIANCE > SAIL",
@@ -26063,56 +26093,6 @@
     ]
   },
   {
-    "pid": "6064c3a9-e4f1-411b-8181-f1fdca2ab2b8",
-    "id": "b6e4172d-2efd-467c-b357-c90e4ccb5d9e",
-    "publisher": "NCS > OFFICE FOR NATIONAL STATISTICS",
-    "title": "Census-Mortality-Hospital Episodes Linked Data",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '1-2 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: \"https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/approvedresearcherscheme,ONS and NHS Digital jointly operate an approvals process for granting access to the Public Health Research Database, and applications by ARs will be reviewed by both entities with successful applications receiving each party's consent\" is not valid under any of the given schemas",
-        "suberrors": "    type: \"https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/approvedresearcherscheme,ONS and NHS Digital jointly operate an approvals process for granting access to the Public Health Research Database, and applications by ARs will be reviewed by both entities with successful applications receiving each party's consent\" is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England & Wales' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "3abc20ce-3dc6-4715-9de0-56aa97a6f5ec",
     "id": "b6eececf-6ae4-451e-b41c-4bd245646b47",
     "publisher": "ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND",
@@ -27247,6 +27227,95 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'DNA,SERUM,TISSUE,URINE,WHOLE BLOOD' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "080a90e4-4bc6-4153-a4c6-c120eef5ba94",
+    "id": "befd32d2-3267-4545-8600-10ffbb2bf733",
+    "publisher": null,
+    "title": "COVID-19 Vaccination Adverse Reaction",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
       }
     ]
   },
@@ -32591,6 +32660,95 @@
     ]
   },
   {
+    "pid": "4e5ba567-c452-4979-8e2e-865f7df20252",
+    "id": "e5e72bf1-8a43-4860-9c9d-7dbf368fb43e",
+    "publisher": null,
+    "title": "Patient Medical Card Registration (NI)",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
     "pid": "85b4dc84-88f4-4740-80fa-fa1eb04a0ae6",
     "id": "e6433c92-8439-4e2e-a3e7-016e7812dcfb",
     "publisher": "ALLIANCE > HQIP",
@@ -35381,6 +35539,95 @@
         "attribute": "controlledVocabulary",
         "message": "controlledVocabulary: 'READ,READ,SNOMED CT' is not valid under any of the given schemas",
         "suberrors": "    type: 'READ,READ,SNOMED CT' is not of type 'array'"
+      }
+    ]
+  },
+  {
+    "pid": "98372a87-f3e6-475d-be12-46c0f9587413",
+    "id": "faed0296-9dbe-4d32-a991-df361e4cfa32",
+    "publisher": null,
+    "title": "COVID-19 Vaccination Status",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
       }
     ]
   },
