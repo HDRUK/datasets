@@ -21786,6 +21786,95 @@
     ]
   },
   {
+    "pid": "8e0221d4-dcfa-4580-834b-f44421fca3b5",
+    "id": "99b505ee-44c6-497d-b30b-3ce80eba4047",
+    "publisher": null,
+    "title": "Sars-CoV-2 Immunity & REinfection EvaluatioN (SIREN)",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
     "pid": "61a607a9-b404-41e0-a52e-0c6d0ce8c2be",
     "id": "9a5fdb85-7bd6-4073-9058-e45667d497a8",
     "publisher": "ALLIANCE > CPRD",
@@ -23598,60 +23687,6 @@
       {
         "attribute": "title",
         "message": "title: 'The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease' is too long"
-      }
-    ]
-  },
-  {
-    "pid": "8e0221d4-dcfa-4580-834b-f44421fca3b5",
-    "id": "a638f8a0-3527-49a8-a269-06db49f051c6",
-    "publisher": "ALLIANCE > PUBLIC HEALTH ENGLAND",
-    "title": "Sars-CoV-2 Immunity & REinfection EvaluatioN (SIREN)",
-    "schema_error_count": 11,
-    "errors": [
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "accessRights: 'NOT APPLICABLE' is not valid under any of the given schemas",
-        "suberrors": "    type: 'NOT APPLICABLE' is not of type 'array'"
-      },
-      {
-        "attribute": "geographicCoverage",
-        "message": "geographicCoverage: 'England' is not a 'uri'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'OTHER' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'AVAILABILITY TO BE CONFIRMED' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
