@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (658)
+## HDR UK Datasets (660)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -701,7 +701,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (28)
+### None (30)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [UK Renal Registry - CKD and AKI on Dialysis Dataset](https://web.www.healthdatagateway.org/dataset/1e875c15-4a99-4c3e-9621-e4ebf594469f)
@@ -710,6 +710,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/41be1523-e9be-49fd-9c40-b31e84c2b795)
 - [Improving Access To Psychological Therapies](https://web.www.healthdatagateway.org/dataset/4bd26cc1-1ba3-4f7f-8d2b-6c6b486bed88)
 - [Mortality (Death registration)](https://web.www.healthdatagateway.org/dataset/5236a6db-cc3f-4e22-aea9-c11643350cc8)
+- [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/5de4bedb-32a9-4a66-9c92-5987453794f1)
 - [Trusted Research Environments for CVD-COVID-UK in England, Scotland, and Wales](https://web.www.healthdatagateway.org/dataset/646d65df-fc4c-4680-b949-79ec8f40b406)
 - [UK Renal Registry - AKI Lab Alerts Dataset](https://web.www.healthdatagateway.org/dataset/682b4d85-732a-4440-922d-07191a604143)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/74a56192-5284-4c7d-b93e-0a8e0032bd35)
@@ -719,15 +720,16 @@ This repo automatically collects the datasets published on the Gateway including
 - [CPRD COVID-19 Symptoms and Risk Factors Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/977ca75e-32da-4e60-a2e5-2bdf534a5986)
 - [Sars-CoV-2 Immunity & REinfection EvaluatioN (SIREN)](https://web.www.healthdatagateway.org/dataset/99b505ee-44c6-497d-b30b-3ce80eba4047)
 - [UK Renal Registry - Kidney PREM dataset](https://web.www.healthdatagateway.org/dataset/9cc82b97-d508-4cb9-98ca-0105aa897bb6)
+- [Death Registration Data- Finalised Extracts](https://web.www.healthdatagateway.org/dataset/9df36055-ae83-443c-8ea1-6df9e9ef202b)
 - [COVID-19 Vaccination Adverse Reaction](https://web.www.healthdatagateway.org/dataset/befd32d2-3267-4545-8600-10ffbb2bf733)
 - [CPRD Cardiovascular Disease Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/c8db5528-7ba5-40fe-8c5f-2c86a9637c73)
 - [Business Insights and Conditions Survey (BICS)](https://web.www.healthdatagateway.org/dataset/cc9b9e79-e4b0-421e-a59e-f62ee56918a3)
-- [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/d2166943-ba2c-479e-b400-4fe3291d67e9)
 - [UK Renal Registry - COVID-19 dataset](https://web.www.healthdatagateway.org/dataset/de8d0b95-b968-45f2-8cd4-2c87d72ff729)
 - [ONS: Mortality dataset](https://web.www.healthdatagateway.org/dataset/decfdaa4-2e15-4d61-a5b3-d157d9d1d5d0)
 - [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/e06a31dd-b139-49db-851a-256a964c95f0)
 - [UK Renal Registry - Your Health Survey dataset](https://web.www.healthdatagateway.org/dataset/e096053e-b028-4487-a6d0-6958cbb5f388)
 - [Patient Medical Card Registration (NI)](https://web.www.healthdatagateway.org/dataset/e5e72bf1-8a43-4860-9c9d-7dbf368fb43e)
+- [Death Registration Data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/f4442efd-3ec2-4413-b8b8-984df0130f59)
 - [COVID-19 Vaccination Status](https://web.www.healthdatagateway.org/dataset/faed0296-9dbe-4d32-a991-df361e4cfa32)
 - [Asymptomatic COVID-19 in Education (ACE) Cohort](https://web.www.healthdatagateway.org/dataset/fba3b66d-8d3a-473f-bb3d-537a6ab1fa7a)
 
