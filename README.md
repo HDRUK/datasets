@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (660)
+## HDR UK Datasets (661)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -701,10 +701,11 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (30)
+### None (31)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [UK Renal Registry - CKD and AKI on Dialysis Dataset](https://web.www.healthdatagateway.org/dataset/1e875c15-4a99-4c3e-9621-e4ebf594469f)
+- [Admissions and Discharges](https://web.www.healthdatagateway.org/dataset/2ae12115-5c44-46f9-8da8-d65c537df5a3)
 - [National Emergency Laparotomy Audit - Patient Audit Dataset](https://web.www.healthdatagateway.org/dataset/3a986158-0593-43e9-bd8c-359e701dd0f2)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3e4d27e2-baa8-4bb5-a711-d0b36f1f278c)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/41be1523-e9be-49fd-9c40-b31e84c2b795)
