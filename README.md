@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (661)
+## HDR UK Datasets (662)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -93,12 +93,11 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > GREAT ORMOND STREET HOSPITAL (1)
 - [COVID-19 Staff Testing of Antibody Responses Study (Co-STARS)](https://web.www.healthdatagateway.org/dataset/e79c5f26-deb0-4531-834d-58912c9fe663)
 
-### ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND (6)
+### ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND (5)
 - [Emergency Department (eEMS)](https://web.www.healthdatagateway.org/dataset/1b863415-be4e-4229-98c8-8591a802ae72)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/34b788e3-37c9-4cea-ac12-f210c499eafd)
 - [Northern Ireland Regional Maternity system (NIMATS)](https://web.www.healthdatagateway.org/dataset/89d76819-32cb-48ad-9337-880f324a6ec0)
 - [Emergency Department (Symphony)](https://web.www.healthdatagateway.org/dataset/9abe7041-2502-4fc0-b407-7603caecaf67)
-- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/b6eececf-6ae4-451e-b41c-4bd245646b47)
 - [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/d0d70526-bcfd-4782-a36b-e81d9d693dd4)
 
 ### ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE (1)
@@ -626,9 +625,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [North West London Integrated Care Record (NWL ICR)](https://web.www.healthdatagateway.org/dataset/f6e25ba4-4f7a-436e-a5f9-f0257d45a612)
 - [North West London High Cost Drugs Data (NWL HCD)](https://web.www.healthdatagateway.org/dataset/fc704af0-368b-4dd0-866f-753b6d1dccf8)
 
-### HUB > GUT REACTION (11)
+### HUB > GUT REACTION (10)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/05eadf79-02a7-4c1f-b1be-93694172a9b3)
-- [IBD NIHR BioResource: Health and Lifestyle Questionnaire](https://web.www.healthdatagateway.org/dataset/1046b837-c4d9-4688-a06e-d7b32d37a161)
 - [IBD NIHR BioResource: NHS Trust data](https://web.www.healthdatagateway.org/dataset/2d6e8e68-2fc9-4b9c-a517-c5c5677af225)
 - [IBD NIHR BioResource: Consent records](https://web.www.healthdatagateway.org/dataset/3b0a3b33-dbd5-4cb0-b863-0e1fd80c9a1e)
 - [IBD NIHR BioResource: SNP imputation data](https://web.www.healthdatagateway.org/dataset/3bb25cba-b4dc-47f1-ab5e-b63f89500612)
@@ -701,7 +699,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (31)
+### None (34)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [UK Renal Registry - CKD and AKI on Dialysis Dataset](https://web.www.healthdatagateway.org/dataset/1e875c15-4a99-4c3e-9621-e4ebf594469f)
@@ -716,12 +714,15 @@ This repo automatically collects the datasets published on the Gateway including
 - [UK Renal Registry - AKI Lab Alerts Dataset](https://web.www.healthdatagateway.org/dataset/682b4d85-732a-4440-922d-07191a604143)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/74a56192-5284-4c7d-b93e-0a8e0032bd35)
 - [Studies Supported by NIHR CRN, ICD10 Coded, with Summary Site Recruitment Data](https://web.www.healthdatagateway.org/dataset/8a0d67e2-6daa-4ebe-913b-eb5ede8801ba)
+- [IBD NIHR BioResource: Health and Lifestyle Questionnaire](https://web.www.healthdatagateway.org/dataset/8d583c2a-e802-43d9-9a57-11148a542b9e)
 - [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/947b9519-3432-4ced-91d7-a88cfb839838)
 - [GP dataset - Welsh Primary Care](https://web.www.healthdatagateway.org/dataset/953f6cc1-bd69-4fbc-a91b-d33f6c7aa6ca)
 - [CPRD COVID-19 Symptoms and Risk Factors Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/977ca75e-32da-4e60-a2e5-2bdf534a5986)
 - [Sars-CoV-2 Immunity & REinfection EvaluatioN (SIREN)](https://web.www.healthdatagateway.org/dataset/99b505ee-44c6-497d-b30b-3ce80eba4047)
 - [UK Renal Registry - Kidney PREM dataset](https://web.www.healthdatagateway.org/dataset/9cc82b97-d508-4cb9-98ca-0105aa897bb6)
 - [Death Registration Data- Finalised Extracts](https://web.www.healthdatagateway.org/dataset/9df36055-ae83-443c-8ea1-6df9e9ef202b)
+- [COVID antigen testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/ae68c3c8-7930-40bd-86e8-7ca1aa6ce57d)
+- [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/b0319b9b-14ba-4e23-86ff-89363d4d69a7)
 - [COVID-19 Vaccination Adverse Reaction](https://web.www.healthdatagateway.org/dataset/befd32d2-3267-4545-8600-10ffbb2bf733)
 - [CPRD Cardiovascular Disease Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/c8db5528-7ba5-40fe-8c5f-2c86a9637c73)
 - [Business Insights and Conditions Survey (BICS)](https://web.www.healthdatagateway.org/dataset/cc9b9e79-e4b0-421e-a59e-f62ee56918a3)
