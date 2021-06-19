@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (662)
+## HDR UK Datasets (663)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -93,11 +93,9 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > GREAT ORMOND STREET HOSPITAL (1)
 - [COVID-19 Staff Testing of Antibody Responses Study (Co-STARS)](https://web.www.healthdatagateway.org/dataset/e79c5f26-deb0-4531-834d-58912c9fe663)
 
-### ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND (5)
+### ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND (3)
 - [Emergency Department (eEMS)](https://web.www.healthdatagateway.org/dataset/1b863415-be4e-4229-98c8-8591a802ae72)
 - [Admissions & Discharges](https://web.www.healthdatagateway.org/dataset/34b788e3-37c9-4cea-ac12-f210c499eafd)
-- [Northern Ireland Regional Maternity system (NIMATS)](https://web.www.healthdatagateway.org/dataset/89d76819-32cb-48ad-9337-880f324a6ec0)
-- [Emergency Department (Symphony)](https://web.www.healthdatagateway.org/dataset/9abe7041-2502-4fc0-b407-7603caecaf67)
 - [COVID antigen  testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/d0d70526-bcfd-4782-a36b-e81d9d693dd4)
 
 ### ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE (1)
@@ -279,7 +277,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Sunquest](https://web.www.healthdatagateway.org/dataset/eaca9ed1-30b6-4157-8894-8e53efc84849)
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
-### ALLIANCE > PUBLIC HEALTH SCOTLAND (28)
+### ALLIANCE > PUBLIC HEALTH SCOTLAND (27)
 - [Scotland Accident and Emergency](https://web.www.healthdatagateway.org/dataset/142f3390-95eb-49be-bc8c-1a752a7d308e)
 - [Child Health Systems Programme - 27-30Months Review](https://web.www.healthdatagateway.org/dataset/26b03931-18ce-4a83-99de-1fca258518f3)
 - [Child Health Systems Programme - First Visit](https://web.www.healthdatagateway.org/dataset/3cc60b9a-8654-417d-bc1a-b72a7462a980)
@@ -301,7 +299,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [2011 Census variables (and variable breakdowns)](https://web.www.healthdatagateway.org/dataset/c4426ec2-fbf0-45b2-9f68-0477527257a0)
 - [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/cca8ff71-fc4e-4544-9345-e87f6c0b3f2d)
 - [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/d441348a-6121-4e77-b4fb-d14966dc7a3e)
-- [Scottish Covid-19 Vaccination Data](https://web.www.healthdatagateway.org/dataset/d713a287-51b6-4951-a479-9a491348c83f)
 - [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/dada485d-2dbd-4e17-ade6-94512210e909)
 - [Maternity Inpatient and Day Case - Scottish Morbidity Record (SMR02)](https://web.www.healthdatagateway.org/dataset/e6a61d31-d13f-4804-b24c-9966cc40dcc6)
 - [GP Out of Hours](https://web.www.healthdatagateway.org/dataset/ef3fbf5f-a87c-4f63-8d87-4a5f18fb4301)
@@ -699,7 +696,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (34)
+### None (38)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [UK Renal Registry - CKD and AKI on Dialysis Dataset](https://web.www.healthdatagateway.org/dataset/1e875c15-4a99-4c3e-9621-e4ebf594469f)
@@ -707,6 +704,8 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Emergency Laparotomy Audit - Patient Audit Dataset](https://web.www.healthdatagateway.org/dataset/3a986158-0593-43e9-bd8c-359e701dd0f2)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3e4d27e2-baa8-4bb5-a711-d0b36f1f278c)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/41be1523-e9be-49fd-9c40-b31e84c2b795)
+- [Scottish Covid-19 Vaccination Data](https://web.www.healthdatagateway.org/dataset/41f1e6c1-b4b5-4c2a-a181-01b7eda99b79)
+- [Covid-19 Infection Survey linked with VOA and EPC data](https://web.www.healthdatagateway.org/dataset/4330b6ee-f333-4cd8-90b9-0f43f7cb0b67)
 - [Improving Access To Psychological Therapies](https://web.www.healthdatagateway.org/dataset/4bd26cc1-1ba3-4f7f-8d2b-6c6b486bed88)
 - [Mortality (Death registration)](https://web.www.healthdatagateway.org/dataset/5236a6db-cc3f-4e22-aea9-c11643350cc8)
 - [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/5de4bedb-32a9-4a66-9c92-5987453794f1)
@@ -723,8 +722,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [Death Registration Data- Finalised Extracts](https://web.www.healthdatagateway.org/dataset/9df36055-ae83-443c-8ea1-6df9e9ef202b)
 - [COVID antigen testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/ae68c3c8-7930-40bd-86e8-7ca1aa6ce57d)
 - [COVID antigen testing - Pillar 1](https://web.www.healthdatagateway.org/dataset/b0319b9b-14ba-4e23-86ff-89363d4d69a7)
+- [Emergency Department (Symphony)](https://web.www.healthdatagateway.org/dataset/ba30a8b6-bfc7-4105-b094-11f187c7b293)
 - [COVID-19 Vaccination Adverse Reaction](https://web.www.healthdatagateway.org/dataset/befd32d2-3267-4545-8600-10ffbb2bf733)
 - [CPRD Cardiovascular Disease Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/c8db5528-7ba5-40fe-8c5f-2c86a9637c73)
+- [Northern Ireland Regional Maternity system (NIMATS)](https://web.www.healthdatagateway.org/dataset/cace4854-a8de-4487-9c43-fe580b341d26)
 - [Business Insights and Conditions Survey (BICS)](https://web.www.healthdatagateway.org/dataset/cc9b9e79-e4b0-421e-a59e-f62ee56918a3)
 - [UK Renal Registry - COVID-19 dataset](https://web.www.healthdatagateway.org/dataset/de8d0b95-b968-45f2-8cd4-2c87d72ff729)
 - [ONS: Mortality dataset](https://web.www.healthdatagateway.org/dataset/decfdaa4-2e15-4d61-a5b3-d157d9d1d5d0)
