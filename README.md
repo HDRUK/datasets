@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (663)
+## HDR UK Datasets (665)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -696,7 +696,8 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (38)
+### None (40)
+- [Scottish Medical Imaging (SMI) Research Dataset](https://web.www.healthdatagateway.org/dataset/08cb8104-d0d4-40be-8212-07fa22d2e463)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/0f780dc0-4449-4d51-853d-4d2e4dbe741f)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [UK Renal Registry - CKD and AKI on Dialysis Dataset](https://web.www.healthdatagateway.org/dataset/1e875c15-4a99-4c3e-9621-e4ebf594469f)
@@ -709,6 +710,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Improving Access To Psychological Therapies](https://web.www.healthdatagateway.org/dataset/4bd26cc1-1ba3-4f7f-8d2b-6c6b486bed88)
 - [Mortality (Death registration)](https://web.www.healthdatagateway.org/dataset/5236a6db-cc3f-4e22-aea9-c11643350cc8)
 - [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/5de4bedb-32a9-4a66-9c92-5987453794f1)
+- [Suspected Cancer Pathway Monthly (SPCM)](https://web.www.healthdatagateway.org/dataset/645168a0-21b1-4e13-85d8-266ad9040af8)
 - [Trusted Research Environments for CVD-COVID-UK in England, Scotland, and Wales](https://web.www.healthdatagateway.org/dataset/646d65df-fc4c-4680-b949-79ec8f40b406)
 - [UK Renal Registry - AKI Lab Alerts Dataset](https://web.www.healthdatagateway.org/dataset/682b4d85-732a-4440-922d-07191a604143)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/74a56192-5284-4c7d-b93e-0a8e0032bd35)
