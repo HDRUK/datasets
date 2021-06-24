@@ -189,6 +189,7 @@ def process_data_models(data_models_list):
   
   # Collect PIDs for Datasets
   pid_list = request_url(DATA_MODEL_PIDS)
+  export_json(pid_list, "pids.json")
   # pid_list = read_json("pids.json")
   i = 0
   for d in data_models_list['items']:
@@ -197,8 +198,8 @@ def process_data_models(data_models_list):
     row = {
       "@schema": {
         "type": "Dataset",
-        "version": "1.1.7",
-        "url": "https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/1.1.7/dataset.schema.json"
+        "version": "2.0.1",
+        "url": "https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/latest/dataset.schema.json"
       }
     }
 
