@@ -317,9 +317,9 @@ def format_csv_tables(data):
     for dc in dm['structuralMetadata'].get('dataClasses', []):
       for de in dc.get('dataElements', []):
         # de['dataTypeLabel'] = de['dataType']['label']
-        de['dataType'] = de['dataType']
-        de['dataModel'] = dm['id']
-        de['dataClass'] = dc['id']
+        de['dataType'] = de.get('dataType', None)
+        de['dataModel'] = dm.get('id', None)
+        de['dataClass'] = dc.get('id', None)
         # Append dataElement to tables
         tables['dataElements']['data'].append(de)
         tables['dataElements']['headers'].extend(de.keys())
