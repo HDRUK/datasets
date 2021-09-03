@@ -2,3 +2,4 @@ requests==2.22.0
 jsonschema[format]==3.0.2
 pandas==1.2.0
 openpyxl==3.0.5
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
