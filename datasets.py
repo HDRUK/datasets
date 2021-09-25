@@ -222,7 +222,7 @@ def process_data_models(data_models_list):
     row_v2 = {
       "@schema": {
         "type": "Dataset",
-        "version": "2.0.0",
+        "version": "2.0.1",
         "url": "https://raw.githubusercontent.com/HDRUK/schemata/master/schema/dataset/latest/dataset.schema.json"
       },
       "pid": row.get('pid', None),
@@ -330,7 +330,8 @@ def format_csv_tables(data):
       tables['dataClasses']['data'].append(dc)
       tables['dataClasses']['headers'].extend(dc.keys())
     # Add dataClasses to dataModel
-    data_classes = [dc['id'] for dc in dm['structuralMetadata'].get('dataClasses', [])]
+    data_classes = [dc.get('id', None) for dc in dm['structuralMetadata'].get('dataClasses', [])]
+    data_classes = [dc for dc in data_classes if dc is not None]
     data['dataClasses'] = ", ".join(data_classes)
     tables['dataModels']['data'].append(dm)
     tables['dataModels']['headers'].extend(dm.keys())
@@ -413,6 +414,7 @@ def get_v2_metadata(id):
 
 def main():
   data_models_list = request_url(DATA_MODELS)
+  print(data_models_list['count'])
 
   data = process_data_models(data_models_list)
   data_v1 = {
@@ -431,7 +433,7 @@ def main():
   generate_sitemap(data_v1, 'sitemap.txt')
   
   # generate CSV tables
-  # data = read_json('datasets.v2.json')
+  # data_v2 = read_json('datasets.v2.json')
   tables = format_csv_tables(data_v2)
   export_csv(tables['dataModels']['data'], 'datasets.csv', tables['dataModels']['headers'])
   export_csv(tables['dataClasses']['data'], 'dataclasses.csv', tables['dataClasses']['headers'])
@@ -440,3 +442,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
