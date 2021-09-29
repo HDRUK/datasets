@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (742)
+## HDR UK Datasets (743)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -292,7 +292,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > ROYAL COLLEGE OF GENERAL PRACTITIONERS (1)
 - [The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) primary care sentinel network and database](https://web.www.healthdatagateway.org/dataset/664513d6-d766-461d-a69e-206a928cd14f)
 
-### ALLIANCE > SAIL (54)
+### ALLIANCE > SAIL (53)
 - [Bowel Screening Wales](https://web.www.healthdatagateway.org/dataset/05716e41-9842-4c07-8ddd-af9f9231e056)
 - [COVID-19 Shielded People list](https://web.www.healthdatagateway.org/dataset/05a0baf4-72ea-4e02-b4fb-64c37bb1eb0e)
 - [Careers Wales dataset](https://web.www.healthdatagateway.org/dataset/08846261-45f0-4bcf-9801-fe785dcef1c9)
@@ -320,7 +320,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [COVID-19 Test Trace and Protect [CTTP]](https://web.www.healthdatagateway.org/dataset/80a7208f-c174-42bd-9127-e8f006de7c95)
 - [Cervical Screening Wales](https://web.www.healthdatagateway.org/dataset/80e9c439-4909-4534-8bfe-6f01fdec7de7)
 - [COVID-19 Consolidated Deaths](https://web.www.healthdatagateway.org/dataset/8bbcf9f4-a3c4-4f26-aa0e-c5c46457afa3)
-- [Covid Lateral Flow Test (CVLF)](https://web.www.healthdatagateway.org/dataset/8dafbcb0-7876-4f71-8b54-eabf7d441080)
 - [National Survey for Wales](https://web.www.healthdatagateway.org/dataset/9360bc6c-2a7d-4415-869d-3e853c558f4d)
 - [SAIL Dementia e-Cohort](https://web.www.healthdatagateway.org/dataset/9709ee81-c5f1-4c01-a1ac-51ae2a0a60f3)
 - [Annual District Death Daily](https://web.www.healthdatagateway.org/dataset/9e67001e-7c77-4bc0-9af2-5138b5d638e4)
@@ -614,7 +613,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (195)
+### None (197)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
 - [Careers Wales Dataset (CARW)](https://web.www.healthdatagateway.org/dataset/025706a9-538b-4773-aa8d-4004b1351c1a)
 - [NIHR IBD BioResource: Sample holding](https://web.www.healthdatagateway.org/dataset/04f28919-aa6c-4beb-b186-0ad0043c1c6c)
@@ -649,6 +648,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Emergency Department Dataset (EDDS)](https://web.www.healthdatagateway.org/dataset/2e51fba7-c119-4892-9e4e-89748bcb96eb)
 - [Community perception on public health measures for COVID-19 prevention/control](https://web.www.healthdatagateway.org/dataset/2f9c0340-2116-41f5-bdbd-921561476061)
 - [Diagnostic and Therapy Services Waiting Times (DATW)](https://web.www.healthdatagateway.org/dataset/30ca0f33-0644-4c92-afc3-357aad57b6ec)
+- [Intensive Care National Audit and Research Centre - Covid19 (ICNC)](https://web.www.healthdatagateway.org/dataset/30df4280-c79b-4b77-bdba-566f47bfde51)
 - [COVID-19 Sequence Data (CVSD)](https://web.www.healthdatagateway.org/dataset/30e1343e-0628-47aa-b4f6-756cdb6e54c6)
 - [Emergency Department (eEMS)](https://web.www.healthdatagateway.org/dataset/349f5326-67b5-4ff8-a9b8-8e6c4e42a9f2)
 - [Higher Education Statistics Agency (HESA)](https://web.www.healthdatagateway.org/dataset/37f2fe47-6e36-4687-a16a-40b4f58a59de)
@@ -754,6 +754,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Children Receiving Care and Support Census (CRCS)](https://web.www.healthdatagateway.org/dataset/b225cd54-5bea-40fa-914e-87420a2f5666)
 - [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/b41215cd-afe1-4463-9786-ed86812143e2)
 - [Covid-19 UK Non-hospital Antibody Testing Results](https://web.www.healthdatagateway.org/dataset/b4484711-99c2-4974-8056-dcbe256e8cbf)
+- [Covid Lateral Flow Test (CVLF)](https://web.www.healthdatagateway.org/dataset/b47fafb3-9c49-4b07-974b-8e91f0b5670a)
 - [Welsh Demographic Service (WDSD)](https://web.www.healthdatagateway.org/dataset/b6f26b11-da8d-402a-91c7-3b7122be274c)
 - [UHB 100K Genomics patient clinical data including their acute care contacts](https://web.www.healthdatagateway.org/dataset/b789c975-7042-445c-bfa6-c24e5ca8a983)
 - [COVID-19 Detection from Chest X-Rays using Deep Learning](https://web.www.healthdatagateway.org/dataset/b95a3ebd-f1f2-4f5f-a598-1eaa60dd1790)
