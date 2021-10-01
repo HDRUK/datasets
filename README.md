@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (743)
+## HDR UK Datasets (744)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -613,7 +613,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (197)
+### None (198)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
 - [Careers Wales Dataset (CARW)](https://web.www.healthdatagateway.org/dataset/025706a9-538b-4773-aa8d-4004b1351c1a)
 - [NIHR IBD BioResource: Sample holding](https://web.www.healthdatagateway.org/dataset/04f28919-aa6c-4beb-b186-0ad0043c1c6c)
@@ -784,6 +784,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cancer Network Information System - CNIS / CANISC](https://web.www.healthdatagateway.org/dataset/d3010e1b-09ea-49e5-a5fb-3cf5a030fda6)
 - [Annual District Birth Extract (ADBE)](https://web.www.healthdatagateway.org/dataset/d62892f9-539e-48be-b77e-d3f903d3d118)
 - [Research on use of an online learning platform on under-five pneumonia](https://web.www.healthdatagateway.org/dataset/d7f1b4ab-ae3c-4318-afc9-1b561d46d442)
+- [National Vascular Regsitry - Oragnisational Audit dataset](https://web.www.healthdatagateway.org/dataset/d977abd8-a966-4b4c-99f0-7a4c368f9934)
 - [COVID-19 Consolidated Deaths (CDDS)](https://web.www.healthdatagateway.org/dataset/dc67e75a-a096-4022-bbdd-71b34ec201c1)
 - [UK Renal Registry - COVID-19 dataset](https://web.www.healthdatagateway.org/dataset/de8d0b95-b968-45f2-8cd4-2c87d72ff729)
 - [NHS Tayside - A&E drugs given during an A&E visit](https://web.www.healthdatagateway.org/dataset/df0b5ce6-3c11-4e79-9e69-7836e8639ccd)
