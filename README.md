@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (752)
+## HDR UK Datasets (751)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -256,7 +256,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Sunquest](https://web.www.healthdatagateway.org/dataset/eaca9ed1-30b6-4157-8894-8e53efc84849)
 - [CellPath](https://web.www.healthdatagateway.org/dataset/fc7b44f0-eb69-4257-8c07-7516c1210c46)
 
-### ALLIANCE > PUBLIC HEALTH SCOTLAND (27)
+### ALLIANCE > PUBLIC HEALTH SCOTLAND (26)
 - [Scotland Accident and Emergency](https://web.www.healthdatagateway.org/dataset/142f3390-95eb-49be-bc8c-1a752a7d308e)
 - [Child Health Systems Programme - 27-30Months Review](https://web.www.healthdatagateway.org/dataset/26b03931-18ce-4a83-99de-1fca258518f3)
 - [Child Health Systems Programme - First Visit](https://web.www.healthdatagateway.org/dataset/3cc60b9a-8654-417d-bc1a-b72a7462a980)
@@ -273,7 +273,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [SICSAG Daily (Scottish Intensive Care Audit Group)](https://web.www.healthdatagateway.org/dataset/b6fbcdaf-6732-4b76-b8ca-3388f67bce47)
 - [NHS Scotland General Practice (GP) Contact Data - Subset](https://web.www.healthdatagateway.org/dataset/b87dda75-59ac-4b33-97c0-439b4771babe)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/b9f460e1-cee9-4f52-b464-26b421886939)
-- [ECOSS (-/+VE tested patients only)](https://web.www.healthdatagateway.org/dataset/bb2cb65c-a599-4fdc-bdfa-908d4433e333)
 - [Child Health Systems Programme - 4-5 year review](https://web.www.healthdatagateway.org/dataset/c2ebe992-e9e8-4316-a565-20d312aa9ef7)
 - [2011 Census variables (and variable breakdowns)](https://web.www.healthdatagateway.org/dataset/c4426ec2-fbf0-45b2-9f68-0477527257a0)
 - [RAPID (Hospital Stay Level Data)](https://web.www.healthdatagateway.org/dataset/cca8ff71-fc4e-4544-9345-e87f6c0b3f2d)
