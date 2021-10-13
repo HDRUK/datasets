@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (751)
+## HDR UK Datasets (752)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -597,7 +597,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (219)
+### None (220)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
 - [Careers Wales Dataset (CARW)](https://web.www.healthdatagateway.org/dataset/025706a9-538b-4773-aa8d-4004b1351c1a)
@@ -703,6 +703,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Education Wales (EDUW)](https://web.www.healthdatagateway.org/dataset/7aa38c5c-771c-4157-a008-32051a5aed4b)
 - [GPES Data for Pandemic Planning and Research (COVID-19)](https://web.www.healthdatagateway.org/dataset/7d313fa6-941f-48ca-93e1-05d912d183ac)
 - [COVID-19 Vaccination](https://web.www.healthdatagateway.org/dataset/7daacbe5-082d-4c12-b801-0fb08932dada)
+- [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/7e71ee33-f029-40a1-8db0-e13467aaf2ac)
 - [Covid Lateral Flow Test (CVLF)](https://web.www.healthdatagateway.org/dataset/7f49d025-11d9-4d04-9b77-19a2f5acf8e6)
 - [Critical Care Dataset (CCDS)](https://web.www.healthdatagateway.org/dataset/8160dc2b-860a-47e1-a5d2-38473d1d31a0)
 - [Outpatient Dataset](https://web.www.healthdatagateway.org/dataset/8193e951-2ed8-4ccf-9fe5-5c2e6f933d60)
@@ -764,6 +765,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [IBD NIHR BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/bb61567b-431f-4e30-b906-654490ea14c7)
 - [COVID-19 Vaccination Adverse Reaction](https://web.www.healthdatagateway.org/dataset/befd32d2-3267-4545-8600-10ffbb2bf733)
 - [Ventilatory strategies, medications and outcomes for patients with COVID](https://web.www.healthdatagateway.org/dataset/c01fbdae-33e3-4839-b842-3b61a722a925)
+- [COVID-19 Vaccination Status](https://web.www.healthdatagateway.org/dataset/c230a8d8-bf78-4713-8f2f-312162e92e55)
 - [National Waiting List Open Pathways](https://web.www.healthdatagateway.org/dataset/c47f463f-6e7e-4abb-b9bc-010ae68156b7)
 - [Fife Microbiology: Isolations](https://web.www.healthdatagateway.org/dataset/c4985b2b-c972-4b7a-a0b0-2d841a63bad6)
 - [Tayside Bowel Screening Dataset](https://web.www.healthdatagateway.org/dataset/c885e039-1c1b-45f7-8acf-79a54fa3ab02)
@@ -782,6 +784,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS Tayside and Fife Virology](https://web.www.healthdatagateway.org/dataset/d11422cc-8865-46bd-b514-c3daafd8f221)
 - [NIHR IBD BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/d2981964-3ff7-47e2-91e1-ac5812227a80)
 - [Cancer Network Information System - CNIS / CANISC](https://web.www.healthdatagateway.org/dataset/d3010e1b-09ea-49e5-a5fb-3cf5a030fda6)
+- [Follow-COVID](https://web.www.healthdatagateway.org/dataset/d524cd6b-14be-44a5-868c-f3e187d4e5d8)
 - [Annual District Birth Extract (ADBE)](https://web.www.healthdatagateway.org/dataset/d62892f9-539e-48be-b77e-d3f903d3d118)
 - [Research on use of an online learning platform on under-five pneumonia](https://web.www.healthdatagateway.org/dataset/d7f1b4ab-ae3c-4318-afc9-1b561d46d442)
 - [National Vascular Regsitry - Oragnisational Audit dataset](https://web.www.healthdatagateway.org/dataset/d977abd8-a966-4b4c-99f0-7a4c368f9934)
@@ -791,7 +794,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS Tayside - A&E drugs given during an A&E visit](https://web.www.healthdatagateway.org/dataset/df0b5ce6-3c11-4e79-9e69-7836e8639ccd)
 - [Welsh Health Survey Dataset (WHSD)](https://web.www.healthdatagateway.org/dataset/df55c56f-b081-45f4-b265-ed1b2c6d94cd)
 - [MATCH](https://web.www.healthdatagateway.org/dataset/dfc16033-7620-4002-aa3b-e5bbc400bbfd)
-- [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/e06a31dd-b139-49db-851a-256a964c95f0)
 - [UK Renal Registry - Your Health Survey dataset](https://web.www.healthdatagateway.org/dataset/e096053e-b028-4487-a6d0-6958cbb5f388)
 - [The Malaysian Asthma Hajj Study](https://web.www.healthdatagateway.org/dataset/e32b8ff6-6b39-4566-87bc-459b74677493)
 - [Care Home Dataset (CARE)](https://web.www.healthdatagateway.org/dataset/e4a745d6-f44c-481a-b337-aae4cfe72594)
@@ -809,7 +811,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Vascular Registry Audit - Lower Limb Bypass clinical dataset](https://web.www.healthdatagateway.org/dataset/fa07a8df-4584-4dc1-87f9-f03ff8d31861)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/fa1eb6da-697c-48dc-9a6f-e82033db04ba)
 - [Treatment of Bangladeshi children with severe pneumonia](https://web.www.healthdatagateway.org/dataset/fa47eddd-0a51-4e7e-93de-3f3223a1297d)
-- [COVID-19 Vaccination Status](https://web.www.healthdatagateway.org/dataset/faed0296-9dbe-4d32-a991-df361e4cfa32)
 - [Asymptomatic COVID-19 in Education (ACE) Cohort](https://web.www.healthdatagateway.org/dataset/fba3b66d-8d3a-473f-bb3d-537a6ab1fa7a)
 - [COVID-19 Test Trace and Protect (CTTP)](https://web.www.healthdatagateway.org/dataset/fdd5864f-c777-4e6c-a5a7-6c85968edc60)
 - [Covid Vaccination Dataset (CVVD)](https://web.www.healthdatagateway.org/dataset/fddd0686-1742-45ce-85d8-684a66aa7b30)
