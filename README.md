@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (752)
+## HDR UK Datasets (751)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -175,8 +175,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > NEONATAL DATA ANALYSIS UNIT - IMPERIAL COLLEGE LONDON (1)
 - [National Neonatal Research Database](https://web.www.healthdatagateway.org/dataset/afc8af43-d6cd-4faa-b204-8fc471119b98)
 
-### ALLIANCE > NHS DIGITAL (43)
-- [Personal Demographic Service](https://web.www.healthdatagateway.org/dataset/0970a6b2-d142-4c18-ae6e-23e21779e22c)
+### ALLIANCE > NHS DIGITAL (42)
 - [Mental Health Services Data Set - Community](https://web.www.healthdatagateway.org/dataset/0c98200b-48b5-418a-b8d0-a7708abc1f39)
 - [Cancer Registration Data](https://web.www.healthdatagateway.org/dataset/0e07413c-892c-4f06-bd22-2a917eb5c905)
 - [Mental Health Minimum Dataset v4 (Sensitive) Episodes](https://web.www.healthdatagateway.org/dataset/0e6e6ed5-ab81-4d7f-b06a-768bf33357ca)
