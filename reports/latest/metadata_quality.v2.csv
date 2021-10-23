@@ -62,7 +62,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,bcbc41cb-99f7-482e-ba3d-561164abbd4e,1450ff1a-4526-4a6e-b9e9-25969878449d,HUB > BREATHE,COPDMAP Consortium,Bronze,66.11,53.69,21.48
 2.0.1,e3ca35c1-b2e2-4479-adf1-6a78b1c8c088,145916c8-d3ca-4465-a719-93dd0770a6e4,HUB > BREATHE,Optimum Patient Care Research Database,Bronze,62.42,48.99,24.16
 2.0.1,34f0c2bd-d42e-4441-a89b-e0e384f12afa,148ebbaa-28f4-42e0-a27f-8587e516c3bf,ALLIANCE > CYSTIC FIBROSIS TRUST,Cystic Fibrosis Patient Sweat Tests,Gold,83.71,75.66,8.24
-2.0.1,216924f0-585e-4842-a165-78cf9e0af0aa,150ff738-40ad-45a4-b8c3-a25c4ce2d2f7,HUB > BREATHE,Developing and evaluating interventions to improve asthma care: HEAL ASTHMA,Silver,71.81,59.73,16.11
 2.0.1,1eb67fd5-33f6-49dd-a43d-854fff9f25f5,15805559-2115-4822-b91f-635de36fb289,ALLIANCE > SAIL,Active Adult Survey,Platinum,94.63,91.95,2.68
 2.0.1,5bf9bf39-3cd7-4a54-994b-9914405f945e,1584af1e-9683-4727-8c9b-9bea8beaa68d,HUB > PIONEER,UHB 2020 Winter Society of Acute Medicine Benchmarking Audit,Platinum,94.3,91.28,2.68
 2.0.1,4cc5ed33-3190-4f80-953b-cabd5a2b1c7c,15efea36-d022-495c-a5b6-90f51631a643,ALLIANCE > GENOMICS ENGLAND,GENOMICS ENGLAND 100K QUICK VIEW,Platinum,94.63,91.95,2.68
@@ -134,6 +133,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,68b04d3b-17b4-4a04-a8a3-e2a93ed231df,2cb07157-1c99-48dc-9926-0ad968a09166,ALLIANCE > SAIL,Higher Education Statistics Agency (HESA) Student Data,Platinum,94.3,88.59,0.0
 2.0.1,d5c0cc93-3347-46f0-b8dd-f44e82718e38,2d25b733-d95a-485b-9499-907a48b51919,ALLIANCE > CPRD,Mental Health Dataset (MHDS) for CPRD GOLD,Platinum,91.25,83.87,1.36
 2.0.1,14c31b39-f189-4417-bd38-635268495593,2d4b933d-1c8b-4fde-860e-c324454d28f9,ALLIANCE > GENOMICS ENGLAND,GENOMICS ENGLAND 100K NHSD LINKED DATA,Platinum,94.25,91.9,3.41
+2.0.1,080a90e4-4bc6-4153-a4c6-c120eef5ba94,2d4d0d89-edfb-448a-b95b-a3c0401ebe75,ALLIANCE > NHS DIGITAL,COVID-19 Vaccination Adverse Reaction,Platinum,90.27,83.22,2.68
 2.0.1,ae1898da-7fe5-4fe0-b10d-9f06cdec1735,2d6e8e68-2fc9-4b9c-a517-c5c5677af225,HUB > GUT REACTION,IBD NIHR BioResource: NHS Trust data,Silver,74.5,67.79,18.79
 2.0.1,368ad790-3ad8-4f93-9a7c-0bfb64dc6015,2d7a047c-a90f-48e4-82ee-9a8a082a696e,ALLIANCE > SAIL,Welsh Cancer Intelligence and Surveillance Unit (WCISU),Platinum,94.63,89.26,0.0
 2.0.1,75c4dcb8-33bf-43f4-b2bb-db51b6621b2c,2e51fba7-c119-4892-9e4e-89748bcb96eb,ALLIANCE > SAIL,Emergency Department Dataset (EDDS),Platinum,94.3,88.59,0.0
@@ -157,6 +157,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,3326d554-ca11-4dc6-aff0-c5b314442d27,36d3480e-38ae-470c-ab6f-b704ee2645ec,ALLIANCE > CPRD,Practice postcode linked deprivation measures for CPRD GOLD,Gold,87.58,78.52,3.36
 2.0.1,af8cdc87-789e-4bea-9d8b-927aa689d211,36e6b617-ecd5-4ae2-87d6-4a00bb2c653a,HUB > BREATHE,Exploring the provision of supportive care for patients with COPD in Malaysia,Not Rated,59.4,46.31,27.52
 2.0.1,9c535c8d-ebac-4212-b602-fc2489df2c92,372083bc-3243-4fce-989d-914e677a12cd,ALLIANCE > CPRD,National Radiotherapy Dataset (RTDS) for CPRD Aurum,Platinum,91.28,83.89,1.34
+2.0.1,48c44534-0184-471e-93b8-1385f92c6631,375dae92-2015-478b-b1bc-5de90b6d53a9,HUB > INSIGHT,Glaucoma dataset at University Hospitals Birmingham,Platinum,94.3,88.59,0.0
 2.0.1,8d77f0ad-f376-4d61-a97d-5e996c2bbe72,37687806-bab2-4de8-87a7-844a0061e7f8,ALLIANCE > TISSUE DIRECTORY,Bristol Dental School Saliva Bank,Bronze,64.43,56.38,27.52
 2.0.1,89e2d798-c488-4eaf-a50f-a93616093304,381413fe-8808-47f8-b8df-e65baa543ae4,ALLIANCE > TISSUE DIRECTORY,UK MND Collections,Bronze,64.43,59.06,30.2
 2.0.1,1fcaf429-8762-454c-b999-c5fdd757b880,3814fc7e-02af-41ff-af00-4076ca325d5e,ALLIANCE > HQIP,Epilepsy 12 - clinical audit,Not Rated,51.68,30.2,26.85
@@ -296,11 +297,13 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,8a3ec96a-0600-4c6d-8761-9d277f07b9da,6a11bc97-b57a-458f-8a3e-98c71221cb5c,ALLIANCE > HQIP,National Asthma and COPD Audit Programme (NACAP): primary care workstream resources,Not Rated,50.34,30.2,29.53
 2.0.1,1fe1e7bb-ef6e-4d89-9824-bb560afc81f0,6a390359-1e26-470f-a4e5-bfb31a5ed643,HUB > DISCOVER NOW,North West London Patient Index (NWL PI),Platinum,94.3,91.28,2.68
 2.0.1,fa2ec63d-f76d-4555-8fc1-f4bd66e3c60d,6a63513f-92cb-43ce-b0dd-fdb1113150c9,ALLIANCE > NHS DIGITAL,Mental Health Services Data Set,Platinum,93.96,87.92,0.0
+2.0.1,7c087b3c-cc04-4d3d-894b-7ea5419fa714,6a9a3c4c-95d4-45da-9520-c3b9aceb6d13,HUB > INSIGHT,UHB Linked Diabetic Eye Disease from National Screening to Hospital Eye Care,Platinum,94.63,89.26,0.0
 2.0.1,7b1c1f1a-4fb2-452d-9a3c-7748992b1fa4,6ae22437-38d7-4c47-b529-e100e15c81ab,HUB > PIONEER,Synthetic Dataset: Patients at risk of sudden death: hypertrophic cardiomyopathy,Gold,88.93,80.54,2.68
 2.0.1,71e898d1-db8c-4887-a605-dd6336b92a34,6aebcd6d-10c6-44cd-80d6-b5a90791db4f,ALLIANCE > TISSUE DIRECTORY,York Tissue Bank,Bronze,64.43,59.06,30.2
 2.0.1,bdda7221-7c02-4ced-b7a8-3806a073d981,6bc36f07-d55a-4a97-afab-29d93dc65bde,ALLIANCE > TISSUE DIRECTORY,Sheffield Brain Tissue Bank (SBTB),Bronze,64.43,64.43,35.57
 2.0.1,01c3d08c-6948-4059-a027-3437e4f5d53b,6bca5d27-5b98-45e7-b834-6980ba5db5c9,HUB > BREATHE,Leicester Respiratory Research Database,Silver,75.84,70.47,18.79
 2.0.1,2dc1218d-df5f-4025-826c-cf5ca7d67882,6bde3902-5d69-4c24-9d10-f84a63efdb22,ALLIANCE > TISSUE DIRECTORY,Leeds Breast Research Tissue Bank,Bronze,64.43,59.06,30.2
+2.0.1,6bfe44ef-9532-4986-b8a2-9c2cda4a89cc,6c12c555-c011-4f43-b98f-df0bfaad6b05,HUB > INSIGHT,Moorfields Eye Image BioResource 001,Platinum,93.29,86.58,0.0
 2.0.1,98cda353-0011-45b2-80ca-4ed24cd084bf,6c5c67d5-b7f6-4126-ac5c-be2bf45eb1cc,ALLIANCE > PUBLIC HEALTH SCOTLAND,General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01),Platinum,93.29,86.58,0.0
 2.0.1,4a5c610f-019d-450a-90c5-0fe315027f56,6cae7a61-568d-40b1-984a-1dd9365f9c71,HUB > BREATHE,Effects of second-hand smoke on pregnant women: a phenomenological study,Silver,70.81,57.72,16.11
 2.0.1,03e77b9d-57b8-44d5-8d64-9b1325958b22,6cd16bca-395b-4dbc-a817-15fd55a1a8e8,ALLIANCE > HQIP,National Vascular Registry Audit Carotid Lower Limb Amputation clinical dataset,Not Rated,51.68,30.2,26.85
@@ -309,11 +312,13 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,680a7d41-0fd1-4b32-a2cd-190e338f8ac7,6dd170f2-c9fe-4496-9499-26783d84e3c2,HUB > BREATHE,Exploring Personal Preparedness and Self-Protective Measures during COVID-19,Bronze,68.79,53.69,16.11
 2.0.1,dae5b81c-db28-414b-9328-5596632a8732,6dd62b6b-d832-4c65-a101-20fe9edd75fc,HUB > BREATHE,"Introducing pulse oximetry in IMNCI, primary health facilities in Pune India",Bronze,64.09,53.02,24.83
 2.0.1,37886fb5-d0ae-400f-89eb-78664897bcf2,6dd6c679-7c5f-4d8e-b1e4-8f1447425e96,ALLIANCE > TISSUE DIRECTORY,Wales Cancer Bank,Bronze,64.43,59.06,30.2
+2.0.1,fede31c6-a9c5-4cfb-9866-9b58b2199cff,6e47173e-651a-404e-a0b2-1fa1cbd887b1,ALLIANCE > NHS DIGITAL,Covid-19 Second Generation Surveillance System,Platinum,91.28,85.23,2.68
 2.0.1,41ac38b0-31cd-4865-a357-80ce557b2312,6e5916d4-017c-4542-bc71-edf6d4c5a055,ALLIANCE > UK Biobank,Biological samples,Bronze,63.09,55.7,29.53
 2.0.1,4b33fc6d-3cac-4404-adac-d693328456fa,6e70b32a-dfbc-46d3-9784-479f3f09527e,ALLIANCE > HQIP,National Asthma and COPD Audit Programme (NACAP): Pulmonary rehabilitation - organisational audit,Not Rated,50.34,30.2,29.53
 2.0.1,fa8bf269-4769-491b-b398-fa63137d14ab,6f348bdc-21e4-459b-b658-dc839a1e2133,ALLIANCE > SAIL,Intensive Care National Audit and Research Centre,Platinum,94.3,91.28,2.68
 2.0.1,b0797c05-352f-455f-8d27-150b6f6354cc,6f8a0bd2-8bc6-4ebd-8464-7f63c56668b4,ALLIANCE > HQIP,National Early Inflammatory Arthritis Audit - clinical dataset,Not Rated,51.68,30.2,26.85
 2.0.1,14a39e96-8ac3-4df3-b42b-07718121c585,6fbdc930-be40-4492-ba79-82d06d49b539,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,"NHS Tayside A&E, Diagnosis dataset during A&E visit",Gold,89.93,79.87,0.0
+2.0.1,a77e52cc-d404-45d6-835f-32e2dc46778a,6fd8abda-7e49-436c-9131-a1f607569c14,ALLIANCE > NHS DIGITAL,Covid-19 UK Non-hospital Antibody Testing Results,Platinum,91.28,85.23,2.68
 2.0.1,5692eade-5738-48ed-8527-39be9caaa7b5,7017aede-b38a-4b70-b7b2-aade001d0cc0,ALLIANCE > SAIL,School Workforce Annual Census (SWAC),Platinum,93.62,87.92,0.67
 2.0.1,2b847fd2-0f65-43b7-84e1-10cec99d699e,708839a0-d003-4917-bbd9-92741f54ab75,HUB > DISCOVER NOW,National Waiting List Clock Starts,Platinum,94.63,89.26,0.0
 2.0.1,7dcd5c0a-1922-4fe2-9b7e-090e4c39861b,70b4d407-288a-4945-a4d5-506d60715110,ALLIANCE > TISSUE DIRECTORY,CASPS: A Phase II trial of Cediranib in ASPS patients,Bronze,61.74,59.06,35.57
@@ -326,6 +331,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,576fbcf8-ff25-4230-ae69-e72ca02b95f1,74241b17-23b7-4233-b7b9-1a484aa053b0,ALLIANCE > TISSUE DIRECTORY,Myeloma XII clinical trial samples,Bronze,64.43,59.06,30.2
 2.0.1,02ddc5c9-03d4-40e4-9934-e60817ec8f3e,747d57aa-a02b-411c-9403-2e3ec9d3e5b5,HUB > GUT REACTION,NIHR IBD BioResource: Contact detail,Platinum,93.96,87.92,0.0
 2.0.1,a4751434-54ea-4d22-a66a-a5d32bd80c40,75614b69-bc18-416b-9d27-fd8ca9fc4521,ALLIANCE > UK Biobank,Cancer register,Bronze,67.11,58.39,24.16
+2.0.1,fb3fac03-a428-4b3f-8058-5622e1fd57d8,75b8e10e-cc35-41be-aad7-990afc13b08e,ALLIANCE > SAIL,Children Receiving Care and Support Census (CRCS),Platinum,93.62,87.92,0.67
 2.0.1,131784c0-769d-4f7b-b7d0-b5f4b89886d4,76535d6e-ce0c-407c-ba22-1b2420a1e654,ALLIANCE > SAIL,National Exercise Referral Scheme,Platinum,93.29,89.26,2.68
 2.0.1,120106fb-49b4-4bc0-b30c-50a59c5c6253,77422eb1-7bdb-4205-b3d0-57d1add35317,HUB > INSIGHT,Moorfields DMO Dataset Release 001,Platinum,93.96,87.92,0.0
 2.0.1,31f0148b-f965-4136-ab39-6c5bbbf8c2d9,77824298-ef3b-40f7-a0a4-b6dedb2e7a02,ALLIANCE > NHSX,The National COVID-19 Chest Imaging Database,Platinum,94.63,89.26,0.0
@@ -336,7 +342,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,ce533c67-5565-4010-bedf-dca3863a9084,7862c1c2-d4d6-4b3c-aea1-1f15a5b3b5ea,ALLIANCE > TISSUE DIRECTORY,UCL / UCLH Biobank for Studying Health and Disease,Bronze,64.43,59.06,30.2
 2.0.1,594cfe55-96e3-45ff-874c-2c0006eeb881,78ce070c-84db-4676-81c5-0c672f4e12e3,ALLIANCE > SAIL,COVID-19 Symptom Tracker Dataset,Platinum,94.63,91.95,2.68
 2.0.1,7b1c1f1a-4fb2-452d-9a3c-7748992b1fa4,796d97b4-6f3d-4ee8-8966-9238efdcac2d,HUB > PIONEER,Synthetic Dataset - Patients at risk of sudden death: hypertrophic cardiomyopathy,Platinum,91.61,85.91,2.68
-2.0.1,fede31c6-a9c5-4cfb-9866-9b58b2199cff,79742353-fa28-4069-a330-c86f5c592db8,ALLIANCE > NHS DIGITAL,Covid-19 Second Generation Surveillance System,Platinum,93.96,87.92,0.0
 2.0.1,314953f6-58e7-49c0-adfd-c60e623eba74,79b02690-798b-462d-9ced-f53c9e39d624,ALLIANCE > TISSUE DIRECTORY,Central England Haemato-oncology and oncology Research Biobank (CEHRB),Bronze,63.09,59.06,32.89
 2.0.1,204fa806-071d-4410-9c2c-143017d32d24,7aa38c5c-771c-4157-a008-32051a5aed4b,ALLIANCE > SAIL,Education Wales (EDUW),Platinum,93.96,87.92,0.0
 2.0.1,9623e62b-3c50-44aa-8923-0bbb94e7ad61,7c1f02ee-a72e-4aca-9205-0013f0796db6,ALLIANCE > HQIP,National Joint Registry - Revision Shoulder Replacement dataset,Not Rated,51.68,30.2,26.85
@@ -392,10 +397,12 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,f9cf4be7-fbc9-4601-8beb-5d3c3596bf04,8cfbaeec-98ce-4e09-b49c-d7c5968f1e85,ALLIANCE > PUBLIC HEALTH SCOTLAND,Child Health Systems Programme - 6-8week review,Gold,83.89,71.14,3.36
 2.0.1,83059be4-071b-4a36-8ab1-9fde1e32e75e,8d06cb09-640c-40db-8387-adf7fab54c3b,ALLIANCE > CPRD,Quality of Life of Cancer Survivors: Pilot Patient Reported Outcomes (Gold),Platinum,91.28,83.89,1.34
 2.0.1,3bc43876-507b-4dff-bd2b-7df147322e15,8d24889c-ac3c-4b9d-a8bd-cf9effd64370,ALLIANCE > CPRD,Quality of Life of Cancer Survivors: Pilot Patient Reported Outcomes (Aurum),Platinum,91.28,83.89,1.34
+2.0.1,216924f0-585e-4842-a165-78cf9e0af0aa,8da6766c-df44-4414-a858-4415e473ea76,HUB > BREATHE,Developing and evaluating interventions to improve asthma care: HEAL ASTHMA,Silver,71.81,59.73,16.11
 2.0.1,d94eb31c-04c4-41b6-ad38-45f6aef30132,8dc64dc2-91e0-4a43-9524-1658df371301,ALLIANCE > HQIP,National Clinical Audit of Anxiety and Depression - spotlight audit on psychological therapies (patient experience survey),Not Rated,50.34,30.2,29.53
 2.0.1,25003f25-384c-4264-9c8f-dd8734ee5595,8e5e3ebe-c0ae-458f-bc75-a5a3368d4c2d,ALLIANCE > IMPERIAL COLLEGE LONDON,REal-time Assessment of Community Transmission (REACT-2),Gold,86.91,73.83,0.0
 2.0.1,a265af2e-40fc-4759-af61-eab293cdad5a,8f54b1ad-b8cd-44a3-94d7-c98133ca913d,ALLIANCE > PUBLIC HEALTH SCOTLAND,Unscheduled Care Data Mart,Platinum,92.95,85.91,0.0
 2.0.1,780bf7d0-9ee1-4641-a74f-dc148e361970,8fac682b-96be-4e21-a2a9-5fe66c3b35ff,HUB > PIONEER,The impact of hospitalised patients with COPD: from admission to outcome,Platinum,92.95,88.59,2.68
+2.0.1,3b1bb176-e22f-402a-b863-730d05b22021,8fc6bf25-df25-429f-be41-b7d5ffd4ff15,HUB > INSIGHT,Eye images and retinopathy grades in diabetic eye screening,Platinum,94.63,89.26,0.0
 2.0.1,9a36f3f8-3b7e-4e61-8993-b9cc2734fcb8,90ace555-da01-4940-a3ef-78bb83976ff0,NCS > OFFICE FOR NATIONAL STATISTICS,COVID-19 COG-UK Viral Genome (variant strain data),Platinum,90.6,81.21,0.0
 2.0.1,22e3943e-edb5-44a1-9e4e-22b0f7a31767,90f44ae7-8394-4fe5-8c1e-c9aa5bf0edf1,ALLIANCE > PUBLIC HEALTH SCOTLAND,Prescribing Information System (PIS),Platinum,93.62,87.25,0.0
 2.0.1,93baeb13-cc4b-47fd-9dae-5ae5277cba54,914321d0-1d86-4974-a38d-97469f9ff2cd,ALLIANCE > TISSUE DIRECTORY,Bloodwise Childhood Leukaemia Cell Bank,Bronze,64.43,59.06,30.2
@@ -426,6 +433,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,61a607a9-b404-41e0-a52e-0c6d0ce8c2be,9a5fdb85-7bd6-4073-9058-e45667d497a8,ALLIANCE > CPRD,Quality of Life of Colorectal Cancer Survivors: Patient Reported Outcomes (Gold),Platinum,91.28,83.89,1.34
 2.0.1,3907a55f-104b-4533-ba21-69bd5f08ce8f,9a836aa8-60c7-4911-943e-477b0ae8bbb8,HUB > BREATHE,Blended learning for primary care physicians on COPD in Bangladesh,Silver,71.81,59.73,16.11
 2.0.1,6c4ed998-0f05-415c-a3e4-42430bb62d24,9abb8804-de89-4aba-8877-0e9a405870fe,ALLIANCE > SAIL,Systemic Anti-Cancer Therapy Dataset [SACT],Gold,89.93,82.55,2.68
+2.0.1,89c2c798-2e0f-4235-9cd9-e2347f2dfc50,9b356432-2650-4ded-aa75-657871b38fe3,HUB > INSIGHT,Neovascular age related macular degeneration at University Hospitals Birmingham,Platinum,93.96,87.92,0.0
 2.0.1,2b640175-725a-465f-9aec-6794e6d27791,9b7d2306-35e2-44a3-a97d-0b0e03a15336,ALLIANCE > HQIP,National Cardiac Audit Programme - National Congenital Heart Disease Audit (NCHDA),Not Rated,50.34,30.2,29.53
 2.0.1,bc839e9c-e303-4c3c-9c2c-9975602376e2,9bfba8a4-43c3-4356-93a5-3eb3b7bc247a,HUB > DATA-CAN,PHM and Cancer Outcomes in the WYH Cancer Alliance,Platinum,93.96,90.6,2.68
 2.0.1,0e38bbf4-c788-4a1a-9af8-a24821250154,9c2356fe-409f-4a34-9fbf-663d2add3902,ALLIANCE > SAIL,Domiciliary Social Care Worker (DSCW),Platinum,94.3,88.59,0.0
@@ -465,6 +473,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,ed131fee-0635-4613-a453-a383d5dd7cec,a8bb670a-b45b-48a6-8e4d-9e8f61de4f5b,ALLIANCE > SAIL,Healthcare Workers Risk Assessment,Platinum,94.3,91.28,2.68
 2.0.1,45310176-6331-4bdd-bc53-d9194e212a35,a8bfd0c4-1aec-47cc-9e45-00a713482fa2,ALLIANCE > HQIP,Paediatric Intensive Care Audit Network - core dataset (transport),Not Rated,51.68,30.2,26.85
 2.0.1,86838cad-d5d3-4b65-9c37-29b0c8c36309,a8f5117e-7523-452f-abf3-ced72f03cb2e,HUB > BREATHE,Salford Lung Study,Silver,75.5,67.11,16.11
+2.0.1,120106fb-49b4-4bc0-b30c-50a59c5c6253,a933d1f3-374c-4205-b3f2-67def97780e2,HUB > INSIGHT,Moorfields DMO Dataset 003,Platinum,93.96,87.92,0.0
 2.0.1,fa9c25eb-1ce0-4f44-b6a6-46ec8caeef40,a95be055-c758-45e7-9010-80337239c5e8,NCS > OFFICE FOR NATIONAL STATISTICS,COVID-19 Wastewater data,Platinum,91.61,83.22,0.0
 2.0.1,ad36dc03-1856-44de-99b0-1af6f312d86b,a971ac7b-04e5-4bd5-8bfa-b456d5ed4dbf,ALLIANCE > PUBLIC HEALTH SCOTLAND,Scottish Cancer Registry (SMR06),Gold,86.91,74.5,0.67
 2.0.1,ddf7f82f-b453-442d-b562-bb0157593831,a9b50e33-9974-4635-8e52-9c9b3cb87eb2,HUB > PIONEER,"Demography, interventions & outcomes of patients with Cerebrovascular Disease",Platinum,92.95,85.91,0.0
@@ -495,13 +504,11 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,a1bef3a6-9700-43a5-8f3e-dad44ce1fe10,b02e2091-f48a-4d50-91a0-de8c76f76c18,ALLIANCE > CPRD,HES Diagnostic Imaging Dataset for CPRD GOLD,Platinum,91.28,83.89,1.34
 2.0.1,3abc20ce-3dc6-4715-9de0-56aa97a6f5ec,b0319b9b-14ba-4e23-86ff-89363d4d69a7,ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND,COVID antigen testing - Pillar 1,Platinum,93.62,87.25,0.0
 2.0.1,c027d0ca-7c7d-4864-b4dd-8040f4020fbb,b05a0353-81ac-4e24-b7f6-ecee71272981,ALLIANCE > PUBLIC HEALTH SCOTLAND,Scottish Immunisation Recall System (SIRS),Silver,71.81,63.09,19.46
-2.0.1,fb3fac03-a428-4b3f-8058-5622e1fd57d8,b225cd54-5bea-40fa-914e-87420a2f5666,ALLIANCE > SAIL,Children Receiving Care and Support Census (CRCS),Platinum,93.96,88.59,0.67
 2.0.1,439e71c7-33b5-4e85-98ce-4b068f2523ad,b27afede-a51d-4aae-8bf7-ce94888fe898,ALLIANCE > UK Biobank,Primary-care data,Bronze,64.43,53.02,24.16
 2.0.1,bea354e8-c552-41ef-80c2-a76ca5767e4b,b2fb79c5-26db-484b-8e93-1c56d7654f57,ALLIANCE > CYSTIC FIBROSIS TRUST,Cystic Fibrosis Patient Transplants,Gold,83.22,75.17,8.72
 2.0.1,0c43c0b6-de3a-478b-8190-4da37fbe5ff5,b3004f9b-11a0-482b-9cec-791b28fd492e,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,Fife Microbiology: Tests,Gold,89.93,79.87,0.0
 2.0.1,a29feafa-7bdd-44e9-b977-c9d26425e67f,b41215cd-afe1-4463-9786-ed86812143e2,ALLIANCE > CPRD,CPRD GOLD,Platinum,93.96,91.28,3.36
 2.0.1,0628fb77-057d-4838-b80e-18245a8f535d,b43309eb-7860-49b7-9f11-1a7a0fd5532e,ALLIANCE > SAIL,UK Cystic Fibrosis Registry (CYFI),Platinum,91.61,88.59,5.37
-2.0.1,a77e52cc-d404-45d6-835f-32e2dc46778a,b4484711-99c2-4974-8056-dcbe256e8cbf,ALLIANCE > NHS DIGITAL,Covid-19 UK Non-hospital Antibody Testing Results,Platinum,93.96,87.92,0.0
 2.0.1,0ad31772-0893-4cf7-bab0-683e80302201,b5033be2-0744-49c5-a398-a4d3ed4e1deb,ALLIANCE > CYSTIC FIBROSIS TRUST,Cystic Fibrosis Patient Chronic Medication,Gold,83.29,75.23,8.66
 2.0.1,f102ca50-d1e4-44ec-924e-be89446652af,b589b19b-b43f-4344-affb-5d7ea328c909,ALLIANCE > SAIL,Radiotherapy Dataset,Platinum,94.63,91.95,2.68
 2.0.1,c8b6c319-239b-4792-9898-644a63d07ab5,b63aadf4-da85-478e-a171-05714ef9057e,ALLIANCE > HQIP,National Vascular Registry - Lower Limb Angioplasty clinical dataset,Platinum,91.95,86.58,2.68
@@ -515,6 +522,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,8f486c3d-9504-4a0e-8e24-ab96f057fc9e,b87dda75-59ac-4b33-97c0-439b4771babe,ALLIANCE > PUBLIC HEALTH SCOTLAND,NHS Scotland General Practice (GP) Contact Data - Subset,Platinum,90.91,84.54,2.71
 2.0.1,57526718-0a9a-42ad-8b7a-582d9ef96d13,b95a3ebd-f1f2-4f5f-a598-1eaa60dd1790,HUB > BREATHE,COVID-19 Detection from Chest X-Rays using Deep Learning,Silver,70.81,57.72,16.11
 2.0.1,47f979bc-da9d-4e9e-9f2b-15e09366db04,b9642fb3-3bee-491b-8d83-22f9de0fd77f,ALLIANCE > TISSUE DIRECTORY,ESPAC-TPlus,Bronze,61.74,59.06,35.57
+2.0.1,6a6c4568-59e9-4760-89d6-07558a24944c,b97ff350-f84d-4739-a4d6-f3a607063799,ALLIANCE > PARKINSONS UK,2019 UK Parkinson's Audit - Patient Reported Experience Measure (PREM),Platinum,90.6,81.21,0.0
 2.0.1,0d556d7e-be27-4979-a09e-d419b2e838f3,b988b8bc-fbc5-40a7-8123-76ea5286b8c7,HUB > PIONEER,Hospitalised patients with diabetic emergencies & acute diabetic health concerns,Platinum,91.95,86.58,2.68
 2.0.1,f48b7c05-6a44-480c-84c6-4f7a684f29f8,b9a739c2-8601-4518-bd1a-e976ed9172c8,ALLIANCE > SAIL,SAIL Dementia e-Cohort (SDEC),Platinum,94.63,89.26,0.0
 2.0.1,6c78af2c-3898-435e-b1f4-e6a44682dc71,b9b4ee9a-3ffa-483d-8e46-16f862c83740,ALLIANCE > HQIP,Paediatric Intensive Care Audit Network - customised data collection,Not Rated,51.68,30.2,26.85
@@ -531,7 +539,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,1c27bfbf-c659-42ff-8afe-d58250b49c07,be0e737d-37a2-4af0-ac28-0bb7d3b49a52,ALLIANCE > BARTS HEALTH,Outpatient Appointment Dataset,Not Rated,48.66,24.83,27.52
 2.0.1,9de2f365-4c5d-4252-acee-6270b113aa93,be1368c6-c97f-4ce0-8322-f97ccb28b9c3,ALLIANCE > OXFORD UNIVERSITY HOSPITALS,Oxford Healthcare Workers,Gold,85.57,71.14,0.0
 2.0.1,22aa219f-f3c8-4a25-822e-aa2504f6f29a,be77a483-2eff-4c05-8091-035fe79b3c8a,ALLIANCE > TISSUE DIRECTORY,Barts CTU,Bronze,64.43,59.06,30.2
-2.0.1,080a90e4-4bc6-4153-a4c6-c120eef5ba94,befd32d2-3267-4545-8600-10ffbb2bf733,ALLIANCE > NHS DIGITAL,COVID-19 Vaccination Adverse Reaction,Platinum,90.27,83.22,2.68
 2.0.1,dec09f2e-a93f-41e2-8217-72431ea4a19e,bf083b35-da74-4b82-87d3-203ba60325c6,ALLIANCE > NIHR BIORESOURCE,NIHR BioResource: Metabolite data,Silver,74.16,67.79,19.46
 2.0.1,8ef26f38-d1b3-4b24-b80a-717f216c6aea,bf625cfe-c4b2-4ea8-bbe8-1a8873ca4cb9,ALLIANCE > UK Biobank,Online questionnaires,Bronze,63.09,53.02,26.85
 2.0.1,a9098b51-f8ec-432e-a52f-f4c1f2c1e4f6,c0025712-8bde-4cbb-93a6-c9a52b99d035,ALLIANCE > HQIP,National Diabetes Inpatient Audit Hospital Characteristics Survey dataset,Not Rated,51.68,30.2,26.85
@@ -552,6 +559,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,bc5d6d69-ec03-42fe-a63b-638c25c5258c,c6e2fffb-4817-462e-ba7e-ff546728f3d1,HUB > BREATHE,Exogenous sex steroid hormones and asthma in females of reproductive age,Bronze,66.44,57.72,24.83
 2.0.1,c8a28f0b-a5f8-4dbb-8d71-5b89c7cb3111,c72b9078-4d9a-4bfd-95b3-98d96e235e2a,ALLIANCE > HQIP,National Bowel Cancer Audit - clinical dataset,Not Rated,50.34,30.2,29.53
 2.0.1,b3b790a7-a455-4efb-9c68-60e7131cb836,c78122ae-8be1-40d7-8567-b83059941c16,ALLIANCE > TISSUE DIRECTORY,SCOT translational sample collection,Bronze,64.43,64.43,35.57
+2.0.1,865c99c4-bbe9-45de-83b9-290fb54d5470,c8654ef8-585c-4ac4-ac0e-33a875d407a1,HUB > INSIGHT,UHB Linked Diabetic Eye Disease in Acute Diabetic Hospital Admissions,Platinum,94.63,89.26,0.0
 2.0.1,00201dde-1faf-41d3-b282-5c24c0ca3697,c885e039-1c1b-45f7-8acf-79a54fa3ab02,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,Tayside Bowel Screening Dataset,Gold,89.93,79.87,0.0
 2.0.1,780c0a71-0264-4843-939d-1336eee60d40,c8db5528-7ba5-40fe-8c5f-2c86a9637c73,ALLIANCE > CPRD,CPRD Cardiovascular Disease Synthetic Dataset,Platinum,94.63,91.95,2.68
 2.0.1,1d5b9205-dae4-4b0e-a3d3-04707875edf8,c8edcbd8-40e6-4c34-b138-307a94c19cc0,ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND,Admissions and Discharges,Platinum,93.62,87.25,0.0
@@ -596,6 +604,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,12a77014-4a77-4eb1-8b26-f49689352d1b,d62892f9-539e-48be-b77e-d3f903d3d118,ALLIANCE > SAIL,Annual District Birth Extract (ADBE),Platinum,94.3,88.59,0.0
 2.0.1,a1d16f3f-c7e7-41c5-a071-07889bf49ab1,d6296f3e-ccd9-46a5-acc9-50eb5aa41c56,ALLIANCE > TISSUE DIRECTORY,UNIRAD UK Sample collection,Bronze,61.74,59.06,35.57
 2.0.1,a3d85fd2-9df3-4f6e-9035-0830a3488ddb,d7f1b4ab-ae3c-4318-afc9-1b561d46d442,HUB > BREATHE,Research on use of an online learning platform on under-five pneumonia,Silver,70.81,57.72,16.11
+2.0.1,1abc859e-4ac6-431a-b550-af1afb36df1b,d89732fc-1bc3-4bd6-a634-9e9d03f3fea4,HUBS > ALLEVIATE,HIV PiNS,Gold,81.88,64.43,0.67
 2.0.1,3c661240-e4d2-456c-a809-133c23f9c469,d977abd8-a966-4b4c-99f0-7a4c368f9934,ALLIANCE > HQIP,National Vascular Regsitry - Oragnisational Audit dataset,Platinum,90.6,83.89,2.68
 2.0.1,e87410ec-a819-43db-99d1-f887c977e525,d9ac0117-f4ba-4939-983d-86406580c5e2,ALLIANCE > HQIP,National Early Inflammatory Arthritis Audit - patient survey,Not Rated,51.68,30.2,26.85
 2.0.1,cfdafacb-48f0-4ad8-9f20-193a5eec2da4,da5098df-414f-48e0-aaa7-7e2277f80eb7,ALLIANCE > SAIL,Looked After Children Wales,Platinum,93.96,91.28,3.36
@@ -618,6 +627,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,3f71bef5-c5a2-400c-a482-2ad30b29a240,df23aabd-3e5f-4fc2-aad6-af990cff6f19,HUB > DATA-CAN,Children’s Kidney Cancers - Great Ormond Street Hospital,Platinum,92.62,88.59,3.36
 2.0.1,3c749cfc-4008-4916-b64f-969d6a754c0f,df3cc57d-08ae-4e81-ae79-283d71cf8d95,HUB > GUT REACTION,IBD NIHR BioResource: SNP chip data,Platinum,93.62,87.25,0.0
 2.0.1,e4d8edb3-6e8e-435d-9732-60c83027d8f9,df55c56f-b081-45f4-b265-ed1b2c6d94cd,ALLIANCE > SAIL,Welsh Health Survey Dataset (WHSD),Platinum,94.63,89.26,0.0
+2.0.1,bf392537-82b4-4d71-ace0-e7bea3b167fb,df6aee16-b3ba-4653-b750-0f046528caf4,HUB > INSIGHT,Moorfields AMD Dataset 002,Platinum,93.96,87.92,0.0
 2.0.1,e355c9b9-44f0-4ba3-a872-645aa88f4f2b,dfba178f-ce67-4c2d-8693-b23110aeecae,ALLIANCE > HQIP,National Paediatric Diabetes Audit - core clinical dataset (care processes and outcomes),Bronze,69.8,59.06,19.46
 2.0.1,5429fc2a-3d72-414d-9393-4079c4c6c0fa,dfc16033-7620-4002-aa3b-e5bbc400bbfd,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,MATCH,Gold,87.58,77.85,2.68
 2.0.1,019fad36-65ea-4d47-8d6d-a47240eeb801,dfc3205c-3079-4e95-93e2-8a3a3beeea5a,ALLIANCE > TISSUE DIRECTORY,Generation Scotland,Bronze,64.43,59.06,30.2
@@ -662,6 +672,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,3bb02d77-9678-4e6e-832d-c2ed3ede412c,f34ac736-a1ef-4666-b295-dcbc8831503a,ALLIANCE > HQIP,National Neonatal Audit Programme - 2 year outcomes audit,Not Rated,51.68,30.2,26.85
 2.0.1,51a8dfba-5c94-48bd-9c68-3707f0ebc2a2,f499041f-197e-4cd5-9295-952d60110e48,ALLIANCE > HQIP,National Audit of Care at the End of Life - Quality Survey,Not Rated,51.68,30.2,26.85
 2.0.1,f1471a45-a6f4-4ed7-96b0-56a1af21086e,f4f5647e-e1bc-4813-8cdc-5c1d6b16d1f9,ALLIANCE > HQIP,National Diabetes Inpatient Audit - Harms clinical dataset,Not Rated,51.68,30.2,26.85
+2.0.1,4385ed4c-1c42-4ba5-b57f-9ab18e5ffbe1,f58a3c47-44aa-4815-aeab-e19a4a330926,HUB > INSIGHT,UHB Linked Diabetic Eye Disease and Cardiac Outcomes,Platinum,93.29,89.26,2.68
 2.0.1,29a714e1-5289-4362-be24-2848c954344e,f5d0e254-1005-43a9-88d3-5180c015b7f0,ALLIANCE > SAIL,CAFCASS Wales (CAFW),Platinum,94.63,89.26,0.0
 2.0.1,291c0dd4-0988-42d2-8e0b-878a892add57,f6aa8836-b437-40b6-bd1e-ae20010048dd,ALLIANCE > SAIL,Substance Misuse Dataset,Platinum,94.3,91.28,2.68
 2.0.1,602d8093-6a1e-42cf-a89c-8bf0d47ecc8c,f6e25ba4-4f7a-436e-a5f9-f0257d45a612,HUB > DISCOVER NOW,North West London Integrated Care Record (NWL ICR),Platinum,94.3,91.28,2.68
@@ -673,6 +684,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,1a66dbc1-4f06-455c-85fc-68b372575cad,f8a268c1-831c-4c80-b62c-e254a572b9a0,HUB > PIONEER,Ventilation strategies for patients on intensive care,Platinum,92.95,88.59,2.68
 2.0.1,d858cd90-9a2f-4330-9bbe-46e047a5d0a2,f93aea28-7592-42c0-a5e7-5802f0d6051f,OTHER > UK Longitudinal Linkage Collaboration (UK LLC),UK Longitudinal Linkage Collaboration (UK LLC),Not Rated,50.34,22.15,21.48
 2.0.1,3b87eef0-bfb6-4bf4-84b9-29880197fec9,f9505b84-2794-491f-aff2-05fefd16cad5,ALLIANCE > PUBLIC HEALTH SCOTLAND,National Records of Scotland (NRS) - Births Data,Bronze,69.8,59.06,19.46
+2.0.1,c7f7541b-5030-40b9-962a-4aba44af7e1a,f98d83ec-ad27-46d7-9786-7a0f2749aa11,ALLIANCE > PARKINSONS UK,2019 UK Parkinson's Audit - Speech and language therapy,Platinum,90.6,81.21,0.0
 2.0.1,9f29d47e-4e9a-41b8-b7bc-5ef3570294ef,f98f9578-a4a3-4d93-b32e-f30ff75888b7,ALLIANCE > SAIL,Bowel Screening Wales (SBSW),Platinum,94.3,88.59,0.0
 2.0.1,70656016-c1c9-4bc2-93d1-c66341fcdf36,f9959c00-c063-4fbf-933d-755e3b6ecedc,ALLIANCE > IMPERIAL COLLEGE LONDON,Real-time Assessment of Community Transmission (REACT) Study 2: COVID antibody,Bronze,60.74,51.68,30.2
 2.0.1,20639743-9a28-43dd-a8af-7571ece2a7f8,f99d82da-13eb-42db-ad0d-348be2173535,ALLIANCE > TISSUE DIRECTORY,Tommy's National Reproductive Health Biobank,Bronze,64.43,59.06,30.2
