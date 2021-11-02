@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (786)
+## HDR UK Datasets (787)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -575,7 +575,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (276)
+### None (277)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
@@ -803,6 +803,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Scotland](https://web.www.healthdatagateway.org/dataset/cc1a15ea-1bca-42c5-9915-8e6bfd733d6e)
 - [Business Insights and Conditions Survey (BICS)](https://web.www.healthdatagateway.org/dataset/cc9b9e79-e4b0-421e-a59e-f62ee56918a3)
 - [Tayside Pathology](https://web.www.healthdatagateway.org/dataset/ccd9bea4-55d4-4666-90d9-bf407a24009b)
+- [The Airwave Health Monitoring Study](https://web.www.healthdatagateway.org/dataset/cf867e7f-51b9-4627-828d-dd4fd420b37e)
 - [National Vascular Registry Audit - Carotid Endarterectomy Clinical Dataset](https://web.www.healthdatagateway.org/dataset/d094b10a-b1b4-4805-9424-33547e9c46ba)
 - [NHS Tayside and Fife Virology](https://web.www.healthdatagateway.org/dataset/d11422cc-8865-46bd-b514-c3daafd8f221)
 - [NIHR IBD BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/d2981964-3ff7-47e2-91e1-ac5812227a80)
