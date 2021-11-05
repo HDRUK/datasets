@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (787)
+## HDR UK Datasets (788)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -79,9 +79,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cystic Fibrosis Patient Demographics](https://web.www.healthdatagateway.org/dataset/c1682cb7-8f43-49fa-b66a-0a4a205885d3)
 - [Cystic Fibrosis Patient Annual Review Encounters](https://web.www.healthdatagateway.org/dataset/ca2c6ec0-00ce-42fc-a077-88911259576c)
 - [Cystic Fibrosis Patient Liver Enzyme](https://web.www.healthdatagateway.org/dataset/caa644b6-a50d-455b-bee1-96232443e2b9)
-
-### ALLIANCE > GENERATION SCOTLAND (1)
-- [Generation Scotland: Scottish Family Health Study](https://web.www.healthdatagateway.org/dataset/17ff9515-8296-435b-a50e-014168714689)
 
 ### ALLIANCE > GENOMICS ENGLAND (1)
 - [GENOMICS ENGLAND 100K BIOINFORMATICS DATA](https://web.www.healthdatagateway.org/dataset/1900af1a-bd21-4157-ac48-203eec682073)
@@ -311,7 +308,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > SLaM (1)
 - [South London and Maudsley NHS Foundation Trust (SLaM) Clinical Record Interactive Search (CRIS) platform](https://web.www.healthdatagateway.org/dataset/21cd4b8e-f4f5-44a6-83eb-b7799e98ba55)
 
-### ALLIANCE > TISSUE DIRECTORY (105)
+### ALLIANCE > TISSUE DIRECTORY (104)
 - [PTCL Biobank](https://web.www.healthdatagateway.org/dataset/0121c132-5be6-414e-853b-885ff301854f)
 - [Human Developmental Biology Resource (HDBR)](https://web.www.healthdatagateway.org/dataset/01470238-7a17-47a5-a131-17178ba26a0a)
 - [Cam-UroOnc Biorepository](https://web.www.healthdatagateway.org/dataset/0315886c-f34a-4f1d-8f76-2dfa80a6e949)
@@ -346,7 +343,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [UK MND Collections](https://web.www.healthdatagateway.org/dataset/381413fe-8808-47f8-b8df-e65baa543ae4)
 - [NIHR Nottingham Digestive Diseases Collection](https://web.www.healthdatagateway.org/dataset/38254214-35f1-4564-b7bb-aab331732dab)
 - [Tissue Solutions Ltd](https://web.www.healthdatagateway.org/dataset/3c23941a-42a7-4940-b32f-aea743c0dc2a)
-- [TwinsUK](https://web.www.healthdatagateway.org/dataset/3ce4870c-5062-4d01-8801-2cf505b979b7)
 - [Ethical Tissue - University of Bradford](https://web.www.healthdatagateway.org/dataset/3db58c78-fc8b-49b2-a847-b43fd0184500)
 - [Multiple Sclerosis and Parkinson's Tissue Bank](https://web.www.healthdatagateway.org/dataset/3f00330d-1f45-4cab-86c2-e91b7c1a59e9)
 - [Tayside Biorepository](https://web.www.healthdatagateway.org/dataset/47d22aea-cbe9-47d4-8f65-45861d9c5f6f)
@@ -512,8 +508,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [North West London Integrated Care Record (NWL ICR)](https://web.www.healthdatagateway.org/dataset/f6e25ba4-4f7a-436e-a5f9-f0257d45a612)
 - [North West London High Cost Drugs Data (NWL HCD)](https://web.www.healthdatagateway.org/dataset/fc704af0-368b-4dd0-866f-753b6d1dccf8)
 
-### HUB > GUT REACTION (7)
-- [IBD Registry](https://web.www.healthdatagateway.org/dataset/05eadf79-02a7-4c1f-b1be-93694172a9b3)
+### HUB > GUT REACTION (6)
 - [IBD NIHR BioResource: NHS Trust data](https://web.www.healthdatagateway.org/dataset/2d6e8e68-2fc9-4b9c-a517-c5c5677af225)
 - [IBD NIHR BioResource: Consent records](https://web.www.healthdatagateway.org/dataset/3b0a3b33-dbd5-4cb0-b863-0e1fd80c9a1e)
 - [IBD NIHR BioResource: SNP imputation data](https://web.www.healthdatagateway.org/dataset/3bb25cba-b4dc-47f1-ab5e-b63f89500612)
@@ -568,7 +563,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (284)
+### None (288)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
@@ -689,6 +684,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Covid-19 UK Non-hospital Antibody Testing Results](https://web.www.healthdatagateway.org/dataset/6fd8abda-7e49-436c-9131-a1f607569c14)
 - [School Workforce Annual Census (SWAC)](https://web.www.healthdatagateway.org/dataset/7017aede-b38a-4b70-b7b2-aade001d0cc0)
 - [National Records of Scotland (NRS) - Stillbirth Data](https://web.www.healthdatagateway.org/dataset/70491568-676d-43e4-b3c3-b1db4f1ff530)
+- [GoDARTS](https://web.www.healthdatagateway.org/dataset/705f86b8-4c2f-4ed5-b792-3a0d49d14c75)
 - [National Waiting List Clock Starts](https://web.www.healthdatagateway.org/dataset/708839a0-d003-4917-bbd9-92741f54ab75)
 - [BathTAP Switching Cohort 3](https://web.www.healthdatagateway.org/dataset/70ad0b2c-a8dd-4f91-a5b8-adca272bf215)
 - [CuT-AsthMa: Culturally tailored school-based intervention for asthma in Malaysia](https://web.www.healthdatagateway.org/dataset/70c318c4-b388-4102-924e-5419d44c1679)
@@ -779,6 +775,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Emergency Department (Symphony)](https://web.www.healthdatagateway.org/dataset/ba30a8b6-bfc7-4105-b094-11f187c7b293)
 - [BathTAP Updating Cohort 1](https://web.www.healthdatagateway.org/dataset/ba936454-e65e-491d-a16d-79115a4da09a)
 - [CPRD Aurum](https://web.www.healthdatagateway.org/dataset/bac86432-1ad7-4ff9-903d-26e28bf4ef97)
+- [TwinsUK](https://web.www.healthdatagateway.org/dataset/bb42dbfc-b4ef-443d-a4bb-8f5249ac6762)
 - [IBD NIHR BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/bb61567b-431f-4e30-b906-654490ea14c7)
 - [2011 Census - COVID19 Research Database Subset](https://web.www.healthdatagateway.org/dataset/be8ec01c-20ea-4863-ba7c-6d103df85a42)
 - [Ventilatory strategies, medications and outcomes for patients with COVID](https://web.www.healthdatagateway.org/dataset/c01fbdae-33e3-4839-b842-3b61a722a925)
@@ -823,7 +820,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [Moorfields AMD Dataset 002](https://web.www.healthdatagateway.org/dataset/df6aee16-b3ba-4653-b750-0f046528caf4)
 - [MATCH](https://web.www.healthdatagateway.org/dataset/dfc16033-7620-4002-aa3b-e5bbc400bbfd)
 - [COVID Tests](https://web.www.healthdatagateway.org/dataset/e00284e3-439b-4a6d-9781-679c539404f8)
+- [Generation Scotland: Scottish Family Health Study](https://web.www.healthdatagateway.org/dataset/e0041506-9539-4cb2-a699-c2f0967dfe42)
 - [UK Renal Registry - Your Health Survey dataset](https://web.www.healthdatagateway.org/dataset/e096053e-b028-4487-a6d0-6958cbb5f388)
+- [IBD Registry](https://web.www.healthdatagateway.org/dataset/e4a1be81-8f3c-4731-ae8a-7cbd594c78f5)
 - [Care Home Dataset (CARE)](https://web.www.healthdatagateway.org/dataset/e4a745d6-f44c-481a-b337-aae4cfe72594)
 - [NHS Scotland General Practice (GP) Contact Data - Subset](https://web.www.healthdatagateway.org/dataset/e5a0c70c-7429-487d-8dc7-04cf073191cc)
 - [HDR UK Papers & Preprints](https://web.www.healthdatagateway.org/dataset/e6d31775-961b-457f-886c-1c0672308a55)
