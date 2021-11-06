@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (788)
+## HDR UK Datasets (792)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -563,7 +563,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (288)
+### None (292)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
@@ -576,6 +576,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS Tayside and Fife Accident & Emergency Dataset (ISD/National)](https://web.www.healthdatagateway.org/dataset/0910383a-44d6-4652-98da-550df7204416)
 - [Development of ELISA and Rapid Testing Kits for COVID-19](https://web.www.healthdatagateway.org/dataset/09f04291-670d-4db0-a3e4-7e0d84555231)
 - [Pathology Data from WRRS (PATH) - Legacy](https://web.www.healthdatagateway.org/dataset/0ac16d3d-5ca8-4e25-ad46-ce8e03a04e17)
+- [National Paediatric Diabetes Audit - survey of diabetes-related technologies](https://web.www.healthdatagateway.org/dataset/0afd2b0a-fee2-4002-b95a-36effe65a454)
 - [NIHR IBD BioResource: NHS Trust data](https://web.www.healthdatagateway.org/dataset/0d65fabc-6cb0-4a77-a01d-cb341b0b053c)
 - [Healthcare Workers Risk Assessment (HWRA)](https://web.www.healthdatagateway.org/dataset/0e71fb49-9d05-4bc6-8737-2f2b1ff591b5)
 - [Better Rx BRIT2 Patient GP Dataset](https://web.www.healthdatagateway.org/dataset/0efcd6ce-4e7a-4f8e-8903-1a987ec76b1c)
@@ -652,10 +653,12 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/53846ac7-61b7-4403-8556-c319d04b546d)
 - [Scottish Medical Imaging (SMI) Research Dataset](https://web.www.healthdatagateway.org/dataset/53dbbca0-b57d-4f93-8f05-37f626f9a7bc)
 - [Cervical Screening Wales (SCSW)](https://web.www.healthdatagateway.org/dataset/542bf16f-baea-4fca-be51-fcef9732494a)
+- [IBD Registry COVID-19](https://web.www.healthdatagateway.org/dataset/55b311a8-7162-410c-8cf7-eef1ac9ff544)
 - [Welsh Ambulance Services NHS Trust (WASD)](https://web.www.healthdatagateway.org/dataset/561ce879-88cc-415d-822e-10aaab966981)
 - [Assessing the feasibility and effectiveness of introducing pulse oximetry](https://web.www.healthdatagateway.org/dataset/567b5d24-07df-4430-8466-4444ecbe86c8)
 - [Wellcome Sanger Institute: Whole Exome Sequencing](https://web.www.healthdatagateway.org/dataset/5727d014-0c5c-4dcb-89c9-ff33e1b680bb)
 - [NIHR IBD BioResource: Health and Lifestyle Questionnaire](https://web.www.healthdatagateway.org/dataset/57458394-945e-4e6a-abc7-91df0f44cb60)
+- [National Paediatric Diabetes Audit - core clinical dataset](https://web.www.healthdatagateway.org/dataset/58e16c60-966a-4199-ae60-211d69fa6b48)
 - [Exploration of Pneumonia Related Policy Formation and Implementation in Pakistan](https://web.www.healthdatagateway.org/dataset/590e7bb7-a6e3-4f87-af2f-e46943f98ce9)
 - [Computational Framework to Interpret Chest X-rays and Diagnose Pneumonia](https://web.www.healthdatagateway.org/dataset/598ab9d9-04a3-4628-be64-d8f026d266ac)
 - [National Waiting List Diagnostics](https://web.www.healthdatagateway.org/dataset/5ce6905a-8b54-4d6c-9da6-e2d57ce45419)
@@ -736,6 +739,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [UK Renal Registry - Kidney PREM dataset](https://web.www.healthdatagateway.org/dataset/9cc82b97-d508-4cb9-98ca-0105aa897bb6)
 - [National Vascular Registry -  Abdominal Aortic Aneurysm Repair clinical dataset](https://web.www.healthdatagateway.org/dataset/9da5acec-1749-46a6-bf93-51457bbaa52c)
 - [Radiotherapy Dataset (RTDS)](https://web.www.healthdatagateway.org/dataset/9ea7a624-ce4c-460e-b68f-0655dac36765)
+- [National Paediatric Diabetes Audit - survey of workforce in PDUs](https://web.www.healthdatagateway.org/dataset/9eaef4d3-0323-40bf-b799-03108b2c9f48)
 - [Outpatient Referral (OPRD)](https://web.www.healthdatagateway.org/dataset/a0292641-9e1a-495d-a7f2-d9ce87ff0b88)
 - [Cafcass England (CAFE)](https://web.www.healthdatagateway.org/dataset/a2226588-3fce-4103-8960-6bb0b22631fb)
 - [Death Registration Data - Finalised Extracts](https://web.www.healthdatagateway.org/dataset/a239d453-7f49-4e80-a0ea-87a12d445df2)
