@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (792)
+## HDR UK Datasets (793)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -563,7 +563,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (292)
+### None (293)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
@@ -845,6 +845,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Welsh Results Reports Service (WRRS)](https://web.www.healthdatagateway.org/dataset/f298cb2a-20bb-4607-933e-6951942ae6d7)
 - [UHB Linked Diabetic Eye Disease and Cardiac Outcomes](https://web.www.healthdatagateway.org/dataset/f58a3c47-44aa-4815-aeab-e19a4a330926)
 - [CAFCASS Wales (CAFW)](https://web.www.healthdatagateway.org/dataset/f5d0e254-1005-43a9-88d3-5180c015b7f0)
+- [National Paediatric Diabetes Audit - Parent and Patient Experience measures](https://web.www.healthdatagateway.org/dataset/f6827397-47e9-4487-ad5a-cad7b4c4d3d2)
 - [2019 UK Parkinson's Audit - Speech and language therapy](https://web.www.healthdatagateway.org/dataset/f98d83ec-ad27-46d7-9786-7a0f2749aa11)
 - [Bowel Screening Wales (SBSW)](https://web.www.healthdatagateway.org/dataset/f98f9578-a4a3-4d93-b32e-f30ff75888b7)
 - [National Vascular Registry Audit - Lower Limb Bypass clinical dataset](https://web.www.healthdatagateway.org/dataset/fa07a8df-4584-4dc1-87f9-f03ff8d31861)
