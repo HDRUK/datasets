@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (793)
+## HDR UK Datasets (794)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -563,7 +563,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (293)
+### None (294)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
@@ -586,6 +586,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [NIHR IBD BioResource: SNP imputation data](https://web.www.healthdatagateway.org/dataset/12d62b02-2167-407d-acdb-6ddb9d251d36)
 - [Tayside Radiology](https://web.www.healthdatagateway.org/dataset/135f2650-ea0c-4cad-80ac-c86449a176a8)
 - [Referral to Treatment Times (RTTD)](https://web.www.healthdatagateway.org/dataset/140ce7b6-8a58-4d0f-a24b-81b0f4289a68)
+- [National Asthma and COPD Audit  (NACAP): secondary care  – CYP asthma (org)](https://web.www.healthdatagateway.org/dataset/147576e2-b445-4d36-aecc-d604302bd34e)
 - [2019 UK Parkinson's Audit - Physiotherapy](https://web.www.healthdatagateway.org/dataset/16d40748-66f1-4fc3-bdb3-7c8103cadeb7)
 - [Suspected Cancer Pathway Daily (SPCD)](https://web.www.healthdatagateway.org/dataset/16f11980-e2e7-4f79-8e33-39ba4dc3547f)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
@@ -638,6 +639,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Suspected Cancer Pathway Daily (SCPD)](https://web.www.healthdatagateway.org/dataset/3f4b5de2-6434-4ec2-8175-d9450668da4a)
 - [Estimating Chronic Respiratory Disease burden in adults in Asian LMICs](https://web.www.healthdatagateway.org/dataset/3fd2760d-ab12-48ee-8b32-b229aead60a4)
 - [Welsh Dispensing Dataset (WDDS)](https://web.www.healthdatagateway.org/dataset/4232439b-610b-48ec-abe3-f8c8fe818817)
+- [National Asthma and COPD Audit (NACAP): secondary care  – CYP asthma (clinical)](https://web.www.healthdatagateway.org/dataset/425e39b4-cc2b-4a15-851a-a0093ef1e1f8)
 - [Pathology - PATH](https://web.www.healthdatagateway.org/dataset/42e4299f-1e06-4e24-ab40-b71949f5cba3)
 - [Covid-19 Infection Survey linked with VOA and EPC data](https://web.www.healthdatagateway.org/dataset/4330b6ee-f333-4cd8-90b9-0f43f7cb0b67)
 - [Developing and Evaluating Interventions to Improve Asthma Care](https://web.www.healthdatagateway.org/dataset/46f6e0d3-412e-4799-8683-1ca649b99eec)
@@ -668,7 +670,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Moorfields AMD Dataset Release 002](https://web.www.healthdatagateway.org/dataset/5e9d4a4b-544c-4739-b079-62f353086fde)
 - [National Community Child Health Database (NCCHD)](https://web.www.healthdatagateway.org/dataset/5e9fba37-017b-4481-bc69-75ef1e005c2f)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/5ef3573a-274a-41e1-8f64-9330109d59d1)
-- [Tayside Microbiology: Isolations](https://web.www.healthdatagateway.org/dataset/607daf12-816c-4dba-8aa2-cf71dd69d66c)
 - [Suspected Cancer Pathway Monthly (SPCM)](https://web.www.healthdatagateway.org/dataset/645168a0-21b1-4e13-85d8-266ad9040af8)
 - [Trusted Research Environments for CVD-COVID-UK in England, Scotland, and Wales](https://web.www.healthdatagateway.org/dataset/646d65df-fc4c-4680-b949-79ec8f40b406)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/649261ce-833f-459e-908c-2ef93c5fed41)
@@ -718,6 +719,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Studies Supported by NIHR CRN, ICD10 Coded, with Summary Site Recruitment Data](https://web.www.healthdatagateway.org/dataset/8a0d67e2-6daa-4ebe-913b-eb5ede8801ba)
 - [Tayside & Fife Diabetes – Summary and a range of diabetes related datasets.](https://web.www.healthdatagateway.org/dataset/8a68c731-fdc4-4497-b457-2b0f5151edf9)
 - [Developing and evaluating interventions to improve asthma care: HEAL ASTHMA](https://web.www.healthdatagateway.org/dataset/8da6766c-df44-4414-a858-4415e473ea76)
+- [National Asthma and COPD Audit Programme (NACAP): Wales primary care dataset](https://web.www.healthdatagateway.org/dataset/8daf5886-4813-465d-9145-3585a8c584bb)
 - [Unscheduled Care Data Mart](https://web.www.healthdatagateway.org/dataset/8f54b1ad-b8cd-44a3-94d7-c98133ca913d)
 - [Eye images and retinopathy grades in diabetic eye screening](https://web.www.healthdatagateway.org/dataset/8fc6bf25-df25-429f-be41-b7d5ffd4ff15)
 - [COVID-19 COG-UK Viral Genome (variant strain data)](https://web.www.healthdatagateway.org/dataset/90ace555-da01-4940-a3ef-78bb83976ff0)
@@ -785,7 +787,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Ventilatory strategies, medications and outcomes for patients with COVID](https://web.www.healthdatagateway.org/dataset/c01fbdae-33e3-4839-b842-3b61a722a925)
 - [COVID-19 Vaccination Status](https://web.www.healthdatagateway.org/dataset/c230a8d8-bf78-4713-8f2f-312162e92e55)
 - [National Waiting List Open Pathways](https://web.www.healthdatagateway.org/dataset/c47f463f-6e7e-4abb-b9bc-010ae68156b7)
-- [Fife Microbiology: Isolations](https://web.www.healthdatagateway.org/dataset/c4985b2b-c972-4b7a-a0b0-2d841a63bad6)
 - [Child Health Systems Programme - 4-5 year review](https://web.www.healthdatagateway.org/dataset/c6859b1b-4d5b-46bd-8532-089cff743be7)
 - [UHB Linked Diabetic Eye Disease in Acute Diabetic Hospital Admissions](https://web.www.healthdatagateway.org/dataset/c8654ef8-585c-4ac4-ac0e-33a875d407a1)
 - [Tayside Bowel Screening Dataset](https://web.www.healthdatagateway.org/dataset/c885e039-1c1b-45f7-8acf-79a54fa3ab02)
