@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (796)
+## HDR UK Datasets (798)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -554,7 +554,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (305)
+### None (307)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
@@ -698,6 +698,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Moorfields DMO Dataset Release 001](https://web.www.healthdatagateway.org/dataset/77422eb1-7bdb-4205-b3d0-57d1add35317)
 - [Lifelong Learning Wales Record (LLWR)](https://web.www.healthdatagateway.org/dataset/77b48222-3a00-4dcc-b0ef-3f99dfae697e)
 - [1958 National Child Development Study - Pain data](https://web.www.healthdatagateway.org/dataset/77dc7118-443c-4c85-a18c-e7bbe01e9e7a)
+- [CAPS](https://web.www.healthdatagateway.org/dataset/7964fc83-017a-4786-918e-bab61f7ddd99)
 - [Synthetic Dataset - Patients at risk of sudden death: hypertrophic cardiomyopathy](https://web.www.healthdatagateway.org/dataset/796d97b4-6f3d-4ee8-8966-9238efdcac2d)
 - [Education Wales (EDUW)](https://web.www.healthdatagateway.org/dataset/7aa38c5c-771c-4157-a008-32051a5aed4b)
 - [GPES Data for Pandemic Planning and Research (COVID-19)](https://web.www.healthdatagateway.org/dataset/7d313fa6-941f-48ca-93e1-05d912d183ac)
@@ -754,6 +755,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Scottish Stillbirth and Infant Death Survey](https://web.www.healthdatagateway.org/dataset/a6252de5-4fc3-4dc7-950b-2f2528f58533)
 - [Child Health Systems Programme - First Visit](https://web.www.healthdatagateway.org/dataset/a69493b6-991d-40b5-ba81-2f70c424c557)
 - [National Records of Scotland (NRS) - Births Data](https://web.www.healthdatagateway.org/dataset/a7447f01-c3fd-43f1-8fc4-3e6f3b6e59ef)
+- [The 1970 British Cohort Study (BCS70)](https://web.www.healthdatagateway.org/dataset/a8364fd6-2247-4ef0-af8c-51c7b3ec24cd)
 - [Scottish Immunisation Recall System (SIRS)](https://web.www.healthdatagateway.org/dataset/a8c8978f-b5dc-448c-9a03-4d961d79a863)
 - [COVID-19 Wastewater data](https://web.www.healthdatagateway.org/dataset/a95be055-c758-45e7-9010-80337239c5e8)
 - [Assessing the eDPSEEA model in seasonal pollen induced asthma in Islamabad](https://web.www.healthdatagateway.org/dataset/aad2340a-ab87-40ee-bfbe-c56adb01fd47)
