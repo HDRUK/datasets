@@ -795,6 +795,95 @@
     ]
   },
   {
+    "pid": "1fb479b1-98d4-4d7b-91a2-8368ce3dc77c",
+    "id": "03cdf92e-b6ea-4e1d-a861-e9da4372ed36",
+    "publisher": null,
+    "title": "NIHR BioResource: Consent records",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
     "pid": "529f126b-660c-4c31-aeb2-765dac1d9df0",
     "id": "03fb3b18-4419-44f7-a035-9ddfecfcadfc",
     "publisher": "OTHER > UNIVERSITY COLLEGE LONDON",
@@ -6496,47 +6585,6 @@
     ]
   },
   {
-    "pid": "39d7ad29-be30-4e12-a7c8-d8757141de85",
-    "id": "1fcbb814-10e0-43b7-b383-b5c818090ac8",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: SNP imputation data",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA,PLASMA,SERUM' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "059a6495-a7d5-435b-8e2b-806c6ccccf2e",
     "id": "203cc8b4-7711-4d1f-9213-af982d6cff28",
     "publisher": "ALLIANCE > HQIP",
@@ -6858,6 +6906,95 @@
       {
         "attribute": "title",
         "message": "title: 'South London and Maudsley NHS Foundation Trust (SLaM) Clinical Record Interactive Search (CRIS) platform' is too long"
+      }
+    ]
+  },
+  {
+    "pid": "261bcf76-8621-4f0d-b2e6-310993d73daa",
+    "id": "21d1277b-baf8-4fb8-826e-3f4910d18098",
+    "publisher": null,
+    "title": "NIHR BioResource: Returned datasets",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
       }
     ]
   },
@@ -11106,6 +11243,95 @@
     ]
   },
   {
+    "pid": "321e3ad6-96b9-4f19-bbc4-d06dfe2a59d5",
+    "id": "35919e8c-5cea-4d79-bf3f-e28efec1b686",
+    "publisher": null,
+    "title": "NIHR BioResource: Full Blood Counts",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
     "pid": "855a84b2-9d58-4b2b-a450-b6c6d534e403",
     "id": "35cc06b0-3de1-45b0-8d40-9a8da9b77866",
     "publisher": null,
@@ -13935,51 +14161,6 @@
     ]
   },
   {
-    "pid": "3731006a-ee7c-4d15-bc07-4eeb29a3d031",
-    "id": "3f1d93ae-792e-4f0c-8cb7-40413b81e132",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: NHS Trust data",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA,PLASMA,SERUM' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "9ea2f685-d6c2-49fe-a0e2-735910584d67",
     "id": "3f4b5de2-6434-4ec2-8175-d9450668da4a",
     "publisher": null,
@@ -16778,6 +16959,95 @@
     ]
   },
   {
+    "pid": "c388676c-a5e5-419c-967c-239c1f0c3c5c",
+    "id": "4d560a49-6ab2-460c-980f-94d76d1527f2",
+    "publisher": null,
+    "title": "NIHR BioResource: SNP chip data",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
     "pid": "c6e0e70e-7f23-4a44-a2cf-1d7d87be7808",
     "id": "4dd3f23c-44be-4126-aac5-ba655d07855c",
     "publisher": "ALLIANCE > TISSUE DIRECTORY",
@@ -17434,47 +17704,6 @@
       {
         "attribute": "accessRequestDuration",
         "message": "accessRequestDuration: 'OTHER' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      }
-    ]
-  },
-  {
-    "pid": "c388676c-a5e5-419c-967c-239c1f0c3c5c",
-    "id": "52a467b0-5401-4818-9c16-2e41d68704c1",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: SNP chip data",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA,PLASMA,SERUM' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -19278,6 +19507,95 @@
     "id": "5de4bedb-32a9-4a66-9c92-5987453794f1",
     "publisher": null,
     "title": "Public Health Research Database (PHRD)",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "pid": "4b8675d3-dd87-4cca-804c-aaf0e4ff8140",
+    "id": "5de9d313-fb9f-4dbf-a959-1329062eb1ef",
+    "publisher": null,
+    "title": "NIHR BioResource: Case report form",
     "schema_error_count": 20,
     "errors": [
       {
@@ -24033,6 +24351,95 @@
     ]
   },
   {
+    "pid": "39d7ad29-be30-4e12-a7c8-d8757141de85",
+    "id": "7257d45c-6697-4c49-bbce-de0d456c0678",
+    "publisher": null,
+    "title": "NIHR BioResource: SNP imputation data",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
     "pid": "5505e91d-9e0a-4969-87d5-00f256d91306",
     "id": "72fe91de-b0c0-423a-ad68-bd7067b20ad8",
     "publisher": "ALLIANCE > OXFORD UNIVERSITY HOSPITALS NHS TRUST",
@@ -24359,6 +24766,95 @@
     "id": "747d57aa-a02b-411c-9403-2e3ec9d3e5b5",
     "publisher": null,
     "title": "NIHR IBD BioResource: Contact detail",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "pid": "dec09f2e-a93f-41e2-8217-72431ea4a19e",
+    "id": "74b54e34-0e01-4447-be1d-e9da3e03cd2e",
+    "publisher": null,
+    "title": "NIHR BioResource: Metabolite data",
     "schema_error_count": 20,
     "errors": [
       {
@@ -29065,52 +29561,6 @@
     ]
   },
   {
-    "pid": "d2c486bb-b95b-4093-bb58-b196cfc08c7b",
-    "id": "8c573599-30cf-4708-bcbd-e2e37c795664",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: Demographic",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'LOCAL,NHS NATIONAL CODES' is not valid under any of the given schemas",
-        "suberrors": "    type: 'LOCAL,NHS NATIONAL CODES' is not of type 'array'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA,PLASMA,SERUM' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "10bf4c08-6702-44fe-8faa-1280dea6b0c9",
     "id": "8c7abca7-4292-4d1f-b311-c132a7adf109",
     "publisher": "ALLIANCE > BARTS HEALTH",
@@ -33457,52 +33907,6 @@
     ]
   },
   {
-    "pid": "4b8675d3-dd87-4cca-804c-aaf0e4ff8140",
-    "id": "a182b27f-5000-40f0-8afd-f2f193a31b7d",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: Case report form",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'SNOMED CT,HPO' is not valid under any of the given schemas",
-        "suberrors": "    type: 'SNOMED CT,HPO' is not of type 'array'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA,PLASMA,SERUM' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "7b31b427-b447-432e-9a6c-ad2099343491",
     "id": "a1a67182-e81b-4144-ac51-92a86f277eb2",
     "publisher": "ALLIANCE > NHS DIGITAL",
@@ -35127,6 +35531,95 @@
     "id": "a8364fd6-2247-4ef0-af8c-51c7b3ec24cd",
     "publisher": null,
     "title": "The 1970 British Cohort Study (BCS70)",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "pid": "3731006a-ee7c-4d15-bc07-4eeb29a3d031",
+    "id": "a889651d-a26e-4907-86a3-a06d100d13f5",
+    "publisher": null,
+    "title": "NIHR BioResource: NHS Trust data",
     "schema_error_count": 20,
     "errors": [
       {
@@ -40102,51 +40595,6 @@
     ]
   },
   {
-    "pid": "dec09f2e-a93f-41e2-8217-72431ea4a19e",
-    "id": "bf083b35-da74-4b82-87d3-203ba60325c6",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: Metabolite data",
-    "schema_error_count": 9,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA,PLASMA,SERUM' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "8ef26f38-d1b3-4b24-b80a-717f216c6aea",
     "id": "bf625cfe-c4b2-4ea8-bbe8-1a8873ca4cb9",
     "publisher": "UK Biobank",
@@ -42902,47 +43350,6 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
-      }
-    ]
-  },
-  {
-    "pid": "c20c2d81-c2d3-47cc-be38-93074467544c",
-    "id": "cf8a9d13-0ee9-494d-b50d-cef39e7823c8",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: Full Blood Counts",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA,PLASMA,SERUM' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
@@ -46199,6 +46606,95 @@
     ]
   },
   {
+    "pid": "d2c486bb-b95b-4093-bb58-b196cfc08c7b",
+    "id": "dfd65358-d5a4-40f1-873a-c8c304799cbf",
+    "publisher": null,
+    "title": "NIHR BioResource: Demographic",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
     "pid": "3efd9b30-1f84-48c0-a3e0-402ecb5c7724",
     "id": "dfedefac-c389-4d07-a8a3-eb2e4ff34587",
     "publisher": "ALLIANCE > HQIP",
@@ -46564,47 +47060,6 @@
       {
         "attribute": "periodicity",
         "message": "periodicity: 'STATIC' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": "1fb479b1-98d4-4d7b-91a2-8368ce3dc77c",
-    "id": "e2f18151-1bce-4a54-ab32-af6296abdfda",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: Consent records",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'NOT APPLICABLE' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'CONTINUOUS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
       },
       {
         "attribute": "physicalSampleAvailability",
@@ -50554,55 +51009,6 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
-      }
-    ]
-  },
-  {
-    "pid": "261bcf76-8621-4f0d-b2e6-310993d73daa",
-    "id": "fb274dd9-27ab-4eac-9432-90373a9837e6",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: Returned datasets",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'IRREGULAR' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'AVAILABILITY TO BE CONFIRMED' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
