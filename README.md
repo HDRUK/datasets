@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (821)
+## HDR UK Datasets (830)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -535,7 +535,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (349)
+### None (359)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
@@ -551,8 +551,10 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS Tayside and Fife Accident & Emergency Dataset (ISD/National)](https://web.www.healthdatagateway.org/dataset/0910383a-44d6-4652-98da-550df7204416)
 - [National Cardiac Audit Programme - National Heart Failure Audit](https://web.www.healthdatagateway.org/dataset/0969dc51-1ab9-469a-8b35-3ec63f30fa89)
 - [Development of ELISA and Rapid Testing Kits for COVID-19](https://web.www.healthdatagateway.org/dataset/09f04291-670d-4db0-a3e4-7e0d84555231)
+- [Lothian Birth Cohort 1921 (LBC1921)](https://web.www.healthdatagateway.org/dataset/0a137eec-4288-400b-8c47-0275319c9f09)
 - [Pathology Data from WRRS (PATH) - Legacy](https://web.www.healthdatagateway.org/dataset/0ac16d3d-5ca8-4e25-ad46-ce8e03a04e17)
 - [National Paediatric Diabetes Audit - survey of diabetes-related technologies](https://web.www.healthdatagateway.org/dataset/0afd2b0a-fee2-4002-b95a-36effe65a454)
+- [Determinants of Adolescent Social Wellbeing & Health (DASH)](https://web.www.healthdatagateway.org/dataset/0b06a5c0-f015-4ce6-bf53-cab304334ae0)
 - [NIHR IBD BioResource: NHS Trust data](https://web.www.healthdatagateway.org/dataset/0d65fabc-6cb0-4a77-a01d-cb341b0b053c)
 - [Renal Register – PHS National Dataset](https://web.www.healthdatagateway.org/dataset/0ddb1d67-e0b9-4b08-898c-9957a09d7e69)
 - [Healthcare Workers Risk Assessment (HWRA)](https://web.www.healthdatagateway.org/dataset/0e71fb49-9d05-4bc6-8737-2f2b1ff591b5)
@@ -566,6 +568,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Tayside Radiology](https://web.www.healthdatagateway.org/dataset/135f2650-ea0c-4cad-80ac-c86449a176a8)
 - [Referral to Treatment Times (RTTD)](https://web.www.healthdatagateway.org/dataset/140ce7b6-8a58-4d0f-a24b-81b0f4289a68)
 - [National Asthma and COPD Audit  (NACAP): secondary care  – CYP asthma (org)](https://web.www.healthdatagateway.org/dataset/147576e2-b445-4d36-aecc-d604302bd34e)
+- [Health and Employment After Fifty (HEAF)](https://web.www.healthdatagateway.org/dataset/15aebc30-1e52-4a36-8b17-f9801f35f649)
 - [2019 UK Parkinson's Audit - Physiotherapy](https://web.www.healthdatagateway.org/dataset/16d40748-66f1-4fc3-bdb3-7c8103cadeb7)
 - [Suspected Cancer Pathway Daily (SPCD)](https://web.www.healthdatagateway.org/dataset/16f11980-e2e7-4f79-8e33-39ba4dc3547f)
 - [National Asthma and COPD Audit (NACAP): COPD secondary care clinical dataset](https://web.www.healthdatagateway.org/dataset/17256ce7-dc04-497d-ac27-d0d60de22b00)
@@ -576,6 +579,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Deaths General Registrar Office – National Records Scotland](https://web.www.healthdatagateway.org/dataset/1c524f7c-ee22-4bdc-877b-8dddc03e3aa2)
 - [Sero-surveillance to monitor the trend of SARS-CoV-2 infection in rural India](https://web.www.healthdatagateway.org/dataset/1ca52b96-27d9-491a-b5f0-5787852d39d2)
 - [Tayside Microbiology: Tests](https://web.www.healthdatagateway.org/dataset/1d2acc70-0e2d-4601-bbbb-569a49bfaa5b)
+- [Moorfields Ophthalmic Prescription 004](https://web.www.healthdatagateway.org/dataset/1dfa9a06-55f3-4ed6-8b21-57b96b81366e)
 - [UK Renal Registry - CKD and AKI on Dialysis Dataset](https://web.www.healthdatagateway.org/dataset/1e875c15-4a99-4c3e-9621-e4ebf594469f)
 - [Emergency Care Data Set (ECDS)](https://web.www.healthdatagateway.org/dataset/1f6118ce-4051-4ba6-b13e-63dca0032d8d)
 - [Annual District Death Extract (ADDE)](https://web.www.healthdatagateway.org/dataset/207c4fd9-9ef9-492e-bf64-4c268289824b)
@@ -637,6 +641,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [NIHR BioResource: Sample holding](https://web.www.healthdatagateway.org/dataset/48deb24e-7a15-48d7-ba2c-c477ae61b55d)
 - [Health & Attainment of Pupils in a Primary Education Network (HAPN)](https://web.www.healthdatagateway.org/dataset/4a860548-406b-4a05-991e-0bc840e67974)
 - [Tayside & Fife Radiology](https://web.www.healthdatagateway.org/dataset/4abe1436-3a14-4779-aa03-28929e817411)
+- [South East London Community Health Study (SELCoH)](https://web.www.healthdatagateway.org/dataset/4b3d70f4-ce62-478b-9ada-0419850d17af)
 - [Systemic Anti-Cancer Therapy Dataset (SACT)](https://web.www.healthdatagateway.org/dataset/4b59ff6f-2830-4f2b-b35a-623ef4520eb8)
 - [National Early Inflammatory Arthritis Audit - organisational survey dataset](https://web.www.healthdatagateway.org/dataset/4b79bce2-6d1c-448b-969e-56b424f3d57a)
 - [Assessment of ASHA’s workload and its determinants](https://web.www.healthdatagateway.org/dataset/4c171540-5caa-42f7-868d-1d4d7b969f11)
@@ -746,6 +751,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [4 Country ChrOnic Respiratory Disease study: PILOT PHASE, Islamabad](https://web.www.healthdatagateway.org/dataset/95b26238-3379-4188-ad6c-a09657b77648)
 - [FFFAP -  National Hip Fracture Database Facilities Survey 2019](https://web.www.healthdatagateway.org/dataset/97771ec7-2abb-4d6e-b630-77c61a5e314a)
 - [CPRD COVID-19 Symptoms and Risk Factors Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/977ca75e-32da-4e60-a2e5-2bdf534a5986)
+- [Resilience, Ethnicity & Adolescent Mental Health (REACH)](https://web.www.healthdatagateway.org/dataset/97a5f21e-c0a9-4a04-978b-9f054d7b6bcf)
 - [Sars-CoV-2 Immunity & REinfection EvaluatioN (SIREN)](https://web.www.healthdatagateway.org/dataset/99b505ee-44c6-497d-b30b-3ce80eba4047)
 - [Blended learning for primary care physicians on COPD in Bangladesh](https://web.www.healthdatagateway.org/dataset/9a836aa8-60c7-4911-943e-477b0ae8bbb8)
 - [Systemic Anti-Cancer Therapy Dataset [SACT]](https://web.www.healthdatagateway.org/dataset/9abb8804-de89-4aba-8877-0e9a405870fe)
@@ -787,6 +793,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [SICSAG Episodes (Scottish Intensive Care Audit Group)](https://web.www.healthdatagateway.org/dataset/b07485ca-2d45-483d-9336-32cca4504712)
 - [HIV-POGO](https://web.www.healthdatagateway.org/dataset/b132812c-7a5c-4d2d-aca2-fdcdb890283a)
 - [Epilepsy 12 - National organisational audit and Trust profile](https://web.www.healthdatagateway.org/dataset/b1712bea-8198-4836-a153-b446ec4ab287)
+- [Lothian Birth Cohort 1936 (LBC1936)](https://web.www.healthdatagateway.org/dataset/b2f48da1-d3c6-4126-a74b-e87c2f629ef8)
 - [Fife Microbiology: Tests](https://web.www.healthdatagateway.org/dataset/b3004f9b-11a0-482b-9cec-791b28fd492e)
 - [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/b41215cd-afe1-4463-9786-ed86812143e2)
 - [National Vascular Registry - Lower Limb Angioplasty clinical dataset](https://web.www.healthdatagateway.org/dataset/b63aadf4-da85-478e-a171-05714ef9057e)
@@ -816,6 +823,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Brecon Dataset (BREC)](https://web.www.healthdatagateway.org/dataset/c94f3f11-1bc5-4b0e-9343-3fdd5763d8d6)
 - [COVID-19 Test Results (PATD)](https://web.www.healthdatagateway.org/dataset/c9809e56-5b29-4ab4-a5f3-f72a2d6419fc)
 - [NHS Tayside and Fife Haematology (Lab Data Restructured)](https://web.www.healthdatagateway.org/dataset/ca8c912d-82c4-481e-b17a-b567e3bf3c72)
+- [The Million Women Study](https://web.www.healthdatagateway.org/dataset/caab69a0-b560-4320-ac61-557f81f37ae3)
 - [Northern Ireland Regional Maternity system (NIMATS)](https://web.www.healthdatagateway.org/dataset/cace4854-a8de-4487-9c43-fe580b341d26)
 - [Congenital Anomaly Register and Information Service (CARIS)](https://web.www.healthdatagateway.org/dataset/cbab40e4-9e61-4466-b706-db47771d2512)
 - [Falls & Fragility Fracture Audit  Fracture Liaison Service  clinical dataset](https://web.www.healthdatagateway.org/dataset/cbb0568c-510e-49de-af43-edb9345535a8)
@@ -841,6 +849,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Outpatient Dataset (OPDW)](https://web.www.healthdatagateway.org/dataset/dc5507d0-807e-4981-906b-731690a5e085)
 - [Prescribing](https://web.www.healthdatagateway.org/dataset/dcd6f957-1fcc-481a-bbd2-89abfe933449)
 - [Decode-ME](https://web.www.healthdatagateway.org/dataset/dd6e4344-9cee-41f3-8062-6bb9cdfda012)
+- [VIKING GENES](https://web.www.healthdatagateway.org/dataset/ddf35f0d-ca89-4f74-bbdd-65d1a84b38ca)
 - [UK Renal Registry - COVID-19 dataset](https://web.www.healthdatagateway.org/dataset/de8d0b95-b968-45f2-8cd4-2c87d72ff729)
 - [Welsh Health Survey Dataset (WHSD)](https://web.www.healthdatagateway.org/dataset/df55c56f-b081-45f4-b265-ed1b2c6d94cd)
 - [MATCH](https://web.www.healthdatagateway.org/dataset/dfc16033-7620-4002-aa3b-e5bbc400bbfd)
@@ -865,6 +874,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Exercise Referral Scheme (NERS)](https://web.www.healthdatagateway.org/dataset/edac1d8a-af24-43a6-82a7-e15028d5a5db)
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/ee2350f2-c619-446e-9785-fce8e0ac9f44)
 - [Scottish Covid-19 Vaccination Data](https://web.www.healthdatagateway.org/dataset/eee15509-f23a-441e-b5be-ee76bd2ba649)
+- [Understanding Society](https://web.www.healthdatagateway.org/dataset/ef478925-7612-4cd6-a10e-5e64ee8a0f4d)
 - [GP Out of Hours](https://web.www.healthdatagateway.org/dataset/f08bfb75-f2b8-4afb-9c3d-59cdd2b6b3ce)
 - [Child Health Systems Programme - 13-15 Month Review](https://web.www.healthdatagateway.org/dataset/f16f0b1b-650d-486b-bc89-946b1623103e)
 - [Welsh Results Reports Service (WRRS)](https://web.www.healthdatagateway.org/dataset/f298cb2a-20bb-4607-933e-6951942ae6d7)
@@ -899,9 +909,6 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### OTHER > UNIVERSITY OF CAMBRIDGE (1)
 - [TRACK-COVID](https://web.www.healthdatagateway.org/dataset/d614f4fc-fae9-4775-86d9-4d4710017cf4)
-
-### OTHER > VIKING GENES (1)
-- [VIKING GENES](https://web.www.healthdatagateway.org/dataset/de794427-edf8-4c9e-b089-9d7b56d01373)
 
 ### UK Biobank (11)
 - [Exome sequencing](https://web.www.healthdatagateway.org/dataset/07b82dd5-adc3-42c5-8a60-914042b5bc40)
