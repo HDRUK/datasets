@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (830)
+## HDR UK Datasets (829)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -535,7 +535,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (359)
+### None (358)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/019aaff2-4b37-474e-b7c1-4223b224b788)
@@ -629,7 +629,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3e4d27e2-baa8-4bb5-a711-d0b36f1f278c)
 - [Higher Education Statistics Agency (HESA)](https://web.www.healthdatagateway.org/dataset/3ed8d3fe-92a3-43bc-9fba-274fb34847af)
 - [mHealth for pneumonia prevention](https://web.www.healthdatagateway.org/dataset/3ee4c2af-ff04-4dcf-830e-420e0a21a6d2)
-- [Suspected Cancer Pathway Daily (SCPD)](https://web.www.healthdatagateway.org/dataset/3f4b5de2-6434-4ec2-8175-d9450668da4a)
 - [Estimating Chronic Respiratory Disease burden in adults in Asian LMICs](https://web.www.healthdatagateway.org/dataset/3fd2760d-ab12-48ee-8b32-b229aead60a4)
 - [Welsh Dispensing Dataset (WDDS)](https://web.www.healthdatagateway.org/dataset/4232439b-610b-48ec-abe3-f8c8fe818817)
 - [National Asthma and COPD Audit (NACAP): secondary care  – CYP asthma (clinical)](https://web.www.healthdatagateway.org/dataset/425e39b4-cc2b-4a15-851a-a0093ef1e1f8)
