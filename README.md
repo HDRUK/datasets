@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (829)
+## HDR UK Datasets (828)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -507,13 +507,12 @@ This repo automatically collects the datasets published on the Gateway including
 - [Coagulopathies & arterial/venous thrombosis in COVID patients: an OMOP dataset](https://web.www.healthdatagateway.org/dataset/e22f93fb-bc08-44eb-b292-dc2baf0ad343)
 - [Ventilation strategies for patients on intensive care](https://web.www.healthdatagateway.org/dataset/f8a268c1-831c-4c80-b62c-e254a572b9a0)
 
-### NCS > OFFICE FOR NATIONAL STATISTICS (7)
+### NCS > OFFICE FOR NATIONAL STATISTICS (6)
 - [Census 2011 E&W - Household structure for COVID-19 models](https://web.www.healthdatagateway.org/dataset/0ac9438e-da8d-4488-bdc6-8285d1401b1d)
 - [Labour Force Survey (Longitudinal)](https://web.www.healthdatagateway.org/dataset/28bb6308-013f-47d3-8c4b-74720ad3901d)
 - [Coronavirus and the social impacts on Great Britain](https://web.www.healthdatagateway.org/dataset/575514e3-6e8f-4218-bd75-ff32742abc52)
 - [Covid-19 Infection Survey](https://web.www.healthdatagateway.org/dataset/67fa61c8-7973-4eb4-999c-fbed084d4445)
 - [Labour Force Survey (Person)](https://web.www.healthdatagateway.org/dataset/82b0be0d-3bd3-4a4e-a37d-be4c3b8a42f7)
-- [Linked Census and death occurrences](https://web.www.healthdatagateway.org/dataset/f1f17da0-0249-45a8-8491-ba52b43fbf33)
 - [Labour Force Survey (Household)](https://web.www.healthdatagateway.org/dataset/f25c8ba2-aa2f-4644-b017-b0a2aa76af65)
 
 ### NHSX (1)
