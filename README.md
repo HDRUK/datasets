@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (835)
+## HDR UK Datasets (836)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -530,7 +530,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (367)
+### None (368)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [BathTAP Switching Cohort 2](https://web.www.healthdatagateway.org/dataset/01a5c44c-c2fd-4c1e-856e-9875ee1beafa)
@@ -555,6 +555,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Better Rx BRIT2 Patient GP Dataset](https://web.www.healthdatagateway.org/dataset/0efcd6ce-4e7a-4f8e-8903-1a987ec76b1c)
 - [National Cardiac Audit Programme -  Congenital Heart Disease Audit (NCHDA)](https://web.www.healthdatagateway.org/dataset/0f1a2789-e8b3-4e36-9622-65d76cebff26)
 - [National Audit of Dementia - spotlight audit on  psychotropic medication, 2019](https://web.www.healthdatagateway.org/dataset/1045ca85-0c8f-453b-9da3-778144cf3744)
+- [COVID-19 Test Trace and Protect (CTTP)](https://web.www.healthdatagateway.org/dataset/1046cc4d-bd35-43de-a156-80bddb3eb415)
 - [Bangladesh Asthma Hajj Study](https://web.www.healthdatagateway.org/dataset/112db000-f69f-47a4-8dd7-db7b6d839e68)
 - [UK SARS-CoV-2 viral sequencing data (COG-UK) - Lineage/Variant Data - NI](https://web.www.healthdatagateway.org/dataset/115109e7-9a35-420f-831e-0707bc96375c)
 - [2019 UK Parkinson's Audit - Occupational therapy](https://web.www.healthdatagateway.org/dataset/125202ff-1d00-4f8e-96e1-1d5a310ab326)
@@ -619,7 +620,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS 111 Dataset (NHSO)](https://web.www.healthdatagateway.org/dataset/3ad98a4d-9018-4af0-9b7f-e9edcf9ac329)
 - [IBD NIHR BioResource: Demographic](https://web.www.healthdatagateway.org/dataset/3b8357ac-bf06-44c4-9a43-8e772bec709c)
 - [Active Adult Survey Dataset (AASD)](https://web.www.healthdatagateway.org/dataset/3c14d319-4ff5-42ff-b440-400f099f9b13)
-- [Cancer Network Information System (CNIS / CANISC)](https://web.www.healthdatagateway.org/dataset/3c54d5c1-fbf0-4f1e-979f-3b2251f9a26a)
 - [Intensive Care National Audit and Research Centre (ICCD)](https://web.www.healthdatagateway.org/dataset/3c87fdb6-c58a-4827-93c1-d50cfb708761)
 - [COG-UK Viral Genome Sequences](https://web.www.healthdatagateway.org/dataset/3cefb3f4-a463-4762-909b-3e4f3cef8e93)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3e4d27e2-baa8-4bb5-a711-d0b36f1f278c)
@@ -671,6 +671,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Moorfields AMD Dataset Release 002](https://web.www.healthdatagateway.org/dataset/5e9d4a4b-544c-4739-b079-62f353086fde)
 - [National Community Child Health Database (NCCHD)](https://web.www.healthdatagateway.org/dataset/5e9fba37-017b-4481-bc69-75ef1e005c2f)
 - [National Cancer Registration and Analysis Service](https://web.www.healthdatagateway.org/dataset/5ef3573a-274a-41e1-8f64-9330109d59d1)
+- [Annual District Birth Extract (ADBE)](https://web.www.healthdatagateway.org/dataset/5f52b9c2-a132-4690-a236-4573cf94cf90)
 - [Healthcare Workers Risk Assessment (HWRA)](https://web.www.healthdatagateway.org/dataset/62b7e273-1ec1-4eb1-b651-daebdb73cce3)
 - [Tayside Microbiology Lab](https://web.www.healthdatagateway.org/dataset/6421830a-148d-4f86-8cd3-cefb5177610c)
 - [Suspected Cancer Pathway Monthly (SPCM)](https://web.www.healthdatagateway.org/dataset/645168a0-21b1-4e13-85d8-266ad9040af8)
@@ -769,6 +770,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cafcass England (CAFE)](https://web.www.healthdatagateway.org/dataset/a2226588-3fce-4103-8960-6bb0b22631fb)
 - [Death Registration Data - Finalised Extracts](https://web.www.healthdatagateway.org/dataset/a239d453-7f49-4e80-a0ea-87a12d445df2)
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/a2a324f8-ccd3-405b-a146-34bbb85cc34a)
+- [Cancer Network Information System (CNIS / CANISC)](https://web.www.healthdatagateway.org/dataset/a30ac448-2900-4ab6-94d4-8b5822b32d95)
 - [NIHR IBD BioResource: Demographic](https://web.www.healthdatagateway.org/dataset/a4936ec2-002e-4927-9a46-29ae9b5d695f)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - England](https://web.www.healthdatagateway.org/dataset/a4a26b35-7014-42f0-bda9-97ac3a01a399)
 - [National Neonatal Audit Programme - clinical audit](https://web.www.healthdatagateway.org/dataset/a5272a57-4fdc-4110-a1ae-1433f9fb036d)
@@ -800,6 +802,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Fife Microbiology: Tests](https://web.www.healthdatagateway.org/dataset/b3004f9b-11a0-482b-9cec-791b28fd492e)
 - [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/b41215cd-afe1-4463-9786-ed86812143e2)
 - [National Vascular Registry - Lower Limb Angioplasty clinical dataset](https://web.www.healthdatagateway.org/dataset/b63aadf4-da85-478e-a171-05714ef9057e)
+- [DataLoch Core](https://web.www.healthdatagateway.org/dataset/b670cfe7-d4e2-46e5-b3e9-dccfd05c02d2)
 - [Welsh Demographic Service (WDSD)](https://web.www.healthdatagateway.org/dataset/b6f26b11-da8d-402a-91c7-3b7122be274c)
 - [Welsh Longitudinal GP Dataset - Welsh Primary Care (WLGP)](https://web.www.healthdatagateway.org/dataset/b6fe3b50-aff3-435d-9c57-8b46eaa34671)
 - [UHB 100K Genomics patient clinical data including their acute care contacts](https://web.www.healthdatagateway.org/dataset/b789c975-7042-445c-bfa6-c24e5ca8a983)
@@ -838,7 +841,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Cancer Network Information System - CNIS / CANISC](https://web.www.healthdatagateway.org/dataset/d3010e1b-09ea-49e5-a5fb-3cf5a030fda6)
 - [Follow-COVID](https://web.www.healthdatagateway.org/dataset/d524cd6b-14be-44a5-868c-f3e187d4e5d8)
 - [Use of digital auscultation to improve diagnosis of paediatric pneumonia](https://web.www.healthdatagateway.org/dataset/d5af13e0-cbcc-47f9-8d85-21867f198051)
-- [Annual District Birth Extract (ADBE)](https://web.www.healthdatagateway.org/dataset/d62892f9-539e-48be-b77e-d3f903d3d118)
 - [NACAP Pulmonary rehabilitation - clinical audit](https://web.www.healthdatagateway.org/dataset/d6d1588d-b65c-479d-8f15-7fddf5ed4cc0)
 - [Research on use of an online learning platform on under-five pneumonia](https://web.www.healthdatagateway.org/dataset/d7f1b4ab-ae3c-4318-afc9-1b561d46d442)
 - [BathTAP Headache Cohort 1](https://web.www.healthdatagateway.org/dataset/d864c698-b98c-4a1e-9c6a-7b941d61a35c)
@@ -892,7 +894,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS Tayside and Fife Immunology](https://web.www.healthdatagateway.org/dataset/fb65ff7c-fc02-402e-ab55-59765d7b0d43)
 - [Asymptomatic COVID-19 in Education (ACE) Cohort](https://web.www.healthdatagateway.org/dataset/fba3b66d-8d3a-473f-bb3d-537a6ab1fa7a)
 - [National Bowel Cancer Audit - clinical dataset](https://web.www.healthdatagateway.org/dataset/fc7ea07b-d60f-4be9-a840-89b17d4c2414)
-- [COVID-19 Test Trace and Protect (CTTP)](https://web.www.healthdatagateway.org/dataset/fdd5864f-c777-4e6c-a5a7-6c85968edc60)
 - [Covid Vaccination Dataset (CVVD)](https://web.www.healthdatagateway.org/dataset/fddd0686-1742-45ce-85d8-684a66aa7b30)
 - [UK SARS-CoV-2 viral sequencing data (COG-UK data)-Lineage/Variant Data-Scotland](https://web.www.healthdatagateway.org/dataset/fee7f039-99d6-4eab-951d-b35e0ae71a75)
 - [Enhancing access to pulmonary rehabilitation through implementation research](https://web.www.healthdatagateway.org/dataset/ff0ee5d5-aeb4-4dc0-bddf-79336e0ab004)
