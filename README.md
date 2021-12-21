@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (828)
+## HDR UK Datasets (835)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -530,7 +530,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (360)
+### None (367)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
 - [BathTAP Switching Cohort 2](https://web.www.healthdatagateway.org/dataset/01a5c44c-c2fd-4c1e-856e-9875ee1beafa)
@@ -581,6 +581,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Death Registration Data - Provisional Monthly Extracts](https://web.www.healthdatagateway.org/dataset/224f725d-9180-496a-8bae-3dab0099688f)
 - [NHS Tayside and Fife Accident & Emergency Dataset (PHS/National)](https://web.www.healthdatagateway.org/dataset/23d790f2-de80-4c7a-b57a-03c8467c54e9)
 - [Emergency Department Dataset Daily (EDDD)](https://web.www.healthdatagateway.org/dataset/24562202-5f76-4ada-9495-2260e3e7c42f)
+- [Characterisation of hospitalised COPD exacerbations using real world data](https://web.www.healthdatagateway.org/dataset/25237b18-98ef-4f94-862d-df0ed3f9d322)
 - [DOLORISK](https://web.www.healthdatagateway.org/dataset/260f4fb2-b40a-4e20-888d-1e3c9c2ddd8e)
 - [Child Health Systems Programme - 27-30Months Review](https://web.www.healthdatagateway.org/dataset/26ac9d75-df76-49e5-ba41-d4c0e83a8765)
 - [NIHR IBD BioResource: SNP chip data](https://web.www.healthdatagateway.org/dataset/27a97f1b-e7ac-4723-87db-0a4d9e3ed4b6)
@@ -643,6 +644,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Annual District Death Daily (ADDD)](https://web.www.healthdatagateway.org/dataset/4ddf1fe9-537e-4342-848d-8ec273979cba)
 - [Hospital Episode Statistics Outpatients](https://web.www.healthdatagateway.org/dataset/4ee43bb7-54a1-40a9-9a2a-4f07cd5b1920)
 - [National Audit of Dementia Round 4 - carer experience survey](https://web.www.healthdatagateway.org/dataset/4f3fff58-7c32-4879-8ac2-f3c7641fbb85)
+- [The impact of COVID on hospitalised patients with COPD and hospital services](https://web.www.healthdatagateway.org/dataset/500166ab-bfe9-43c8-bb18-b3d75d315c33)
 - [National Audit of Dementia Round 4 - staff questionnaire](https://web.www.healthdatagateway.org/dataset/51221591-a4d4-4b9f-a220-b72d860d99fd)
 - [SAIL Dementia e-Cohort (SDEC)](https://web.www.healthdatagateway.org/dataset/5255d52f-b094-4f23-a2d0-7de30e3f81fa)
 - [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/52a9c00b-b66c-48c6-84bb-3558faad7618)
@@ -659,6 +661,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Computational Framework to Interpret Chest X-rays and Diagnose Pneumonia](https://web.www.healthdatagateway.org/dataset/598ab9d9-04a3-4628-be64-d8f026d266ac)
 - [National Cardiac Audit Programme - Percutaneous Coronary Interventions (PCI)](https://web.www.healthdatagateway.org/dataset/59f5b724-234f-401d-a8f5-df35ea9ecdc9)
 - [National Cardiac Audit Programme - National Adult Cardiac Surgery Audit (NACSA)](https://web.www.healthdatagateway.org/dataset/5a6009f8-c74a-4e72-b2a1-83be100f7841)
+- [Longitudinal C-reactive protein concentrations in COVID-19: an OMOP dataset](https://web.www.healthdatagateway.org/dataset/5b456d15-cb68-4944-839c-c25a2986e572)
 - [National Waiting List Diagnostics](https://web.www.healthdatagateway.org/dataset/5ce6905a-8b54-4d6c-9da6-e2d57ce45419)
 - [Renal Register – ISD National dataset](https://web.www.healthdatagateway.org/dataset/5cf49b5c-bb8d-4ab2-90ce-74d801f7c090)
 - [Moorfields Ophthalmic Prescription 004](https://web.www.healthdatagateway.org/dataset/5d577e70-2b9b-4286-81f3-824978dc3069)
@@ -671,6 +674,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Healthcare Workers Risk Assessment (HWRA)](https://web.www.healthdatagateway.org/dataset/62b7e273-1ec1-4eb1-b651-daebdb73cce3)
 - [Tayside Microbiology Lab](https://web.www.healthdatagateway.org/dataset/6421830a-148d-4f86-8cd3-cefb5177610c)
 - [Suspected Cancer Pathway Monthly (SPCM)](https://web.www.healthdatagateway.org/dataset/645168a0-21b1-4e13-85d8-266ad9040af8)
+- [A synthetic dataset of 15,000 "patients" with Community Acquired Pneumonia (CAP)](https://web.www.healthdatagateway.org/dataset/645cb77f-30e7-42be-a07d-2384cee4966e)
 - [Trusted Research Environments for CVD-COVID-UK in England, Scotland, and Wales](https://web.www.healthdatagateway.org/dataset/646d65df-fc4c-4680-b949-79ec8f40b406)
 - [Civil Registration - Deaths](https://web.www.healthdatagateway.org/dataset/649261ce-833f-459e-908c-2ef93c5fed41)
 - [Falls and Fragility Fracture Audit  Programme - Inpatient Falls clinical dataset](https://web.www.healthdatagateway.org/dataset/65eaa19c-e4b6-4611-922a-4be585a6d348)
@@ -680,6 +684,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS Tayside and Fife Haematology](https://web.www.healthdatagateway.org/dataset/674c290e-36c6-4d9b-a908-a23e89a6745c)
 - [National Cardiac Audit Programme - Cardiac Rhythm Management (CRM)](https://web.www.healthdatagateway.org/dataset/6762c371-8f4a-4511-910a-faf85760eab2)
 - [National Waiting List Clock Stops](https://web.www.healthdatagateway.org/dataset/67ab8a56-99d7-4951-aacb-5dca0b8ffa35)
+- [Identification of Medical Admissions suitable for Same Day Emergency Care (SDEC)](https://web.www.healthdatagateway.org/dataset/67cd4bfc-5542-4f66-ae44-e06506ade057)
 - [UK Renal Registry - AKI Lab Alerts Dataset](https://web.www.healthdatagateway.org/dataset/682b4d85-732a-4440-922d-07191a604143)
 - [Tayside & Fife Diabetes – Summary and a range of diabetes related datasets.](https://web.www.healthdatagateway.org/dataset/69220bf9-f223-4e88-91c8-8ae8eab9f438)
 - [Deaths – CHI, Community Health Index](https://web.www.healthdatagateway.org/dataset/69833273-2b81-4657-8d80-5bafb2c0834d)
@@ -701,6 +706,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [CuT-AsthMa: Culturally tailored school-based intervention for asthma in Malaysia](https://web.www.healthdatagateway.org/dataset/70c318c4-b388-4102-924e-5419d44c1679)
 - [Moorfields DMO Dataset 003](https://web.www.healthdatagateway.org/dataset/719dd9c9-9aa5-426d-981a-57f0ad3f1480)
 - [NIHR BioResource: SNP imputation data](https://web.www.healthdatagateway.org/dataset/7257d45c-6697-4c49-bbce-de0d456c0678)
+- [Investigating the impact of frailty, age and illness severity during COVID-19](https://web.www.healthdatagateway.org/dataset/729c527a-7946-43d6-86f6-510ea9b3bc80)
 - [Postponed Admitted Procedures (CAPD)](https://web.www.healthdatagateway.org/dataset/73edba9a-3799-47e4-9a6e-a52321c21367)
 - [NIHR IBD BioResource: Contact detail](https://web.www.healthdatagateway.org/dataset/747d57aa-a02b-411c-9403-2e3ec9d3e5b5)
 - [NIHR BioResource: Metabolite data](https://web.www.healthdatagateway.org/dataset/74b54e34-0e01-4447-be1d-e9da3e03cd2e)
@@ -781,6 +787,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Walker Study Data](https://web.www.healthdatagateway.org/dataset/ac057e24-22d8-478e-8988-89fe4ee67b6c)
 - [Tayside Bowel Screening Dataset](https://web.www.healthdatagateway.org/dataset/ac7927ca-ef8b-47d7-abce-33a03baaac5c)
 - [2019 UK Parkinson's Audit - Elderly care and neurology](https://web.www.healthdatagateway.org/dataset/ad5dd22c-f6e1-4338-9d4e-80e4b9ec8f26)
+- [Hospitalised Community Acquired Pneumonia before & during the COVID-19 pandemic](https://web.www.healthdatagateway.org/dataset/adcf0833-2e4f-4604-8a8c-f4674a62ddcb)
 - [COVID antigen testing - Pillar 2](https://web.www.healthdatagateway.org/dataset/ae68c3c8-7930-40bd-86e8-7ca1aa6ce57d)
 - [Education Daily Attendance Dataset (EDAD)](https://web.www.healthdatagateway.org/dataset/af829238-feb6-4fc4-933a-b06812a6c1b8)
 - [National Audit of Care at the End of Life - organisational level audit](https://web.www.healthdatagateway.org/dataset/afc74c32-efdf-4aab-a0bb-fe5586f4af78)
