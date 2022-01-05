@@ -301,6 +301,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,2ec8d8e3-35bc-4304-83e8-3afed4438cd5,5d577e70-2b9b-4286-81f3-824978dc3069,HUB > INSIGHT,Moorfields Ophthalmic Prescription 004,Platinum,93.62,87.25,0.0
 2.0.1,a325f33e-bac8-49af-896f-1e025941dae8,5de4bedb-32a9-4a66-9c92-5987453794f1,NCS > OFFICE FOR NATIONAL STATISTICS,Public Health Research Database (PHRD),Platinum,91.61,83.22,0.0
 2.0.1,4b8675d3-dd87-4cca-804c-aaf0e4ff8140,5de9d313-fb9f-4dbf-a959-1329062eb1ef,ALLIANCE > NIHR BIORESOURCE,NIHR BioResource: Case report form,Platinum,93.62,87.25,0.0
+2.0.1,03280e87-6975-4a2a-967d-b332cb788e44,5e044863-b792-4256-aa45-3235a6546e39,ALLIANCE > HQIP,National Joint Registry - Primary Hip Replacement dataset,Platinum,93.62,87.25,0.0
 2.0.1,2d3ec99a-a087-4355-8539-5a22cef58910,5e19a471-64e3-4aa4-ac56-6901d5e39e28,HUB > DISCOVER NOW,North West London Mental Health Data (NWL MH),Platinum,94.19,91.17,2.79
 2.0.1,fa257aa8-51fc-4eb7-a448-e473fa54686d,5e2a7277-dc64-499a-b16d-51850d9ad00b,ALLIANCE > SAIL,Emergency Department Dataset Daily,Platinum,94.3,91.28,2.68
 2.0.1,10ffac16-d0c2-4d53-ab6a-69a38e283223,5e442584-9acd-4e8d-9448-5f8f2b937d56,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,NHS Tayside and Fife Biochemistry (Lab Data Restructured),Gold,89.93,79.87,0.0
@@ -412,7 +413,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,04cb9964-54fb-4529-b09b-735c3daa1c7b,7ed08209-f22e-4cdf-b8b5-e1d58b0bcaf9,ALLIANCE > PUBLIC HEALTH SCOTLAND,Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00),Platinum,91.95,83.89,0.0
 2.0.1,ce60d677-6263-4d41-9d45-d3c7ebb3ee36,7f49d025-11d9-4d04-9b77-19a2f5acf8e6,ALLIANCE > SAIL,Covid Lateral Flow Test (CVLF),Platinum,90.6,83.89,2.68
 2.0.1,21fb56d1-726f-40e3-a998-e4b34ba3e46f,7f4fb30c-2a09-4d75-bed2-114751e06723,HUB > INSIGHT,UHB Eye Image Dataset Release 001,Platinum,93.29,89.26,2.68
-2.0.1,3bb02d77-9678-4e6e-832d-c2ed3ede412c,7f6c7bdc-c0ee-40a1-95bf-aa4a10ca46a7,ALLIANCE > HQIP,National Neonatal Audit Programme - 2 year outcomes audit,Silver,77.18,70.47,16.11
 2.0.1,702f0198-bdfe-401e-97f2-35f5d26357ad,7fdb684d-bb7a-4d0b-8666-9f10510f071f,ALLIANCE > GENOMICS ENGLAND,GENOMICS ENGLAND 100K CANCER & COMMON,Platinum,92.98,91.64,5.67
 2.0.1,c0fc84af-aeab-4c7e-aa0b-8264baff55d9,80a7208f-c174-42bd-9127-e8f006de7c95,ALLIANCE > SAIL,COVID-19 Test Trace and Protect [CTTP],Platinum,93.29,89.26,2.68
 2.0.1,b32325d7-7f00-4d20-9935-dd02e1bc6932,80e9c439-4909-4534-8bfe-6f01fdec7de7,ALLIANCE > SAIL,Cervical Screening Wales,Platinum,94.3,91.28,2.68
@@ -511,7 +511,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,f5c9ba01-a9cb-4a85-9850-d9466b2ff4fb,9f7608a0-2424-457d-ba50-f51a4444403b,ALLIANCE > CPRD,Patient postcode linked deprivation measures for CPRD GOLD,Platinum,90.27,81.21,0.67
 2.0.1,7465c65e-c321-42e9-a2f4-6bc664caf1fc,a0292641-9e1a-495d-a7f2-d9ce87ff0b88,ALLIANCE > SAIL,Outpatient Referral (OPRD),Platinum,94.3,88.59,0.0
 2.0.1,636e216a-072b-4c8b-b867-23b7666d2cb2,a06afa88-caba-4354-ac70-d05c67b34dfc,ALLIANCE > TISSUE DIRECTORY,UK CLL Trials Biobank,Bronze,64.43,59.06,30.2
-2.0.1,03280e87-6975-4a2a-967d-b332cb788e44,a0c4719e-871b-450a-b977-689df35131dd,ALLIANCE > HQIP,National Joint Registry - Primary Hip Replacement dataset,Bronze,67.79,60.4,24.83
 2.0.1,2439a88e-d961-4152-a7b5-042097946209,a1164dbd-4057-45a2-9860-cbb69696bd7c,ALLIANCE > CPRD,HES Patient Reported Outcomes Measures (PROMs) data for CPRD GOLD,Platinum,91.28,83.89,1.34
 2.0.1,14c697a5-2d41-4d86-bf17-2e596d07418b,a11a234b-8b59-41e8-920a-f8f1799d3c77,ALLIANCE > UK Biobank,Biological sample assays,Bronze,61.74,53.02,29.53
 2.0.1,eecbdd8d-92a0-4dfd-a216-1cf7f1f8c98f,a1d41f64-76e1-4576-a906-f64a7fe664c4,ALLIANCE > HQIP,National Paediatric Diabetes Audit - Spotlight survey of diabetes-related technologies,Not Rated,50.34,30.2,29.53
@@ -526,7 +525,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,464d8653-4e69-406b-93fd-d68c29d5dfdc,a4eb97a6-6a61-415b-9dfb-65503675ed00,ALLIANCE > SAIL,Health & Attainment of Pupils in a Primary Education Network [HAPN],Platinum,91.95,89.26,5.37
 2.0.1,79ae4881-6223-471a-a278-6b2d3b84f971,a513dd3b-7e58-4d7f-8164-0a4dbe0a96c0,ALLIANCE > HQIP,Paediatric Intensive Care Audit Network - core dataset (referral),Not Rated,51.68,30.2,26.85
 2.0.1,d0694e15-b6ba-4a95-962a-dbf627ca207c,a5163bce-7c03-4e61-8ebc-024939c047a8,ALLIANCE > TISSUE DIRECTORY,UK ME/CFS Biobank,Bronze,64.43,59.06,30.2
-2.0.1,382e897a-77cf-46ca-8d44-d79449ab61df,a5272a57-4fdc-4110-a1ae-1433f9fb036d,ALLIANCE > HQIP,National Neonatal Audit Programme - clinical audit,Silver,77.18,70.47,16.11
 2.0.1,a7d8c6a8-0825-4e73-8f29-3d76194d7114,a53b2f7a-c4a6-4914-9adb-17946c58afad,ALLIANCE > CPRD,Rural-Urban classification for CPRD GOLD,Gold,87.58,78.52,3.36
 2.0.1,95f385b1-4f5c-4a88-8e79-9613acc66938,a5b41636-a112-4631-aaee-215bc4cf200e,HUB > BREATHE,Air Quality Study: An ecological analysis of asthma health outcomes in Malaysia,Bronze,68.46,53.02,16.11
 2.0.1,d472a895-8587-4503-956e-3bd66d990979,a5c088cd-dae6-4c58-b381-a0d273585f4d,ALLIANCE > UNIVERSITY HOSPITALS OF LEICESTER,The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease,Not Rated,50.34,30.2,29.53
@@ -666,6 +664,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,da91f0eb-1761-485b-8b7f-9121b6a1d004,d3010e1b-09ea-49e5-a5fb-3cf5a030fda6,ALLIANCE > SAIL,Cancer Network Information System - CNIS / CANISC,Platinum,91.61,85.91,2.68
 2.0.1,7c789df2-46f0-4e0e-b6ff-b04dce801445,d3523bb1-c129-4574-ba26-839ba1d3a320,ALLIANCE > HQIP,National Diabetes Audit - National Diabetes in Pregnancy clinical Audit dataset,Not Rated,51.68,30.2,26.85
 2.0.1,12a77014-4a77-4eb1-8b26-f49689352d1b,d42aa93a-ecc3-480b-a55b-d089dbc11413,ALLIANCE > SAIL,Annual District Birth Extract (ADBE),Platinum,94.3,88.59,0.0
+2.0.1,49b67625-4c9a-4101-a982-e733e7db20ca,d4683e8d-9c3f-4e5e-874c-80333a1ef719,ALLIANCE > HQIP,National Neonatal Audit Programme - clinical audit,Platinum,91.61,83.22,0.0
 2.0.1,e50d2b20-ef95-43fe-bbf0-83224d88e480,d524cd6b-14be-44a5-868c-f3e187d4e5d8,ALLIANCE > HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE,Follow-COVID,Platinum,91.61,83.22,0.0
 2.0.1,c1fa9b47-a954-4587-a0c2-bae0f3ec2b9b,d58d02f1-47c2-44fc-b16e-4f6cbbb46e62,OTHER > The University of Cambridge,INTERVAL,Bronze,68.12,60.4,24.16
 2.0.1,198bd2cc-ca40-4dff-992c-a9480703fc37,d5af13e0-cbcc-47f9-8d85-21867f198051,HUB > BREATHE,Use of digital auscultation to improve diagnosis of paediatric pneumonia,Silver,71.81,59.73,16.11

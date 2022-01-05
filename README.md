@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (844)
+## HDR UK Datasets (843)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -86,7 +86,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > GREAT ORMOND STREET HOSPITAL (1)
 - [COVID-19 Staff Testing of Antibody Responses Study (Co-STARS)](https://web.www.healthdatagateway.org/dataset/e79c5f26-deb0-4531-834d-58912c9fe663)
 
-### ALLIANCE > HQIP (58)
+### ALLIANCE > HQIP (57)
 - [National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures](https://web.www.healthdatagateway.org/dataset/00ffee70-43d6-4a81-8568-32b0b6d9e39c)
 - [National Diabetes Audit - Core Clinical Audit Dataset](https://web.www.healthdatagateway.org/dataset/02a6e7b7-ccf8-4446-b899-74065c8b3dd9)
 - [National Asthma and COPD Audit Programme (NACAP):COPD and adult asthma secondary care organisational dataset](https://web.www.healthdatagateway.org/dataset/04fb4aac-415b-4493-986b-65bbef5214d3)
@@ -121,7 +121,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Clinical Audit of Anxiety and Depression - spotlight audit on psychological therapies (patient experience survey)](https://web.www.healthdatagateway.org/dataset/8dc64dc2-91e0-4a43-9524-1658df371301)
 - [National Asthma and COPD Audit Programme (NACAP): Pulmonary rehabilitation - clinical audit](https://web.www.healthdatagateway.org/dataset/91b2fdab-1d0e-41a1-a9cc-1ebb536c7ee5)
 - [National Cardiac Audit Programme - National Congenital Heart Disease Audit (NCHDA)](https://web.www.healthdatagateway.org/dataset/9b7d2306-35e2-44a3-a97d-0b0e03a15336)
-- [National Joint Registry - Primary Hip Replacement dataset](https://web.www.healthdatagateway.org/dataset/a0c4719e-871b-450a-b977-689df35131dd)
 - [National Paediatric Diabetes Audit - Spotlight survey of diabetes-related technologies](https://web.www.healthdatagateway.org/dataset/a1d41f64-76e1-4576-a906-f64a7fe664c4)
 - [Paediatric Intensive Care Audit Network - core dataset (referral)](https://web.www.healthdatagateway.org/dataset/a513dd3b-7e58-4d7f-8164-0a4dbe0a96c0)
 - [Paediatric Intensive Care Audit Network - core dataset (transport)](https://web.www.healthdatagateway.org/dataset/a8bfd0c4-1aec-47cc-9e45-00a713482fa2)
@@ -670,6 +669,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Moorfields Ophthalmic Prescription 004](https://web.www.healthdatagateway.org/dataset/5d577e70-2b9b-4286-81f3-824978dc3069)
 - [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/5de4bedb-32a9-4a66-9c92-5987453794f1)
 - [NIHR BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/5de9d313-fb9f-4dbf-a959-1329062eb1ef)
+- [National Joint Registry - Primary Hip Replacement dataset](https://web.www.healthdatagateway.org/dataset/5e044863-b792-4256-aa45-3235a6546e39)
 - [NHS Tayside and Fife Biochemistry (Lab Data Restructured)](https://web.www.healthdatagateway.org/dataset/5e442584-9acd-4e8d-9448-5f8f2b937d56)
 - [Moorfields AMD Dataset Release 002](https://web.www.healthdatagateway.org/dataset/5e9d4a4b-544c-4739-b079-62f353086fde)
 - [National Community Child Health Database (NCCHD)](https://web.www.healthdatagateway.org/dataset/5e9fba37-017b-4481-bc69-75ef1e005c2f)
@@ -733,7 +733,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Next Steps](https://web.www.healthdatagateway.org/dataset/7ec7c8c4-770b-41f0-87d0-38ea232ae5bd)
 - [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/7ed08209-f22e-4cdf-b8b5-e1d58b0bcaf9)
 - [Covid Lateral Flow Test (CVLF)](https://web.www.healthdatagateway.org/dataset/7f49d025-11d9-4d04-9b77-19a2f5acf8e6)
-- [National Neonatal Audit Programme - 2 year outcomes audit](https://web.www.healthdatagateway.org/dataset/7f6c7bdc-c0ee-40a1-95bf-aa4a10ca46a7)
 - [Outpatient Dataset](https://web.www.healthdatagateway.org/dataset/8193e951-2ed8-4ccf-9fe5-5c2e6f933d60)
 - [NHS Tayside and Fife Immunology (Extractable)](https://web.www.healthdatagateway.org/dataset/8286eef9-0533-488e-bf19-8fc0fa1dd00b)
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/828bc515-6b42-4492-a77e-cf20226ba041)
@@ -778,7 +777,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Enhanced Prescribing Database](https://web.www.healthdatagateway.org/dataset/a2a324f8-ccd3-405b-a146-34bbb85cc34a)
 - [NIHR IBD BioResource: Demographic](https://web.www.healthdatagateway.org/dataset/a4936ec2-002e-4927-9a46-29ae9b5d695f)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - England](https://web.www.healthdatagateway.org/dataset/a4a26b35-7014-42f0-bda9-97ac3a01a399)
-- [National Neonatal Audit Programme - clinical audit](https://web.www.healthdatagateway.org/dataset/a5272a57-4fdc-4110-a1ae-1433f9fb036d)
 - [Air Quality Study: An ecological analysis of asthma health outcomes in Malaysia](https://web.www.healthdatagateway.org/dataset/a5b41636-a112-4631-aaee-215bc4cf200e)
 - [Patient Medical Card Registration (NI)](https://web.www.healthdatagateway.org/dataset/a5d1a44f-9e9d-4c6d-9ce0-53889d579781)
 - [Scottish Stillbirth and Infant Death Survey](https://web.www.healthdatagateway.org/dataset/a6252de5-4fc3-4dc7-950b-2f2528f58533)
@@ -845,6 +843,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [NIHR IBD BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/d2981964-3ff7-47e2-91e1-ac5812227a80)
 - [Cancer Network Information System - CNIS / CANISC](https://web.www.healthdatagateway.org/dataset/d3010e1b-09ea-49e5-a5fb-3cf5a030fda6)
 - [Annual District Birth Extract (ADBE)](https://web.www.healthdatagateway.org/dataset/d42aa93a-ecc3-480b-a55b-d089dbc11413)
+- [National Neonatal Audit Programme - clinical audit](https://web.www.healthdatagateway.org/dataset/d4683e8d-9c3f-4e5e-874c-80333a1ef719)
 - [Follow-COVID](https://web.www.healthdatagateway.org/dataset/d524cd6b-14be-44a5-868c-f3e187d4e5d8)
 - [Use of digital auscultation to improve diagnosis of paediatric pneumonia](https://web.www.healthdatagateway.org/dataset/d5af13e0-cbcc-47f9-8d85-21867f198051)
 - [NACAP Pulmonary rehabilitation - clinical audit](https://web.www.healthdatagateway.org/dataset/d6d1588d-b65c-479d-8f15-7fddf5ed4cc0)
