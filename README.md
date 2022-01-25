@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (851)
+## HDR UK Datasets (850)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -393,8 +393,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [GENOMICS ENGLAND 100K PHE LINKED DATA](https://web.www.healthdatagateway.org/dataset/62c01293-83a5-4d4d-9d36-9d7aa2bf120f)
 - [GENOMICS ENGLAND 100K CANCER & COMMON](https://web.www.healthdatagateway.org/dataset/7fdb684d-bb7a-4d0b-8666-9f10510f071f)
 
-### HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE (4)
-- [Patient SIMD Postcode](https://web.www.healthdatagateway.org/dataset/1db7ce43-0dc3-4fa9-8bc8-14db16aba508)
+### HEALTH INFORMATICS CENTRE - UNIVERSITY OF DUNDEE (3)
 - [NHS Tayside and Fife Haematology Biochemistry (Lab Data Restructured)](https://web.www.healthdatagateway.org/dataset/7858978f-30e8-42e7-abe4-d9af5447c278)
 - [Demography](https://web.www.healthdatagateway.org/dataset/93ad5a26-65f5-438f-b4e3-9f7078cc2f92)
 - [NHS Tayside, A&E Drugs given during an A&E visit](https://web.www.healthdatagateway.org/dataset/dba474a3-90c4-423d-beb0-5ef79c490d24)
