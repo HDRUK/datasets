@@ -8,11 +8,11 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (850)
+## HDR UK Datasets (851)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
-### ALLIANCE > BARTS HEALTH (18)
+### ALLIANCE > BARTS HEALTH (17)
 - [CDE Clinical Events](https://web.www.healthdatagateway.org/dataset/1092c90a-d3d5-4904-97ba-1861cfaddb65)
 - [CDE Patient Demographics](https://web.www.healthdatagateway.org/dataset/10b10bc5-ce28-4cc0-b006-2a0e6d03a72d)
 - [Somerset Cancer Registry](https://web.www.healthdatagateway.org/dataset/1e465797-5e54-4667-9120-d373e75be64f)
@@ -25,7 +25,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [CDE Documentation](https://web.www.healthdatagateway.org/dataset/8a91286f-3d29-40fc-ae5b-196c46a50426)
 - [Sectra PACS](https://web.www.healthdatagateway.org/dataset/8c7abca7-4292-4d1f-b311-c132a7adf109)
 - [Community Services Dataset](https://web.www.healthdatagateway.org/dataset/ae9e8a9f-533f-4823-8e00-84e39ad2c266)
-- [Outpatient Appointment Dataset](https://web.www.healthdatagateway.org/dataset/be0e737d-37a2-4af0-ac28-0bb7d3b49a52)
 - [Critical Care Minimum Dataset](https://web.www.healthdatagateway.org/dataset/cb020c3c-f738-4741-bf6b-3df16611b02e)
 - [Maternity Services Dataset](https://web.www.healthdatagateway.org/dataset/ce1bcddb-a6af-4511-84c6-2a252d3eb202)
 - [Freetext Dataset](https://web.www.healthdatagateway.org/dataset/ef727724-6c38-483b-b28d-8e94b5a9d7ac)
@@ -519,7 +518,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (393)
+### None (395)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -617,6 +616,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3e4d27e2-baa8-4bb5-a711-d0b36f1f278c)
 - [Higher Education Statistics Agency (HESA)](https://web.www.healthdatagateway.org/dataset/3ed8d3fe-92a3-43bc-9fba-274fb34847af)
 - [mHealth for pneumonia prevention](https://web.www.healthdatagateway.org/dataset/3ee4c2af-ff04-4dcf-830e-420e0a21a6d2)
+- [Outpatient Appointment Dataset](https://web.www.healthdatagateway.org/dataset/3f6962d8-1f4c-49b0-80a8-e491d5205827)
 - [National Paediatric Diabetes Audit - survey of workforce in PDUs](https://web.www.healthdatagateway.org/dataset/3fcdcced-e16a-4f04-a521-ffe1047f37cb)
 - [Estimating Chronic Respiratory Disease burden in adults in Asian LMICs](https://web.www.healthdatagateway.org/dataset/3fd2760d-ab12-48ee-8b32-b229aead60a4)
 - [Death Registration Data - Finalised Extracts](https://web.www.healthdatagateway.org/dataset/41f6dfe9-d5e2-4641-9953-1589c7d35e07)
@@ -624,6 +624,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Asthma and COPD Audit (NACAP): secondary care  – CYP asthma (clinical)](https://web.www.healthdatagateway.org/dataset/425e39b4-cc2b-4a15-851a-a0093ef1e1f8)
 - [Pathology - PATH](https://web.www.healthdatagateway.org/dataset/42e4299f-1e06-4e24-ab40-b71949f5cba3)
 - [Covid-19 Infection Survey linked with VOA and EPC data](https://web.www.healthdatagateway.org/dataset/4330b6ee-f333-4cd8-90b9-0f43f7cb0b67)
+- [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/459387f3-c484-441d-9abb-b6ee22df86d2)
 - [Developing and Evaluating Interventions to Improve Asthma Care](https://web.www.healthdatagateway.org/dataset/46f6e0d3-412e-4799-8683-1ca649b99eec)
 - [NIHR IBD BioResource: Consent records](https://web.www.healthdatagateway.org/dataset/47e26b2b-8be1-4595-a327-a9f00e0d4712)
 - [A granular assessment of the day-to-day variation in emergency presentations](https://web.www.healthdatagateway.org/dataset/483be944-b3ea-4037-b22b-4e9ffca3e613)
@@ -659,7 +660,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Waiting List Diagnostics](https://web.www.healthdatagateway.org/dataset/5ce6905a-8b54-4d6c-9da6-e2d57ce45419)
 - [Renal Register – ISD National dataset](https://web.www.healthdatagateway.org/dataset/5cf49b5c-bb8d-4ab2-90ce-74d801f7c090)
 - [Moorfields Ophthalmic Prescription 004](https://web.www.healthdatagateway.org/dataset/5d577e70-2b9b-4286-81f3-824978dc3069)
-- [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/5de4bedb-32a9-4a66-9c92-5987453794f1)
 - [NIHR BioResource: Case report form](https://web.www.healthdatagateway.org/dataset/5de9d313-fb9f-4dbf-a959-1329062eb1ef)
 - [National Joint Registry - Primary Hip Replacement dataset](https://web.www.healthdatagateway.org/dataset/5e044863-b792-4256-aa45-3235a6546e39)
 - [NHS Tayside and Fife Biochemistry (Lab Data Restructured)](https://web.www.healthdatagateway.org/dataset/5e442584-9acd-4e8d-9448-5f8f2b937d56)
@@ -889,6 +889,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Hospital Episode Statistics Accident and Emergency](https://web.www.healthdatagateway.org/dataset/ee2350f2-c619-446e-9785-fce8e0ac9f44)
 - [Scottish Covid-19 Vaccination Data](https://web.www.healthdatagateway.org/dataset/eee15509-f23a-441e-b5be-ee76bd2ba649)
 - [Understanding Society](https://web.www.healthdatagateway.org/dataset/ef478925-7612-4cd6-a10e-5e64ee8a0f4d)
+- [Coronavirus and the Social Impacts on Great Britain](https://web.www.healthdatagateway.org/dataset/f0109da2-6452-45a9-928e-5376dcb78609)
 - [GP Out of Hours](https://web.www.healthdatagateway.org/dataset/f08bfb75-f2b8-4afb-9c3d-59cdd2b6b3ce)
 - [Child Health Systems Programme - 13-15 Month Review](https://web.www.healthdatagateway.org/dataset/f16f0b1b-650d-486b-bc89-946b1623103e)
 - [Identification of Medical Admissions suitable for Same Day Emergency Care (SDEC)](https://web.www.healthdatagateway.org/dataset/f3957e36-25eb-4e0a-a69a-a1c0ce85cb4f)
