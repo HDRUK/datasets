@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (845)
+## HDR UK Datasets (844)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -79,7 +79,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### ALLIANCE > GREAT ORMOND STREET HOSPITAL (1)
 - [COVID-19 Staff Testing of Antibody Responses Study (Co-STARS)](https://web.www.healthdatagateway.org/dataset/e79c5f26-deb0-4531-834d-58912c9fe663)
 
-### ALLIANCE > HQIP (37)
+### ALLIANCE > HQIP (36)
 - [National Paediatric Diabetes Audit - Parent and Patient Recorded Experience measures](https://web.www.healthdatagateway.org/dataset/00ffee70-43d6-4a81-8568-32b0b6d9e39c)
 - [National Asthma and COPD Audit Programme (NACAP):COPD and adult asthma secondary care organisational dataset](https://web.www.healthdatagateway.org/dataset/04fb4aac-415b-4493-986b-65bbef5214d3)
 - [National Maternity and Perinatal Audit Organisational Survey 2019](https://web.www.healthdatagateway.org/dataset/1199f5b5-99f0-4aae-9769-ab754f05dcdb)
@@ -113,7 +113,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Asthma and COPD Audit Programme (NACAP): secondary care workstream – children and young people asthma (organisational)](https://web.www.healthdatagateway.org/dataset/dfedefac-c389-4d07-a8a3-eb2e4ff34587)
 - [National Asthma and COPD Audit Programme (NACAP): COPD secondary care clinical dataset](https://web.www.healthdatagateway.org/dataset/e6433c92-8439-4e2e-a3e7-016e7812dcfb)
 - [Falls and Fragility Fracture Audit Programme National Hip Database Facilities Survey 2019](https://web.www.healthdatagateway.org/dataset/ee099373-8a72-4ec7-818f-3cbb9c8a793d)
-- [National Maternity and Perinatal Audit clinical audit](https://web.www.healthdatagateway.org/dataset/f786ff92-f6bb-489e-bf27-c27d1a1a0ab1)
 - [National Asthma and COPD Audit Programme (NACAP): secondary care workstream – children and young people asthma (clinical)](https://web.www.healthdatagateway.org/dataset/fbb5d74c-802a-4888-9452-3e0faf257f82)
 - [National Vascular Registry Audit Carotid Endarterectomy Clinical Dataset](https://web.www.healthdatagateway.org/dataset/fc08ad6a-3e94-44db-a122-945c4c875616)
 - [Falls and Fragility Fracture Audit Programme National Hip Database clinical dataset](https://web.www.healthdatagateway.org/dataset/fed22efe-8a84-4b1e-a642-2412a1420ce8)
