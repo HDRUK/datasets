@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (844)
+## HDR UK Datasets (849)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -496,7 +496,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (410)
+### None (415)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -523,6 +523,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Problem, Diagnosis and Procedures](https://web.www.healthdatagateway.org/dataset/0cd32bab-357b-4ea2-bba0-eca90b7b36e9)
 - [NIHR IBD BioResource: NHS Trust data](https://web.www.healthdatagateway.org/dataset/0d65fabc-6cb0-4a77-a01d-cb341b0b053c)
 - [Renal Register – PHS National Dataset](https://web.www.healthdatagateway.org/dataset/0ddb1d67-e0b9-4b08-898c-9957a09d7e69)
+- [Cancer and cerebrovascular events: frequency, cancer types and outcomes](https://web.www.healthdatagateway.org/dataset/0e9e034a-913a-4764-8615-961c3647b268)
 - [Better Rx BRIT2 Patient GP Dataset](https://web.www.healthdatagateway.org/dataset/0efcd6ce-4e7a-4f8e-8903-1a987ec76b1c)
 - [National Cardiac Audit Programme -  Congenital Heart Disease Audit (NCHDA)](https://web.www.healthdatagateway.org/dataset/0f1a2789-e8b3-4e36-9622-65d76cebff26)
 - [National Audit of Dementia - spotlight audit on  psychotropic medication, 2019](https://web.www.healthdatagateway.org/dataset/1045ca85-0c8f-453b-9da3-778144cf3744)
@@ -595,6 +596,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS 111 Dataset (NHSO)](https://web.www.healthdatagateway.org/dataset/3ad98a4d-9018-4af0-9b7f-e9edcf9ac329)
 - [National Paediatric Diabetes Audit - Parent and Patient Experience measures](https://web.www.healthdatagateway.org/dataset/3adb43c7-cc13-423a-9625-8fd571bbcb26)
 - [IBD NIHR BioResource: Demographic](https://web.www.healthdatagateway.org/dataset/3b8357ac-bf06-44c4-9a43-8e772bec709c)
+- [Investigations, interventions, and outcomes for acute coronary syndrome](https://web.www.healthdatagateway.org/dataset/3b84d205-2175-4c9a-bbe3-d0e24434e625)
 - [Active Adult Survey Dataset (AASD)](https://web.www.healthdatagateway.org/dataset/3c14d319-4ff5-42ff-b440-400f099f9b13)
 - [Postponed Admitted Procedures (CAPD)](https://web.www.healthdatagateway.org/dataset/3c870bf2-acfb-44d1-8437-06ebb3c0993c)
 - [COG-UK Viral Genome Sequences](https://web.www.healthdatagateway.org/dataset/3cefb3f4-a463-4762-909b-3e4f3cef8e93)
@@ -761,6 +763,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [UK Renal Registry - Kidney PREM dataset](https://web.www.healthdatagateway.org/dataset/9cc82b97-d508-4cb9-98ca-0105aa897bb6)
 - [National Vascular Registry -  Abdominal Aortic Aneurysm Repair clinical dataset](https://web.www.healthdatagateway.org/dataset/9da5acec-1749-46a6-bf93-51457bbaa52c)
 - [Radiotherapy Dataset (RTDS)](https://web.www.healthdatagateway.org/dataset/9ea7a624-ce4c-460e-b68f-0655dac36765)
+- [Granular ICU data focussing on the impact of lactate readings on outcomes](https://web.www.healthdatagateway.org/dataset/9fe99176-1cbf-41f7-901d-245051dbe410)
 - [Outpatient Referral (OPRD)](https://web.www.healthdatagateway.org/dataset/a0292641-9e1a-495d-a7f2-d9ce87ff0b88)
 - [National Joint Registry - Revision Shoulder Replacement dataset](https://web.www.healthdatagateway.org/dataset/a03b66c6-f56d-40f8-bb9b-06751d97864c)
 - [Cafcass England (CAFE)](https://web.www.healthdatagateway.org/dataset/a2226588-3fce-4103-8960-6bb0b22631fb)
@@ -862,7 +865,9 @@ This repo automatically collects the datasets published on the Gateway including
 - [NIHR BioResource: Demographic](https://web.www.healthdatagateway.org/dataset/dfd65358-d5a4-40f1-873a-c8c304799cbf)
 - [COVID Tests](https://web.www.healthdatagateway.org/dataset/e00284e3-439b-4a6d-9781-679c539404f8)
 - [TwinsUK](https://web.www.healthdatagateway.org/dataset/e031cb49-e8ef-4fc8-91bb-d8bacb6afe7a)
+- [Laboratory turnaround times processing electronic blood test orders in the NHS](https://web.www.healthdatagateway.org/dataset/e05de62a-91be-46b8-8c1d-c9ed89d8c740)
 - [UK Renal Registry - Your Health Survey dataset](https://web.www.healthdatagateway.org/dataset/e096053e-b028-4487-a6d0-6958cbb5f388)
+- [The impact of multimorbidity on care pathways during COPD hospitalisations](https://web.www.healthdatagateway.org/dataset/e38ceae6-1ef7-4a26-90c9-9b0c920b3df7)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/e4a1be81-8f3c-4731-ae8a-7cbd594c78f5)
 - [Care Home Dataset (CARE)](https://web.www.healthdatagateway.org/dataset/e4a745d6-f44c-481a-b337-aae4cfe72594)
 - [NHS Scotland General Practice (GP) Contact Data - Subset](https://web.www.healthdatagateway.org/dataset/e5a0c70c-7429-487d-8dc7-04cf073191cc)
