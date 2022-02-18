@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (854)
+## HDR UK Datasets (855)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -495,7 +495,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (421)
+### None (422)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -531,6 +531,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [UK SARS-CoV-2 viral sequencing data (COG-UK) - Lineage/Variant Data - NI](https://web.www.healthdatagateway.org/dataset/115109e7-9a35-420f-831e-0707bc96375c)
 - [2019 UK Parkinson's Audit - Occupational therapy](https://web.www.healthdatagateway.org/dataset/125202ff-1d00-4f8e-96e1-1d5a310ab326)
 - [NIHR IBD BioResource: SNP imputation data](https://web.www.healthdatagateway.org/dataset/12d62b02-2167-407d-acdb-6ddb9d251d36)
+- [Cataract surgery and visual outcomes at QE Hospital, Birmingham, UK](https://web.www.healthdatagateway.org/dataset/131ccbe5-28dc-4abf-8a44-05f470d1be1d)
 - [Tayside Radiology](https://web.www.healthdatagateway.org/dataset/135f2650-ea0c-4cad-80ac-c86449a176a8)
 - [Referral to Treatment Times (RTTD)](https://web.www.healthdatagateway.org/dataset/140ce7b6-8a58-4d0f-a24b-81b0f4289a68)
 - [National Asthma and COPD Audit  (NACAP): secondary care  – CYP asthma (org)](https://web.www.healthdatagateway.org/dataset/147576e2-b445-4d36-aecc-d604302bd34e)
