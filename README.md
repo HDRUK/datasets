@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (862)
+## HDR UK Datasets (865)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -465,7 +465,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (459)
+### None (462)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -719,6 +719,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Trusted Research Environments for CVD-COVID-UK / COVID-IMPACT](https://web.www.healthdatagateway.org/dataset/83e177bb-5a05-4ec1-be22-272a0f985957)
 - [Quality of Life of Cancer Survivors: Pilot Patient Reported Outcomes (GOLD)](https://web.www.healthdatagateway.org/dataset/86e4b1ad-e63c-4ab1-80f3-5c136ce7e94e)
 - [HES Patient Reported Outcomes Measures (PROMs) data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/88bf4a0e-28ea-4124-8121-f20aed9147de)
+- [CPRD GOLD CHESS](https://web.www.healthdatagateway.org/dataset/88dced95-f51d-4207-91ae-9e506195a419)
 - [CPRD COVID-19 Symptoms and Risk Factors Synthetic Dataset](https://web.www.healthdatagateway.org/dataset/89fe9e07-0d2f-4363-83fe-bad3c732eb20)
 - [Studies Supported by NIHR CRN, ICD10 Coded, with Summary Site Recruitment Data](https://web.www.healthdatagateway.org/dataset/8a0d67e2-6daa-4ebe-913b-eb5ede8801ba)
 - [National Joint Registry - Primary Knee Replacement dataset](https://web.www.healthdatagateway.org/dataset/8a4d097a-3ef2-4452-b6e0-98e2baebb427)
@@ -794,6 +795,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Audit of Care at the End of Life - case note review](https://web.www.healthdatagateway.org/dataset/b05cb16b-80dc-4e16-8d86-8ee741a5e051)
 - [SICSAG Episodes (Scottish Intensive Care Audit Group)](https://web.www.healthdatagateway.org/dataset/b07485ca-2d45-483d-9336-32cca4504712)
 - [HIV-POGO](https://web.www.healthdatagateway.org/dataset/b132812c-7a5c-4d2d-aca2-fdcdb890283a)
+- [CPRD Aurum CHESS](https://web.www.healthdatagateway.org/dataset/b24500e6-4078-43ee-989c-1d425b9d3906)
 - [Lothian Birth Cohort 1936 (LBC1936)](https://web.www.healthdatagateway.org/dataset/b2f48da1-d3c6-4126-a74b-e87c2f629ef8)
 - [Fife Microbiology: Tests](https://web.www.healthdatagateway.org/dataset/b3004f9b-11a0-482b-9cec-791b28fd492e)
 - [National Vascular Registry - Lower Limb Angioplasty clinical dataset](https://web.www.healthdatagateway.org/dataset/b63aadf4-da85-478e-a171-05714ef9057e)
@@ -872,6 +874,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Laboratory turnaround times processing electronic blood test orders in the NHS](https://web.www.healthdatagateway.org/dataset/e05de62a-91be-46b8-8c1d-c9ed89d8c740)
 - [UK Renal Registry - Your Health Survey dataset](https://web.www.healthdatagateway.org/dataset/e096053e-b028-4487-a6d0-6958cbb5f388)
 - [Patient postcode linked deprivation measures for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/e17b9566-76e9-47b4-9cf9-26704e232992)
+- [Quality of Life of Cancer Survivors: Pilot Patient Reported Outcomes(Aurum)](https://web.www.healthdatagateway.org/dataset/e37a86dc-8544-46aa-8f91-923ced92e263)
 - [The impact of multimorbidity on care pathways during COPD hospitalisations](https://web.www.healthdatagateway.org/dataset/e38ceae6-1ef7-4a26-90c9-9b0c920b3df7)
 - [IBD Registry](https://web.www.healthdatagateway.org/dataset/e4a1be81-8f3c-4731-ae8a-7cbd594c78f5)
 - [Care Home Dataset (CARE)](https://web.www.healthdatagateway.org/dataset/e4a745d6-f44c-481a-b337-aae4cfe72594)
