@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (865)
+## HDR UK Datasets (870)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -465,7 +465,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (462)
+### None (467)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -517,6 +517,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [Patient Episode Dataset for Wales (PEDW)](https://web.www.healthdatagateway.org/dataset/196dc924-9289-4f31-900d-d9310dc34361)
 - [COVID-19 Consolidated Deaths (CDDS)](https://web.www.healthdatagateway.org/dataset/199b8c9f-baf2-4eb8-a8fe-783f58eceb2e)
+- [3CN (Cirrhosis Cohort)](https://web.www.healthdatagateway.org/dataset/1a2ecd43-745f-4a67-acd6-27023f1f9c5b)
 - [Diabetic Eye Screening: the Birmingham, Solihull and Black Country Data Set](https://web.www.healthdatagateway.org/dataset/1bafa55c-5616-47db-8ac8-798038146254)
 - [Deaths General Registrar Office – National Records Scotland](https://web.www.healthdatagateway.org/dataset/1c524f7c-ee22-4bdc-877b-8dddc03e3aa2)
 - [Sero-surveillance to monitor the trend of SARS-CoV-2 infection in rural India](https://web.www.healthdatagateway.org/dataset/1ca52b96-27d9-491a-b5f0-5787852d39d2)
@@ -609,6 +610,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Audit of Dementia Round 4 - staff questionnaire](https://web.www.healthdatagateway.org/dataset/51221591-a4d4-4b9f-a220-b72d860d99fd)
 - [Looked After Children Wales (LACW)](https://web.www.healthdatagateway.org/dataset/51ad73b3-dd3e-44ad-b941-0d5d12bcb0cd)
 - [Respiratory rate counters in paediatric pneumonia diagnosis](https://web.www.healthdatagateway.org/dataset/52db3903-e6c1-4f03-b6ee-909967fe3d16)
+- [Scarred Liver](https://web.www.healthdatagateway.org/dataset/53099fb6-18ff-4edc-b76d-225dade94db3)
 - [National Records of Scotland (NRS) - Deaths Data](https://web.www.healthdatagateway.org/dataset/53846ac7-61b7-4403-8556-c319d04b546d)
 - [Scottish Medical Imaging (SMI) Research Dataset](https://web.www.healthdatagateway.org/dataset/53dbbca0-b57d-4f93-8f05-37f626f9a7bc)
 - [Cervical Screening Wales (SCSW)](https://web.www.healthdatagateway.org/dataset/542bf16f-baea-4fca-be51-fcef9732494a)
@@ -710,9 +712,11 @@ This repo automatically collects the datasets published on the Gateway including
 - [Next Steps](https://web.www.healthdatagateway.org/dataset/7ec7c8c4-770b-41f0-87d0-38ea232ae5bd)
 - [Outpatient Appointments and Attendances - Scottish Morbidity Record (SMR00)](https://web.www.healthdatagateway.org/dataset/7ed08209-f22e-4cdf-b8b5-e1d58b0bcaf9)
 - [CDE Encounter](https://web.www.healthdatagateway.org/dataset/7f7860ee-6235-4e7d-95f3-df692f5d9630)
+- [Non-invasive assessment of portal hypertension using quantitative MRI (MRQuee)](https://web.www.healthdatagateway.org/dataset/80c05b85-685e-49c7-8d78-dff6d131ed2f)
 - [Outpatient Database for Wales (OPDW)](https://web.www.healthdatagateway.org/dataset/80fc6c81-dd24-4f5f-870e-6c1cb7a1766d)
 - [Outpatient Dataset](https://web.www.healthdatagateway.org/dataset/8193e951-2ed8-4ccf-9fe5-5c2e6f933d60)
 - [Weekly SUS Outpatients Dataset](https://web.www.healthdatagateway.org/dataset/81c28c63-7cbb-49ce-86b4-c83e1c15fdba)
+- [Longitudinal hospital prescribing data for >48,000 deeply phenotyped patients](https://web.www.healthdatagateway.org/dataset/8257e52b-acfb-4dab-8552-756bc12da659)
 - [NHS Tayside and Fife Immunology (Extractable)](https://web.www.healthdatagateway.org/dataset/8286eef9-0533-488e-bf19-8fc0fa1dd00b)
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/828bc515-6b42-4492-a77e-cf20226ba041)
 - [Hypertonic saline nasal irrigation and gargling for suspected COVID-19](https://web.www.healthdatagateway.org/dataset/830c22bb-4321-4fa3-ba04-be9b30518877)
@@ -724,6 +728,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Studies Supported by NIHR CRN, ICD10 Coded, with Summary Site Recruitment Data](https://web.www.healthdatagateway.org/dataset/8a0d67e2-6daa-4ebe-913b-eb5ede8801ba)
 - [National Joint Registry - Primary Knee Replacement dataset](https://web.www.healthdatagateway.org/dataset/8a4d097a-3ef2-4452-b6e0-98e2baebb427)
 - [National Joint Registry - Revision Ankle Replacement dataset](https://web.www.healthdatagateway.org/dataset/8bbfbc8c-dad2-4a0b-b255-4aae3687a371)
+- [A dataset of monitored patient safety indicators in 3 acute hospital settings](https://web.www.healthdatagateway.org/dataset/8bffc58f-c78c-43c4-b74b-c94479a76f91)
 - [Cancer Patient Experience Survey (CPES) for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/8d00d72e-d10a-4cbc-8f81-95339b25c517)
 - [Deaths – Date of Death](https://web.www.healthdatagateway.org/dataset/8d33b7a7-151a-4e2e-b87f-b14371e0cb37)
 - [Developing and evaluating interventions to improve asthma care: HEAL ASTHMA](https://web.www.healthdatagateway.org/dataset/8da6766c-df44-4414-a858-4415e473ea76)
