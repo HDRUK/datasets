@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (870)
+## HDR UK Datasets (859)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -326,9 +326,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [REQUITE](https://web.www.healthdatagateway.org/dataset/fede80e2-aea9-4229-8024-39b09110be7b)
 - [IMPORT HIGH trial blood samples](https://web.www.healthdatagateway.org/dataset/ff8231e5-3ede-4844-a21b-b1d05120e07e)
 
-### ALLIANCE > UK BIOBANK (1)
-- [Accelerometer](https://web.www.healthdatagateway.org/dataset/aecc1328-3c30-4eff-9f56-ae1278846ef9)
-
 ### ALLIANCE > UNIVERSITY HOSPITALS OF LEICESTER (3)
 - [The Leicester City and County Chronic Kidney Disease Cohort](https://web.www.healthdatagateway.org/dataset/039c0b29-63f6-4ce9-8d89-87012a52e44f)
 - [The Primary-Secondary Care Partnership to Improve Outcomes in Chronic Kidney Disease](https://web.www.healthdatagateway.org/dataset/a5c088cd-dae6-4c58-b381-a0d273585f4d)
@@ -465,7 +462,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (467)
+### None (468)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -513,7 +510,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Suspected Cancer Pathway Daily (SPCD)](https://web.www.healthdatagateway.org/dataset/16f11980-e2e7-4f79-8e33-39ba4dc3547f)
 - [Rural-Urban classification for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/17c58f15-93ab-4239-b05a-6b9ea82f6f37)
 - [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/185c4410-cea3-4bac-a192-1e1dd8842872)
-- [UK Biobank - Online Questionnaires](https://web.www.healthdatagateway.org/dataset/19231ac4-4256-46e5-958b-b98d12e036f8)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [Patient Episode Dataset for Wales (PEDW)](https://web.www.healthdatagateway.org/dataset/196dc924-9289-4f31-900d-d9310dc34361)
 - [COVID-19 Consolidated Deaths (CDDS)](https://web.www.healthdatagateway.org/dataset/199b8c9f-baf2-4eb8-a8fe-783f58eceb2e)
@@ -878,6 +874,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [COVID Tests](https://web.www.healthdatagateway.org/dataset/e00284e3-439b-4a6d-9781-679c539404f8)
 - [Laboratory turnaround times processing electronic blood test orders in the NHS](https://web.www.healthdatagateway.org/dataset/e05de62a-91be-46b8-8c1d-c9ed89d8c740)
 - [UK Renal Registry - Your Health Survey dataset](https://web.www.healthdatagateway.org/dataset/e096053e-b028-4487-a6d0-6958cbb5f388)
+- [Beta-blocker Stratification using MRI to assess portal pressure (B-SMaRT)](https://web.www.healthdatagateway.org/dataset/e09e1735-a54a-49cd-81f1-484040d76a5a)
 - [Patient postcode linked deprivation measures for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/e17b9566-76e9-47b4-9cf9-26704e232992)
 - [Quality of Life of Cancer Survivors: Pilot Patient Reported Outcomes(Aurum)](https://web.www.healthdatagateway.org/dataset/e37a86dc-8544-46aa-8f91-923ced92e263)
 - [The impact of multimorbidity on care pathways during COPD hospitalisations](https://web.www.healthdatagateway.org/dataset/e38ceae6-1ef7-4a26-90c9-9b0c920b3df7)
@@ -923,6 +920,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [NHS Tayside and Fife Immunology](https://web.www.healthdatagateway.org/dataset/fb65ff7c-fc02-402e-ab55-59765d7b0d43)
 - [Asymptomatic COVID-19 in Education (ACE) Cohort](https://web.www.healthdatagateway.org/dataset/fba3b66d-8d3a-473f-bb3d-537a6ab1fa7a)
 - [Systemic Anti-Cancer Treatment (SACT) data for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/fc4b3dea-b56b-4beb-87f0-921fb9d8836a)
+- [UK Biobank](https://web.www.healthdatagateway.org/dataset/fc739581-af49-45db-afc6-1777d017ecc2)
 - [National Bowel Cancer Audit - clinical dataset](https://web.www.healthdatagateway.org/dataset/fc7ea07b-d60f-4be9-a840-89b17d4c2414)
 - [CPRD GOLD SGSS](https://web.www.healthdatagateway.org/dataset/fdb46c60-780a-47fa-bc7e-e367c2f64900)
 - [National Joint Registry - Revision Knee Replacement dataset](https://web.www.healthdatagateway.org/dataset/fe168c6f-7533-413e-94fd-066fd845d7c0)
@@ -947,17 +945,4 @@ This repo automatically collects the datasets published on the Gateway including
 
 ### OTHER > UNIVERSITY OF CAMBRIDGE (1)
 - [TRACK-COVID](https://web.www.healthdatagateway.org/dataset/d614f4fc-fae9-4775-86d9-4d4710017cf4)
-
-### UK Biobank (11)
-- [Exome sequencing](https://web.www.healthdatagateway.org/dataset/07b82dd5-adc3-42c5-8a60-914042b5bc40)
-- [Death register](https://web.www.healthdatagateway.org/dataset/3a56c317-bf1b-448d-89ab-3421eae3aa18)
-- [Genotype](https://web.www.healthdatagateway.org/dataset/480ccd8a-309e-417a-ac23-5b2d9cd281b1)
-- [Biological samples](https://web.www.healthdatagateway.org/dataset/6e5916d4-017c-4542-bc71-edf6d4c5a055)
-- [Cancer register](https://web.www.healthdatagateway.org/dataset/75614b69-bc18-416b-9d27-fd8ca9fc4521)
-- [Imaging](https://web.www.healthdatagateway.org/dataset/93d26255-7199-4ea7-997d-f74890d12b87)
-- [Biological sample assays](https://web.www.healthdatagateway.org/dataset/a11a234b-8b59-41e8-920a-f8f1799d3c77)
-- [Primary-care data](https://web.www.healthdatagateway.org/dataset/b27afede-a51d-4aae-8bf7-ce94888fe898)
-- [UK Biobank Assessment Centre](https://web.www.healthdatagateway.org/dataset/bcb224fe-592f-4aaf-abd1-ad3e3caa61ff)
-- [Online questionnaires](https://web.www.healthdatagateway.org/dataset/bf625cfe-c4b2-4ea8-bbe8-1a8873ca4cb9)
-- [Hospital Inpatient data](https://web.www.healthdatagateway.org/dataset/fb2a851b-3f1c-4665-bbdb-5461f1f36bca)
 
