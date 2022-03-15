@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (859)
+## HDR UK Datasets (860)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -462,7 +462,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (468)
+### None (470)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -585,6 +585,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Asthma and COPD Audit (NACAP): secondary care  – CYP asthma (clinical)](https://web.www.healthdatagateway.org/dataset/425e39b4-cc2b-4a15-851a-a0093ef1e1f8)
 - [Pathology - PATH](https://web.www.healthdatagateway.org/dataset/42e4299f-1e06-4e24-ab40-b71949f5cba3)
 - [Covid-19 Infection Survey linked with VOA and EPC data](https://web.www.healthdatagateway.org/dataset/4330b6ee-f333-4cd8-90b9-0f43f7cb0b67)
+- [Urinary tract infections acute presentations: microbiology, treatment, outcome](https://web.www.healthdatagateway.org/dataset/434b2ec5-e5f2-4f06-9839-7b77f4935f4f)
 - [Public Health Research Database (PHRD)](https://web.www.healthdatagateway.org/dataset/459387f3-c484-441d-9abb-b6ee22df86d2)
 - [Developing and Evaluating Interventions to Improve Asthma Care](https://web.www.healthdatagateway.org/dataset/46f6e0d3-412e-4799-8683-1ca649b99eec)
 - [NIHR IBD BioResource: Consent records](https://web.www.healthdatagateway.org/dataset/47e26b2b-8be1-4595-a327-a9f00e0d4712)
@@ -691,6 +692,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Paediatric Diabetes Audit - core clinical dataset](https://web.www.healthdatagateway.org/dataset/75dabfb3-69b7-4192-b257-d0d814e5872d)
 - [National Exercise Referral Scheme](https://web.www.healthdatagateway.org/dataset/76535d6e-ce0c-407c-ba22-1b2420a1e654)
 - [Moorfields DMO Dataset Release 001](https://web.www.healthdatagateway.org/dataset/77422eb1-7bdb-4205-b3d0-57d1add35317)
+- [UK Longitudinal Linkage Collaboration (UK LLC)](https://web.www.healthdatagateway.org/dataset/77adbbe0-6cc7-426d-b485-4ac1f05a746b)
 - [Lifelong Learning Wales Record (LLWR)](https://web.www.healthdatagateway.org/dataset/77b48222-3a00-4dcc-b0ef-3f99dfae697e)
 - [1958 National Child Development Study - Pain data](https://web.www.healthdatagateway.org/dataset/77dc7118-443c-4c85-a18c-e7bbe01e9e7a)
 - [Maternity Indicators Dataset (MIDS)](https://web.www.healthdatagateway.org/dataset/77f4f3ec-31aa-4eb9-8896-a063ce831c9b)
@@ -935,9 +937,6 @@ This repo automatically collects the datasets published on the Gateway including
 ### OTHER > The University of Cambridge (2)
 - [COMPARE](https://web.www.healthdatagateway.org/dataset/84b6d047-2a05-4fc0-8537-809dbb3d18ed)
 - [INTERVAL](https://web.www.healthdatagateway.org/dataset/d58d02f1-47c2-44fc-b16e-4f6cbbb46e62)
-
-### OTHER > UK Longitudinal Linkage Collaboration (UK LLC) (1)
-- [UK Longitudinal Linkage Collaboration (UK LLC)](https://web.www.healthdatagateway.org/dataset/f93aea28-7592-42c0-a5e7-5802f0d6051f)
 
 ### OTHER > UNIVERSITY COLLEGE LONDON (2)
 - [COVIDsortium](https://web.www.healthdatagateway.org/dataset/03fb3b18-4419-44f7-a035-9ddfecfcadfc)
