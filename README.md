@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (864)
+## HDR UK Datasets (866)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -461,7 +461,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (475)
+### None (477)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -626,6 +626,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Joint Registry - Primary Ankle Replacement dataset](https://web.www.healthdatagateway.org/dataset/5ad2e0c9-f0ba-4947-90f7-b19431080f83)
 - [Longitudinal C-reactive protein concentrations in COVID-19: an OMOP dataset](https://web.www.healthdatagateway.org/dataset/5b456d15-cb68-4944-839c-c25a2986e572)
 - [Cancer registration data for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/5c2cd37f-a930-4e92-85a4-76394838ce90)
+- [HES Critical Care data for QResearch](https://web.www.healthdatagateway.org/dataset/5c4279f1-0646-4732-8e8c-80da42e52753)
 - [Mental Health Dataset (MHDS) for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/5ca0f47a-307f-448e-911c-24e01c79120f)
 - [Education Daily Attendance Dataset (EDAD)](https://web.www.healthdatagateway.org/dataset/5cd5a6a1-f7a2-4d83-a3e3-423495c3a281)
 - [National Waiting List Diagnostics](https://web.www.healthdatagateway.org/dataset/5ce6905a-8b54-4d6c-9da6-e2d57ce45419)
@@ -744,6 +745,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Demographic risk factors, biomarkers, physiology for Acute Compartment Syndrome](https://web.www.healthdatagateway.org/dataset/9147f060-0210-40a6-a557-ce744a63f912)
 - [Estimate the cost of care, quality of life and wider societal burden due to COPD](https://web.www.healthdatagateway.org/dataset/922f72c0-e3cb-4d89-a56f-50d938a87630)
 - [National Joint Registry - Revision Elbow Replacement dataset](https://web.www.healthdatagateway.org/dataset/925feb2c-195f-460c-bae7-f17ea652fd5d)
+- [QResearch®](https://web.www.healthdatagateway.org/dataset/92749128-f808-4891-9a16-c0a89e813b0b)
 - [Omega 3 Cohort](https://web.www.healthdatagateway.org/dataset/927beb63-f650-4972-a3ad-af8e29dc26a5)
 - [Exploring psychological issues of primary care teams in Malaysia amidst COVID-19](https://web.www.healthdatagateway.org/dataset/94188672-a44d-4ae3-8bb3-f249891a5af7)
 - [Covid Vaccination Dataset (CVVD)](https://web.www.healthdatagateway.org/dataset/94c7dca9-a96f-4e77-b156-96676a701834)
