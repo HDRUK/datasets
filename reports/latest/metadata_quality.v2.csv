@@ -161,6 +161,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,f06ec631-77d0-4b12-a21f-f11e7af49ba5,30524e8c-c92c-4f01-84bd-c5593ada3e43,ALLIANCE > NHS DIGITAL,Covid-19 UK Non-hospital Antigen Testing Results,Platinum,93.29,86.58,0.0
 2.0.1,e46dccbf-484d-45d2-a42a-4d308b87c113,30a0ee0e-d9f9-4341-b00c-2fab8f122b5f,ALLIANCE > TISSUE DIRECTORY,Watch and Wait Trial,Bronze,63.09,59.06,32.89
 2.0.1,602cbc9b-0113-4712-8c4a-0efe8d86b77c,30e1343e-0628-47aa-b4f6-756cdb6e54c6,ALLIANCE > SAIL,COVID-19 Sequence Data (CVSD),Platinum,94.63,89.26,0.0
+2.0.1,,30f14c5c-6eb0-4b58-ae3f-6d3390322579,ALLIANCE > UK Biobank,UK Biobank,Platinum,90.94,84.56,2.68
 2.0.1,98cda353-0011-45b2-80ca-4ed24cd084bf,31503f67-c546-4223-aec6-9255263e8b66,ALLIANCE > PUBLIC HEALTH SCOTLAND,General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01),Platinum,93.29,86.58,0.0
 2.0.1,9254f941-db57-4a97-922e-880b84855a21,320d4c1e-df08-4eaa-ab9f-bd342d1799a0,ALLIANCE > UNIVERSITY OF NOTTINGHAM,Webex Cohort,Bronze,65.44,46.98,16.11
 2.0.1,a4ecb8df-c72f-4018-8f23-e180c28dfdb6,32b56dc6-5731-4976-823b-86ea1625b9ed,ALLIANCE > CPRD,Cancer Patient Experience Survey (CPES) for CPRD GOLD,Platinum,94.3,89.26,0.67
@@ -172,7 +173,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,780c0a71-0264-4843-939d-1336eee60d40,3485968c-0ac8-4c90-bfb0-a9faca4a24f9,ALLIANCE > CPRD,CPRD Cardiovascular Disease Synthetic Dataset,Platinum,94.63,91.95,2.68
 2.0.1,2ba72371-1527-4d8d-94e2-f795e45b9f77,349f5326-67b5-4ff8-a9b8-8e6c4e42a9f2,ALLIANCE > HEALTH AND SOCIAL CARE NORTHERN IRELAND,Emergency Department (eEMS),Platinum,93.29,86.58,0.0
 2.0.1,9dc76035-dd6c-4246-8686-403087ed8890,34c47ecf-09ff-4f12-afaa-50c785d482c5,ALLIANCE > SAIL,Rural Payments Wales (RPWD),Platinum,94.63,89.26,0.0
-2.0.1,80564a6b-1458-41de-a131-772eb93c0509,34d2310f-c5f2-42c4-be1a-31c1ad579013,ALLIANCE > NHS DIGITAL,Hospital Episode Statistics Critical Care,Platinum,91.28,85.23,2.68
 2.0.1,b5439bc5-8141-4a13-a024-a6db2003b40e,34f9be53-2445-439b-8ca4-f151359d7e46,HUB > DATA-CAN,National Cancer TRE,Platinum,93.96,90.6,2.68
 2.0.1,4dd97609-2753-46ed-8066-3482d6dbdb34,3587e2f5-1cf5-4dd3-82ed-c36be7eab130,ALLIANCE > SAIL,Welsh Ambulance Services NHS Trust (WASD),Platinum,94.3,88.59,0.0
 2.0.1,1c455ad3-af51-4b93-aff4-c5d3dacfa9f4,359006d7-1c6c-43c2-8905-09b016398ae1,ALLIANCE > TISSUE DIRECTORY,BRAIN UK,Bronze,64.43,59.06,30.2
@@ -763,6 +763,7 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,10d0def8-dc03-473f-b60b-4c0dc3642a25,ece82228-9af1-4699-a763-b4608908b645,ALLIANCE > TISSUE DIRECTORY,NHS Grampian Biorepository,Bronze,64.43,59.06,30.2
 2.0.1,025c9e8a-938b-4886-9e03-fcad90fe7157,ee099373-8a72-4ec7-818f-3cbb9c8a793d,ALLIANCE > HQIP,Falls and Fragility Fracture Audit Programme National Hip Database Facilities Survey 2019,Not Rated,50.34,30.2,29.53
 2.0.1,33b1a989-5f61-412e-bdae-b551c92d1ed6,ee4a73ef-fb4e-4926-9fcc-db6b44b1447e,ALLIANCE > TISSUE DIRECTORY,The PEACE Study,Bronze,64.43,59.06,30.2
+2.0.1,80564a6b-1458-41de-a131-772eb93c0509,eec9fec3-2257-4dd2-a3a9-8c164322fbaa,ALLIANCE > NHS DIGITAL,Hospital Episode Statistics Critical Care,Platinum,91.28,85.23,2.68
 2.0.1,bcfd3b49-f7f0-489e-bc1b-bcce0bd261f2,eee15509-f23a-441e-b5be-ee76bd2ba649,ALLIANCE > PUBLIC HEALTH SCOTLAND,Scottish Covid-19 Vaccination Data,Platinum,92.95,85.91,0.0
 2.0.1,932cecdf-65fb-4e3d-9454-7a2d0585e970,ef478925-7612-4cd6-a10e-5e64ee8a0f4d,HUBS > DATAMIND,Understanding Society,Not Rated,59.06,37.58,19.46
 2.0.1,0f07f939-1265-4e8b-aaa6-d897d254c2f3,ef727724-6c38-483b-b28d-8e94b5a9d7ac,ALLIANCE > BARTS HEALTH,Freetext Dataset,Not Rated,46.31,19.46,26.85
@@ -806,7 +807,6 @@ schema_version,pid,id,publisher,title,weighted_quality_rating,weighted_quality_s
 2.0.1,f857055b-c29e-4c7f-99ce-65f4ed59648e,fc08ad6a-3e94-44db-a122-945c4c875616,ALLIANCE > HQIP,National Vascular Registry Audit Carotid Endarterectomy Clinical Dataset,Not Rated,51.68,30.2,26.85
 2.0.1,014e7973-b43e-4a4a-91b4-de3f353b71b9,fc4b3dea-b56b-4beb-87f0-921fb9d8836a,ALLIANCE > CPRD,Systemic Anti-Cancer Treatment (SACT) data for CPRD GOLD,Platinum,94.3,91.95,3.36
 2.0.1,75638d2c-556a-46b6-afcc-7ab425b34679,fc704af0-368b-4dd0-866f-753b6d1dccf8,HUB > DISCOVER NOW,North West London High Cost Drugs Data (NWL HCD),Platinum,92.71,89.69,4.27
-2.0.1,6a9f93ad-2434-41d9-93bf-6e9d2eee04e5,fc739581-af49-45db-afc6-1777d017ecc2,ALLIANCE > UK Biobank,UK Biobank,Platinum,90.94,84.56,2.68
 2.0.1,c8a28f0b-a5f8-4dbb-8d71-5b89c7cb3111,fc7ea07b-d60f-4be9-a840-89b17d4c2414,ALLIANCE > HQIP,National Bowel Cancer Audit - clinical dataset,Silver,77.52,71.14,16.11
 2.0.1,891150d2-85b5-4bed-88a8-7d65f75bb020,fc944840-8d9e-468b-a2fb-ba4fa2d43490,ALLIANCE > QResearch,COVID Therapeutics data for QResearch,Gold,89.6,82.55,3.36
 2.0.1,47b544f4-301c-43e0-b347-fc623ea1a8b3,fd2317ea-c729-433b-b578-309118118b78,ALLIANCE > TISSUE DIRECTORY,Infectious Diseases BioBank at King's College London,Bronze,64.43,59.06,30.2
