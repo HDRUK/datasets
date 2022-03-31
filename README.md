@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (877)
+## HDR UK Datasets (880)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -460,7 +460,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (489)
+### None (492)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -705,6 +705,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Systemic Anti-Cancer Treatment (SACT) data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/783184b6-e8f4-4768-a3eb-442a7f044aaa)
 - [CAPS](https://web.www.healthdatagateway.org/dataset/7964fc83-017a-4786-918e-bab61f7ddd99)
 - [Synthetic Dataset - Patients at risk of sudden death: hypertrophic cardiomyopathy](https://web.www.healthdatagateway.org/dataset/796d97b4-6f3d-4ee8-8966-9238efdcac2d)
+- [Evaluating the Genetic Factors Associated with Non-Alcoholic Steatohepatitis.](https://web.www.healthdatagateway.org/dataset/797e6fb3-bf82-4513-8db3-bcae5f17316e)
 - [Education Wales (EDUW)](https://web.www.healthdatagateway.org/dataset/7aa38c5c-771c-4157-a008-32051a5aed4b)
 - [NIHR BioResource: Contact detail](https://web.www.healthdatagateway.org/dataset/7ada943a-083d-44c5-a147-32e581e3ed20)
 - [Demography](https://web.www.healthdatagateway.org/dataset/7b0071f9-ca68-46b2-b7ad-bc9a70a9ea0b)
@@ -759,6 +760,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Resilience, Ethnicity & Adolescent Mental Health (REACH)](https://web.www.healthdatagateway.org/dataset/97a5f21e-c0a9-4a04-978b-9f054d7b6bcf)
 - [Characterisation of hospitalised COPD exacerbations using real world data](https://web.www.healthdatagateway.org/dataset/9836e0e1-5ea2-4dc4-be5a-24e390b7fa33)
 - [Sars-CoV-2 Immunity & REinfection EvaluatioN (SIREN)](https://web.www.healthdatagateway.org/dataset/99b505ee-44c6-497d-b30b-3ce80eba4047)
+- [The EPIC-Norfolk Study](https://web.www.healthdatagateway.org/dataset/99bc7b04-5c5b-4e3d-baba-2f7ca4b9d802)
 - [Blended learning for primary care physicians on COPD in Bangladesh](https://web.www.healthdatagateway.org/dataset/9a836aa8-60c7-4911-943e-477b0ae8bbb8)
 - [Systemic Anti-Cancer Therapy Dataset [SACT]](https://web.www.healthdatagateway.org/dataset/9abb8804-de89-4aba-8877-0e9a405870fe)
 - [Neovascular age related macular degeneration at University Hospitals Birmingham](https://web.www.healthdatagateway.org/dataset/9b356432-2650-4ded-aa75-657871b38fe3)
@@ -912,6 +914,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [ICT-based intervention for adult asthma with limited health literacy](https://web.www.healthdatagateway.org/dataset/eb376dc5-1abb-4d06-a39a-e479078bcf9d)
 - [Quality of Life of Colorectal Cancer Survivors:Patient Reported Outcomes (Aurum)](https://web.www.healthdatagateway.org/dataset/eb62e466-f199-43ea-b07a-3aa468be5076)
 - [Community Services Data Set](https://web.www.healthdatagateway.org/dataset/ec121652-b3ab-4f90-8b93-ab5f6b1bc64c)
+- [The Fenland Study](https://web.www.healthdatagateway.org/dataset/ecab76f5-afd8-46b4-83fa-5eb3c2e683d7)
 - [Hospital Episode Statistics Critical Care](https://web.www.healthdatagateway.org/dataset/eec9fec3-2257-4dd2-a3a9-8c164322fbaa)
 - [Scottish Covid-19 Vaccination Data](https://web.www.healthdatagateway.org/dataset/eee15509-f23a-441e-b5be-ee76bd2ba649)
 - [Understanding Society](https://web.www.healthdatagateway.org/dataset/ef478925-7612-4cd6-a10e-5e64ee8a0f4d)
