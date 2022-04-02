@@ -135,9 +135,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [MSDS (Maternity Services Data Set)](https://web.www.healthdatagateway.org/dataset/fd296ed6-6e12-49ab-9e5f-f40428a47b02)
 - [Mental Health Minimum Dataset v4 (Non-Sensitive) Records](https://web.www.healthdatagateway.org/dataset/ff2c6982-00f3-4483-9fc2-19b3a7211d8d)
 
-### ALLIANCE > NIHR BIORESOURCE (1)
-- [NIHR BioResource: Health and Lifestyle Questionnaire](https://web.www.healthdatagateway.org/dataset/1c3f55ec-d6fc-477e-a1b7-4b8dd43323c6)
-
 ### ALLIANCE > OXFORD UNIVERSITY HOSPITALS (1)
 - [Oxford Healthcare Workers](https://web.www.healthdatagateway.org/dataset/be1368c6-c97f-4ce0-8322-f97ccb28b9c3)
 
@@ -460,7 +457,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (492)
+### None (493)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -881,6 +878,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Vascular Registry Audit  - Lower Limb Amputation clinical dataset](https://web.www.healthdatagateway.org/dataset/db53c086-db48-4f7e-9264-ed44a9154753)
 - [The Consequence of Respiratory Syncytial Virus (RSV) Infection in Young Infants](https://web.www.healthdatagateway.org/dataset/dbcf49c1-f23c-4bb8-8c4f-6fc4e996ff97)
 - [Outpatient Dataset (OPDW)](https://web.www.healthdatagateway.org/dataset/dc5507d0-807e-4981-906b-731690a5e085)
+- [NIHR BioResource: Health and Lifestyle Questionnaire](https://web.www.healthdatagateway.org/dataset/dcb8a41b-f2ac-4ee1-9520-b7ef7214e9d6)
 - [Prescribing](https://web.www.healthdatagateway.org/dataset/dcd6f957-1fcc-481a-bbd2-89abfe933449)
 - [Decode-ME](https://web.www.healthdatagateway.org/dataset/dd6e4344-9cee-41f3-8062-6bb9cdfda012)
 - [VIKING GENES](https://web.www.healthdatagateway.org/dataset/ddf35f0d-ca89-4f74-bbdd-65d1a84b38ca)

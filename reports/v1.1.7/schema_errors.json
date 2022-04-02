@@ -7058,47 +7058,6 @@
     ]
   },
   {
-    "pid": "321e3ad6-96b9-4f19-bbc4-d06dfe2a59d5",
-    "id": "1c3f55ec-d6fc-477e-a1b7-4b8dd43323c6",
-    "publisher": "ALLIANCE > NIHR BIORESOURCE",
-    "title": "NIHR BioResource: Health and Lifestyle Questionnaire",
-    "schema_error_count": 8,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'QUARTERLY' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'DNA,PLASMA,SERUM' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "5362cfea-d554-43ba-916a-4460da39cc0c",
     "id": "1c524f7c-ee22-4bdc-877b-8dddc03e3aa2",
     "publisher": null,
@@ -52823,6 +52782,95 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'PLASMA,SERUM,TISSUE,WHOLE BLOOD' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": "321e3ad6-96b9-4f19-bbc4-d06dfe2a59d5",
+    "id": "dcb8a41b-f2ac-4ee1-9520-b7ef7214e9d6",
+    "publisher": null,
+    "title": "NIHR BioResource: Health and Lifestyle Questionnaire",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
       }
     ]
   },
