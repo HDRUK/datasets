@@ -12371,57 +12371,6 @@
     ]
   },
   {
-    "pid": "b5439bc5-8141-4a13-a024-a6db2003b40e",
-    "id": "34f9be53-2445-439b-8ca4-f151359d7e46",
-    "publisher": "HUB > DATA-CAN",
-    "title": "National Cancer TRE",
-    "schema_error_count": 10,
-    "errors": [
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: '2-6 MONTHS' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "conformsTo: 'HL7 FHIR,NHS DATA DICTIONARY' is not one of ['HL7 FHIR', 'HL7 V2', 'HL7 CDA', 'HL7 CCOW', 'LOINC', 'DICOM', 'I2B2', 'IHE', 'OMOP', 'OPENEHR', 'SENTINEL', 'PCORNET', 'LOCAL', 'OTHER']"
-      },
-      {
-        "attribute": "controlledVocabulary",
-        "message": "controlledVocabulary: 'OPCS4,SNOMED CT,DM+D,NHS NATIONAL CODES,ODS,ICD10' is not valid under any of the given schemas",
-        "suberrors": "    type: 'OPCS4,SNOMED CT,DM+D,NHS NATIONAL CODES,ODS,ICD10' is not of type 'array'"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'In progress' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'In progress' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'CONTINUOUS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
     "pid": "4dd97609-2753-46ed-8066-3482d6dbdb34",
     "id": "3587e2f5-1cf5-4dd3-82ed-c36be7eab130",
     "publisher": null,
@@ -16547,6 +16496,95 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
+    "pid": null,
+    "id": "457b94a0-e550-406b-8fa1-fa0602686099",
+    "publisher": null,
+    "title": "UK Biobank",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
       }
     ]
   },
@@ -25977,6 +26015,95 @@
     "id": "6af010f2-5973-486f-a44b-ef296455bee6",
     "publisher": null,
     "title": "Moorfields AMD Dataset 002",
+    "schema_error_count": 20,
+    "errors": [
+      {
+        "attribute": "abstract",
+        "message": "'abstract' is a required property"
+      },
+      {
+        "attribute": "publisher",
+        "message": "'publisher' is a required property"
+      },
+      {
+        "attribute": "contactPoint",
+        "message": "'contactPoint' is a required property"
+      },
+      {
+        "attribute": "accessRights",
+        "message": "'accessRights' is a required property"
+      },
+      {
+        "attribute": "accessRequestCost",
+        "message": "'accessRequestCost' is a required property"
+      },
+      {
+        "attribute": "dataController",
+        "message": "'dataController' is a required property"
+      },
+      {
+        "attribute": "license",
+        "message": "'license' is a required property"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "'periodicity' is a required property"
+      },
+      {
+        "attribute": "datasetStartDate",
+        "message": "'datasetStartDate' is a required property"
+      },
+      {
+        "attribute": "jurisdiction",
+        "message": "'jurisdiction' is a required property"
+      },
+      {
+        "attribute": "populationType",
+        "message": "'populationType' is a required property"
+      },
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "'physicalSampleAvailability' is a required property"
+      },
+      {
+        "attribute": "keywords",
+        "message": "'keywords' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "language",
+        "message": "'language' is a required property"
+      },
+      {
+        "attribute": "format",
+        "message": "'format' is a required property"
+      },
+      {
+        "attribute": "creator",
+        "message": "'creator' is a required property"
+      },
+      {
+        "attribute": "doi",
+        "message": "'doi' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      }
+    ]
+  },
+  {
+    "pid": "b5439bc5-8141-4a13-a024-a6db2003b40e",
+    "id": "6bbafb1d-09d3-443f-83db-cfd3a58a5e20",
+    "publisher": null,
+    "title": "National Cancer TRE",
     "schema_error_count": 20,
     "errors": [
       {
@@ -53248,95 +53375,6 @@
       {
         "attribute": "physicalSampleAvailability",
         "message": "physicalSampleAvailability: 'NOT AVAILABLE' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
-      }
-    ]
-  },
-  {
-    "pid": null,
-    "id": "de5c5e75-5304-4041-8b5b-1ea359b4cedc",
-    "publisher": null,
-    "title": "UK Biobank",
-    "schema_error_count": 20,
-    "errors": [
-      {
-        "attribute": "abstract",
-        "message": "'abstract' is a required property"
-      },
-      {
-        "attribute": "publisher",
-        "message": "'publisher' is a required property"
-      },
-      {
-        "attribute": "contactPoint",
-        "message": "'contactPoint' is a required property"
-      },
-      {
-        "attribute": "accessRights",
-        "message": "'accessRights' is a required property"
-      },
-      {
-        "attribute": "accessRequestCost",
-        "message": "'accessRequestCost' is a required property"
-      },
-      {
-        "attribute": "dataController",
-        "message": "'dataController' is a required property"
-      },
-      {
-        "attribute": "license",
-        "message": "'license' is a required property"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "'periodicity' is a required property"
-      },
-      {
-        "attribute": "datasetStartDate",
-        "message": "'datasetStartDate' is a required property"
-      },
-      {
-        "attribute": "jurisdiction",
-        "message": "'jurisdiction' is a required property"
-      },
-      {
-        "attribute": "populationType",
-        "message": "'populationType' is a required property"
-      },
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "'physicalSampleAvailability' is a required property"
-      },
-      {
-        "attribute": "keywords",
-        "message": "'keywords' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "language",
-        "message": "'language' is a required property"
-      },
-      {
-        "attribute": "format",
-        "message": "'format' is a required property"
-      },
-      {
-        "attribute": "creator",
-        "message": "'creator' is a required property"
-      },
-      {
-        "attribute": "doi",
-        "message": "'doi' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
       }
     ]
   },
