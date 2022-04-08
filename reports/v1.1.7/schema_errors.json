@@ -56749,8 +56749,46 @@
     ]
   },
   {
+    "pid": "10d0def8-dc03-473f-b60b-4c0dc3642a25",
+    "id": "ece82228-9af1-4699-a763-b4608908b645",
+    "publisher": "ALLIANCE > TISSUE DIRECTORY",
+    "title": "NHS Grampian Biorepository",
+    "schema_error_count": 7,
+    "errors": [
+      {
+        "attribute": "statisticalPopulation",
+        "message": "'statisticalPopulation' is a required property"
+      },
+      {
+        "attribute": "conformsTo",
+        "message": "'conformsTo' is a required property"
+      },
+      {
+        "attribute": "usageRestrictions",
+        "message": "'usageRestrictions' is a required property"
+      },
+      {
+        "attribute": "accessRequestDuration",
+        "message": "accessRequestDuration: 'PLEASE CONTACT THE PUBLISHER USING CONTACT POINT DETAILS PROVIDED.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
+      },
+      {
+        "attribute": "doi",
+        "message": "doi: 'Not Available' is not valid under any of the given schemas",
+        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
+      },
+      {
+        "attribute": "periodicity",
+        "message": "periodicity: 'IN PROGRESS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
+      },
+      {
+        "attribute": "physicalSampleAvailability",
+        "message": "physicalSampleAvailability: 'TISSUE,WHOLE BLOOD' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
+      }
+    ]
+  },
+  {
     "pid": "8ca5cc9c-bb4e-4fa4-b430-165720cd9634",
-    "id": "ecab76f5-afd8-46b4-83fa-5eb3c2e683d7",
+    "id": "ed8683b0-1745-47fe-b644-710e6b8dca33",
     "publisher": null,
     "title": "The Fenland Study",
     "schema_error_count": 20,
@@ -56834,44 +56872,6 @@
       {
         "attribute": "usageRestrictions",
         "message": "'usageRestrictions' is a required property"
-      }
-    ]
-  },
-  {
-    "pid": "10d0def8-dc03-473f-b60b-4c0dc3642a25",
-    "id": "ece82228-9af1-4699-a763-b4608908b645",
-    "publisher": "ALLIANCE > TISSUE DIRECTORY",
-    "title": "NHS Grampian Biorepository",
-    "schema_error_count": 7,
-    "errors": [
-      {
-        "attribute": "statisticalPopulation",
-        "message": "'statisticalPopulation' is a required property"
-      },
-      {
-        "attribute": "conformsTo",
-        "message": "'conformsTo' is a required property"
-      },
-      {
-        "attribute": "usageRestrictions",
-        "message": "'usageRestrictions' is a required property"
-      },
-      {
-        "attribute": "accessRequestDuration",
-        "message": "accessRequestDuration: 'PLEASE CONTACT THE PUBLISHER USING CONTACT POINT DETAILS PROVIDED.' is not one of ['<1 Week', '1-2 Weeks', '2-4 Weeks', '1-2 Months', '2-6 Months', '>6 Months', 'Other']"
-      },
-      {
-        "attribute": "doi",
-        "message": "doi: 'Not Available' is not valid under any of the given schemas",
-        "suberrors": "    pattern: 'Not Available' does not match '^10.\\\\d{4,9}/[-._;()/:a-zA-Z0-9]+$'"
-      },
-      {
-        "attribute": "periodicity",
-        "message": "periodicity: 'IN PROGRESS' is not one of ['Static', 'Annual', 'Biennial', 'Quaterly', 'Bimonthly', 'Monthly', 'Biweekly', 'Daily', 'Irregular', 'Continious']"
-      },
-      {
-        "attribute": "physicalSampleAvailability",
-        "message": "physicalSampleAvailability: 'TISSUE,WHOLE BLOOD' is not one of ['Not Available', 'Bone Marrow', 'Cancer Cell Lines', 'Core Biopsy', 'CDNA/MRNA', 'DNA', 'Faeces', 'Immortalized Cel Lines', 'MicroRNA', 'Peripheral Blood Cells', 'Plasma', 'PM Tissue', 'Primary Cells', 'RNA', 'Saliva', 'Serum', 'Swabs', 'Tissue', 'Urine', 'Whole Blood', 'Availability To Be Confirmed']"
       }
     ]
   },
