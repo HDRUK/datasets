@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (881)
+## HDR UK Datasets (882)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -456,7 +456,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (495)
+### None (496)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -479,6 +479,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Mental Health Dataset (MHDS) for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/0af73a56-5683-4072-99c0-01c84355d0d0)
 - [Determinants of Adolescent Social Wellbeing & Health (DASH)](https://web.www.healthdatagateway.org/dataset/0b06a5c0-f015-4ce6-bf53-cab304334ae0)
 - [Welsh Demographic Service Dataset (WDSD)](https://web.www.healthdatagateway.org/dataset/0b835c3e-9968-4f12-8aad-c4f10a7d460f)
+- [Patient Episode Dataset for Wales (PEDW)](https://web.www.healthdatagateway.org/dataset/0bffc029-b739-4974-8855-8912a152834a)
 - [Substance Misuse Dataset (SMDS)](https://web.www.healthdatagateway.org/dataset/0c8fcf41-177b-4ca8-a01f-d86ca8bd5a03)
 - [Problem, Diagnosis and Procedures](https://web.www.healthdatagateway.org/dataset/0cd32bab-357b-4ea2-bba0-eca90b7b36e9)
 - [NIHR IBD BioResource: NHS Trust data](https://web.www.healthdatagateway.org/dataset/0d65fabc-6cb0-4a77-a01d-cb341b0b053c)
@@ -496,7 +497,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [NIHR IBD BioResource: SNP imputation data](https://web.www.healthdatagateway.org/dataset/12d62b02-2167-407d-acdb-6ddb9d251d36)
 - [Cataract surgery and visual outcomes at QE Hospital, Birmingham, UK](https://web.www.healthdatagateway.org/dataset/131ccbe5-28dc-4abf-8a44-05f470d1be1d)
 - [Tayside Radiology](https://web.www.healthdatagateway.org/dataset/135f2650-ea0c-4cad-80ac-c86449a176a8)
-- [Referral to Treatment Times (RTTD)](https://web.www.healthdatagateway.org/dataset/140ce7b6-8a58-4d0f-a24b-81b0f4289a68)
 - [National Asthma and COPD Audit  (NACAP): secondary care  – CYP asthma (org)](https://web.www.healthdatagateway.org/dataset/147576e2-b445-4d36-aecc-d604302bd34e)
 - [Practice postcode linked deprivation measures for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/14a90909-997f-4676-ae52-e19c01670e23)
 - [Health and Employment After Fifty (HEAF)](https://web.www.healthdatagateway.org/dataset/15aebc30-1e52-4a36-8b17-f9801f35f649)
@@ -505,7 +505,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [Rural-Urban classification for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/17c58f15-93ab-4239-b05a-6b9ea82f6f37)
 - [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/185c4410-cea3-4bac-a192-1e1dd8842872)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
-- [Patient Episode Dataset for Wales (PEDW)](https://web.www.healthdatagateway.org/dataset/196dc924-9289-4f31-900d-d9310dc34361)
 - [COVID-19 Consolidated Deaths (CDDS)](https://web.www.healthdatagateway.org/dataset/199b8c9f-baf2-4eb8-a8fe-783f58eceb2e)
 - [3CN (Cirrhosis Cohort)](https://web.www.healthdatagateway.org/dataset/1a2ecd43-745f-4a67-acd6-27023f1f9c5b)
 - [Diabetic Eye Screening: the Birmingham, Solihull and Black Country Data Set](https://web.www.healthdatagateway.org/dataset/1bafa55c-5616-47db-8ac8-798038146254)
@@ -829,6 +828,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Labour Force Survey (Longitudinal)](https://web.www.healthdatagateway.org/dataset/bbd0a590-f4ee-4133-abe0-696cb247b3e0)
 - [1958 National Child Development Study (NCDS)](https://web.www.healthdatagateway.org/dataset/bbed7a4e-0c38-48b8-b4f8-b617ec307f59)
 - [Urinary tract infections acute presentations: microbiology, treatment, outcome](https://web.www.healthdatagateway.org/dataset/bd18eb49-9789-4ed3-a6c1-7b4f851ec2e7)
+- [Referral to Treatment Times (RTTD)](https://web.www.healthdatagateway.org/dataset/bdc4999c-71f6-4e94-aabc-e232ff423f10)
 - [2011 Census - COVID19 Research Database Subset](https://web.www.healthdatagateway.org/dataset/be8ec01c-20ea-4863-ba7c-6d103df85a42)
 - [Practice postcode linked deprivation measures for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/bf36d50c-111e-462a-be66-9ef586df1afb)
 - [EU Farm Structure Survey Wales (EUFS)](https://web.www.healthdatagateway.org/dataset/bfbd3c63-8902-4242-97d5-ca935591e8cb)
@@ -837,6 +837,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Radiotherapy Dataset (RTDS) for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/c22e5f4e-02e2-4b54-b895-5e31b75a1f44)
 - [COVID-19 Vaccination Status](https://web.www.healthdatagateway.org/dataset/c230a8d8-bf78-4713-8f2f-312162e92e55)
 - [Covid Lateral Flow Test (CVLF)](https://web.www.healthdatagateway.org/dataset/c303bdc0-fa5d-4c22-84ca-83577446062d)
+- [University College London - Edinburgh-Bristol (UCLEB) multi-omics consortium](https://web.www.healthdatagateway.org/dataset/c34e6ba2-f857-43e9-9cf5-372a44347833)
 - [Diagnostic and Therapy Services Waiting Times (DATW)](https://web.www.healthdatagateway.org/dataset/c474492c-1c9d-4e94-bc85-270aab69a74d)
 - [National Waiting List Open Pathways](https://web.www.healthdatagateway.org/dataset/c47f463f-6e7e-4abb-b9bc-010ae68156b7)
 - [Cancer registry data for QResearch](https://web.www.healthdatagateway.org/dataset/c6399a61-1da2-41e2-9e7f-63bf71decce7)
