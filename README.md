@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (882)
+## HDR UK Datasets (884)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -456,7 +456,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (496)
+### None (498)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -543,6 +543,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Covid-19 UK Non-hospital Antigen Testing Results](https://web.www.healthdatagateway.org/dataset/30524e8c-c92c-4f01-84bd-c5593ada3e43)
 - [COVID-19 Sequence Data (CVSD)](https://web.www.healthdatagateway.org/dataset/30e1343e-0628-47aa-b4f6-756cdb6e54c6)
 - [General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)](https://web.www.healthdatagateway.org/dataset/31503f67-c546-4223-aec6-9255263e8b66)
+- [Crohn's Disease Metabolic Syndrome & Related Disease Outcomes](https://web.www.healthdatagateway.org/dataset/31b487d4-7beb-4eed-82bb-9ebbb8b9c066)
 - [Webex Cohort](https://web.www.healthdatagateway.org/dataset/320d4c1e-df08-4eaa-ab9f-bd342d1799a0)
 - [Cancer Patient Experience Survey (CPES) for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/32b56dc6-5731-4976-823b-86ea1625b9ed)
 - [Falls and Fragility Fracture Audit  National Hip Fracture clinical dataset](https://web.www.healthdatagateway.org/dataset/32f2d582-3b99-44a8-ac30-0a0819fc2523)
@@ -716,6 +717,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Outpatient Database for Wales (OPDW)](https://web.www.healthdatagateway.org/dataset/80fc6c81-dd24-4f5f-870e-6c1cb7a1766d)
 - [Outpatient Dataset](https://web.www.healthdatagateway.org/dataset/8193e951-2ed8-4ccf-9fe5-5c2e6f933d60)
 - [Weekly SUS Outpatients Dataset](https://web.www.healthdatagateway.org/dataset/81c28c63-7cbb-49ce-86b4-c83e1c15fdba)
+- [Inflammatory Bowel Disease datasets - Data profiling GWM](https://web.www.healthdatagateway.org/dataset/81d82bed-37f3-4975-ac21-5fcc1090853f)
 - [NHS Tayside and Fife Immunology (Extractable)](https://web.www.healthdatagateway.org/dataset/8286eef9-0533-488e-bf19-8fc0fa1dd00b)
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/828bc515-6b42-4492-a77e-cf20226ba041)
 - [Hypertonic saline nasal irrigation and gargling for suspected COVID-19](https://web.www.healthdatagateway.org/dataset/830c22bb-4321-4fa3-ba04-be9b30518877)
