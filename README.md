@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (884)
+## HDR UK Datasets (885)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -456,7 +456,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (498)
+### None (499)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -936,6 +936,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Suspected Cancer Pathway Monthly (SCPM)](https://web.www.healthdatagateway.org/dataset/f76d0428-f93c-41ba-9ebb-08e4211bf17a)
 - [Hospital Episode Statistics Admitted Patient Care](https://web.www.healthdatagateway.org/dataset/f82b398a-7e53-4851-ab7b-07508f810ebc)
 - [Daily Situation Report Data (DSRD)](https://web.www.healthdatagateway.org/dataset/f969e45f-3a71-4dc0-b5ef-476963fe86d5)
+- [Growing up in Bradford (BiB)](https://web.www.healthdatagateway.org/dataset/f98965a8-1ff3-4981-8462-fbc8005775b6)
 - [2019 UK Parkinson's Audit - Speech and language therapy](https://web.www.healthdatagateway.org/dataset/f98d83ec-ad27-46d7-9786-7a0f2749aa11)
 - [Bowel Screening Wales (SBSW)](https://web.www.healthdatagateway.org/dataset/f98f9578-a4a3-4d93-b32e-f30ff75888b7)
 - [National Vascular Registry Audit - Lower Limb Bypass clinical dataset](https://web.www.healthdatagateway.org/dataset/fa07a8df-4584-4dc1-87f9-f03ff8d31861)
