@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (885)
+## HDR UK Datasets (887)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -456,7 +456,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (499)
+### None (501)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -505,6 +505,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Suspected Cancer Pathway Daily (SPCD)](https://web.www.healthdatagateway.org/dataset/16f11980-e2e7-4f79-8e33-39ba4dc3547f)
 - [Rural-Urban classification for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/17c58f15-93ab-4239-b05a-6b9ea82f6f37)
 - [CPRD GOLD](https://web.www.healthdatagateway.org/dataset/185c4410-cea3-4bac-a192-1e1dd8842872)
+- [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - England](https://web.www.healthdatagateway.org/dataset/18e2ce4c-b0a0-4f2b-a12c-0d18bb1a165a)
 - [Improving Access to Psychological Therapies Data Set](https://web.www.healthdatagateway.org/dataset/19525c5f-92ee-41b6-bb79-673624b27bdd)
 - [COVID-19 Consolidated Deaths (CDDS)](https://web.www.healthdatagateway.org/dataset/199b8c9f-baf2-4eb8-a8fe-783f58eceb2e)
 - [3CN (Cirrhosis Cohort)](https://web.www.healthdatagateway.org/dataset/1a2ecd43-745f-4a67-acd6-27023f1f9c5b)
@@ -705,6 +706,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Education Wales (EDUW)](https://web.www.healthdatagateway.org/dataset/7aa38c5c-771c-4157-a008-32051a5aed4b)
 - [NIHR BioResource: Contact detail](https://web.www.healthdatagateway.org/dataset/7ada943a-083d-44c5-a147-32e581e3ed20)
 - [Demography](https://web.www.healthdatagateway.org/dataset/7b0071f9-ca68-46b2-b7ad-bc9a70a9ea0b)
+- [ECHO](https://web.www.healthdatagateway.org/dataset/7b80a896-167d-4646-994b-92aa13acaded)
 - [NIHR BioResource: Whole Genome Sequencing](https://web.www.healthdatagateway.org/dataset/7b922498-1757-418d-96ca-64980a50b647)
 - [GPES Data for Pandemic Planning and Research (COVID-19)](https://web.www.healthdatagateway.org/dataset/7d313fa6-941f-48ca-93e1-05d912d183ac)
 - [Children In Need Census Wales (CINW)](https://web.www.healthdatagateway.org/dataset/7d414fa8-565b-451b-bc9c-fe2965c2bc5b)
@@ -754,12 +756,12 @@ This repo automatically collects the datasets published on the Gateway including
 - [Covid Vaccination Dataset (CVVD)](https://web.www.healthdatagateway.org/dataset/94c7dca9-a96f-4e77-b156-96676a701834)
 - [GP dataset - Welsh Primary Care](https://web.www.healthdatagateway.org/dataset/953f6cc1-bd69-4fbc-a91b-d33f6c7aa6ca)
 - [4 Country ChrOnic Respiratory Disease study: PILOT PHASE, Islamabad](https://web.www.healthdatagateway.org/dataset/95b26238-3379-4188-ad6c-a09657b77648)
-- [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - England](https://web.www.healthdatagateway.org/dataset/9701af08-c7d5-423e-acba-2a7dbcd1e69e)
 - [FFFAP -  National Hip Fracture Database Facilities Survey 2019](https://web.www.healthdatagateway.org/dataset/97771ec7-2abb-4d6e-b630-77c61a5e314a)
 - [Resilience, Ethnicity & Adolescent Mental Health (REACH)](https://web.www.healthdatagateway.org/dataset/97a5f21e-c0a9-4a04-978b-9f054d7b6bcf)
 - [Characterisation of hospitalised COPD exacerbations using real world data](https://web.www.healthdatagateway.org/dataset/9836e0e1-5ea2-4dc4-be5a-24e390b7fa33)
 - [Sars-CoV-2 Immunity & REinfection EvaluatioN (SIREN)](https://web.www.healthdatagateway.org/dataset/99b505ee-44c6-497d-b30b-3ce80eba4047)
 - [The EPIC-Norfolk Study](https://web.www.healthdatagateway.org/dataset/99bc7b04-5c5b-4e3d-baba-2f7ca4b9d802)
+- [MR measures of liver fibrosis (MRker)](https://web.www.healthdatagateway.org/dataset/9a18a460-e6d8-405e-84b1-d50c3fb74316)
 - [Blended learning for primary care physicians on COPD in Bangladesh](https://web.www.healthdatagateway.org/dataset/9a836aa8-60c7-4911-943e-477b0ae8bbb8)
 - [Systemic Anti-Cancer Therapy Dataset [SACT]](https://web.www.healthdatagateway.org/dataset/9abb8804-de89-4aba-8877-0e9a405870fe)
 - [Neovascular age related macular degeneration at University Hospitals Birmingham](https://web.www.healthdatagateway.org/dataset/9b356432-2650-4ded-aa75-657871b38fe3)
