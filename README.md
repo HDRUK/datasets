@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (888)
+## HDR UK Datasets (893)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -456,7 +456,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (502)
+### None (507)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -492,6 +492,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [COVID-19 Test Trace and Protect (CTTP)](https://web.www.healthdatagateway.org/dataset/1046cc4d-bd35-43de-a156-80bddb3eb415)
 - [NHS 111 Dataset (NHSO)](https://web.www.healthdatagateway.org/dataset/108d652d-3afb-4001-8ae6-b5a42e8b2daa)
 - [Quality of Life of Colorectal Cancer Survivors: Patient Reported Outcomes (GOLD)](https://web.www.healthdatagateway.org/dataset/1096dcb8-2a9d-49bb-a455-35e657c1e1a2)
+- [Antimicrobial prescribing surveillance data during the COVID-19 pandemic](https://web.www.healthdatagateway.org/dataset/10bd5205-5d7d-4d77-baef-4a6237ce7c75)
 - [Bangladesh Asthma Hajj Study](https://web.www.healthdatagateway.org/dataset/112db000-f69f-47a4-8dd7-db7b6d839e68)
 - [UK SARS-CoV-2 viral sequencing data (COG-UK) - Lineage/Variant Data - NI](https://web.www.healthdatagateway.org/dataset/115109e7-9a35-420f-831e-0707bc96375c)
 - [2019 UK Parkinson's Audit - Occupational therapy](https://web.www.healthdatagateway.org/dataset/125202ff-1d00-4f8e-96e1-1d5a310ab326)
@@ -547,6 +548,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [General Acute Inpatient and Day Case - Scottish Morbidity Record (SMR01)](https://web.www.healthdatagateway.org/dataset/31503f67-c546-4223-aec6-9255263e8b66)
 - [Crohn's Disease Metabolic Syndrome & Related Disease Outcomes](https://web.www.healthdatagateway.org/dataset/31b487d4-7beb-4eed-82bb-9ebbb8b9c066)
 - [Webex Cohort](https://web.www.healthdatagateway.org/dataset/320d4c1e-df08-4eaa-ab9f-bd342d1799a0)
+- [A dataset of hospitalised patients with Sarcoma](https://web.www.healthdatagateway.org/dataset/32639ab2-f23c-4d2b-96f8-c2139d50563b)
 - [Cancer Patient Experience Survey (CPES) for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/32b56dc6-5731-4976-823b-86ea1625b9ed)
 - [Falls and Fragility Fracture Audit  National Hip Fracture clinical dataset](https://web.www.healthdatagateway.org/dataset/32f2d582-3b99-44a8-ac30-0a0819fc2523)
 - [National Bowel Cancer Audit -  Organisational Survey dataset](https://web.www.healthdatagateway.org/dataset/3373aa9c-219e-4036-91a5-78bb98e8a7f5)
@@ -572,6 +574,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Investigations, interventions, and outcomes for acute coronary syndrome](https://web.www.healthdatagateway.org/dataset/3b84d205-2175-4c9a-bbe3-d0e24434e625)
 - [Active Adult Survey Dataset (AASD)](https://web.www.healthdatagateway.org/dataset/3c14d319-4ff5-42ff-b440-400f099f9b13)
 - [Postponed Admitted Procedures (CAPD)](https://web.www.healthdatagateway.org/dataset/3c870bf2-acfb-44d1-8437-06ebb3c0993c)
+- [CovPall - Survey of Palliative Care Services](https://web.www.healthdatagateway.org/dataset/3cc77509-c1f3-4649-ae0e-3d3316e53631)
 - [COG-UK Viral Genome Sequences](https://web.www.healthdatagateway.org/dataset/3cefb3f4-a463-4762-909b-3e4f3cef8e93)
 - [Diagnostic Imaging Dataset](https://web.www.healthdatagateway.org/dataset/3e4d27e2-baa8-4bb5-a711-d0b36f1f278c)
 - [CPRD GOLD ICNARC](https://web.www.healthdatagateway.org/dataset/3e923281-bfde-48a8-86fd-73e429cce811)
@@ -723,6 +726,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/828bc515-6b42-4492-a77e-cf20226ba041)
 - [Hypertonic saline nasal irrigation and gargling for suspected COVID-19](https://web.www.healthdatagateway.org/dataset/830c22bb-4321-4fa3-ba04-be9b30518877)
 - [Trusted Research Environments for CVD-COVID-UK / COVID-IMPACT](https://web.www.healthdatagateway.org/dataset/83e177bb-5a05-4ec1-be22-272a0f985957)
+- [Hospitalised Community Acquired Pneumonia granular pathway and outcome data](https://web.www.healthdatagateway.org/dataset/8559e83d-ba93-4c98-af86-286f87f54a14)
 - [Quality of Life of Cancer Survivors: Pilot Patient Reported Outcomes (GOLD)](https://web.www.healthdatagateway.org/dataset/86e4b1ad-e63c-4ab1-80f3-5c136ce7e94e)
 - [HES Patient Reported Outcomes Measures (PROMs) data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/88bf4a0e-28ea-4124-8121-f20aed9147de)
 - [CPRD GOLD CHESS](https://web.www.healthdatagateway.org/dataset/88dced95-f51d-4207-91ae-9e506195a419)
@@ -758,6 +762,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [FFFAP -  National Hip Fracture Database Facilities Survey 2019](https://web.www.healthdatagateway.org/dataset/97771ec7-2abb-4d6e-b630-77c61a5e314a)
 - [Resilience, Ethnicity & Adolescent Mental Health (REACH)](https://web.www.healthdatagateway.org/dataset/97a5f21e-c0a9-4a04-978b-9f054d7b6bcf)
 - [Characterisation of hospitalised COPD exacerbations using real world data](https://web.www.healthdatagateway.org/dataset/9836e0e1-5ea2-4dc4-be5a-24e390b7fa33)
+- [Clinical characteristics of hospitalised primary biliary cholangitis patients](https://web.www.healthdatagateway.org/dataset/9991ac9c-0aab-4588-a862-eaab2e60a1f7)
 - [Sars-CoV-2 Immunity & REinfection EvaluatioN (SIREN)](https://web.www.healthdatagateway.org/dataset/99b505ee-44c6-497d-b30b-3ce80eba4047)
 - [The EPIC-Norfolk Study](https://web.www.healthdatagateway.org/dataset/99bc7b04-5c5b-4e3d-baba-2f7ca4b9d802)
 - [MR measures of liver fibrosis (MRker)](https://web.www.healthdatagateway.org/dataset/9a18a460-e6d8-405e-84b1-d50c3fb74316)
@@ -912,7 +917,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [IBD NIHR BioResource: Health and Lifestyle Questionnaire](https://web.www.healthdatagateway.org/dataset/e9820518-54e3-46d1-a63f-c5da867dcd82)
 - [National Asthma and COPD Audit Programme - Pulmonary rehab organisational audit](https://web.www.healthdatagateway.org/dataset/e9902b10-84ca-495f-a4d9-a9948d0d64ca)
 - [Hospitalised Community Acquired Pneumonia before & during the COVID-19 pandemic](https://web.www.healthdatagateway.org/dataset/e9cdc12c-6938-4c18-b45c-e0a77df6de56)
-- [Antimicrobial prescribing surveillance data during the COVID-19 pandemic](https://web.www.healthdatagateway.org/dataset/ea5022f9-38f0-4c17-8577-b086ed5c4d8b)
 - [HES Outpatient data for CPRD GOLD](https://web.www.healthdatagateway.org/dataset/eacd1a6e-6060-4843-ac9b-ff01e1dfe9c3)
 - [Scottish Birth Record (SBR)](https://web.www.healthdatagateway.org/dataset/eaec06fa-a27e-46d1-9be9-6e1f9a16fb5d)
 - [English Longitudinal Study of Ageing (ELSA)](https://web.www.healthdatagateway.org/dataset/eb030592-7f5d-4969-abde-c4a962251406)
@@ -927,6 +931,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Coronavirus and the Social Impacts on Great Britain](https://web.www.healthdatagateway.org/dataset/f0109da2-6452-45a9-928e-5376dcb78609)
 - [GP Out of Hours](https://web.www.healthdatagateway.org/dataset/f08bfb75-f2b8-4afb-9c3d-59cdd2b6b3ce)
 - [Welsh Results Reports Service (WRRS)](https://web.www.healthdatagateway.org/dataset/f13d5f5a-08b3-49be-8d5e-48772a612cb0)
+- [Assessing acuity scores – NEWS2 in acute illnesses with component markers](https://web.www.healthdatagateway.org/dataset/f14341fe-2f15-48a7-bcd6-3c4d298375d1)
 - [Child Health Systems Programme - 13-15 Month Review](https://web.www.healthdatagateway.org/dataset/f16f0b1b-650d-486b-bc89-946b1623103e)
 - [Emergency Department Dataset (EDDS)](https://web.www.healthdatagateway.org/dataset/f2c2ea2f-f5e8-4297-8510-c2d430ff0946)
 - [Identification of Medical Admissions suitable for Same Day Emergency Care (SDEC)](https://web.www.healthdatagateway.org/dataset/f3957e36-25eb-4e0a-a69a-a1c0ce85cb4f)
