@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (893)
+## HDR UK Datasets (895)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -456,7 +456,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (507)
+### None (509)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -527,6 +527,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Welsh Dispensing Dataset (WDDS)](https://web.www.healthdatagateway.org/dataset/268d54cf-189e-46ea-8f0e-71ad8907bea3)
 - [Child Health Systems Programme - 27-30Months Review](https://web.www.healthdatagateway.org/dataset/26ac9d75-df76-49e5-ba41-d4c0e83a8765)
 - [NIHR IBD BioResource: SNP chip data](https://web.www.healthdatagateway.org/dataset/27a97f1b-e7ac-4723-87db-0a4d9e3ed4b6)
+- [SIMD](https://web.www.healthdatagateway.org/dataset/2879b7f9-9bf1-4c6d-88cb-fade32b0ec3f)
 - [Cholecystectomy and post-operative complications from over 9000 surgical cases](https://web.www.healthdatagateway.org/dataset/2887c7b4-66d4-404c-a352-83fcff441568)
 - [Treatment of Bangladeshi children with severe pneumonia](https://web.www.healthdatagateway.org/dataset/2a17a802-a2da-4bfc-8571-b2015350eed4)
 - [National Audit of Care at the End of Life - Quality Survey](https://web.www.healthdatagateway.org/dataset/2a4ef602-0485-47d2-a6f7-9e2ccf849a5d)
@@ -726,6 +727,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Reasons for delay in seeking care for pneumonia in children under five](https://web.www.healthdatagateway.org/dataset/828bc515-6b42-4492-a77e-cf20226ba041)
 - [Hypertonic saline nasal irrigation and gargling for suspected COVID-19](https://web.www.healthdatagateway.org/dataset/830c22bb-4321-4fa3-ba04-be9b30518877)
 - [Trusted Research Environments for CVD-COVID-UK / COVID-IMPACT](https://web.www.healthdatagateway.org/dataset/83e177bb-5a05-4ec1-be22-272a0f985957)
+- [Covid-19 Tests](https://web.www.healthdatagateway.org/dataset/83e2e155-1845-4bfd-a0c0-9e81b0a41397)
 - [Hospitalised Community Acquired Pneumonia granular pathway and outcome data](https://web.www.healthdatagateway.org/dataset/8559e83d-ba93-4c98-af86-286f87f54a14)
 - [Quality of Life of Cancer Survivors: Pilot Patient Reported Outcomes (GOLD)](https://web.www.healthdatagateway.org/dataset/86e4b1ad-e63c-4ab1-80f3-5c136ce7e94e)
 - [HES Patient Reported Outcomes Measures (PROMs) data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/88bf4a0e-28ea-4124-8121-f20aed9147de)
