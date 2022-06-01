@@ -8,7 +8,7 @@ This repo automatically collects the datasets published on the Gateway including
 
 ---
 
-## HDR UK Datasets (895)
+## HDR UK Datasets (897)
 ### ALLIANCE > AVON LONGITUDINAL STUDY OF PARENTS AND CHILDREN (1)
 - [Avon Longitudinal Study of Parents and Children](https://web.www.healthdatagateway.org/dataset/71b8569c-b582-499c-85aa-909b825f6ea6)
 
@@ -456,7 +456,7 @@ This repo automatically collects the datasets published on the Gateway including
 ### NIHR Health Informatics Collaborative Viral Hepatitis Theme (1)
 - [HIC Hepatitis v2](https://web.www.healthdatagateway.org/dataset/73f54071-62bf-48f5-8be1-569208b18ab8)
 
-### None (509)
+### None (511)
 - [KPIC](https://web.www.healthdatagateway.org/dataset/0056a5c8-4f98-4e9e-b74a-bd498be71c0d)
 - [SARS-CoV-2 viral sequencing data (COG-UK data) - Lineage/Variant Data - Wales](https://web.www.healthdatagateway.org/dataset/00a784aa-ea3a-4a57-9612-81b0745e0763)
 - [Mental Health Inpatient and Day Case - Scottish Morbidity Record (SMR04)](https://web.www.healthdatagateway.org/dataset/00e1b694-3072-4d25-ab2d-a1de59629ae3)
@@ -496,6 +496,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Bangladesh Asthma Hajj Study](https://web.www.healthdatagateway.org/dataset/112db000-f69f-47a4-8dd7-db7b6d839e68)
 - [UK SARS-CoV-2 viral sequencing data (COG-UK) - Lineage/Variant Data - NI](https://web.www.healthdatagateway.org/dataset/115109e7-9a35-420f-831e-0707bc96375c)
 - [2019 UK Parkinson's Audit - Occupational therapy](https://web.www.healthdatagateway.org/dataset/125202ff-1d00-4f8e-96e1-1d5a310ab326)
+- [Lighthouse](https://web.www.healthdatagateway.org/dataset/126b50ad-d0c8-4c75-a477-69420d4601b4)
 - [NIHR IBD BioResource: SNP imputation data](https://web.www.healthdatagateway.org/dataset/12d62b02-2167-407d-acdb-6ddb9d251d36)
 - [Cataract surgery and visual outcomes at QE Hospital, Birmingham, UK](https://web.www.healthdatagateway.org/dataset/131ccbe5-28dc-4abf-8a44-05f470d1be1d)
 - [Tayside Radiology](https://web.www.healthdatagateway.org/dataset/135f2650-ea0c-4cad-80ac-c86449a176a8)
@@ -537,6 +538,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Millennium Cohort Study Dataset (MCSD)](https://web.www.healthdatagateway.org/dataset/2ca2a23d-64c3-4691-9289-197436dddfa3)
 - [Higher Education Statistics Agency (HESA) Student Data](https://web.www.healthdatagateway.org/dataset/2cb07157-1c99-48dc-9926-0ad968a09166)
 - [COVID-19 Vaccination Adverse Reaction](https://web.www.healthdatagateway.org/dataset/2d4d0d89-edfb-448a-b95b-a3c0401ebe75)
+- [Health & Attainment of Pupils in a Primary Education Network (HAPN)](https://web.www.healthdatagateway.org/dataset/2d5cc3f9-262f-4911-90e1-3d616ad7ee58)
 - [Welsh Cancer Intelligence and Surveillance Unit (WCISU)](https://web.www.healthdatagateway.org/dataset/2d7a047c-a90f-48e4-82ee-9a8a082a696e)
 - [NHS Tayside - A&E drugs given during an A&E visit](https://web.www.healthdatagateway.org/dataset/2d9240b4-6f54-4d00-9c2e-d19220c33211)
 - [Death Registration data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/2dd188f3-0b5c-4cf7-a077-97b78746d254)
@@ -596,7 +598,6 @@ This repo automatically collects the datasets published on the Gateway including
 - [National Vascular Registry - Organisational Audit dataset](https://web.www.healthdatagateway.org/dataset/483f49ea-07b3-4efb-8bad-0d9af5ed5f0f)
 - [NIHR BioResource: Sample holding](https://web.www.healthdatagateway.org/dataset/48deb24e-7a15-48d7-ba2c-c477ae61b55d)
 - [Cancer registration data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/4a4f5d83-e8fb-4249-9275-2a42d9f76c53)
-- [Health & Attainment of Pupils in a Primary Education Network (HAPN)](https://web.www.healthdatagateway.org/dataset/4a860548-406b-4a05-991e-0bc840e67974)
 - [Tayside & Fife Radiology](https://web.www.healthdatagateway.org/dataset/4abe1436-3a14-4779-aa03-28929e817411)
 - [South East London Community Health Study (SELCoH)](https://web.www.healthdatagateway.org/dataset/4b3d70f4-ce62-478b-9ada-0419850d17af)
 - [Systemic Anti-Cancer Therapy Dataset (SACT)](https://web.www.healthdatagateway.org/dataset/4b59ff6f-2830-4f2b-b35a-623ef4520eb8)
@@ -708,6 +709,7 @@ This repo automatically collects the datasets published on the Gateway including
 - [Systemic Anti-Cancer Treatment (SACT) data for CPRD Aurum](https://web.www.healthdatagateway.org/dataset/783184b6-e8f4-4768-a3eb-442a7f044aaa)
 - [CAPS](https://web.www.healthdatagateway.org/dataset/7964fc83-017a-4786-918e-bab61f7ddd99)
 - [Synthetic Dataset - Patients at risk of sudden death: hypertrophic cardiomyopathy](https://web.www.healthdatagateway.org/dataset/796d97b4-6f3d-4ee8-8966-9238efdcac2d)
+- [SCI Diabetes](https://web.www.healthdatagateway.org/dataset/79dfcffd-3f50-4fa2-bd3a-8ef1464e7589)
 - [Education Wales (EDUW)](https://web.www.healthdatagateway.org/dataset/7aa38c5c-771c-4157-a008-32051a5aed4b)
 - [NIHR BioResource: Contact detail](https://web.www.healthdatagateway.org/dataset/7ada943a-083d-44c5-a147-32e581e3ed20)
 - [NIHR BioResource: Whole Genome Sequencing](https://web.www.healthdatagateway.org/dataset/7b922498-1757-418d-96ca-64980a50b647)
